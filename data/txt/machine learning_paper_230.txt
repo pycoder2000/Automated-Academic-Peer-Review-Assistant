@@ -1,0 +1,6 @@
+Title: What Role Does Hydrological Science Play in the Age of Machine Learning?
+Published: 2020-02-11
+Link: https://www.semanticscholar.org/paper/62d4aaaf562df94c4bdb116ee1e5cc2843c88bec
+
+Abstract:
+This paper is derived from a keynote talk given at the Google's 2020 Flood Forecasting Meets Machine Learning Workshop. Recent experiments applying deep learning to rainfall‐runoff simulation indicate that there is significantly more information in large‐scale hydrological data sets than hydrologists have been able to translate into theory or models. While there is a growing interest in machine learning in the hydrological sciences community, in many ways, our community still holds deeply subjective and nonevidence‐based preferences for models based on a certain type of “process understanding” that has historically not translated into accurate theory, models, or predictions. This commentary is a call to action for the hydrology community to focus on developing a quantitative understanding of where and when hydrological process understanding is valuable in a modeling discipline increasingly dominated by machine learning. We offer some potential perspectives and preliminary examples about how this might be accomplished.

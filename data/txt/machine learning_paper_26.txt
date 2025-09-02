@@ -1,0 +1,16 @@
+Title: A method to benchmark high-dimensional process drift detection
+Published: 2024-09-05T16:23:07Z
+Link: http://arxiv.org/abs/2409.03669v2
+
+Abstract:
+Process curves are multivariate finite time series data coming from
+manufacturing processes. This paper studies machine learning that detect drifts
+in process curve datasets. A theoretic framework to synthetically generate
+process curves in a controlled way is introduced in order to benchmark machine
+learning algorithms for process drift detection. An evaluation score, called
+the temporal area under the curve, is introduced, which allows to quantify how
+well machine learning models unveil curves belonging to drift segments.
+Finally, a benchmark study comparing popular machine learning approaches on
+synthetic data generated with the introduced framework is presented that shows
+that existing algorithms often struggle with datasets containing multiple drift
+segments.

@@ -1,0 +1,6 @@
+Title: Pruning Algorithms for Rule Learning
+Published: 2002-12-22T04:48:21Z
+Link: https://doi.org/10.1023/a:1007329424533
+
+Abstract:
+

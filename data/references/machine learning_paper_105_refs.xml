@@ -1,0 +1,2109 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Global soil carbon: understanding and managing the largest terrestrial carbon pool</title>
+		<author>
+			<persName><forename type="first">Jpw</forename><surname>Scharlemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Evj</forename><surname>Tanner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hiederer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kapos</surname></persName>
+		</author>
+		<idno type="DOI">10.4155/cmt.13.77</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Carbon Management</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="81" to="91" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Global soil organic carbon assessment. Global Food Security</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Stockmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Padarian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mcbratney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Minasny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>De Brogniez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Montanarella</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gfs.2015.07.001</idno>
+		<ptr target="http://dx.doi.org/10.1016/j.gfs.2015.07.001" />
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="9" to="16" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Combining Soil Databases for Topsoil Organic Carbon Mapping in Europe</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Aksoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yigini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Montanarella</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0152098</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1" to="17" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Plant response to the soil environment: An analytical model integrating yield, water, soil type, and salinity. Water resources research</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Shani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ben-Gal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Tripler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Dudley</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2006WR005313</idno>
+		<idno>doi: 10.1029/ 2006WR005313</idno>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">43</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Land health surveillance and response: A framework for evidence-informed land management</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Shepherd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Walsh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.agsy.2014.09.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Agricultural Systems</title>
+		<imprint>
+			<biblScope unit="volume">132</biblScope>
+			<biblScope unit="page" from="93" to="106" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Sensitivity of crop model predictions to entire meteorological and soil input datasets highlights vulnerability to drought. Environmental Modelling &amp; Software</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pogson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hastings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.envsoft.2011.10.008</idno>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="37" to="43" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Global governance of soil resources as a necessary condition for sustainable development. Current Opinion in Environmental Sustainability</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Montanarella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vargas</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cosust.2012.06.007</idno>
+		<idno>doi: 10.1016/j. cosust.2012.06.007</idno>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="559" to="564" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Uncertainty in soil data can outweigh climate impact signals in global crop yield simulations</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Folberth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Skalský</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Moltchanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Balkovič</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Azevedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Obersteiner</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ncomms11872</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Communications</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">SoilGrids1km -Global Soil Information Based on Automated Mapping</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hengl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mendes De Jesus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Macmillan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Batjes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gbm</forename><surname>Heuvelink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0105992</idno>
+		<idno type="PMID">25171179</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">National versus global modelling the 3D distribution of soil organic carbon in mainland France</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mulder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lacoste</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Richer-De Forges</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Arrouays</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.geoderma.2015.08.035</idno>
+		<idno>doi: 10.1016/j. geoderma.2015.08.035</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geoderma</title>
+		<imprint>
+			<biblScope unit="volume">263</biblScope>
+			<biblScope unit="page" from="16" to="34" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Mapping and validating predictions of soil bacterial biodiversity using European and national scale datasets</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">I</forename><surname>Griffiths</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Thomson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Plassart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Gweon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Creamer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.apsoil.2015.06.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Soil Ecology</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="61" to="68" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Harmonized World Soil Database (version 1.2). Rome: FAO</title>
+		<author>
+			<persName><forename type="first">Fao/Iiasa/Isric/Iss-Cas/</forename><surname>Jrc</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Near-global freshwater-specific environmental variables for biodiversity analyses in 1 km resolution. Scientific data</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Domisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Amatulli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Jetz</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sdata.2015.73</idno>
+		<idno type="PMID">26647296</idno>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Global land cover mapping at 30 m resolution: A POK-based operational approach</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.isprsjprs.2014.09.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ISPRS Journal of Photogrammetry and Remote Sensing</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="7" to="27" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">World reference base for soil resources 2006: a framework for international classification, correlation and communication. World soil resources reports No</title>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Food and Agriculture Organization of the United Nations</publisher>
+			<pubPlace>Rome</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>IUSS Working Group WRB</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Keys to Soil Taxonomy</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+		<respStmt>
+			<orgName>U S Department of Agriculture</orgName>
+		</respStmt>
+	</monogr>
+	<note>12th ed. U.S. Government Printing Office</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Chapter Three-GlobalSoilMap: Toward a Fine-Resolution Global Grid of Soil Properties</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Arrouays</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Grundy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Hartemink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Hempel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gbm</forename><surname>Heuvelink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Young</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Agronomy</title>
+				<editor>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Sparks</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="93" to="134" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Total carbon, organic carbon, and organic matter</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Sommers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Methods of soil analysis, Part 2</title>
+				<editor>
+			<persName><forename type="first">Agron</forename><forename type="middle">9</forename><surname>Monogr</surname></persName>
+			<persName><surname>Madison</surname></persName>
+			<persName><surname>Sssa</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1982" />
+			<biblScope unit="page" from="539" to="579" />
+		</imprint>
+	</monogr>
+	<note>2nd ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Mapping the global depth to bedrock for land surface modeling</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shangguan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hengl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>De Jesus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Advances in Modeling Earth Systems</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Guidelines for soil profile description</title>
+		<author>
+			<persName><surname>Fao</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>4th ed. Rome: Food and Agriculture Organization of the United Nations</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">An Ecosystem Carbon Database for Canadian Forests. Information report</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Shaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Bhatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Sabourin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>Canadian Forest Service</publisher>
+			<pubPlace>Edmonton, Alberta; Northern Forestry Centre</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">A Handbook of Soil Terminology, Correlation and Classification</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Krasilnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jji</forename><surname>Marti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Arnold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shoba</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<publisher>Earthscan LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Soil Properties of the Kelso Sand Dunes in the Mojave Desert. The Southwestern Naturalist</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Lei</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="47" to="52" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">The GLIMS geospatial glacier database: a new tool for studying glacier change. Global and Planetary Change</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Raup</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Racoviteanu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sjs</forename><surname>Khalsa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Helm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Armstrong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Arnaud</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gloplacha.2006.07.018</idno>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="101" to="110" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Biophysical land suitability for oil palm in Kalimantan, Indonesia. ISRIC Report 2007/01. ISRIC-World Soil Information</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mantel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wösten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Verhagen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The Northern Circumpolar Soil Carbon Database: spatially distributed datasets of soil coverage and soil carbon storage in the northern permafrost regions</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hugelius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tarnocai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Broll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Canadell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Kuhry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Swanson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Earth System Science Data</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="13" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Global multi-resolution terrain elevation data 2010 (GMTED2010)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Danielson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Gesch</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<pubPlace>U.S. Geological Survey</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Open-File Report 2011-1073</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">System for Automated Geoscientific Analyses (SAGA) v. 2.1.4. Geoscientific Model Development</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Conrad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bechtel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Dietrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gerlitz</surname></persName>
+		</author>
+		<idno type="DOI">10.5194/gmd-8-1991-2015</idno>
+		<idno>doi: 10.5194/ gmd-8-1991-2015</idno>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1991" to="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Terra and Aqua MODIS products available from NASA GES DAAC</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Savtchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ouzounov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Acker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Leptoukh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Koziana</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.asr.2004.03.012</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Space Research</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="710" to="714" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">The MODIS (collection V006) BRDF/albedo product MCD43D: temporal course evaluated over agricultural landscape. Remote Sensing of Environment</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Baret</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Courault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Hagolle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gallego-Elvira</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.rse.2015.09.021</idno>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">170</biblScope>
+			<biblScope unit="page" from="216" to="228" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">MODIS land surface temperature products users&apos; guide. ICESS</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<pubPlace>University of California</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Accuracy assessment of the MODIS snow products. Hydrological Processes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Riggs</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1534" to="1547" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Very high resolution interpolated climate surfaces for global land areas</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hijmans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Cameron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Parra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jarvis</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/joc.1276</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Climatology</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1965" to="1978" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">GPCP version 2 combined precipitation data set documentation</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Huffman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">T</forename><surname>Bolvin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Laboratory for Atmospheres, NASA Goddard Space Flight Center and Science Systems and Applications</title>
+				<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">The new global lithological map database GLiM: A representation of rock properties at the Earth surface. Geochemistry, Geophysics, Geosystems</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Moosdorf</surname></persName>
+		</author>
+		<idno type="DOI">10.1029/2012GC004370</idno>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">13</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">A new map of global ecological land units-an ecophysiographic stratification approach</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sayre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dangermond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Frye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vaughan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aniello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Breyer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>USGS / Association of American Geographers</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Global patterns of groundwater table depth</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Miguez-Macho</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1229881</idno>
+		<idno type="PMID">23430651</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">339</biblScope>
+			<biblScope unit="issue">6122</biblScope>
+			<biblScope unit="page" from="940" to="943" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Status and distribution of mangrove forests of the world using earth observation satellite data</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Giri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ochieng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Tieszen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Loveland</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1466-8238.2010.00584.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Global Ecology and Biogeography</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="154" to="159" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A gridded global data set of soil, immobile regolith, and sedimentary deposit thicknesses for regional and global land surface modeling</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Pelletier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">D</forename><surname>Broxton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hazenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Troch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">Y</forename><surname>Niu</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/2015MS000526</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Advances in Modeling Earth Systems</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Factors of soil formation: a system of quantitative pedology. Dover books on Earth sciences</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Jenny</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Dover Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Geographic data analysis and modeling</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Hijmans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Etten</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Raster</surname></persName>
+		</author>
+		<ptr target="http://CRAN.R-project.org/package=raster" />
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Classes and methods for spatial data in R. R news</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Pebesma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Bivand</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="9" to="13" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Geospatial Power Tools: GDAL Raster &amp; Vector Commands</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Developers</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Locate Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A new global raster water mask at 250 m resolution</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Carroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Townshend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Dimiceli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Noojipady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Sohlberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/17538940902951401</idno>
+		<idno>doi: 10.1080/ 17538940902951401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Digital Earth</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="291" to="308" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The shuttle radar topography mission-a new class of digital elevation models acquired by spaceborne radar</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rabus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Eineder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bamler</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0924-2716(02)00124-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ISPRS Journal of Photogrammetry and Remote Sensing</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="241" to="262" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Modern applied statistics with S</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Venables</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Ripley</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Springer-Verlag</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>4th ed</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A Fast Implementation of Random Forests for High Dimensional Data in C++ and R</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ziegler</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ranger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">XGBoost: A Scalable Tree Boosting System</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Guestrin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="report_type">ArXiv e-prints</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Building Predictive Models in R Using the caret Package</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuhn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="26" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Learning with ensembles: How over-fitting can be useful</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sollich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krogh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1995 Conference</title>
+				<meeting>the 1995 Conference</meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">190</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Easier parallel computing in R with snowfall and sfCluster</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Knaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Porzelius</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Binder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schwarzer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The R Journal</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="54" to="59" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Optimisation of global grids for high-resolution remote sensing data</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bauer-Marschallinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sabel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wagner</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cageo.2014.07.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Computers &amp; Geosciences</title>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="page" from="84" to="93" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Weighted kappa: Nominal scale agreement provision for scaled disagreement or partial credit</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/h0026256</idno>
+		<idno type="PMID">19673146</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological bulletin</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">213</biblScope>
+			<date type="published" when="1968" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">ROCR: visualizing classifier performance in R</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Sander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Beerenwinkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lengauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bti623</idno>
+		<idno type="PMID">16096348</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">20</biblScope>
+			<biblScope unit="page" from="3940" to="3941" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">ROCR: Visualizing the Performance of Scoring Classifiers</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Sander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Beerenwinkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lengauer</surname></persName>
+		</author>
+		<ptr target="http://CRAN.R-project.org/package=ROCR" />
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Communication in the presence of noise</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Shannon</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/JRPROC.1949.232969</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the IRE</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="10" to="21" />
+			<date type="published" when="1949" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Borda</surname></persName>
+		</author>
+		<ptr target="https://books.google.nl/books?id=Lyte2yl1SPAC" />
+		<title level="m">Fundamentals in Information Theory and Coding</title>
+				<meeting><address><addrLine>Berlin Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Updating soil information with digital soil mapping</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kempen</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>PhD thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<title level="m" type="main">A Fast Implementation of Random Forests for High Dimensional Data in C++ and R. ArXiv e-prints</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Wright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ziegler</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ranger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Sampling for validation of digital soil maps</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Brus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kempen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gbm</forename><surname>Heuvelink</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1365-2389.2011.01364.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">European Journal of Soil Science</title>
+		<imprint>
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="394" to="407" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Towards the standardization and harmonization of world soil data</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Batjes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jgb</forename><surname>Leenaars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Van Oostrum</surname></persName>
+		</author>
+		<idno>2015/03</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ISRIC-World Soil Information</title>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="report_type">ISRIC Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">A conditioned Latin hypercube method for sampling in the presence of ancillary information</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Minasny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Mcbratney</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cageo.2005.12.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Computers &amp; Geosciences</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1378" to="1388" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">MaxEnt versus MaxLike: empirical comparisons with ant species distributions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Fitzpatrick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Gotelli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Ellison</surname></persName>
+		</author>
+		<idno type="DOI">10.1890/ES13-00066.1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecosphere</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">55</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">A comprehensive comparison of random forests and support vector machines for microarray-based cancer classification</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Statnikov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Aliferis</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2105-9-319</idno>
+		<idno type="PMID">18647401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">319</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Applied predictive modeling</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Johnson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Mapping Soil Properties of Africa at 250 m Resolution: Random Forests Significantly Improve Current Predictions</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hengl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gbm</forename><surname>Heuvelink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kempen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jgb</forename><surname>Leenaars</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Walsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Shepherd</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0125814</idno>
+		<idno type="PMID">26110833</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Soil taxonomic distance, a tool for correlation: As exemplified by the Hungarian Brown Forest Soils and related WRB Reference Soil Groups</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Láng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Waltner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Michéli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.geoderma.2012.07.023</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geoderma</title>
+		<imprint>
+			<biblScope unit="volume">192</biblScope>
+			<biblScope unit="page" from="269" to="276" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Soil mapping, classification, and pedologic modeling: History and future directions</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Brevik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Calzolari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kabala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Baumgarten</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.geoderma.2015.09.022</idno>
+		<idno>doi: 10.1016/j. geoderma.2015.09.022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geoderma</title>
+		<imprint>
+			<biblScope unit="volume">264</biblScope>
+			<biblScope unit="page" from="256" to="274" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Deriving WRB soil types using National German Soil Survey Guidelines</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Eberhardt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">NCSS National Conference. NCSS Standards</title>
+				<meeting><address><addrLine>Asheville, NC</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="1" to="2" />
+		</imprint>
+	</monogr>
+	<note>United States Department of Agriculture USDA-NRCS</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Quantile regression forests</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Meinshausen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Machine Learning Research</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="983" to="999" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Spatio-temporal interpolation of daily temperatures for global land areas at 1 km resolution</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kilibarda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hengl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Heuvelink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gräler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pebesma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Perčec</forename><surname>Tadić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Geophysical Research: Atmospheres</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2294" to="2313" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Spatio-temporal interpolation of soil water, temperature, and electrical conductivity in 3D+T: The Cook Agronomy Farm data set</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gasch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hengl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gräler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Meyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Magney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.spasta.2015.04.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Spatial Statistics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="70" to="90" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<monogr>
+		<title level="m" type="main">Measuring the Algorithmic Convergence of Random Forests via Bootstrap Extrapolation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Lopes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<pubPlace>Davis CA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Statistics, University of California</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Uncertainties of a TanDEM-X derived Digital Surface Model 2014-A case study from the Roda catchment</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schmullius</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Geoscience and Remote Sensing Symposium (IGARSS)</title>
+				<meeting><address><addrLine>Germany</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="4327" to="4330" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">The HYDE 3.1 spatially explicit database of human-induced global land-use change over the past 12,000 years</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Klein Goldewijk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beusen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Van Drecht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">De</forename><surname>Vos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1466-8238.2010.00587.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Global Ecology and Biogeography</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="73" to="86" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Eighty-metre resolution 3D soil-attribute maps for Tasmania</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kidd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Malone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Minasny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mcbratney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Australia. Soil Research</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="932" to="955" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Using model averaging to combine soil property rasters from legacy soil maps and from point data</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Malone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Minasny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">P</forename><surname>Odgers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Mcbratney</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.geoderma.2014.04.033</idno>
+		<idno>doi: 10.1016/j. geoderma.2014.04.033</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Geoderma</title>
+		<imprint>
+			<biblScope unit="volume">232</biblScope>
+			<biblScope unit="page" from="34" to="44" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Sanchez</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1175084</idno>
+		<idno type="PMID">19661405</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Digital Soil Map of the World. Science</title>
+		<imprint>
+			<biblScope unit="volume">325</biblScope>
+			<biblScope unit="page" from="680" to="681" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Digital Soil Mapping and Modeling at Continental Scales: Finding Solutions for Global Issues</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Grunwald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Thompson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Boettinger</surname></persName>
+		</author>
+		<idno type="DOI">10.2136/sssaj2011.0025</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soil Science Society of America Journal</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="1201" to="1213" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<monogr>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tóth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Montanarella</surname></persName>
+		</author>
+		<title level="m">LUCAS Topsoil Survey. Methodology, data and results. JRC Technical Reports EUR 26102</title>
+				<imprint>
+			<publisher>Luxembourg: Publications Office of the European Union</publisher>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Africa Soil Profiles Database, Version 1.2. A compilation of geo-referenced and standardized legacy soil profile data for Sub Saharan Africa (with dataset)</title>
+		<author>
+			<persName><forename type="first">Jgb</forename><surname>Leenaars</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Africa Soil Information Service (AfSIS) project and ISRIC-World Soil Information</title>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<monogr>
+		<title level="m" type="main">CSIRO National Soil Archive and the National Soil Database (NatSoil). No. v1 in Data Collection. Canberra: CSIRO</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Karssies</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+		<title level="m" type="main">GlobalSoilMap: Basis of the global spatial soil information system</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Searle</surname></persName>
+		</author>
+		<idno type="DOI">10.1201/b16500-26</idno>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page">127</biblScope>
+		</imprint>
+	</monogr>
+	<note>The Australian site data collation to support the GlobalSoilMap</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title/>
+		<idno>1: 250 000 Serie II.</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Continuo Nacional). Aguascalientes, Ags. México: INEGI</title>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+		<respStmt>
+			<orgName>Instituto Nacional de Estadística y Geografía (INEGI). Conjunto de Datos de Perfiles de Suelos</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">A national soil profile database for Brazil available to international scientists</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lms</forename><surname>Mendes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wlc</forename><surname>Silva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sparovek</surname></persName>
+		</author>
+		<idno type="DOI">10.2136/sssaj2004.0140</idno>
+		<idno>doi: 10.2136/ sssaj2004.0140</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Soil Science Society of America Journal</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="649" to="652" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">A China data set of soil properties for land surface modeling</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shangguan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wu</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jame.20026</idno>
+		<idno>doi: 10.1002/ jame.20026</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Advances in Modeling Earth Systems</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="212" to="224" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<monogr>
+		<title level="m" type="main">CanSIS/NSDB. A general description. Ottawa: Centre for Land and Biological Resources Research</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Macdonald</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kwg</forename><surname>Valentine</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<pubPlace>Research Branch, Agriculture Canada</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+		<title level="m" type="main">Harmonized soil profile data for applications at global and continental scales: Updates to the WISE database. Soil Use and Management</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Batjes</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1475-2743.2009.00202.x</idno>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="124" to="127" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Procedures Manual, version 2.0</title>
+		<author>
+			<persName><forename type="first">Vwp</forename><surname>Van Engelen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Dijkshoorn</surname></persName>
+		</author>
+		<idno>2012/04</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Global and National Soils and Terrain Digital Databases (SOTER)</title>
+				<meeting><address><addrLine>Wageningen, the Netherlands</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note type="report_type">ISRIC Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<monogr>
+		<title level="m" type="main">SPADE-2: The soil profile analytical database for Europe, version 1.0. Luxembourg: Office for official publications of the European Communities</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Hollis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rja</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holden</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Van De Veen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Montanarella</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

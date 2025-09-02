@@ -1,0 +1,6 @@
+Title: An Experimental Evaluation of Integrating Machine Learning with Knowledge Acquisition
+Published: 2002-12-22T05:04:10Z
+Link: https://doi.org/10.1023/a:1007504102006
+
+Abstract:
+

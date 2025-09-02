@@ -1,0 +1,2671 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Data mining with decision trees and decision rules</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Apté</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Weiss</surname></persName>
+		</author>
+		<idno type="DOI">197-210.10.1016/S0167-739X(97)00021-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Future Generation Computer Systems</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An amorphous model for morphological processing in visual comprehension based on naive discriminative learning</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Baayen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Milin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Đurđević</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hendrix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marelli</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0023851</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">118</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="438" to="481" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 21744979</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Facebook Profiles Reflect Actual Personality, Not Self-Idealization</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Back</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Stopfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vazire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gaddis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Schmukle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Egloff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Gosling</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0956797609360756</idno>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">The Rules of the Game Called Psychological Science</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bakker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dijk</forename><forename type="middle">A</forename><surname>Van</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wicherts</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1745691612459060</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives on Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="543" to="554" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 26168111</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">The English Lexicon Project</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Balota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Hutchison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Cortese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kessler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Loftis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Treiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+		<idno type="DOI">10.3758/BF03193014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="445" to="459" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 17958156</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Mapping collective behavior in the big-data era</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Bentley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>O'brien</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Brock</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S0140525X13000289</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral and Brain Sciences</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">01</biblScope>
+			<biblScope unit="page" from="63" to="76" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 24572217</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Toward discovery science of human brain function</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Biswal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mennes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X-N</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gohel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Milham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0911855107</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="4734" to="4739" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A 61-millionperson experiment in social influence and political mobilization</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Bond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Fariss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adi</forename><surname>Kramer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Marlow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Settle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Fowler</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature11421</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">489</biblScope>
+			<biblScope unit="issue">7415</biblScope>
+			<biblScope unit="page" from="295" to="298" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 22972300</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Random Forests</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breiman</surname></persName>
+		</author>
+		<idno type="DOI">5-32.10.1023/A:1010933404324</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">45</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Statistical Modeling: The Two Cultures</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breiman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Statistical Science</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="199" to="215" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Making Memories: Brain Activity that Predicts How Well Visual Experience Will Be Remembered</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Brewer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Desmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Glover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jde</forename><surname>Gabrieli</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.281.5380.1185</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">281</biblScope>
+			<biblScope unit="issue">5380</biblScope>
+			<biblScope unit="page" from="1185" to="1187" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 9712581</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Cross-Validation Methods</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Browne</surname></persName>
+		</author>
+		<idno type="DOI">108-132.10.1006/jmps.1999.1279</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mathematical Psychology</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 10733860</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">When fit indices and residuals are incompatible</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">W</forename><surname>Browne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Maccallum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C-T</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Glaser</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/1082-989X.7A403</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Methods</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="403" to="421" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 12530701</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Moving beyond Kucera and Francis: A critical evaluation of current word frequency norms and the introduction of a new and improved word frequency measure for American English</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brysbaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>New</surname></persName>
+		</author>
+		<idno type="DOI">977-990.10.3758/BRM.4L4.977</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19897807</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Penalized least squares regression methods and applications to neuroimaging</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bunea</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>She</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ombao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gongvatana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Devlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cohen</surname></persName>
+		</author>
+		<ptr target="http://doi.org/10.1016Zj.neuroimage.2010.12.028" />
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1519" to="1527" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 21167288</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Multimodel Inference Understanding AIC and BIC in Model Selection</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P</forename><surname>Burnham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0049124104268644</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sociological Methods &amp; Research</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="261" to="304" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">On Over-fitting in Model Selection and Subsequent Selection Bias in Performance Evaluation</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Cawley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nlc</forename><surname>Talbot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mach. Learn. Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="2079" to="2107" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Trust in science would be improved by study pre-registration. The Guardian</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chambers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Munafo</surname></persName>
+		</author>
+		<ptr target="https://www.theguardian.com/science/blog/2013/jun/05/trust-in-science-study-pre-registration" />
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">6</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The statistical power of abnormal-social psychological research: A review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">145-153.10.1037/h0045186</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Abnormal and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="1962" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 13880271</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A power primer</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">155-159.10.1037/0033-2909.112.L155</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19565683</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Applied Multiple Regression/Correlation Analysis for the Behavioral Sciences</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>West</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Aiken</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note>Routledge</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Comparing the accuracy of experimental estimates to guessing: a new perspective on replication and the &quot;Crisis of Confidence&quot; in psychology</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">P</forename><surname>Davis-Stober</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dana</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/s13428-013-0342-1</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">The robust beauty of improper linear models in decision making</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Dawes</surname></persName>
+		</author>
+		<idno type="DOI">571-582.10.1037/0003-066X.34.7.571</idno>
+	</analytic>
+	<monogr>
+		<title level="j">American Psychologist</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">ImageNet: A large-scale hierarchical image database</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Socher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L-J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fei-Fei</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2009.5206848</idno>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Conference on Computer Vision and Pattern Recognition</title>
+				<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="248" to="255" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A Few Useful Things to Know About Machine Learning</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Domingos</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2347736.2347755</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Commun. ACM</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="78" to="87" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">50 years of data science. Presented at the Tukey Centennial workshop</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Donoho</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<pubPlace>Princeton, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Compound facial expressions of emotion</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Martinez</surname></persName>
+		</author>
+		<idno type="DOI">E1454-E1462.10.1073/pnas.1322355111</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">777</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dwan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Altman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Arnaiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bloom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A-W</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cronin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Systematic Review of the Empirical Evidence of Study Publication Bias and Outcome Reporting Bias</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Williamson</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0003081</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS ONE</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18769481</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">R</forename><surname>Ebersole</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">E</forename><surname>Atherton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Belanger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Skulborstad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Adams</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<pubPlace>Allen J, &amp; Nosek BA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Many Labs 3: Evaluating participant pool quality across the academic semester via replication</title>
+		<idno>io/ct89g</idno>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Ebstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Novick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Umansky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Priel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Osher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Blaine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Dopamine D4 receptor (D4DR) exon III polymorphism associated with the human personality trait of Novelty Seeking</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Belmaker</surname></persName>
+		</author>
+		<idno type="DOI">78-80.10.1038/ng0196-78</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Genetics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 8528256</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">An argument for basic emotions</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ekman</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02699939208411068</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition and Emotion</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">3-4</biblScope>
+			<biblScope unit="page" from="169" to="200" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Personality as manifest in word use: Correlations with self-report, acquaintance report, and behavior</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Fast</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Funder</surname></persName>
+		</author>
+		<idno type="DOI">334-346.10.1037/0022-3514.94.2.334</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18211181</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A Vast Graveyard of Undead Theories Publication Bias and Psychological Science&apos;s Aversion to the Null</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Ferguson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heene</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1745691612459059</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives on Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="555" to="561" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 26168112</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Greedy Function Approximation: A Gradient Boosting Machine</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Friedman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Annals of Statistics</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1189" to="1232" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hill</surname></persName>
+		</author>
+		<title level="m">Data Analysis Using Regression and Multilevel/Hierarchical Models</title>
+				<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>1 edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">The garden offorking paths: Why multiple comparisons can be a problem, even when there is no &quot;fishing expedition &quot; or &quot;p-hacking&quot; and the research hypothesis was posited ahead of time</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Loken</surname></persName>
+		</author>
+		<ptr target="http://www.stat.columbia.edu/~gelman/research/unpublished/p_hacking.pdf" />
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Of Beauty, Sex and Power: Too little attention has been paid to the statistical challenges in estimating small effects</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weakliem</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">American Scientist</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="310" to="316" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Manifestations of Personality in Online Social Networks: Self-Reported Facebook-Related Behaviors and Observable Profile Information</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Gosling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Augustine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vazire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Holtzman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gaddis</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/cyber.2010.0087</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Cyberpsychology, Behavior, and Social Networking</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="483" to="488" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">There Is Nothing So Theoretical as a Good Method</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Greenwald</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1745691611434210</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives on Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="99" to="108" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 26168438</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Comparing the predictive powers of alternative multiple regression models</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Hagerty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<idno type="DOI">77-85.10.1007/BF02294587</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychometrika</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hastie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tibshirani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Friedman</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-0-387-84858-7</idno>
+		<ptr target="http://link.springer.com/10.1007/978-0-387-84858-7" />
+		<title level="m">The Elements of Statistical Learning</title>
+				<meeting><address><addrLine>New York, NY; New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Structural Equation Modeling in the Communication Sciences</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Holbert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Stephenson</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1468-2958.2002.tb00822.x</idno>
+		<ptr target="10.1111/j.1468-2958.2002.tb00822.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Human Communication Research</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="531" to="551" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Human neuroimaging as a &quot;Big Data&quot; science</title>
+		<author>
+			<persName><forename type="first">Jdv</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">W</forename><surname>Toga</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11682-013-9255-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Brain Imaging and Behavior</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="323" to="331" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Why Most Discovered True Associations Are Inflated: Epidemiology</title>
+		<author>
+			<persName><forename type="first">Jpa</forename><surname>Ioannidis</surname></persName>
+		</author>
+		<idno type="DOI">640-648.10.1097/EDE.0b013e31818131e7</idno>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="volume">19</biblScope>
+		</imprint>
+	</monogr>
+	<note>PubMed: 18633328</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Why Science Is Not Necessarily Self-Correcting</title>
+		<author>
+			<persName><forename type="first">Jpa</forename><surname>Ioannidis</surname></persName>
+		</author>
+		<idno type="DOI">645-654.10.1177/1745691612464056</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives on Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 26168125</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Measuring the Prevalence of Questionable Research Practices With Incentives for Truth Telling</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">K</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Loewenstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Prelec</surname></persName>
+		</author>
+		<idno type="DOI">0956797611430953.10.1177/0956797611430953</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">How can preregistration contribute to research in our field?</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Jonas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cesario</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/23743603.2015.1070611</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comprehensive Results in Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">0</biblScope>
+			<biblScope unit="issue">0</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Experiments with more than one random factor: Designs, analytic models, and statistical power</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Judd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Westfall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Kenny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Psychology</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Investigating variation in replicability: A &quot;many labs&quot; replication project</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Ratliff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Vianello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Adams</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bahnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Bernstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Nosek</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ba</surname></persName>
+		</author>
+		<idno type="DOI">142-152.10.1027/1864-9335/a000178</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Private traits and attributes are predictable from digital records of human behavior</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kosinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stillwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Graepel</surname></persName>
+		</author>
+		<idno type="DOI">5802-5805.10.1073/pnas.1218772110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">770</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Cross-validation pitfalls when selecting and assessing regression and classification models</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Krstajic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Buturovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Leahy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thomas</surname></persName>
+		</author>
+		<idno type="DOI">1-15.10.1186/1758-2946-6-10</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Cheminformatics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 24397863</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A Research Test of the Rorschach Test</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Kurtz</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1744-6570.1948.tb01292.x</idno>
+		<ptr target="10.1111/j.1744-6570.1948.tb01292.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Personnel Psychology</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="41" to="51" />
+			<date type="published" when="1948" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Deep learning</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lecun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+		<idno>436-444. 10.1038/ nature14539</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">521</biblScope>
+			<biblScope unit="issue">7553</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 26017442</note>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">The Truth Wears Off. The New Yorker</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lehrer</surname></persName>
+		</author>
+		<ptr target="http://www.newyorker.com/magazine/2010/12/13/the-truth-wears-off" />
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">K-P</forename><surname>Lesch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bengel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Heils</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Z</forename><surname>Sabol</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Greenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Association of Anxiety-Related Traits with a Polymorphism in the Serotonin Transporter Gene Regulatory Region</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Murphy</surname></persName>
+		</author>
+		<idno type="DOI">1527-1531.10.1126/science.274.5292.1527</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">274</biblScope>
+			<biblScope unit="issue">5292</biblScope>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 8929413</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Loftus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Palmer</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-349-24483-6_46</idno>
+		<ptr target="http://link.springer.com/chapter" />
+		<title level="m">Eyewitness Testimony In Introducing Psychological Research</title>
+				<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="305" to="309" />
+		</imprint>
+	</monogr>
+	<note>Macmillan Education UK</note>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Using Lasso for Predictor Selection and to Assuage Overfitting: A Method Long Overlooked in Behavioral Sciences</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Mcneish</surname></persName>
+		</author>
+		<idno type="DOI">471-484.10.1080/00273171.2015.1036965</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Multivariate Behavioral Research</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 26610247</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Why summaries of research on psychological theories are often uninterpretable</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">E</forename><surname>Meehl</surname></persName>
+		</author>
+		<idno type="DOI">10.2466/pr0.1990.66.L195</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Reports</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="195" to="244" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The Smartphone Psychology Manifesto</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Miller</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1745691612441215</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives on Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="221" to="237" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 26168460</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">The need and means of cross validation. I. Problems and designs of cross-validation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">I</forename><surname>Mosier</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/001316445101100101</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Educational and Psychological Measurement</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="5" to="11" />
+			<date type="published" when="1951" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Dissecting the genetic architecture of human personality</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Munafò</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Flint</surname></persName>
+		</author>
+		<idno type="DOI">395-400.10.1016/j.tics.2011.07.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Trends in Cognitive Sciences</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 21831694</note>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Lexique 2 : A new French lexical database</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>New</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Pallier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brysbaert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ferrand</surname></persName>
+		</author>
+		<idno type="DOI">516-524.10.3758/BF03195598</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods, Instruments, &amp; Computers</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Registered reports: A method to increase the credibility of published results</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Nosek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lakens</surname></persName>
+		</author>
+		<idno type="DOI">10.1027/1864-9335/a000192</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="137" to="141" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Scientific Utopia II. Restructuring Incentives and Practices to Promote Truth Over Publishability</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Nosek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Spies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Motyl</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1745691612459058</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives on Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="615" to="631" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 26168121</note>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Estimating the reproducibility of psychological science</title>
+		<idno type="DOI">10.1126/science.aac4716</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="issue">6251</biblScope>
+			<biblScope unit="page">349</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Linguistic styles: Language use as an individual difference</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Pennebaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>King</surname></persName>
+		</author>
+		<idno type="DOI">1296-1312.10.1037/0022-3514.77.6.1296</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 10626371</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Beyond single syllables: Large-scale modeling of reading aloud with the Connectionist Dual Process (CDP++) model</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Perry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Ziegler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zorzi</surname></persName>
+		</author>
+		<ptr target="http://doi.org/10.10167j.cogpsych.2010.04.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="106" to="151" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 20510406</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">A meta-analysis of the five-factor model of personality and academic performance</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pinheiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bates</surname></persName>
+		</author>
+		<idno type="DOI">322-338.10.1037/a0014996</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<editor>Springer. Poropat AE</editor>
+		<imprint>
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+	<note>Mixed-EffectsModels in S andS-PLUS. PubMed: 19254083</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Music Preference and the Five-Factor Model of the NEO Personality Inventory</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rawlings</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Ciancarelli</surname></persName>
+		</author>
+		<idno type="DOI">120-132.10.1177/0305735697252003</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychology of Music</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">The do re mi&apos;s of everyday life: The structure and personality correlates of music preferences</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Rentfrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Gosling</surname></persName>
+		</author>
+		<idno type="DOI">1236-1256.10.1037/0022-3514.84.6.1236</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 12793587</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">A megaanalysis of genome-wide association studies for major depressive disorder</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ripke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Wray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Weissman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Breen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>Sullivan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/mp.2012.21</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular Psychiatry</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="497" to="511" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 22472876</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Detecting individual memories through the neural decoding of memory states and past experience</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rissman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Greely</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Wagner</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.1001028107</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="issue">21</biblScope>
+			<biblScope unit="page" from="9849" to="9854" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Early gesture selectively predicts later language learning</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Rowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goldin-Meadow</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-7687.2008.00764.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Developmental Science</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="182" to="187" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 19120426</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Deep learning in neural networks: An overview</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schmidhuber</surname></persName>
+		</author>
+		<ptr target="http://doi.org/10.1016Zj.neunet.2014.09.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Neural Networks</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="85" to="117" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 25462637</note>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">A Monte Carlo evaluation of three formula estimates of cross-validated multiple correlation</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">W</forename><surname>Coyle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rauschenberger</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-2909.84A751</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="751" to="758" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Do studies of statistical power have an effect on the power of studies?</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sedlmeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gigerenzer</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-2909.105.2.309</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="309" to="316" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Linear Model Selection by Cross-validation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shao</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01621459.1993.10476299</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Statistical Association</title>
+		<imprint>
+			<biblScope unit="volume">88</biblScope>
+			<biblScope unit="issue">422</biblScope>
+			<biblScope unit="page" from="486" to="494" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">False Positives in Multiple Regression Unanticipated Consequences of Measurement Error in the Predictor Variables</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">R</forename><surname>Shear</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Zumbo</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0013164413487738</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Educational and Psychological Measurement</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="733" to="756" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">To Explain or to Predict?</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Shmueli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Statistical Science</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="289" to="310" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">False-Positive Psychology Undisclosed Flexibility in Data Collection and Analysis Allows Presenting Anything as Significant</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Simmons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Simonsohn</surname></persName>
+		</author>
+		<idno type="DOI">0956797611417632.10.1177/0956797611417632</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Science</title>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Escott-Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename><surname>Conde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">.</forename><surname>O'donovan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Genome-wide analysis of over 106,000 individuals identifies 9 neuroticism-associated loci</title>
+		<idno type="DOI">032417.10.1101/032417</idno>
+	</analytic>
+	<monogr>
+		<title level="j">bioRxiv</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">SNOOP: A program for demonstrating the consequences of premature and repeated null hypothesis testing</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Strube</surname></persName>
+		</author>
+		<idno type="DOI">10.3758/BF03192746</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Behavior Research Methods</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="24" to="27" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Regression Shrinkage and Selection via the Lasso</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tibshirani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Royal Statistical Society. Series B (Methodological)</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="267" to="288" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Regression shrinkage and selection via the lasso: a retrospective</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tibshirani</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1467-9868.2011.00771.x</idno>
+		<ptr target="10.1111/j.1467-9868.2011.00771.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Royal Statistical Society: Series B (Statistical Methodology)</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="273" to="282" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">The WU-Minn Human Connectome Project: An overview</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Van Essen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Barch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tej</forename><surname>Behrens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Yacoub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ugurbil</surname></persName>
+		</author>
+		<ptr target="http://doi.org/10.1016Zj.neuroimage.2013.05.041" />
+	</analytic>
+	<monogr>
+		<title level="j">Neuroimage</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="62" to="79" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Bias in error estimation when using cross-validation for model selection</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Varma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Simon</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2105-7-91</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 16504092</note>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">e-Perceptions: Personality Impressions Based on Personal Websites</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vazire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">D</forename><surname>Gosling</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0022-3514.87.L123</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Personality and Social Psychology</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="123" to="132" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Impulsivity predicts problem gambling in low SES adolescent males</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vitaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Arseneault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Tremblay</surname></persName>
+		</author>
+		<idno type="DOI">565-575.10.1046/j.1360-0443.1999.94456511.x[PubMed:10605852</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Addiction</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Model selection and psychological theory: A discussion of the differences between the Akaike information criterion (AIC) and the Bayesian information criterion (BIC)</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Vrieze</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/a0027127</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Methods</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="228" to="243" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 22309957</note>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">An Agenda for Purely Confirmatory Research</title>
+		<author>
+			<persName><forename type="first">E-J</forename><surname>Wagenmakers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wetzels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Borsboom</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Maas Van Der</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hlj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Kievit</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1745691612463078</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives on Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="632" to="638" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 26168122</note>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Estimating coefficients in linear models: It don&apos;t make no nevermind</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wainer</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/0033-2909.83.2.213</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="213" to="217" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Statistical power and optimal design in experiments in which samples of participants respond to samples of stimuli</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Westfall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Kenny</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Judd</surname></persName>
+		</author>
+		<idno type="DOI">10.1037/xge0000014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: General</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="2020" to="2045" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 25111580</note>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<monogr>
+		<title level="m" type="main">Statistically controlling for confounding constructs is harder than you think</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Westfall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yarkoni</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>Manuscript Submitted</note>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Neuropsychosocial profiles of current and future adolescent alcohol misusers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Whelan</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">the IMAGEN Consortium.</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Watts</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">the IMAGEN Consortium.</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Orr</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">the IMAGEN Consortium.</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Althoff</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">the IMAGEN Consortium.</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Artiges</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">the IMAGEN Consortium.</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Banaschewski</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">the IMAGEN Consortium.</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename></persName>
+			<affiliation>
+				<orgName type="collaboration">the IMAGEN Consortium.</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1038/nature13402</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">512</biblScope>
+			<biblScope unit="issue">7513</biblScope>
+			<biblScope unit="page" from="185" to="189" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 25043041</note>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">IV. Comparison of Cross-Validation with Statistical Inference of Betas and Multiple R From a Single Sample</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Wherry</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/001316445101100104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Educational and Psychological Measurement</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="23" to="28" />
+			<date type="published" when="1951" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Underprediction from overfitting: 45 years of shrinkage</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Wherry</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.1744-6570.1975.tb00387.x</idno>
+		<ptr target="10.1111/j.1744-6570.1975.tb00387.x" />
+	</analytic>
+	<monogr>
+		<title level="j">Personnel Psychology</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="1975" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">No free lunch theorems for optimization</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Wolpert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Macready</surname></persName>
+		</author>
+		<idno type="DOI">67-82.10.1109/4235.585893</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Evolutionary Computation</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Wood</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Esko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vedantam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">H</forename><surname>Pers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gustafsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Frayling TM Defining the role of common variation in the genomic and biological architecture of adult human height</title>
+		<idno type="DOI">10.1038/ng.3097</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature Genetics</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1173" to="1186" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<monogr>
+		<title level="m" type="main">Generalized Additive Models: An Introduction with R (1 edition)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wood</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Chapman and Hall/CRC</publisher>
+			<pubPlace>Boca Raton, FL</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">The Use of Simplified or Misspecified Models: Linear Case</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">J</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">B</forename><surname>Mcauley</surname></persName>
+		</author>
+		<idno type="DOI">386-398.10.1002/cjce.5450850401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">The Canadian Journal of Chemical Engineering</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Data from the Race Implicit Association Test on the Project Implicit Demo Website</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nosek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Greenwald</surname></persName>
+		</author>
+		<idno type="DOI">10.5334/jopd.ac</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Open Psychology Data</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title level="a" type="main">Individual differences in visual word recognition: Insights from the English Lexicon Project</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Yap</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Balota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Sibley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ratcliff</surname></persName>
+		</author>
+		<idno type="DOI">53-79.10.1037/a0024177</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Experimental Psychology: Human Perception and Performance</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title level="a" type="main">Big Correlations in Little Studies: Inflated fMRI Correlations Reflect Low Statistical Power</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yarkoni</surname></persName>
+		</author>
+		<idno type="DOI">294-298.10.1111/j.1745-6924.2009.01127.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Perspectives on Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 26158966</note>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Personality in 100,000 Words: A large-scale analysis of personality and word use among bloggers</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yarkoni</surname></persName>
+		</author>
+		<ptr target="http://doi.org/10.10167j.jrp.2010.04.001" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Research in Personality</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="363" to="373" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 20563301</note>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title level="a" type="main">Psychoinformatics New Horizons at the Interface of the Psychological and Computing Sciences</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yarkoni</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0963721412457362</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Current Directions in Psychological Science</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="391" to="397" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<monogr>
+		<title level="m" type="main">Big Data, n. A kind of black magic</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yarkoni</surname></persName>
+		</author>
+		<ptr target="http://www.talyarkoni.org/blog/2014/05/19/big-data-n-a-kind-of-black-magic/" />
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<analytic>
+		<title level="a" type="main">Interactions between donor Agreeableness and recipient characteristics in predicting charitable donation and positive social evaluation</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yarkoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Ashar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">D</forename><surname>Wager</surname></persName>
+		</author>
+		<idno type="DOI">10.7717/peerj.1089</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PeerJ</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 26312168</note>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">Moving beyond Coltheart&apos;s N: A new measure of orthographic similarity</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Yarkoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Balota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yap</surname></persName>
+		</author>
+		<idno type="DOI">971-979.10.3758/PBR.15.5.971</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psychonomic Bulletin &amp; Review</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18926991</note>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title level="a" type="main">Visualizing and Understanding Convolutional Networks In</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Zeiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fergus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Computer Vision-ECCV 2014</title>
+				<editor>
+			<persName><forename type="first">D</forename><surname>Fleet</surname></persName>
+			<persName><forename type="first">T</forename><surname>Pajdla</surname></persName>
+			<persName><forename type="first">B</forename><surname>Schiele</surname></persName>
+			<persName><forename type="first">T</forename><surname>Tuytelaars</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="818" to="833" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1007/978-3-319-10590-1_53</idno>
+		<ptr target="http://link.springer.com/chapter" />
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

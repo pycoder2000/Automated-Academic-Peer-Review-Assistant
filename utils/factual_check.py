@@ -8,11 +8,19 @@ from typing import List, Dict, Any, Optional
 import numpy as np
 import regex as re2  
 from pint import UnitRegistry
+from PyPDF2 import PdfReader
 
-try:
-    from utils.pdf_parse import extract_text_from_pdf as extract_text_fn
-except Exception:
-    extract_text_fn = None
+def extract_text_fn(pdf_path, max_chars=20000):
+    """Extract text from a PDF (first N chars for efficiency)."""
+    try:
+        reader = PdfReader(pdf_path)
+        text = ""
+        for page in reader.pages:
+            text += page.extract_text() or ""
+        return text[:max_chars]
+    except Exception as e:
+        raise RuntimeError(f"Error reading PDF {pdf_path}: {e}")
+
 
 # -------------------- CONFIG --------------------
 PARSED_TEXT_DIR = "data/parsed_text"

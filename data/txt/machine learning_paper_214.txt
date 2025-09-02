@@ -1,0 +1,6 @@
+Title: Extreme Learning Machine for Regression and Multiclass Classification
+Published: 2012-04-01
+Link: https://www.semanticscholar.org/paper/739769f4862753fc80057194456d758d2a148ee3
+
+Abstract:
+None

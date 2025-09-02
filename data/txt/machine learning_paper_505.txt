@@ -1,0 +1,6 @@
+Title: Machine Learning and Information Retrieval
+Published: 2014-06-30T23:01:24Z
+Link: https://doi.org/10.1016/b978-1-55860-377-6.50078-5
+
+Abstract:
+

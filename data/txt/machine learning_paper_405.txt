@@ -1,0 +1,6 @@
+Title: Application of machine learning algorithms for prediction of sinter machine productivity
+Published: 2021-10-19T14:15:54Z
+Link: https://doi.org/10.1016/j.mlwa.2021.100186
+
+Abstract:
+

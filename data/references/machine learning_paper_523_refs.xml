@@ -1,0 +1,291 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Problems Not Solved Problems arise from the following assumptions: the association relation is one-one, and the internal language is a Lisp regimentation of English lexical semantics, as already mentioned</title>
+		<imprint/>
+	</monogr>
+	<note>Here are some examples</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Contraction of denoting and nondenoting (a) German: Geh zur Schraube! ~ (fa 1 , $go ($to (io (fo 1 $screw *))))</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Geh zum Loch! ~ (fa 1 , $go ($to (io (fo</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Geh zu dem Loch! ~ (fa\ $go ($to (io (fo\ $hole *))))</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>French</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Va au trou! ~ (fa 1 $go ($to (io (fo\ $hole *)))</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Va a la vis! ~ (fa 1 $go ($to (io (fo 1 $nut *))))</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Only one word for different internal symbols (French) Ferme la porte! ~ (fa 1 $close (io</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Ferme la porte! ~ (fa 1 $lock (io (fo 1 $door *)))</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">More than one word corresponding to same denoting symbol (a) English: Put the screw near the washer! (fa 3 $put(io(fo\ $screw*))(fr 1 $near(io</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Place the screw near the washer! (fa 3 ,$put(io(fo\ $screw *))(fr 1 $near(io</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Induction of augmented transition networks</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="125" to="157" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A theory of language acquisition based on general learning principles</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Anderson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Seventh International Joint Conference on Artificial Intelligence</title>
+				<meeting>the Seventh International Joint Conference on Artificial Intelligence</meeting>
+		<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="page" from="97" to="103" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Foundations of linear models</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Estes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Suppes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Studies in mathematical learning theory</title>
+				<editor>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Bush</surname></persName>
+			<persName><forename type="first">W</forename><forename type="middle">K</forename><surname>Estes</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Stanford, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Stanford University Press</publisher>
+			<date type="published" when="1959" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Miniature language acquisition: A touchstone for cognitive science</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lakoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stolcke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hollbach Weber</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>ICSI</publisher>
+			<pubPlace>Berkeley CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Language acquisition and machine learning</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Langley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Carbonell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mechanisms of language acquisition</title>
+				<editor>
+			<persName><forename type="first">B</forename><surname>Macwhinney</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Hillsdale NJ</addrLine></address></meeting>
+		<imprint>
+			<publisher>Erlbaum</publisher>
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">A connectionist architecture for learning motion-based spatial semantics</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Regier</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+	<note>Submitted to the 1992 Meeting of the Cognitive Science Society</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Naive physics, event perception, lexical semantics, and language acquisition</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Siskind</surname></persName>
+		</author>
+		<editor>M.I.T. Ph.D. Dissertation</editor>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Learning feature-based semantics with simple recurrent networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stolcke</surname></persName>
+		</author>
+		<idno>ICSI TR-90-015</idno>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Congruence of meaning</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Suppes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings and Addresses of the American Philosophical Association</title>
+				<meeting>and Addresses of the American Philosophical Association</meeting>
+		<imprint>
+			<date type="published" when="1973" />
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="page" from="21" to="38" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Language for humans and robots</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Suppes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<publisher>Blackwell</publisher>
+			<pubPlace>Oxford</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Complexity issues in robotic machine learning of natural language</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Suppes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bottner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Modeling complex phenomena</title>
+				<editor>
+			<persName><forename type="first">L</forename><surname>Lam</surname></persName>
+			<persName><forename type="first">&amp;</forename><forename type="middle">V</forename><surname>Naroditsky</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

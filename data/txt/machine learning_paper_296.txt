@@ -1,0 +1,6 @@
+Title: A Survey of Deep Learning and Its Applications: A New Paradigm to Machine Learning
+Published: 2019-06-01
+Link: https://www.semanticscholar.org/paper/e67121cd31e95fba6c892724e619323ad7564b03
+
+Abstract:
+None

@@ -1,0 +1,6 @@
+Title: Practical Secure Aggregation for Privacy-Preserving Machine Learning
+Published: 2017-10-30
+Link: https://www.semanticscholar.org/paper/db0cc2f21b20cbc0ab8946090967399c25709614
+
+Abstract:
+None

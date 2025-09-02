@@ -1,0 +1,8 @@
+Title: Empirical Asset Pricing Via Machine Learning
+Published: 2018-12-01
+Link: https://www.semanticscholar.org/paper/caf9e0fa2c340fb07cef8d547ea8849508e5c358
+
+Abstract:
+
+ We perform a comparative analysis of machine learning methods for the canonical problem of empirical asset pricing: measuring asset risk premiums. We demonstrate large economic gains to investors using machine learning forecasts, in some cases doubling the performance of leading regression-based strategies from the literature. We identify the best-performing methods (trees and neural networks) and trace their predictive gains to allowing nonlinear predictor interactions missed by other methods. All methods agree on the same set of dominant predictive signals, a set that includes variations on momentum, liquidity, and volatility.
+ Authors have furnished an Internet Appendix, which is available on the Oxford University Press Web site next to the link to the final published paper online.

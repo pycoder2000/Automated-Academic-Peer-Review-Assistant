@@ -1,0 +1,11 @@
+Title: Power Consumption Variation over Activation Functions
+Published: 2020-06-12T14:40:46Z
+Link: http://arxiv.org/abs/2006.07237v1
+
+Abstract:
+The power that machine learning models consume when making predictions can be
+affected by a model's architecture. This paper presents various estimates of
+power consumption for a range of different activation functions, a core factor
+in neural network model architecture design. Substantial differences in
+hardware performance exist between activation functions. This difference
+informs how power consumption in machine learning models can be reduced.

@@ -1,0 +1,1410 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Boltzmann machines and their applications</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Aarts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Korst</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings PARLE (Parallel Architectures and Languages Europe</title>
+		<title level="s">Lecture Notes in Computer Science</title>
+		<editor>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>De Bakker</surname></persName>
+			<persName><forename type="first">A</forename><forename type="middle">J C</forename><surname>Nijman &amp; P</surname></persName>
+			<persName><surname>Treleaven</surname></persName>
+		</editor>
+		<meeting>PARLE (Parallel Architectures and Languages Europe</meeting>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="volume">258</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A tree-based statistical language model for natural language speech recognition</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Bahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Desouza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Mercer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Acoustics, Speech and Signal Processing</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="1001" to="1008" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">An inequality and associated maximization technique in statistical estimation for probabilistic functions of a Markov process</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Baum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inequalities</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="1972" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Combining labeled and unlabeled data with co-training</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mitchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 11th Annual Conference on Computational Learning Theory, COLT-98</title>
+				<meeting>the 11th Annual Conference on Computational Learning Theory, COLT-98<address><addrLine>Madison, Wisconsin</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="92" to="100" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Classification and regression trees. The Wadsworth Statistics/Probability Series</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Olshen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Stone</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+			<publisher>Wadsworth International Group</publisher>
+			<pubPlace>Belmont, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A simple rule-based part-of-speech tagger</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 3rd Conference on Applied Natural Language Processing</title>
+				<meeting>the 3rd Conference on Applied Natural Language Processing</meeting>
+		<imprint>
+			<publisher>ACL</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="152" to="155" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Some advances in rule-based part-of-speech tagging</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 12th National Conference on Artificial Intelligence, AAAI</title>
+				<meeting>the 12th National Conference on Artificial Intelligence, AAAI</meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="722" to="727" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Unsupervised learning of disambiguation rules for part-of-speech tagging</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 3rd Workshop on Very Large Corpora</title>
+				<meeting>the 3rd Workshop on Very Large Corpora<address><addrLine>Massachusetts</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="1" to="13" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Classifier combination for improved lexical disambiguation</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Joint 17th International Conference on Computational Linguistics and 36th Annual Meeting of the Association for Computational Linguistics, COLING-ACL</title>
+				<meeting>the Joint 17th International Conference on Computational Linguistics and 36th Annual Meeting of the Association for Computational Linguistics, COLING-ACL<address><addrLine>Montréal, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="191" to="195" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Domain specific knowledge acquisition for conceptual sentence analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cardie</surname></persName>
+		</author>
+		<idno>94-74</idno>
+	</analytic>
+	<monogr>
+		<title level="m">University of Massachusets. Available as CMPSCI</title>
+				<imprint>
+			<date type="published" when="1994" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Massachusetts</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">An environment for morphosyntactic processing of unrestricted spanish text</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Carmona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cervell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Màrquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Martí</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Padró</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Placer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Taulé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Turmo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1st International Conference on Language Resources and Evaluation, LREC</title>
+				<meeting>the 1st International Conference on Language Resources and Evaluation, LREC</meeting>
+		<imprint>
+			<publisher>Spain: Granada</publisher>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="915" to="922" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Tagging french-Comparing a statistical and a constraint-based method</title>
+		<author>
+			<persName><forename type="first">J.-P</forename><surname>Chanod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tapanainen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 7th Conference of the European Chapter of the Association for Computational Linguistics, EACL</title>
+				<meeting>the 7th Conference of the European Chapter of the Association for Computational Linguistics, EACL<address><addrLine>Dublin, Ireland</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="149" to="156" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">A stochastic parts program and noun phrase parser for unrestricted text</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Church</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1st Conference on Applied Natural Language Processing</title>
+				<meeting>the 1st Conference on Applied Natural Language Processing</meeting>
+		<imprint>
+			<publisher>ACL</publisher>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="136" to="143" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Elements of information theory</title>
+		<editor>Cover, T.M. &amp; Thomas, J.A.</editor>
+		<imprint>
+			<date type="published" when="1991" />
+			<publisher>John Wiley &amp; Sons</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A practical part-of-speech tagger</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cutting</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kupiec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sibun</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 3rd Conference on Applied Natural Language Processing</title>
+				<meeting>the 3rd Conference on Applied Natural Language Processing</meeting>
+		<imprint>
+			<publisher>ACL</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="133" to="140" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">MBT: A memory-based part-of-speech tagger generator</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Daelemans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zavrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Berck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gillis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 4th Workshop on Very Large Corpora</title>
+				<meeting>the 4th Workshop on Very Large Corpora<address><addrLine>Copenhagen, Denmark</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="14" to="27" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Grammatical category disambiguation by statistical optimization</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Derose</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computational Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="31" to="39" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Working Paper #10, ESPRIT BRA-7315 Acquilex II</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Elworthy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note>Part-of-speech and phrasal tagging</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Does Baum-Welch re-estimation help taggers?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Elworthy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 4th Conference on Applied Natural Language Processing</title>
+				<meeting>the 4th Conference on Applied Natural Language Processing</meeting>
+		<imprint>
+			<publisher>ACL</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="53" to="58" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">The computational analysis of English: A corpus-based approach</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Garside</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Leech</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sampson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<publisher>Longman</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Automatic grammatical tagging of English</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Rubin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1971" />
+		</imprint>
+		<respStmt>
+			<orgName>Department of Linguistics, Brown University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Improving data driven wordclass tagging by system combination</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">V</forename><surname>Halteren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zavrel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Daelemans</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Joint 17th International Conference on Computational Linguistics and 36th Annual Meeting of the Association for Computational Linguistics, COLING-ACL</title>
+				<meeting>the Joint 17th International Conference on Computational Linguistics and 36th Annual Meeting of the Association for Computational Linguistics, COLING-ACL<address><addrLine>Montréal, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="491" to="497" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Constraint grammar: A languageindependent system for parsing unrestricted text</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Karlsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Voutilainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Heikkilä</surname></persName>
+		</author>
+		<editor>&amp; Anttila, A.</editor>
+		<imprint>
+			<date type="published" when="1995" />
+			<publisher>Mouton de Gruyter</publisher>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Overcoming the myopia of inductive learning algorithms with RELIEFF</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kononenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Šimec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Robnik-Šikonja</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="39" to="55" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">The linguists&apos; guide to statistics: Don&apos;t panic</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Krenn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Samuelsson</surname></persName>
+		</author>
+		<ptr target="http://coli.uni-sb.de/∼christer" />
+		<imprint>
+			<date type="published" when="1997-12-19" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report Universität des Saarlandes. Postscript version of</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Homonymy and polysemy in information retrieval</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Krovetz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 35th Annual Meeting of the Association for Computational Linguistics. Joint ACL/EACL</title>
+				<meeting>the 35th Annual Meeting of the Association for Computational Linguistics. Joint ACL/EACL<address><addrLine>Madrid, Spain</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="72" to="79" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">An optimization-based heuristic for maximal constraint satisfaction</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Larrosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Meseguer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of International Conference on Principles and Practice of Constraint Programming</title>
+				<meeting>International Conference on Principles and Practice of Constraint Programming</meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="103" to="120" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Constraint satisfaction as global optimization</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Larrosa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Meseguer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of 14th International Joint Conference on Artificial Intelligence, IJCAI &apos;95</title>
+				<meeting>14th International Joint Conference on Artificial Intelligence, IJCAI &apos;95</meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="579" to="584" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">An optimization approach to relaxation labelling algorithms</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Lloyd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Image and Vision Computing</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="85" to="91" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A distance-based attribute selection measure for decision tree induction</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>López De Mántaras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="81" to="92" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Comparing information-theoretic attribute selection measures: A statistical approach research report 96-16, IIIA</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>López De Mántaras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cerquides</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Garcia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence Communications</title>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note>To appear in</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Learning grammatical structure using statistical decision-trees</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Magerman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 3rd International Colloquium on Grammatical Inference, ICGI</title>
+		<title level="s">Lecture Notes Series in Artificial Intelligence</title>
+		<meeting>the 3rd International Colloquium on Grammatical Inference, ICGI</meeting>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="1147" />
+			<biblScope unit="page" from="1" to="21" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Building a large annotated corpus of english: The penn treebank</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Marcus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Marcinkiewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Santorini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computational Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="313" to="330" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Part-of-speech tagging: A machine-learning approach based on decision trees</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Màrquez</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+		</imprint>
+		<respStmt>
+			<orgName>Dep. Llenguatges i Sistemes Informàtics. Universitat Politècnica de Catalunya</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.d. Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">A flexible POS tagger using an automatically acquired language model</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Màrquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Padró</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 35th Annual Meeting of the Association for Computational Linguistics. Joint ACL/EACL</title>
+				<meeting>the 35th Annual Meeting of the Association for Computational Linguistics. Joint ACL/EACL<address><addrLine>Madrid, Spain</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="238" to="245" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Improving tagging accuracy by voting taggers</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Màrquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Padró</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rodríguez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2nd Conference on Natural Language Processing &amp; Industrial Applications, NLP+IA/TAL+AI</title>
+				<meeting>the 2nd Conference on Natural Language Processing &amp; Industrial Applications, NLP+IA/TAL+AI<address><addrLine>New Brunswick, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="149" to="155" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Towards learning a constraint grammar from annotated corpora using decision trees</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Màrquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rodríguez</surname></persName>
+		</author>
+		<idno>ESPRIT BRA-7315 Acquilex II</idno>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Working Paper #21</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Automatically acquiring a language model for POS tagging using decision trees</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Màrquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rodríguez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Second Conference on Recent Advances in Natural Language Processing</title>
+				<meeting>the Second Conference on Recent Advances in Natural Language Processing<address><addrLine>Bulgaria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="27" to="34" />
+		</imprint>
+	</monogr>
+	<note>RANLP</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Part-of-speech tagging using decision trees</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Màrquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Rodríguez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 10th European Conference on Machine Learning, ECML</title>
+		<title level="s">Lecture Notes in Artificial Intelligence</title>
+		<meeting>the 10th European Conference on Machine Learning, ECML<address><addrLine>Chemnitz, Germany</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">1398</biblScope>
+			<biblScope unit="page" from="25" to="36" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Using decision trees for coreference resolution</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Lehnert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 14th International Joint Conference on Artificial Intelligence, IJCAI</title>
+				<meeting>the 14th International Joint Conference on Artificial Intelligence, IJCAI</meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="1050" to="1055" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Tagging english text with a probabilistic model</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Merialdo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computational Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="155" to="171" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Comparative experiments on disambiguating word senses: An illustration of the role of bias in machine learning</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Mooney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1st Conference on Empirical Methods in Natural Language Processing</title>
+				<meeting>the 1st Conference on Empirical Methods in Natural Language Processing</meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="82" to="91" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Learning to classify text from labeled and unlabeled documents</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nigam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mccallum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thrun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mitchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 15th National Conference on Artificial Intelligence, AAAI-98</title>
+				<meeting>the 15th National Conference on Artificial Intelligence, AAAI-98<address><addrLine>Madison, Wisconsin</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Corpus linguistic and the automatic analysis of English</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Oostdijk</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+			<pubPlace>Amsterdam: Rodopi</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">POS tagging using relaxation labelling</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Padró</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 16th International Conference on Computational Linguistics, COLING</title>
+				<meeting>the 16th International Conference on Computational Linguistics, COLING<address><addrLine>Copenhagen, Denmark</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="877" to="882" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">A hybrid environment for syntax-semantic tagging</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Padró</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+		<respStmt>
+			<orgName>Dep. Llenguatges i Sistemes Informàtics. Universitat Politècnica de Catalunya</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.d. Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">On the evaluation and comparison of taggers: The effect of noise in testing corpora</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Padró</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Màrquez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Joint 17th International Conference on Computational Linguistics and 36th Annual Meeting of the Association for Computational Linguistics, COLING-ACL</title>
+				<meeting>the Joint 17th International Conference on Computational Linguistics and 36th Annual Meeting of the Association for Computational Linguistics, COLING-ACL<address><addrLine>Montréal, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="997" to="1002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Using simulated annealing to train relaxation labelling processes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pelillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maffione</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICANN &apos;94</title>
+				<meeting>ICANN &apos;94</meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="250" to="253" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Learning compatibility coefficients for relaxation labeling processes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pelillo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Refice</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="933" to="945" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">C4.5: Programs for machine learning</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>Morgan Kaufmann Publishers Inc</publisher>
+			<pubPlace>San Mateo, CA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Induction of decision trees</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine Learning</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="81" to="106" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">A maximum entropy part-of-speech tagger</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ratnaparkhi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1st Conference on Empirical Methods in Natural Language Processing</title>
+				<meeting>the 1st Conference on Empirical Methods in Natural Language Processing</meeting>
+		<imprint>
+			<publisher>EMNLP</publisher>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">A simple introduction to maximum entropy models for natural language processing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ratnaparkhi</surname></persName>
+		</author>
+		<idno>97-08</idno>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+		<respStmt>
+			<orgName>Institute for Research in Cognitive Science, University of Pennsylvania</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">On the accuracy of pixel relaxation labelling</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Richards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Landgrebe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Swain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Systems, Man and Cybernetics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="303" to="309" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Nonuniform Markov models</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ristad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Thomas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Acoustics, Speech and Signal Processing</title>
+				<meeting>the International Conference on Acoustics, Speech and Signal Processing<address><addrLine>Munich, Germany</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Maximum entropy modeling for natural language</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Ristad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Joint ACL/EACL Tutorial Program</title>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Adaptive statistical language modelling: A maximum entropy approach</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rosenfeld</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+		</imprint>
+		<respStmt>
+			<orgName>School of Computer Science, Carnegie Mellon University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.d. Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Scene labelling by relaxation operations</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rosenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hummel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zucker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Systems, Man and Cybernetics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="420" to="433" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Inducing constraint grammars</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Samuelsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tapanainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Voutilainen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 3rd International Colloquium on Grammatical Inference, ICGI</title>
+				<meeting>the 3rd International Colloquium on Grammatical Inference, ICGI<address><addrLine>Montpellier, France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="146" to="155" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Comparing a linguistic and a stochastic tagger</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Samuelsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Voutilainen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 35th Annual Meeting of the Association for Computational Linguistics</title>
+				<meeting>the 35th Annual Meeting of the Association for Computational Linguistics<address><addrLine>Madrid, Spain</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="246" to="253" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Aggregate and mixed-order Markov models for statistical language processing</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Saul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pereira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2nd Conference on Empirical Methods in Natural Language Processing</title>
+				<meeting>the 2nd Conference on Empirical Methods in Natural Language Processing</meeting>
+		<imprint>
+			<publisher>EMNLP</publisher>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Part-of-speech tagging with neural networks</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 15th International Conference on Computational Linguistics, COLING</title>
+				<meeting>the 15th International Conference on Computational Linguistics, COLING<address><addrLine>Kyoto, Japan</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="172" to="176" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Probabilistic part-of-speech tagging using decision trees</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Conference on New Methods in Language Processing</title>
+				<meeting>the Conference on New Methods in Language Processing<address><addrLine>Manchester, UK</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="44" to="49" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">Relaxation methods in engineering science</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Southwell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1940" />
+			<pubPlace>Clarendon</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Relaxation and neural learning: Points of convergence and divergence</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Torras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Parallel and Distributed Computing</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="217" to="244" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Three studies of grammar-based surface parsing on unrestricted English text</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Voutilainen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+		</imprint>
+		<respStmt>
+			<orgName>Department of General Linguistics. University of Helsinki</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.d. Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Developing a hybrid NP parser</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Voutilainen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Padró</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 5th Conference on Applied Natural Language Processing</title>
+				<meeting>the 5th Conference on Applied Natural Language Processing<address><addrLine>Washington DC</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACL</publisher>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="80" to="97" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<title level="m" type="main">Understanding line drawings of scenes with shadows: Psychology of Computer Vision</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Waltz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1975" />
+			<publisher>McGraw-Hill</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Coping with ambiguity and unknown words through probabilistic models</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Weischedel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Palmucci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meteer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ramshaw</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computational Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="359" to="382" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Combining independent knowledge sources for word sense disambiguation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wilks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stevenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Second Conference on Recent Advances in Natural Language Processing</title>
+				<meeting>the Second Conference on Recent Advances in Natural Language Processing<address><addrLine>Tzigov Chark, Bulgaria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="1" to="7" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">A statistical-heuristic feature selection criterion for decision tree induction</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Dillon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="834" to="841" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

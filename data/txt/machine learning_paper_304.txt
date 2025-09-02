@@ -1,0 +1,6 @@
+Title: Machine Learning Methods That Economists Should Know About
+Published: 2019-03-24
+Link: https://www.semanticscholar.org/paper/d75356e2bf674902a06a14bb55d18ee88af5b4bb
+
+Abstract:
+We discuss the relevance of the recent machine learning (ML) literature for economics and econometrics. First we discuss the differences in goals, methods, and settings between the ML literature and the traditional econometrics and statistics literatures. Then we discuss some specific methods from the ML literature that we view as important for empirical researchers in economics. These include supervised learning methods for regression and classification, unsupervised learning methods, and matrix completion methods. Finally, we highlight newly developed methods at the intersection of ML and econometrics that typically perform better than either off-the-shelf ML or more traditional econometric methods when applied to particular classes of problems, including causal inference for average treatment effects, optimal policy estimation, and estimation of the counterfactual effect of price changes in consumer choice models.

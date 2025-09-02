@@ -1,0 +1,6 @@
+Title: Electronic skins and machine learning for intelligent soft robots
+Published: 2020-04-22
+Link: https://www.semanticscholar.org/paper/feaeda74182d7f9890a6ff5a1733ee21a288cbd3
+
+Abstract:
+Developments in e-skins and machine learning may achieve tactile sensing and proprioception for autonomous, deployable soft robots. Soft robots have garnered interest for real-world applications because of their intrinsic safety embedded at the material level. These robots use deformable materials capable of shape and behavioral changes and allow conformable physical contact for manipulation. Yet, with the introduction of soft and stretchable materials to robotic systems comes a myriad of challenges for sensor integration, including multimodal sensing capable of stretching, embedment of high-resolution but large-area sensor arrays, and sensor fusion with an increasing volume of data. This Review explores the emerging confluence of e-skins and machine learning, with a focus on how roboticists can combine recent developments from the two fields to build autonomous, deployable soft robots, integrated with capabilities for informative touch and proprioception to stand up to the challenges of real-world environments.

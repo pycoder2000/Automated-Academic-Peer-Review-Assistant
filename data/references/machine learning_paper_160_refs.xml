@@ -1,0 +1,2511 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Deep convolution neural network for image recognition. Ecological informatics</title>
+		<author>
+			<persName><forename type="first">Bernard</forename><surname>Boukaye Boubacar Traore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fana</forename><surname>Kamsu-Foguem</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Tangara</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="257" to="268" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Image recognition with deep learning</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Islam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M N</forename><surname>Karim Siddique</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jabid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2018 International Conference on Intelligent Informatics and Biomedical Sciences (ICIIBMS)</title>
+				<imprint>
+			<date type="published" when="2018-10" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="106" to="110" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Chaofan</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oscar</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alina</forename><surname>Barnett</surname></persName>
+		</author>
+		<imprint>
+			<pubPlace>Cynthia Rudin, and</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">This looks like that: deep learning for interpretable image recognition</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jonathan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Su</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+				<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page" from="8928" to="8939" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Soujanya Poria, and Erik Cambria. Recent trends in deep learning based natural language processing. ieee Computational intelligenCe magazine</title>
+		<author>
+			<persName><forename type="first">Tom</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Devamanyu</forename><surname>Hazarika</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="55" to="75" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">A survey of the usages of deep learning in natural language processing</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Daniel</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Otter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Julian</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Medina</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kalita</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1807.10854</idno>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Deep learning and natural language processing. Brain and nerve= Shinkei kenkyu no shinpo</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tsuruoka</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page">45</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Deep learning in bioinformatics: Introduction, application, and perspective in the big data era</title>
+		<author>
+			<persName><forename type="first">Yu</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chao</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lizhong</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhongxiao</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yijie</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xin</forename><surname>Gao</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Recent advances of deep learning in bioinformatics and computational biology</title>
+		<author>
+			<persName><forename type="first">Binhua</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zixiang</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Asif</forename><surname>Kang Yin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Khateeb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Frontiers in Genetics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A primer on deep learning in genomics</title>
+		<author>
+			<persName><forename type="first">James</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mikael</forename><surname>Huss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abubakar</forename><surname>Abid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pejman</forename><surname>Mohammadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><surname>Torkamani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amalio</forename><surname>Telenti</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature genetics</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="12" to="18" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Deep learning for computational biology</title>
+		<author>
+			<persName><forename type="first">Christof</forename><surname>Angermueller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tanel</forename><surname>Pärnamaa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leopold</forename><surname>Parts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oliver</forename><surname>Stegle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular systems biology</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Bioinformatics and medicine in the era of deep learning</title>
+		<author>
+			<persName><forename type="first">Davide</forename><surname>Bacciu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Paulo</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Lisboa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>José</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ruxandra</forename><surname>Martín</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alfredo</forename><surname>Stoean</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Vellido</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1802.09791</idno>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Physicsinformed neural networks: A deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations</title>
+		<author>
+			<persName><forename type="first">Maziar</forename><surname>Raissi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paris</forename><surname>Perdikaris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">E</forename><surname>Karniadakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computational Physics</title>
+		<imprint>
+			<biblScope unit="volume">378</biblScope>
+			<biblScope unit="page" from="686" to="707" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Latent force models</title>
+		<author>
+			<persName><forename type="first">Mauricio</forename><surname>Alvarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Luengo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Neil D</forename><surname>Lawrence</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Artificial Intelligence and Statistics</title>
+				<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="9" to="16" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Coupled latent differential equation with moderators: Simulation and application</title>
+		<author>
+			<persName><forename type="first">Yueqin</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steve</forename><surname>Boker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Neale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kelly</forename><forename type="middle">L</forename><surname>Klump</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Methods</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">56</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Switched latent force models for movement segmentation</title>
+		<author>
+			<persName><forename type="first">Mauricio</forename><surname>Alvarez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jan</forename><forename type="middle">R</forename><surname>Peters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Neil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernhard</forename><surname>Lawrence</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Schölkopf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in neural information processing systems</title>
+				<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="55" to="63" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Neural ordinary differential equations</title>
+		<author>
+			<persName><forename type="first">Yulia</forename><surname>Tian Qi Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jesse</forename><surname>Rubanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">K</forename><surname>Bettencourt</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Duvenaud</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in neural information processing systems</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="6571" to="6583" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Resnet with one-neuron hidden layers is a universal approximator</title>
+		<author>
+			<persName><forename type="first">Hongzhou</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefanie</forename><surname>Jegelka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="6169" to="6178" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Performance of deep and shallow neural networks, the universal approximation theorem, activity cliffs, and qsar</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tu C</forename><surname>Winkler</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Le</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Molecular informatics</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page">1600118</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The general approximation theorem</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Alexander</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gorban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Donald</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Wunsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE International Joint Conference on Neural Networks Proceedings. IEEE World Congress on Computational Intelligence (Cat. No. 98CH36227)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1271" to="1274" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Neural network adaptive control of nonlinear plants</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Arahal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Camacho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">5th IFAC Symposium on Adaptive Systems in Control and Signal Processing</title>
+				<meeting><address><addrLine>Budapest, Hungary</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995-06" />
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="14" to="16" />
+		</imprint>
+	</monogr>
+	<note>IFAC Proceedings Volumes</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Neural network augmented physics models for systems with partially unknown dynamics: Application to slider-crank mechanism</title>
+		<author>
+			<persName><forename type="first">Edward</forename><surname>Wannes De Groote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erik</forename><surname>Kikken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sofie</forename><surname>Hostens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guillaume</forename><surname>Van Hoecke</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Crevecoeur</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1910.12212</idno>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Adam A method for stochastic optimization</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Diederik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jimmy</forename><surname>Kingma</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ba</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1412.6980</idno>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">On the limited memory bfgs method for large scale optimization</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jorge</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Nocedal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mathematical programming</title>
+				<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="503" to="528" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">What is an adjoint model? Bulletin of the</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ronald</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Errico</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>American Meteorological Society</publisher>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="2577" to="2592" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">A review of adjoint methods for sensitivity analysis, uncertainty quantification and optimization in numerical codes</title>
+		<author>
+			<persName><forename type="first">Grégoire</forename><surname>Allaire</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015-07" />
+			<biblScope unit="volume">836</biblScope>
+			<biblScope unit="page" from="33" to="36" />
+		</imprint>
+	</monogr>
+	<note>Ingenieurs de l&apos;Automobile</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Computational science and engineering</title>
+		<author>
+			<persName><forename type="first">Gilbert</forename><surname>Strang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+			<publisher>Wellesley-Cambridge Press Wellesley</publisher>
+			<biblScope unit="volume">791</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">SUNDIALS: Suite of nonlinear and differential/algebraic equation solvers</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Alan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hindmarsh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keith</forename><forename type="middle">E</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Grant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Steven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Radu</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dan</forename><forename type="middle">E</forename><surname>Serban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carol</forename><forename type="middle">S</forename><surname>Shumaker</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Woodward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Mathematical Software (TOMS)</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="363" to="396" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Notes on adjoint methods for 18</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Steven</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Johnson</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">335</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Efficient gradient computation for dynamical models</title>
+		<author>
+			<persName><forename type="first">Biswa</forename><surname>Sengupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karl</forename><forename type="middle">J</forename><surname>Friston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William D</forename><surname>Penny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NeuroImage</title>
+		<imprint>
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="521" to="527" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">A comparison of automatic differentiation and continuous sensitivity analysis for derivatives of differential equation solutions</title>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>Rackauckas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yingbo</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vaibhav</forename><surname>Dixit</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xingjian</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mike</forename><surname>Innes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jarrett</forename><surname>Revels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joakim</forename><surname>Nyberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vijay</forename><surname>Ivaturi</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1812.01892</idno>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Avik Pal, and Viral Shah. Fashionable modelling with flux</title>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Innes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elliot</forename><surname>Saba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keno</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dhairya</forename><surname>Gandhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Concetto Rudilosso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Neethu</forename><forename type="middle">Mariya</forename><surname>Joy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tejan</forename><surname>Karmali</surname></persName>
+		</author>
+		<idno>abs/1811.01457</idno>
+		<imprint>
+			<date type="published" when="2018" />
+			<publisher>CoRR</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Pytorch: An imperative style, high-performance deep learning library</title>
+		<author>
+			<persName><forename type="first">Adam</forename><surname>Paszke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sam</forename><surname>Gross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francisco</forename><surname>Massa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adam</forename><surname>Lerer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><surname>Bradbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><surname>Chanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Trevor</forename><surname>Killeen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zeming</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Natalia</forename><surname>Gimelshein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luca</forename><surname>Antiga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alban</forename><surname>Desmaison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Kopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zachary</forename><surname>Devito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Raison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alykhan</forename><surname>Tejani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sasank</forename><surname>Chilamkurthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Benoit</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lu</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Junjie</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Soumith</forename><surname>Chintala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+				<editor>
+			<persName><forename type="first">H</forename><surname>Wallach</surname></persName>
+			<persName><forename type="first">H</forename><surname>Larochelle</surname></persName>
+			<persName><forename type="first">A</forename><surname>Beygelzimer</surname></persName>
+			<persName><forename type="first">F</forename><surname>Buc</surname></persName>
+			<persName><forename type="first">E</forename><surname>Fox</surname></persName>
+			<persName><forename type="first">R</forename><surname>Garnett</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Curran Associates, Inc</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="8024" to="8035" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<author>
+			<persName><forename type="first">Mike</forename><surname>Innes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alan</forename><surname>Edelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Keno</forename><surname>Fischer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chris</forename><surname>Rackauckus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elliot</forename><surname>Saba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Viral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Will</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Tebbutt</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1907.07587</idno>
+		<title level="m">Zygote: A differentiable programming system to bridge machine learning and scientific computing</title>
+				<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Generating efficient derivative code with taf: adjoint and tangent linear euler flow around an airfoil. Future generation computer systems</title>
+		<author>
+			<persName><forename type="first">Ralf</forename><surname>Giering</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Kaminski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Slawig</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1345" to="1355" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">The tapenade automatic differentiation tool: Principles, model, and specification</title>
+		<author>
+			<persName><forename type="first">Laurent</forename><surname>Hascoet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valérie</forename><surname>Pascual</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Mathematical Software (TOMS)</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Differentialequations.jl -a performant and feature-rich ecosystem for solving differential equations in julia</title>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>Rackauckas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qing</forename><surname>Nie</surname></persName>
+		</author>
+		<ptr target="https://app.dimensions.aion2019/05/05" />
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Open Research Software</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Earth system modeling 2.0: A blueprint for models that learn from observations and targeted high-resolution simulations</title>
+		<author>
+			<persName><forename type="first">Tapio</forename><surname>Schneider</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shiwei</forename><surname>Lan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Stuart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joao</forename><surname>Teixeira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Geophysical Research Letters</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page" from="12" to="396" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Quantumoptics.jl: A julia framework for simulating open quantum systems</title>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Krämer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Plankensteiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Laurin</forename><surname>Ostermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Helmut</forename><surname>Ritsch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computer Physics Communications</title>
+		<imprint>
+			<biblScope unit="volume">227</biblScope>
+			<biblScope unit="page" from="109" to="116" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Anode: Unconditionally accurate memory-efficient gradients for neural odes</title>
+		<author>
+			<persName><forename type="first">Amir</forename><surname>Gholami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kurt</forename><surname>Keutzer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><surname>Biros</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1902.10298</idno>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Discrete adjoint sensitivity analysis of hybrid dynamical systems with switching</title>
+		<author>
+			<persName><forename type="first">Hong</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shrirang</forename><surname>Abhyankar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emil</forename><surname>Constantinescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mihai</forename><surname>Anitescu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Circuits and Systems I: Regular Papers</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1247" to="1259" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">The discrete adjoint method for parameter identification in multibody system dynamics</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Lauß</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stefan</forename><surname>Oberpeilsteiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Steiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karin</forename><surname>Nachbagauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Multibody system dynamics</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="397" to="410" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Forward-mode automatic differentiation in julia</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Revels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lubin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Papamarkou</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1607.07892</idno>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>cs.MS</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Discretize-optimize vs. optimizediscretize for time-series regression and continuous normalizing flows</title>
+		<author>
+			<persName><forename type="first">Derek</forename><surname>Onken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lars</forename><surname>Ruthotto</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2005.13420</idno>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">The effect of stabilization in finite element methods for the optimal boundary control of the oseen equations</title>
+		<author>
+			<persName><forename type="first">Feby</forename><surname>Abraham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marek</forename><surname>Behr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthias</forename><surname>Heinkenschloss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Finite Elements in Analysis and Design</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="229" to="251" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen L</forename><surname>Betts</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Campbell</surname></persName>
+		</author>
+		<title level="m">Discretize then optimize. Mathematics for industry: challenges and frontiers</title>
+				<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="140" to="157" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Geng</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Martin</forename><surname>Geier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhenyu</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manfred</forename><surname>Krafczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tao</forename><surname>Chen</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Discrete adjoint sensitivity analysis for fluid flow topology optimization based on the generalized lattice boltzmann method</title>
+	</analytic>
+	<monogr>
+		<title level="j">Computers &amp; Mathematics with Applications</title>
+		<imprint>
+			<biblScope unit="volume">68</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="1374" to="1392" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Discrete adjoint method for the sensitivity analysis of flexible multibody systems</title>
+		<author>
+			<persName><forename type="first">Alfonso</forename><surname>Callejo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valentin</forename><surname>Sonneville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Olivier</forename><forename type="middle">A</forename><surname>Bauchau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computational and Nonlinear Dynamics</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Analysis of the streamline upwind/petrov galerkin method applied to the solution of optimal control problems</title>
+		<author>
+			<persName><forename type="first">Scott</forename><surname>Collis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthias</forename><surname>Heinkenschloss</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Non-commutative discretize-then-optimize algorithms for elliptic pde-constrained optimal control problems</title>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhu</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computational and Applied Mathematics</title>
+		<imprint>
+			<biblScope unit="volume">362</biblScope>
+			<biblScope unit="page" from="596" to="613" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">A note on the application of the matrix riccati equation to the optimal control of distributed parameter systems</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Huntley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Automatic Control</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="487" to="489" />
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Finite difference of adjoint or adjoint of finite difference? Monthly weather review</title>
+		<author>
+			<persName><forename type="first">Ziv</forename><surname>Sirkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eli</forename><surname>Tziperman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="3373" to="3378" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Assessment of continuous and discrete adjoint method for sensitivity analysis in two-phase flow simulations</title>
+		<author>
+			<persName><forename type="first">Guojun</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomasz</forename><surname>Kozlowski</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1805.08083</idno>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<title level="m" type="main">Sensitivity analysis: The direct and adjoint method</title>
+		<author>
+			<persName><surname>Johannes Kepler</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Review of options for structural design sensitivity analysis. part 1: Linear systems</title>
+		<author>
+			<persName><surname>Van Keulen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Haftka</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computer methods in applied mechanics and engineering</title>
+		<imprint>
+			<biblScope unit="volume">194</biblScope>
+			<biblScope unit="page" from="3213" to="3243" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">Implementation of discrete adjoint method for parameter sensitivity analysis in chemically reacting flows</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kouhi</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Houzeaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cucchietti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Vázquez</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rodriguez</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">A comparison of the continuous and discrete adjoint approach to automatic aerodynamic optimization</title>
+		<author>
+			<persName><forename type="first">Siva</forename><surname>Nadarajah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antony</forename><surname>Jameson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">38th Aerospace Sciences Meeting and Exhibit</title>
+				<imprint>
+			<biblScope unit="page">667</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Continuous versus discrete advection adjoints in chemical data assimilation with cmaq</title>
+		<author>
+			<persName><forename type="first">Tianyi</forename><surname>Gou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adrian</forename><surname>Sandu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Atmospheric environment</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">28</biblScope>
+			<biblScope unit="page" from="4868" to="4881" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Adjoint methods in computational science, engineering, and finance (dagstuhl seminar 14371)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Nicolas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Gauger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Max</forename><surname>Giles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Uwe</forename><surname>Gunzburger</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Naumann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Dagstuhl Reports</title>
+				<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">4</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Development and assessment of adjoint sensitivity analysis method for transient two-phase flow simulations</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kozlowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">18th International Topical Meeting on Nuclear Reactor Thermal Hydraulics, NURETH 2019 ; Conference date</title>
+				<imprint>
+			<date type="published" when="2019-01-18" />
+			<biblScope unit="page" from="2246" to="2259" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Direct and adjoint sensitivity analysis of chemical kinetic systems with kpp: Ii-numerical validation and applications</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dacian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adrian</forename><surname>Daescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gregory</forename><forename type="middle">R</forename><surname>Sandu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Carmichael</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Atmospheric Environment</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">36</biblScope>
+			<biblScope unit="page" from="5097" to="5114" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Runge-kutta discretization of optimal control problems</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwartz</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Polak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IFAC Proceedings Volumes</title>
+				<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="123" to="128" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">On the discretize then optimize approach. Preprint for Industrial and Systems Engineering</title>
+		<author>
+			<persName><forename type="first">Kimia</forename><surname>Ghobadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nedialko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tamas</forename><surname>Nedialkov</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Terlaky</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">A note on consistency and adjointness for numerical schemes</title>
+		<author>
+			<persName><forename type="first">Alain</forename><surname>Sei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>William</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Symes</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Runge-kutta methods in optimal control and the transformed adjoint system</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>William</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hager</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Numerische Mathematik</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="247" to="282" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Adjoint sensitivity analysis of regional air quality models</title>
+		<author>
+			<persName><forename type="first">Adrian</forename><surname>Sandu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Dacian</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Daescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gregory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tianfeng</forename><surname>Carmichael</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Chai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computational Physics</title>
+		<imprint>
+			<biblScope unit="volume">204</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="222" to="252" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<title level="m" type="main">Sparsity programming: Automated sparsityaware optimizations in differentiable programming</title>
+		<author>
+			<persName><forename type="first">Shashi</forename><surname>Gowda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yingbo</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Valentin</forename><surname>Churavy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alan</forename><surname>Edelman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>Rackauckas</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<author>
+			<persName><forename type="first">Xuechen</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ting-Kam Leonard</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ricky</forename><forename type="middle">T Q</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Duvenaud</surname></persName>
+		</author>
+		<title level="m">Scalable gradients for stochastic differential equations. International Conference on Artificial Intelligence and Statistics</title>
+				<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Solving Ordinary Differential Equations I (2nd Revised</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hairer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Nørsett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wanner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Nonstiff Problems</title>
+				<meeting><address><addrLine>Berlin, Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<monogr>
+		<author>
+			<persName><forename type="first">Zichao</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yiping</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xianzhong</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bin</forename><surname>Dong</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1710.09668</idno>
+		<title level="m">Pde-net: Learning pdes from data</title>
+				<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title level="m" type="main">Multistep neural networks for data-driven discovery of nonlinear dynamical systems</title>
+		<author>
+			<persName><forename type="first">Maziar</forename><surname>Raissi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paris</forename><surname>Perdikaris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><forename type="middle">Em</forename><surname>Karniadakis</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1801.01236</idno>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Dynamic mode decomposition of numerical and experimental data</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peter</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of fluid mechanics</title>
+		<imprint>
+			<biblScope unit="volume">656</biblScope>
+			<biblScope unit="page" from="5" to="28" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">A data-driven approximation of the koopman operator: Extending dynamic mode decomposition</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Matthew</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ioannis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clarence</forename><forename type="middle">W</forename><surname>Kevrekidis</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Rowley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Nonlinear Science</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1307" to="1346" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Extended dynamic mode decomposition with dictionary learning: A datadriven adaptive spectral decomposition of the koopman operator</title>
+		<author>
+			<persName><forename type="first">Qianxiao</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Felix</forename><surname>Dietrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erik</forename><forename type="middle">M</forename><surname>Bollt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ioannis</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kevrekidis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chaos: An Interdisciplinary Journal of Nonlinear Science</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">103111</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Learning koopman invariant subspaces for dynamic mode decomposition</title>
+		<author>
+			<persName><forename type="first">Naoya</forename><surname>Takeishi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshinobu</forename><surname>Kawahara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Takehisa</forename><surname>Yairi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="1130" to="1140" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Learning partial differential equations via data discovery and sparse optimization</title>
+		<author>
+			<persName><forename type="first">Hayden</forename><surname>Schaeffer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences</title>
+		<imprint>
+			<biblScope unit="volume">473</biblScope>
+			<biblScope unit="page">20160446</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Markus</forename><surname>Quade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Markus</forename><surname>Abel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kamran</forename><surname>Shafi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Robert</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Niven</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Prediction of dynamical systems by symbolic regression</title>
+		<author>
+			<persName><surname>Bernd R Noack</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Physical Review E</title>
+		<imprint>
+			<biblScope unit="volume">94</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">12214</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Evolutionary modeling of systems of ordinary differential equations with genetic programming</title>
+		<author>
+			<persName><forename type="first">Hongqing</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lishan</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuping</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jingxian</forename><surname>Yu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genetic Programming and Evolvable Machines</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="309" to="337" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<monogr>
+		<title level="m" type="main">Evolutionary algorithms in genetic regulatory networks model. CoRR, abs/1205</title>
+		<author>
+			<persName><forename type="first">Khalid</forename><surname>Raza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rafat</forename><surname>Parveen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Extracting sparse highdimensional dynamics from limited data</title>
+		<author>
+			<persName><forename type="first">Hayden</forename><surname>Schaeffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giang</forename><surname>Tran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rachel</forename><surname>Ward</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM Journal on Applied Mathematics</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="3279" to="3295" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<monogr>
+		<title level="m" type="main">A comparative study of physics-informed neural network models for learning unknown dynamics and constitutive relations. CoRR, abs</title>
+		<author>
+			<persName><forename type="first">Ramakrishna</forename><surname>Tipireddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Paris</forename><surname>Perdikaris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Panos</forename><surname>Stinis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandre</forename><forename type="middle">M</forename><surname>Tartakovsky</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1904" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Discovering governing equations from data by sparse identification of nonlinear dynamical systems</title>
+		<author>
+			<persName><forename type="first">Joshua</forename><forename type="middle">L</forename><surname>Steven L Brunton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J Nathan</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="issue">15</biblScope>
+			<biblScope unit="page" from="3932" to="3937" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Inferring biological networks by sparse identification of nonlinear dynamics</title>
+		<author>
+			<persName><surname>Niall M Mangan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Steven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joshua</forename><forename type="middle">L</forename><surname>Brunton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J Nathan</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Molecular, Biological and Multi-Scale Communications</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="52" to="63" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Model selection for dynamical systems via sparse regression and information criteria</title>
+		<author>
+			<persName><forename type="first">Nathan</forename><surname>Niall M Mangan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Kutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Steven</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joshua</forename><forename type="middle">L</forename><surname>Brunton</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Proctor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the Royal Society A: Mathematical, Physical and Engineering Sciences</title>
+		<imprint>
+			<biblScope unit="volume">473</biblScope>
+			<biblScope unit="page">20170009</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<monogr>
+		<title level="m" type="main">A unified framework for sparse relaxed regularized regression: SR3</title>
+		<author>
+			<persName><forename type="first">Peng</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Travis</forename><surname>Askham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">L</forename><surname>Brunton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Nathan</forename><surname>Kutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aleksandr</forename><forename type="middle">Y</forename><surname>Aravkin</surname></persName>
+		</author>
+		<imprint>
+			<publisher>IEEE Access</publisher>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1404" to="1423" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+		<title level="m" type="main">A unified sparse optimization framework to learn parsimonious physics-informed models from data</title>
+		<author>
+			<persName><forename type="first">Kathleen</forename><surname>Champion</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peng</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aleksandr</forename><forename type="middle">Y</forename><surname>Aravkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">L</forename><surname>Brunton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Nathan</forename><surname>Kutz</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<monogr>
+		<title level="m" type="main">Universal Battery Performance and Degradation Model for Electric Aircraft</title>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Bills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shashank</forename><surname>Sripad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">Leif</forename><surname>Fredericks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><surname>Guttenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Devin</forename><surname>Charles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Evan</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Venkatasubramanian</forename><surname>Viswanathan</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<monogr>
+		<title level="m" type="main">Splash upon impact on a deep pool</title>
+		<author>
+			<persName><forename type="first">Raj</forename><surname>Dandekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lydia</forename><surname>Bourouiba</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>In preparation</note>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Adjoint sensitivity analysis for differential-algebraic equations: The adjoint dae system and its numerical solution</title>
+		<author>
+			<persName><forename type="first">Yang</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shengtai</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Linda</forename><surname>Petzold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Radu</forename><surname>Serban</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM journal on scientific computing</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1076" to="1089" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">The wave of advance of advantageous genes</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Fisher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Eugenics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="355" to="369" />
+			<date type="published" when="1937" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<monogr>
+		<title level="m" type="main">The Theory and Applications of Reaction-diffusion Equations: Patterns and Waves. Oxford applied mathematics and computing science series</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Grindrod</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Clarendon Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Dgm: A deep learning algorithm for solving partial differential equations</title>
+		<author>
+			<persName><forename type="first">Justin</forename><surname>Sirignano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Konstantinos</forename><surname>Spiliopoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computational Physics</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page" from="1339" to="1364" />
+			<date type="published" when="2018-12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Aristidis Likas, and Dimitrios I Fotiadis. Artificial neural networks for solving ordinary and partial differential equations</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Isaac</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Lagaris</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE transactions on neural networks</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="987" to="1000" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Deep learning-based numerical methods for high-dimensional parabolic partial differential equations and backward stochastic differential equations</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Weinan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiequn</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arnulf</forename><surname>Jentzen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications in Mathematics and Statistics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="349" to="380" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Solving high-dimensional partial differential equations using deep learning</title>
+		<author>
+			<persName><forename type="first">Jiequn</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arnulf</forename><surname>Jentzen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Weinan</forename><forename type="middle">E</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="issue">34</biblScope>
+			<biblScope unit="page" from="8505" to="8510" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<monogr>
+		<title level="m" type="main">Weak adversarial networks for high-dimensional partial differential equations</title>
+		<author>
+			<persName><forename type="first">Yaohua</forename><surname>Zang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gang</forename><surname>Bao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaojing</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Haomin</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1907.08272</idno>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<monogr>
+		<title level="m" type="main">Some machine learning schemes for high-dimensional nonlinear pdes</title>
+		<author>
+			<persName><forename type="first">Côme</forename><surname>Huré</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huyên</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xavier</forename><surname>Warin</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1902.01599</idno>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">An adaptive timestepping algorithm for stochastic differential equations</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lamba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of computational and applied mathematics</title>
+		<imprint>
+			<biblScope unit="volume">161</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="417" to="430" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Chapter 4 -equations governing geophysical flows</title>
+		<author>
+			<persName><forename type="first">Jean-Marie</forename><surname>Benoit Cushman-Roisin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Beckers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Geophysics</title>
+		<editor>Benoit Cushman-Roisin and Jean-Marie Beckers</editor>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page">129</biblScope>
+			<date type="published" when="2011" />
+			<publisher>Academic Press</publisher>
+		</imprint>
+	</monogr>
+	<note>Introduction to Geophysical Fluid Dynamics</note>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Chapter 11 -atmospheric dynamics</title>
+		<author>
+			<persName><forename type="first">Zhihua</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Mathematical and Physical Fundamentals of Climate Change</title>
+				<editor>
+			<persName><forename type="first">Zhihua</forename><surname>Zhang</surname></persName>
+			<persName><forename type="first">John</forename><forename type="middle">C</forename><surname>Moore</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Boston</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="347" to="405" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Section 1.3 -governing equations</title>
+	</analytic>
+	<monogr>
+		<title level="m">Numerical Models of Oceans and Oceanic Processes</title>
+				<editor>
+			<persName><forename type="first">H</forename><surname>Lakshmi</surname></persName>
+			<persName><forename type="first">Carol</forename><forename type="middle">Anne</forename><surname>Kantha</surname></persName>
+			<persName><surname>Clayson</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="2000" />
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="28" to="46" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<monogr>
+		<title level="m" type="main">Formulating the equations of ocean models</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alistair J</forename><surname>Griffies</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Adcroft</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<monogr>
+		<title level="m" type="main">Theory and Numerics of the Community Ocean Vertical Mixing (CVMix) Project</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stephen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Griffies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alistair</forename><forename type="middle">J</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gokhan</forename><surname>Adcroft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">W</forename><surname>Danabasoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Doug</forename><surname>Hallberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><surname>Jacobsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Todd</forename><surname>Large</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ringler</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">98</biblScope>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical report</note>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>+ V Pages</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<monogr>
+		<title level="m" type="main">Understanding Rheology. Raymond F. Boyer Library Collection</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Morrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P C E F A</forename><surname>Morrison</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title level="a" type="main">Alternative derivation of differential constitutive equations of the oldroyd-b type</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Oliveira</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Non-Newtonian Fluid Mechanics</title>
+		<imprint>
+			<biblScope unit="volume">160</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="40" to="46" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>Complex flows of complex fluids</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

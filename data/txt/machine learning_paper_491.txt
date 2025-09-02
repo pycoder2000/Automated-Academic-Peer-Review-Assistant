@@ -1,0 +1,6 @@
+Title: Machine learning based medical image deepfake detection: A comparative study
+Published: 2022-04-11T16:32:51Z
+Link: https://doi.org/10.1016/j.mlwa.2022.100298
+
+Abstract:
+

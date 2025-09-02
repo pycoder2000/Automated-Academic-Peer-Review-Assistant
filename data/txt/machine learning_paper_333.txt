@@ -1,0 +1,6 @@
+Title: Techniques for interpretable machine learning
+Published: 2018-07-31
+Link: https://www.semanticscholar.org/paper/3df952d4a724655f7520ff95d4b2cef90fff0cae
+
+Abstract:
+Uncovering the mysterious ways machine learning models make decisions.

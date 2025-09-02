@@ -1,0 +1,21 @@
+Title: Quantum-Classical Machine learning by Hybrid Tensor Networks
+Published: 2020-05-15T10:20:35Z
+Link: http://arxiv.org/abs/2005.09428v2
+
+Abstract:
+Tensor networks (TN) have found a wide use in machine learning, and in
+particular, TN and deep learning bear striking similarities. In this work, we
+propose the quantum-classical hybrid tensor networks (HTN) which combine tensor
+networks with classical neural networks in a uniform deep learning framework to
+overcome the limitations of regular tensor networks in machine learning. We
+first analyze the limitations of regular tensor networks in the applications of
+machine learning involving the representation power and architecture
+scalability. We conclude that in fact the regular tensor networks are not
+competent to be the basic building blocks of deep learning. Then, we discuss
+the performance of HTN which overcome all the deficiency of regular tensor
+networks for machine learning. In this sense, we are able to train HTN in the
+deep learning way which is the standard combination of algorithms such as Back
+Propagation and Stochastic Gradient Descent. We finally provide two applicable
+cases to show the potential applications of HTN, including quantum states
+classification and quantum-classical autoencoder. These cases also demonstrate
+the great potentiality to design various HTN in deep learning way.

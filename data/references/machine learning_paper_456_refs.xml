@@ -1,0 +1,196 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">ROGET: A knowledge-based system for acquiring the conceptual structure of a diagnostic expert system</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Bennett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Automated Reasoning</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="49" to="74" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Knowledge-based systems in artificial intelligence</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Davis</surname></persName>
+		</author>
+		<editor>R. Davis and D. Lenat</editor>
+		<imprint>
+			<date type="published" when="1982" />
+			<publisher>McGraw-Hill</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>TEIRESIAS: Applications of meta-level knowledge</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">SALT: A knowledge acquisition language for propose-and-revise systems</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Marcus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mcdermott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="1" to="37" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Programs with common sense</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mccarthy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Symposium on the Mechanisation of Thought Processes</title>
+				<editor>
+			<persName><forename type="first">M</forename><surname>Minsky</surname></persName>
+		</editor>
+		<meeting>Symposium on the Mechanisation of Thought esses<address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="1968" />
+		</imprint>
+	</monogr>
+	<note>Semantic Information Processing</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Explanation-based generalization: A unifying view</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kedar-Cabelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine Learning</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="47" to="80" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Proceedings Second Australian Conference on Applications of Expert Systems</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Compton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Horn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lazarus</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Applications of Expert Systems</title>
+				<editor>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Maidenhead</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+	<note>Inductive knowledge acquisiton: A case study. in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The chunking of goal hierarchies: A generalized model of practice</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Rosenbloom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Newell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine learning: An artificial intelligence approach</title>
+				<editor>
+			<persName><forename type="first">R</forename><surname>Michalski</surname></persName>
+			<persName><forename type="first">J</forename><surname>Carbonell</surname></persName>
+			<persName><forename type="first">T</forename><surname>Mitchell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Los Altos, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan-Kaufmann</publisher>
+			<date type="published" when="1985" />
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Representation and use of explicit justification for knowledge base refinement</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Winston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Buchanan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of IJCA185</title>
+				<meeting>IJCA185<address><addrLine>Los Altos, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan-Kaufmann</publisher>
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,6 @@
+Title: The Bayesian Approach to Machine Learning
+Published: 2020-12-23T07:24:00Z
+Link: https://doi.org/10.1201/9781466506299-7
+
+Abstract:
+

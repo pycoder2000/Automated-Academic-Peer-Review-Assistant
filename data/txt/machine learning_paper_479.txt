@@ -1,0 +1,6 @@
+Title: Kernel methods for green machine learning technologies
+Published: 2014-07-15T06:09:58Z
+Link: https://doi.org/10.1017/cbo9781139176224.019
+
+Abstract:
+

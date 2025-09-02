@@ -1,0 +1,20 @@
+Title: Confronting Machine Learning With Financial Research
+Published: 2021-02-28T01:10:09Z
+Link: http://arxiv.org/abs/2103.00366v2
+
+Abstract:
+This study aims to examine the challenges and applications of machine
+learning for financial research. Machine learning algorithms have been
+developed for certain data environments which substantially differ from the one
+we encounter in finance. Not only do difficulties arise due to some of the
+idiosyncrasies of financial markets, there is a fundamental tension between the
+underlying paradigm of machine learning and the research philosophy in
+financial economics. Given the peculiar features of financial markets and the
+empirical framework within social science, various adjustments have to be made
+to the conventional machine learning methodology. We discuss some of the main
+challenges of machine learning in finance and examine how these could be
+accounted for. Despite some of the challenges, we argue that machine learning
+could be unified with financial research to become a robust complement to the
+econometrician's toolbox. Moreover, we discuss the various applications of
+machine learning in the research process such as estimation, empirical
+discovery, testing, causal inference and prediction.

@@ -1,0 +1,6 @@
+Title: The Impact of Machine Learning on Economics
+Published: 2018-01-10
+Link: https://www.semanticscholar.org/paper/adade3149b2a6177296de352f003471eefa958b8
+
+Abstract:
+This paper provides an assessment of the early contributions of machine learning to economics, as well as predictions about its future contributions. It begins by brieﬂy overviewing some themes from the literature on machine learning, and then draws some contrasts with traditional approaches to estimating the impact of counterfactual policies in economics. Next, we review some of the initial “oﬀ-the-shelf” applications of machine learning to economics, including applications in analyzing text and images. We then describe new types of questions that have been posed surrounding the application of machine learning to policy problems, including “prediction policy problems,” as well as considerations of fairness and manipulability. Next, we brieﬂy review of some of the emerging econometric literature combining machine learning and causal inference. Finally, we overview a set of predictions about the future impact of machine learning on economics.

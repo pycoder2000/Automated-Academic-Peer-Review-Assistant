@@ -1,0 +1,6 @@
+Title: How to Read Articles That Use Machine Learning: Users' Guides to the Medical Literature.
+Published: 2019-11-12
+Link: https://www.semanticscholar.org/paper/97f4a6f87f258053f2677504647696f1803c6794
+
+Abstract:
+In recent years, many new clinical diagnostic tools have been developed using complicated machine learning methods. Irrespective of how a diagnostic tool is derived, it must be evaluated using a 3-step process of deriving, validating, and establishing the clinical effectiveness of the tool. Machine learning-based tools should also be assessed for the type of machine learning model used and its appropriateness for the input data type and data set size. Machine learning models also generally have additional prespecified settings called hyperparameters, which must be tuned on a data set independent of the validation set. On the validation set, the outcome against which the model is evaluated is termed the reference standard. The rigor of the reference standard must be assessed, such as against a universally accepted gold standard or expert grading.

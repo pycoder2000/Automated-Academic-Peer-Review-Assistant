@@ -1,0 +1,6 @@
+Title: Coresets for Data-efficient Training of Machine Learning Models
+Published: 2019-06-05
+Link: https://www.semanticscholar.org/paper/790985a4bee821046992ff3d5322ff11dd1b4262
+
+Abstract:
+None

@@ -1,0 +1,21 @@
+Title: Integrating Machine Learning with Physics-Based Modeling
+Published: 2020-06-04T02:35:10Z
+Link: http://arxiv.org/abs/2006.02619v1
+
+Abstract:
+Machine learning is poised as a very powerful tool that can drastically
+improve our ability to carry out scientific research. However, many issues need
+to be addressed before this becomes a reality. This article focuses on one
+particular issue of broad interest: How can we integrate machine learning with
+physics-based modeling to develop new interpretable and truly reliable physical
+models? After introducing the general guidelines, we discuss the two most
+important issues for developing machine learning-based physical models:
+Imposing physical constraints and obtaining optimal datasets. We also provide a
+simple and intuitive explanation for the fundamental reasons behind the success
+of modern machine learning, as well as an introduction to the concurrent
+machine learning framework needed for integrating machine learning with
+physics-based modeling. Molecular dynamics and moment closure of kinetic
+equations are used as examples to illustrate the main issues discussed. We end
+with a general discussion on where this integration will lead us to, and where
+the new frontier will be after machine learning is successfully integrated into
+scientific modeling.

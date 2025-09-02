@@ -1,0 +1,999 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Building the foundation for genomics in precision medicine</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Aronson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Rehm</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">526</biblScope>
+			<biblScope unit="page" from="336" to="342" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Classification, ontology, and precision medicine</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Haendel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Chute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">N</forename><surname>Robinson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">379</biblScope>
+			<biblScope unit="page" from="1452" to="1462" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Scalable prediction of acute myeloid leukemia using high-dimensional machine learning and blood transcriptomics</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Warnat-Herresthal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page">100780</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Do no harm: a roadmap for responsible machine learning for health care</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wiens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1337" to="1340" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Privacy in the age of medical big data</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">N</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Ii &amp; Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="37" to="43" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Severe Covid-19</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Berlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Gulick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Martinez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">383</biblScope>
+			<biblScope unit="page" from="2451" to="2460" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Mild or moderate Covid-19</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Gandhi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">B</forename><surname>Lynch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Del Rio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">383</biblScope>
+			<biblScope unit="page" from="1757" to="1766" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The practical implementation of artificial intelligence technologies in medicine</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>He</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="30" to="36" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">HIPAA in the era of data sharing</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Kels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Med. Assoc</title>
+		<imprint>
+			<biblScope unit="volume">323</biblScope>
+			<biblScope unit="page" from="476" to="477" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">What does the GDPR mean for the medical community?</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mccall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">391</biblScope>
+			<biblScope unit="page" from="1249" to="1250" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">AI systems aim to sniff out coronavirus outbreaks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">368</biblScope>
+			<biblScope unit="page" from="810" to="811" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence cooperation to support the global response to COVID-19</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Luengo-Oroz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="295" to="297" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Machine learning for COVID-19 needs global collaboration and data-sharing</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Peiffer-Smadja</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="293" to="294" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">An integrative drug repositioning framework discovered a potential therapeutic agent targeting COVID-19</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Signal Transduct. Target Ther</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">165</biblScope>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Artificial intelligence-enabled rapid diagnosis of patients with COVID-19</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Mei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Med</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1224" to="1228" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Clinically applicable AI system for accurate diagnosis, quantitative measurements, and prognosis of COVID-19 pneumonia using computed tomography</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page">1360</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Convention for the Protection of Individuals with Regard to Automatic Processing of Personal Data</title>
+		<author>
+			<persName><forename type="first">Europe</forename><surname>Council Of</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Intl Legal Materials</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="317" to="325" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Deep learning</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lecun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">521</biblScope>
+			<biblScope unit="page" from="436" to="444" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Secure, privacy-preserving and federated machine learning in medical imaging</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">A</forename><surname>Kaissis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Makowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rückert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Braren</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="305" to="311" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Machine learning in medicine</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rajkomar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kohane</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">380</biblScope>
+			<biblScope unit="page" from="1347" to="1358" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Calculating disease</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Savage</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">550</biblScope>
+			<biblScope unit="page" from="S115" to="S117" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Biomedical informatics on the cloud: A treasure hunt for advancing cardiovascular medicine</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ping</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hermjakob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Polson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">V</forename><surname>Benos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circ. Res</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="1290" to="1301" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Implementing machine learning in health careaddressing ethical challenges</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Char</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Magnus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N. Engl. J. Med</title>
+		<imprint>
+			<biblScope unit="volume">378</biblScope>
+			<biblScope unit="page" from="981" to="983" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Adversarial attacks on medical machine learning</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">G</forename><surname>Finlayson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">363</biblScope>
+			<biblScope unit="page" from="1287" to="1289" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Federated learning: strategies for improving communication efficiency</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Konečný</surname></persName>
+		</author>
+		<ptr target="https://arxiv.org/abs/1610.05492" />
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Preprint at</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Privacy-preserving deep learning</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Shokri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Shmatikov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">53rd Annual Allerton Conf. Communication, Control, and Computing 909-910</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Genomic cloud computing: legal and ethical points to consider</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Dove</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Joly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Tassé</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Knoppers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Eur. J. Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="1271" to="1278" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chollet</surname></persName>
+		</author>
+		<ptr target="https://github.com/keras-team/keras" />
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Federated learning with non-IID data</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<ptr target="https://arxiv.org/abs/1806.00582" />
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Preprint at</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Existing blood transcriptional classifiers accurately discriminate active tuberculosis from latent infection in individuals from south India</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Leong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tuberculosis</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="41" to="51" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A blood RNA signature for tuberculosis disease risk: a prospective cohort study</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Zak</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">387</biblScope>
+			<biblScope unit="page" from="2312" to="2322" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">ChestX-Ray8: Hospital-scale chest X-ray database and benchmarks on weakly-supervised classification and localization of common thorax diseases</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Conf. Computer Vision and Pattern Recognition (CVPR)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="3462" to="3471" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Detection of 2019 novel coronavirus (2019-nCoV) by real-time RT-PCR</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">M</forename><surname>Corman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Euro Surveill</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Disease severity-specific neutrophil signatures in blood transcriptomes stratify COVID-19 patients</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C</forename><surname>Aschenbrenner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Med</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">7</biblScope>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Assessment of immune status using blood transcriptomics and potential implications for global health</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Chaussabel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Semin. Immunol</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="58" to="66" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Severe COVID-19 is marked by a dysregulated myeloid cell compartment</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schulte-Schrepping</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">182</biblScope>
+			<biblScope unit="page" from="1419" to="1440" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Dermatologist-level classification of skin cancer with deep neural networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Esteva</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">542</biblScope>
+			<biblScope unit="page" from="115" to="118" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">A machine learning algorithm predicts molecular subtypes in pancreatic ductal adenocarcinoma with differential response to gemcitabine-based versus FOLFIRINOX chemotherapy</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kaissis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">e0218642</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Multicenter study demonstrates radiomic features derived from magnetic resonance perfusion images identify pseudoprogression in glioblastoma</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Elshafeey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">3170</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Deep learning with differential privacy</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abadi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 2016 ACM SIGSAC Conf. Computer and Communications Security-CCS</title>
+				<meeting>2016 ACM SIGSAC Conf. Computer and Communications Security-CCS</meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="308" to="318" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Partially encrypted machine learning using functional encryption</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ryffel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Dufour-Sans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Gay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Pointcheval</surname></persName>
+		</author>
+		<ptr target="https://arxiv.org/abs/1905.10214" />
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Preprint at</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Utilizing transfer learning and homomorphic encryption in a privacy preserving and secure biometric recognition system</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Salem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Taheri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-S</forename><surname>Yuan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computers</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">The right to data protection and the COVID-19 pandemic: the European approach</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kędzior</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ERA Forum</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="533" to="543" />
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">38 Institute for Medical Virology and Epidemiology of Viral Diseases</title>
+	</analytic>
+	<monogr>
+		<title level="m">40 Center for Regenerative Therapies Dresden (CRTD)</title>
+				<meeting><address><addrLine>Marburg, Germany; Tübingen, Germany; Leipzig, Germany; Dresden, Germany; Heidelberg, Germany</addrLine></address></meeting>
+		<imprint/>
+		<respStmt>
+			<orgName>LOEWE Center for Synthetic Microbiology (SYNMIKRO), Philipps-Universität Marburg ; University of Tübingen</orgName>
+		</respStmt>
+	</monogr>
+	<note>39 Fraunhofer Institute for Cell Therapy and Immunology (IZI)</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Dsmz -German</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Gene Center -Functional Genomics Analysis</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Collection of Microorganisms and Cell Cultures, Leibniz Institute ; Ludwig-Maximilians-Universität München, München, Germany. 44 Institute for Medical Microbiology, University Hospital Aachen, RWTH Aachen, Germany. 45 European Research Institute for the Biology of Ageing, University of Groningen</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">48 Centre for Individualised Infection Medicine (CiiM)</title>
+	</analytic>
+	<monogr>
+		<title level="m">50 Genome Analysis Center, Helmholtz Zentrum München Deutsches Forschungszentrum für Gesundheit und Umwelt</title>
+				<meeting><address><addrLine>Hannover, Germany; Hannover, Germany; Hannover, Germany; Neuherberg, Germany; Berlin, Germany; Düsseldorf, Germany</addrLine></address></meeting>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page">53</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>TUM School of Life Sciences Weihenstephan, Technical University of Munich, Freising, Germany. 47 Klinik für Gastroenterologie, Hepatologie und Endokrinologie ; Institut für Mikrobiologie und Infektionsimmunologie, Charité -Universitätsmedizin Berlin ; Institut für Medizinische Mikrobiologie und Krankenhaushygiene, Universitätsklinikum Düsseldorf, Heinrich-Heine-Universität Düsseldorf</orgName>
+		</respStmt>
+	</monogr>
+	<note>Medizinische Hochschule Hannover (MHH)</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">74 Algorithmische Bioinformatik, RCI Regensburger Centrum für Interventionelle Immunologie</title>
+	</analytic>
+	<monogr>
+		<title level="m">Medizinische Hochschule Hannover (MHH), Hannover, Germany. 65 Computational Oncology, Molecular Diagnostics Program, National Center for Tumor Diseases (NCT) Heidelberg and German Cancer Research Center (DKFZ)</title>
+				<meeting><address><addrLine>Tübingen, Germany; Giessen, Germany; Hamburg, Germany; Bonn, Germany; Heidelberg, Germany; Heidelberg, Germany; Berlin, Germany. 69 German Biobank Node (bbmri.de; Berlin, Germany; Giessen, Germany; Bielefeld, Germany; Leipzig, Germany; Regensburg, Germany; Munich, Germany; München, Germany; Heidelberg, Germany; Tübingen, Germany; Tübingen, Germany</addrLine></address></meeting>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">83</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Institut für Medizinische Mikrobiologie, Virologie und Hygiene, Universitätsklinikum Hamburg-Eppendorf (UKE), Hamburg, Germany. 54 German Information Centre for Life Sciences (ZB MED), Cologne, Germany. 55 Quantitative Biology Center, University of Tübingen ; Technische Universität München, München, Germany. 57 Bioinformatics and Systems Biology, Justus Liebig University Giessen ; 58 Leibniz Institut für Experimentelle Virologie ; Universitätsklinikum Freiburg, Freiburg, Germany. 60 Institute of Medical Microbiology, Justus Liebig University Giessen, Giessen, Germany. 61 Krankenhaushygiene und Infektiologie, Universitätsklinikum Regensburg, Regensburg, Germany. 62 Zentrum für Humangenetik Regensburg, Regensburg, Germany. 63 Institute of Human Genetics, University of Bonn, School of Medicine &amp; University Hospital Bonn ; Charité -Universitätsmedizin Berlin ; Justus Liebig University Giessen ; Bielefeld University ; Universitätsklinikum Regensburg ; National Reference Center for Retroviruses, LMU München ; German Center for Infection Research (DZIF), partner site Munich ; Center for Molecular Biology (ZMBH), Heidelberg University ; German Cancer Research Center (DKFZ), Heidelberg, Germany. 79 Applied Bioinformatics, University of Tübingen, Tübingen, Germany. 80 Translational Bioinformatics, University Hospital, University of Tübingen ; Universitätsklinikum Düsseldorf, Heinrich-Heine-Universität Düsseldorf, Düsseldorf, Germany. 82 Medical Clinic Internal Medicine VII, University Hospital, University of Tübingen</orgName>
+		</respStmt>
+	</monogr>
+	<note>Molecular Pathology. 81 Genomics &amp; Transcriptomics Labor (GTL</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">85 Centre for Individualized Infection Medicine (CiiM) &amp; TWINCORE, joint ventures between the Helmholtz-Centre for Infection Research (HZI) and the Hannover Medical School (MHH), Hannover, Germany. 86 Institute for Infection Medicine and Hospital Hygiene (IIMK)</title>
+	</analytic>
+	<monogr>
+		<title level="m">the Helmholtz Association (MDC)</title>
+				<meeting><address><addrLine>Jena, Germany; Max Delbrück Center; Berlin, Germany; Uniklinikum Jena, Jena, Germany; Jena, Germany</addrLine></address></meeting>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="page">88</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Transmission, Infection, Diversification and Evolution Group, Max Planck Institute for the Science of Human History ; Michael Stifel Center Jena</orgName>
+		</respStmt>
+	</monogr>
+	<note>84 Berlin Institute for Medical Systems Biology</note>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Germany. 89 Computational Biology for Infection Research</title>
+		<imprint>
+			<biblScope unit="page">91</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Bioinformatics/High-Throughput Analysis, Faculty of Mathematics and Computer Science, Friedrich-Schiller-Universität Jena ; 90 Institute for Tropical Medicine, University Hospital, University of Tübingen</orgName>
+		</respStmt>
+	</monogr>
+	<note>Helmholtz Centre for Infection Research (HZI)</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Biotechnology</forename><surname>Center</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">(</forename><surname>Biotec) Tu Dresden</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">95</biblScope>
+			<pubPlace>Berlin, Germany; Berlin, Germany</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>National Center for Tumor Diseases, Dresden, Germany. 92 Institute of Virology, Technical University of Munich, Munich, Germany. 93 Institute of Biochemistry, Charité -Universitätsmedizin Berlin ; 94 Department of Psychiatry and Neurosciences, Charité -Universitätsmedizin Berlin</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">101 Klinik für Psychiatrie und Psychotherapie and Institut für Psychiatrische Phänomik und Genomik</title>
+	</analytic>
+	<monogr>
+		<title level="j">Clinical Chemistry and Clinical Pharmacology</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">103</biblScope>
+			<biblScope unit="page">107</biblScope>
+		</imprint>
+		<respStmt>
+			<orgName>Helmholtz Institute for RNA-based Infection Research (HIRI), Helmholtz-Center for Infection Research, Würzburg, Germany. 96 Department of Internal Medicine with emphasis on Infectiology, Respiratory-, and Critical-Care-Medicine, Charité -Universitätsmedizin Berlin ; 97 Institute of Medical Immunology, Charité -Universitätsmedizin Berlin ; University Medical Center, Georg August University ; University of Cologne ; University Hospital, University of Bonn ; LMU München ; University of Bielefeld ; 104 Department I of Internal Medicine, University Hospital of Cologne, University of Cologne, Cologne, Germany. 105 University Hospital Frankfurt, Frankfurt am Main, Germany. 106 Institute for Bioinformatics, Freie Universität Berlin</orgName>
+		</respStmt>
+	</monogr>
+	<note>Genome Informatics</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">112 Institute of Medical Virology</title>
+		<author>
+			<persName><forename type="first">Germany</forename><surname>Dresden</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Concept Genome</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Center</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Tu Dresden</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">supported by Dr. Rolf M. Schwiete Stiftung, Staatskanzlei des Saarlandes and Saarland University. J.N. is supported by the DFG (SFB TR47, SPP1937) and the Hector Foundation</title>
+				<meeting><address><addrLine>Dresden, Germany; Giessen, Germany</addrLine></address></meeting>
+		<imprint/>
+		<respStmt>
+			<orgName>Max Planck Institute of Molecular Cell Biology and Genetics ; Justus Liebig University Giessen</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno>ZT-I-PF-5-23</idno>
+		<title level="m">is supported by COVIM: NaFoUniMedCovid19 (FKZ: 01KX2021). M. Becker is supported by the HGF Helmholtz AI grant Pro-Gene-Gen</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

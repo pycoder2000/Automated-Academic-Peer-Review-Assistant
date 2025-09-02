@@ -1,0 +1,6 @@
+Title: Machine Learning from Theory to Algorithms: An Overview
+Published: 2018-11-01
+Link: https://www.semanticscholar.org/paper/6d67ddd0855c60ada2fb4151f0f944feffdaf357
+
+Abstract:
+The current SMAC (Social, Mobile, Analytic, Cloud) technology trend paves the way to a future in which intelligent machines, networked processes and big data are brought together. This virtual world has generated vast amount of data which is accelerating the adoption of machine learning solutions & practices. Machine Learning enables computers to imitate and adapt human-like behaviour. Using machine learning, each interaction, each action performed, becomes something the system can learn and use as experience for the next time. This work is an overview of this data analytics method which enables computers to learn and do what comes naturally to humans, i.e. learn from experience. It includes the preliminaries of machine learning, the definition, nomenclature and applications’ describing it’s what, how and why. The technology roadmap of machine learning is discussed to understand and verify its potential as a market & industry practice. The primary intent of this work is to give insight into why machine learning is the future.

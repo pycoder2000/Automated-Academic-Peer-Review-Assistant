@@ -1,0 +1,375 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Learning Boolean functions in an infinite attribute space</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="373" to="386" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Learning in the presence of finitely or infinitely many irrelevant attributes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hellerstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Littlestone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JCSS</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="32" to="40" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Learning functions of k terms</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Singh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 3rd Annual Workshop on Computational Learning Theory</title>
+				<meeting>3rd Annual Workshop on Computational Learning Theory</meeting>
+		<imprint>
+			<date type="published" when="1990" />
+			<biblScope unit="page" from="145" to="153" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Attribute-efficient learning in query and mistake-bounded models</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Bshouty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hellerstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">JCSS</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="310" to="319" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">On learning width two branching programs</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Bshouty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tamon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 9th ACM Conference on Computational Learning Theory</title>
+				<meeting>9th ACM Conference on Computational Learning Theory</meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="224" to="227" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">On learning decision trees with large output domain</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Bshouty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tamon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Wilson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 8th ACM Conf. on Computational Learning Theory</title>
+				<meeting>8th ACM Conf. on Computational Learning Theory</meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="190" to="197" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">PAC learning with irrelevant attributes</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dhagat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hellerstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Symp. on Foundations of Computer Science</title>
+				<meeting>IEEE Symp. on Foundations of Computer Science</meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="64" to="74" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Applying Winnow to context-sensitive spelling correction</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Golding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Roth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 13th International Conference on Machine Learning</title>
+				<meeting>13th International Conference on Machine Learning<address><addrLine>San Francisco, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="182" to="190" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Quantifying inductive bias: AI learning algorithms and Valiant&apos;s learning framework</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haussler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="177" to="222" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Learning sparse perceptrons</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Craven</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information processing</title>
+				<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="1996" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="654" to="660" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">An introduction to computational learning theory</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kearns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">V</forename><surname>Vazirani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 1996 AAAI</title>
+				<meeting>1996 AAAI<address><addrLine>Khardon, R.</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Press</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="787" to="792" />
+		</imprint>
+	</monogr>
+	<note>Learning to take actions</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Learning hierarchical rule sets</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kivinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mannila</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ukkonen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 5th ACM workshop on Computational Learning Theory</title>
+				<meeting>5th ACM workshop on Computational Learning Theory<address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="37" to="44" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">The perceptron algorithm vs. Winnow: Linear vs. logarithmic mistake bounds where few input variables are relevant</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kivinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Warmuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 8th ACM Conference on Computational Learning Theory</title>
+				<meeting>8th ACM Conference on Computational Learning Theory<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="289" to="296" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Learning quickly when irrelevant attributes abound: a new linear-threshold algorithm</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Littlestone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="285" to="318" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Human problem solving</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Newell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Simon</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1972" />
+			<publisher>Prentice-Hall</publisher>
+			<pubPlace>Englewood Cliffs, NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Learning decision lists</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Rivest</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="229" to="246" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A neuroidal architecture for cognitive computation</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Valiant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceeding of the 25th International Colloquium on Automata, Languages and Programming</title>
+				<meeting>eeding of the 25th International Colloquium on Automata, Languages and Programming<address><addrLine>Aarhus, Denmark</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="1998-07-13" />
+			<biblScope unit="volume">98</biblScope>
+			<biblScope unit="page" from="642" to="669" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Robust logics</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Valiant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 31st ACM Symposium on Theory of Computing</title>
+				<meeting>31st ACM Symposium on Theory of Computing<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="642" to="651" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

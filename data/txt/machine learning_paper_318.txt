@@ -1,0 +1,6 @@
+Title: A Detailed Investigation and Analysis of Using Machine Learning Techniques for Intrusion Detection
+Published: None
+Link: https://www.semanticscholar.org/paper/d294d5246e0dd8ed8bd9ec9d24a01fd4ece4fb3c
+
+Abstract:
+Intrusion detection is one of the important security problems in todays cyber world. A significant number of techniques have been developed which are based on machine learning approaches. However, they are not very successful in identifying all types of intrusions. In this paper, a detailed investigation and analysis of various machine learning techniques have been carried out for finding the cause of problems associated with various machine learning techniques in detecting intrusive activities. Attack classification and mapping of the attack features is provided corresponding to each attack. Issues which are related to detecting low-frequency attacks using network attack dataset are also discussed and viable methods are suggested for improvement. Machine learning techniques have been analyzed and compared in terms of their detection capability for detecting the various category of attacks. Limitations associated with each category of them are also discussed. Various data mining tools for machine learning have also been included in the paper. At the end, future directions are provided for attack detection using machine learning techniques.

@@ -1,0 +1,572 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Software engineering for machine learning: A case study</title>
+		<author>
+			<persName><forename type="first">Begel</forename><surname>Amershi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bird ; Amershi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Begel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Bird</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Int. Conf. on Soft. Eng.: SEIP</title>
+				<imprint>
+			<publisher>IEEE Press</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="page" from="291" to="300" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Towards evaluating the robustness of neural networks</title>
+		<author>
+			<persName><forename type="first">[</forename><surname>Bastani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Int. Conf. on Neural Inf. Processing Systems</title>
+				<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="39" to="57" />
+		</imprint>
+	</monogr>
+	<note>Measuring neural net robustness with constraints</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Audio adversarial examples: Targeted attacks on speech-totext</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Carlini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wagner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Security and Privacy Worksh</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="1" to="7" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Hidden voice commands</title>
+		<author>
+			<persName><forename type="first">[</forename><surname>Carlini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">USENIX Conf. on Security Symp</title>
+				<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="513" to="530" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Formal verification of ethical choices in autonomous systems</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dennis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fishera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Slavkovik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Webstera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Robotics and Autonomous Systems</title>
+		<imprint>
+			<biblScope unit="volume">77</biblScope>
+			<biblScope unit="page" from="1" to="14" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>The robot&apos;s dilemma. Nature 523/7558</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Identifying implementation bugs in machine learning based image classifiers using metamorphic testing</title>
+		<author>
+			<persName><surname>Du</surname></persName>
+		</author>
+		<idno>abs/1610.00768</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Annual Conf. on Neural Inf. Processing Systems</title>
+				<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="481" to="508" />
+		</imprint>
+	</monogr>
+	<note>INCOSE Int. Symposium (IS</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Safety verification of deep neural networks</title>
+		<author>
+			<persName><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Computer Aided Verification</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="3" to="29" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Robustness testing of autonomy software</title>
+		<author>
+			<persName><surname>Hutchison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE/ACM Int. Conf. on Soft. Eng</title>
+		<imprint>
+			<biblScope unit="page" from="276" to="285" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">An experimental evaluation of the assumption of independence in multiversion programming</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Katz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Barrett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Julian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kochenderfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Knight</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">G</forename><surname>Leveson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conf. on Emp. Methods in Natural Lang. Process</title>
+				<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="96" to="109" />
+		</imprint>
+	</monogr>
+	<note>Reluplex: An efficient smt solver for verifying deep neural networks</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Adversarial attacks and defences competition</title>
+		<author>
+			<persName><surname>Kurakin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The NIPS &apos;17 Competition: Building Intelligent Systems</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="195" to="231" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Practical selective regression testing with effective redundancy in interleaved tests</title>
+		<author>
+			<persName><forename type="first">[</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2019 IEEE International Conference On Artificial Intelligence Testing (AITest)</title>
+				<imprint>
+			<date type="published" when="2018-01" />
+			<biblScope unit="page" from="101" to="102" />
+		</imprint>
+		<respStmt>
+			<orgName>Software Engineering in Practice Track (ICSE-SEIP</orgName>
+		</respStmt>
+	</monogr>
+	<note>Int. Conf. on Soft. Eng.: NIER</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A learning algorithm for optimizing continuous integration development and testing practice</title>
+		<author>
+			<persName><forename type="first">Gotlieb</forename><surname>Marijan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Liaaen ; Marijan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gotlieb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Liaaen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Soft. Pract. and Exper</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="192" to="213" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Tensorfuzz: Debugging neural networks with coverageguided fuzzing. CoRR abs/1807.10875</title>
+		<author>
+			<persName><surname>Moosavi-Dezfooli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Universal adversarial perturbations. Conf. on Comp. Vis. and Pattern Recog</title>
+				<meeting><address><addrLine>Murphy, Kaiser, and Arias</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="582" to="597" />
+		</imprint>
+	</monogr>
+	<note>IEEE Symp. on Sec. and Privacy</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Deepxplore: Automated whitebox testing of deep learning systems</title>
+		<author>
+			<persName><forename type="first">[</forename><surname>Pei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">In Symp. on Oper. Syst. Princip</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Foolbox v0.8.0: A python toolbox to benchmark the robustness of machine learning models</title>
+		<author>
+			<persName><forename type="first">Brendel</forename><surname>Rauber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bethge ; Rauber</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Brendel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bethge</surname></persName>
+		</author>
+		<ptr target="CoRRabs/1707.04131" />
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Reachability analysis of deep neural networks with provable guarantees</title>
+		<author>
+			<persName><forename type="first">Huang</forename><surname>Kwiatkowska ; Ruan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Kwiatkowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">In Int. J. Conf. on Artif. Intel</title>
+		<imprint>
+			<biblScope unit="page" from="2651" to="2659" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Interpretable adversarial perturbation in input embedding space for text</title>
+	</analytic>
+	<monogr>
+		<title level="m">Int. J. Conf. on Artif. Intel</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="108" to="115" />
+		</imprint>
+	</monogr>
+	<note>Munn: Mutation analysis of neural networks</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Deepgini: Prioritizing massive tests to reduce labeling cost</title>
+		<author>
+			<persName><surname>Shi</surname></persName>
+		</author>
+		<idno>abs/1903.00661</idno>
+		<ptr target="Repre-sentationsabs/1710.10571" />
+	</analytic>
+	<monogr>
+		<title level="m">Certifiable distributional robustness with principled adversarial training. Int. Conf. on Learning</title>
+				<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>Sinha, Namkoong, and Duchi</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Constructing unrestricted adversarial examples with generative models</title>
+	</analytic>
+	<monogr>
+		<title level="m">Adv. in Neural Inf. Proc. Sys</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="109" to="119" />
+		</imprint>
+	</monogr>
+	<note>Concolic testing for deep neural networks</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Structural test coverage criteria for deep neural networks</title>
+	</analytic>
+	<monogr>
+		<title level="m">Int. Conf. on Soft. Eng. [Sun, Huang, and Kroening</title>
+				<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page">6199</biblScope>
+		</imprint>
+	</monogr>
+	<note>Int. Conf. on Learning Representations</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Deeptest: Automated testing of deep-neural-network-driven autonomous cars</title>
+		<author>
+			<persName><surname>Tian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Int. Conf. on Learning Representations</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="303" to="314" />
+		</imprint>
+	</monogr>
+	<note>Ensemble adversarial training: Attacks and defenses</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Generating certification evidence for autonomous unmanned aircraft using model checking and simulation</title>
+		<author>
+			<persName><forename type="first">[</forename><surname>Webster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Aerospace Inf. Sys</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="258" to="279" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">On testing non-testable programs</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Weyuker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. J</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="465" to="470" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Feature-guided black-box safety testing of deep neural networks</title>
+		<author>
+			<persName><forename type="first">Huang</forename><surname>Kwiatkowska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wicker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kwiatkowska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Tools and Alg. for the Construction and Anal. of Systems</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="408" to="426" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Adversarial examples for semantic segmentation and object detection</title>
+		<author>
+			<persName><forename type="first">[</forename><surname>Xiao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Int. Conf. on Computer Vision</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="1378" to="1387" />
+		</imprint>
+	</monogr>
+	<note>Int. Joint Conf. on Artif. Intel</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Coverage-guided fuzzing for deep neural networks</title>
+		<author>
+			<persName><forename type="first">[</forename><surname>Xie</surname></persName>
+		</author>
+		<ptr target="CoRRabs/1809.01266" />
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Testing and validating machine learning classififiers by metamorphic testing</title>
+		<author>
+			<persName><forename type="first">Ho</forename><surname>Xie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. of Sys. and Soft</title>
+		<imprint>
+			<biblScope unit="issue">84</biblScope>
+			<biblScope unit="page" from="544" to="558" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Adversarial examples: Attacks and defenses for deep learning</title>
+		<author>
+			<persName><surname>Yuan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Tr. on Neural Net. and Learn. Syst</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Deeproad: Gan-based metamorphic testing and input validation framework for autonomous driving systems</title>
+		<author>
+			<persName><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">In Int. Conf. on Aut. Soft. Eng</title>
+		<imprint>
+			<biblScope unit="page" from="132" to="142" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

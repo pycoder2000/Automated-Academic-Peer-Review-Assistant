@@ -1,0 +1,11 @@
+Title: Practical Attacks on Machine Learning: A Case Study on Adversarial
+  Windows Malware
+Published: 2022-07-12T14:17:58Z
+Link: http://arxiv.org/abs/2207.05548v1
+
+Abstract:
+While machine learning is vulnerable to adversarial examples, it still lacks
+systematic procedures and tools for evaluating its security in different
+application contexts. In this article, we discuss how to develop automated and
+scalable security evaluations of machine learning using practical attacks,
+reporting a use case on Windows malware detection.

@@ -1,0 +1,244 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">DALEX: Descriptive mAchine Learning Explanations</title>
+		<author>
+			<persName><forename type="first">Przemyslaw</forename><surname>Biecek</surname></persName>
+		</author>
+		<ptr target="https://CRAN.R-project.org/package=DALEX" />
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Skater: Model Interpretation Library</title>
+		<author>
+			<persName><forename type="first">Pramit</forename><surname>Choudhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aaron</forename><surname>Kramer</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.1198885</idno>
+		<ptr target="https://doi.org/10.5281/zenodo.1198885" />
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>and contributors datascience.com team</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Model Class Reliance: Variable Importance Measures for any Machine Learning Model Class, from the &quot;Rashomon&quot; Perspective</title>
+		<author>
+			<persName><forename type="first">Aaron</forename><surname>Fisher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cynthia</forename><surname>Rudin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesca</forename><surname>Dominici</surname></persName>
+		</author>
+		<ptr target="http://arxiv.org/abs/1801.01489" />
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Greedy Function Approximation: A Gradient Boosting Machine</title>
+		<author>
+			<persName><forename type="first">Jerome</forename><forename type="middle">H</forename><surname>Friedman</surname></persName>
+		</author>
+		<idno type="DOI">10.1214/aos/1013203451%20</idno>
+		<ptr target="https://doi.org/10.1214/aos/1013203451" />
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Statistics. JSTOR</title>
+		<imprint>
+			<biblScope unit="page" from="1189" to="1232" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Predictive Learning via Rule Ensembles</title>
+		<author>
+			<persName><forename type="first">Jerome</forename><forename type="middle">H</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bogdan</forename><forename type="middle">E</forename><surname>Popescu</surname></persName>
+		</author>
+		<idno type="DOI">10.1214/07-AOAS148</idno>
+		<ptr target="https://doi.org/10.1214/07-AOAS148" />
+	</analytic>
+	<monogr>
+		<title level="j">The Annals of Applied Statistics</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="916" to="954" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Peeking Inside the Black Box: Visualizing Statistical Learning with Plots of Individual Conditional Expectation</title>
+		<author>
+			<persName><forename type="first">Alex</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adam</forename><surname>Kapelner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Justin</forename><surname>Bleich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Emil</forename><surname>Pitkin</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10618600.2014.907095</idno>
+		<ptr target="https://doi.org/10.1080/10618600.2014.907095" />
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computational and Graphical Statistics</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="44" to="65" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Pdp: An R Package for Constructing Partial Dependence Plots</title>
+		<author>
+			<persName><forename type="first">Brandon</forename><forename type="middle">M</forename><surname>Greenwell</surname></persName>
+		</author>
+		<ptr target="https://journal.r-project.org/archive/2017/RJ-2017-016/index.html" />
+	</analytic>
+	<monogr>
+		<title level="j">The R Journal</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="421" to="436" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Lime: Local Interpretable Model-Agnostic Explanations</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michaël</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Benesty</surname></persName>
+		</author>
+		<ptr target="https://CRAN.R-project.org/package=lime" />
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">R: A Language and Environment for Statistical Computing</title>
+		<ptr target="https://www.R-project.org/" />
+	</analytic>
+	<monogr>
+		<title level="m">R Foundation for Statistical Computing</title>
+				<meeting><address><addrLine>Vienna, Austria</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Why Should I Trust You?: Explaining the Predictions of Any Classifier</title>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sameer</forename><surname>Tulio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carlos</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Guestrin</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2939672.2939778</idno>
+		<ptr target="https://doi.org/10.1145/2939672.2939778" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 22nd Acm Sigkdd International Conference on Knowledge Discovery and Data Mining</title>
+				<meeting>the 22nd Acm Sigkdd International Conference on Knowledge Discovery and Data Mining</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="1135" to="1144" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Explaining prediction models and individual predictions with feature contributions</title>
+		<author>
+			<persName><forename type="first">Erik</forename><surname>Strumbelj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Igor</forename><surname>Kononenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erik</forename><surname>Štrumbelj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Igor</forename><surname>Kononenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10115-013-0679-x</idno>
+		<ptr target="https://doi.org/10.1007/s10115-013-0679-x" />
+	</analytic>
+	<monogr>
+		<title level="j">Knowledge and Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="647" to="665" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

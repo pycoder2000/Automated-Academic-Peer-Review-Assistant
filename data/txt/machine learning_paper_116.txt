@@ -1,0 +1,6 @@
+Title: Hands-On Machine Learning with Scikit-Learn and TensorFlow: Concepts, Tools, and Techniques to Build Intelligent Systems
+Published: 2017-04-18
+Link: https://www.semanticscholar.org/paper/2936cbd6a90d7153a9fa34e8e4fd947907fe7f6c
+
+Abstract:
+None

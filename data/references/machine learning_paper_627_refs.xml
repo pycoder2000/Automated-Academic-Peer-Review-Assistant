@@ -1,0 +1,262 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Most of our results concern learning the class of all partial recursive functions in the limit; smaller target classes and more restricted versions of b-relatedness are natural directions to consider. Questions about the relationships between target-proofness, box-proofness, and teacher-proofness, and combinations of them (e.g., box-and-teacher-proofness) are another possible direction. For example, there might be classes of function boxes for the learner and teacher such that some class of target functions can be learned in a box-proof and teacher-proof manner</title>
+		<imprint/>
+	</monogr>
+	<note>Many questions remain open even in the present framework. but not in a box-and-teacher-proof manner</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Teachers, learners and black boxes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kriķis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 10th Annu. Conf. on Comput. Learning Theory</title>
+				<meeting>10th Annu. Conf. on Comput. Learning Theory<address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="285" to="297" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Toward a mathematical theory of inductive inference</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Blum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inform. Control</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="125" to="155" />
+			<date type="published" when="1975" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A machine-independent theory of the complexity of the recursive functions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="322" to="336" />
+			<date type="published" when="1967" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Language identification in the limit</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Gold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inform. Control</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="447" to="474" />
+			<date type="published" when="1967" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">On the complexity of teaching</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Kearns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. of Comput. Syst. Sci</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="20" to="31" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Teaching a smarter learner</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">D</forename><surname>Mathias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. of Comput. Syst. Sci</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="255" to="267" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A computational model of teaching</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jackson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tomkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 5th Annu. Workshop on Comput. Learning Theory</title>
+				<meeting>5th Annu. Workshop on Comput. Learning Theory<address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="319" to="326" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Learning from different teachers and imperfect queries</title>
+		<author>
+			<persName><surname>Kriķis</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+		<respStmt>
+			<orgName>Yale University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.D. thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">An introduction to the general theory of algorithms. Theory of Computation Series</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Machtey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Young</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1978" />
+			<publisher>Elsevier North-Holland, Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">DNF-if you can&apos;t learn &apos;em, teach &apos;em: An interactive model of teaching</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Mathias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 8th Annu. Conf. on Comput. Learning Theory</title>
+				<meeting>8th Annu. Conf. on Comput. Learning Theory<address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="222" to="229" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Some natural properties of strong identification in inductive inference</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Minicozzi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Theoret. Comput. Sci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="345" to="360" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Teachability in computational learning</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shinohara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Miyano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New Generation Computing</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="337" to="347" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">A recursive introduction to the theory of computation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Smith</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+			<publisher>Springer-Verlag</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

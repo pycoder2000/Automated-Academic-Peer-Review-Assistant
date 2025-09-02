@@ -1,0 +1,904 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">A simulation tool for efficient analogy based cost estimation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Angelis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Stamelos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Empirical software engineering</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="35" to="68" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Chapter</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Armstrong</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>The Forecasting Dictionary</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Principles of forecasting: a handbook for researchers and practitioners</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>In</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Armstrong</surname></persName>
+		</author>
+		<imprint>
+			<publisher>Springer Science &amp; Business Media</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Document Image Defect Models</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Baird</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Structured Document Image Analysis</title>
+				<editor>
+			<persName><forename type="first">H</forename><surname>Baird</surname></persName>
+			<persName><forename type="first">H</forename><surname>Bunke</surname></persName>
+			<persName><forename type="first">&amp;</forename><forename type="middle">K</forename><surname>Yamamoto</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="546" to="556" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Linking software development and business strategy through measurement</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">R</forename><surname>Basili</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computer</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="57" to="65" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">A unified bias-variance decomposition for zero-one and squared loss</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Domingos</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>AAAI/IAAI</publisher>
+			<biblScope unit="page" from="564" to="569" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">A guidance map for the evaluation of binary classifiers in machine learning</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Fröhling</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+		<respStmt>
+			<orgName>TU Kaiserslautern</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Master Thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Uncertainty in deep learning</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gal</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Cambridge</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Generative adversarial nets</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Goodfellow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pouget-Abadie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mirza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Warde-Farley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ozair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in neural information processing systems</title>
+				<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="2672" to="2680" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Harel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mannor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>El-Yaniv</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Crammer</surname></persName>
+		</author>
+		<title level="m">Concept drift detection through resampling. International Conference on Machine Learning</title>
+				<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="1009" to="1017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hedderich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sachs</surname></persName>
+		</author>
+		<title level="m">Hypothesentest. Angewandte Statistik</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="445" to="795" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">ISO/IEC 25012:2008 --Quality Requirements and Evaluation (SQuaRE) --Data quality model</title>
+		<author>
+			<persName><surname>Iso/Iec</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><surname>Iso/Iec</surname></persName>
+		</author>
+		<title level="m">ISO/IEC 25000:2014 --Systems and software engineering --Systems and software Quality Requirements and Evaluation (SQuaRE) --Guide to SQuaRE</title>
+				<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Evaluating learning algorithms: a classification perspective</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Japkowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shah</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>Cambridge University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Evidence-based guidelines for assessment of software development cost uncertainty</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jorgensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Software Engineering</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="942" to="954" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khosravi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nahavandi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Creighton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Atiya</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Comprehensive review of neural network-based prediction intervals and new advances</title>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on neural networks</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="1341" to="1356" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Uncertainty in Machine Learning Applications -A Practice-Driven Classification of Uncertainty</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kläs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Vollmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">First International Workshop on Artificial Intelligence Safety Engineering</title>
+		<imprint>
+			<biblScope unit="page" from="431" to="438" />
+			<date type="published" when="2018" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Quality evaluation for big data -A scalable assessment approach and first evaluation results</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kläs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Putz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Joint Conference of the International Workshop on Software Measurement and the International Conference on Software Process and Product Measurement (IWSM-MENSURA)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="115" to="124" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m">UNCERTAINTY IN AI AND MACHINE LEARNING -AN OVERVIEW</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The use of simulation techniques for hybrid software cost estimation and risk analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kläs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Trendowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wickenkamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Münch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kikuchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ishigai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advances in computers</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="115" to="174" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Learning drifting concepts: Example selection vs. example weighting. IDA</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Klinkenberg</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="281" to="300" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">A comparative study of uncertainty propagation methods for black-box-type problems. Structural and Multidisciplinary Optimization</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">239</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Unsupervised imageto-image translation networks</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Breuel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kautz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="700" to="708" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Deep Photo Style Transfer</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Luan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Paris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shechtman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Bala</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conference on Computer Vision and Pattern Recognition (CVPR)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="6997" to="7005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">A multi-partition multi-chunk ensemble technique to classify concept-drifting data streams</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Masud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Thuraisingham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Pacific-Asia Conference on Knowledge Discovery and Data Mining</title>
+				<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>PAKDD 2009) (pp</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Concrete problems for autonomous vehicle safety: Advantages of Bayesian deep learning</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mcallister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Gal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Van Der Wilk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Cipolla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Weller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Joint Conferences on Artificial Intelligence</title>
+		<imprint>
+			<biblScope unit="page" from="4745" to="4753" />
+			<date type="published" when="2017" />
+			<publisher>AAAI Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Survey sampling. Theory and methods</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Nassiuma</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>CRC Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pimentel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Clifton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Clifton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tarassenko</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A review of novelty detection</title>
+	</analytic>
+	<monogr>
+		<title level="j">Signal Processing</title>
+		<imprint>
+			<biblScope unit="volume">99</biblScope>
+			<biblScope unit="page" from="215" to="249" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Artificial intelligence: a modern approach</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Norvig</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+			<publisher>Pearson Education Limited</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A survey of decision tree classifier methodology</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Safavian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Landgrebe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Systems, Man, and Cybernetics</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="660" to="674" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sarro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Petrozziello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Harman</surname></persName>
+		</author>
+		<title level="m">Multi-objective software effort estimation. International Conference on Software Engineering (ICSE)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="619" to="630" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Machine learning approaches for estimation of prediction interval for the model output</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shrestha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Solomatine</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Networks</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="225" to="235" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Beyond accuracy, F-score and ROC: a family of discriminant measures for performance evaluation</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sokolova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Japkowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Szpakowicz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Australasian Joint Conference on Artificial Intelligence</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="1015" to="1021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Data-driven modelling: some past experiences and new approaches</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Solomatine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ostfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Hydroinformatics</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="3" to="22" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">A novel method to estimate model uncertainty using machine learning techniques</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Solomatine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Shrestha</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">Water Resoures Research</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="W00B" to="11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Data-driven modelling: concepts, approaches and experiences</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Solomatine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>See</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Abrahart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Practical Hydroinformatics</title>
+				<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="17" to="30" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sugiyama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Lawrence</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schwaighofer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Dataset shift in machine learning</title>
+		<imprint>
+			<publisher>The MIT Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wagner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">&amp;</forename><forename type="middle">.</forename></persName>
+		</author>
+		<title level="m">Operationalised product quality UNCERTAINTY IN AI AND MACHINE LEARNING -AN OVERVIEW models and assessment: The Quamoco approach. Information and Software Technolog</title>
+				<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">62</biblScope>
+			<biblScope unit="page" from="101" to="123" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hyde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Petitjean</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Characterizing concept drift. Data Mining and Knowledge Discovery</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="964" to="994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<author>
+			<persName><forename type="first">I</forename><surname>Witten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>&amp; C</surname></persName>
+		</author>
+		<title level="m">Data Mining: Practical Machine Learning Tools and Techniques</title>
+				<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gatt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Stamatescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mcdonnell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Understanding data augmentation for classification: when</title>
+	</analytic>
+	<monogr>
+		<title level="m">to warp? International Conference on Digital Image Computing: Techniques and Applications (DICTA)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Learning and evaluating classifiers under sample selection bias</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zadrozny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Machine Learning</title>
+				<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

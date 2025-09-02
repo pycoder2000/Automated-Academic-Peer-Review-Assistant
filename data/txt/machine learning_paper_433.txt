@@ -1,0 +1,6 @@
+Title: Basics of machine learning
+Published: 2025-06-13T00:05:29Z
+Link: https://doi.org/10.1017/9781009504942.004
+
+Abstract:
+

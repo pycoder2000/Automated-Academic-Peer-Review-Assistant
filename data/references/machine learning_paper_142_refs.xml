@@ -1,0 +1,3473 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Genomic Risk Prediction of Complex Human Disease and its Clinical Application</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Abraham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Inouye</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.gde.2015.06.005</idno>
+		<idno>doi:10. 1016/j.gde.2015.06.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Opin. Genet. Dev</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="10" to="16" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Adapting to Unknown Sparsity by Controlling the False Discovery Rate</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Abramovich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Benjamini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Donoho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Johnstone</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1214/009053606000000074</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Stat</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="584" to="653" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Genetic Mapping in Human Disease</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Altshuler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Daly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename><surname>Lander</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.1156409</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">322</biblScope>
+			<biblScope unit="page" from="881" to="888" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Reducing Dimensionality in a Database of</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Álvarez-Estévez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sánchez-Maroño</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alonso-Betanzos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Moret-Bonillo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sleep EEG Arousals. Expert Syst. Appl</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="7746" to="7754" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A Hybrid Feature Selection Method for Complex Diseases SNPs</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Alzubi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ramzan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Alzoubi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amira</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1109/ACCESS.2017.2778268</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1292" to="1301" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">A Comprehensive Empirical Comparison of Modern Supervised Classification and Feature Selection Methods for Text Categorization</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Aphinyanaphongs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Peskin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Efstathiadis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Aliferis</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/asi.23110</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Assn Inf. Sci. Tec</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<date type="published" when="1964" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Clinical Assessment Incorporating a Personal Genome</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Ashley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Butte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Wheeler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">E</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">E</forename><surname>Dewey</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0140-6736(10)60452-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lancet</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="page" from="1525" to="1535" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A Systematic Comparison of Statistical Methods to Detect Interactions in Exposome-Health Associations</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Barrera-Gómez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Agier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Portengen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chadeau-Hyam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Giorgis-Allemand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Siroux</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12940-017-0277-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Environ. Heal. A Glob. Access Sci. Source</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">74</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Using Mutual Information for Selecting Features in Supervised Neural Net Learning</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Battiti</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/72.298224</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Neural Netw</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="537" to="550" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Controlling the False Discovery Rate: A Practical and Powerful Approach to Multiple Testing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Benjamini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hochberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.2517-6161.1995.tb02031.x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. R. Stat. Soc. Ser. B Methodol</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="289" to="300" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">The Control of the False Discovery Rate in Multiple Testing under Dependency</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Benjamini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yekutieli</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1214/aos/1013699998</idno>
+		<idno>doi:10.1214/ aos/1013699998</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann. Stat</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1165" to="1188" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Feature Selection from Huge Feature Sets</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Draper</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICCV.2001.937619</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE Int. Conf. Comput. Vis</title>
+				<meeting>IEEE Int. Conf. Comput. Vis</meeting>
+		<imprint>
+			<date type="published" when="2001" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="159" to="165" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Ensembles for Feature Selection: A Review and Future Trends</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bolón-Canedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alonso-Betanzos</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.inffus.2018.11.008</idno>
+		<idno>doi:10.1016/j. inffus.2018.11.008</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inf. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A Review of Feature Selection Methods on Synthetic Data</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bolón-Canedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sánchez-Maroño</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alonso-Betanzos</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knowl. Inf. Syst</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="483" to="519" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">An Ensemble of Filters and Classifiers for Microarray Data Classification</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bolón-Canedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sánchez-Maroño</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alonso-Betanzos</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recognit</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="531" to="539" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A Review of Microarray Datasets and Applied Feature Selection Methods</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bolón-Canedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sánchez-Maroño</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alonso-Betanzos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Benítez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Herrera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inf. Sci. (Ny)</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="111" to="135" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Benchmark for Filter Methods for Feature Selection in High-Dimensional Classification Data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bommert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Bischl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rahnenführer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lang</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.csda.2019.106839</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Statistics Data Analysis</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="page">106839</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Exploiting SNP Correlations within Random Forest for Genome-wide Association Studies</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Botta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Louppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Geurts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wehenkel</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0093379</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">e93379</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Random Forests</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breiman</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/a:1010933404324</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mach. Learn</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="5" to="32" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A Practical View of Fine-Mapping and Gene Prioritization in the Post-genome-wide Association Era</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Broekema</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">B</forename><surname>Bakker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">H</forename><surname>Jonkers</surname></persName>
+		</author>
+		<idno type="DOI">10.1098/rsob.190221</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Open Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Controlling the Rate of GWAS False Discoveries</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brzyski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Peterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sobczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Candès</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bogdan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sabatti</surname></persName>
+		</author>
+		<idno type="DOI">10.1534/genetics.116.193987</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genetics</title>
+		<imprint>
+			<biblScope unit="volume">205</biblScope>
+			<biblScope unit="page" from="61" to="75" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Identifying SNPs Predictive of Phenotype Using Random Forests</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bureau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dupuis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Falls</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Lunetta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Keith</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/gepi.20041</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genet. Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="171" to="182" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Particle Swarm Optimisation for Feature Selection: A Hybrid Filter-Wrapper Approach</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Butler-Yeoman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CEC.2015.7257186</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2015 IEEE Congress on Evolutionary Computation (CEC)</title>
+				<meeting><address><addrLine>Sendai, Japan</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015-05" />
+			<biblScope unit="page" from="2428" to="2435" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chandrashekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sahin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.compeleceng.2013.11.024</idno>
+	</analytic>
+	<monogr>
+		<title level="j">A Survey on Feature Selection Methods. Comput. Electr. Eng</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="16" to="28" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Collins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wejse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sirugo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Williams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Moore</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Multifactor Dimensionality Reduction Reveals a Three-Locus Epistatic Interaction Associated with Susceptibility to Pulmonary Tuberculosis</title>
+		<idno type="DOI">10.1186/1756-0381-6-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioData Min</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="4" to="5" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Detecting Gene-Gene Interactions that Underlie Human Diseases</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Cordell</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrg2579</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Genet</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="392" to="404" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Random Forest versus Logistic Regression: a Large-Scale Benchmark Experiment</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Couronné</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Probst</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A.-L</forename><surname>Boulesteix</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12859-018-2264-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinforma</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">270</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A Comparative Study on Feature Selection for a Risk Prediction Model for Colorectal Cancer</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cueto-López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>García-Ordás</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Dávila-Batista</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Moreno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Aragonés</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Alaiz-Rodríguez</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmpb.2019.06.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Methods Programs Biomed</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="page" from="219" to="229" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Identifying Redundant Features Using Unsupervised Learning for High-Dimensional Data</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A G S</forename><surname>Danasingh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A B</forename><surname>Subramanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Epiphany</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s42452-020-3157-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SN Appl. Sci</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">1367</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Combining Least Absolute Shrinkage and Selection Operator (LASSO) and Principal-Components Analysis for Detection of Gene-Gene Interactions in Genome-wide Association Studies</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>D'angelo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Gu</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1753-6561-3-S7-S62</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Proc</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">S62</biblScope>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Bioinformatics Challenges in Genome-wide Association Studies (Gwas)</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Bush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4939-0847-9_5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">1168</biblScope>
+			<biblScope unit="page" from="63" to="81" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Progress and Challenges in Genome-wide Association Studies in Humans</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Donnelly</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature07631</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">456</biblScope>
+			<biblScope unit="page" from="728" to="731" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Estimation of Significance Thresholds for Genomewide Association Scans</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dudbridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gusnanto</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/gepi.20297</idno>
+		<idno>doi:10.1002/ gepi.20297</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genet. Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="227" to="234" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Multiple Comparisons Among Means</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">J</forename><surname>Dunn</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01621459.1961.10482090</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Am. Stat. Assoc</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="52" to="64" />
+			<date type="published" when="1961" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">A Review of Modern Multiple Hypothesis Testing, with Particular Attention to the False Discovery Proportion</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Farcomeni</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0962280206079046</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Stat. Methods Med. Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="347" to="388" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">An Extensive Empirical Study of Feature Selection Metrics for Text Classification</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Forman</surname></persName>
+		</author>
+		<idno type="DOI">10.5555/944919.944974</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mach. Learn. Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1289" to="1305" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Enriched Ant Colony Optimization and its Application in Feature Selection</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Forsati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moayedikia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jensen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shamsfard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Meybodi</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neucom.2014.03.053</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">142</biblScope>
+			<biblScope unit="page" from="354" to="371" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">A Wrapper-Filter Feature Selection Technique Based on Ant Colony Optimization</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ghosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Guha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sarkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abraham</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/s00521-019-04171-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Comput. Applic</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="7839" to="7857" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">High Performance Computing Enabling Exhaustive Analysis of Higher Order Single Nucleotide Polymorphism Interaction in Genome Wide Association Studies</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goudey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abedini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Hopper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Inouye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Makalic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Schmidt</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/2047-2501-3-S1-S3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Health Inf. Sci. Syst</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">S3</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Multiple Threshold Spatially Uniform ReliefF for the Genetic Analysis of Complex Human Diseases</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Granizo-Mackenzie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-37189-9_1</idno>
+	</analytic>
+	<monogr>
+		<title level="s">Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">7833</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2013" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Spatially Uniform ReliefF (SURF) for Computationally-Efficient Filtering of Gene-Gene Interactions</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Penrod</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kiralis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1756-0381-2-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioData Min</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="5" to="9" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">The Informative Extremes: Using Both Nearest and Farthest Individuals Can Improve Relief Algorithms in the Domain of Human Genetics</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Greene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Himmelstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kiralis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-642-12211-8_16</idno>
+	</analytic>
+	<monogr>
+		<title level="s">Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">6023</biblScope>
+			<biblScope unit="page" from="182" to="193" />
+			<date type="published" when="2010" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A Review of Ensemble Learning Based Feature Selection</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Guan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yuan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Najeebullah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Rasel</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/02564602.2014.906859</idno>
+	</analytic>
+	<monogr>
+		<title level="m">IETE Technical Review (India): Institution of Electronics and Telecommunication Engineers)</title>
+				<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="190" to="198" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Cloud Computing for Detecting High-Order Genome-wide Epistatic Interaction via Dynamic Clustering</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Pan</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2105-15-102</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinforma</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="102" to="116" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Multi-Label Bioinformatics Data Classification with Ensemble Embedded Feature Selection</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-L</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/access.2019.2931035</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="103863" to="103875" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">An Introduction to Variable and Feature Selection</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Elisseeff</surname></persName>
+		</author>
+		<idno type="DOI">10.5555/944919.944968</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mach. Learn. Res</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1157" to="1182" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Feature Extraction: Foundations and Applications</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gunn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nikravesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zadeh</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Springer</publisher>
+			<biblScope unit="page">207</biblScope>
+			<pubPlace>Berlin</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Correlation-based Feature Selection of Discrete and Numeric Class Machine Learning</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Seventeenth International Conference on Machine Learning</title>
+				<meeting>the Seventeenth International Conference on Machine Learning<address><addrLine>Stanford, CA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000-06-29" />
+		</imprint>
+		<respStmt>
+			<orgName>Stanford University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Genetic Studies of Complex Human Diseases: Characterizing SNP-Disease Associations Using Bayesian Networks</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Talebizadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1752-0509-6-S3-S14</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Syst. Biol</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>Suppl 3, S14.</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Adaptation in Natural and Artificial Systems by</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hayes-Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Holland</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1216504.1216510</idno>
+		<idno>doi:10. 1145/1216504.1216510</idno>
+		<imprint>
+			<date type="published" when="1975" />
+			<publisher>SIGART Bull</publisher>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+	<note>Review of</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">INTERSNP: Genome-wide Interaction Analysis Guided by A Priori Information</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Herold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Steffens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Brockschmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">P</forename><surname>Baur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Becker</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btp596</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="3275" to="3281" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Potential Etiologic and Functional Implications of Genomewide Association Loci for Human Diseases and Traits</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Hindorff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sethupathy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Junkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">M</forename><surname>Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Mehta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">S</forename><surname>Collins</surname></persName>
+		</author>
+		<idno type="DOI">10.1073/pnas.0903103106</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Natl. Acad. Sci. U. S. A</title>
+		<imprint>
+			<biblScope unit="volume">106</biblScope>
+			<biblScope unit="page" from="9362" to="9367" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Machine Learning SNP Based Prediction for Precision Medicine</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S W</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Schierding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wake</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Saffery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sullivan</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fgene.2019.00267</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Genet</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">267</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">EFS-MI: an Ensemble Feature Selection Method for Classification</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hoque</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Bhattacharyya</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40747-017-0060-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Complex Intell. Syst</title>
+		<imprint>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="105" to="118" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Filter versus Wrapper Gene Selection Approaches in DNA Microarray Domains</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Inza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Larrañaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Blanco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Cerrolaza</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.artmed.2004.01.007</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Artif. Intell. Med</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="91" to="103" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Irrelevant Features and the Subset Selection Problem</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kohavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pfleger</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-1-55860-335-6.50023-4</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning Proceedings</title>
+				<meeting><address><addrLine>Burlington, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann Publishers</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="121" to="129" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Statistical Methods with Exhaustive Search in the Identification of Gene-Gene Interactions for Colorectal Cancer</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kafaie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hu</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/gepi.22372</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genet. Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="222" to="234" />
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Feature Selection Problem: Traditional Methods and a New Algorithm</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Rendell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings Tenth National Conference on Artificial Intelligence</title>
+				<meeting>Tenth National Conference on Artificial Intelligence</meeting>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="129" to="134" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Feature Set Search Alborithms</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kittler</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-94-009-9941-1_3</idno>
+		<idno>doi:10. 1007/978-94-009-9941-1_3</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Pattern Recognition and Signal Processing</title>
+				<meeting><address><addrLine>Dordrecht, Netherlands; Dordrecht</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1978" />
+			<biblScope unit="page" from="41" to="60" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Wrappers for Feature Subset Selection</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kohavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/s0004-3702(97)00043-x</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Artif. Intell</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="273" to="324" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Toward Optimal Feature Selection</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Koller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sahami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Machine Learning</title>
+				<meeting><address><addrLine>Stanford, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Stanford InfoLab</publisher>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="284" to="292" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Machine Learning and Data Mining in Complex Genomic Data-Aa Review on the Lessons Learned in Genetic Analysis Workshop 19</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>König</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Auerbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Held</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Holzinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Legault</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12863-015-0315-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioMed Central</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>BMC Genet.</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Estimating Attributes: Analysis and Extensions of RELIEF</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kononenko</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/3-540-57868-4_5710.1007/3-540-57868-4_57</idno>
+	</analytic>
+	<monogr>
+		<title level="s">Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">784</biblScope>
+			<biblScope unit="page" from="171" to="182" />
+			<date type="published" when="1994" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Recent Trends in Photoaffinity Labeling</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kotzyba-Hibert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kapfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Goeldner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Angewandte Chemie Int. Ed. Engl</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1296" to="1312" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Risk Estimation and Risk Prediction Using Machine-Learning Methods</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kruppa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ziegler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>König</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00439-012-1194-y</idno>
+		<idno>doi:10.1007/ s00439-012-1194-y</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="1639" to="1654" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">The Problem of Redundant Variables in Random Forests</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kubus</surname></persName>
+		</author>
+		<idno type="DOI">10.18778/0208-6018.339.01</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Folia Oeconomica</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="7" to="16" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">An Experimental Study on Diversity for Bagging and Boosting with Linear Classifiers</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Kuncheva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Skurichina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P W</forename><surname>Duin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/s1566-2535(02)00093-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Inf. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="245" to="258" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">A New Feature Selection Algorithm Based on Relevance</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lin</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.compbiomed.2020.103667</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Redundancy and Complementarity. Comput. Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">119</biblScope>
+			<date type="published" when="2020" />
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Application of the GA/ KNN Method to SELDI Proteomics Data</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Umbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Terry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Taylor</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bth098</idno>
+		<idno>doi:10. 1093/bioinformatics/bth098</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1638" to="1640" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title level="m" type="main">Feature Selection with Conditional Mutual Information Considering Feature Interaction</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Luan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/sym11070858</idno>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">858</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Improved Statistical Inference from DNA Microarray Data Using Analysis of Variance and A Bayesian Statistical Framework. Analysis of Global Gene Expression in Escherichia coli K12</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">D</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Mangalam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Y</forename><surname>Chan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tolleri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Hatfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Baldi</surname></persName>
+		</author>
+		<idno type="DOI">10.1074/jbc.M010192200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biol. Chem</title>
+		<imprint>
+			<biblScope unit="volume">276</biblScope>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Single Nucleotide Polymorphism Relevance Learning with Random Forests for Type 2 Diabetes Risk Prediction</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Torrent-Fontbona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Viñas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Fernández-Real</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.artmed.2017.09.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Artif. Intell. Med</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="43" to="49" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">A Generalized Combinatorial Approach for Detecting Gene-By-Gene and Gene-By-Environment Interactions with Application to Nicotine Dependence</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">Y</forename><surname>Lou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">B</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Elston</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/518312</idno>
+		<idno>doi:10. 1086/518312</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1125" to="1137" />
+			<date type="published" when="2007" />
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Understanding Variable Importances in Forests of Randomized Trees</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Louppe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wehenkel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sutera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Geurts</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems 26</title>
+				<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Screening Large-Scale Association Study Data: Exploiting Interactions Using Random Forests</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Lunetta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B</forename><surname>Hayward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Segal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Van Eerdewegh</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2156-5-32</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genet</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">32</biblScope>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Biological Knowledge-Driven Analysis of Epistasis in Human GWAS with Application to Lipid Traits</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Keinan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Clark</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-1-4939-2155-3_3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Methods Mol. Biol</title>
+		<imprint>
+			<biblScope unit="volume">1253</biblScope>
+			<biblScope unit="page" from="35" to="45" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Personal Genomes: The Case of the Missing Heritability</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Maher</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/456018a</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">456</biblScope>
+			<biblScope unit="page" from="18" to="21" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Beyond Missing Heritability: Prediction of Complex Traits</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Makowsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Pajewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Klimentidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">I</forename><surname>Vazquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Duarte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Allison</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pgen.1002051</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">e1002051</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Bringing Genome-wide Association Findings into Clinical Use</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">A</forename><surname>Manolio</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nrg3523</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Genet</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="549" to="558" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">A Wrapper Feature Subset Selection Method Based on Randomized Search and Multilayer Structure</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yang</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename></persName>
+		</author>
+		<idno type="DOI">10.1155/2019/9864213</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Res. Int</title>
+		<imprint>
+			<biblScope unit="page">9864213</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Genome-wide Strategies for Detecting Multiple Loci that Influence Complex Diseases</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Marchini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Donnelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Cardon</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ng1537</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Genet</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="413" to="417" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<title level="m" type="main">Foundations of Machine Learning</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mohri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rostamizadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Talwalkar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Tuning ReliefF for Genome-wide Genetic Analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">4447</biblScope>
+			<biblScope unit="page" from="166" to="175" />
+			<date type="published" when="2007" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">A Combinatorial Partitioning Method to Identify Multilocus Genotypic Partitions that Predict Quantitative Trait Variation</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Nelson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Kardia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Ferrell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">F</forename><surname>Sing</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gr.172901</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="458" to="470" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">A Review of the MHC Genetics of Rheumatoid Arthritis</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Newton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Harney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Wordsworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/sj.gene.6364045</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes. Immun</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="151" to="157" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">A Survey about Methods Dedicated to Epistasis Detection</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Niel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sinoquet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rocheleau</surname></persName>
+		</author>
+		<idno type="DOI">10.3389/fgene.2015.00285</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Front. Genet</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">285</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Regularized Machine Learning in the Genetic Prediction of Complex Traits</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Okser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pahikkala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Airola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Salakoski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ripatti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aittokallio</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pgen.1004754</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS Genet</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">e1004754</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Genetic Variants and Their Interactions in Disease Risk Prediction -Machine Learning and Network Perspectives</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Okser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pahikkala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aittokallio</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<idno type="DOI">10.1186/1756-0381-6-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioData Min</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">5</biblScope>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Fine Mapping of Type 1 Diabetes Susceptibility Loci and Evidence for Colocalization of Causal Variants with Lymphoid Gene Enhancers</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Onengut-Gumuscu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Burren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Mychaleckyj</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/ng.3245</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Genet</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="page" from="381" to="386" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Random Forest Approach for Determining Risk Prediction and Predictive Factors of Type 2 Diabetes: Large-Scale Health Check-Up Data in Japan</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ooka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Johno</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nakamoto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yoda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yokomichi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yamagata</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename></persName>
+		</author>
+		<idno type="DOI">10.1136/bmjnph-2020-000200</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bmjnph</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="140" to="148" />
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Feature Selection for Classification of Hyperspectral Data by SVM</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">M</forename><surname>Foody</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/tgrs.2009.2039484</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Geosci. Remote Sens</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="2297" to="2307" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">What Should the Genome-wide Significance Threshold Be? Empirical Replication of Borderline Genetic Associations</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">A</forename><surname>Panagiotou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ioannidis</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/ije/dyr178</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="273" to="286" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Exploiting the Proteome to Improve the Genome-wide Genetic Analysis of Epistasis in Common Human Diseases</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Pattin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00439-008-0522-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="19" to="29" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Feature Selection Based on Mutual Information: Criteria of Max-Dependency, Max-Relevance, and Min-Redundancy</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Long</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ding</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TPAMI.2005.159</idno>
+		<idno>doi:10. 1109/TPAMI.2005.159</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Pattern Anal. Mach. Intell</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1226" to="1238" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Ensemble Feature Selection for High-Dimensional Data: a Stability Analysis across Multiple Domains</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pes</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s00521-019-04082-3</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Comput. Applic</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="5951" to="5973" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">A Review of Feature Selection Methods in Medical Applications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Remeseiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bolon-Canedo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.compbiomed.2019.103375</idno>
+		<idno>doi:10. 1016/j.compbiomed.2019.103375</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Biol. Med</title>
+		<imprint>
+			<biblScope unit="volume">112</biblScope>
+			<biblScope unit="page">103375</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Multifactor-dimensionality Reduction Reveals High-Order Interactions Among Estrogen-Metabolism Genes in Sporadic Breast Cancer</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Ritchie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">W</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Roodi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">R</forename><surname>Bailey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">D</forename><surname>Dupont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">F</forename><surname>Parl</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/321276</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">69</biblScope>
+			<biblScope unit="page" from="138" to="147" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Comparative Performances of Machine Learning Methods for Classifying Crohn Disease Patients Using Genome-wide Genotyping Data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Romagnoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Jégou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Van Steen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Wainrib</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Hugot</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41598-019-46649-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">10351</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">A Review of Feature Selection Techniques in Bioinformatics</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Saeys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Inza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Larrañaga</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btm344</idno>
+		<idno>doi:10.1093/ bioinformatics/btm344</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="2507" to="2517" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Robust Feature Selection Using Ensemble Feature Selection Techniques</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Saeys</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Abeel</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Van De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Peer</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-540-87481-2_21</idno>
+	</analytic>
+	<monogr>
+		<title level="s">Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">5212</biblScope>
+			<biblScope unit="page" from="313" to="325" />
+			<date type="published" when="2008" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">A Weighted Least-Squares Approach to Clusterwise Regression</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schlittgen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10182-011-0155-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">AStA Adv. Stat. Anal</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="205" to="217" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">FastEpistasis: a High Performance Computing Solution for Quantitative Trait Epistasis</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schüpbach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Xenarios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bergmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kapur</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btq147</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1468" to="1469" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">On Safari to Random Jungle: a Fast Implementation of Random Forests for High-Dimensional Data</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Schwarz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>König</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ziegler</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btq257</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="1752" to="1758" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">Ensemble Feature Selection for Rankings of Features</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Seijo-Pardo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Bolón-Canedo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Porto-Díaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alonso-Betanzos</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-19222-2_3</idno>
+	</analytic>
+	<monogr>
+		<title level="s">Lecture Notes in Computer Science (Including Subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">9095</biblScope>
+			<biblScope unit="page" from="29" to="42" />
+			<date type="published" when="2015" />
+			<publisher>Springer-Verlag</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">Using LASSO to Model Interactions and Nonlinearities in Survey Data</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Signorino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kirchner</surname></persName>
+		</author>
+		<idno type="DOI">10.29115/sp-2018-0005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Surv. Pract</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title level="a" type="main">Prototype and Feature Selection by Sampling and Random Mutation Hill Climbing Algorithms</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Skalak</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/b978-1-55860-335-6.50043-x</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning Proceedings</title>
+				<meeting><address><addrLine>Burlington, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kauffmann</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="293" to="301" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title level="a" type="main">Strategies for Fine-Mapping Complex Traits</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Spain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Barrett</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/hmg/ddv260</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Hum. Mol. Genet</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="R111" to="R119" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Personalized Medicine&apos; to Identify Genetic Risks for Type 2 Diabetes and Focus Prevention: Can it Fulfill its Promise?</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Spiegel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hawkins</surname></persName>
+		</author>
+		<idno type="DOI">10.1377/hlthaff.2011.1054</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Health Aff. (Millwood)</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="43" to="49" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title level="a" type="main">Machine Learning in Genome-wide Association Studies</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Szymczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Biernacka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Cordell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>González-Recio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">R</forename><surname>König</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/gepi.20473</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genet. Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="S51" to="S57" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+	<note>Suppl</note>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<monogr>
+		<title level="m" type="main">Ensemble Feature Selection in High Dimension, Low Sample Size Datasets: Parallel and Serial Combination Approaches. Knowledge-Based Syst</title>
+		<author>
+			<persName><forename type="first">C.-F</forename><surname>Tsai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-T</forename><surname>Sung</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.knosys.2020.106097</idno>
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="volume">203</biblScope>
+			<biblScope unit="page">106097</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<analytic>
+		<title level="a" type="main">Multipopulation Harmony Search Algorithm for the Detection of High-Order SNP Interactions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chen</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btaa215</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="4389" to="4398" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">Comparing Different Supervised Machine Learning Algorithms for Disease Prediction</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Uddin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Hossain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Moni</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12911-019-1004-8</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Med. Inf. Decis. Mak</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page">281</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title level="a" type="main">Relief-based Feature Selection: Introduction and Review</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Urbanowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meeker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>La Cava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbi.2018.07.014</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomed. Inf</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="189" to="203" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<analytic>
+		<title level="a" type="main">Benchmarking Relief-Based Feature Selection Methods for Bioinformatics Data Mining</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Urbanowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schmitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meeker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbi.2018.07.015</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Biomed. Inf</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="168" to="188" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Verma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lucas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Veturi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dudek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Li</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<analytic>
+		<title level="a" type="main">Collective Feature Selection to Identify Crucial Epistatic Variants</title>
+		<idno type="DOI">10.1186/s13040-018-0168-6</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BioData Min</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">5</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<analytic>
+		<title level="a" type="main">10 Years of GWAS Discovery: Biology, Function, and Translation</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Visscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Wray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sklar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Mccarthy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Brown</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ajhg.2017.06.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="5" to="22" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<analytic>
+		<title level="a" type="main">Feature Selection Methods: Case of Filter and Wrapper Approaches for Maximising Classification Accuracy</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">B</forename><surname>Wah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ibrahim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Hamid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Abdul-Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pertanika J. Sci. Technol</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="329" to="340" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b120">
+	<analytic>
+		<title level="a" type="main">BOOST: A Fast Approach to Detecting Gene-Gene Interactions in Genome-wide Case-Control Studies</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L S</forename><surname>Tang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ajhg.2010.07.021</idno>
+		<idno>doi:10.1016/j. ajhg.2010.07.021</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">87</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="325" to="340" />
+			<date type="published" when="2010" />
+			<publisher>Elsevier</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b121">
+	<analytic>
+		<title level="a" type="main">An Ensemble Feature Selection Method for High-Dimensional Data Based on Sort Aggregation</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wang</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+		<idno type="DOI">10.1080/21642583.2019.1620658</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Syst. Sci. Control Eng</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="32" to="39" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b122">
+	<analytic>
+		<title level="a" type="main">GWGGI: Software for Genome-wide Gene-Gene Interaction Analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Lu</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12863-014-0101-z</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Genet</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page">101</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b123">
+	<analytic>
+		<title level="a" type="main">Large Sample Size, Wide Variant Spectrum, and Advanced Machine-Learning Technique Boost Risk Prediction for Inflammatory Bowel Disease</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bradfield</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cardinale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Frackelton</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ajhg.2013.05.002</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Am. J. Hum. Genet</title>
+		<imprint>
+			<biblScope unit="volume">92</biblScope>
+			<biblScope unit="page" from="1008" to="1012" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b124">
+	<analytic>
+		<title level="a" type="main">SNP Interaction Detection with Random Forests in High-Dimensional Genetic Data</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Winham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Colby</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Freimuth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Andrade</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Huebner</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2105-13-164</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinforma</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">164</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b125">
+	<analytic>
+		<title level="a" type="main">No Free Lunch Theorems for Optimization</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">H</forename><surname>Wolpert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Macready</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/4235.585893</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Evol. Comput</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="67" to="82" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b126">
+	<analytic>
+		<title level="a" type="main">Prediction of Individual Genetic Risk to Disease from Genome-wide Association Studies</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Wray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Goddard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Visscher</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gr.6665407</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1520" to="1528" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b127">
+	<analytic>
+		<title level="a" type="main">Detecting Genome-wide Epistases Based on the Clustering of Relatively Frequent Items</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jiang</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btr603</idno>
+		<idno>doi:10.1093/ bioinformatics/btr603</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="5" to="12" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b128">
+	<analytic>
+		<title level="a" type="main">Biomarker Identification by Feature Wrappers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Xiong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<idno type="DOI">10.1101/gr.190001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genome Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="1878" to="1887" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b129">
+	<analytic>
+		<title level="a" type="main">Estimating Genome-Wide Significance for Whole-Genome Sequencing Studies</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Tachmazidou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Walter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ciampi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zeggini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M T</forename><surname>Greenwood</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/gepi.21797</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genet. Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="281" to="290" />
+			<date type="published" when="2014" />
+			<publisher>Wiley Online Libr</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b130">
+	<analytic>
+		<title level="a" type="main">Robust Feature Selection for Microarray Data Based on Multicriterion Fusion</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Z</forename><surname>Mao</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TCBB.2010.103</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE/ACM Trans. Comput. Biol. Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="1080" to="1092" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b131">
+	<analytic>
+		<title level="a" type="main">Feature Subset Selection Using a Genetic Algorithm</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Honavar</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/5254.671091</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Intell. Syst</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="44" to="49" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b132">
+	<analytic>
+		<title level="a" type="main">SNPInterForest: a New Method for Detecting Epistatic Interactions</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yoshida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Koike</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/1471-2105-12-469</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinforma</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">469</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b133">
+	<analytic>
+		<title level="a" type="main">Efficient Feature Selection via Analysis of Relevance and Redundancy</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.5555/1005332.1044700</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mach. Learn. Res</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1205" to="1224" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b134">
+	<analytic>
+		<title level="a" type="main">TEAM: Efficient Two-Locus Epistasis Tests in Human Genome-wide Association Study</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wang</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btq186</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="217" to="227" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b135">
+	<analytic>
+		<title level="a" type="main">Divergence-based Feature Selection for Separate Classes</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neucom.2012.06.036</idno>
+		<idno>doi:10.1016/j. neucom.2012.06.036</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="32" to="42" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

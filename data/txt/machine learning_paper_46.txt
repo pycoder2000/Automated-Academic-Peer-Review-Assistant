@@ -1,0 +1,18 @@
+Title: The Top 10 Topics in Machine Learning Revisited: A Quantitative
+  Meta-Study
+Published: 2017-03-29T16:29:04Z
+Link: http://arxiv.org/abs/1703.10121v1
+
+Abstract:
+Which topics of machine learning are most commonly addressed in research?
+This question was initially answered in 2007 by doing a qualitative survey
+among distinguished researchers. In our study, we revisit this question from a
+quantitative perspective. Concretely, we collect 54K abstracts of papers
+published between 2007 and 2016 in leading machine learning journals and
+conferences. We then use machine learning in order to determine the top 10
+topics in machine learning. We not only include models, but provide a holistic
+view across optimization, data, features, etc. This quantitative approach
+allows reducing the bias of surveys. It reveals new and up-to-date insights
+into what the 10 most prolific topics in machine learning research are. This
+allows researchers to identify popular topics as well as new and rising topics
+for their research.

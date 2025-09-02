@@ -1,0 +1,178 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Al año, diagnostican 300 mil nuevos casos de tumores cerebrales en el mundo</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gonzalez</surname></persName>
+		</author>
+		<ptr target="https://www.dgcs.unam.mx/boletin/bdboletin/2020580.html(2020/07/08" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">El diagnóstico temprano del cáncer salva vidas y reduce los costos de tratamiento</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Jasarevic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Garwood</surname></persName>
+		</author>
+		<ptr target="https://www.who.int/es/news/item/03-02-2017-early-cancer-diagnosis-saves-lives-cuts-treatment-costs(2017/02/03" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Brain tumor detection from MRI images using deep learning techniques</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">G</forename><surname>Brindha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kavinraj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Manivasakam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Prasanth</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1757-899x/1055/1/012115</idno>
+		<ptr target="https://doi.org/10.1088/1757-899x/1055/1/012115" />
+	</analytic>
+	<monogr>
+		<title level="j">IOP Conference Series: Materials Science and Engineering</title>
+		<imprint>
+			<biblScope unit="volume">1055</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">12115</biblScope>
+			<date type="published" when="2021-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A distinctive approach in brain tumor detection and classification using mri</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sharif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yasmin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Fernandes</surname></persName>
+		</author>
+		<ptr target="https://www.sciencedirect.com/science/article/pii/S016786551730404X" />
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recognition Letters</title>
+		<imprint>
+			<biblScope unit="volume">139</biblScope>
+			<biblScope unit="page" from="118" to="127" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Role of deep learning in brain tumor detection and classification</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nazir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shakil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Khurshid</surname></persName>
+		</author>
+		<ptr target="https://www.sciencedirect.com/science/article/pii/S0895611121000896" />
+	</analytic>
+	<monogr>
+		<title level="m">A review</title>
+				<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">91</biblScope>
+			<biblScope unit="page">101940</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Context aware deep learning for brain tumor segmentation, subtype classification, and survival prediction using radiology images</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Vidyaratne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M</forename><surname>Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Iftekharuddin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Available: https</title>
+				<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">19726</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Brain tumor segmentation based on deep learning and an attention mechanism using mri multi-modalities brain images</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ranjbarzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Kasgari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Ghoushchi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Anari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Naseri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bendechache</surname></persName>
+		</author>
+		<ptr target="https://www.nature.com/articles/s41598-021-90428-8" />
+	</analytic>
+	<monogr>
+		<title level="j">Scientific Reports</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page">10930</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

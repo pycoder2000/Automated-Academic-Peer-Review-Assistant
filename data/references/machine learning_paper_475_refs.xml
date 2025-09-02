@@ -1,0 +1,425 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Predicting protein secondary structure using stochastic tree grammars</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Abe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mamitsuka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="275" to="301" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Instance-Based Learning Algorithms</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Aha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kibler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Albert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="37" to="66" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m">Proceedings of the 36th Annual Meeting of the ACL and COLING-98</title>
+				<editor>
+			<persName><forename type="first">C</forename><surname>Boitet</surname></persName>
+			<persName><forename type="first">P</forename><surname>Whitelock</surname></persName>
+		</editor>
+		<meeting>the 36th Annual Meeting of the ACL and COLING-98<address><addrLine>San Francisco, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">An overview of empirical natural language processing</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Mooney</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>AI Magazine</publisher>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="13" to="24" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Empirical methods in information extraction</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cardie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">AI Magazine</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="65" to="79" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m">Proceedings of the Second Conference on Empirical Methods in Natural Language Processing. Association of Computational Linguistics</title>
+				<editor>
+			<persName><forename type="first">C</forename><surname>Cardie</surname></persName>
+			<persName><forename type="first">R</forename><surname>Weischedel</surname></persName>
+		</editor>
+		<meeting>the Second Conference on Empirical Methods in Natural Language Processing. Association of Computational Linguistics</meeting>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Statistical techniques for natural language parsing. AI Magazine</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Charniak</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="33" to="43" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Charniak</surname></persName>
+		</author>
+		<title level="m">Proceedings of the Sixth Workshop on Very Large Corpora. Association of Computational Linguistics Special Interest Group on Linguistic Data</title>
+				<meeting>the Sixth Workshop on Very Large Corpora. Association of Computational Linguistics Special Interest Group on Linguistic Data</meeting>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wahlster</surname></persName>
+		</author>
+		<title level="m">Proceedings of the 35th Annual Meeting of the ACL and EACL-97</title>
+				<meeting>the 35th Annual Meeting of the ACL and EACL-97<address><addrLine>San Francisco, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Experiments with a new boosting algorithm</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Freund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schapire</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Thirteenth International Conference on Machine Learning</title>
+				<meeting>the Thirteenth International Conference on Machine Learning<address><addrLine>San Francisco, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="148" to="156" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Every time I fire a linguist, my performance goes up, and other myths of the statistical natural language processing revolution</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hirschberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Fifteenth National Conference on Artificial Intelligence (AAAI-98)</title>
+				<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+	<note>Invited talk</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m">Proceedings of the Third Conference on Empirical Methods in Natural Language Processing. Association of Computational Linguistics</title>
+				<editor>
+			<persName><forename type="first">N</forename><surname>Ide</surname></persName>
+			<persName><forename type="first">A</forename><surname>Voutilainen</surname></persName>
+		</editor>
+		<meeting>the Third Conference on Empirical Methods in Natural Language Processing. Association of Computational Linguistics</meeting>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Statistical Methods for Speech Recognition</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Jelinek</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Automating knowledge acquisition for machine translation. AI Magazine</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Knight</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="81" to="96" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Hidden Markov models in computational biology: Applications to protein modeling</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krogh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sjolander</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haussler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Molecular Biology</title>
+		<imprint>
+			<biblScope unit="volume">235</biblScope>
+			<biblScope unit="page" from="1501" to="1531" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Learning quickly when irrelevant attributes abound: A new linear-threshold algorithm</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Littlestone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="285" to="318" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The weighted majority algorithm</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Littlestone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Warmuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information and Computaton</title>
+		<imprint>
+			<biblScope unit="volume">108</biblScope>
+			<biblScope unit="page" from="212" to="261" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Corpus-based approaches to semantic interpretation in natural language processing</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zelle</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="45" to="64" />
+			<pubPlace>AI Magazine</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Induction of decision trees</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine Learning</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="81" to="106" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Learning logical definitions from relations</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1990" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="239" to="266" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+		<title level="m">C4.5: Programs for Machine Learning</title>
+				<meeting><address><addrLine>San Mateo, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Toward Memory-based Reasoning</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stanfill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Waltz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="1213" to="1228" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Linguistic knowledge and empirical methods in speech recognition. AI Magazine</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Stolcke</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="25" to="31" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m">Proceedings of the Fifth Workshop on Very Large Corpora. Association of Computational Linguistics Special Interest Group on Linguistic Data</title>
+				<editor>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+			<persName><forename type="first">K</forename><surname>Church</surname></persName>
+		</editor>
+		<meeting>the Fifth Workshop on Very Large Corpora. Association of Computational Linguistics Special Interest Group on Linguistic Data</meeting>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,6 @@
+Title: An Introduction to Machine Learning
+Published: 2020-03-03
+Link: https://www.semanticscholar.org/paper/86713aa23ad99039ba76a670797df40ad65a64b2
+
+Abstract:
+In the last few years, machine learning (ML) and artificial intelligence have seen a new wave of publicity fueled by the huge and ever‐increasing amount of data and computational power as well as the discovery of improved learning algorithms. However, the idea of a computer learning some abstract concept from data and applying them to yet unseen situations is not new and has been around at least since the 1950s. Many of these basic principles are very familiar to the pharmacometrics and clinical pharmacology community. In this paper, we want to introduce the foundational ideas of ML to this community such that readers obtain the essential tools they need to understand publications on the topic. Although we will not go into the very details and theoretical background, we aim to point readers to relevant literature and put applications of ML in molecular biology as well as the fields of pharmacometrics and clinical pharmacology into perspective.

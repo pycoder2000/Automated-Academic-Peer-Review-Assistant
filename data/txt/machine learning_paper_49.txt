@@ -1,0 +1,10 @@
+Title: Privacy Preserving Machine Learning: Threats and Solutions
+Published: 2018-03-27T15:10:31Z
+Link: http://arxiv.org/abs/1804.11238v1
+
+Abstract:
+For privacy concerns to be addressed adequately in current machine learning
+systems, the knowledge gap between the machine learning and privacy communities
+must be bridged. This article aims to provide an introduction to the
+intersection of both fields with special emphasis on the techniques used to
+protect the data.

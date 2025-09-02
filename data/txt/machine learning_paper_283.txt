@@ -1,0 +1,6 @@
+Title: DeltaGrad: Rapid retraining of machine learning models
+Published: 2020-06-26
+Link: https://www.semanticscholar.org/paper/bd9ecc05a12563445a2ef4fe758a39d7f2bcda0d
+
+Abstract:
+Machine learning models are not static and may need to be retrained on slightly changed datasets, for instance, with the addition or deletion of a set of data points. This has many applications, including privacy, robustness, bias reduction, and uncertainty quantifcation. However, it is expensive to retrain models from scratch. To address this problem, we propose the DeltaGrad algorithm for rapid retraining machine learning models based on information cached during the training phase. We provide both theoretical and empirical support for the effectiveness of DeltaGrad, and show that it compares favorably to the state of the art.

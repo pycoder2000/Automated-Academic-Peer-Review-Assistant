@@ -1,0 +1,16 @@
+Title: Dex: Incremental Learning for Complex Environments in Deep Reinforcement
+  Learning
+Published: 2017-06-19T00:16:24Z
+Link: http://arxiv.org/abs/1706.05749v1
+
+Abstract:
+This paper introduces Dex, a reinforcement learning environment toolkit
+specialized for training and evaluation of continual learning methods as well
+as general reinforcement learning problems. We also present the novel continual
+learning method of incremental learning, where a challenging environment is
+solved using optimal weight initialization learned from first solving a similar
+easier environment. We show that incremental learning can produce vastly
+superior results than standard methods by providing a strong baseline method
+across ten Dex environments. We finally develop a saliency method for
+qualitative analysis of reinforcement learning, which shows the impact
+incremental learning has on network attention.

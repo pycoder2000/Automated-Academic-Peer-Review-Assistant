@@ -1,0 +1,6 @@
+Title: Machine Learning in Drug Discovery: A Review
+Published: 2021-08-11
+Link: https://www.semanticscholar.org/paper/3a191f45f6c0e8ecc598dc349022b253a652b7f2
+
+Abstract:
+This review provides the feasible literature on drug discovery through ML tools and techniques that are enforced in every phase of drug development to accelerate the research process and deduce the risk and expenditure in clinical trials. Machine learning techniques improve the decision-making in pharmaceutical data across various applications like QSAR analysis, hit discoveries, de novo drug architectures to retrieve accurate outcomes. Target validation, prognostic biomarkers, digital pathology are considered under problem statements in this review. ML challenges must be applicable for the main cause of inadequacy in interpretability outcomes that may restrict the applications in drug discovery. In clinical trials, absolute and methodological data must be generated to tackle many puzzles in validating ML techniques, improving decision-making, promoting awareness in ML approaches, and deducing risk failures in drug discovery.

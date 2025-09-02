@@ -1,0 +1,897 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<monogr>
+		<author>
+			<persName><forename type="first">É</forename><surname>Foley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G</forename><surname>Guillemette</surname></persName>
+		</author>
+		<idno type="DOI">10.4018/jbir.2010100101</idno>
+		<title level="m">What is Business Intelligence?», IJBIR</title>
+				<imprint>
+			<date type="published" when="2010-10" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="1" to="28" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">A review and future direction of agile, business intelligence, analytics and data science</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Larson Y</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Chang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ijinfomgt.2016.04.013</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Information Management</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="700" to="710" />
+			<date type="published" when="2016-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gorunescu</surname></persName>
+		</author>
+		<title level="m">Data Mining: Concepts, models and techniques</title>
+				<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer Science &amp; Business Media</publisher>
+			<date type="published" when="2011" />
+			<biblScope unit="volume">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kamber</surname></persName>
+		</author>
+		<title level="m">Data mining: concepts and techniques</title>
+				<meeting><address><addrLine>Waltham, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Storey</surname></persName>
+		</author>
+		<title level="m">Business intelligence and analytics: From big data to big impact.», MIS quarterly</title>
+				<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">36</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Developing purchasing and supply management theory</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pagell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">B</forename><surname>Flynn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fugate</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Cantor</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022" />
+			<publisher>Edward Elgar Publishing</publisher>
+			<biblScope unit="page" from="29" to="47" />
+		</imprint>
+	</monogr>
+	<note>23 de noviembre de 2022. [En línea</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">An empirical examination of the underlying dimensions of purchasing competence</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Narasimhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Aram</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Carter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>Production and Operations Management</publisher>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">El sistema de producción Toyota: más allá de la producción a gran escala</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ohno</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>Routledge</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">six sigma and lean six sigma in the food industry: A systematic literature review</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">B M</forename><surname>Costa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Filho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Fredendall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Paredes</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Lean</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tifs.2018.10.002</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Food Science &amp; Technology</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="122" to="133" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">RFID and Sensor Network Automation in the Food Industry: Ensuring Quality and Safety through Supply Chain Visibility</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Piramuthu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhou</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+			<pubPlace>Hoboken</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<author>
+			<persName><forename type="first">H</forename><surname>Boyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hallaq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cunningham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Watson</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.compind.2018.04.015</idno>
+	</analytic>
+	<monogr>
+		<title level="m">The industrial internet of things (IIoT): An analysis framework</title>
+				<imprint>
+			<date type="published" when="2018-10" />
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="page" from="1" to="12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">«Intelligent purchasing: How artificial intelligence can redefine the purchasing function</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Allal-Chérif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Simón-Moya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">C C</forename><surname>Ballester</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jbusres.2020.11.050</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Business Research</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page" from="69" to="76" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">«Purchasing and supply management&apos;s identity: Crisis? What crisis?</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Ellram</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pursup.2019.100583</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Purchasing and Supply Management</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">100583</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yazan</surname></persName>
+		</author>
+		<title level="m">Three approaches to case study methods in education: Yin, Merriam, and Stake</title>
+				<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="134" to="152" />
+		</imprint>
+	</monogr>
+	<note>The qualitative report</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">, «about Us -Ifx»</forename><surname>Ifx Networks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">About</forename><surname>Us</surname></persName>
+		</author>
+		<ptr target="https://www.ifxnetworks.com/en/about-us/(accedido23denoviembrede2022" />
+		<imprint>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">«Conozca esta multilatina colombiana con &apos;padres&apos; extranjeros», Semana.com Últimas Noticias de Colombia y el Mundo</title>
+	</analytic>
+	<monogr>
+		<title level="j">Revista Semana</title>
+		<imprint/>
+	</monogr>
+	<note>25 de enero de 2019</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">«Las 9 empresas que le venderán internet al gobierno», Semana.com Últimas Noticias de Colombia y el Mundo</title>
+	</analytic>
+	<monogr>
+		<title level="j">Revista Semana</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>12 de agosto de</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">«Uppsala model: A contingent theory to explain the rise of EMNEs</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Oliveira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Figueira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pinhanez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Revista Eletrônica de Negócios Internacionais (Internext)</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="30" to="42" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">«From internationalization to evolution: The Uppsala model at 40 years</title>
+		<author>
+			<persName><forename type="first">J.-E</forename><surname>Vahlne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Johanson</surname></persName>
+		</author>
+		<idno type="DOI">10.1057/s41267-017-0107-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Int Bus Stud</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="1087" to="1102" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">«Estudio del modelo de desarrollo implementado en las empresas</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Quintero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gonz&amp;aacute</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sim&amp;oacute</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ariza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Networks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hgc</forename><surname>Consorcio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.</forename><forename type="middle">»</forename><surname>Skandia</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Tecnolog&amp;iacute</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014-07" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="p. NA" to="NA" />
+		</imprint>
+	</monogr>
+	<note>a, investigaci&amp;oacute;n y academia</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">«Impacto de volatilidad del tipo de cambio del dólar en las monedas de países latinoamericanos</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Gil</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2021" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="111" to="111" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Rodríguez-Ibarra, «Las tecnologías de la información y comunicación como factor de innovación y competitividad empresarial</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Bernal-Jiménez Y</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Scientia et technica</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="85" to="96" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Páez Páez, Pymes, competencias laborales y tic: Competitividad, productividad e innovación organizacional</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ortiz Ocaña</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Cortés Méndez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<ptr target="https://repository.ucc.edu.co/handle/20.500.12494/35792" />
+		<imprint>
+			<date type="published" when="2019" />
+			<pubPlace>Bogotá, Colombia</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Ediciones Universidad Cooperativa de Colombia</orgName>
+		</respStmt>
+	</monogr>
+	<note>Accedido: 23 de noviembre de 2022. En línea]. Disponible en</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Metodología de la Investigación: Guía para la comprensión holística de la ciencia</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hurtado De</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Barrera</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Quirón Ediciones</title>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Álvarez-Gayou Jurgenson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cómo hacer investigación cualitativa</title>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Paidós Mexicana</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Writing literature reviews: A guide for students of the social and behavioral sciences</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Galvan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Galvan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A U</forename><surname>Gómez</surname></persName>
+		</author>
+		<idno type="DOI">10.33412/idt.v14.2.2072</idno>
+		<title level="m">Selección de tecnología empresarial: una revisión desde literatura», I+D Tecnológico</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">14</biblScope>
+		</imprint>
+	</monogr>
+	<note>Art. n. o 2, dic</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">«Proceso metodológico y construcción de un sistema categorial de una investigación sobre identidad organizacional</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Gonzáles-Miranda Y</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Uribe Correa</surname></persName>
+		</author>
+		<idno type="DOI">10.5027/psicoperspectivas/vol17-issue3-fulltext-1349</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Psicoperspectivas</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="143" to="157" />
+			<date type="published" when="2018-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">«Chapter 6 -Algorithms, Analytics, and Artificial Intelligence: harnessing data to make supply chain decisions</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Brusset</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">La</forename><surname>Torre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Broekaert</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/B978-0-323-91614-1.00006-X</idno>
+		<editor>B. L. MacCarthy y D. Ivanov</editor>
+		<imprint>
+			<date type="published" when="2022" />
+			<publisher>Elsevier</publisher>
+			<biblScope unit="page" from="93" to="110" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><surname>Cox</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/B978-0-323-91614-1.00011-3</idno>
+		<title level="m">Digital purchasing and procurement systems: evolution and current state</title>
+				<editor>
+			<persName><forename type="first">B</forename><forename type="middle">L</forename><surname>Maccarthy</surname></persName>
+			<persName><forename type="first">D</forename><surname>Ivanov</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2022" />
+			<biblScope unit="page" from="181" to="197" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Moradi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dass</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.indmarman.2022.10.016</idno>
+		<title level="m">Applications of artificial intelligence in B2B marketing: Challenges and future directions», Industrial Marketing Management</title>
+				<imprint>
+			<date type="published" when="2022-11" />
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="300" to="314" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">«Application of artificial intelligence technology in the manufacturing process and purchasing and supply management</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kehayov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Holder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Koch</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.procs.2022.01.321</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Procedia Computer Science</title>
+				<meeting>edia Computer Science</meeting>
+		<imprint>
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page" from="1209" to="1217" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<author>
+			<persName><forename type="first">K</forename><surname>Niranjan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">S</forename><surname>Narayana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V A L N</forename><surname>Rao</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICCCI50826.2021.9402625</idno>
+		<title level="m">Role of Artifical Intelligence in Logistics and Supply Chain», en 2021 International Conference on Computer Communication and Informatics (ICCCI)</title>
+				<imprint>
+			<biblScope unit="page" from="1" to="3" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">«Evaluating Artificial Intelligence Systems to Guide Purchasing Decisions</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Filice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mongan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Kohli</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.jacr.2020.09.045</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American College of Radiology</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1405" to="1409" />
+			<date type="published" when="2020-11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schulze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bals</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pursup.2020.100625</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Implementing sustainable purchasing and supply management (SPSM): A Delphi study on competences needed by purchasing and supply management (PSM) professionals»</title>
+				<imprint>
+			<date type="published" when="2020-10" />
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page">100625</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">«Purchasing and supply management (PSM) competencies: Current and future requirements</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bals</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schulze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kelly</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Stek</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.pursup.2019.100572</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Purchasing and Supply Management</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page">100572</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Desarrollo del talento humano basado en competencias. Ediciones Granica SA</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Alles</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">Competencies and (global) talent management</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Machado</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">«Next-generation sequencing data analysis on cloud computing</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kwon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">G</forename><surname>Yoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D.-W</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s13258-015-0280-7</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Genes Genom</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="489" to="501" />
+			<date type="published" when="2015-06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">Modeler 18.0 User Guide. IBM</title>
+		<author>
+			<persName><forename type="first">Spss</forename><surname>Ibm</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>En línea</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">«The role of geographical distance and its efficacy on global purchasing practices</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wiengarten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ambrose</surname></persName>
+		</author>
+		<idno type="DOI">10.1108/IJOPM-09-2015-0556</idno>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Operations &amp; Production Management</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="865" to="881" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kramer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Scikit-Learn</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-33383-0_5</idno>
+		<title level="m">Machine Learning for Evolution Strategies</title>
+				<editor>
+			<persName><forename type="first">O</forename><surname>Kramer</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="45" to="53" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Learning Made Easy: A Review of Scikit-learn Package in Python Programming Language</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Ho</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Machine</surname></persName>
+		</author>
+		<idno type="DOI">10.3102/1076998619832248</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Educational and Behavioral Statistics</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="348" to="361" />
+			<date type="published" when="2019-06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">Causes of supply chain disruptions: An empirical analysis in cold chains for food and pharmaceuticals</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Brenner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">«The eight essential supply chain managament processes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Lambert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Supply Chain Management Review</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="18" to="26" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,1312 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Controlling the false discovery rate: a practical and powerful approach to multiple testing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Benjamini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hochberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Royal Stat.Soc</title>
+		<imprint>
+			<biblScope unit="page" from="289" to="300" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Fcm: The fuzzy c-means clustering algorithm</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Bezdek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ehrlich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Full</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computers &amp; Geosciences</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="191" to="203" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Combining labeled and unlabeled data with co-training</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mitchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">11th conference on computational learning theory</title>
+				<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="92" to="100" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">A training algorithm for optimal margin classifiers</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Boser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>Guyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Vapnik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">15th workshop on Computational learning theory</title>
+				<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="144" to="152" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Regret analysis of stochastic and nonstochastic multi-armed bandit problems</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bubeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Cesa-Bianchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Foundations and Trends in Machine Learning</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="122" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Modeling hesitation and conflict: a belief-based approach for multiclass problems</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Burger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Aran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caplier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ICMLA</title>
+		<imprint>
+			<biblScope unit="page" from="95" to="100" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Robust uncertainty principles: Exact signal reconstruction from highly incomplete frequency information. Information Theory</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Candès</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Romberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="489" to="509" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Predicting partial orders: Ranking with abstention</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rademaker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>De Baets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hüllermeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning and Knowledge Discovery in Databases</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="215" to="230" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Diffusion maps</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Coifman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lafon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied and computational harmonic analysis</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="5" to="30" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Mixture model estimation with soft labels</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Côme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Oukhellou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Denoeux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Aknin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Soft Methods for Handling Variab. and Imprec</title>
+				<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="165" to="174" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">What is the place of machine learning between pattern recognition and optimization</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cornuéjols</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Miclet</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Domain adaptation with regularized optimal transport</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Courty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Flamary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tuia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning &amp; Knowl. Disc. in Databases</title>
+				<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="274" to="289" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cuzzolin</surname></persName>
+		</author>
+		<title level="m">Belief functions: Theory and applications</title>
+				<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Belief modeling regression for pose estimation</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cuzzolin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">16th International Conference on Information Fusion</title>
+				<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="1398" to="1405" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A belief-theoretical approach to example-based pose estimation</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cuzzolin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Fuzzy Systems</title>
+		<imprint/>
+	</monogr>
+	<note>under revision</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Upper and lower probabilities induced by a multivalued mapping</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dempster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Mathematical Statistics</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="325" to="339" />
+			<date type="published" when="1967" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A generalization of bayesian inference</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Dempster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Royal Statistical Society. Series B (Methodological)</title>
+		<imprint>
+			<biblScope unit="page" from="205" to="247" />
+			<date type="published" when="1968" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Maximum likelihood from incomplete data via the em algorithm</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Dempster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Laird</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Rubin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. of the Royal Statistical Soc. (B) pp</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="38" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A k-nearest neighbor classification rule based on dempster-shafer theory. Systems, Man and Cybernetics</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Denoeux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="804" to="813" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A neural network classifier based on dempster-shafer theory. Systems, Man and Cybernetics (A)</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Denoeux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="131" to="150" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Maximum likelihood from evidential data: an extension of the em algorithm</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Denoeux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Combining Soft Computing and Statistical Methods in Data Analysis</title>
+				<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="181" to="188" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Maximum likelihood estimation from uncertain data in the belief function framework</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Denoeux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knowl. &amp; Data Engin., IEEE Trans. on</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="119" to="130" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Denoeux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Masson</surname></persName>
+		</author>
+		<title level="m">Belief Functions: Theory and Applications: Proceedings of the 2nd Int. Conf. on Belief Functions</title>
+				<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">164</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Toward an axiomatic definition of conflict between belief functions. Systems, Man, &amp; Cyb. (B)</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Destercke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Burger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="585" to="596" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A pairwise label ranking method with imprecise scores and partial predictions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Destercke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning and Knowledge Discovery in Databases</title>
+				<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="page" from="112" to="127" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<monogr>
+		<title level="m" type="main">Information Processing and Management of Uncertainty in Knowledge-Based Systems</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Destercke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Strauss</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="416" to="425" />
+		</imprint>
+	</monogr>
+	<note>Kolmogorov-smirnov test for interval data</note>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">K-means clustering via principal component analysis</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>He</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">international conference on Machine learning</title>
+				<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="page">29</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dubois</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Prade</surname></persName>
+		</author>
+		<title level="m">Possibility theory: qualitative and quantitative aspects. In: Quantified representation of uncertainty and imprecision</title>
+				<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="169" to="226" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A short introduction to boosting</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Freund</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Schapire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Abe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal-Japanese Society For Artificial Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page">1612</biblScope>
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">The application of fuzzy integrals in multicriteria decision making</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grabisch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">European journal of operational research</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="445" to="456" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">On the vc-dimension of the choquet integral</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hüllermeier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Tehrani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances on Computational Intelligence</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="42" to="50" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Applied multivariate statistical analysis</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Wichern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Education</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<publisher>Prentice hall Englewood Cliffs</publisher>
+			<biblScope unit="volume">4</biblScope>
+			<pubPlace>NJ</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Foundations of a theory of random sets</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kendall</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Stoch. geometry</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A dempster-shafer theory based combination of handwriting recognition systems with multiple rejection strategies</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kessentini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Burger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Paquet</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recognition</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="534" to="544" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">On combining classifiers. Pattern Analysis and Machine Intelligence</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kittler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hatef</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Duin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Matas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="226" to="239" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">A mathematical theory of hints(an approach to the dempster-shafer theory of evidence)</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kohlas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Monney</surname></persName>
+		</author>
+		<ptr target="L.N.economics&amp;math.systems" />
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Online learning for matrix factorization and sparse coding</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mairal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Bach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ponce</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sapiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Machine Learning Research</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="19" to="60" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mallat</surname></persName>
+		</author>
+		<ptr target="http://www.academie-sciences.fr/video/v180214.htm" />
+		<title level="m">Des mathématiques pour l&apos;analyse de données massives</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">Generalization as search. Artificial Intell</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mitchell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1982" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="203" to="226" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title level="m" type="main">An introduction to random sets</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Nguyen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>CRC press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">On cluster validity for the fuzzy c-means model. Fuzzy Systems</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Pal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Bezdek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="370" to="379" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">A consistency-specificity trade-off to select source behavior in information fusion</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pichon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Destercke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Burger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE trans. on System, Man and Cybernetics -Part B</title>
+		<imprint/>
+	</monogr>
+	<note>accepted in 2014, to appear</note>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Joint tracking and classification of airbourne objects using particle filters and the continuous transferable belief model</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Powell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Marshall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ristic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Maskell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">9th Intern. Conf. on Information Fusion</title>
+				<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="1" to="8" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Classifier fusion in the dempster-shafer framework using optimized t-norm based combination rules</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Quost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Masson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Denoeux</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Approximate Reasoning</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="353" to="374" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Evidential object recognition based on information gain maximization</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Reineking</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Schill</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Belief Functions: Theory and Applications</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="227" to="236" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Target identification using belief functions and implication rules</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ristic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smets</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1097" to="1103" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+	<note>Aerospace and Electronic Systems</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Belief function theory on the continuous space with an application to model based classification</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ristic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smets</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="4" to="9" />
+		</imprint>
+		<respStmt>
+			<orgName>IPMU</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Kalman filters for tracking and classification and the transferable belief model</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ristic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smets</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Int. Conf. on Information Fusion</title>
+				<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Target classification approach based on the belief function theory. Aerospace and Electronic Systems</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ristic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smets</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="574" to="583" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Learning with kernels: support vector machines, regularization, optimization, and beyond</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Scholkopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Smola</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2001" />
+			<publisher>MIT press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Active learning literature survey</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Settles</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Univ. of Wisconsin, tech. rep</title>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">A mathematical theory of evidence</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Shafer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1976" />
+			<publisher>Princeton University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Local computation in hypertrees</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Shafer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Shenoy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Tech. report</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Valuation-based systems for bayesian decision analysis</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Shenoy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Operations Research</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="463" to="484" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Propagating belief functions with local computations</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Shenoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Shafer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Expert</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="43" to="52" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Axioms for probability and belief-function propagation</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Shenoy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Shafer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Uncertainty in Artificial Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="169" to="198" />
+			<date type="published" when="1990" />
+			<publisher>North-Holland</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The transferable belief model</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kennes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artif. Int</title>
+		<imprint>
+			<biblScope unit="volume">66</biblScope>
+			<biblScope unit="page" from="191" to="243" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">The transferable belief model and random sets</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smets</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Intelligent Systems</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="37" to="46" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Belief functions: the disjunctive rule of combination and the generalized bayesian theorem</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smets</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of approximate reasoning</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="35" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Decision making in the tbm: the necessity of the pignistic transformation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smets</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Approximate Reasoning</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="133" to="147" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Kalman filter and joint tracking and classification based on belief functions in the tbm framework</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smets</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ristic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information Fusion</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="16" to="27" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Statistical significance for genomewide studies</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Storey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tibshirani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">16</biblScope>
+			<biblScope unit="page" from="9440" to="9445" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Learning monotone nonlinear models using the choquet integral</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">F</forename><surname>Tehrani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dembczyński</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hüllermeier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mach. learn</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">1-2</biblScope>
+			<biblScope unit="page" from="183" to="211" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Regression shrinkage and selection via the lasso</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tibshirani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Royal Statistical Society. Series B (Methodological)</title>
+		<imprint>
+			<biblScope unit="page" from="267" to="288" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">Partially supervised learning by a credal em approach</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vannoorenberghe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smets</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="956" to="967" />
+		</imprint>
+		<respStmt>
+			<orgName>ECSQARU</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">N</forename><surname>Vapnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vapnik</surname></persName>
+		</author>
+		<title level="m">Statistical learning theory</title>
+				<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Wiley</publisher>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">A tutorial on spectral clustering</title>
+		<author>
+			<persName><forename type="first">Von</forename><surname>Luxburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Statistics and computing</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="395" to="416" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

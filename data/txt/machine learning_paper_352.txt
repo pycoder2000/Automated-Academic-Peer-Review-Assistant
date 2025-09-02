@@ -1,0 +1,6 @@
+Title: Applied Machine Learning at Facebook: A Datacenter Infrastructure Perspective
+Published: 2018-02-01
+Link: https://www.semanticscholar.org/paper/88a97c8ef539589c55a6fe869c243792e470d6a3
+
+Abstract:
+None

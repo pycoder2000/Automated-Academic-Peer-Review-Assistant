@@ -1,0 +1,9 @@
+Title: Proceedings of NeurIPS 2018 Workshop on Machine Learning for the
+  Developing World: Achieving Sustainable Impact
+Published: 2018-12-21T03:29:09Z
+Link: http://arxiv.org/abs/1812.10398v2
+
+Abstract:
+This is the Proceedings of NeurIPS 2018 Workshop on Machine Learning for the
+Developing World: Achieving Sustainable Impact, held in Montreal, Canada on
+December 8, 2018

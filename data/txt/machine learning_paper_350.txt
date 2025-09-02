@@ -1,0 +1,6 @@
+Title: Quantum machine learning in high energy physics
+Published: 2020-05-18
+Link: https://www.semanticscholar.org/paper/32c709cf5d6ba1b5a729b4871c3129bb1bf578bf
+
+Abstract:
+Machine learning has been used in high energy physics (HEP) for a long time, primarily at the analysis level with supervised classification. Quantum computing was postulated in the early 1980s as way to perform computations that would not be tractable with a classical computer. With the advent of noisy intermediate-scale quantum computing devices, more quantum algorithms are being developed with the aim at exploiting the capacity of the hardware for machine learning applications. An interesting question is whether there are ways to apply quantum machine learning to HEP. This paper reviews the first generation of ideas that use quantum machine learning on problems in HEP and provide an outlook on future applications.

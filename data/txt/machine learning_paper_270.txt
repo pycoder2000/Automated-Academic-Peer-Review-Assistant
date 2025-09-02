@@ -1,0 +1,6 @@
+Title: Supervised Machine Learning: A Brief Primer.
+Published: 2020-05-16
+Link: https://www.semanticscholar.org/paper/df0e4a76513636a05f0530e55ffe4991e4957478
+
+Abstract:
+None

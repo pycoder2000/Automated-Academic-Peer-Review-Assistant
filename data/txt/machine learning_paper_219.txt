@@ -1,0 +1,6 @@
+Title: Secure, privacy-preserving and federated machine learning in medical imaging
+Published: 2020-06-01
+Link: https://www.semanticscholar.org/paper/5123717445799d8137327f4041e8d5a5a2c91379
+
+Abstract:
+None

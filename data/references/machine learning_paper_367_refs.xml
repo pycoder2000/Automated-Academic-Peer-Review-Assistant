@@ -1,0 +1,269 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Abl1</forename><surname>Aak1</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Aura</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Aurb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Aurc</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bark1</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bike</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Blk</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bmpr1b</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bmx</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Braf</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Brd2</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Brd3</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Brd4</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Brk</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Brsk1</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Brsk2</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>Btk</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Clk2</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Cot</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Crik</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Dlk</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Dnapk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Egfr</forename><surname>Dyrk3</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>Epha1</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Fak</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Fer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Fes</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Fms</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Frap</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Frk</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Fyn</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Fused</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gak</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gck</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hck</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hgk</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Haspin</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ikka</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ikkb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ikke</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ilk</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Insr</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Irr</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Itk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lyn</forename><surname>Ltk</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Melk</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Met</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Mink ;</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sik</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Slk</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Src</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Srm</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Srpk1</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Stk33</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Syk</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Trka</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Trkb</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Trkc</surname></persName>
+		</author>
+		<editor>PAK1 , PAK2, PAK3, PAK4, PAK5 ,PBK, PCTAIRE1, PDGFRa, PDGFRb, PDHK1, PDHK2, PDK1, PEK, PHKg1, PHKg2, PIM1, PIM2, PIM3, PKACa, PKCa, PKCb, PKCd, PKCe, PKCg, PKCh, PKCi</editor>
+		<imprint>
+			<pubPlace>PKCt, PKCz, PKD1, PKD2, PKD3, PKG1, PKG2, PKN1, PKN2, PLK1, PLK2, PLK3, PLK4, PRKX, PYK2, QIK, RAF1, RET, RIOK1, RIPK1, RIPK2, ROCK1, ROCK2, RON, ROS, RSK1, RSK2, RSK2_b, RSK3, SGK1, SGK2</pubPlace>
+		</imprint>
+	</monogr>
+	<note>MLK1, MLK2, MLK3, MNK1, MNK2, MPSK1, RCK, MSK1, MSK1_b, MSK2, MST1, MST2, MST3, MUSK, NEK1, NEK2, NEK4, NIK, NLK, NuaK1, NuaK. TSSK1, TSSK2, TTK, TXK, TYK2, TYK2_b, TYRO3, ULK1, ULK2, ULK3, Wee1, YES, ZAK, ZAP70, p38a, p38b, p38d, p38g, p70S6K, skMLCK, smMLCK</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mayr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Klambauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Unterthiner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hochreiter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mayr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Klambauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hochreiter</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Deeptox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Toxicity Prediction Using Deep Learning. Front. Environ. Sci</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Convolutional Embedding of Attributed Molecular Graphs for Physical Property Prediction</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">W</forename><surname>Coley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barzilay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Green</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">S</forename><surname>Jaakkola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Jensen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Inf. Model</title>
+		<imprint>
+			<biblScope unit="volume">57</biblScope>
+			<biblScope unit="page" from="1757" to="1772" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

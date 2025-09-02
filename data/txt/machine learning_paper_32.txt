@@ -1,0 +1,8 @@
+Title: Mixed integer programming formulation of unsupervised learning
+Published: 2020-01-20T23:09:32Z
+Link: http://arxiv.org/abs/2001.07278v1
+
+Abstract:
+A novel formulation and training procedure for full Boltzmann machines in
+terms of a mixed binary quadratic feasibility problem is given. As a proof of
+concept, the theory is analytically and numerically tested on XOR patterns.

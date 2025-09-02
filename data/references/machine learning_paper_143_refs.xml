@@ -1,0 +1,4045 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Trends and trajectories for explainable, accountable and intelligible systems: an hci research agenda</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abdul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vermeulen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3173574.3174156</idno>
+		<ptr target="https://doi.org/10.1145/3173574.3174156" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2018 CHI conference on human factors in computing systems</title>
+				<meeting>the 2018 CHI conference on human factors in computing systems<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="1" to="18" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Data on the web: from relations to semistructured data and XML</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Abiteboul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Buneman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Suciu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Data Management Systems Series</title>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Morgan Kaufmann</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Peeking inside the black-box: a survey on explainable artificial intelligence (XAI)</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Adadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Berrada</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ACCESS.2018.2870052</idno>
+		<ptr target="https://doi.org/10.1109/ACCESS.2018.28700" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">52</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Active learning: a survey. Data classification: algorithms and applications</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Aggarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Kong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Gu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Chapman and Hall/CRC</publisher>
+			<biblScope unit="page" from="599" to="634" />
+			<pubPlace>Boca Raton</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Amazon mechanical turk</title>
+		<author>
+			<persName><surname>Amazon</surname></persName>
+		</author>
+		<ptr target="https://www.mturk.com" />
+		<imprint>
+			<date type="published" when="2022-03-23" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Power to the people: the role of humans in interactive machine learning</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Amershi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cakmak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Knox</surname></persName>
+		</author>
+		<idno type="DOI">10.1609/aimag.v35i4.2513</idno>
+		<ptr target="https://doi.org/10.1609/aimag.v35i4.2513" />
+	</analytic>
+	<monogr>
+		<title level="j">AI Magazine</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="105" to="120" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Learning regular sets from queries and counterexamples</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0890-5401(87)90052-6</idno>
+		<ptr target="https://doi.org/10.1016/0890-5401" />
+	</analytic>
+	<monogr>
+		<title level="j">Inf Comput</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="90052" to="90056" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Explaining recurrent neural network predictions in sentiment analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">L</forename><surname>Arras</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Montavon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Müller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Samek</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/W17-5221</idno>
+		<ptr target="https://doi.org/10.18653/v1/W17-5221" />
+	</analytic>
+	<monogr>
+		<title level="m">EMNLP&apos;17 workshop on computational approaches to subjectivity, sentiment and social media analysis</title>
+				<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Rule extraction from support vector machines: a sequential covering approach</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Barakat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Bradley</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TKDE.2007.190610</idno>
+		<ptr target="https://doi.org/10.1109/TKDE.2007.190610" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Knowl Data Eng</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="729" to="741" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Explainable artificial intelligence (xai): concepts, taxonomies, opportunities and challenges toward responsible AI</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barredo Arrieta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Díaz-Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Del</forename><surname>Ser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.inffus.2019.12.012</idno>
+		<ptr target="https://doi.org/10.1016/j.inffus.2019.12.012" />
+	</analytic>
+	<monogr>
+		<title level="j">Inf Fusion</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="82" to="115" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Network dissection: Quantifying interpretability of deep visual representations</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Bau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khosla</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2017.354</idno>
+		<ptr target="https://ieeexplore.ieee.org/document/8099837" />
+	</analytic>
+	<monogr>
+		<title level="m">2017 IEEE conference on computer vision and pattern recognition (CVPR)</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="3319" to="3327" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Interactive machine learning techniques for improving SLU models</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Begeja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Renger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gibbon</surname></persName>
+		</author>
+		<ptr target="https://aclanthology.org/W04-3003" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the HLT-NAACL 2004 workshop on spoken language understanding for conversational systems and higher level linguistic information for speech processing</title>
+				<meeting>the HLT-NAACL 2004 workshop on spoken language understanding for conversational systems and higher level linguistic information for speech processing<address><addrLine>Boston, Massachusetts, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="10" to="16" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Curriculum learning</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Louradour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Collobert</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1553374.1553380</idno>
+		<ptr target="https://doi.org/10.1145/1553374.1553380" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 26th annual international conference on machine learning</title>
+				<meeting>the 26th annual international conference on machine learning<address><addrLine>New York, NY, USA, ICML &apos;09</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="41" to="48" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Towards explainable neural-symbolic visual reasoning</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bennetot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Laurent</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chatila</surname></persName>
+		</author>
+		<idno>arxiv: 1909. 09065</idno>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Ilastik: interactive machine learning for (bio)image analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Berg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kutra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kroeger</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/s41592-019-0582-9</idno>
+		<ptr target="https://doi.org/10.1038/s41592-019-0582-9" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1226" to="1232" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Cyberspace 2000: dealing with information overload</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Berghel</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/253671.253680</idno>
+		<ptr target="https://doi.org/10.1145/253671.253680" />
+	</analytic>
+	<monogr>
+		<title level="j">Commun ACM</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="19" to="24" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The problem with unstructured data</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Blumberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Atre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">DM Rev</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">62</biblScope>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">ASHE-ERIC higher education reports. ERIC Clearinghouse on Higher Education, The George Washington University</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Bonwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Eison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Suite</title>
+		<imprint>
+			<biblScope unit="volume">630</biblScope>
+			<date type="published" when="1183" />
+		</imprint>
+	</monogr>
+	<note>Active learning: creating excitement in the classroom</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Human and machine learning: visible, explainable, trustworthy and transparent</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Boukhelifa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bezerianos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lutton</surname></persName>
+		</author>
+		<editor>Zhou J, Chen F</editor>
+		<imprint>
+			<date type="published" when="2018" />
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="341" to="360" />
+			<pubPlace>Cham</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Evaluation of interactive machine learning systems</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">2021) A survey on active learning and human-in-the-loop deep learning for medical image analysis</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Budd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">C</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kainz</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.media.2021.102062</idno>
+		<ptr target="https://doi.org/10.1016/j.media.2021.102062" />
+	</analytic>
+	<monogr>
+		<title level="j">Med Image Anal</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">102</biblScope>
+			<biblScope unit="page">62</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">What eactly is complex data?</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Carlson</surname></persName>
+		</author>
+		<ptr target="https://www.ayasdi.com/exactly-complex-data" />
+		<imprint>
+			<date type="published" when="2015-03-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">7 signs you&apos;re dealing with complex data</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Castle</surname></persName>
+		</author>
+		<ptr target="https://www.sisense.com/blog/7-signs-youre-dealing-with-complex-data/.Accessedon04" />
+		<imprint>
+			<date type="published" when="2017-03" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Distilling knowledge from deep networks with applications to healthcare domain</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Che</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Purushotham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Khemani</surname></persName>
+		</author>
+		<idno>arxiv: 1512. 03542</idno>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv e-prints</note>
+	<note>stat.ML</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Interpretable deep models for ICU outcome prediction</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Che</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Purushotham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Khemani</surname></persName>
+		</author>
+		<ptr target="https://pubmed.ncbi.nlm.nih.gov/28269832/" />
+	</analytic>
+	<monogr>
+		<title level="m">AMIA annual symposium proceedings</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="371" to="380" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A multiple kernel support vector machine scheme for feature selection and rule extraction from gene expression data of cancer tissue</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wei</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.artmed.2007.07.008</idno>
+		<ptr target="https://doi.org/10.1016/j.artmed.2007.07.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Artif Intell Med</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="161" to="175" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Understanding the role of adaptivity in machine teaching: The case of version space learners</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Aodha</surname></persName>
+		</author>
+		<idno type="DOI">10.5555/3326943.3327079</idno>
+		<ptr target="https://dl.acm.org/doi/abs/10.5555/3326943" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 32nd international conference on neural information processing systems</title>
+				<meeting>the 32nd international conference on neural information processing systems<address><addrLine>Red Hook, NY, USA, NIPS</addrLine></address></meeting>
+		<imprint>
+			<publisher>Curran Associates Inc</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">79</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Retain: Interpretable predictive model in healthcare using reverse time attention mechanism</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bahadori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schuetz</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3281764</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 30th international conference on neural information processing systems</title>
+				<meeting>the 30th international conference on neural information processing systems<address><addrLine>Red Hook, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Curran Associates Inc</publisher>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="3512" to="3520" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Churchill</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Van Allen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuniavsky</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3281764</idno>
+		<ptr target="https://doi.org/10.1145/32817" />
+	</analytic>
+	<monogr>
+		<title level="j">Designing AI. Interactions</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">64</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Visualizing and understanding curriculum learning for long shortterm memory networks</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Cirik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hovy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">P</forename><surname>Morency</surname></persName>
+		</author>
+		<idno>arxiv: 1611. 06204</idno>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv e-prints</note>
+	<note>cs.CL</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Improving generalization with active learning</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Cohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Atlas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ladner</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00993277</idno>
+		<ptr target="https://doi.org/10.1007/BF00993277" />
+	</analytic>
+	<monogr>
+		<title level="j">Mach Learn</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="201" to="221" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Active learning with statistical models</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Cohn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Ghahramani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Jordan</surname></persName>
+		</author>
+		<idno type="DOI">10.5555/1622737.1622744</idno>
+		<ptr target="https://doi.org/10.5555/1622737.1622744" />
+	</analytic>
+	<monogr>
+		<title level="j">J Artif Intell Res</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="129" to="145" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Neural-symbolic computing: an effective methodology for principled integration of machine learning and reasoning</title>
+		<author>
+			<persName><forename type="first">Avila</forename><surname>Garcez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gori</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lamb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">C</forename></persName>
+		</author>
+		<idno>arxiv: 1905. 06088</idno>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv e-prints</note>
+	<note>cs.AI</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">Opportunities and challenges in explainable artificial intelligence (XAI): a survey</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rad</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note>arXiv e-prints arxiv: 2006. 11371 [cs.CV</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Deep active learning for classifying cancer pathology reports</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Angeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Alawad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="25" />
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Understanding the power and limitations of teaching with imperfect knowledge</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Devidze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mansouri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Haug</surname></persName>
+		</author>
+		<idno type="DOI">10.24963/ijcai.2020/367</idno>
+		<ptr target="https://doi.org/10.24963/ijcai.2020/367" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the twenty-ninth international joint conference on artificial intelligence, IJCAI-20. International Joint Conferences on Artificial Intelligence Organization</title>
+				<editor>
+			<persName><forename type="first">C</forename><surname>Bessiere</surname></persName>
+		</editor>
+		<meeting>the twenty-ninth international joint conference on artificial intelligence, IJCAI-20. International Joint Conferences on Artificial Intelligence Organization</meeting>
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="2647" to="2654" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Diamant</surname></persName>
+		</author>
+		<idno type="DOI">10.5772/9156</idno>
+		<ptr target="https://doi.org/10.5772/9156" />
+		<title level="m">Machine learning: When and where the horses went astray? In: Zhang Y (ed) Machine learning</title>
+				<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>InTech</publisher>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="1" to="18" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Learning to understand image content: Machine learning versus machine teaching alternative</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Diamant</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ITRE.2006.381526</idno>
+		<ptr target="https://doi.org/10.1109/ITRE.2006.381526" />
+	</analytic>
+	<monogr>
+		<title level="m">2006 International conference on information technology: research and education</title>
+				<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="26" to="29" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Persuasive explanation of reasoning inferences on dietary data</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Donadello</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kessler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dragoni</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Joint proceedings of the 6th international workshop on dataset profilling and search and the 1st workshop on semantic explainability co-located with the 18th international semantic web conference</title>
+				<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note>ISWC 2019</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Proactive learning: Cost-sensitive active learning with multiple imperfect oracles</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Donmez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Carbonell</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1458082.1458165</idno>
+		<ptr target="https://doi.org/10.1145/1458082.1458165" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 17th ACM conference on information and knowledge management</title>
+				<meeting>the 17th ACM conference on information and knowledge management<address><addrLine>New York, NY, USA, CIKM &apos;08</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2008" />
+			<biblScope unit="page" from="619" to="628" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">A review of user interface design for interactive machine learning</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Dudley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">O</forename><surname>Kristensson</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3185517</idno>
+		<ptr target="https://doi.org/10.1145/31855" />
+	</analytic>
+	<monogr>
+		<title level="j">ACM Trans Interact Intell Syst</title>
+		<imprint>
+			<biblScope unit="page">17</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Multi-label active learning-based machine learning model for heart disease prediction</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">M</forename><surname>El-Hasnony</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">M</forename><surname>Elzeki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Alshehri</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/s22031184</idno>
+		<ptr target="https://doi.org/10.3390/s22031184" />
+		<imprint>
+			<date type="published" when="2022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Learning and development in neural networks: the importance of starting small</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Elman</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/0010-0277(93)90058-4</idno>
+		<ptr target="https://doi.org/10.1016/0010-0277" />
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="90058" to="90062" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">Towards automatic &amp; personalised mobile health interventions: an interactive machine learning perspective</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fadhil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<idno>arxiv: 1803. 01842</idno>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv e-prints</note>
+	<note>cs.CY</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Interactive machine learning</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Fails</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Olsen</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/604045.604056</idno>
+		<ptr target="https://doi.org/10.1145/604045.604056" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 8th international conference on intelligent user interfaces</title>
+				<meeting>the 8th international conference on intelligent user interfaces<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="39" to="45" />
+		</imprint>
+	</monogr>
+	<note>IUI &apos;03</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<monogr>
+		<title level="m" type="main">Real-time human interaction with supervised learning algorithms for music composition and performance</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Fiebrink</surname></persName>
+		</author>
+		<idno type="DOI">10.5555/2125776</idno>
+		<ptr target="https://dl.acm.org/doi/book/10.5555/21257" />
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page">76</biblScope>
+			<pubPlace>Princeton, NJ, USA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Computer Science Dept. Princeton University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">The wekinator: a system for real-time, interactive machine learning in music</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fiebrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Cook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of The Eleventh International Society for Music Information Retrieval Conference (ISMIR 2010)</title>
+				<meeting>The Eleventh International Society for Music Information Retrieval Conference (ISMIR 2010)<address><addrLine>Utrecht</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Human model evaluation in interactive supervised learning</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fiebrink</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Cook</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Trueman</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1978942.1978965</idno>
+		<ptr target="https://doi.org/10.1145/" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI conference on human factors in computing systems</title>
+				<meeting>the SIGCHI conference on human factors in computing systems<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2011" />
+			<biblScope unit="page">65</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Reverse curriculum generation for reinforcement learning</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Florensa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Held</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wulfmeier</surname></persName>
+		</author>
+		<ptr target="http://proceedings.mlr.press/v78/florensa17a.html" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1st annual conference on robot learning, proceedings of machine learning research</title>
+				<editor>
+			<persName><forename type="first">S</forename><surname>Levine</surname></persName>
+			<persName><forename type="first">V</forename><surname>Vanhoucke</surname></persName>
+			<persName><forename type="first">K</forename><surname>Goldberg</surname></persName>
+		</editor>
+		<meeting>the 1st annual conference on robot learning, proceedings of machine learning research</meeting>
+		<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="482" to="495" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Cueflik: Interactive concept learning in image search</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fogarty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kapoor</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1357054.1357061</idno>
+		<ptr target="https://doi.org/10.1145/1357054.13570" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI conference on human factors in computing systems. Association for Computing Machinery</title>
+				<meeting>the SIGCHI conference on human factors in computing systems. Association for Computing Machinery<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008" />
+			<biblScope unit="page">61</biblScope>
+		</imprint>
+	</monogr>
+	<note>CHI &apos;08</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Interpreting support vector machine models for multivariate group wise analysis in neuroimaging</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gaonkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Shinohara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Davatzikos</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.media.2015.06.008</idno>
+		<ptr target="https://doi.org/10.1016/j.media.2015.06.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Med Image Anal</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="190" to="204" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">European union regulations on algorithmic decision-making and a &quot;right to explanation</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Goodman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Flaxman</surname></persName>
+		</author>
+		<idno type="DOI">10.1609/aimag.v38i3.2741</idno>
+		<ptr target="https://doi.org/10.1609/aimag.v38i3.2741" />
+	</analytic>
+	<monogr>
+		<title level="j">AI Mag</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="50" to="57" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">On the power of curriculum learning in training deep networks</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gunning</surname></persName>
+		</author>
+		<ptr target="http://proceedings.mlr.press/v97/hacohen19a.html" />
+	</analytic>
+	<monogr>
+		<title level="m">Explainable artificial intelligence (xAI). Tech. rep., Defense Advanced Research Projects Agency (DARPA)</title>
+				<editor>
+			<persName><forename type="first">K</forename><surname>Chaudhuri</surname></persName>
+			<persName><forename type="first">R</forename><surname>Salakhutdinov</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Long Beach, California, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="2535" to="2544" />
+		</imprint>
+	</monogr>
+	<note>Proceedings of Machine Learning Research</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Making tree ensembles interpretable: A bayesian model selection approach</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hayashi</surname></persName>
+		</author>
+		<ptr target="https://proceedings.mlr.press/v84/hara18a.html" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the twenty-first international conference on artificial intelligence and statistics, proceedings of machine learning research</title>
+				<editor>
+			<persName><forename type="first">A</forename><surname>Storkey</surname></persName>
+			<persName><forename type="first">F</forename><surname>Perez-Cruz</surname></persName>
+		</editor>
+		<meeting>the twenty-first international conference on artificial intelligence and statistics, proceedings of machine learning research</meeting>
+		<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">84</biblScope>
+			<biblScope unit="page" from="77" to="85" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">AutoML: a survey of the state-of-the-art</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.knosys.2020.106622</idno>
+		<ptr target="https://doi.org/10.1016/j.knosys.2020.106622" />
+	</analytic>
+	<monogr>
+		<title level="j">Knowl Based Syst</title>
+		<imprint>
+			<biblScope unit="volume">212</biblScope>
+			<biblScope unit="issue">106</biblScope>
+			<biblScope unit="page">622</biblScope>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Visual classifier training for text document retrieval</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Heimerl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Koch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Bosch</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TVCG.2012.277</idno>
+		<ptr target="https://doi.org/10.1109/TVCG.2012.277" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Vis Comput Graphics</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="2839" to="2848" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Exploration versus exploitation in space, mind, and society</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">T</forename><surname>Hills</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Todd</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lazer</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.tics.2014.10.004</idno>
+		<ptr target="https://doi.org/10.1016/j.tics.2014.10.004" />
+	</analytic>
+	<monogr>
+		<title level="j">Trends Cogn Sci</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="46" to="54" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Beatbox: End-user interactive definition and training of recognizers for percussive vocalizations</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hipke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Toomim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fiebrink</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2598153.2598189</idno>
+		<ptr target="https://doi.org/10.1145/2598153.2598189" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2014 international working conference on advanced visual interfaces</title>
+				<meeting>the 2014 international working conference on advanced visual interfaces<address><addrLine>New York, NY, USA, AVI</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="121" to="124" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Batch mode active learning and its application to medical image classification</title>
+		<author>
+			<persName><forename type="first">Sch</forename><surname>Hoi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1143844.1143897</idno>
+		<ptr target="https://doi.org/10.1145/1143844.1143897" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 23rd international conference on machine learning. Association for Computing Machinery</title>
+				<meeting>the 23rd international conference on machine learning. Association for Computing Machinery<address><addrLine>New York, NY, USA, ICML &apos;06</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="417" to="424" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">A feature space focus in machine teaching</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Holmberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Davidsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Linde</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/PerComWorkshops48775.2020.9156175</idno>
+		<ptr target="https://doi.org/10.1109/PerComWorkshops48775.2020.9156175" />
+	</analytic>
+	<monogr>
+		<title level="m">2020 IEEE international conference on pervasive computing and communications workshops (PerCom Workshops)</title>
+				<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="1" to="2" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Interactive machine learning for health informatics: when do we need the human-inthe-loop?</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holzinger</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s40708-016-0042-6</idno>
+		<ptr target="https://doi.org/10.1007/s40708-016-0042-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Brain Inform</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="119" to="131" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Knowledge discovery and data mining in biomedical informatics: the future is in integrative, interactive machine learning solutions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holzinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Jurisica</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-662-43968-5_1</idno>
+		<ptr target="https://doi.org/10.1007/978-3-662-43968-5_1" />
+		<editor>Holzinger A, Jurisica I</editor>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="1" to="18" />
+			<pubPlace>Berlin, Heidelberg</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Interactive knowledge discovery and data mining in biomedical informatics: state-ofthe-art and future challenges</note>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Interactive machine learning: experimental evidence for the human in the algorithmic loop</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holzinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Plass</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kickmeier-Rust</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10489-018-1361-5</idno>
+		<ptr target="https://doi.org/10.1007/s10489-018-1361-5" />
+	</analytic>
+	<monogr>
+		<title level="j">Appl Intell</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="2401" to="2414" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<monogr>
+		<title level="m" type="main">What do we need to build explainable AI systems for the medical domain</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Holzinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Biemann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Pattichis</surname></persName>
+		</author>
+		<idno>arxiv: 1712. 09923</idno>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv e-prints</note>
+	<note>cs.AI</note>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">How hard can it be? estimating the difficulty of visual search in an image</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Ionescu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Alexe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leordeanu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2016.237</idno>
+		<ptr target="https://doi.org/10.1109/CVPR.2016.237" />
+	</analytic>
+	<monogr>
+		<title level="m">2016 IEEE conference on computer vision and pattern recognition (CVPR)</title>
+				<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="2157" to="2166" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Investigating audio data visualization for interactive sound recognition</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Ishibashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Nakao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sugano</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3377325.3377483</idno>
+		<ptr target="https://doi.org/10.1145/3377325.3377483" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 25th international conference on intelligent user interfaces</title>
+				<meeting>the 25th international conference on intelligent user interfaces<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2020" />
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="67" to="77" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Next: a system for real-world development, evaluation, and application of active learning</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename><surname>Jamieson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Fernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.5555/2886521.2886696</idno>
+		<ptr target="https://doi.org/10.5555/2886521.2886696" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the twenty-ninth AAAI conference on artificial intelligence</title>
+				<editor>
+			<persName><forename type="first">C</forename><surname>Cortes</surname></persName>
+			<persName><forename type="first">N</forename><surname>Lawrence</surname></persName>
+			<persName><forename type="first">D</forename><surname>Lee</surname></persName>
+		</editor>
+		<meeting>the twenty-ninth AAAI conference on artificial intelligence<address><addrLine>Red Hook Jiang L, Meng D,</addrLine></address></meeting>
+		<imprint>
+			<publisher>AAAI Press</publisher>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2694" to="2700" />
+		</imprint>
+	</monogr>
+	<note>Advances in neural information processing systems</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Recent research advances on interactive machine learning</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s12650-018-0531-1</idno>
+		<ptr target="https://doi.org/10.1007/s12650-018-0531-1" />
+	</analytic>
+	<monogr>
+		<title level="j">J Vis</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="401" to="417" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Becoming the expert-interactive multi-class machine teaching</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Johns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mac</forename><surname>Aodha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Brostow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2015.7298877</idno>
+		<ptr target="https://doi.org/10.1109/CVPR.2015.7298877" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE conference on computer vision and pattern recognition</title>
+				<meeting>the IEEE conference on computer vision and pattern recognition</meeting>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="2616" to="2624" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Jaaba: interactive machine learning for automatic annotation of animal behavior</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kabra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Robie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rivera-Alba</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nmeth.2281</idno>
+		<ptr target="https://doi.org/10.1038/nmeth.2281" />
+	</analytic>
+	<monogr>
+		<title level="j">Nat Methods</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="64" to="67" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Interactive optimization for steering machine classification</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kapoor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tan</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1753326.1753529</idno>
+		<ptr target="https://doi.org/10.1145/1753326.1753529" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI conference on human factors in computing systems. Association for Computing Machinery</title>
+				<meeting>the SIGCHI conference on human factors in computing systems. Association for Computing Machinery<address><addrLine>New York, NY, USA, CHI</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1343" to="1352" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Aide: accelerating image-based ecological surveys with interactive machine learning</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kellenberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tuia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Morris</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/2041-210X.13489</idno>
+		<ptr target="https://doi.org/10.1111/2041-210X.13489" />
+	</analytic>
+	<monogr>
+		<title level="j">Methods Ecol Evol</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="1716" to="1727" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Scalable and interpretable data representation for high-dimensional, complex data</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rostamizadeh</surname></persName>
+		</author>
+		<ptr target="https://ojs.aaai.org/index.php/AAAI/article/view/9474" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the twenty-ninth AAAI conference on artificial intelligence, Association for the Advancement of Artificial Intelligence (AAAI)</title>
+				<meeting>the twenty-ninth AAAI conference on artificial intelligence, Association for the Advancement of Artificial Intelligence (AAAI)<address><addrLine>Austin, Texas USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="1763" to="1769" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Ux of data: making data available doesn&apos;t make it usable</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Koesten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Simperl</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3448888</idno>
+		<ptr target="https://doi.org/10.1145/34488" />
+	</analytic>
+	<monogr>
+		<title level="j">Interactions</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">88</biblScope>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Adding human learning in brain-computer interfaces (bcis): towards a practical control modality</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kosmyna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Tarpin-Bernard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Rivet</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2723162</idno>
+		<ptr target="https://doi.org/10.1145/27231" />
+	</analytic>
+	<monogr>
+		<title level="j">ACM Trans Comput-Hum Interact</title>
+		<imprint>
+			<biblScope unit="page">62</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<monogr>
+		<title level="m" type="main">Increasing the interpretability of recurrent neural networks using hidden markov models</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Krakovna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Doshi-Velez</surname></persName>
+		</author>
+		<idno>arxiv: 1606. 0532</idno>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv e-prints</note>
+	<note>cond-mat.soft</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Self-paced learning for latent variable models</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Packer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Koller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in neural information processing systems</title>
+				<editor>
+			<persName><forename type="first">J</forename><surname>Lafferty</surname></persName>
+			<persName><forename type="first">C</forename><surname>Williams</surname></persName>
+			<persName><forename type="first">J</forename><surname>Shawe-Taylor</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Red Hook</addrLine></address></meeting>
+		<imprint>
+			<publisher>Curran Associates Inc</publisher>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="1189" to="1197" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Reinforcement learning based curriculum optimization for neural machine translation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Foster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cherry</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/N19-1208</idno>
+		<ptr target="https://www.aclweb.org/anthology/N19-1208" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2019 conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</title>
+				<meeting>the 2019 conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies<address><addrLine>Minneapolis, Minnesota</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="2054" to="2061" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Active Learning with Amazon Mechanical Turk</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Laws</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Scheible</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schütze</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature14539</idno>
+		<ptr target="https://doi.org/10.5555/2145432.2145597" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the conference on empirical methods in natural language processing</title>
+				<meeting>the conference on empirical methods in natural language processing<address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="1546" to="1556" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Deep learning</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lecun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+		<idno type="DOI">10.1038/nature14539</idno>
+		<ptr target="https://doi.org/10.1038/nature14539" />
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">521</biblScope>
+			<biblScope unit="issue">7553</biblScope>
+			<biblScope unit="page" from="436" to="444" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<monogr>
+		<title level="m" type="main">Understanding artificial intelligence ethics and safety: A guide for the responsible design and implementation of ai systems in the public sector</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Leslie</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.3240529</idno>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">From machine learning to machine teaching: the importance of UX</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lindvall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Molin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Löwgren</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3282860</idno>
+		<ptr target="https://doi.org/10.1145/32828" />
+	</analytic>
+	<monogr>
+		<title level="j">Interactions</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">60</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">The mythos of model interpretability: in machine learning, the concept of interpretability is both important and slippery</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">C</forename><surname>Lipton</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3236386.3241340</idno>
+		<ptr target="https://doi.org/10.1145/3236386.3241340" />
+	</analytic>
+	<monogr>
+		<title level="j">Queue</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="31" to="57" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Iterative machine teaching</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Humayun</surname></persName>
+		</author>
+		<ptr target="https://proceedings.mlr.press/v70/liu17b.html" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 34th international conference on machine learning, proceedings of machine learning research</title>
+				<editor>
+			<persName><forename type="first">D</forename><surname>Precup</surname></persName>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Teh</surname></persName>
+		</editor>
+		<meeting>the 34th international conference on machine learning, proceedings of machine learning research</meeting>
+		<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page" from="2149" to="2158" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Curriculum learning for natural answer generation</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.24963/ijcai.2018/587</idno>
+		<ptr target="https://doi.org/10.24963/ijcai.2018/587" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 27th international joint conference on artificial intelligence</title>
+				<meeting>the 27th international joint conference on artificial intelligence</meeting>
+		<imprint>
+			<publisher>AAAI Press</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="4223" to="4229" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">An integrated TCGA pan-cancer clinical data resource to drive high-quality survival outcome analytics</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lichtenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Hoadley</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cell.2018.02.052</idno>
+		<ptr target="https://doi.org/10.1016/j.cell.2018.02.052" />
+	</analytic>
+	<monogr>
+		<title level="j">Cell</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="400" to="416" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Towards black-box iterative machine teaching</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<ptr target="https://proceedings.mlr.press/v80/liu18b.html" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 35th international conference on machine learning, proceedings of machine learning research</title>
+				<editor>
+			<persName><forename type="first">J</forename><surname>Dy</surname></persName>
+			<persName><forename type="first">A</forename><surname>Krause</surname></persName>
+		</editor>
+		<meeting>the 35th international conference on machine learning, proceedings of machine learning research</meeting>
+		<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">80</biblScope>
+			<biblScope unit="page" from="3141" to="3149" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Self-paced learning enhanced neural matrix factorization for noiseaware recommendation</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.knosys.2020.106660</idno>
+		<ptr target="https://doi.org/10.1016/j.knosys.2020.106660" />
+	</analytic>
+	<monogr>
+		<title level="j">Knowl Based Syst</title>
+		<imprint>
+			<biblScope unit="volume">213</biblScope>
+			<biblScope unit="issue">106</biblScope>
+			<biblScope unit="page">660</biblScope>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Active learning for reward estimation in inverse reinforcement learning</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lopes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Melo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Montesano</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Joint European conference on machine learning and knowledge discovery in databases</title>
+				<meeting><address><addrLine>Berlin Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="31" to="46" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Black-box vs. white-box: understanding their advantages and weaknesses from a practical point of view</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Loyola-González</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ACCESS.2019.2949286</idno>
+		<ptr target="https://doi.org/10.1109/ACCESS.2019.2949286" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="154096" to="154113" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Active learning to recognize multiple types of plankton</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kramer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Samson</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICPR.2004.1334570</idno>
+		<ptr target="https://doi.org/10.1109/ICPR.2004.1334570" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 17th international conference on pattern recognition</title>
+				<meeting>the 17th international conference on pattern recognition</meeting>
+		<imprint>
+			<date type="published" when="2004" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="478" to="481" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Understanding deep image representations by inverting them</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mahendran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vedaldi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2015.7299155</idno>
+		<ptr target="https://ieeexplore.ieee.org/document/7299155" />
+	</analytic>
+	<monogr>
+		<title level="m">2015 IEEE conference on computer vision and pattern recognition (CVPR)</title>
+				<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="5188" to="5196" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Teacher-student curriculum learning</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matiisen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Oliver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cohen</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TNNLS.2019.2934906</idno>
+		<ptr target="https://doi.org/10.1109/TNNLS.2019.29349" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Neural Netw Learn Syst</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page">6</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Using machine teaching to identify optimal training-set attacks on machine learners</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<ptr target="https://ojs.aaai.org/index.php/AAAI/article/view/9569" />
+	</analytic>
+	<monogr>
+		<title level="m">Proc. of the 29th AAAI conference on artificial intelligence</title>
+				<meeting>of the 29th AAAI conference on artificial intelligence</meeting>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="2871" to="2877" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Explainable artificial intelligence: objectives, stakeholders, and future research opportunities</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meske</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bunde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schneider</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10580530.2020.1849465</idno>
+		<ptr target="https://doi.org/10.1080/10580530.2020.18494" />
+	</analytic>
+	<monogr>
+		<title level="j">Inf Syst Manag</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">65</biblScope>
+			<date type="published" when="2022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Towards an integrative theoretical framework of interactive machine learning systems</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Meza Martínez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Nadj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Maedche</surname></persName>
+		</author>
+		<ptr target="https://aisel.aisnet.org/ecis2019_rp/172" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 27th European conference on information systems (ECIS)</title>
+				<meeting>the 27th European conference on information systems (ECIS)<address><addrLine>Stockholm &amp; Uppsala, Sweden</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Acklin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Scheuerman</surname></persName>
+		</author>
+		<idno>arxiv: 2003. 10365</idno>
+		<title level="m">On interactive machine learning and the potential of cognitive feedback</title>
+				<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv e-prints</note>
+	<note>cs.HC</note>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<monogr>
+		<title level="m" type="main">Qna maker</title>
+		<author>
+			<persName><surname>Microsoft</surname></persName>
+		</author>
+		<ptr target="https://www.qnamaker.ai" />
+		<imprint>
+			<date type="published" when="2022-03-23" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Explainable artificial intelligence: a comprehensive review</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Minh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">F</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10462-021-10088-y</idno>
+		<ptr target="https://doi.org/10.1007/s10462-021-10088-y" />
+	</analytic>
+	<monogr>
+		<title level="j">Artif Intell Rev</title>
+		<imprint>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Explaining nonlinear classification decisions with deep Taylor decomposition</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Montavon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lapuschkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Binder</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.patcog.2016.11.008</idno>
+		<ptr target="https://doi.org/10.1016/j.patcog.2016.11.008" />
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recognit</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="211" to="222" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Integrating iterative machine teaching and active learning into the machine learning loop</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosqueira-Rey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alonso-Ríos</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Baamonde-Lozano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.procs.2021.08.057</idno>
+		<ptr target="https://doi.org/10.1016/j.procs.2021.08.057" />
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Comput Sci</title>
+		<imprint>
+			<biblScope unit="volume">192</biblScope>
+			<biblScope unit="page" from="553" to="562" />
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">A classification and review of tools for developing and interacting with machine learning systems</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mosqueira-Rey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hernández-Pereira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alonso-Ríos</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+		<idno type="DOI">10.1145/3477314.3507310</idno>
+		<ptr target="https://doi.org/10.1145/3477314.3507310" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 37th annual ACM symposium on applied computing</title>
+				<meeting>the 37th annual ACM symposium on applied computing<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2022" />
+			<biblScope unit="page" from="1083" to="1092" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Trust between humans and machines, and the design of decision aids</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Muir</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0020-7373(87)80013-5</idno>
+		<ptr target="https://doi.org/10.1016/S0020-7373" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Man-Mach Stud</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="80013" to="80015" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Supervised machine learning and active learning in classification of radiology reports</title>
+		<author>
+			<persName><forename type="first">R ;</forename><surname>Munro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Patrick</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/amiajnl-2013-002516</idno>
+		<ptr target="https://doi.org/10.1136/amiajnl-2013-002516" />
+	</analytic>
+	<monogr>
+		<title level="m">Shelter Island Nguyen DHM</title>
+				<imprint>
+			<publisher>Manning Publications</publisher>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="893" to="901" />
+		</imprint>
+	</monogr>
+	<note>Human-in-the-loop machine learning</note>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Synthesizing the preferred inputs for neurons in neural networks via deep generator networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dosovitskiy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yosinski</surname></persName>
+		</author>
+		<idno type="DOI">10.5555/3157382.3157477</idno>
+		<ptr target="https://doi.org/10.5555/3157382.3157477" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 30th international conference on neural information processing systems</title>
+				<meeting>the 30th international conference on neural information processing systems<address><addrLine>Red Hook, NY, USA, NIPS</addrLine></address></meeting>
+		<imprint>
+			<publisher>Curran Associates Inc</publisher>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="3395" to="3403" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">Intelligent tutoring systems: an overview</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">S</forename><surname>Nwana</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00168958</idno>
+		<ptr target="https://doi.org/10.1007/BF00168958" />
+	</analytic>
+	<monogr>
+		<title level="j">Artif Intell Rev</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="251" to="277" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<monogr>
+		<title level="m" type="main">A literature survey of active machine learning in the context of natural language processing</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Olsson</surname></persName>
+		</author>
+		<idno>nbn: se: ri: diva-23510</idno>
+		<ptr target="http://urn.kb.se/resolve?urn=urn" />
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+		<respStmt>
+			<orgName>Swedish Institute of Computer Science</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Tech. rep</note>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<monogr>
+		<title level="m" type="main">Captcha if you can: how you&apos;ve been training ai for years without realising it</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>O'malley</surname></persName>
+		</author>
+		<ptr target="https://www.techradar.com/news/captcha-if-you-can-how-youve-been-training-ai-for-years-without-realising-it" />
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title level="a" type="main">Soloist: building task bots at scale with transfer learning and machine teaching</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Peng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/tacl_a_00399</idno>
+		<ptr target="https://doi.org/10.1162/tacl_a_00399" />
+	</analytic>
+	<monogr>
+		<title level="j">Trans Assoc Comput Linguist</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="807" to="824" />
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title level="a" type="main">Curriculum learning strategies for IR</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Penha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hauff</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-45439-5_46</idno>
+		<ptr target="https://doi.org/10.1007/978-3-030-45439-5_46" />
+	</analytic>
+	<monogr>
+		<title level="m">European conference on information retrieval: advances in information retrieval</title>
+				<editor>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Jose</surname></persName>
+			<persName><forename type="first">E</forename><surname>Yilmaz</surname></persName>
+			<persName><forename type="first">J</forename><surname>Magalhães</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="699" to="713" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Competence-based curriculum learning for neural machine translation</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Platanios</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Stretcu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Neubig</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/N19-1119</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2019 conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</title>
+				<meeting>the 2019 conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</meeting>
+		<imprint>
+			<publisher>Long and Short Papers</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.18653/v1/N19-1119</idno>
+		<ptr target="https://www.aclweb.org/anthology/N19-1119" />
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<biblScope unit="page" from="1162" to="1172" />
+			<pubPlace>Minneapolis, Minnesota</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<analytic>
+		<title level="a" type="main">Interactive machine learning in data exploitation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Theiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hush</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MCSE.2013.74</idno>
+		<ptr target="https://doi.org/10.1109/MCSE.2013.74" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput Sci Eng</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="12" to="20" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<analytic>
+		<title level="a" type="main">Interactive machine teaching: a human-centered approach to building machine-learned models</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Simard</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/07370024.2020.1734931</idno>
+		<ptr target="https://doi.org/10.1080/07370024.2020.17349" />
+	</analytic>
+	<monogr>
+		<title level="j">Hum Comput Interact</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5-6</biblScope>
+			<biblScope unit="page">31</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">Jclal: a java framework for active learning</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Reyes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Pérez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Del Carmen Rodrıguez-Hernández</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Mach Learn Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title level="a" type="main">MLaaS: Machine learning as a service</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Grolinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Capretz</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICMLA.2015.152</idno>
+		<ptr target="https://doi.org/10.1109/ICMLA.2015.152" />
+	</analytic>
+	<monogr>
+		<title level="m">IEEE 14th international conference on machine learning and applications (ICMLA)</title>
+				<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="896" to="902" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<analytic>
+		<title level="a" type="main">Active learning in recommender systems</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Rubens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Elahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sugiyama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Recommender systems handbook</title>
+				<editor>
+			<persName><forename type="first">F</forename><surname>Ricci</surname></persName>
+			<persName><forename type="first">L</forename><surname>Rokach</surname></persName>
+			<persName><forename type="first">B</forename><surname>Shapira</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Boston</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="809" to="846" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<analytic>
+		<title level="a" type="main">Converting unstructured and semi-structured data into knowledge</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rusu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Halcu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Grigoriu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/RoEduNet.2013.6511736</idno>
+		<ptr target="https://doi.org/10.1109/RoEduNet.2013" />
+	</analytic>
+	<monogr>
+		<title level="m">013 11th RoEduNet international conference</title>
+				<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">65117</biblScope>
+			<biblScope unit="page">36</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<analytic>
+		<title level="a" type="main">Learning concepts by asking questions</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sammut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">B</forename><surname>Banerji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine learning: an artificial intelligence approach</title>
+				<editor>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Michalski</surname></persName>
+			<persName><forename type="first">J</forename><surname>Carbonell</surname></persName>
+			<persName><forename type="first">T</forename><surname>Mitchell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Burlington</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1986" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="167" to="192" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<analytic>
+		<title level="a" type="main">Applying an interactive machine learning approach to statutory analysis</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Šavelka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Trivedi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Ashley</surname></persName>
+		</author>
+		<idno type="DOI">10.3233/978-1-61499-609-5-101</idno>
+		<ptr target="https://doi.org/10.3233/978-1-61499-609-5-101" />
+	</analytic>
+	<monogr>
+		<title level="m">Rotolo A (ed) Legal knowledge and information systems, frontiers in artificial intelligence and applications</title>
+				<meeting><address><addrLine>Amsterdam</addrLine></address></meeting>
+		<imprint>
+			<publisher>IOS Press</publisher>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">279</biblScope>
+			<biblScope unit="page" from="101" to="110" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<analytic>
+		<title level="a" type="main">Grad-cam: Visual explanations from deep networks via gradient-based localization</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Selvaraju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cogswell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Das</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICCV.2017.74</idno>
+		<ptr target="https://ieeexplore.ieee.org/document/8237336" />
+	</analytic>
+	<monogr>
+		<title level="m">2017 IEEE international conference on computer vision (ICCV)</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="618" to="626" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b120">
+	<analytic>
+		<title level="a" type="main">Quantifying teaching behavior in robot learning from demonstration</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Howard</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/0278364919884623</idno>
+		<ptr target="https://doi.org/10.1177/02783" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Robot Res</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">884623</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b121">
+	<analytic>
+		<title level="a" type="main">Teaching human teachers to teach robot learners</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sena</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Howard</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICRA.2018.8461194</idno>
+		<ptr target="https://doi.org/10.1109/ICRA.2018.8461194" />
+	</analytic>
+	<monogr>
+		<title level="m">IEEE international conference on robotics and automation (ICRA)</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="5675" to="5681" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b122">
+	<monogr>
+		<title level="m" type="main">Active learning literature survey</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Settles</surname></persName>
+		</author>
+		<ptr target="https://minds.wisconsin.edu/handle/1793/60660" />
+		<imprint>
+			<date type="published" when="2009" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Wisconsin-Madison. Department of Computer Sciences</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Tech. rep.</note>
+</biblStruct>
+
+<biblStruct xml:id="b123">
+	<analytic>
+		<title level="a" type="main">Active learning and experimental design workshop In conjunction with AISTATS 2010, proceedings of machine learning research</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Settles</surname></persName>
+		</author>
+		<ptr target="http://proceedings.mlr.press/v16/settles11a.html" />
+	</analytic>
+	<monogr>
+		<title level="m">JMLR workshop and conference proceedings</title>
+				<editor>
+			<persName><forename type="first">I</forename><surname>Guyon</surname></persName>
+			<persName><forename type="first">G</forename><surname>Cawley</surname></persName>
+			<persName><forename type="first">G</forename><surname>Dror</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Sardinia, Italy</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+		</imprint>
+	</monogr>
+	<note>From theories to queries: Active learning in practice</note>
+</biblStruct>
+
+<biblStruct xml:id="b124">
+	<analytic>
+		<title level="a" type="main">Human-centered artificial intelligence: reliable, safe &amp; trustworthy</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shneiderman</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/10447318.2020.1741118</idno>
+		<ptr target="https://doi.org/10.1080/10447318.2020.1741118" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Hum Comput Interact</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="495" to="504" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b125">
+	<monogr>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">Y</forename><surname>Simard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Amershi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Chickering</surname></persName>
+		</author>
+		<idno>arxiv: 1707. 06742</idno>
+		<title level="m">Machine teaching: A new paradigm for building machine learning systems</title>
+				<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv e-prints</note>
+</biblStruct>
+
+<biblStruct xml:id="b126">
+	<analytic>
+		<title level="a" type="main">Near-optimally teaching the crowd to classify</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Bogunovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bartók</surname></persName>
+		</author>
+		<ptr target="http://proceedings.mlr.press/v32/singla14.pdf" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 31st international conference on machine learning. PMLR, Bejing, China, proceedings of machine learning research</title>
+				<editor>
+			<persName><forename type="first">E</forename><forename type="middle">P</forename><surname>Xing</surname></persName>
+			<persName><forename type="first">T</forename><surname>Jebara</surname></persName>
+		</editor>
+		<meeting>the 31st international conference on machine learning. PMLR, Bejing, China, proceedings of machine learning research</meeting>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="154" to="162" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b127">
+	<analytic>
+		<title level="a" type="main">Combining unstructured, fully structured and semi-structured information in semantic wikis</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sint</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Schaffert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Stroka</surname></persName>
+		</author>
+		<idno>14. pdf</idno>
+		<ptr target="http://ceur-ws.org" />
+	</analytic>
+	<monogr>
+		<title level="m">4th semantic wiki workshop</title>
+				<meeting><address><addrLine>Hersonissos, Greece</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">464</biblScope>
+			<biblScope unit="page" from="73" to="87" />
+		</imprint>
+	</monogr>
+	<note>at the 6th European semantic web conference (ESWC 2009</note>
+</biblStruct>
+
+<biblStruct xml:id="b128">
+	<analytic>
+		<title level="a" type="main">Less is more: sampling chemical space with active learning</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Nebgen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lubbers</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Chem Phys</title>
+		<imprint>
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="issue">24</biblScope>
+			<biblScope unit="page">733</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b129">
+	<analytic>
+		<title level="a" type="main">Image difficulty curriculum for generative adversarial networks (cugan)</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Soviany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ardei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">T</forename><surname>Ionescu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/WACV45572.2020.9093408</idno>
+		<ptr target="https://doi.org/10.1109/WACV45572.2020" />
+	</analytic>
+	<monogr>
+		<title level="m">2020 IEEE winter conference on applications of computer vision (WACV)</title>
+				<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="volume">90934</biblScope>
+			<biblScope unit="page">8</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b130">
+	<analytic>
+		<title level="a" type="main">From baby steps to leapfrog: How &quot;less is more&quot; in unsupervised dependency parsing</title>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">I</forename><surname>Spitkovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Alshawi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Jurafsky</surname></persName>
+		</author>
+		<ptr target="https://www.aclweb.org/anthology/N10-1116" />
+	</analytic>
+	<monogr>
+		<title level="m">Human language technologies: the 2010 annual conference of the North American Chapter of the Association for Computational Linguistics</title>
+				<meeting><address><addrLine>Los Angeles, California</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="751" to="759" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b131">
+	<analytic>
+		<title level="a" type="main">Anchorviz: facilitating semantic data exploration and concept discovery for interactive machine learning</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Suh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ghorashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ramos</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3241379</idno>
+		<ptr target="https://doi.org/10.1145/32413" />
+	</analytic>
+	<monogr>
+		<title level="j">ACM Trans Interact Intell Syst</title>
+		<imprint>
+			<biblScope unit="page">79</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b132">
+	<analytic>
+		<title level="a" type="main">Ensemblematrix: Interactive visualization to support machine learning with multiple classifiers</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Talbot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kapoor</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1518701.1518895</idno>
+		<ptr target="https://doi.org/10.1145/1518701.1518895" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI conference on human factors in computing systems</title>
+				<meeting>the SIGCHI conference on human factors in computing systems<address><addrLine>New York, NY, USA, CHI &apos;09</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="1283" to="1292" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b133">
+	<monogr>
+		<title level="m" type="main">ALiPy: Active learning in python</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">P</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Huang</surname></persName>
+		</author>
+		<idno>arxiv: 1901. 03802</idno>
+		<ptr target="https://github.com/NUAA-AL/ALiPy" />
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+		<respStmt>
+			<orgName>Nanjing University of Aeronautics and Astronautics</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Tech. rep.</note>
+</biblStruct>
+
+<biblStruct xml:id="b134">
+	<analytic>
+		<title level="a" type="main">Explanatory interactive machine learning</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Teso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kersting</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3306618.3314293</idno>
+		<ptr target="https://doi.org/10.1145/3306618.3314293" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2019 AAAI/ ACM Conference on AI, Ethics, and Society</title>
+				<meeting>the 2019 AAAI/ ACM Conference on AI, Ethics, and Society<address><addrLine>New York, NY, USA, AIES</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="239" to="245" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b135">
+	<monogr>
+		<title level="m" type="main">An event-based approach to modeling complex data in critical care</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Tolls</surname></persName>
+		</author>
+		<ptr target="https://qspace.library.queensu.ca/bitstream/handle/1974/24489/Tolls_Victoria_J_201809_MSC.pdf" />
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+		<respStmt>
+			<orgName>Queen&apos;s University (Canada</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b136">
+	<analytic>
+		<title level="a" type="main">The cancer genome atlas (TCGA): an immeasurable source of knowledge</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tomczak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Czerwińska</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wiznerowicz</surname></persName>
+		</author>
+		<idno type="DOI">10.5114/wo.2014.47136</idno>
+		<ptr target="https://doi.org/10.5114/wo.2014.47136" />
+	</analytic>
+	<monogr>
+		<title level="j">Contemp Oncol</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="issue">1A</biblScope>
+			<biblScope unit="page" from="68" to="77" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b137">
+	<analytic>
+		<title level="a" type="main">Introducing MLOps. O&apos;Reilly Media</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Treveil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Omont</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stenac</surname></persName>
+		</author>
+		<idno>arxiv: 1907. 05855</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Discorl: continual reinforcement learning via policy distillation</title>
+				<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv e-prints</note>
+	<note>cs.LG</note>
+</biblStruct>
+
+<biblStruct xml:id="b138">
+	<analytic>
+		<title level="a" type="main">A theory of the learnable</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Valiant</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1968.1972</idno>
+		<ptr target="https://doi.org/10.1145/1968.1972" />
+	</analytic>
+	<monogr>
+		<title level="j">Commun ACM</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1134" to="1142" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b139">
+	<analytic>
+		<title level="a" type="main">Prototyping ways of prototyping AI</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Van Allen</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3274566</idno>
+		<ptr target="https://doi.org/10.1145/32745" />
+	</analytic>
+	<monogr>
+		<title level="j">Interactions</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">66</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b140">
+	<analytic>
+		<title level="a" type="main">Labeling images with a computer game</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Von Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Dabbish</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/985692.985733</idno>
+		<ptr target="https://doi.org/10.1145/985692.985733" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the SIGCHI conference on human factors in computing systems</title>
+				<meeting>the SIGCHI conference on human factors in computing systems<address><addrLine>New York, NY, USA, CHI &apos;04</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="319" to="326" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b141">
+	<analytic>
+		<title level="a" type="main">Telling humans and computers apart automatically</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Von Ahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Blum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Langford</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/966389.966390</idno>
+		<ptr target="https://doi.org/10.1145/966389.966390" />
+	</analytic>
+	<monogr>
+		<title level="j">Commun ACM</title>
+		<imprint>
+			<biblScope unit="volume">47</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="56" to="60" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b142">
+	<monogr>
+		<title level="m" type="main">Handbook of artificial intelligence for music: foundations, advanced approaches, and developments for creativity</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Visi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tanaka</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-72116-9_27</idno>
+		<ptr target="https://doi.org/10.1007/978-3-030-72116-9_27" />
+		<editor>Miranda ER</editor>
+		<imprint>
+			<date type="published" when="2021" />
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="771" to="798" />
+			<pubPlace>Cham</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Interactive machine learning of musical gesture</note>
+</biblStruct>
+
+<biblStruct xml:id="b143">
+	<analytic>
+		<title level="a" type="main">Using expert patterns in assisted interactive machine learning: a study in machine teaching</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wall</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ghorashi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ramos</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-29387-1_34</idno>
+		<ptr target="https://doi.org/10.1007/978-3-030-29387-1_34" />
+	</analytic>
+	<monogr>
+		<title level="m">Human-computer interaction-INTERACT 2019</title>
+				<editor>
+			<persName><forename type="first">D</forename><surname>Lamas</surname></persName>
+			<persName><forename type="first">F</forename><surname>Loizides</surname></persName>
+			<persName><forename type="first">L</forename><surname>Nacke</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="page" from="578" to="599" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b144">
+	<analytic>
+		<title level="a" type="main">Deploying an interactive machine learning system in an evidence-based practice center: Abstrackr</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">C</forename><surname>Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Small</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Brodley</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2110363.2110464</idno>
+		<ptr target="https://doi.org/10.1145/2110363.2110464" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2nd ACM SIGHIT International Health Informatics Symposium</title>
+				<meeting>the 2nd ACM SIGHIT International Health Informatics Symposium<address><addrLine>New York, NY, USA, IHI</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2012" />
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="819" to="824" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b145">
+	<analytic>
+		<title level="a" type="main">Dynamic curriculum learning for imbalanced data classification</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICCV.2019.00512</idno>
+		<ptr target="https://doi.org/10.1109/ICCV.2019.00512" />
+	</analytic>
+	<monogr>
+		<title level="m">2019 IEEE/CVF international conference on computer vision (ICCV)</title>
+				<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page" from="5016" to="5025" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b146">
+	<analytic>
+		<title level="a" type="main">Optimizing data usage via differentiable rewards</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Pham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Michel</surname></persName>
+		</author>
+		<ptr target="https://proceedings.mlr.press/v119/wang20p.html" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 37th international conference on machine learning, proceedings of machine learning research</title>
+				<editor>
+			<persName><surname>Iii</surname></persName>
+			<persName><surname>Hd</surname></persName>
+			<persName><forename type="first">A</forename><surname>Singh</surname></persName>
+		</editor>
+		<meeting>the 37th international conference on machine learning, proceedings of machine learning research</meeting>
+		<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2020" />
+			<biblScope unit="volume">119</biblScope>
+			<biblScope unit="page" from="9983" to="9995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b147">
+	<analytic>
+		<title level="a" type="main">A survey on curriculum learning</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zhu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TPAMI.2021.3069908</idno>
+		<ptr target="https://doi.org/10.1109/TPAMI.2021.3069908" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Pattern Anal Mach Intell</title>
+		<imprint>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b148">
+	<analytic>
+		<title level="a" type="main">Interactive machine learning: letting users build classifiers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ware</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Holmes</surname></persName>
+		</author>
+		<idno type="DOI">10.1006/ijhc.2001.0499</idno>
+		<ptr target="https://doi.org/10.1006/ijhc.2001.0499" />
+	</analytic>
+	<monogr>
+		<title level="j">Int J Hum Comput Stud</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="281" to="292" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b149">
+	<analytic>
+		<title level="a" type="main">Curriculum learning by transfer learning: Theory and experiments with deep networks</title>
+		<author>
+			<persName><forename type="first">M ;</forename><surname>Weimer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Amir</surname></persName>
+		</author>
+		<ptr target="http://proceedings.mlr.press/v80/weinshall18a.html" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 35th annual international conference on machine learning</title>
+				<meeting>the 35th annual international conference on machine learning</meeting>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="5235" to="5243" />
+		</imprint>
+		<respStmt>
+			<orgName>Darmstadt University of Technology</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+	<note>Machine teaching: a machine learning approach to technology enhanced learning</note>
+</biblStruct>
+
+<biblStruct xml:id="b150">
+	<analytic>
+		<title level="a" type="main">A survey of transfer learning</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Khoshgoftaar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s40537-016-0043-6</idno>
+		<ptr target="https://doi.org/10.1186/s40537-016-0043-6" />
+	</analytic>
+	<monogr>
+		<title level="j">J Big data</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="40" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b151">
+	<analytic>
+		<title level="a" type="main">An interaction design for machine teaching to develop AI tutors</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Weitekamp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Harpstead</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Koedinger</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3313831.3376226</idno>
+		<ptr target="https://doi.org/10.1145/3313831.3376226" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2020 CHI conference on human factors in computing systems</title>
+				<meeting>the 2020 CHI conference on human factors in computing systems</meeting>
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="1" to="11" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b152">
+	<analytic>
+		<title level="a" type="main">Trustworthy AI</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Wing</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3274568</idno>
+		<ptr target="https://doi.org/10.1145/34482" />
+	</analytic>
+	<monogr>
+		<title level="j">Commun ACM</title>
+		<imprint>
+			<biblScope unit="volume">64</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page">48</biblScope>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b153">
+	<analytic>
+		<title level="a" type="main">Design and fiction: imagining civic AI</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Wong</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3274568</idno>
+		<ptr target="https://doi.org/10.1145/32745" />
+	</analytic>
+	<monogr>
+		<title level="j">Interactions</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">68</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b154">
+	<analytic>
+		<title level="a" type="main">Toward human-centered AI: a perspective from human-computer interaction</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3328485</idno>
+		<ptr target="https://doi.org/10.1145/33284" />
+	</analytic>
+	<monogr>
+		<title level="j">Interactions</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">85</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b155">
+	<analytic>
+		<title level="a" type="main">Curriculum learning for natural language understanding</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Mao</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2020.acl-main.542</idno>
+		<ptr target="https://www.aclweb.org/anthology/2020.acl-main.542" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 58th annual meeting of the Association for Computational Linguistics</title>
+				<meeting>the 58th annual meeting of the Association for Computational Linguistics</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="6095" to="6104" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b156">
+	<analytic>
+		<title level="a" type="main">Grounding interactive machine learning tool design in how nonexperts actually build models</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Suh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3196709.3196729</idno>
+		<ptr target="https://doi.org/10.1145/3196709.3196729" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2018 designing interactive systems conference. Association for Computing Machinery</title>
+				<meeting>the 2018 designing interactive systems conference. Association for Computing Machinery<address><addrLine>New York, NY, USA, DIS</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="573" to="584" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b157">
+	<analytic>
+		<title level="a" type="main">Human-centered artificial intelligence in education: seeing the invisible through the visible</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ogata</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Matsui</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.caeai.2021.100008</idno>
+		<ptr target="https://doi.org/10.1016/j.caeai.2021.100008" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput Educ</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">100</biblScope>
+			<biblScope unit="page">8</biblScope>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b158">
+	<analytic>
+		<title level="a" type="main">Interactive machine learning: strategies for live performance using electromyography</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zbyszynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Visi</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-319-10590-1_53</idno>
+		<ptr target="https://doi.org/10.1007/978-3-319-10590-1_53" />
+	</analytic>
+	<monogr>
+		<title level="m">European conference on computer vision</title>
+				<editor>
+			<persName><forename type="first">D</forename><surname>Fleet</surname></persName>
+			<persName><forename type="first">T</forename><surname>Pajdla</surname></persName>
+			<persName><forename type="first">B</forename><surname>Schiele</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Berlin Zeiler MD, Fergus R; Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="818" to="833" />
+		</imprint>
+	</monogr>
+	<note>Visualizing and understanding convolutional networks</note>
+</biblStruct>
+
+<biblStruct xml:id="b159">
+	<analytic>
+		<title level="a" type="main">Adaptive deconvolutional networks for mid and high level feature learning</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">D</forename><surname>Zeiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Taylor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fergus</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICCV.2011.6126474</idno>
+		<ptr target="https://ieeexplore.ieee.org/document/6126474" />
+	</analytic>
+	<monogr>
+		<title level="m">2011 International conference on computer vision</title>
+				<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b160">
+	<monogr>
+		<title level="m" type="main">An empirical exploration of curriculum learning for neural machine translation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Khayrallah</surname></persName>
+		</author>
+		<idno>arxiv: 1811. 00739</idno>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv e-prints</note>
+	<note>cs.CL</note>
+</biblStruct>
+
+<biblStruct xml:id="b161">
+	<analytic>
+		<title level="a" type="main">Learning object detectors with semi-annotated weak labels</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Guo</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TCSVT.2018.2884173</idno>
+		<ptr target="https://doi.org/10.1109/TCSVT.2018.2884173" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Circuits Syst Video Technol</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="3622" to="3635" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b162">
+	<analytic>
+		<title level="a" type="main">Curriculum learning for domain adaptation in neural machine translation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kumar</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/N19-1189</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2019 conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</title>
+				<meeting>the 2019 conference of the North American Chapter of the Association for Computational Linguistics: Human Language Technologies</meeting>
+		<imprint>
+			<publisher>Long and Short Papers</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b163">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.18653/v1/N19-1189</idno>
+		<ptr target="https://www.aclweb.org/anthology/N19-1189" />
+		<imprint>
+			<date type="published" when="1903" />
+			<publisher>Association for Computational Linguistics</publisher>
+			<pubPlace>Minneapolis, Minnesota</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b164">
+	<analytic>
+		<title level="a" type="main">Integrating crowdsourcing and active learning for classification of work-life events from tweets</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Prosperi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Lyu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-55789-8_30</idno>
+		<idno>1007/ 978-3-030-55789-8_ 30</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Trends in artificial intelligence theory and applications. Artificial intelligence practices</title>
+				<editor>
+			<persName><forename type="first">H</forename><surname>Fujita</surname></persName>
+			<persName><forename type="first">P</forename><surname>Fournier-Viger</surname></persName>
+			<persName><forename type="first">Ali</forename><forename type="middle">M</forename></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="333" to="344" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b165">
+	<analytic>
+		<title level="a" type="main">Learning deep features for discriminative localization</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khosla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lapedriza</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2016.319</idno>
+		<ptr target="https://ieeexplore.ieee.org/document/7780688" />
+	</analytic>
+	<monogr>
+		<title level="m">2016 IEEE conference on computer vision and pattern recognition (CVPR)</title>
+				<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="2921" to="2929" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b166">
+	<analytic>
+		<title level="a" type="main">Uncertainty-aware curriculum learning for neural machine translation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Wong</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2020.acl-main.620</idno>
+		<ptr target="https://www.aclweb.org/anthology/2020.acl-main.620" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 58th annual meeting of the Association for Computational Linguistics</title>
+				<meeting>the 58th annual meeting of the Association for Computational Linguistics</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="6934" to="6944" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b167">
+	<analytic>
+		<title level="a" type="main">Machine teaching: An inverse problem to machine learning and an approach toward optimal education</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<ptr target="https://ojs.aaai.org/index.php/AAAI/article/view/9761" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the twenty-ninth AAAI conference on artificial intelligence. AAAI Press, AAAI&apos;15</title>
+				<meeting>the twenty-ninth AAAI conference on artificial intelligence. AAAI Press, AAAI&apos;15</meeting>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="4083" to="4087" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b168">
+	<monogr>
+		<title level="m" type="main">An overview of machine teaching</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zilles</surname></persName>
+		</author>
+		<idno>arxiv: 1801. 05927</idno>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv e-prints</note>
+</biblStruct>
+
+<biblStruct xml:id="b169">
+	<analytic>
+		<title level="a" type="main">A comprehensive survey on transfer learning</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Zhuang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Qi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Duan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/JPROC.2020.3004555</idno>
+		<ptr target="https://doi.org/10.1109/JPROC.2020" />
+	</analytic>
+	<monogr>
+		<title level="j">Proc IEEE</title>
+		<imprint>
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">55</biblScope>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b170">
+	<monogr>
+		<title level="m" type="main">Publisher&apos;s Note Springer Nature remains neutral with regard to jurisdictional claims in published maps and institutional affiliations</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,6 @@
+Title: Machine Learning Made Easy: A Review of Scikit-learn Package in Python Programming Language
+Published: 2019-02-20
+Link: https://www.semanticscholar.org/paper/a8fadb33a38f1096f84f64bd66345717a5bc3241
+
+Abstract:
+Machine learning is a popular topic in data analysis and modeling. Many different machine learning algorithms have been developed and implemented in a variety of programming languages over the past 20 years. In this article, we first provide an overview of machine learning and clarify its difference from statistical inference. Then, we review Scikit-learn, a machine learning package in the Python programming language that is widely used in data science. The Scikit-learn package includes implementations of a comprehensive list of machine learning methods under unified data and modeling procedure conventions, making it a convenient toolkit for educational and behavior statisticians.

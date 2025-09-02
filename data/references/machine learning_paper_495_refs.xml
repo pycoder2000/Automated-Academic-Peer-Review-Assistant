@@ -1,0 +1,815 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Feature selection for case-based classification of cloud types</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Aha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bankert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1994 Workshop on Case-Based Reasoning</title>
+				<meeting>the 1994 Workshop on Case-Based Reasoning</meeting>
+		<imprint>
+			<publisher>AAAI Press</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="106" to="112" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Learning with many irrelevant features</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Almuallim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dietterich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Ninth National Conference on Artificial Intelligence</title>
+				<meeting>the Ninth National Conference on Artificial Intelligence</meeting>
+		<imprint>
+			<publisher>AAAI Press</publisher>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="547" to="552" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Queries and concept learning</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="319" to="342" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Case-based meta learning: Sustained learning supported by a dynamically biased version space</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Baltes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Macdonald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the ML92 Workshop on Biases in Inductive Learning</title>
+				<meeting>the ML92 Workshop on Biases in Inductive Learning</meeting>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Multistrategy constructive induction: AQ17-MCI</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Bloedorn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Michalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wnek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Second International Workshop on Multistrategy Learning</title>
+				<meeting>the Second International Workshop on Multistrategy Learning</meeting>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="188" to="206" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Occam&apos;s razor</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blumer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ehrenfeucht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haussler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Warmuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information Processing Letters</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="377" to="380" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Learnability and the Vapnik-Chervonenkis dimension</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blumer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ehrenfeucht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haussler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Warmuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Association for Computing Machinery</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="929" to="965" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Using cognitive biases to guide feature set selection</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cardie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fourteenth Annual Conference of the Cognitive Science Society</title>
+				<meeting>the Fourteenth Annual Conference of the Cognitive Science Society</meeting>
+		<imprint>
+			<publisher>Lawrence Erlbaum Associates</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="743" to="748" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Algorithmic information theory</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Chaitin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IBM J. Res. Develop</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="350" to="359" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Evaluating bias during PAC-learning</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chrisman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning Workshop</title>
+				<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="469" to="471" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Inductive biases in a reinforcement learner</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Cobb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the ML92 Workshop on Biases in Inductive Learning</title>
+				<meeting>the ML92 Workshop on Biases in Inductive Learning</meeting>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Grammatically biased learning: Learning Horn theories using an explicit antecedent description language</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence</title>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Utilizing prior concepts for learning</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Datta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kibler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the ML92 Workshop on Biases in Inductive Learning</title>
+				<meeting>the ML92 Workshop on Biases in Inductive Learning</meeting>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Evaluation of learning biases using probabilistic domain knowledge</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Desjardins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Computational Learning Theory and Natural Learning Systems</title>
+				<imprint>
+			<publisher>The MIT Press</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="95" to="112" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Active Bias Selection for Incremental, Supervised Concept Learning</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gordon</surname></persName>
+		</author>
+		<idno>UMIACS-TR-90-60 CS- TR-2464</idno>
+		<imprint>
+			<date type="published" when="1990" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Maryland, Department of Computer Science</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+	<note>Also available as</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A multistrategy learning scheme for agent knowledge acquisition</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gordon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Subramanian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Informatica</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="331" to="346" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Knowledge as bias</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hirsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Change of Representation and Inductive Bias</title>
+				<imprint>
+			<publisher>Kluwer Academic Publishers</publisher>
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Irrelevant features and the subset selection problem</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kohavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pfleger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Eleventh International Conference on Machine Learning</title>
+				<meeting>the Eleventh International Conference on Machine Learning</meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="121" to="129" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A polynomial approach to the constructive induction of structured knowledge</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kietz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Morik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine Learning</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="193" to="218" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">A practical approach to feature selection</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rendell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Ninth International Conference on Machine Learning</title>
+				<meeting>the Ninth International Conference on Machine Learning</meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="249" to="256" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The need for constructive induction</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Matheus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Eighth International Workshop on Machine Learning</title>
+				<meeting>the Eighth International Workshop on Machine Learning<address><addrLine>Tioga</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="173" to="177" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">A theory and methodology of inductive learning</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Michalski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning I</title>
+				<editor>
+			<persName><forename type="first">R</forename><surname>Michalski</surname></persName>
+			<persName><forename type="first">J</forename><surname>Carbonell</surname></persName>
+			<persName><forename type="first">T</forename><surname>Mitchell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Tioga</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="page" from="83" to="134" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">The need for biases in learning generalizations</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mitchell</surname></persName>
+		</author>
+		<idno>CBM-TR-117</idno>
+		<imprint>
+			<date type="published" when="1980" />
+		</imprint>
+		<respStmt>
+			<orgName>Rutgers University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Discriminability-based transfer between neural networks</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">Y</forename><surname>Pratt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems 5</title>
+				<editor>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Giles</surname></persName>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Hanson</surname></persName>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Cowan</surname></persName>
+		</editor>
+		<meeting><address><addrLine>San Mateo, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann Publishers</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="204" to="211" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Inductive policy</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Provost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Buchanan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">AAAI-92</title>
+				<imprint>
+			<publisher>AAAI Press/The MIT Press</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="255" to="261" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Similarity-based learning and its extensions</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rendell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computational Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="241" to="266" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Feature construction for concept learning</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rendell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Change of Representation and Inductive Bias</title>
+				<imprint>
+			<publisher>Kluwer</publisher>
+			<date type="published" when="1990" />
+			<biblScope unit="page" from="327" to="353" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">More robust concept learning using dynamically-variable bias</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Rendell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Seshu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Tcheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fourth International Workshop on Machine Learning</title>
+				<meeting>the Fourth International Workshop on Machine Learning</meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="66" to="78" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A declarative approach to bias in concept learning</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Russell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Grosof</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">AAAI</title>
+				<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="505" to="510" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">On the effect of instance representation on generalization</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saxena</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Eighth International Workshop on Machine Learning</title>
+				<meeting>the Eighth International Workshop on Machine Learning</meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="198" to="202" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A conservation law for generalization performance</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schaffer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Eleventh International Conference on Machine Learning</title>
+				<meeting>the Eleventh International Conference on Machine Learning</meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="259" to="265" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Improving tactical plans with genetic algorithms</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Schultz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grefenstette</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IEEE Conference on Tools for AI</title>
+				<meeting>the IEEE Conference on Tools for AI</meeting>
+		<imprint>
+			<publisher>IEEE Press</publisher>
+			<date type="published" when="1990" />
+			<biblScope unit="page" from="328" to="334" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<title level="m" type="main">A formal theory of inductive inference Information and Control</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Solomonoff</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1964" />
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Is consistency harmful?</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Spears</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Gordon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the ML92 Workshop on Biases in Inductive Learning</title>
+				<meeting>the ML92 Workshop on Biases in Inductive Learning</meeting>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Refinement of approximate domain theories by knowledgebased neural networks</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Towell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shavlik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Noordewier</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of AAAI-90</title>
+				<meeting>AAAI-90</meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1990" />
+			<biblScope unit="page" from="861" to="866" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Shift of bias for inductive concept learning</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Utgoff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning II</title>
+				<editor>
+			<persName><forename type="first">R</forename><surname>Michalski</surname></persName>
+			<persName><forename type="first">J</forename><surname>Carbonell</surname></persName>
+			<persName><forename type="first">T</forename><surname>Mitchell</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Morgan Kaufman</publisher>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="107" to="148" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Robust feature selection algorithms</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Vafaie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Jong</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fifth Conference on Tools for Artificial Intelligence</title>
+				<meeting>the Fifth Conference on Tools for Artificial Intelligence</meeting>
+		<imprint>
+			<publisher>IEEE Computer Society Press</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="356" to="363" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">On the uniform convergence of relative frequencies of events to their probabilities</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vapnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chervonenkis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Theory of Probability and its Applications</title>
+				<imprint>
+			<date type="published" when="1971" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="264" to="280" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Hypothesis-driven constructive induction in AQ17-HC1: A method and experiments</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wnek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Michalski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="139" to="168" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">On the connection between in-sample testing and generalization error</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wolpert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Complex Systems</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="47" to="94" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Concept formation during interactive theory revision</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wrobel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Final Manuscript May</title>
+				<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="169" to="192" />
+		</imprint>
+	</monogr>
+	<note>Machine Learning</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

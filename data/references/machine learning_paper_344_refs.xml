@@ -1,0 +1,1493 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Predicting diabetes mellitus using SMOTE and ensemble machine learning approach: the henry ford exercise testing (FIT) project</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Alghamdi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Al-Mallah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Keteyian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brawner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ehrman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sakr</surname></persName>
+		</author>
+		<idno type="DOI">10.1371/journal.pone.0179805</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">e0179805</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Diagnosis and classification of diabetes mellitus</title>
+		<idno type="DOI">10.2337/dc12-s064</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Diabetes Care</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="S64" to="S71" />
+			<date type="published" when="2012" />
+			<publisher>American Diabetes Association</publisher>
+		</imprint>
+	</monogr>
+	<note>Suppl. 1</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Bias in Estimating the Variance of K -Fold Cross-Validation</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Grandvalet</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/0-387-24555-3_5</idno>
+		<imprint>
+			<date type="published" when="2005" />
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="75" to="95" />
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Random forest</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breiman</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/A:1010933404324</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mach. Learn</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="5" to="32" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Identification of bacterial cell wall lyases via pseudo amino acid composition</title>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">C</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ding</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2016/1654623</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Res. Int</title>
+		<imprint>
+			<biblScope unit="page">1654623</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Tests for screening and diagnosis of type 2 diabetes</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Edelman</surname></persName>
+		</author>
+		<idno type="DOI">10.2337/diaclin.27.4.132</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Clin. Diabetes</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="132" to="138" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">An automatic diabetes diagnosis system based on LDA-wavelet support vector machine classifier</title>
+		<author>
+			<persName><forename type="first">Ç</forename><surname>Duygu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Esin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Syst. Appl</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="8311" to="8315" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Decision tree classification of land cover from remotely sensed data</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Friedl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Brodley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Remote Sens. Environ</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="399" to="409" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Multivariate prediction of subcutaneous glucose concentration in type 1 diabetes patients based on support vector regression</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">I</forename><surname>Georga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">C</forename><surname>Protopappas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ardigo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Marina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Zavaroni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Polyzos</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TITB.2012.2219876</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Biomed. Health Inform</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="71" to="81" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Type 2 diabetes mellitus screening and risk factors using decision tree: results of data mining</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Habibi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ahmadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alizadeh</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<idno type="DOI">10.5539/gjhs.v7n5p304</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Glob. J. Health Sci</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="304" to="310" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Rule extraction from support vector machines using ensemble learning approach: an application for diagnosis of diabetes</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chen</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<idno type="DOI">10.1109/JBHI.2014.2325615</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Biomed. Health Inform</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="728" to="734" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Method for the analysing of blood glucose dynamics in diabetes mellitus patients</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Iancu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mota</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Iancu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/AQTR.2008.4588883</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2008 IEEE International Conference on Automation, Quality and Testing</title>
+				<meeting>the 2008 IEEE International Conference on Automation, Quality and Testing<address><addrLine>Robotics, Cluj-Napoca</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Stopping rules in principal components analysis: a comparison of heuristical and statistical approaches</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Jackson</surname></persName>
+		</author>
+		<idno type="DOI">10.2307/1939574</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ecology</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="2204" to="2214" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Classification of diabetes disease using support vector machine</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jegan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Microcomput. Dev</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1797" to="1801" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">O-GlcNAcPRED-II: an integrated classification algorithm for identifying O-GlcNAcylation sites based on fuzzy undersampling and a K-means PCA oversampling technique</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Jia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bty039</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="2029" to="2036" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Editing training data for kNN classifiers with neural network ensemble</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-540-28647-9_60</idno>
+		<idno>doi: 10.1007/ 978-3-540-28647-9_60</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Lect. Notes Comput. Sci</title>
+		<imprint>
+			<biblScope unit="volume">3173</biblScope>
+			<biblScope unit="page" from="356" to="361" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Principal components analysis</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">T</forename><surname>Jolliffe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Document Analysis and Recognition</title>
+				<meeting>the International Conference on Document Analysis and Recognition<address><addrLine>Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Machine learning and data mining methods in diabetes research</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kavakiotis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Tsave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Salifoglou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Maglaveras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Vlahavas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Chouvarda</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.csbj.2016.12.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Struct. Biotechnol. J</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="104" to="116" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Estimating classification error rate: repeated cross-validation, repeated hold-out and bootstrap</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.csda.2009.04.009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Stat. Data Anal</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="3735" to="3745" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Scaling up the accuracy of naive-bayes classifiers : a decisiontree hybrid</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kohabi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Second International Conference on Knowledge Discovery and Data Mining</title>
+				<meeting>the Second International Conference on Knowledge Discovery and Data Mining<address><addrLine>Portland, OR</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">A study of cross-validation and bootstrap for accuracy estimation and model selection</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kohavi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 14th International Joint Conference on Artificial Intelligence</title>
+				<meeting>the 14th International Joint Conference on Artificial Intelligence<address><addrLine>Montreal</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Oral cavity and systemic diseases-Diabetes Mellitus</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krasteva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Panov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krasteva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kisselova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Krastev</surname></persName>
+		</author>
+		<idno type="DOI">10.5504/BBEQ.2011.0022</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biotechnol. Biotechnol. Equip</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="2183" to="2186" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Identification of type 2 diabetes risk factors using phenotypes consisting of anthropometry and triglycerides based on machine learning</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/JBHI.2015.2396520</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Biomed. Health Inform</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="39" to="46" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Prediction of linear B-cell epitopes with mRMR feature selection and analysis</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">L</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chen</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename></persName>
+		</author>
+		<idno type="DOI">10.2174/1574893611666151119215131</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="22" to="31" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Prediction of G protein-coupled receptors with SVM-Prot features and random forest</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2016/8309253</idno>
+		<idno>doi: 10.1155/ 2016/8309253</idno>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page">8309253</biblScope>
+			<pubPlace>Scientifica</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Classification of small GTPases with hybrid protein features and advanced machine learning techniques</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">J</forename><surname>Liao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/1574893612666171121162552</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="492" to="500" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Classification and regression by randomforest</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Wiener</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">R. News</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="18" to="22" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">LibD3C: ensemble classifiers with a clustering and dynamic selection strategy</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Krishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neucom.2013.08.004</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">123</biblScope>
+			<biblScope unit="page" from="424" to="435" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Diagnosis of diabetes mellitus using microwaves</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lonappan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Bindu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Thomas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jacob</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Rajasekaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">T</forename><surname>Mathew</surname></persName>
+		</author>
+		<idno type="DOI">10.1163/156939307783239429</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Electromagnet. Wave</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1393" to="1401" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A computational identification method for GPI-anchored proteins by artificial neural network</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mukai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tanaka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yoshizawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Oura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Sasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ikeda</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/157489312800604390</idno>
+		<idno>doi: 10.2174/ 157489312800604390</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="125" to="131" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Classifier ensemble construction with rotation forest to improve medical diagnosis performance of machine learning algorithms</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ozcift</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gulten</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.cmpb.2011.03.018</idno>
+		<idno>doi: 10.1016/j. cmpb.2011.03.018</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Methods Programs Biomed</title>
+		<imprint>
+			<biblScope unit="volume">104</biblScope>
+			<biblScope unit="page" from="443" to="451" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Random forest classifier for remote sensing classification</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pal</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/01431160412331269698</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Remote Sens</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="217" to="222" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">An expert system approach based on principal component analysis and adaptive neuro-fuzzy inference system to diagnosis of diabetes disease</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Polat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Günes</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.dsp.2006.09.005</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Digit. Signal Process</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="702" to="710" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">The medical applications of attribute weighted artificial immune system (AWAIS): diagnosis of heart and diabetes diseases</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Polat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kodaz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 4th International Conference on Artificial Immune Systems</title>
+				<meeting>the 4th International Conference on Artificial Immune Systems<address><addrLine>Banff</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Induction on decision tree</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/BF00116251</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mach. Learn</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="81" to="106" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Bagging, boosting, and C4.5</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Thirteenth National Conference on Artificial Intelligence</title>
+				<meeting>the Thirteenth National Conference on Artificial Intelligence<address><addrLine>Menlo Park, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>AAAI Press</publisher>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="725" to="730" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Improved use of continuous attributes in C4.5</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+		<idno type="DOI">10.1613/jair.279</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Artif. Intell. Res</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="77" to="90" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Population-level prediction of type 2 diabetes from claims data and analysis of risk factors</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Razavian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Blecker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Schmidt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Smith-Mclallen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nigam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sontag</surname></persName>
+		</author>
+		<idno type="DOI">10.1089/big.2015.0020</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Big Data</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="277" to="287" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Cross-validation</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Refaeilzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Encyclopedia of Database Systems</title>
+				<editor>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Özsu</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="532" to="538" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Blood glucose prediction using artificial neural networks trained with the AIDA diabetes simulator: a proof-of-concept pilot study</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Lehmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sandham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hamilton</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2011/681786</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Electr. Comput. Eng</title>
+		<imprint>
+			<biblScope unit="page">681786</biblScope>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">A feature selection method based on kernel canonical correlation analysis and the minimum redundancymaximum relevance filter method</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Sakar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kursun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Gurgen</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eswa.2011.09.031</idno>
+		<idno>doi: 10. 1016/j.eswa.2011.09.031</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Expert Syst. Appl</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="3432" to="3437" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">C4.5: programs for machine learning by</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Salzberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mach. Learn</title>
+		<editor>J. Ross Quinlan</editor>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="235" to="240" />
+			<date type="published" when="1993" />
+			<publisher>Morgan Kaufmann publishers, Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">classification through machine learning technique: C4. 5 algorithm based on various entropies</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Agrawal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sharma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Comput. Appl</title>
+		<imprint>
+			<biblScope unit="volume">82</biblScope>
+			<biblScope unit="page" from="28" to="32" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A tutorial on principal components analysis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">I</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inform. Fusion</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page">52</biblScope>
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">iLoc-lncRNA: predict the subcellular location of lncRNAs by incorporating octamer composition into general PseKNC</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">D</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/bty508</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>Epub ahead of print</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Random forest: a classification and regression tool for compound classification and QSAR modeling</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Svetnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Liaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Culberson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Sheridan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">P</forename><surname>Feuston</surname></persName>
+		</author>
+		<idno type="DOI">10.1021/ci034160g</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J. Chem. Inform. Comput. Sci</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="1947" to="1958" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">HBPred: a tool to identify growth hormone-binding proteins</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">W</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Huang</surname></persName>
+		</author>
+		<idno type="DOI">10.7150/ijbs.24174</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="957" to="964" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Tumor origin detection with tissue-specific miRNA and DNA methylation markers</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Teschendorff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zou</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btx622</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="398" to="406" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Analysis and prediction of nitrated tyrosine sites with the mRMR method and support vector machine algorithm</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">D</forename><surname>Cai</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/1574893611666160608075753</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="3" to="13" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Feature extraction and dimensionality reduction algorithms and their applications in vowel recognition</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">K</forename><surname>Paliwal</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/S0031-3203(03)00044-X</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recogn</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="2429" to="2439" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">A resource limited artificial immune classifier</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Watkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Boggess</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CEC.2002.1007049</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2002 Congress on Evolutionary Computation (CEC2002)</title>
+				<meeting>the 2002 Congress on Evolutionary Computation (CEC2002)<address><addrLine>Honolulu, HI</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE Press</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="926" to="931" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<monogr>
+		<title level="m" type="main">Fast prediction of protein methylation sites using a sequence-based feature selection technique</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Xing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">L</forename><surname>Ji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zou</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1109/TCBB.2017.2670558</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE/ACM Trans. Comput. Biol. Bioinform</title>
+		<imprint/>
+	</monogr>
+	<note>Epub ahead of print</note>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">iRSpot-Pse6NC: identifying recombination spots in Saccharomyces cerevisiae by incorporating hexamer composition into general PseKNC</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">R</forename><surname>Qiu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">B</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">C</forename><surname>Chou</surname></persName>
+		</author>
+		<idno type="DOI">10.7150/ijbs.24616</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Biol. Sci</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="883" to="891" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Identification of secretory proteins in Mycobacterium tuberculosis using pseudo amino acid composition</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">P</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Ding</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2016/5413903</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Biomed. Res. Int</title>
+		<imprint>
+			<biblScope unit="page">5413903</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Low rank representation and its application in bioinformatics</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Cai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/1574893612666171121155347</idno>
+		<idno>doi: 10.2174/ 1574893612666171121155347</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Bioinform</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="508" to="517" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">An intelligent diagnosis to type 2 diabetes based on QPSO algorithm and WLS-SVM</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Xin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Kewen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chang</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename></persName>
+		</author>
+		<idno type="DOI">10.1109/IITA.Workshops.2008.36</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2008 IEEE International Symposium on Intelligent Information Technology Application Workshops</title>
+				<meeting>the 2008 IEEE International Symposium on Intelligent Information Technology Application Workshops<address><addrLine>Washington, DC</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Exploratory predicting protein folding model with random forest and hybrid features</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.2174/157016461104150121115154</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Curr. Proteom</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="289" to="299" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Pretata: predicting TATA binding proteins with novel features and dimensionality reduction strategy</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ju</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zeng</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s12918-016-0353-5</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Syst. Biol</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">114</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>Suppl. 4</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">A novel features ranking metric with application to scalable visual and bioinformatics data classification</title>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ji</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+		<idno type="DOI">10.1016/j.neucom.2014.12.123</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">173</biblScope>
+			<biblScope unit="page" from="346" to="354" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

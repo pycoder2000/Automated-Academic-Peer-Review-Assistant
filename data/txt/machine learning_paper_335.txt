@@ -1,0 +1,6 @@
+Title: What Is Machine Learning: a Primer for the Epidemiologist.
+Published: 2019-10-21
+Link: https://www.semanticscholar.org/paper/5ec6039389d448f24183084b503cf1ac899f45fc
+
+Abstract:
+Machine learning is a branch of computer science that has the potential to transform epidemiological sciences. Amid a growing focus on "Big Data," it offers epidemiologists new tools to tackle problems for which classical methods are not well-suited. In order to critically evaluate the value of integrating machine learning algorithms and existing methods, however, it is essential to address language and technical barriers between the two fields that can make it difficult for epidemiologists to read and assess machine learning studies. Here, we provide an overview of the concepts and terminology used in machine learning literature, which encompasses a diverse set of tools with goals ranging from prediction, to classification, to clustering. We provide a brief introduction to five common machine learning algorithms and four ensemble-based approaches. We then summarize epidemiological applications of machine learning techniques in the published literature. We recommend approaches to incorporate machine learning in epidemiological research and discuss opportunities and challenges for integrating machine learning and existing epidemiological research methods.

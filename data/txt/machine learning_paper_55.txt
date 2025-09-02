@@ -1,0 +1,11 @@
+Title: Towards Identifying and Managing Sources of Uncertainty in AI and
+  Machine Learning Models - An Overview
+Published: 2018-11-28T16:49:37Z
+Link: http://arxiv.org/abs/1811.11669v1
+
+Abstract:
+Quantifying and managing uncertainties that occur when data-driven models
+such as those provided by AI and machine learning methods are applied is
+crucial. This whitepaper provides a brief motivation and first overview of the
+state of the art in identifying and quantifying sources of uncertainty for
+data-driven components as well as means for analyzing their impact.

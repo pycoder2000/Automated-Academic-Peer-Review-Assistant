@@ -1,0 +1,6 @@
+Title: Machine Learning: An Applied Econometric Approach
+Published: 2017-05-01
+Link: https://www.semanticscholar.org/paper/9d75cc322a4e06d0a3a868cb91b04219a289c12c
+
+Abstract:
+Machines are increasingly doing “intelligent” things. Face recognition algorithms use a large dataset of photos labeled as having a face or not to estimate a function that predicts the presence y of a face from pixels x. This similarity to econometrics raises questions: How do these new empirical tools fit with what we know? As empirical economists, how can we use them? We present a way of thinking about machine learning that gives it its own place in the econometric toolbox. Machine learning not only provides new tools, it solves a different problem. Specifically, machine learning revolves around the problem of prediction, while many economic applications revolve around parameter estimation. So applying machine learning to economics requires finding relevant tasks. Machine learning algorithms are now technically easy to use: you can download convenient packages in R or Python. This also raises the risk that the algorithms are applied naively or their output is misinterpreted. We hope to make them conceptually easier to use by providing a crisper understanding of how these algorithms work, where they excel, and where they can stumble—and thus where they can be most usefully applied.

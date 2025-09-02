@@ -1,0 +1,6 @@
+Title: Dermatological Machine Learning Clinical Decision Support System
+Published: 2021-06-14T19:26:48Z
+Link: https://doi.org/10.1201/9781315101323-2
+
+Abstract:
+

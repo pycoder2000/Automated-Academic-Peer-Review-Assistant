@@ -1,0 +1,20 @@
+Title: DriveML: An R Package for Driverless Machine Learning
+Published: 2020-05-01T16:40:25Z
+Link: http://arxiv.org/abs/2005.00478v3
+
+Abstract:
+In recent years, the concept of automated machine learning has become very
+popular. Automated Machine Learning (AutoML) mainly refers to the automated
+methods for model selection and hyper-parameter optimization of various
+algorithms such as random forests, gradient boosting, neural networks, etc. In
+this paper, we introduce a new package i.e. DriveML for automated machine
+learning. DriveML helps in implementing some of the pillars of an automated
+machine learning pipeline such as automated data preparation, feature
+engineering, model building and model explanation by running the function
+instead of writing lengthy R codes. The DriveML package is available in CRAN.
+We compare the DriveML package with other relevant packages in CRAN/Github and
+find that DriveML performs the best across different parameters. We also
+provide an illustration by applying the DriveML package with default
+configuration on a real world dataset. Overall, the main benefits of DriveML
+are in development time savings, reduce developer's errors, optimal tuning of
+machine learning models and reproducibility.

@@ -1,0 +1,6 @@
+Title: Machine Learning in Medicine
+Published: 2019-04-03
+Link: https://www.semanticscholar.org/paper/21dfbc88b21b27fe8a245ab1df98edd45f655ae7
+
+Abstract:
+Machine Learning in Medicine In this view of the future of medicine, patient–provider interactions are informed and supported by massive amounts of data from interactions with similar patients. The...

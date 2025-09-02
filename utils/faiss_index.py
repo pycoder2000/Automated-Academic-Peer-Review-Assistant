@@ -3,75 +3,87 @@ import json
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
+from pathlib import Path
 
 # Paths
-PAPERS_JSON = "data/papers.json"
+PDF_SUMMARY_JSON = "data/pdf_processing_summary.json"
 PARSED_TEXT_DIR = "data/parsed_text"
-FAISS_INDEX_PATH = "data/faiss_index.bin"
-MAPPING_PATH = "data/faiss_mapping.json"
+FAISS_DIR = "data/faiss_indexes"
 
-# Load metadata
-def load_papers():
-    with open(PAPERS_JSON, "r", encoding="utf-8") as f:
+# ---------- Load metadata ----------
+def load_pdf_summary():
+    with open(PDF_SUMMARY_JSON, "r", encoding="utf-8") as f:
         return json.load(f)
 
-# Load parsed text for each paper
-def load_text_for_paper(pdf_filename):
-    txt_filename = pdf_filename.replace(".pdf", ".txt")
-    txt_path = os.path.join(PARSED_TEXT_DIR, txt_filename)
-    if os.path.exists(txt_path):
-        with open(txt_path, "r", encoding="utf-8") as f:
+# ---------- Load parsed text ----------
+def load_text(text_path):
+    if text_path and os.path.exists(text_path):
+        with open(text_path, "r", encoding="utf-8") as f:
             return f.read()
     return ""
 
-# Build FAISS index
+# ---------- Build FAISS index ----------
 def build_faiss_index(embeddings):
-    dim = embeddings.shape[1]  # vector dimension
-    index = faiss.IndexFlatL2(dim)  # L2 distance (can switch to cosine)
+    dim = embeddings.shape[1]
+    index = faiss.IndexFlatL2(dim)  # L2 distance
     index.add(embeddings)
     return index
 
+# ---------- Main ----------
 def main():
-    print("[STEP 3] Building FAISS index for corpus...")
+    print("[STEP 3] Building FAISS indexes (per topic)...")
 
-    papers = load_papers()
+    pdf_summaries = load_pdf_summary()
 
-    # Load sentence transformer model
+    # Load embedding model
     print("[MODEL] Loading sentence-transformers/all-MiniLM-L6-v2")
     model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
-    texts = []
-    mapping = {}  # vector_id -> paper metadata
+    # Group papers by topic
+    topic_groups = {}
+    for entry in pdf_summaries:
+        topic = entry.get("topic", "unknown")
+        topic_groups.setdefault(topic, []).append(entry)
 
-    for idx, paper in enumerate(papers):
-        pdf_path = paper.get("pdf_path")
-        if not pdf_path:
-            texts.append("")
-            mapping[idx] = {"title": paper.get("title"), "url": paper.get("url")}
-            continue
+    os.makedirs(FAISS_DIR, exist_ok=True)
 
-        text = load_text_for_paper(os.path.basename(pdf_path))
-        texts.append(text)
-        mapping[idx] = {"title": paper.get("title"), "url": paper.get("url")}
+    # Process each topic separately
+    for topic, papers in topic_groups.items():
+        print(f"\n[TOPIC] {topic} — {len(papers)} papers")
 
-    print(f"[EMBEDDING] Encoding {len(texts)} documents...")
-    embeddings = model.encode(texts, convert_to_numpy=True, show_progress_bar=True)
+        texts = []
+        mapping = {}
 
-    # Build FAISS index
-    print("[FAISS] Creating index...")
-    index = build_faiss_index(embeddings)
+        for idx, paper in enumerate(papers):
+            text = load_text(paper.get("text_path"))
+            texts.append(text)
+            mapping[idx] = {
+                "topic": topic,
+                "pdf_path": paper.get("pdf_path"),
+                "text_path": paper.get("text_path"),
+                "refs_path": paper.get("refs_path"),
+            }
 
-    # Save FAISS index
-    os.makedirs(os.path.dirname(FAISS_INDEX_PATH), exist_ok=True)
-    faiss.write_index(index, FAISS_INDEX_PATH)
-    print(f"[SAVED] FAISS index to {FAISS_INDEX_PATH}")
+        print(f"[EMBEDDING] Encoding {len(texts)} docs for topic '{topic}'...")
+        embeddings = model.encode(texts, convert_to_numpy=True, show_progress_bar=True)
 
-    # Save mapping
-    with open(MAPPING_PATH, "w", encoding="utf-8") as f:
-        json.dump(mapping, f, indent=4, ensure_ascii=False)
-    print(f"[SAVED] Mapping file to {MAPPING_PATH}")
+        # Build FAISS index
+        print(f"[FAISS] Creating index for topic {topic}...")
+        index = build_faiss_index(embeddings)
 
-    print("[DONE] Step 3 completed.")
+        # Save FAISS index + mapping
+        faiss_path = Path(FAISS_DIR) / f"{topic}_index.bin"
+        mapping_path = Path(FAISS_DIR) / f"{topic}_mapping.json"
 
+        faiss.write_index(index, str(faiss_path))
+        with open(mapping_path, "w", encoding="utf-8") as f:
+            json.dump(mapping, f, indent=4, ensure_ascii=False)
+
+        print(f"[SAVED] {faiss_path}")
+        print(f"[SAVED] {mapping_path}")
+
+    print("\n[DONE] Step 3 completed.")
+
+# ---------- Entry ----------
 if __name__ == "__main__":
     main()

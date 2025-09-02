@@ -37,14 +37,17 @@ def synthesize_review(novelty, claims, plagiarism, factual):
     Calls LLM to generate a structured, scored review.
     """
     prompt = f"""
-You are an academic peer reviewer. 
-Synthesize the following analyses into a structured peer review.
+    
+You are acting as an IEEE peer reviewer.  
+Task: Write a structured referee report using the following analyses.  
+Format strictly as:
+1. Summary of the Paper  
+2. Strengths  
+3. Weaknesses  
+4. Suggestions for Improvement  
+5. Section-wise Scores (Novelty, Claims, Plagiarism, Factual Accuracy) [0-10 each]  
+6. Final Recommendation: Accept | Minor Revisions | Major Revisions | Reject
 
-Rules:
-- Use sections: Novelty, Claims, Plagiarism, Factual Accuracy
-- For each: list Strengths, Weaknesses, Suggestions
-- Assign a 0-10 score for each section
-- At the end, give an Overall Recommendation (Accept, Minor Revisions, Major Revisions, Reject)
 
 Data:
 {summarize_section("Novelty", novelty)}

@@ -1,0 +1,6 @@
+Title: Combining satellite imagery and machine learning to predict poverty
+Published: 2016-08-19
+Link: https://www.semanticscholar.org/paper/4f975da00a5b2a2f7236e34edcb7274e5fdab937
+
+Abstract:
+None

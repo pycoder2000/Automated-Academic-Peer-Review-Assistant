@@ -1,0 +1,6 @@
+Title: Trainable Weka Segmentation: a machine learning tool for microscopy pixel classification
+Published: 2017-08-01
+Link: https://www.semanticscholar.org/paper/8b27e2fafbe24cf9ce24f308a7e746489ff0dfb8
+
+Abstract:
+None

@@ -1,0 +1,129 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Big data&apos;s disparate impact. California Law Review</title>
+		<author>
+			<persName><forename type="first">Selbst ; Solon</forename><surname>Barocas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">D</forename><surname>Barocas</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Selbst</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">104</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Executive Office of the President. Big data: A report on algorithmic systems, opportunity, and civil rights</title>
+		<author>
+			<persName><forename type="first">[</forename><surname>Calders</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1706.09847</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Runaway feedback loops in predictive policing</title>
+				<editor>
+			<persName><surname>Fuster</surname></persName>
+		</editor>
+		<meeting><address><addrLine>White House; Stockholm, Sweden</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">83</biblScope>
+			<biblScope unit="page" from="176" to="188" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical report</note>
+	<note>Proc. 30th NIPS</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Best Practices or Best Guesses? Assessing the Efficacy of Corporate Affirmative Action and Diversity Policies</title>
+		<author>
+			<persName><forename type="first">Chen ; Lily</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yiling</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>Joseph</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+				<editor>
+			<persName><surname>Kleinberg</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="1985" />
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="page" from="5684" to="5693" />
+		</imprint>
+	</monogr>
+	<note>International Conference on Machine Learning</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">The Color of Credit: Mortgage Discrimination, Research Methodology, and Fair-Lending Enforcement</title>
+		<author>
+			<persName><forename type="first">Stephen</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Yinger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>MIT Press</publisher>
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Report to the congress on credit scoring and its effects on the availability and affordability of credit</title>
+		<author>
+			<persName><forename type="first">Federal</forename><surname>Reserve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">;</forename><surname>Us Federal Reserve</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 20th AISTATS</title>
+				<editor>
+			<persName><forename type="first">Muhammad</forename><surname>Bilal Zafar</surname></persName>
+			<persName><forename type="first">Isabel</forename><surname>Valera</surname></persName>
+			<persName><forename type="first">Manuel</forename><surname>Gomez Rogriguez</surname></persName>
+			<persName><forename type="first">Krishna</forename><forename type="middle">P</forename><surname>Gummadi</surname></persName>
+		</editor>
+		<meeting>20th AISTATS</meeting>
+		<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2007" />
+			<biblScope unit="page" from="962" to="970" />
+		</imprint>
+	</monogr>
+	<note>Fairness Constraints: Mechanisms for Fair Classification</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

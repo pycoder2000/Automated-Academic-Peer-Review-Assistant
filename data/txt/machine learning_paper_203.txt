@@ -1,0 +1,6 @@
+Title: Some Studies in Machine Learning Using the Game of Checkers
+Published: 1995-10-31
+Link: https://www.semanticscholar.org/paper/e9e6bb5f2a04ae30d8ecc9287f8b702eedd7b772
+
+Abstract:
+None

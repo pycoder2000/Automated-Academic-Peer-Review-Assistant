@@ -1,0 +1,1125 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Keep in mind that these two different &quot;types&quot; of individuals are indistinguishable within a description logic statement; it is the venue of the externally supplied meanings of the roles and primitives to preserve any intuitive distinctions we may have concerning these different &quot;types</title>
+		<imprint/>
+	</monogr>
+	<note>of individuals</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">They show how to exactly learn, with equivalence queries only, the cross-product of t intervals over</title>
+		<imprint/>
+	</monogr>
+	<note>1..m] in time polynomial in t and log m</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">To adhere to the semantics of Classic, consider a collection of roles all of which are attributes</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">The membership problem for a concept class C is the following: Given (the description of) a c ∈ C, and an example x, determine whether or not x is a positive or negative example of c</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Such a concept class is learnable without any membership queries, by finding the upper bound of the vertex labeling of all positive examples in a sufficiently large (but polynomially sized) random sample</title>
+	</analytic>
+	<monogr>
+		<title level="m">The construction assumes the language contains a role symbol</title>
+				<imprint/>
+	</monogr>
+	<note>If there are no role symbols, the graphs of the concepts expressible consist of but a single vertex. This single vertex algorithm can be interleaved with the construction about to be presented</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Learning regular sets from queries and counterexamples</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information and Computation</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="87" to="106" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Learning with hints</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1988 Workshop on Computational Learning Theory</title>
+				<meeting>the 1988 Workshop on Computational Learning Theory<address><addrLine>San Mateo, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="167" to="181" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Queries and concept learning</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="319" to="342" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Requests for hints that return no hints</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<idno>YALEU/DCS/RR-647</idno>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+		<respStmt>
+			<orgName>Yale University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical report</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Computational learning theory: survey and selected bibliography</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Twenty Fourth Annual ACM Symposium on Theory of Computing</title>
+				<meeting>the Twenty Fourth Annual ACM Symposium on Theory of Computing<address><addrLine>Victoria, BC</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="351" to="369" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Exact learning of µ-DNF formulas with malicious membership queries</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<idno>YALEU/DCS/TR-1020</idno>
+		<imprint>
+			<date type="published" when="1994" />
+		</imprint>
+		<respStmt>
+			<orgName>Yale University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Learning conjunctions of Horn clauses</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frazier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="147" to="164" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">When won&apos;t membership queries help?</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kharitonov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computer and System Sciences</title>
+		<imprint>
+			<biblScope unit="page">50</biblScope>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Learning with malicious membership queries and exceptions</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kriķis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Seventh Annual ACM Conference on Computational Learning Theory</title>
+				<meeting>the Seventh Annual ACM Conference on Computational Learning Theory<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="57" to="66" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Learning from noisy examples</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Laird</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="343" to="370" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Randomly fallible teachers: learning monotone DNF with an incomplete membership oracle</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Slonim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="7" to="26" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">On-line learning of rectangles in noisy environments</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Auer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Sixth Annual ACM Conference on Computational Learning Theory</title>
+				<meeting>the Sixth Annual ACM Conference on Computational Learning Theory<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="253" to="261" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Classification as a query processing technique in the CANDIDE semantic model</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Beck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Gala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Navathe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Data Engineering Conference</title>
+				<meeting><address><addrLine>Los Angeles, CA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="572" to="581" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Learning switching concepts</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Chalasani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fifth Annual ACM Workshop on Computational Learning Theory</title>
+				<meeting>the Fifth Annual ACM Workshop on Computational Learning Theory<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="231" to="242" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Learnability and the Vapnik-Chervonenkis dimension</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blumer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ehrenfeucht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haussler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Warmuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="929" to="965" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">An overview of KRL, a knowledge representation language</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Bobrow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Winograd</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="46" />
+			<date type="published" when="1977" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Description logics are not just for the flightless-birds: a new look at the utility and foundations of description logics</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Borgida</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+	<note>Preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">CLASSIC: A structural data model for objects</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Borgida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Brachman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Mcguinness</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Resnick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGMOD-89 Portland</title>
+				<meeting>SIGMOD-89 Portland<address><addrLine>Oregon</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">A semantics and complete algorithm for subsumption in the CLASSIC description logic</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Borgida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Patel-Schneider</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<publisher>AT&amp;T</publisher>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical report</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Krypton: A functional approach to knowledge representation</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Brachman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Fikes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Levesque</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Computer</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="67" to="73" />
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">On-line learning of rectangles and unions of rectangles</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Maass</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="23" to="50" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Cryptographic limitations on learning one-clause logic programs</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Tenth National Conference on Artificial Intelligence</title>
+				<meeting>the Tenth National Conference on Artificial Intelligence<address><addrLine>Washington, D.C</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Pac-learning a restricted class of recursive logic programs</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Tenth National Conference on Artificial Intelligence</title>
+				<meeting>the Tenth National Conference on Artificial Intelligence<address><addrLine>Washington, D.C</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Computing least common subsumers in description logics</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Borgida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hirsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Tenth National Conference on Artificial Intelligence</title>
+				<meeting>the Tenth National Conference on Artificial Intelligence</meeting>
+		<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Learnability of description logics with equality constraints</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hirsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Special issue on Computational Learning Theory: COLT&apos;92</title>
+				<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="169" to="199" />
+		</imprint>
+	</monogr>
+	<note>Machine Learning</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Learning the CLASSIC description logic: Theoretical and experimental results. Principles of Knowledge Representation and Reasoning</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hirsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fourth International Conference</title>
+				<meeting>the Fourth International Conference</meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Polynomial learnability and inductive logic programming: Methods and results</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Page</surname><genName>Jr</genName></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+	<note>Submitted for publication</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Tractable approximate deduction using limited vocabulary</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dalal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Etherington</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">CSCSI-92 Vancouver</title>
+				<imprint>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Statistical queries and faulty PAC oracles</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Decatur</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Sixth Annual ACM Conference Computational Learning Theory</title>
+				<meeting>the Sixth Annual ACM Conference Computational Learning Theory<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="262" to="268" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">LaSSIE: A knowledge-based software information system</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Devanbu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Brachman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Selfridge</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ballard</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Learning and inductive inference</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Dietterich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>London</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Clarkson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dromey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">The Handbook of Artificial Intelligence</title>
+				<imprint>
+			<publisher>William Kaufmann</publisher>
+			<date type="published" when="1982" />
+			<biblScope unit="volume">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Pac-learnability of logic programs</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dzeroski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Muggleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Russell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fifth Annual ACM Workshop on Computational Learning Theory</title>
+				<meeting>the Fifth Annual ACM Workshop on Computational Learning Theory<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="128" to="135" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Learning from a consistently ignorant teacher</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frazier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Goldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Seventh Annual ACM Conference on Computational Learning Theory</title>
+				<meeting>the Seventh Annual ACM Conference on Computational Learning Theory<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="328" to="339" />
+		</imprint>
+	</monogr>
+	<note>To appear, Information and Computation</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Learnability of recursive, non-determinate theories: Some basic results and techniques</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frazier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Page</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Third International Workshop on Inductive Logic Programming</title>
+				<imprint>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Learning from entailment: An application to propositional horn sentences</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Frazier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pitt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Tenth International Conference on Machine Learning</title>
+				<meeting>the Tenth International Conference on Machine Learning<address><addrLine>San Mateo, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="120" to="127" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Learning conjunctive concepts in structural domains</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haussler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1989" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="7" to="40" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haussler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Littlestone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Warmuth</surname></persName>
+		</author>
+		<title level="m">Predicting {0, 1} functions on randomly drawn points. Information and Computation</title>
+				<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="284" to="293" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Probability inequalities for sums of bounded random variables</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hoeffding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Statistical Association</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="issue">301</biblScope>
+			<biblScope unit="page" from="13" to="30" />
+			<date type="published" when="1963" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Learning in the presence of malicious errors</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kearns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM Journal on Computing</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="807" to="837" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Cryptographic limitations on learning Boolean formulae and finite automata</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kearns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Valiant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="67" to="95" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Learning when irrelevant attributes abound: A new linear-threshold algorithm</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Littlestone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="285" to="318" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Organizing knowledge in a complex financial domain</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Mays</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Apte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Griesmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kastner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<publisher>IEEE Expert</publisher>
+			<biblScope unit="page" from="61" to="70" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Inductive logic programming</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Muggleton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">New Generation Computing</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="295" to="318" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Generalization and learnability: A study of constrained atoms</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Frisch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Inductive Logic Programming chapter</title>
+		<editor>S. H. Muggleton</editor>
+		<imprint>
+			<date type="published" when="1992" />
+			<publisher>Academic Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<monogr>
+		<title level="m" type="main">Anti-unification in constraint logics: Foundations and applications to learnability in firstorder logic, to speed-up learning, and to deduction</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Page</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Illinois at Urbana-Champaign</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">A four-valued semantics for terminological logics</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">F</forename><surname>Patel-Schneider</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="page" from="319" to="351" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Prediction preserving reducibility</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">K</forename><surname>Warmuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Special issue for the Third Annual Conference of Structure in Complexity Theory</title>
+				<imprint>
+			<date type="published" when="1990" />
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="430" to="467" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Inference of finite automata using homing sequences</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Rivest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Schapire</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information and Computation</title>
+		<imprint>
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="299" to="347" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Learning fallible finite state automata</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rubinfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Sixth Annual ACM Conference Computational Learning Theory</title>
+				<meeting>the Sixth Annual ACM Conference Computational Learning Theory<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="218" to="227" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">The strength of weak learnability</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Schapire</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1990" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="197" to="227" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Learning k-DNF with noise in the attributes</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Shackelford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Volper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1988 Workshop on Computational Learning Theory</title>
+				<meeting>the 1988 Workshop on Computational Learning Theory<address><addrLine>San Mateo, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="97" to="103" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Types of noise in data for concept learning</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sloan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1988 Workshop on Computational Learning Theory</title>
+				<meeting>the 1988 Workshop on Computational Learning Theory<address><addrLine>San Mateo, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="91" to="96" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Learning with queries but incomplete information</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Sloan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Turán</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Seventh Annual ACM Conference on Computational Learning Theory</title>
+				<meeting>the Seventh Annual ACM Conference on Computational Learning Theory<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="237" to="245" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">A theory of the learnable</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Valiant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1134" to="1142" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,21 @@
+Title: Analysis of Software Engineering for Agile Machine Learning Projects
+Published: 2019-12-16T12:40:26Z
+Link: http://arxiv.org/abs/1912.07323v1
+
+Abstract:
+The number of machine learning, artificial intelligence or data science
+related software engineering projects using Agile methodology is increasing.
+However, there are very few studies on how such projects work in practice. In
+this paper, we analyze project issues tracking data taken from Scrum (a popular
+tool for Agile) for several machine learning projects. We compare this data
+with corresponding data from non-machine learning projects, in an attempt to
+analyze how machine learning projects are executed differently from normal
+software engineering projects. On analysis, we find that machine learning
+project issues use different kinds of words to describe issues, have higher
+number of exploratory or research oriented tasks as compared to implementation
+tasks, and have a higher number of issues in the product backlog after each
+sprint, denoting that it is more difficult to estimate the duration of machine
+learning project related tasks in advance. After analyzing this data, we
+propose a few ways in which Agile machine learning projects can be better
+logged and executed, given their differences with normal software engineering
+projects.

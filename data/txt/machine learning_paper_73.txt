@@ -1,0 +1,10 @@
+Title: PSI Draft Specification
+Published: 2022-05-02T02:42:16Z
+Link: http://arxiv.org/abs/2205.09488v1
+
+Abstract:
+This document presents the draft specification for delivering machine
+learning services over HTTP, developed as part of the Protocols and Structures
+for Inference project, which concluded in 2013. It presents the motivation for
+providing machine learning as a service, followed by a description of the
+essential and optional components of such a service.

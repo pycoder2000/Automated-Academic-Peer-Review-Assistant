@@ -1,0 +1,6 @@
+Title: Machine learning tensile strength and impact toughness of wheat straw reinforced composites
+Published: 2021-10-25T21:47:58Z
+Link: https://doi.org/10.1016/j.mlwa.2021.100188
+
+Abstract:
+

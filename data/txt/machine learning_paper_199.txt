@@ -1,0 +1,11 @@
+Title: Mathematics for Machine Learning
+Published: 2020-02-01
+Link: https://www.semanticscholar.org/paper/4f97e87512eb8bf48ce695443e958725c54908b6
+
+Abstract:
+Machine learning is a way to study the algorithm and statistical model that is used by computer to perform a specific task through pattern and deduction [1]. It builds a mathematical model from a sample data which may come under either supervised or unsupervised learning. It is closely
+ related to computational statistics which is an interface between statistics and computer science. Also, linear algebra and probability theory are two tools of mathematics which form the basis of machine learning. In general, statistics is a science concerned with collecting, analysing, interpreting
+ the data. Data are the facts and figure that can be classified as either quantitative or qualitative. From the given set of data, we can predict the expected observation, difference between the outcome of two observations and how data look like which can help in better decision making process
+ [2]. Descriptive and inferential statistics are the two methods of data analysis. Descriptive statistics summarize the raw data into information through which common expectation and variation of data can be taken. It also provides graphical methods that can be used to visualize the sample
+ of data and qualitative understanding of observation whereas inferential statistics refers to drawing conclusions from data. Inferences are made under the framework of probability theory. So, understanding of data and interpretation of result are two important aspects of machine learning.
+ In this paper, we have reviewed the different methods of ML, mathematics behind ML, its application in day to day life and future aspects.

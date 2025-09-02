@@ -1,0 +1,6 @@
+Title: Quantum machine learning
+Published: 2016-11-28
+Link: https://www.semanticscholar.org/paper/15eded04386a8982ccd5627bd1efe70bbf624c02
+
+Abstract:
+Fuelled by increasing computer power and algorithmic advances, machine learning techniques have become powerful tools for finding patterns in data. Quantum systems produce atypical patterns that classical systems are thought not to produce efficiently, so it is reasonable to postulate that quantum computers may outperform classical computers on machine learning tasks. The field of quantum machine learning explores how to devise and implement quantum software that could enable machine learning that is faster than that of classical computers. Recent work has produced quantum algorithms that could act as the building blocks of machine learning programs, but the hardware and software challenges are still considerable.

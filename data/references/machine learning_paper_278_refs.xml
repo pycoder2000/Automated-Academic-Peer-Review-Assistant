@@ -1,0 +1,2226 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Machine learning: trends, perspectives, and prospects</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Jordan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mitchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">349</biblScope>
+			<biblScope unit="page" from="255" to="260" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Genetic algorithm for optical pattern recognition</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Mahlab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shamir</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Caulfield</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="648" to="650" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Optical tomography using a genetic algorithm</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">D</forename><surname>Kihm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Lyons</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1327" to="1329" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Smart microscope: an adaptive optics learning system for aberration correction in multiphoton confocal microscopy</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Albert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sherman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mourou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">B</forename><surname>Norris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Vdovin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="52" to="54" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Optimization of interference filters with genetic algorithms applied to silver-based heat mirrors</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Eisenhammer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lazarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Leutbecher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Schöffel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sizmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Optics</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="6310" to="6315" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Synthesis of optical multilayer systems using genetic algorithms</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rivory</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schoenauer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Appl. Optics</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="2247" to="2254" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Machine learning under the spotlight</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zibar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wymeersch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Lyubomirsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="749" to="751" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Emerging role of machine learning in lightmatter interaction</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-C</forename><forename type="middle">G</forename><surname>Bünzli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Light Sci. Appl</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">84</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Deep learning for accelerated alldielectric metasurface design</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Nadell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Malof</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">J</forename><surname>Padilla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="27523" to="27535" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Plasmonic nanostructure design and characterization via deep learning</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Malkiel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Light Sci. Appl</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">60</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Deep learning: a new tool for photonic nanostructure design</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Hegde</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nanoscale Adv</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1007" to="1023" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Deep learning in label-free cell classification</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">21471</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Deep learning massively accelerates super-resolution localization microscopy</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Ouyang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Aristov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lelek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Hao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zimmer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Biotechnol</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="460" to="468" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A machine learning approach for online automated optimization of superresolution optical microscopy</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Durand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">5247</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Experimental neural network enhanced quantum tomography</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Palmieri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">npj Quantum Inf</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Machine learning techniques in optical communication</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zibar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Piels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Schäeffer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Lightwave Technol</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1442" to="1452" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">An overview on application of machine learning techniques in optical networks</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Musumeci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Commun. Surv. Tut</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="1383" to="1408" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Photonic neuromorphic information processing and reservoir computing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Lugnan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">APL Photonics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">20901</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Ultrafast technology in telecommunications</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">H</forename><surname>Knox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE J. Sel. Top. in Quant</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="1273" to="1278" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The development and application of femtosecond laser systems</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Sibbett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Lagatsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">T A</forename><surname>Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="6989" to="7001" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Ultrafast lasers-reliable tools for advanced materials processing</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Sugioka</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Light Sci. Appl</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">e149</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Ultrafast lasers: technology and applications</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Fermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Galvanauskas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sucha</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>CRC Press</publisher>
+			<biblScope unit="volume">80</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Recent advances in fibre lasers for nonlinear microscopy</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">W</forename><surname>Wise</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="875" to="882" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Dissipative solitons for mode-locked lasers</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Grelu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Akhmediev</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="84" to="92" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">High power fiber lasers: current status and future perspectives</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Richardson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nilsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Clarkson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Opt. Soc. Am. B</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="B63" to="B92" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Ultrafast fibre lasers</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Fermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hartl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="868" to="874" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">High-energy mode-locked fiber lasers using multiple transmission filters and a genetic algorithm</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Kutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="6526" to="6537" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Classification of birefringence in mode-locked fiber lasers using machine learning and sparse representation</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Brunton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Kutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="8585" to="8597" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Intelligent systems for stabilizing mode-locked lasers and frequency combs: machine learning and equation-free control paradigms for self-tuning optics</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Kutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Brunton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nanophotonics</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="459" to="471" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Deep learning and model predictive control for self-tuning mode-locked lasers</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Baumeister</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Brunton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Kutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Opt. Soc. Am. B</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="617" to="626" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Fiber laser mode locked through an evolutionary algorithm</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Andral</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optica</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="275" to="278" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Toward an autosetting mode-locked fiber laser cavity</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Andral</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Opt. Soc. Am. B</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="825" to="833" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Towards smart lasers: self-optimisation of an ultrafast pulse source using a genetic algorithm</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kelleher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">37616</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Genetic algorithm-based control of birefringent filtering for self-tuning, self-pulsing fiber lasers</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kelleher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="2952" to="2955" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Electronic initiation and optimization of nonlinear polarization evolution mode-locking in a fiber laser</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Winters</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Kirchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Backus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Kapteyn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="33216" to="33225" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Machine learning methods for control of fibre lasers with double gain nonlinear loop mirror</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kokhanovskiy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ivanenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kobtsev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Smirnov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Turitsyn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">2916</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Towards a self-driving ultrafast fiber laser</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Dudley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Light Sci. Appl. (News &amp; Views)</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">26</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Intelligent programmable mode-locked fiber laser with a human-like algorithm</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optica</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="362" to="369" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Genetic algorithm-based fast real-time automatic mode-locked fiber laser</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Photonics Technol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="7" to="10" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Machine learning-based pulse characterization in figure-eight mode-locked lasers</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kokhanovskiy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="3410" to="3413" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Intelligent control of mode-locked femtosecond pulses by time-stretch-assisted real-time spectral analysis</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Light Sci. Appl</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">13</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Femtosecond pulse compression using a neuralnetwork algorithm</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Farfan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Epstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Turner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="5166" to="5169" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Nonlinear sculpturing of optical pulses with normally dispersive fiber-based devices</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Finot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Gukov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hammani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Boscolo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Fiber Technol</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="306" to="312" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">A genetic algorithm based approach to fiber design for high coherence and large bandwidth supercontinuum generation</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Afshar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Monro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="19311" to="19327" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Supercontinuum optimization for dual-soliton based light sources using genetic algorithms in a grid platform</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">R</forename><surname>Arteaga-Sierra</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="23686" to="23693" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Genetic algorithm driven spectral shaping of supercontinuum radiation in a photonic crystal fiber</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Michaeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bahabad</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Opt</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">55501</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">Customizing supercontinuum generation via on-chip adaptive temporal pulse-splitting</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Wetzel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">4884</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Real-time full-field characterization of transient dissipative soliton dynamics in a mode-locked laser</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Ryczkowski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="221" to="227" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Learning approach to optical tomography</title>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">S</forename><surname>Kamilov</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optica</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="517" to="522" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Deep learning in holography and coherent imaging</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Rivenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ozcan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Light Sci. Appl</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">85</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Learning to see through multimode fibers</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Borhani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kakkava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Moser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Psaltis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optica</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="960" to="966" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Deep speckle correlation: a deep learning approach toward scalable imaging through scattering media</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Tian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optica</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1181" to="1190" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Deep learning-based super-resolution in coherent imaging systems</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">3926</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">Direct ultrashort-pulse intensity and phase retrieval by frequencyresolved optical gating and a computational neural network</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Krumbügel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="143" to="145" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Evolving FROGS: phase retrieval from frequency-resolved optical gating measurements by use of genetic algorithms</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nicholson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Omenetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Funk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="490" to="492" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Evolving ultrafast laser information by a learning genetic algorithm combined with a knowledge base</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Shu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Photonics Technol. Lett</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="379" to="381" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Deep learning reconstruction of ultrashort pulses</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Zahavy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optica</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="666" to="673" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Rapid phase retrieval of ultrashort pulses from dispersion scan traces using deep neural networks</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kleinert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tajalli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nagy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Morgner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett</title>
+		<imprint>
+			<biblScope unit="volume">44</biblScope>
+			<biblScope unit="page" from="979" to="982" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><surname>Xiong</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1911.00649</idno>
+		<title level="m">Deep learning of ultrafast pulses with a multimode fiber</title>
+				<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Phase recovery and holographic image reconstruction using deep learning in neural networks</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Rivenson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Günaydın</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Teng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ozcan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Light Sci. Appl</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">17141</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Lensless computational imaging through deep learning</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sinha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Barbastathis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optica</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="1117" to="1125" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Extended depth-of-field in holographic imaging using deep-learning-based autofocusing and phase recovery</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Optica</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="704" to="710" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Low photon count phase retrieval using deep learning</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Goy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Arthur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Barbastathis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">121</biblScope>
+			<biblScope unit="page">243902</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Accurate prediction of x-ray pulse properties from a freeelectron laser using machine learning</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sanchez-Gonzalez</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">15461</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Attosecond streaking phase retrieval with neural network</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>White</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="4799" to="4807" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Deep hidden physics models: deep learning of nonlinear partial differential equations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raissi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mach. Learn. Res</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="932" to="955" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Physics-informed neural networks: a deep learning framework for solving forward and inverse problems involving nonlinear partial differential equations</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raissi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Perdikaris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Karniadakis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Comput. Phys</title>
+		<imprint>
+			<biblScope unit="volume">378</biblScope>
+			<biblScope unit="page" from="686" to="707" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Discovering governing equations from data by sparse identification of nonlinear dynamical systems</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Brunton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Proctor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Kutz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">P. Natl. Acad. Sci</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="3932" to="3937" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Model-free prediction of spatiotemporal dynamical systems with recurrent neural networks: role of network spectral radius</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y.-C</forename><surname>Lai</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Res</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">33056</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">Predicting ultrafast nonlinear dynamics in fibre optics with a recurrent neural network</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Salmela</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2004.14126</idno>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Real-time characterization of spectral instabilities in a mode-locked fibre laser exhibiting soliton-similariton dynamics</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lapre</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">13950</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Rogue waves and analogies in optics and oceanography</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Dudley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Genty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mussot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chabchoub</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Dias</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Rev. Phys</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="675" to="689" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Real-time measurements of spontaneous breathers and rogue wave events in optical fibre modulation instability</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Närhi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">13675</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Single-shot measurement of phase and amplitude by using a heterodyne time-lens system and ultrafast digital timeholography</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tikan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bielawski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Szwaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Randoux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Suret</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="228" to="234" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Machine learning analysis of extreme events in optical fibre modulation instability</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Närhi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Commun</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">4923</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Machine learning analysis of rogue solitons in supercontinuum generation</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Salmela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lapre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Dudley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Genty</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Sci. Rep</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">9596</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">Machine learning algorithms for predicting the amplitude of chaotic laser pulses</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Amil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Soriano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Masoller</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chaos</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">113111</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Cross-predicting the dynamics of an optically injected single-mode semiconductor laser using reservoir computing</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Cunillera</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Soriano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Fischer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Chaos</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">113113</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Backpropagation algorithms and reservoir computing in recurrent neural networks for the forecasting of complex spatiotemporal dynamics</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vlachas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Networks</title>
+		<imprint>
+			<biblScope unit="volume">126</biblScope>
+			<biblScope unit="page" from="191" to="217" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Model-free prediction of large spatiotemporally chaotic systems from data: a reservoir computing approach</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Pathak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hunt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Girvan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Ott</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Phys. Rev. Lett</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page">24102</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Controlling spatiotemporal nonlinearities in multimode fibers with deep neural networks</title>
+		<author>
+			<persName><forename type="first">U</forename><surname>Teğin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">APL Photonics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page">30804</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Efficient optimization of SHG hotspot switching in plasmonic nanoantennas using phase-shaped laser pulses controlled by neural networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Comin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hartschuh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="33678" to="33686" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">The evolving optical frequency comb</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Diddams</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Opt. Soc. Am. B</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="B51" to="B62" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Control of chemical reactions by feedback-optimized phase-shaped femtosecond laser pulses</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Assion</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">282</biblScope>
+			<biblScope unit="page" from="919" to="922" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">Shaped-pulse optimization of coherent emission of high-harmonic soft Xrays</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bartels</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">406</biblScope>
+			<biblScope unit="page" from="164" to="166" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Quantum control of energy flow in light harvesting</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Herek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Wohlleben</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Cogdell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zeidler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Motzkus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nature</title>
+		<imprint>
+			<biblScope unit="volume">417</biblScope>
+			<biblScope unit="page" from="533" to="535" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Adaptive optics for astronomy</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Davies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kasper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annu. Rev. Astron. Astrophys</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="305" to="351" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Shaping the light amplified in a multimode fiber</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Florentin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Light Sci. Appl</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">e16208</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Space-time adaptive control of femtosecond pulses amplified in a multimode fiber</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Florentin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Kermene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Desfarges-Berthelemot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Barthelemy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="10682" to="10690" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Space-time focusing in a highly multimode fiber via optical pulse shaping</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Weiner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="page" from="4675" to="4678" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Adjoint method and inverse design for nonlinear nanophotonic devices</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">W</forename><surname>Hughes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Minkov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">A D</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACS Photonics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="4781" to="4787" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Generative adversarial nets</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">J</forename><surname>Goodfellow</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Neural Inf. Process. Syst</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="2672" to="2680" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Subramaniam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Borker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Nimmagadda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">K</forename><surname>Lele</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2003.01907</idno>
+		<title level="m">Turbulence enrichment using physics-informed generative adversarial networks</title>
+				<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Rate coding versus temporal order coding: what the retinal ganglion cells tell the visual cortex</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Van Rullen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Thorpe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Comput</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1255" to="1283" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">An unsupervised neuromorphic clustering algorithm</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Diamond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schmuker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Nowotny</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Biol. Cybern</title>
+		<imprint>
+			<biblScope unit="volume">113</biblScope>
+			<biblScope unit="page" from="423" to="437" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">All-optical machine learning using diffractive deep neural networks</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">361</biblScope>
+			<biblScope unit="page" from="1004" to="1008" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Deep learning with coherent nanophotonic circuits</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat. Photonics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="441" to="446" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Design of optical neural networks with component imprecisions</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Fang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">.-S</forename><surname>Manipatruni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wierzynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Khosrowshahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Deweese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Express</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="14009" to="14029" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Optimizing deep learning hyper-parameters through an evolutionary algorithm</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">R</forename><surname>Young</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Rose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">P</forename><surname>Karnowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-H</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Patton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Workshop on Machine Learning in High-Performance Computing Environments</title>
+				<meeting>the Workshop on Machine Learning in High-Performance Computing Environments</meeting>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="1" to="5" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Efficient design of hardware-enabled reservoir computing in FPGAs</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Penkovsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Larger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brunner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Appl. Phys</title>
+		<imprint>
+			<biblScope unit="volume">124</biblScope>
+			<biblScope unit="page">162101</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Fast Bayesian hyperparameter optimization on large datasets</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Falkner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bartels</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hennig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hutter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electron. J. Stat</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="4945" to="4968" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<monogr>
+		<title level="m" type="main">Bayesian optimisation of large-scale photonic reservoir computers</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Antonik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Marsal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brunner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rontani</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2004.02535</idno>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Instabilities in a dissipative soliton-similariton laser using a scalar iterative map</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lapre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Billet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Genty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Dudley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Opt. Lett</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page" from="1232" to="1235" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

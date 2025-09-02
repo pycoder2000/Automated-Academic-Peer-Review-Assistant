@@ -1,0 +1,6 @@
+Title: Enhancing computational fluid dynamics with machine learning
+Published: 2021-10-05
+Link: https://www.semanticscholar.org/paper/f8ec29fb9933219e0949c59ddd7220fd1e2a1b89
+
+Abstract:
+Machine learning is rapidly becoming a core technology for scientific computing, with numerous opportunities to advance the field of computational fluid dynamics. Here we highlight some of the areas of highest potential impact, including to accelerate direct numerical simulations, to improve turbulence closure modeling and to develop enhanced reduced-order models. We also discuss emerging areas of machine learning that are promising for computational fluid dynamics, as well as some potential limitations that should be taken into account. Machine learning has been used to accelerate the simulation of fluid dynamics. However, despite the recent developments in this field, there are still challenges to be addressed by the community, a fact that creates research opportunities.

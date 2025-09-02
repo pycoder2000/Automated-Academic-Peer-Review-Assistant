@@ -5,16 +5,40 @@ import argparse
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-
-try:
-    from utils.pdf_parse import extract_text_from_pdf as extract_text_from_pdf_fn
-except Exception:
-    extract_text_from_pdf_fn = None
+from PyPDF2 import PdfReader   # NEW
 
 # ---------------- CONFIG ----------------
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
 PARSED_TEXT_DIR = "data/parsed_text"
-PAPERS_JSON = "data/papers.json"   
+PAPERS_JSON = "data/machine learning_papers.json"   
+DEFAULT_CLAIM_SIM_THRESHOLD = 0.70
+MIN_SENT_LEN = 30
+CLAIM_KEYWORDS = [
+    "we propose", "we present", "this paper", "our contribution",
+    "we show", "we demonstrate", "we introduce", "in this work",
+    "we report", "we observe", "we develop", "we design"
+]
+# ----------------------------------------
+
+def extract_text_from_pdf_fn(pdf_path):
+    """
+    Extract text from a PDF using PyPDF2.
+    Returns a single string with all page texts concatenated.
+    """
+    text = ""
+    try:
+        reader = PdfReader(pdf_path)
+        for page in reader.pages:
+            text += page.extract_text() or ""
+    except Exception as e:
+        print(f"[WARN] Failed to parse PDF {pdf_path}: {e}")
+    return text.strip() if text else None
+
+
+# ---------------- CONFIG ----------------
+MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
+PARSED_TEXT_DIR = "data/parsed_text"
+PAPERS_JSON = "data/machine learning_papers.json"   
 DEFAULT_CLAIM_SIM_THRESHOLD = 0.70  # claim similarity above this -> NOT novel
 MIN_SENT_LEN = 30                   # ignore tiny sentences
 CLAIM_KEYWORDS = [

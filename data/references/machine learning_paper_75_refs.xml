@@ -1,0 +1,2148 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Efficiency and fairness in insurance risk classification</title>
+		<author>
+			<persName><forename type="first">Kenneth</forename><forename type="middle">S</forename><surname>Abraham</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Virginia Law Review</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="403" to="451" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Discrimination</title>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Altman</surname></persName>
+		</author>
+		<ptr target="https://plato.stanford.edu/entries/discrimination/" />
+	</analytic>
+	<monogr>
+		<title level="m">The Stanford Encyclopedia of Philosophy</title>
+				<editor>
+			<persName><forename type="first">Edward</forename><forename type="middle">N</forename><surname>Zalta</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+		<respStmt>
+			<orgName>Stanford University</orgName>
+		</respStmt>
+	</monogr>
+	<note>Summer 2020 Edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Resource-bounded balanced genericity, stochasticity and weak randomness</title>
+		<author>
+			<persName><forename type="first">Klaus</forename><surname>Ambos-Spies</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elvira</forename><surname>Mayordomo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yongge</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xizhong</forename><surname>Zheng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Annual Symposium on Theoretical Aspects of Computer Science</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="61" to="74" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Philosophy of statistics: An introduction</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Prasanta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Malcolm</forename><forename type="middle">R</forename><surname>Bandyopadhyay</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Forster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Philosophy of Statistics</title>
+				<editor>
+			<persName><forename type="first">S</forename><surname>Prasanta</surname></persName>
+			<persName><forename type="first">Malcolm</forename><forename type="middle">R</forename><surname>Bandyopadhyay</surname></persName>
+			<persName><surname>Forster</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2011" />
+			<biblScope unit="volume">7</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Fairness in machine learning</title>
+		<author>
+			<persName><forename type="first">Solon</forename><surname>Barocas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moritz</forename><surname>Hardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arvind</forename><surname>Narayanan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NIPS tutorial</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The rhetoric of numbers: Statistical inference as argumentation</title>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Battersby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">OSSA Conference Archive</title>
+				<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Defining randomness</title>
+		<author>
+			<persName><forename type="first">Deborah</forename><surname>Bennett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Philosophy of Statistics</title>
+				<editor>
+			<persName><forename type="first">S</forename><surname>Prasanta</surname></persName>
+			<persName><forename type="first">Malcolm</forename><forename type="middle">R</forename><surname>Bandyopadhyay</surname></persName>
+			<persName><surname>Forster</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Elsevier</publisher>
+			<date type="published" when="2011" />
+			<biblScope unit="volume">7</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The ergodic hierarchy, randomness and hamiltonian chaos</title>
+		<author>
+			<persName><forename type="first">Joseph</forename><surname>Berkovitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roman</forename><surname>Frigg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fred</forename><surname>Kronz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Studies in History and Philosophy of Science Part B: Studies in History and Philosophy of Modern Physics</title>
+				<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="661" to="691" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Adverse Impact and Test Validation: A Practitioner&apos;s Guide to Valid and Defensible Employment Testing</title>
+		<author>
+			<persName><forename type="first">Dan</forename><surname>Biddle</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Gower Publishing, Ltd</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">On the history of martingales in the study of randomness</title>
+		<author>
+			<persName><forename type="first">Laurent</forename><surname>Bienvenu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Glenn</forename><surname>Shafer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Shen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Electronic Journal for History of Probability and Statistics</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="40" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Fairness in machine learning: Lessons from political philosophy</title>
+		<author>
+			<persName><forename type="first">Reuben</forename><surname>Binns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conference on Fairness, Accountability and Transparency</title>
+				<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="149" to="159" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">On the apparent conflict between individual and group fairness</title>
+		<author>
+			<persName><forename type="first">Reuben</forename><surname>Binns</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2020 conference on fairness, accountability, and transparency</title>
+				<meeting>the 2020 conference on fairness, accountability, and transparency</meeting>
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="514" to="524" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<author>
+			<persName><forename type="first">Norbert</forename><surname>Blum</surname></persName>
+		</author>
+		<title level="m">Einführung in Formale Sprachen, Berechenbarkeit, Informations-und Lerntheorie</title>
+				<imprint>
+			<publisher>Oldenbourg Wissenschaftsverlag</publisher>
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Selecting people randomly</title>
+		<author>
+			<persName><forename type="first">John</forename><surname>Broome</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ethics</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="38" to="55" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Probabilistic algorithmic randomness</title>
+		<author>
+			<persName><forename type="first">Sam</forename><surname>Buss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mia</forename><surname>Minnes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Symbolic Logic</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="579" to="601" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Three naive Bayes approaches for discrimination-free classification</title>
+		<author>
+			<persName><forename type="first">Toon</forename><surname>Calders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sicco</forename><surname>Verwer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Data Mining and Knowledge Discovery</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="277" to="292" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Common fate, similarity, and other indices of the status of aggregates of persons as social entities</title>
+		<author>
+			<persName><forename type="first">Donald</forename><forename type="middle">T</forename><surname>Campbell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Behavioral Science</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="14" to="25" />
+			<date type="published" when="1958" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Statistical Inference: Second Edition</title>
+		<author>
+			<persName><forename type="first">George</forename><surname>Casella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roger</forename><forename type="middle">L</forename><surname>Berger</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<publisher>Duxbury Advanced Series</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">I belong, therefore, I exist: Ingroup identification, ingroup entitativity, and ingroup bias</title>
+		<author>
+			<persName><forename type="first">Emanuele</forename><surname>Castano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vincent</forename><surname>Yzerbyt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Maria-Paolo</forename><surname>Paladino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Simona</forename><surname>Sacchi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Personality and Social Psychology Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="135" to="143" />
+			<date type="published" when="2002" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">On the length of programs for computing finite binary sequences</title>
+		<author>
+			<persName><forename type="first">Gregory</forename><forename type="middle">J</forename><surname>Chaitin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the ACM (JACM)</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="547" to="569" />
+			<date type="published" when="1966" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The foundations of statistics with black swans</title>
+		<author>
+			<persName><forename type="first">Graciela</forename><surname>Chichilnisky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mathematical Social Sciences</title>
+		<imprint>
+			<biblScope unit="volume">59</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="184" to="192" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Fair Prediction with Disparate Impact: A Study of Bias in Recidivism Prediction Instruments</title>
+		<author>
+			<persName><forename type="first">Alexandra</forename><surname>Chouldechova</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Big Data</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="153" to="163" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">On the concept of a random sequence</title>
+		<author>
+			<persName><forename type="first">Alonzo</forename><surname>Church</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Bulletin of the American Mathematical Society</title>
+		<imprint>
+			<biblScope unit="volume">46</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="130" to="135" />
+			<date type="published" when="1940" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">The concept of independence in accounting</title>
+		<author>
+			<persName><forename type="first">Donald</forename><forename type="middle">C</forename><surname>Cook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Federal Securities Law and Accounting 1933-1970: Selected Addresses</title>
+				<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="198" to="222" />
+		</imprint>
+	</monogr>
+	<note>Routledge</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">On individual risk</title>
+		<author>
+			<persName><forename type="first">Philip</forename><surname>Dawid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Synthese</title>
+		<imprint>
+			<biblScope unit="volume">194</biblScope>
+			<biblScope unit="issue">9</biblScope>
+			<biblScope unit="page" from="3445" to="3474" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Randomness is inherently imprecise</title>
+		<author>
+			<persName><forename type="first">Gert</forename><surname>De Cooman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jasper De</forename><surname>Bock</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Approximate Reasoning</title>
+		<imprint>
+			<biblScope unit="volume">141</biblScope>
+			<biblScope unit="page" from="28" to="68" />
+			<date type="published" when="2022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Funzione caratteristica di un fenomeno aleatorio</title>
+		<author>
+			<persName><forename type="first">Finetti</forename><surname>Bruno De</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Atti del Congresso Internazionale dei Matematici: Bologna del 3 al 10 de settembre di 1928</title>
+				<imprint>
+			<date type="published" when="1929" />
+			<biblScope unit="page" from="179" to="190" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">The Doctrine of Chances: A Method of Calculating the Probabilities of Events in Play. Frank Cass and Company Limited</title>
+		<author>
+			<persName><forename type="first">Abraham</forename><surname>De Moivre</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1738" />
+		</imprint>
+	</monogr>
+	<note>2nd edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">The beginning of infinity: Explanations that transform the world. Penguin</title>
+		<author>
+			<persName><forename type="first">David</forename><surname>Deutsch</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">A probabilistic theory of pattern recognition</title>
+		<author>
+			<persName><forename type="first">Luc</forename><surname>Devroye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">László</forename><surname>Györfi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gábor</forename><surname>Lugosi</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Springer Science &amp; Business Media</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<title level="m" type="main">Algorithmic randomness and complexity</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rodney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Denis</forename><forename type="middle">R</forename><surname>Downey</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hirschfeldt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Springer Science &amp; Business Media</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<author>
+			<persName><forename type="first">Rick</forename><surname>Durrett</surname></persName>
+		</author>
+		<title level="m">Probability: Theory and Examples</title>
+				<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note>5th edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Fairness through awareness</title>
+		<author>
+			<persName><forename type="first">Cynthia</forename><surname>Dwork</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moritz</forename><surname>Hardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Toniann</forename><surname>Pitassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Omer</forename><surname>Reingold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Zemel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 3rd Innovations in Theoretical Computer Science Conference -ITCS 2012</title>
+				<meeting>the 3rd Innovations in Theoretical Computer Science Conference -ITCS 2012</meeting>
+		<imprint>
+			<date type="published" when="2012" />
+			<biblScope unit="page" from="214" to="226" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<title level="m" type="main">Chance versus Randomness</title>
+		<author>
+			<persName><forename type="first">Antony</forename><surname>Eagle</surname></persName>
+		</author>
+		<editor>Edward N. Zalta</editor>
+		<imprint>
+			<date type="published" when="2021" />
+		</imprint>
+		<respStmt>
+			<orgName>The Stanford Encyclopedia of Philosophy. Metaphysics Research Lab, Stanford University</orgName>
+		</respStmt>
+	</monogr>
+	<note>Spring 2021 edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Theories of probability: An examination of foundations</title>
+		<author>
+			<persName><forename type="first">Terrence</forename><forename type="middle">L</forename><surname>Fine</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1973" />
+			<publisher>Academic Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Memoryless sequences for general losses</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rafael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">B</forename><surname>Frongillo</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Nobel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mach. Learn. Res</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="80" to="81" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Essentially contested concepts</title>
+		<author>
+			<persName><surname>Walter Bryce Gallie</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Aristotelian society</title>
+				<meeting>the Aristotelian society</meeting>
+		<imprint>
+			<date type="published" when="1955" />
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="167" to="198" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Hedging predictions in machine learning</title>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Gammerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vladimir</forename><surname>Vovk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Computer Journal</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="151" to="163" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<monogr>
+		<title level="m" type="main">An Objective Theory of Probability. Routledge</title>
+		<author>
+			<persName><forename type="first">Donald</forename><surname>Gillies</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Dependence and independence</title>
+		<author>
+			<persName><forename type="first">Erich</forename><surname>Grädel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jouko</forename><surname>Väänänen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Studia Logica</title>
+		<imprint>
+			<biblScope unit="volume">101</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="399" to="410" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Quantum probability spaces</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stanley</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gudder</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the American Mathematical Society</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="296" to="302" />
+			<date type="published" when="1969" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<monogr>
+		<title level="m" type="main">Stochastic methods in quantum mechanics</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Stanley</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gudder</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1979" />
+			<publisher>Dover Publications Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Fifteen arguments against hypothetical frequentism</title>
+		<author>
+			<persName><forename type="first">Alan</forename><surname>Hájek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Erkenntnis</title>
+		<imprint>
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="211" to="235" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Equality of opportunity in supervised learning</title>
+		<author>
+			<persName><forename type="first">Moritz</forename><surname>Hardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eric</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nathan</forename><surname>Srebro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+				<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="3323" to="3331" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">On the moral justification of statistical parity</title>
+		<author>
+			<persName><forename type="first">Corinna</forename><surname>Hertweck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christoph</forename><surname>Heitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michele</forename><surname>Loi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</title>
+				<meeting>the 2021 ACM Conference on Fairness, Accountability, and Transparency</meeting>
+		<imprint>
+			<date type="published" when="2021" />
+			<biblScope unit="page" from="747" to="757" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<monogr>
+		<title level="m" type="main">Social Identifications: A Social Psychology of Intergroup Relations and Group Processes. Routledge</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Michael</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dominic</forename><surname>Hogg</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Abrams</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">What&apos;s sex got to do with fair machine learning?</title>
+		<author>
+			<persName><forename type="first">Lily</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Issa</forename><surname>Kohler-Hausmann</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2006.01770</idno>
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<author>
+			<persName><forename type="first">Paul</forename><forename type="middle">W</forename><surname>Humphreys</surname></persName>
+		</author>
+		<title level="m">Randomness, independence, and hypotheses. Synthese</title>
+				<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="page" from="415" to="426" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<monogr>
+		<title level="m" type="main">Decision systems and nonstochastic randomness</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Victor</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ivanenko</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Fairness-aware classifier with prejudice remover regularizer</title>
+		<author>
+			<persName><forename type="first">Toshihiro</forename><surname>Kamishima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shotaro</forename><surname>Akaho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hideki</forename><surname>Asoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Sakuma</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Lecture Notes in Computer Science (including subseries Lecture Notes in Artificial Intelligence and Lecture Notes in Bioinformatics</title>
+		<imprint>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="35" to="50" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<monogr>
+		<title level="m" type="main">Avoiding discrimination through causal reasoning. Advances in neural information processing systems</title>
+		<author>
+			<persName><forename type="first">Niki</forename><surname>Kilbertus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mateo</forename><forename type="middle">Rojas</forename><surname>Carulla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giambattista</forename><surname>Parascandolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moritz</forename><surname>Hardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dominik</forename><surname>Janzing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernhard</forename><surname>Schölkopf</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">30</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Inherent trade-offs in the fair determination of risk scores</title>
+		<author>
+			<persName><forename type="first">Jon</forename><surname>Kleinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sendhil</forename><surname>Mullainathan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manish</forename><surname>Raghavan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Leibniz International Proceedings in Informatics, LIPIcs</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">67</biblScope>
+			<biblScope unit="page" from="1" to="22" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<monogr>
+		<title level="m" type="main">Grundbegriffe de Wahrscheinlichkeitsrechnung</title>
+		<author>
+			<persName><forename type="first">Andreȋ</forename><surname>Nikolaevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kolmogorov</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1933" />
+			<publisher>Julius Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Foundations of the theory of probability: Second English Edition</title>
+		<author>
+			<persName><forename type="first">Andreȋ</forename><surname>Nikolaevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kolmogorov</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1956" />
+			<publisher>Chelsea Publishing Company</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Three approaches to the definition of the concept &quot;quantity of information</title>
+		<author>
+			<persName><forename type="first">Andreȋ</forename><surname>Nikolaevich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kolmogorov</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Problemy peredachi informatsii</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="3" to="11" />
+			<date type="published" when="1965" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Challenges in statistical machine learning</title>
+		<author>
+			<persName><forename type="first">John</forename><surname>Lafferty</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Larry</forename><surname>Wasserman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Statistica Sinica</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">307</biblScope>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">The concept of random sequence</title>
+		<author>
+			<persName><forename type="first">Leonid</forename><forename type="middle">A</forename><surname>Levin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Soviet Mathemathics Doklady</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="1413" to="1416" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">A concept of independence with applications in various fields of mathematics</title>
+		<author>
+			<persName><forename type="first">Leonid</forename><forename type="middle">A</forename><surname>Levin</surname></persName>
+		</author>
+		<idno>MIT/LCS/TR-235</idno>
+		<imprint>
+			<date type="published" when="1980-04" />
+		</imprint>
+		<respStmt>
+			<orgName>MIT, Laboratory for Computer Science</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">The badness of discrimination</title>
+		<author>
+			<persName><forename type="first">Kasper</forename><surname>Lippert-Rasmussen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ethical Theory and Moral Practice</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="167" to="185" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Analysis 1 Lecture Notes</title>
+		<author>
+			<persName><forename type="first">Vitali</forename><surname>Liskevich</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Bristol</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<analytic>
+		<title level="a" type="main">Too relaxed to be fair</title>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Lohaus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Perrot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ulrike</forename><forename type="middle">Von</forename><surname>Luxburg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Machine Learning</title>
+				<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="6360" to="6369" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<monogr>
+		<title level="m" type="main">A philosophical theory of fairness for predictionbased decisions</title>
+		<author>
+			<persName><forename type="first">Michele</forename><surname>Loi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anders</forename><surname>Herlitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hoda</forename><surname>Heidari</surname></persName>
+		</author>
+		<ptr target="https://ssrn.com/abstract=3450300" />
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical report</note>
+	<note>Politecnico di Milano</note>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">The definition of random sequences</title>
+		<author>
+			<persName><forename type="first">Per</forename><surname>Martin-Löf</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information and control</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="602" to="619" />
+			<date type="published" when="1966" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<monogr>
+		<title level="m" type="main">Categorization in Social Psychology</title>
+		<author>
+			<persName><forename type="first">Craig</forename><surname>Mcgarty</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<publisher>Sage Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">The cost of fairness in binary classification</title>
+		<author>
+			<persName><forename type="first">Aditya</forename><forename type="middle">Krishna</forename><surname>Menon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><forename type="middle">C</forename><surname>Williamson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conference on Fairness, Accountability and Transparency</title>
+				<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="107" to="118" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Mathematical metaphysics of randomness</title>
+		<author>
+			<persName><forename type="first">Andrei</forename><forename type="middle">A</forename><surname>Muchnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexei</forename><forename type="middle">L</forename><surname>Semenov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vladimir</forename><forename type="middle">A</forename><surname>Uspensky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Theoretical Computer Science</title>
+		<imprint>
+			<biblScope unit="volume">207</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="263" to="317" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">The concept of independence in public law</title>
+		<author>
+			<persName><forename type="first">Brian</forename><forename type="middle">C</forename><surname>Murchison</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Emory Law Journal</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page">961</biblScope>
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">An introduction to lattice based probability theories</title>
+		<author>
+			<persName><forename type="first">Louis</forename><surname>Narens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Mathematical Psychology</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="66" to="81" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<title level="m" type="main">Elementary methods in number theory</title>
+		<author>
+			<persName><forename type="first">Melvyn</forename><forename type="middle">B</forename><surname>Nathanson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2008" />
+			<publisher>Springer Science &amp; Business Media</publisher>
+			<biblScope unit="volume">195</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">On decomposition theory: generalized dependence</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Arch</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Naylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Systems, Man, and Cybernetics</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">10</biblScope>
+			<biblScope unit="page" from="699" to="713" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Ergodic theory, randomness, and &quot;chaos</title>
+		<author>
+			<persName><forename type="first">Donald</forename><forename type="middle">S</forename><surname>Ornstein</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">243</biblScope>
+			<biblScope unit="issue">4888</biblScope>
+			<biblScope unit="page" from="182" to="187" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<monogr>
+		<title level="m" type="main">Randomness and legitimacy in selecting democratic representatives</title>
+		<author>
+			<persName><forename type="first">Joel</forename><forename type="middle">Matthew</forename><surname>Parker</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+		<respStmt>
+			<orgName>The University of Texas at Austin</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Problem formulation and fairness</title>
+		<author>
+			<persName><forename type="first">Samir</forename><surname>Passi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Solon</forename><surname>Barocas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the conference on fairness, accountability, and transparency</title>
+				<meeting>the conference on fairness, accountability, and transparency</meeting>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page" from="39" to="48" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<monogr>
+		<title level="m" type="main">The logic of scientific discovery. Routledge</title>
+		<author>
+			<persName><forename type="first">Karl</forename><surname>Popper</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<monogr>
+		<title level="m" type="main">Mathematical and philosophical perspectives on algorithmic randomness</title>
+		<author>
+			<persName><forename type="first">Christopher</forename><forename type="middle">P</forename><surname>Porter</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Notre Dame</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Concrete quantum logics</title>
+		<author>
+			<persName><forename type="first">Pavel</forename><surname>Pták</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Theoretical Physics</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="827" to="837" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+		<title level="m" type="main">The Meaning of the Concept of Probability in Application to Finite Sequences (Routledge Revivals)</title>
+		<author>
+			<persName><forename type="first">Hilary</forename><surname>Putnam</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>Garland Publishing</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Mitigating bias in algorithmic hiring: Evaluating claims and practices</title>
+		<author>
+			<persName><forename type="first">Manish</forename><surname>Raghavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Solon</forename><surname>Barocas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jon</forename><surname>Kleinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karen</forename><surname>Levy</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2020 conference on fairness, accountability, and transparency</title>
+				<meeting>the 2020 conference on fairness, accountability, and transparency</meeting>
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="469" to="481" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<title level="m" type="main">Theory of charges: a study of finitely additive measures</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">P S</forename><surname>Bhaskara Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M. Bhaskara</forename><surname>Rao</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983" />
+			<publisher>Academic Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<monogr>
+		<title level="m" type="main">A theory of justice</title>
+		<author>
+			<persName><forename type="first">John</forename><surname>Rawls</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1971" />
+			<publisher>The Belknap Press of Harvard University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Group fairness: Independence revisited</title>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Räz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2021 ACM Conference on Fairness, Accountability, and Transparency</title>
+				<meeting>the 2021 ACM Conference on Fairness, Accountability, and Transparency</meeting>
+		<imprint>
+			<date type="published" when="2021" />
+			<biblScope unit="page" from="129" to="137" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Non-empirical problems in fair machine learning</title>
+		<author>
+			<persName><forename type="first">Teresa</forename><surname>Scantamburlo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Ethics and Information Technology</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="703" to="712" />
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Zufälligkeit und Wahrscheinlichkeit: eine algorithmische Begründung der Wahrscheinlichkeitstheorie</title>
+		<author>
+			<persName><forename type="first">Claus-Peter</forename><surname>Schnorr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="s">Lecture Notes in Mathematics</title>
+		<imprint>
+			<biblScope unit="volume">218</biblScope>
+			<date type="published" when="1971" />
+			<publisher>Springer-Verlag</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">The process complexity and effective random tests</title>
+		<author>
+			<persName><forename type="first">Claus-Peter</forename><surname>Schnorr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the fourth annual ACM symposium on Theory of computing</title>
+				<meeting>the fourth annual ACM symposium on Theory of computing</meeting>
+		<imprint>
+			<date type="published" when="1972" />
+			<biblScope unit="page" from="168" to="176" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">A survey of the theory of random sequences</title>
+		<author>
+			<persName><forename type="first">Claus-Peter</forename><surname>Schnorr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Basic Problems in Methodology and Linguistics</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1977" />
+			<biblScope unit="page" from="193" to="211" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Finitistic and frequentistic approximation of probability measures with or without σ-additivity</title>
+		<author>
+			<persName><forename type="first">Gerhard</forename><surname>Schurz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hannes</forename><surname>Leitgeb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Studia Logica</title>
+		<imprint>
+			<biblScope unit="volume">89</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="257" to="283" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<monogr>
+		<author>
+			<persName><forename type="first">Glenn</forename><surname>Shafer</surname></persName>
+		</author>
+		<title level="m">Discussion on Hedging Predictions in Machine Learning by A. Gammerman and V</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title/>
+		<author>
+			<persName><surname>Vovk</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/comjnl/bxl066</idno>
+		<ptr target="https://doi.org/10.1093/comjnl/bxl066" />
+	</analytic>
+	<monogr>
+		<title level="j">The Computer Journal</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="164" to="172" />
+			<date type="published" when="2007-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<monogr>
+		<title level="m" type="main">Game-Theoretic Foundations for Probability and Finance</title>
+		<author>
+			<persName><forename type="first">Glenn</forename><surname>Shafer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vladimir</forename><surname>Vovk</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+			<publisher>John Wiley &amp; Sons</publisher>
+			<biblScope unit="volume">455</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<monogr>
+		<title level="m" type="main">Understanding machine learning: From theory to algorithms</title>
+		<author>
+			<persName><forename type="first">Shai</forename><surname>Shalev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">-</forename><surname>Shwartz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shai</forename><surname>Ben-David</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>Cambridge university press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<monogr>
+		<author>
+			<persName><forename type="first">John</forename><surname>Simpson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edmund</forename><surname>Weine</surname></persName>
+		</author>
+		<title level="m">Oxford English Dictionary -Second Edition</title>
+				<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">Stochastic independence, causal independence, and shieldability</title>
+		<author>
+			<persName><forename type="first">Wolfgang</forename><surname>Spohn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Philosophical logic</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="73" to="99" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Learning from dependent observations</title>
+		<author>
+			<persName><forename type="first">Ingo</forename><surname>Steinwart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Don</forename><surname>Hush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clint</forename><surname>Scovel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Multivariate Analysis</title>
+		<imprint>
+			<biblScope unit="volume">100</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="175" to="194" />
+			<date type="published" when="2009" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<monogr>
+		<title level="m" type="main">The Luck of the Draw: The Role of Lotteries in Decision-Making</title>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Stone</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2011" />
+			<publisher>Oxford University Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">An operational characterization of the notion of probability by algorithmic randomness</title>
+		<author>
+			<persName><forename type="first">Kohtaro</forename><surname>Tadaki</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 37th Symposium on Information Theory and its Applications (SITA2014)</title>
+				<meeting>the 37th Symposium on Information Theory and its Applications (SITA2014)</meeting>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="389" to="394" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Social identity and intergroup behaviour</title>
+		<author>
+			<persName><forename type="first">Henri</forename><surname>Tajfel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Social Science Information</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="65" to="93" />
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<monogr>
+		<title level="m" type="main">Product measures and independence</title>
+		<author>
+			<persName><forename type="first">Terence</forename><surname>Tao</surname></persName>
+		</author>
+		<ptr target="https://terrytao.wordpress.com/2015/10/12/275a-notes-2-product-measures-and-independence/" />
+		<imprint>
+			<date type="published" when="2015-10" />
+			<biblScope unit="volume">275</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<monogr>
+		<title level="m" type="main">Can an individual sequence of zeros and ones be random?</title>
+		<author>
+			<persName><forename type="first">Vladimir</forename><forename type="middle">A</forename><surname>Uspenskii</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexei</forename><forename type="middle">L</forename><surname>Semenov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kh</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Shen</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>Russian Mathematical Surveys</publisher>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">121</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">Von Mises&apos; definition of random sequences reconsidered</title>
+		<author>
+			<persName><forename type="first">Michiel</forename><surname>Van Lambalgen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Symbolic Logic</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="725" to="755" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">The axiomatization of randomness</title>
+		<author>
+			<persName><forename type="first">Michiel</forename><surname>Van Lambalgen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Symbolic Logic</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1143" to="1167" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<monogr>
+		<title level="m" type="main">Étude critique de la notion de collectif</title>
+		<author>
+			<persName><forename type="first">Jean</forename><surname>Ville</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1939" />
+			<publisher>Gauthier-Villars</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<monogr>
+		<title level="m" type="main">What is a random sequence? The American mathematical monthly</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sérgio</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Volchan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">109</biblScope>
+			<biblScope unit="page" from="46" to="63" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">A note on the concept of independence</title>
+		<author>
+			<persName><forename type="first">Collani</forename><surname>Elart Von</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Economic Quality Control</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="155" to="164" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Von</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mises</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Grundlagen der Wahrscheinlichkeitsrechnung. Mathematische Zeitschrift</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="52" to="99" />
+			<date type="published" when="1919" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<monogr>
+		<title level="m" type="main">Probability, statistics, and truth</title>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Von</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mises</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1981" />
+			<publisher>Dover Publications, Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<monogr>
+		<title level="m" type="main">Mathematical theory of probability and statistics</title>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Von Mises</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hilda</forename><surname>Geiringer</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1964" />
+			<publisher>Academic press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">A logic of probability, with application to the foundations of statistics</title>
+		<author>
+			<persName><forename type="first">Vladimir</forename><forename type="middle">G</forename><surname>Vovk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Royal statistical society: series B (Methodological)</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="317" to="341" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<monogr>
+		<title level="m" type="main">All of statistics: a concise course in statistical inference</title>
+		<author>
+			<persName><forename type="first">Larry</forename><surname>Wasserman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2004" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title level="a" type="main">Unlocking fairness: a trade-off revisited</title>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Wick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Swetasudha</forename><surname>Panda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jean-Baptiste</forename><surname>Tristan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 37th International Conference on Machine Learning</title>
+				<meeting>the 37th International Conference on Machine Learning</meeting>
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="volume">32</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Fairness risk measures</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Robert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aditya</forename><surname>Williamson</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Menon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Conference on Machine Learning</title>
+				<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="page" from="6786" to="6797" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<monogr>
+		<title level="m" type="main">Independence A random sequence is independent of &quot;some&quot; other sequences</title>
+		<imprint>
+			<date type="published" when="1919" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<analytic>
+		<title level="a" type="main">On one hand, there are mathematical expressions capturing the same randomness intuitions meanwhile being mathematically distinct to each other. For instance, the definition of a typical sequence following [Martin-Löf, 1966] implies Schnorr&apos;s definition of typicality</title>
+	</analytic>
+	<monogr>
+		<title level="j">Schnorr</title>
+		<imprint>
+			<biblScope unit="page">143</biblScope>
+			<date type="published" when="1971" />
+		</imprint>
+	</monogr>
+	<note>C Relations between Randomness Definitions We briefly outline some of the known relationships between various notions of randomness. but not vice versa. Uspenskii et al.</note>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<monogr>
+		<title level="m" type="main">s imprecise unpredictability randomness [De Cooman and De Bock, 2022] is strictly more expressive than Vovk and Shafer&apos;s unpredictability randomness</title>
+		<author>
+			<persName><forename type="first">De</forename><surname>Cooman</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Bock</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Shafer and Vovk, 2019, Section 1.1. De Cooman and De Bock, 2022, Theorem 37</note>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">generalize the idea of &quot;excluding a gambling strategy&quot; (see Section 4.4) via a game-theoretic approach. He showed [Ville, 1939, p. 76] that for any set of admissible selection rules S he could construct a gambling strategy, more exactly a capital process associated to a gambling strategy</title>
+	</analytic>
+	<monogr>
+		<title level="m">On the other hand, there are mathematical expressions capturing differing randomness intuitions meanwhile being necessary, sufficient or even equivalent to each other. For instance, the Levin-Schnorr theorem</title>
+				<imprint>
+			<date type="published" when="1965" />
+		</imprint>
+		<respStmt>
+			<orgName>De Cooman and De Bock</orgName>
+		</respStmt>
+	</monogr>
+	<note>established an equivalence of typicality following Martin-Löf [Martin-Löf, 1966] and incompressibility following Levin [Levin, 1973] and Schnorr [Schnorr, 1972] based on the idea of [Kolmogorov. which captures the same randomness definition. The opposite direction is, however, impossible [Ville, 1939, p. 39</note>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<monogr>
+		<title level="m" type="main">s randomness as unpredictability which is equivalent to Church [1940]&apos;s randomness as independence [Downey and Hirschfeldt</title>
+		<author>
+			<persName><surname>But Ambos-Spies</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1939" />
+		</imprint>
+	</monogr>
+	<note>Finally, van Lambalgen observed an abstract interpretation of &quot;random with respect to something&quot; as. independent to&quot; in [Van Lambalgen, 1990</note>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<monogr>
+		<title level="m" type="main">A prototypical, absolute and universal Notion of Randomness One often referred absolute and universal definition of randomness is Martin-Löf&apos;s typicality approach</title>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>Buss and Minnes</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<monogr>
+		<title level="m" type="main">s randomness as typicality has been equivalently formalized in terms of incompressibility and unpredictability (see Section C). Furthermore, a sequence, which is Martin-Löf random [Martin-Löf, 1966], is statistically independent to all partial computable selection rules</title>
+		<author>
+			<persName><surname>Martin-Löf</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Church, 1940. Tadaki, 2014, Theorem 11</note>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<monogr>
+		<title level="m" type="main">not every collective with respect to all partial computable selection rules is a Martin-Löf random sequence</title>
+		<author>
+			<persName><surname>Contrarily</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="page">193</biblScope>
+			<pubPlace>Blum</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<monogr>
+		<title level="m" type="main">So Martin-Löf&apos;s definition is linked to all four intuitions</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

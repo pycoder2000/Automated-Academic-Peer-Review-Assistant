@@ -1,0 +1,11 @@
+Title: Linear, Machine Learning and Probabilistic Approaches for Time Series
+  Analysis
+Published: 2017-02-26T10:41:26Z
+Link: http://arxiv.org/abs/1703.01977v1
+
+Abstract:
+In this paper we study different approaches for time series modeling. The
+forecasting approaches using linear models, ARIMA alpgorithm, XGBoost machine
+learning algorithm are described. Results of different model combinations are
+shown. For probabilistic modeling the approaches using copulas and Bayesian
+inference are considered.

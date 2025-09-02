@@ -1,0 +1,722 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Evaluation of interest point detectors</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bauckhage</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Computer Vision</title>
+		<imprint>
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page" from="151" to="172" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Fusing points and lines for high performance tracking</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rosten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Drummond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">th IEEE International Conference on Computer Vision</title>
+				<meeting><address><addrLine>Beijing, China</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1508" to="1515" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Real-time video annotations for augmented reality</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rosten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Reitmayr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Drummond</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">International Symposium on Visual Computing</title>
+				<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Obstacle avoidance and navigation in the real world by a seeing robot rover</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Moravec</surname></persName>
+		</author>
+		<idno>CMU-RI-TR-80-03</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Available as Stanford AIM-340, CS-80-813 and republished as a Carnegie Mellon University Robotics Institue Technical</title>
+				<imprint>
+			<date type="published" when="1980" />
+		</imprint>
+		<respStmt>
+			<orgName>Robotics Institute, Carnegie Mellon University &amp; doctoral dissertation, Stanford University. Carnegie Mellon University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">tech. report</note>
+	<note>Report to increase availability</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">A combined corner and edge detector</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stephens</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Alvey Vision Conference</title>
+				<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="147" to="151" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Finding corners</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Noble</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Image and Vision Computing</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="121" to="128" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Good features to track</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Tomasi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">th IEEE Conference on Computer Vision and Pattern Recognition</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Descriptions of image surfaces</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Noble</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+		</imprint>
+		<respStmt>
+			<orgName>Department of Engineering Science, University of Oxford.</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">PhD thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A condition number for point matching with application to registration and postregistration error estimation</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">S</forename><surname>Kenney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Manjunath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zuliani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G A</forename><surname>Hewer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Nevel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1437" to="1454" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A mathematical comparison of point detectors</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Zuliani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Kenney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Manjunath</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Second IEEE Image and Video Registration Workshop (IVR), Washington DC</title>
+				<meeting><address><addrLine>USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Analysis of gray level corner detection</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">K</forename><surname>Teoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recognition Letters</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="149" to="162" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Distinctive image features from scale-invariant keypoints</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Lowe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Computer Vision</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="91" to="110" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Fast computation of characteristic scale using a half octave pyramid</title>
+		<author>
+			<persName><forename type="first">James</forename><forename type="middle">L</forename><surname>Crowley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Scale Space 03: 4th International Conference on Scale-Space theories in Computer Vision</title>
+				<meeting><address><addrLine>Isle of Skye, Scotland, UK</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">An affine invariant interest point detector</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mikolajczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">European Conference on Computer Vision</title>
+				<meeting><address><addrLine>Copenhagen</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="128" to="142" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Indexing based on scale invariant interest points</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Mikolajczyk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schmid</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">th IEEE International Conference on Computer Vision</title>
+				<meeting><address><addrLine>Vancouver, Canada</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2001" />
+			<biblScope unit="page" from="525" to="531" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Invariant features from interest point groups</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Lowe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">13 th British Machine Vision Conference</title>
+				<meeting><address><addrLine>Cardiff</addrLine></address></meeting>
+		<imprint>
+			<publisher>British Machine Vision Assosciation</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="656" to="665" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Multi-view matching for unordered image sets, or How do I organise my holiday snaps?</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schaffalitzky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zisserman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">7 th Euproean Conference on Computer Vision</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="414" to="431" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">A comparison of corner detection techniques for chain coded curves</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Rutkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rosenfeld</surname></persName>
+		</author>
+		<idno>623</idno>
+		<imprint>
+			<date type="published" when="1978" />
+			<pubPlace>Maryland University</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Curve encoding and detection of discontinuities</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Langridge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computer Vision, Graphics and Image Processing</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="58" to="71" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Corner detection and curve representation using cubic b-splines. Computer Vision, Graphics and Image Processing</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Medioni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yasumoto</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="279" to="290" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Robust image corner detection through curvature scale space</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mokhtarian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Suomela</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page" from="1376" to="1381" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Computer and robot vision</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Haralick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Shapiro</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>Adison-Wesley</publisher>
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Early jump-out corner detectors</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cooper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Venkatesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kitchen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Pattern Analysis and Machine Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="823" to="828" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Real-time corner detection algorithm for motion estimation</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Brady</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Image and Vision Computing</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="695" to="703" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Gray-level corner detection</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kitchen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rosenfeld</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recognition Letters</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="95" to="102" />
+			<date type="published" when="1982" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Corner characterization by differential geometry techniques</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Guiducci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Recognition Letters</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="311" to="318" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">SUSAN -a new approach to low level image processing</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Brady</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Computer Vision</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="page" from="45" to="78" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Fast corner detection</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Trajkovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hedley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Image and Vision Computing</title>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page" from="75" to="87" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">A fast radial symmetry transform for detecting points of interest</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Loy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Zelinsky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">7 th Euproean Conference on Computer Vision</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="page" from="358" to="368" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A neural network based corner detection method</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kassim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Srinivasan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE International Conference on Neural Networks</title>
+				<meeting><address><addrLine>Perth, WA, Australia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="2116" to="2120" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Induction of decision trees</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine Learning</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="81" to="106" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Smith</surname></persName>
+		</author>
+		<ptr target="http://www.fmrib.ox.ac.uk/~steve/susan/susan2l.c" />
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Performenace Evaluation of Corner Detection Algorithms under Affine and Similarity Transforms</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Cootes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Taylor</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">12 th British Machine Vision Conference</title>
+				<editor>
+			<persName><forename type="first">T</forename><forename type="middle">F</forename><surname>Cootes</surname></persName>
+			<persName><forename type="first">C</forename><surname>Taylor</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Manchester</addrLine></address></meeting>
+		<imprint>
+			<publisher>British Machine Vision Assosciation</publisher>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Comparing and evaluating interest points</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Schmid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mohr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bauckhage</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">th IEEE International Conference on Computer Vision</title>
+				<meeting><address><addrLine>Bombay, India</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="230" to="235" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Demo software: Sift keypoint detector</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">G</forename><surname>Lowe</surname></persName>
+		</author>
+		<ptr target="http://www.cs.ubc.ca/~lowe/keypoints/" />
+		<imprint>
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Digital Communications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Sklar</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+			<publisher>Prentice Hall</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,15 @@
+Title: Pymc-learn: Practical Probabilistic Machine Learning in Python
+Published: 2018-10-31T22:54:12Z
+Link: http://arxiv.org/abs/1811.00542v1
+
+Abstract:
+$\textit{Pymc-learn}$ is a Python package providing a variety of
+state-of-the-art probabilistic models for supervised and unsupervised machine
+learning. It is inspired by $\textit{scikit-learn}$ and focuses on bringing
+probabilistic machine learning to non-specialists. It uses a general-purpose
+high-level language that mimics $\textit{scikit-learn}$. Emphasis is put on
+ease of use, productivity, flexibility, performance, documentation, and an API
+consistent with $\textit{scikit-learn}$. It depends on $\textit{scikit-learn}$
+and $\textit{pymc3}$ and is distributed under the new BSD-3 license,
+encouraging its use in both academia and industry. Source code, binaries, and
+documentation are available on http://github.com/pymc-learn/pymc-learn.

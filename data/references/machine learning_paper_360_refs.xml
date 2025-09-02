@@ -1,0 +1,1302 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Grader variability and the importance of reference standards for evaluating machine learning models for diabetic retinopathy</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Krause</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Gulshan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rahimy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Karth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Widner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Corrado</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ophtha.2018.01.034</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ophthalmology</title>
+		<imprint>
+			<biblScope unit="volume">125</biblScope>
+			<biblScope unit="page" from="1264" to="1272" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 29548646</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Machine bias. ProPublica 23 5 2016 Accessed at www.propublica.org/article/machine-bias-risk-assessments-in-criminal-sentencing on 13</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Angwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Larson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kirchner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mattu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017-12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Inherent trade-offs in algorithmic fairness</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kleinberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Abstracts of the 2018 Association for Computing Machinery International Conference on Measurement and Modeling of Computer Systems</title>
+				<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">California</forename><surname>Irvine</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018-06" />
+			<publisher>Association for Computing Machinery</publisher>
+			<biblScope unit="page">40</biblScope>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">To predict and serve?</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Isaac</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Significance</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="14" to="19" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">A case study of algorithm-assisted decision making in child maltreatment hotline screening decisions</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chouldechova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Benavides-Prado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Fialko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Vaithianathan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Mach Learn Res</title>
+		<imprint>
+			<biblScope unit="page" from="134" to="148" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Can an algorithm tell when kids are in danger? The New York Times Magazine 2 1 2018 Accessed at www.nytimes.com/2018/01/02/magazine/can-an-algorithm-tell-when-kids-are-indanger</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hurley</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">AMA passes first policy recommendations on augmented intelligence 2018 Accessed at www.ama-assn.org/ama-passes-first-policy-recommendationsaugmented-intelligence on 6</title>
+		<imprint>
+			<date type="published" when="2018-07" />
+			<publisher>American Medical Association</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Lessons for achieving health equity comparing Aotearoa/New Zealand and the United States</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">T</forename><surname>King</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">N</forename><surname>Ameratunga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Muramatsu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.healthpol.2018.05.001</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Health Policy</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="page" from="837" to="853" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 29961558</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Unequal Treatment: Confronting Racial and Ethnic Disparities in Health Care</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">D</forename><surname>Smedley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Stith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Nelson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>National Academies Pr</publisher>
+			<pubPlace>Washington, DC</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Institute of Medicine</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Color of Law: A Forgotten History of How Our Government Segregated America New York: Liveright</title>
+		<author>
+			<persName><surname>Rothstein R The</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">About Healthy People</title>
+	</analytic>
+	<monogr>
+		<title level="m">Accessed at www.healthypeople.gov/2020/ About-Healthy-People on 9</title>
+				<imprint>
+			<date type="published" when="2018-10" />
+		</imprint>
+	</monogr>
+	<note>Healthy People</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Deep learning-a technology with the potential to transform health care</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2018.11100</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">320</biblScope>
+			<biblScope unit="page" from="1101" to="1102" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 30178065</note>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Piloting electronic medical record-based early detection of inpatient deterioration in community hospitals</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">J</forename><surname>Escobar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Turk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ragins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hoberman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Levine</surname></persName>
+		</author>
+		<idno type="DOI">10.1002/jhm.2652</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Hosp Med</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="S18" to="24" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>Suppl. PubMed: 27805795</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Finding patients before they crash: the next major opportunity to improve patient safety</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Zimlichman</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1136/bmjqs-2014-003499</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Qual Saf</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="1" to="3" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Big data in health care: using analytics to identify and manage high-risk and high-cost patients</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Bates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Saria</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ohno-Machado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Escobar</surname></persName>
+		</author>
+		<idno type="DOI">10.1377/hlthaff.2014.0041</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Health Aff (Millwood)</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1123" to="1131" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 25006137</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Automation bias and verification complexity: a systematic review</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lyell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Coiera</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jamia/ocw105</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Med Inform Assoc</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="423" to="431" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 27516495</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Insights into the problem of alarm fatigue with physiologic monitor devices: a comprehensive observational study of consecutive intensive care unit patients</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Drew</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Harris</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">K</forename><surname>Zègre-Hemsey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mammone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Schindler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Salas-Boni</surname></persName>
+		</author>
+		<idno>doi:10.1371/ journal.pone.0110274</idno>
+	</analytic>
+	<monogr>
+		<title level="j">PLoS One</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page">e110274</biblScope>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 25338067</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The association of patients&apos; socioeconomic characteristics with the length of hospital stay and hospital charges within diagnosis-related groups</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Epstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Stern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tognetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">B</forename><surname>Begg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Hartley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cumella</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="page" from="1579" to="1585" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 3131674</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Use and misuse of the receiver operating characteristic curve in risk prediction</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Cook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Circulation</title>
+		<imprint>
+			<biblScope unit="volume">115</biblScope>
+			<biblScope unit="page" from="928" to="935" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 17309939</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Statistical evaluation of prognostic versus diagnostic models: beyond the ROC curve</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">R</forename><surname>Cook</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Clin Chem</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="page" from="17" to="23" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 18024533</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">With an eye to AI and autonomous diagnosis</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">A</forename><surname>Keane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">J</forename><surname>Topol</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med 28</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">40</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Validation of the atherosclerotic cardiovascular disease pooled cohort risk equations</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Muntner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Colantonio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Cushman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Goff</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">J</forename><surname>Howard</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2014.2630</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">311</biblScope>
+			<biblScope unit="page" from="1406" to="1415" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 24682252</note>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Big data and machine learning in health care</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Beam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Kohane</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2017.18391</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="page" from="1317" to="1318" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 29532063</note>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Scalable and accurate deep learning with electronic health records</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rajkomar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oren</forename><forename type="middle">E</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Dai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Hajaj</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">NPJ Digit Med</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Unintended consequences of machine learning in medicine</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cabitza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rasoini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Gensini</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2017.7797</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="page" from="517" to="518" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 28727867</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Biomedical decision making: probabilistic clinical reasoning</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">K</forename><surname>Owens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C</forename><surname>Sox</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Biomedical Informatics London</title>
+				<editor>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Shortliffe</surname></persName>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Cimino</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<biblScope unit="volume">2014</biblScope>
+			<biblScope unit="page" from="67" to="107" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">In the era of precision medicine and big data, who is normal?</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Manrai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jpa</forename><surname>Ioannidis</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2018.2009</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="page" from="1981" to="1982" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 29710130</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Fairness in precision medicine</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ferryman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pitcan</surname></persName>
+		</author>
+		<ptr target="https://datasociety.net/research/fairness-precision-medicineon31" />
+	</analytic>
+	<monogr>
+		<title level="j">Data &amp; Society</title>
+		<imprint>
+			<date type="published" when="2018-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Reduction of peripartum racial and ethnic disparities: a conceptual framework and maternal safety consensus bundle</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">A</forename><surname>Howell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Brumley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Bryant</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Caughey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Cornell</surname></persName>
+		</author>
+		<idno type="DOI">10.1097/AOG.0000000000002475</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Obstet Gynecol</title>
+		<imprint>
+			<biblScope unit="volume">131</biblScope>
+			<biblScope unit="page" from="770" to="782" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 29683895</note>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Potential biases in machine learning algorithms using electronic health record data</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Gianfrancesco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tamang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Yazdany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Schmajuk</surname></persName>
+		</author>
+		<idno>doi:10.1001/ jamainternmed.2018.3763</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Intern Med</title>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Good intentions are not enough: how informatics interventions can worsen inequality</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">C</forename><surname>Veinot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ancker</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jamia/ocy052</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Med Inform Assoc</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1080" to="1088" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 29788380</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Digital phenotyping: technology for a new science of behavior</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Insel</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2017.11295</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="page" from="1215" to="1216" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 28973224</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">The legal and ethical concerns that arise from using complex predictive analytics in health care</title>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Amarasingham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lo</surname></persName>
+		</author>
+		<idno type="DOI">10.1377/hlthaff.2014.0048</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Health Aff (Millwood)</title>
+		<imprint>
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1139" to="1147" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 25006139</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A roadmap and best practices for organizations to reduce racial and ethnic disparities in health care</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">H</forename><surname>Chin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Clarke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Nocon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">A</forename><surname>Casey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Goddu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Keesecker</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11606-012-2082-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Gen Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="992" to="1000" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 22798211</note>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<title level="m" type="main">Systems Practices for the Care of Socially At-Risk Populations</title>
+		<imprint>
+			<date type="published" when="2016" />
+			<pubPlace>Washington, DC: National Academies Pr</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>National Academies of Sciences, Engineering, and Medicine</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Equality of opportunity in supervised learning</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Price</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Srebro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings from the Conference on Advances in Neural Information Processing Systems</title>
+				<meeting>from the Conference on Advances in Neural Information Processing Systems<address><addrLine>Barcelona, Spain; La Jolla, CA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016-05-10" />
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="page" from="3315" to="3323" />
+		</imprint>
+	</monogr>
+	<note>Neural Information Processing Systems</note>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Chouldechova A Fair prediction with disparate impact: a study of bias in recidivism prediction instruments</title>
+		<idno type="DOI">10.1089/big.2016.0047</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Big Data</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="153" to="163" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 28632438</note>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Learning non-discriminatory predictors</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Woodworth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gunasekar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Ohannessian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Srebro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc Mach Learn Res</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="1920" to="1953" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Data decisions and theoretical implications when adversarially learning fair representations Accessed at</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Beutel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">H</forename><surname>Chi</surname></persName>
+		</author>
+		<ptr target="https://arxiv.org/pdf/1707.00075.pdfon8" />
+		<imprint>
+			<date type="published" when="2018-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Mitigating unwanted biases with adversarial learning</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lemoine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mitchell</surname></persName>
+		</author>
+		<ptr target="http://arxiv.org/abs/1801.07593on8" />
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence, Ethics, and Society</title>
+		<imprint>
+			<date type="published" when="2018-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">Probabilities for SV machines</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Platt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Large Margin Classifiers Cambridge</title>
+				<editor>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Smola</surname></persName>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Bartlett</surname></persName>
+			<persName><forename type="first">D</forename><surname>Schuurmans</surname></persName>
+			<persName><forename type="first">B</forename><surname>Schölkopf</surname></persName>
+		</editor>
+		<meeting><address><addrLine>MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>MIT Pr</publisher>
+			<biblScope unit="volume">1999</biblScope>
+			<biblScope unit="page" from="61" to="74" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Inclusion of demographic-specific information in studies supporting US Food &amp; Drug Administration approval of high-risk medical devices</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">S</forename><surname>Dhruva</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Mazure</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">S</forename><surname>Ross</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">F</forename><surname>Redberg</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamainternmed.2017.3148</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Intern Med</title>
+		<imprint>
+			<biblScope unit="volume">177</biblScope>
+			<biblScope unit="page" from="1390" to="1391" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 28738116</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">On fairness and calibration</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Pleiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Raghavan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kleinberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Q</forename><surname>Weinberger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">V</forename><surname>Luxburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wallach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fergus</forename><forename type="middle">R</forename><surname>Vishwanathan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings from the Conference on Advances in Neural Information Processing Systems</title>
+				<meeting>from the Conference on Advances in Neural Information Processing Systems<address><addrLine>Long Beach, California; La Jolla, CA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017-04-09" />
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="page" from="5680" to="5689" />
+		</imprint>
+	</monogr>
+	<note>Neural Information Processing Systems</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Avoiding discrimination through causal reasoning</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Kilbertus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Rojas-Carulla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Parascandolo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Janzing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schölkopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Guyon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">V</forename><surname>Luxburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wallach</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fergus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vishwanathan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings from the Conference on Advances in Neural Information Processing Systems</title>
+				<meeting>from the Conference on Advances in Neural Information Processing Systems<address><addrLine>Long Beach, CA; La Jolla, CA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017-04-09" />
+			<biblScope unit="volume">2017</biblScope>
+			<biblScope unit="page" from="656" to="666" />
+		</imprint>
+	</monogr>
+	<note>Neural Information Processing Systems</note>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">The effect of race and sex on physicians&apos; recommendations for cardiac catheterization</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">A</forename><surname>Schulman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Berlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Harless</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">F</forename><surname>Kerner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sistrunk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Gersh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">340</biblScope>
+			<biblScope unit="page" from="618" to="626" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 10029647</note>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<monogr>
+		<title level="m" type="main">COMPAS Risk Scales: Demonstrating Accuracy Equity and Predictive Parity Golden</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Dieterich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Mendoza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brennan</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">2016</biblScope>
+			<pubPlace>North-pointe</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Machine learning and health care disparities in dermatology</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Adamson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jamadermatol.2018.2348</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA Dermatol</title>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Skin cancer in skin of color</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Gloster</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Neal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Acad Dermatol</title>
+		<imprint>
+			<biblScope unit="volume">55</biblScope>
+			<biblScope unit="page" from="741" to="760" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 17052479</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Emerging from EHR purgatory-moving from process to outcomes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Goroll</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMp1700601</idno>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">376</biblScope>
+			<biblScope unit="page" from="2004" to="2006" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 28538132</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">How to study improvement interventions: a brief overview of possible study types</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Portela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Pronovost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Woodcock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Carter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dixon-Woods</surname></persName>
+		</author>
+		<idno type="DOI">10.1136/bmjqs-2014-003620</idno>
+	</analytic>
+	<monogr>
+		<title level="j">BMJ Qual Saf</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="325" to="336" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Predicting cardiovascular risk factors from retinal fundus photographs using deep learning</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Poplin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">V</forename><surname>Varadarajan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Blumer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Mcconnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">S</forename><surname>Corrado</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Nat Biomed Eng</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="158" to="164" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

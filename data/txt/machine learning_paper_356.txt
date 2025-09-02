@@ -1,0 +1,6 @@
+Title: Machine learning methods for solar radiation forecasting: A review
+Published: 2017-05-01
+Link: https://www.semanticscholar.org/paper/b7621b358485eb3e34a874b97d1ecd6b5d5ac70b
+
+Abstract:
+None

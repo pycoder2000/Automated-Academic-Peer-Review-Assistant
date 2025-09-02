@@ -1,0 +1,10 @@
+Title: Classifying medical notes into standard disease codes using Machine
+  Learning
+Published: 2018-02-01T16:46:00Z
+Link: http://arxiv.org/abs/1802.00382v1
+
+Abstract:
+We investigate the automatic classification of patient discharge notes into
+standard disease labels. We find that Convolutional Neural Networks with
+Attention outperform previous algorithms used in this task, and suggest further
+areas for improvement.

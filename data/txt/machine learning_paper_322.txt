@@ -1,0 +1,6 @@
+Title: A Systematic Review on Imbalanced Data Challenges in Machine Learning
+Published: 2019-08-30
+Link: https://www.semanticscholar.org/paper/7ac8f533a18f584387dd412a0a27feb9af1c5c93
+
+Abstract:
+In machine learning, the data imbalance imposes challenges to perform data analytics in almost all areas of real-world research. The raw primary data often suffers from the skewed perspective of data distribution of one class over the other as in the case of computer vision, information security, marketing, and medical science. The goal of this article is to present a comparative analysis of the approaches from the reference of data pre-processing, algorithmic and hybrid paradigms for contemporary imbalance data analysis techniques, and their comparative study in lieu of different data distribution and their application areas.

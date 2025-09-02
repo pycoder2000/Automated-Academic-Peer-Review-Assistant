@@ -1,0 +1,6 @@
+Title: Machine Learning Basics
+Published: 2021-02-23
+Link: https://www.semanticscholar.org/paper/287ba5bf00d96af1596aaf80c178392a9c4fcc28
+
+Abstract:
+coined in 1959 by Arthur Samuel [Samuel 1959], Tom Mitchell [Mitchell 1997] provided a more formal definition: “A computer program is said to learn from experience E with respect to some task T and some performance measure P, if its performance on T, as measured by P, improves with experience E.” ML has be applied to many real-world problems or tasks, like medical diagno­ sis, robotics, recommendation systems, facial recognition, stock prices prediction, and sentiment analysis, with great success. We can divide ML algorithms into three main categories (see Figure 4.1): Machine Learning Basics

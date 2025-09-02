@@ -1,0 +1,6 @@
+Title: iml: An R package for Interpretable Machine Learning
+Published: 2018-06-27
+Link: https://www.semanticscholar.org/paper/ea7887fadc666d6faf92e569d4a10d994ee91297
+
+Abstract:
+Complex, non-parametric models, which are typically used in machine learning, have proven to be successful in many prediction tasks. But these models usually operate as black boxes: While they are good at predicting, they are often not interpretable. Many inherently interpretable models have been suggested, which come at the cost of losing predictive power. Another option is to apply interpretability methods to a black box model after model training. Given the velocity of research on new machine learning models, it is preferable to have model-agnostic tools which can be applied to a random forest as well as to a neural network. Tools for model-agnostic interpretability methods should improve the adoption of machine learning.

@@ -1,0 +1,6 @@
+Title: Interpretable trading pattern designed for machine learning applications
+Published: 2023-01-18T21:12:47Z
+Link: https://doi.org/10.1016/j.mlwa.2023.100448
+
+Abstract:
+

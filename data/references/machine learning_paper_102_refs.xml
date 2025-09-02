@@ -1,0 +1,3038 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Jordan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mitchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine learning: Trends, perspectives, and prospects</title>
+				<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">349</biblScope>
+			<biblScope unit="page" from="255" to="260" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1126/science.aaa8415</idno>
+		<ptr target="https://doi.org/10.1126/science.aaa8415" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<author>
+			<persName><forename type="first">M.-A</forename><surname>Zöller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Huber</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1904.12054</idno>
+		<ptr target="https://arxiv.org/abs/1904.12054" />
+		<title level="m">Benchmark and Survey of Automated Machine Learning Frameworks</title>
+				<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Automated machine learning: Stateof-the-art and open challenges</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Shawi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sakr</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1906.02287</idno>
+		<ptr target="http://arxiv.org/abs/1906.02287" />
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Applied Predictive Modeling</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Johnson</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Samulowitz, An effective algorithm for hyperparameter optimization of neural networks</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fokoue-Nkoutche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nannicini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+		<idno type="DOI">10.1147/JRD.2017.2709578</idno>
+		<ptr target="https://doi.org/10.1147/JRD.2017.2709578" />
+	</analytic>
+	<monogr>
+		<title level="j">IBM J. Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Automatic Machine Learning: Methods, Systems, Challenges</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Kotthoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Vanschoren</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Effect of the Sampling of a Dataset in the Hyperparameter Optimization Phase over the Efficiency of a Machine Learning Algorithm</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Decastro-García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Á</forename><forename type="middle">L</forename><surname>Muñoz Castañeda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">Escudero</forename><surname>García</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">V</forename><surname>Carriegos</surname></persName>
+		</author>
+		<idno type="DOI">10.1155/2019/6278908</idno>
+		<ptr target="https://doi.org/10.1155/2019/6278908" />
+	</analytic>
+	<monogr>
+		<title level="j">Complexity</title>
+		<imprint>
+			<biblScope unit="volume">2019</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Abreu</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1908.10714</idno>
+		<title level="m">Automated Architecture Design for Deep Neural Networks</title>
+				<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">A Comparative Study of Black-box Optimization Algorithms for Tuning of Hyper-parameters in Deep Neural Networks</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">S</forename><surname>Steinholtz</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+		<respStmt>
+			<orgName>Dept. Elect. Eng., Luleå Univ. Technol.</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">M.S. thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A review of automatic selection methods for machine learning algorithms and hyper-parameter values</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Luo</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s13721-016-0125-6</idno>
+		<ptr target="https://doi.org/10.1007/s13721-016-0125-6" />
+	</analytic>
+	<monogr>
+		<title level="j">Netw. Model. Anal. Heal. Informatics Bioinforma</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="16" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Maclaurin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Duvenaud</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">P</forename><surname>Adams</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1502.03492</idno>
+		<ptr target="http://arxiv.org/abs/1502.03492" />
+		<title level="m">Gradient-based Hyperparameter Optimization through Reversible Learning</title>
+				<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Algorithms for hyperparameter optimization</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bergstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bardenet</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kégl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Adv. Neural Inf. Process. Syst</title>
+		<imprint>
+			<biblScope unit="page" from="2546" to="2554" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Random Search for Hyper-Parameter Optimization</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yoshua</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mach. Learn. Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="281" to="305" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Towards an Empirical Foundation for Assessing Bayesian Optimization of Hyperparameters</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Eggensperger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bergstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Snoek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hoos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Leyton-Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BayesOpt Work</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="5" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Efficient benchmarking of hyperparameter optimizers via surrogates</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Eggensperger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Hoos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Leyton-Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Natl. Conf</title>
+				<meeting>Natl. Conf</meeting>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1114" to="1120" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Hyperband: A novel bandit-based approach to hyperparameter optimization</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jamieson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Desalvo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rostamizadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Talwalkar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mach. Learn. Res</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="1" to="52" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yao</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1810.13306</idno>
+		<ptr target="http://arxiv.org/abs/1810.13306" />
+		<title level="m">Taking Human out of Learning Applications: A Survey on Automated Machine Learning</title>
+				<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Optimizing hyperparameters of support vector machines by genetic algorithms</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lessmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stahlbock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">F</forename><surname>Crone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 2005 Int. Conf. Artif. Intell. ICAI&apos;05</title>
+				<meeting>2005 Int. Conf. Artif. Intell. ICAI&apos;05</meeting>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="74" to="80" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Particle swarm optimization for hyper-parameter selection in deep neural networks</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">R</forename><surname>Lorenzo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nalepa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kawulok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Ramos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Paster</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. ACM Int. Conf. Genet. Evol. Comput</title>
+		<imprint>
+			<biblScope unit="page" from="481" to="488" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhao</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1906.06821</idno>
+		<ptr target="https://arxiv.org/abs/1906.06821" />
+		<title level="m">A Survey of Optimization Methods from a Machine Learning Perspective</title>
+				<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M S</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hax</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Mathematical Programming</title>
+		<imprint>
+			<date type="published" when="1977" />
+			<publisher>Addison-Wesley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Convex optimization: Algorithms and complexity, Found</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bubeck</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Trends Mach. Learn</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="231" to="357" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1561/2200000050</idno>
+		<ptr target="https://doi.org/10.1561/2200000050" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Unbounded Bayesian optimization via regularization</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Shahriari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bouchard-Côté</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>De Freitas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Artif. Intell. Statist</title>
+		<imprint>
+			<biblScope unit="page" from="1168" to="1176" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Samulowitz, An effective algorithm for hyperparameter optimization of neural networks</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Fokoue-Nkoutche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nannicini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+		<idno type="DOI">10.1147/JRD.2017.2709578</idno>
+		<ptr target="https://doi.org/10.1147/JRD.2017.2709578" />
+	</analytic>
+	<monogr>
+		<title level="j">IBM J. Res. Dev</title>
+		<imprint>
+			<biblScope unit="volume">61</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gambella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ghaddar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Naoum-Sawaya</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1901.05331</idno>
+		<ptr target="http://arxiv.org/abs/1901.05331" />
+		<title level="m">Optimization Models for Machine Learning: A Survey</title>
+				<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Automating model search for large scale machine learning</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">R</forename><surname>Sparks</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Talwalkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Franklin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">I</forename><surname>Jordan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kraska</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. 6th ACM Symp</title>
+				<meeting>6th ACM Symp</meeting>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="368" to="380" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Numerical Optimization</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Nocedal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wright</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2006" />
+			<publisher>Springer-Verlag</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Squatting Domain Detection: A Data Analytics &amp; Machine Learning Based Approach</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moubayed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Injadat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lutfiyya</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Typo</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/GLOCOM.2018.8647679</idno>
+		<ptr target="https://doi.org/10.1109/GLOCOM.2018.8647679" />
+	</analytic>
+	<monogr>
+		<title level="m">GLOBECOM 2018 -Proc</title>
+				<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">An empirical comparison of supervised learning algorithms</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Caruana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Niculescu-Mizil</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1143844.1143865</idno>
+		<ptr target="https://doi.org/10.1145/1143844.1143865" />
+	</analytic>
+	<monogr>
+		<title level="j">ACM Int. Conf. Proceeding Ser</title>
+		<imprint>
+			<biblScope unit="volume">148</biblScope>
+			<biblScope unit="page" from="161" to="168" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<author>
+			<persName><forename type="first">O</forename><surname>Kramer</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Scikit-Learn</surname></persName>
+		</author>
+		<title level="m">Machine Learning for Evolution Strategies</title>
+				<meeting><address><addrLine>Cham, Switzerland</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="45" to="53" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Scikit-learn: Machine learning in Python</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Pedregosa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mach. Learn. Res</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2825" to="2830" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Guestrin</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1603.02754</idno>
+		<ptr target="http://arxiv.org/abs/1603.02754" />
+		<title level="m">XGBoost: a scalable tree boosting system</title>
+				<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">F</forename><surname>Chollet</surname></persName>
+		</author>
+		<ptr target="https://github.com/fchollet/keras" />
+	</analytic>
+	<monogr>
+		<title level="j">Keras</title>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gambella</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ghaddar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Naoum-Sawaya</surname></persName>
+		</author>
+		<title level="m">Optimization Models for Machine Learning: A Survey</title>
+				<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page" from="1" to="40" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bishop</surname></persName>
+		</author>
+		<title level="m">Pattern Recognition and Machine Learning</title>
+				<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Ridge Regression: Applications to Nonorthogonal Problems</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">E</forename><surname>Hoerl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">W</forename><surname>Kennard</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/00401706.1970.10488635</idno>
+		<ptr target="https://doi.org/10.1080/00401706.1970.10488635" />
+	</analytic>
+	<monogr>
+		<title level="j">Technometrics</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="69" to="82" />
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Comparing Ridge and LASSO estimators for data analysis</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">E</forename><surname>Melkumova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Shatskikh</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.proeng.2017.09.615</idno>
+		<ptr target="https://doi.org/10.1016/j.proeng.2017.09.615" />
+	</analytic>
+	<monogr>
+		<title level="j">Procedia Eng</title>
+		<imprint>
+			<biblScope unit="volume">201</biblScope>
+			<biblScope unit="page" from="746" to="755" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Regression Shrinkage and Selection Via the Lasso</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Tibshirani</surname></persName>
+		</author>
+		<idno type="DOI">10.1111/j.2517-6161.1996.tb02080.x</idno>
+		<ptr target="https://doi.org/10.1111/j.2517-6161.1996.tb02080.x" />
+	</analytic>
+	<monogr>
+		<title level="j">J. R. Stat. Soc. Ser. B</title>
+		<imprint>
+			<biblScope unit="volume">58</biblScope>
+			<biblScope unit="page" from="267" to="288" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<monogr>
+		<title level="m" type="main">Applied logistic regression</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Hosmer</surname><genName>Jr</genName></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lemeshow</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="358" to="359" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Technometrics</note>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">Genomic selection using regularized linear regression models: ridge regression, lasso, elastic net and their extensions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Ogutu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Schulz-Streeck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">P</forename><surname>Piepho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">BMC Proceedings. BioMed Cent</title>
+		<imprint>
+			<biblScope unit="issue">6</biblScope>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A Fuzzy K-Nearest Neighbor Algorithm</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">R</forename><surname>Gray</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TSMC.1985.6313426</idno>
+		<ptr target="https://doi.org/10.1109/TSMC.1985.6313426" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Syst. Man Cybern. SMC</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="580" to="585" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">On kernel difference-weighted knearest neighbor classification</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10044-007-0100-z</idno>
+		<ptr target="https://doi.org/10.1007/s10044-007-0100-z" />
+	</analytic>
+	<monogr>
+		<title level="j">Pattern Anal. Appl</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="247" to="257" />
+			<date type="published" when="2008" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Support vector regression machines</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Smola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vapnik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Neural Inf. Process. Syst</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="155" to="161" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Image-Based Visibility Estimation Algorithm for Intelligent Transportation Systems</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Muresan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Al-Dweik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">J</forename><surname>Hadjileontiadis</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ACCESS.2018.2884225</idno>
+		<ptr target="https://doi.org/10.1109/ACCESS.2018.2884225" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="76728" to="76740" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Comprehensive Visibility Indicator Algorithm for Adaptable Speed Limit Control in Intelligent Transportation Systems, M.A.Sc. thesis</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Guelph</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">A classification system for remote sensing satellite images using support vector machine with non-linear kernel functions</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">S</forename><surname>Soliman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Mahmoud</surname></persName>
+		</author>
+		<idno>BIO-181-BIO-187</idno>
+	</analytic>
+	<monogr>
+		<title level="m">8th Int. Conf. Informatics Syst. INFOS 2012</title>
+				<imprint>
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">An empirical study of the naive Bayes classifier</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Rish</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Work. Empir. methods Artif. Intell</title>
+		<imprint>
+			<biblScope unit="page" from="41" to="46" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+	<note>IJCAI</note>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">On pairwise naive bayes classifiers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Sulzmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fürnkranz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hüllermeier</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-540-74958-535</idno>
+		<ptr target="https://doi.org/10.1007/978-3-540-74958-535" />
+	</analytic>
+	<monogr>
+		<title level="j">Lect. Notes Comput. Sci. (Including Subser. Lect. Notes Artif. Intell. Lect. Notes Bioinformatics)</title>
+		<imprint>
+			<biblScope unit="volume">4701</biblScope>
+			<biblScope unit="page" from="371" to="381" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Comparing fuzzy Naive Bayes and Gaussian Naive Bayes for decision making in RoboCup 3D</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Bustamante</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Garrido</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Soto</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/1192523123</idno>
+		<ptr target="https://doi.org/10.1007/1192523123" />
+	</analytic>
+	<monogr>
+		<title level="j">Lect. Notes Comput. Sci. (Including Subser. Lect. Notes Artif. Intell. Lect. Notes Bioinformatics</title>
+		<imprint>
+			<biblScope unit="page" from="237" to="247" />
+			<date type="published" when="2006" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Multinomial naive bayes for text categorization revisited</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Kibriya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Frank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Pfahringer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Holmes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Lect. Notes Artif. Intell. (Subseries Lect. Notes Comput. Sci</title>
+		<imprint>
+			<biblScope unit="volume">3339</biblScope>
+			<biblScope unit="page" from="488" to="499" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Karger Tackling the poor assumptions of Naive Bayes text classifiers</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D M</forename><surname>Rennie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Shih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Teevan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Twent. Int. Conf. Mach. Learn. ICML</title>
+				<meeting>Twent. Int. Conf. Mach. Learn. ICML</meeting>
+		<imprint>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="616" to="623" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<title level="m" type="main">Fast and accurate sentiment classification using an enhanced naïve Bayes model</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Narayanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Arora</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bhatia</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1305.6143</idno>
+		<ptr target="https://arxiv.org/abs/1305.6143" />
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">A Survey of Decision Tree Classifier Methodology</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rasoul</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>David</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans. Syst. Man. Cybern</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="660" to="674" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Machine Learning for Performanceaware Virtual Network Function Placement</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">M</forename><surname>Manias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jammal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hawilo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Heidari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Larabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Brunner</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/GLOBECOM38437.2019.9013246</idno>
+		<ptr target="https://doi.org/10.1109/GLOBECOM38437.2019.9013246" />
+	</analytic>
+	<monogr>
+		<title level="m">Conf. GLOBECOM 2019 -Proc</title>
+				<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page" from="12" to="17" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Tree-based intelligent intrusion detection system in internet of vehicles</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moubayed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Hamieh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conf. GLOBECOM 2019 -Proc</title>
+				<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1109/GLOBECOM38437.2019.9013892</idno>
+		<ptr target="https://doi.org/10.1109/GLOBECOM38437.2019.9013892" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">Informing the use of hyperparameter optimization through metalearning</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sanders</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Giraud-Carrier</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICDM.2017.137</idno>
+		<ptr target="https://doi.org/10.1109/ICDM.2017.137" />
+	</analytic>
+	<monogr>
+		<title level="m">Proc. -IEEE Int. Conf. Data Mining, ICDM</title>
+				<meeting>-IEEE Int. Conf. Data Mining, ICDM</meeting>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="1051" to="1056" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<analytic>
+		<title level="a" type="main">Bayesian Optimization with Machine Learning Algorithms Towards Anomaly Detection</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Injadat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Salo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Nassif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Essex</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shami</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/glocom.2018.8647714</idno>
+		<ptr target="https://doi.org/10.1109/glocom.2018.8647714" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Glob. Commun. Conf</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m" type="main">Clustering Enabled Classification using Ensemble Feature Selection for Intrusion Detection</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Salo</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Int. Conf. Comput. Netw. Commun. ICNC 2019.</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Injadat</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Int. Conf. Comput. Netw. Commun. ICNC 2019.</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moubayed</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Int. Conf. Comput. Netw. Commun. ICNC 2019.</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Nassif</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Int. Conf. Comput. Netw. Commun. ICNC 2019.</orgName>
+			</affiliation>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Essex</surname></persName>
+			<affiliation>
+				<orgName type="collaboration">Int. Conf. Comput. Netw. Commun. ICNC 2019.</orgName>
+			</affiliation>
+		</author>
+		<idno type="DOI">10.1109/ICCNC.2019.8685636</idno>
+		<ptr target="https://doi.org/10.1109/ICCNC.2019.8685636" />
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page" from="276" to="281" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">An enhanced intrusion detection framework for securing network layer of cloud computing</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Arjunan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">N</forename><surname>Modi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ISEASP.2017.7976988</idno>
+		<ptr target="https://doi.org/10.1109/ISEASP.2017.7976988" />
+	</analytic>
+	<monogr>
+		<title level="j">ISEA Asia Secur. Priv. Conf</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="10" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">A boosted decision tree approach using Bayesian hyper-parameter optimization for credit scoring</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">Y</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eswa.2017.02.017</idno>
+		<ptr target="https://doi.org/10.1016/j.eswa.2017.02.017" />
+	</analytic>
+	<monogr>
+		<title level="j">Expert Syst. Appl</title>
+		<imprint>
+			<biblScope unit="volume">78</biblScope>
+			<biblScope unit="page" from="225" to="241" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Ensemble methods in machine learning</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Dietterich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Mult. Classif. Syst</title>
+		<imprint>
+			<biblScope unit="volume">1857</biblScope>
+			<biblScope unit="page" from="1" to="15" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">Ensemble-based Feature Selection and Classification Model for DNS Typo-squatting Detection</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moubayed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Aqeeli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2020 IEEE Can. Conf. Electr. Comput. Eng</title>
+				<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schütze</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1702.01923</idno>
+		<ptr target="https://arxiv.org/abs1702.01923" />
+		<title level="m">Comparative Study of CNN and RNN for Natural Language Processing</title>
+				<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Deep-learning: Investigating deep neural networks hyper-parameters and comparison of performance to shallow methods for modeling bioactivity data</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Koutsoukas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Monaghan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Huan</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s13321-017-0226-y</idno>
+		<ptr target="https://doi.org/10.1186/s13321-017-0226-y" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Cheminform</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Speeding up automatic hyperparameter optimization of deep neural networks by extrapolation of learning curves</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Domhan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Springenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hutter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IJCAI Int. Jt. Conf. Artif. Intell</title>
+		<imprint>
+			<biblScope unit="page" from="3460" to="3468" />
+			<date type="published" when="2015-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Effective hyperparameter optimization using Nelder-Mead method in deep learning</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ozaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Onishi</surname></persName>
+		</author>
+		<idno type="DOI">10.1186/s41074-017-0030-7</idno>
+		<ptr target="https://doi.org/10.1186/s41074-017-0030-7" />
+	</analytic>
+	<monogr>
+		<title level="j">IPSJ Trans. Comput. Vis. Appl</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Hyper-parameters optimisation of deep CNN architecture for vehicle logo recognition</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">C</forename><surname>Soon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Y</forename><surname>Khaw</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Chuah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kanesan</surname></persName>
+		</author>
+		<idno type="DOI">10.1049/iet-its.2018.5127</idno>
+		<ptr target="https://doi.org/10.1049/iet-its.2018.5127" />
+	</analytic>
+	<monogr>
+		<title level="j">IET Intell. Transp. Syst</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="939" to="946" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">A new image classification method using CNN transfer learning and web data augmentation</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Fan</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eswa.2017.11.028</idno>
+		<ptr target="https://doi.org/10.1016/j.eswa.2017.11.028" />
+	</analytic>
+	<monogr>
+		<title level="j">Expert Syst. Appl</title>
+		<imprint>
+			<biblScope unit="volume">95</biblScope>
+			<biblScope unit="page" from="43" to="56" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">Genetic algorithms for hyperparameter optimization in predictive business process monitoring</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Di</forename><surname>Francescomarino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Dumas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Federici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Ghidini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>Maggi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Rizzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Simonetto</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.is.2018.01.003</idno>
+		<ptr target="https://doi.org/10.1016/j.is.2018.01.003" />
+	</analytic>
+	<monogr>
+		<title level="j">Inf. Syst</title>
+		<imprint>
+			<biblScope unit="volume">74</biblScope>
+			<biblScope unit="page" from="67" to="83" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moubayed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Injadat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lutfiyya</surname></persName>
+		</author>
+		<idno type="DOI">10.1080/08923647.2020.1696140</idno>
+		<ptr target="https://doi.org/10.1080/08923647.2020.1696140" />
+	</analytic>
+	<monogr>
+		<title level="m">Student Engagement Level in e-Learning Environment: Clustering Using K-means</title>
+				<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">The expectation-maximization algorithm</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Moon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Signal Process. Mag</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="47" to="60" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Fast and Robust gas identification system using an integrated gas sensor technology and Gaussian mixture models</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Brahim-Belhouari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bermak</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">C H</forename><surname>Chan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/JSEN.2005.858926</idno>
+		<ptr target="https://doi.org/10.1109/JSEN.2005.858926" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Sens. J</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1433" to="1444" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">Hierarchical Clustering Algorithms for Document Dataset</title>
+		<author>
+			<persName><forename type="first">Z</forename><forename type="middle">Y</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">G</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Data Min. Knowl. Discov</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="141" to="168" />
+			<date type="published" when="2005" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">DBSCAN: Past, present and future, 5th Int</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">U</forename><surname>Rehman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Aziz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Fong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sarasvady</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vishwa</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICADIWT.2014.6814687</idno>
+		<ptr target="https://doi.org/10.1109/ICADIWT.2014.6814687" />
+	</analytic>
+	<monogr>
+		<title level="j">Conf. Appl. Digit. Inf. Web Technol. ICADIWT</title>
+		<imprint>
+			<biblScope unit="page" from="232" to="238" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Research on adaptive parameters determination in DBSCAN algorithm</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Inf. Comput. Sci</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1967" to="1973" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shlens</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1404.1100</idno>
+		<ptr target="https://arxiv.org/abs1404.1100" />
+		<title level="m">A Tutorial on Principal Component Analysis</title>
+				<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">Finding structure with randomness: probabilistic algorithms for constructing approximate matrix decompositions</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Halko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Martinsson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Tropp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIAM Rev</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="217" to="288" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Conditional linear discriminant analysis</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Loog</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICPR.2006.402</idno>
+		<ptr target="https://doi.org/10.1109/ICPR.2006.402" />
+	</analytic>
+	<monogr>
+		<title level="m">Proc. -Int. Conf. Pattern Recognit</title>
+				<meeting>-Int. Conf. Pattern Recognit</meeting>
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="387" to="390" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<monogr>
+		<title level="m" type="main">Solving the small sample size problem in face recognition using generalized discriminant analysis, Pattern Recognit</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Howland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.patcog.2005.06.013</idno>
+		<ptr target="https://doi.org/10.1016/j.patcog.2005.06.013" />
+		<imprint>
+			<date type="published" when="2006" />
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="277" to="287" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Efficient hyperparameter optimization of deep learning algorithms using deterministic RBF surrogates</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Ilievski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Akhtar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>Shoemaker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">31st AAAI Conf. Artif. Intell. AAAI 2017</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="822" to="829" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<title level="m" type="main">Systematic Ensemble Model Selection Approach for Educational Data Mining, Knowledge-Based Syst</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">N</forename><surname>Injadat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moubayed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Nassif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shami</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="volume">200</biblScope>
+			<biblScope unit="page">105992</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1016/j.knosys.2020.105992</idno>
+		<ptr target="https://doi.org/10.1016/j.knosys.2020.105992" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<monogr>
+		<title level="m" type="main">Multi-split Optimized Bagging Ensemble Model Selection for Multi-class Educational Data Mining</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Injadat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Moubayed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">B</forename><surname>Nassif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shami</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2020" />
+			<publisher>Springer&apos;s Appl. Intell</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Claesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Simm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Popovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Moreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>De Moor</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1412.1114</idno>
+		<ptr target="https://arxiv.org/abs1412.1114" />
+		<title level="m">Easy Hyperparameter Search Using Optunity</title>
+				<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<analytic>
+		<title level="a" type="main">Worst-case and average-case approximations by simple randomized search heuristics</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Witt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 22nd Annual Symposium on Theoretical Aspects of Computer Science, STACS&apos;05</title>
+				<meeting>the 22nd Annual Symposium on Theoretical Aspects of Computer Science, STACS&apos;05<address><addrLine>Stuttgart, Germany</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2005" />
+			<biblScope unit="page" from="44" to="56" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Gradient-based optimization of hyperparameters</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Comput</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="1889" to="1900" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Complexity Issues in Natural Gradient Descent Method for Training Multilayer Perceptrons</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">I</forename><surname>Amari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Comput</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="issue">8</biblScope>
+			<biblScope unit="page" from="2137" to="2157" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Adams Practical Bayesian optimization of machine learning algorithms</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Snoek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Larochelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Neural Inf. Process. Syst</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="2951" to="2959" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<monogr>
+		<author>
+			<persName><forename type="first">E</forename><surname>Hazan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Klivans</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yuan</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1706.00764</idno>
+		<ptr target="https://arxiv.org/abs1706.00764" />
+		<title level="m">Hyperparameter optimization: a spectral approach</title>
+				<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Gaussian processes for machine learning</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Seeger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. Neural Syst</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="69" to="106" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Sequential model-based optimization for general algorithm configuration</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hutter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">H</forename><surname>Hoos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Leyton-Brown</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. LION 5</title>
+				<meeting>LION 5</meeting>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="507" to="523" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<monogr>
+		<title level="m" type="main">Bayesian Optimization Primer</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dewancker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mccourt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Clark</surname></persName>
+		</author>
+		<ptr target="https://sigopt.com/static/pdf/SigOptBayesianOptimiza-tionPrimer.pdf" />
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hensman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fusi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Lawrence</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1309.6835</idno>
+		<title level="m">Gaussian processes for big data</title>
+				<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Claesen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>De Moor</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1502.02127</idno>
+		<title level="m">Hyperparameter Search in Machine Learning</title>
+				<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Large-scale machine learning with stochastic gradient descent</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bottou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the COMPSTAT</title>
+				<meeting>the COMPSTAT</meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="177" to="186" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<analytic>
+		<title level="a" type="main">A new optimal sampling rule for multi-fidelity optimization via ordinal transformation</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/COASE.2016.7743467</idno>
+		<ptr target="https://doi.org/10.1109/COASE.2016.7743467" />
+	</analytic>
+	<monogr>
+		<title level="m">IEEE Int. Conf. Autom. Sci. Eng. 2016-Novem</title>
+				<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page" from="670" to="674" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Almost optimal exploration in multiarmed bandits</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Karnin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Koren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Somekh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">30th Int. Conf. Mach. Learn. ICML 2013</title>
+				<imprint>
+			<date type="published" when="2013" />
+			<biblScope unit="volume">28</biblScope>
+			<biblScope unit="page" from="2275" to="2283" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<monogr>
+		<author>
+			<persName><forename type="first">S</forename><surname>Falkner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hutter</surname></persName>
+		</author>
+		<title level="m">BOHB: Robust and Efficient Hyperparameter Optimization at Scale, 35th Int. Conf. Mach. Learn. ICML</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="2323" to="2341" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Metaheuristics: Review and application</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gogna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename></persName>
+		</author>
+		<idno type="DOI">10.1080/0952813X.2013.782347</idno>
+		<ptr target="https://doi.org/10.1080/0952813X.2013.782347" />
+	</analytic>
+	<monogr>
+		<title level="j">J. Exp. Theor. Artif. Intell</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="503" to="526" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Extending MLP ANN hyper-parameters Optimization by using Genetic Algorithm</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Itano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>De Abreu De</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sousa</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Del-Moral-Hernandez</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/IJCNN.2018.8489520</idno>
+		<ptr target="https://doi.org/10.1109/IJCNN.2018.8489520" />
+	</analytic>
+	<monogr>
+		<title level="m">Proc. Int. Jt. Conf. Neural Networks</title>
+				<meeting>Int. Jt. Conf. Neural Networks</meeting>
+		<imprint>
+			<date type="published" when="2018-07" />
+			<biblScope unit="page" from="1" to="8" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">A Review of Population Initialization Techniques for Evolutionary Algorithms</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kazimipour</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Qin</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CEC.2014.6900618</idno>
+		<ptr target="https://doi.org/10.1109/CEC.2014.6900618" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Congr. Evol. Comput</title>
+		<imprint>
+			<biblScope unit="page" from="2585" to="2592" />
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">A novel population initialization method for accelerating evolutionary algorithms</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Rahnamayan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Tizhoosh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">M A</forename><surname>Salama</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.camwa.2006.07.013</idno>
+		<ptr target="https://doi.org/10.1016/j.camwa.2006.07.013" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Math. with Appl</title>
+		<imprint>
+			<biblScope unit="volume">53</biblScope>
+			<biblScope unit="page" from="1605" to="1614" />
+			<date type="published" when="2007" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">Time complexity of genetic algorithms on exponentially scaled problems</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">G</forename><surname>Lobo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Goldberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pelikan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. Genet. Evol. Comput. Conf</title>
+		<imprint>
+			<biblScope unit="page" from="151" to="158" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<monogr>
+		<title level="m" type="main">Parameter Selection in Particle Swarm Optimization, Evolutionary Programming VII</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Eberhart</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<publisher>Springer</publisher>
+			<biblScope unit="page" from="591" to="600" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<monogr>
+		<title level="m" type="main">A Novel Hardware / Software Partitioning Method Based on Position Disturbed Particle Swarm Optimization with Invasive Weed Optimization</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s11390-017-1714-2</idno>
+		<ptr target="https://doi.org/10.1007/s11390-017-1714-2" />
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="340" to="355" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title level="a" type="main">Multiobjective Dynamic-Guiding PSO for Optimizing Work Shift Schedules</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Hutomo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Constr</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<monogr>
+		<title/>
+		<author>
+			<persName><surname>Eng</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Manag</surname></persName>
+		</author>
+		<idno type="DOI">10.1061/(ASCE)CO.1943-7862.0001548</idno>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">144</biblScope>
+			<biblScope unit="page" from="1" to="7" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title level="a" type="main">A new population initialization method based on space transformation search</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICNC.2009.371</idno>
+		<ptr target="https://doi.org/10.1109/ICNC.2009.371" />
+	</analytic>
+	<monogr>
+		<title level="m">5th Int. Conf. Nat. Comput. ICNC</title>
+				<imprint>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="332" to="336" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<monogr>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1801.01596</idno>
+		<ptr target="https://arxiv.org/abs1801.01596" />
+		<title level="m">Combination of Hyperband and Bayesian Optimization for Hyperparameter Optimization in Deep Learning</title>
+				<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<analytic>
+		<title level="a" type="main">The impact of particles initialization in PSO: Parameter estimation as a case in point</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Cazzaniga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Nobile</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Besozzi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CIBCB.2015.7300288</idno>
+		<ptr target="https://doi.org/10.1109/CIBCB.2015.7300288" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Conf. Comput. Intell. Bioinforma. Comput. Biol. CIBCB</title>
+		<imprint>
+			<biblScope unit="page" from="1" to="8" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">BayesOpt: A Bayesian optimization library for nonlinear optimization, experimental design and bandits</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Martinez-Cantin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mach. Learn. Res</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="3735" to="3739" />
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title level="a" type="main">Hyperopt: A Python library for model selection and hyperparameter optimization</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bergstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Komer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Eliasmith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Yamins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Cox</surname></persName>
+		</author>
+		<idno type="DOI">10.1088/1749-4699/8/1/014008</idno>
+		<ptr target="https://doi.org/10.1088/1749-4699/8/1/014008" />
+	</analytic>
+	<monogr>
+		<title level="j">Comput. Sci. Discov</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<analytic>
+		<title level="a" type="main">Hyperopt-sklearn: Automatic hyperparameter configuration for scikit-learn</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Komer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bergstra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Eliasmith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proc. ICML Workshop AutoML</title>
+				<meeting>ICML Workshop AutoML</meeting>
+		<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="34" to="40" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pumperla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hyperas</forename></persName>
+		</author>
+		<ptr target="http://maxpumperla.com/hyperas/" />
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<monogr>
+		<title level="m" type="main">Smac v3: Algorithm configuration in python</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lindauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Eggensperger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feurer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Falkner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Biedenkapp</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hutter</surname></persName>
+		</author>
+		<ptr target="https://github.com/automl/SMAC3" />
+		<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Head</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gilles</forename><surname>Mechcoder</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Louppe</surname></persName>
+		</author>
+		<idno type="DOI">10.5281/zenodo.1207017</idno>
+		<idno>scikitoptimize/scikit- optimize: v0.5.2</idno>
+		<ptr target="https://doi.org/10.5281/zenodo.1207017" />
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<monogr>
+		<author>
+			<persName><forename type="first">N</forename><surname>Knudde</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van Der Herten</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dhaene</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Couckuyt</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1711.03845</idno>
+		<ptr target="https://arxiv.org/abs1711.03845" />
+		<title level="m">GPflowOpt: A Bayesian Optimization Library using TensorFlow</title>
+				<imprint>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b120">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">Autonomio</forename><surname>Talos</surname></persName>
+		</author>
+		<ptr target="http://github.com/autonomio/talos" />
+		<imprint>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note>Computer software</note>
+</biblStruct>
+
+<biblStruct xml:id="b121">
+	<analytic>
+		<author>
+			<persName><forename type="first">L</forename><surname>Hertel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sadowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Collado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Baldi</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sherpa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Hyperparameter Optimization for Machine Learning Models, Conf. Neural Inf</title>
+				<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b122">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><surname>Abadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Agarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Brevdo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Citro</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1603.04467</idno>
+		<ptr target="https://arxiv.org/abs1603.04467" />
+		<title level="m">TensorFlow: Large-Scale Machine Learning on Heterogeneous Distributed Systems</title>
+				<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b123">
+	<monogr>
+		<title level="m" type="main">Osprey: Hyperparameter Optimization for Machine Learning</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Grandgirard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Poinsot</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Krespi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Nénon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Cortesero</surname></persName>
+		</author>
+		<idno type="DOI">10.21105/joss.00034</idno>
+		<ptr target="https://doi.org/10.21105/joss.00034" />
+		<imprint>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">103</biblScope>
+			<biblScope unit="page" from="239" to="248" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b124">
+	<analytic>
+		<title level="a" type="main">Forward and reverse gradient-based hyperparameter optimization</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Franceschi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Donini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Frasconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Pontil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">34th Int. Conf. Mach. Learn. ICML 2017</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page" from="1165" to="1173" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b125">
+	<analytic>
+		<title level="a" type="main">DEAP: Evolutionary algorithms made easy</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">A</forename><surname>Fortin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">M</forename><surname>De Rainville</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Gardner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Parizeau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gagńe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mach. Learn. Res</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="2171" to="2175" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b126">
+	<analytic>
+		<title level="a" type="main">TPOT: A tree-based pipeline optimization tool for automating machine learning</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Olson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Moore</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-030-05318-58</idno>
+		<ptr target="https://doi.org/" />
+	</analytic>
+	<monogr>
+		<title level="j">Auto Mach. Learn</title>
+		<imprint>
+			<biblScope unit="page" from="151" to="160" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b127">
+	<monogr>
+		<title level="m" type="main">Nevergrad -A gradient-free optimization platform</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Rapin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Teytaud</surname></persName>
+		</author>
+		<ptr target="https://GitHub.com/FacebookResearch/Nevergrad" />
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b128">
+	<monogr>
+		<title level="m" type="main">Hyperparameter Optimization of Machine Learning Algorithms</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Shami</surname></persName>
+		</author>
+		<ptr target="https://github.com/LiYangHart/Hyperparameter-Optimization-of-Machine-Learning-Algorithms" />
+		<imprint>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b129">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Bishop</surname></persName>
+		</author>
+		<title level="m">Neural Networks for Pattern Recognition</title>
+				<imprint>
+			<publisher>Oxford University Press</publisher>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b130">
+	<analytic>
+		<title level="a" type="main">Imagenet classification with deep convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krizhevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sutskever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Adv. Neural Inf. Process. Syst</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="1097" to="1105" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b131">
+	<monogr>
+		<author>
+			<persName><forename type="first">N</forename><surname>Hansen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Auger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Mersmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tusar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Brockhoff</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1603.08785</idno>
+		<ptr target="https://arxiv.org/abs1603.08785" />
+		<title level="m">COCO: A Platform for Comparing Continuous Optimizers in a Black-Box Setting</title>
+				<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b132">
+	<analytic>
+		<title level="a" type="main">On over-fitting in model selection and subsequent selection bias in performance evaluation</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Cawley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">L C</forename><surname>Talbot</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mach. Learn. Res</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="2079" to="2107" />
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b133">
+	<analytic>
+		<title level="a" type="main">SystemML: declarative machine learning on spark</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Boehm</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Surve</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tatikonda</surname></persName>
+		</author>
+		<idno type="DOI">10.14778/3007263.3007279</idno>
+		<ptr target="https://doi.org/10.14778/3007263.3007279" />
+	</analytic>
+	<monogr>
+		<title level="m">Proc. VLDB Endow</title>
+				<meeting>VLDB Endow</meeting>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="1425" to="1436" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b134">
+	<analytic>
+		<title level="a" type="main">Mllib: machine learning in apache spark</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Meng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bradley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Yavuz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">J. Mach. Learn. Res</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1235" to="1241" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b135">
+	<analytic>
+		<title level="a" type="main">Currently, he is a Postdoctoral Associate and Sessional Lecturer in the Optimized Computing and Communications (OC2) Lab at Western University. His research interests include cybersecurity, machine learning, AutoML, deep learning, network data analytics</title>
+	</analytic>
+	<monogr>
+		<title level="s">his MASc. degree in Engineer</title>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+		<respStmt>
+			<orgName>Li Yang received his Ph.D. in Electrical and Computer Engineering from Western University ; ing from the University of Guelph ; Computer Science from Wuhan University of Science and Technology</orgName>
+		</respStmt>
+	</monogr>
+	<note>and his B.E. degree in. Internet of Things (IoT), anomaly detection, online learning, concept drift, and time series data analytics</note>
+</biblStruct>
+
+<biblStruct xml:id="b136">
+	<analytic>
+		<title level="a" type="main">where he is also the Director of the Optimized Computing and Communications Laboratory. Dr. Shami has chaired key symposia for the IEEE GLOBECOM</title>
+	</analytic>
+	<monogr>
+		<title level="m">IEEE International Conference on Computing, Networking and Communications. He was the elected Chair for the IEEE Communications Society Technical Committee on Communications</title>
+				<meeting><address><addrLine>London, ON, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+		<respStmt>
+			<orgName>Abdallah Shami is currently a Professor in the Electrical and Computer Engineering Department and the Acting Associate Dean (Research) of the Faculty of Engineering, Western University</orgName>
+		</respStmt>
+	</monogr>
+	<note>He is currently an Associate Editor of the IEEE Transactions on Mobile Computing, IEEE Internet of Things, and IEEE Communications Surveys and Tutorials journals</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

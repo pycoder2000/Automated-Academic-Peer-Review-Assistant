@@ -1,0 +1,6 @@
+Title: Thumbs up? Sentiment Classification using Machine Learning Techniques
+Published: 2002-05-27
+Link: https://www.semanticscholar.org/paper/12d0353ce8b41b7e5409e5a4a611110aee33c7bc
+
+Abstract:
+We consider the problem of classifying documents not by topic, but by overall sentiment, e.g., determining whether a review is positive or negative. Using movie reviews as data, we find that standard machine learning techniques definitively outperform human-produced baselines. However, the three machine learning methods we employed (Naive Bayes, maximum entropy classification, and support vector machines) do not perform as well on sentiment classification as on traditional topic-based categorization. We conclude by examining factors that make the sentiment classification problem more challenging.

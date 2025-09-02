@@ -1,0 +1,376 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Commercial use of expert systems in the US</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ansari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Modarress</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Systems Management</title>
+		<imprint>
+			<biblScope unit="page" from="11" to="16" />
+			<date type="published" when="1990-12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Learning and classification of monotonic ordinal concepts</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ben-David</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Sterling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Pa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computational Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="45" to="49" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Automatic generation of symbolic multiattribute ordinal knowledge-based DSSs: Methodology and applications</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ben-David</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Decision Sciences</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="1357" to="1372" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Can machine learning offer anything to expert systems</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Buchanan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine Learning</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="251" to="254" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Linear models in decision-making</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Dawes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Corrigan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">81</biblScope>
+			<biblScope unit="page" from="95" to="106" />
+			<date type="published" when="1974" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Use of nonlinear, noncompensatory models as a function of task and amount of information</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">J</forename><surname>Einhorn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">73</biblScope>
+			<biblScope unit="page" from="221" to="230" />
+			<date type="published" when="1971" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Ganzach</surname></persName>
+		</author>
+		<title level="m">Goals as determinants of nonlinear noncompensatory judgment strategies: Leniency versus strictness. Organizational Behavior and Human Decision Processes</title>
+				<imprint/>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Building Expert Systems</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hayes-Roth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Waterman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Lenat</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1983" />
+			<publisher>Addison-Wesley</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Learning representative exemplars of concepts: An initial case study</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kibler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">W</forename><surname>Aha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 4th International Workshop on Machine Learning</title>
+				<editor>
+			<persName><forename type="first">P</forename><surname>Langley</surname></persName>
+		</editor>
+		<meeting>the 4th International Workshop on Machine Learning<address><addrLine>Los Altos, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann Publishers</publisher>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="24" to="30" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Limits to decision-making ability in direct multiattribute alternative evaluation</title>
+		<author>
+			<persName><forename type="first">O</forename><forename type="middle">I</forename><surname>Larichev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">M</forename><surname>Moshkovich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Organizational Behavior and Human Decision Processes</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="217" to="233" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Knowledge acquisition by encoding expert rules versus computer induction from examples: A case study involving soybean pathology</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Michalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">L</forename><surname>Chilausky</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Man-Machine Studies</title>
+		<imprint>
+			<biblScope unit="page" from="63" to="87" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Issues in the verification of knowledge in rule-based systems</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Nazareth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. of Man-Machine Studies</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="255" to="271" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Learning efficient classification procedures and their applications to chess and games</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning: An Artificial Intelligence Approach</title>
+				<editor>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Michalski</surname></persName>
+			<persName><forename type="first">J</forename><surname>Carbonell</surname></persName>
+			<persName><forename type="first">&amp;</forename><forename type="middle">T</forename><surname>Mitchell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>San Mateo, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Simplifying trees</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Int. J. of Man-Machine Studies</title>
+		<imprint>
+			<biblScope unit="page" from="221" to="234" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Learning internal representations by error propagation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Rumelhart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Parallel Distributed Processing</title>
+				<editor>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Rumelhart</surname></persName>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Mclelland</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>The MIT Press</publisher>
+			<date type="published" when="1986" />
+			<biblScope unit="volume">1</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Managerial applications of neural networks: The case of bank failure predictions</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">Y</forename><surname>Tam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Kiang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Management Science</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="926" to="947" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">The Monk&apos;s Problems: A performance comparison of different learning algorithms</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">B</forename><surname>Thrun</surname></persName>
+		</author>
+		<idno>CMU-CS-91-197</idno>
+		<imprint>
+			<date type="published" when="1991" />
+		</imprint>
+		<respStmt>
+			<orgName>Computer Science Dept. Carnegie Mellon University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Judgement under uncertainty: Heuristics and biases</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Tversky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kahneman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Judgement under Uncertainty: Heuristic and biases</title>
+				<editor>
+			<persName><forename type="first">D</forename><surname>Kahneman</surname></persName>
+			<persName><forename type="first">P</forename><surname>Slovic</surname></persName>
+			<persName><forename type="first">&amp;</forename><forename type="middle">A</forename><surname>Tversky</surname></persName>
+		</editor>
+		<imprint>
+			<publisher>Cambridge University Press</publisher>
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Estimating coefficients in linear models: It don&apos;t make no never mind</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wainer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Bulletin</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="213" to="217" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

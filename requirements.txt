@@ -12,4 +12,5 @@ scikit-learn
 fastapi
 uvicorn
 pandas
-label-studio-sdk   # optional for annotation
+label-studio-sdk  
+huggingface_hub

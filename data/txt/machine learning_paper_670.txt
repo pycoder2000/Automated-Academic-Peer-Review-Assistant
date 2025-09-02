@@ -1,0 +1,6 @@
+Title: Matrix Calculus for Machine Learning
+Published: 2020-06-24T19:25:08Z
+Link: https://doi.org/10.1201/9781351051507-5
+
+Abstract:
+

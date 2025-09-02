@@ -1,0 +1,6 @@
+Title: Machine Learning Algorithm in Agricultural Machine Vision System
+Published: 2023-02-06T01:57:18Z
+Link: https://doi.org/10.38007/ml.2020.010404
+
+Abstract:
+

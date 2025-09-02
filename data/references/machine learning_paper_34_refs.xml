@@ -1,0 +1,480 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Pushing the Technical Frontier: From Overwhelmingly Large Data Sets to Machine Learning</title>
+		<author>
+			<persName><forename type="first">Viviana</forename><surname>Acquaviva</surname></persName>
+		</author>
+		<idno type="DOI">10.1017/S1743921319003077</idno>
+		<idno type="arXiv">arXiv:1901.05978</idno>
+		<ptr target="http://arxiv.org/abs/1901.05978" />
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the International Astronomical Union</title>
+		<idno type="ISSN">1743-9213</idno>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">S341</biblScope>
+			<biblScope unit="page" from="1743" to="9221" />
+			<date type="published" when="2019-11" />
+		</imprint>
+	</monogr>
+	<note>astro-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Second Data Release of the Hyper Suprime-Cam Subaru Strategic Program</title>
+		<author>
+			<persName><forename type="first">Hiroaki</forename><surname>Aihara</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/pasj/psz103</idno>
+		<idno type="arXiv">arXiv:1905.12221</idno>
+		<ptr target="http://arxiv.org/abs/1905.12221" />
+	</analytic>
+	<monogr>
+		<title level="j">Publications of the Astronomical Society of Japan</title>
+		<imprint>
+			<biblScope unit="volume">71</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page">114</biblScope>
+			<date type="published" when="2019-12" />
+		</imprint>
+	</monogr>
+	<note>astro-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">DeepMerge: Classifying high-redshift merging galaxies with deep neural networks&quot;. en</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ćiprijanović</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.ascom.2020.100390</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Astronomy and Computing</title>
+		<idno type="ISSN">2213-1337</idno>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page">100390</biblScope>
+			<date type="published" when="2020-07" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">The Astropy Project: Sustaining and Growing a Communityoriented Open-source Project and the Latest Major Release (v5.0) of the Core Package</title>
+		<idno type="DOI">10.3847/1538-4357/ac7c74</idno>
+		<ptr target="https://arxiv.org/abs/2206.14220v1" />
+		<imprint>
+			<date type="published" when="2022-06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Rotation-invariant convolutional neural networks for galaxy morphology prediction</title>
+		<author>
+			<persName><forename type="first">Sander</forename><surname>Dieleman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kyle</forename><forename type="middle">W</forename><surname>Willett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joni</forename><surname>Dambre</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/mnras/stv632</idno>
+		<ptr target="https://doi.org/10.1093/mnras/stv632" />
+	</analytic>
+	<monogr>
+		<title level="j">Monthly Notices of the Royal Astronomical Society</title>
+		<imprint>
+			<biblScope unit="volume">450</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="1441" to="1459" />
+			<date type="published" when="2015-06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Datasheets for Datasets</title>
+		<author>
+			<persName><forename type="first">Timnit</forename><surname>Gebru</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1803.09010</idno>
+		<idno>arXiv: 1803.09010</idno>
+		<ptr target="http://arxiv.org/abs/1803.09010" />
+		<imprint>
+			<date type="published" when="2018-03" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">FITS: A Remarkable Achievement in Information Exchange</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">W</forename><surname>Greisen</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/0-306-48080-8_5</idno>
+		<ptr target="http://link.springer.com/chapter/10.1007/0-306-48080-8_5" />
+	</analytic>
+	<monogr>
+		<title level="m">Information Handling in Astronomy -Historical Vistas</title>
+				<editor>
+			<persName><forename type="first">André</forename><surname>Heck</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Netherlands</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2002-01" />
+			<biblScope unit="page" from="71" to="87" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Hierarchical Data Format, Version 5. eng. web page</title>
+		<ptr target="https://www.loc.gov/preservation/digital/formats/fdd/fdd000229.shtml" />
+		<imprint>
+			<date type="published" when="2022-05" />
+		</imprint>
+		<respStmt>
+			<orgName>HDF5</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">LSST: from Science Drivers to Reference Design and Anticipated Data Products</title>
+		<author>
+			<persName><forename type="first">Željko</forename><surname>Ivezić</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/1538-4357/ab042c</idno>
+		<idno type="arXiv">arXiv:0805.2366</idno>
+		<ptr target="http://arxiv.org/abs/0805.2366" />
+		<imprint>
+			<date type="published" when="2018-05" />
+		</imprint>
+	</monogr>
+	<note>astro-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Photometric Redshifts for Cosmology: Improving Accuracy and Uncertainty Estimates Using Bayesian Neural Networks</title>
+		<author>
+			<persName><forename type="first">Evan</forename><surname>Jones</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2202.07121</idno>
+		<idno>arXiv:2202.07121</idno>
+		<imprint/>
+	</monogr>
+	<note>astro-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.48550/arXiv.2202.07121</idno>
+		<ptr target="http://arxiv.org/abs/2202.07121" />
+		<imprint>
+			<date type="published" when="2022-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">THE COSMOS2015 CATALOG: EXPLORING THE 1 &amp;lt$\mathsemicolon$ $\less$i$\greater$z$\less$/i$\greater$ &amp;lt$\mathsemicolon$ 6 UNIVERSE WITH HALF A MILLION GALAXIES</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Laigle</surname></persName>
+		</author>
+		<idno type="DOI">10.3847/0067-0049/224/2/24</idno>
+		<idno>DOI: 10.3847/ 0067-0049/224/2/24</idno>
+		<ptr target="https://doi.org/10" />
+	</analytic>
+	<monogr>
+		<title level="j">The Astrophysical Journal Supplement Series</title>
+		<idno type="ISSN">0067-0049</idno>
+		<imprint>
+			<biblScope unit="volume">224</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2016-06" />
+			<publisher>American Astronomical Society</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Weak Lensing for Precision Cosmology</title>
+		<author>
+			<persName><forename type="first">Rachel</forename><surname>Mandelbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-astro-081817-051928</idno>
+		<idno>DOI: 10.1146/annurev-astro-081817-051928</idno>
+		<ptr target="https://doi.org/10.1146/annurev-astro-081817-051928" />
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Astronomy and Astrophysics</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="393" to="433" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">TensorFlow: Large-Scale Machine Learning on Heterogeneous Systems</title>
+		<author>
+			<persName><forename type="first">Martín</forename><surname>Abadi</surname></persName>
+		</author>
+		<ptr target="https://www.tensorflow.org/" />
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note>Software available from tensorflow.org</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Photometric Redshifts for Next-Generation Surveys</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jeffrey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Newman</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gruen</surname></persName>
+		</author>
+		<idno type="DOI">10.1146/annurev-astro-032122-014611</idno>
+		<idno>DOI: 10.1146/annurev- astro-032122-014611</idno>
+		<ptr target="https://doi.org/10.1146/annurev-astro-032122-014611" />
+	</analytic>
+	<monogr>
+		<title level="j">Annual Review of Astronomy and Astrophysics</title>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="page" from="363" to="414" />
+			<date type="published" when="2022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">PyTorch: An Imperative Style, High-Performance Deep Learning Library</title>
+		<author>
+			<persName><forename type="first">Adam</forename><surname>Paszke</surname></persName>
+		</author>
+		<ptr target="http://papers.neurips.cc/paper/9015-pytorch-an-imperative-style-high-performance-deep-learning-library.pdf" />
+	</analytic>
+	<monogr>
+		<title level="j">Advances in Neural Information Processing Systems</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="8024" to="8035" />
+			<date type="published" when="2019" />
+			<publisher>Curran Associates, Inc</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Search By Image: Citizen Science and Deep Learning for nextgeneration archives</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Peek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>White</surname></persName>
+		</author>
+		<ptr target="https://ui.adsabs.harvard.edu/abs/2021AAS...23830106P" />
+	</analytic>
+	<monogr>
+		<title level="m">Conference Name: American Astronomical Society Meeting Abstracts ADS Bibcode: 2021AAS...23830106P</title>
+				<imprint>
+			<date type="published" when="2021-06" />
+			<biblScope unit="page">6</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">The Euclid mission design</title>
+		<author>
+			<persName><forename type="first">Giuseppe</forename><forename type="middle">D</forename><surname>Racca</surname></persName>
+		</author>
+		<idno type="DOI">10.1117/12.2230762</idno>
+		<idno type="arXiv">arXiv:1610.05508</idno>
+		<ptr target="http://arxiv.org/abs/1610.05508" />
+		<imprint>
+			<date type="published" when="2016-07" />
+			<biblScope unit="page">99040O</biblScope>
+		</imprint>
+	</monogr>
+	<note>astro-ph</note>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">The LSST DESC data challenge 1: generation and analysis of synthetic images for next-generation surveys</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sánchez</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/mnras/staa1957</idno>
+		<ptr target="https://doi.org/10.1093/mnras/staa1957" />
+	</analytic>
+	<monogr>
+		<title level="j">Monthly Notices of the Royal Astronomical Society</title>
+		<imprint>
+			<biblScope unit="volume">497</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="210" to="228" />
+			<date type="published" when="2020-09" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">The Cosmic Evolution Survey (COSMOS): Overview</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Scoville</surname></persName>
+		</author>
+		<idno type="DOI">10.1086/516585</idno>
+		<ptr target="https://ui.adsabs.harvard.edu/abs/2007ApJS..172....1S" />
+	</analytic>
+	<monogr>
+		<title level="m">1S</title>
+		<title level="s">ADS Bibcode</title>
+		<imprint>
+			<date type="published" when="2007" />
+			<biblScope unit="volume">172</biblScope>
+			<biblScope unit="page" from="1" to="8" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Once FITS, Always FITS? Astronomical Infrastructure in Transition</title>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Scroggins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernadette</forename><forename type="middle">M</forename><surname>Boscoe</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MAHC.2020.2986745</idno>
+		<ptr target="http://arxiv.org/abs/1809.09224" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Annals of the History of Computing</title>
+		<idno type="ISSN">1058-6180</idno>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="42" to="54" />
+			<date type="published" when="2020-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Designing and mining multi-terabyte astronomy archives: the Sloan Digital Sky Survey</title>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">S</forename><surname>Szalay</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/342009.335439</idno>
+		<ptr target="http://portal.acm.org/citation.cfm?doid=342009.335439" />
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>ACM Press</publisher>
+			<biblScope unit="page" from="451" to="462" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Galaxy Zoo DECaLS: Detailed visual morphology measurements from volunteers and deep learning for 314 000 galaxies</title>
+		<author>
+			<persName><forename type="first">Mike</forename><surname>Walmsley</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/mnras/stab2093</idno>
+		<ptr target="https://doi.org/10.1093/mnras/stab2093" />
+	</analytic>
+	<monogr>
+		<title level="j">Monthly Notices of the Royal Astronomical Society</title>
+		<idno type="ISSN">0035-8711. DOI: 10.1093/ mnras/stab2093</idno>
+		<imprint>
+			<biblScope unit="volume">509</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="3966" to="3988" />
+			<date type="published" when="2021-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<monogr>
+		<title level="m" type="main">Streamlining the Sloan Digital Sky Survey Public Data Releases: Changes Made and Lessons Learned</title>
+		<author>
+			<persName><forename type="first">Anne-Marie</forename><surname>Weijmans</surname></persName>
+		</author>
+		<imprint>
+			<biblScope unit="page">4</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Predicting galaxy spectra from images with hybrid convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E G</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Peek</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2009.12318</idno>
+		<idno>arXiv: 2009.12318</idno>
+		<ptr target="http://arxiv.org/abs/2009.12318" />
+		<imprint>
+			<date type="published" when="2020-11" />
+		</imprint>
+	</monogr>
+	<note>astro-ph</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

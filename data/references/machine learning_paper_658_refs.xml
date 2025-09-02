@@ -1,0 +1,609 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Structured decision tasks methodology for developing and integrating knowledge base systems</title>
+		<author>
+			<persName><forename type="first">Attar</forename><surname>Software</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Attar Software</title>
+		<imprint>
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">ETS: A system for the transfer of human expertise</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Boose</surname></persName>
+		</author>
+		<editor>J. S. Kowalik</editor>
+		<imprint>
+			<date type="published" when="1986" />
+			<publisher>Prentice-Hall</publisher>
+			<pubPlace>New York</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Knowledge based problem solving</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Interactive induction</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Buntine</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Stirling</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Intelligence 12</title>
+				<editor>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Hayes</surname></persName>
+			<persName><forename type="first">D</forename><surname>Michie</surname></persName>
+			<persName><forename type="first">&amp;ė</forename><surname>Tyugu</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Oxford</addrLine></address></meeting>
+		<imprint>
+			<publisher>Clarendon Press</publisher>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Ripple down rules: Turning knowledge acquisition into knowledge maintenance</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Compton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Edwards</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Srinivasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Malor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Preston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Lazarus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence in Medicine</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="47" to="59" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Knowledge-based systems in artificial intelligence</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Davis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Lenat</surname></persName>
+		</author>
+		<editor>McGraw-Hill: New York. De Raedt, L.</editor>
+		<imprint>
+			<date type="published" when="1982" />
+			<publisher>Academic Press</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Interactive theory revision</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Average-case improvements when integrating ML and KA</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gams</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Drobnič</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Karba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="87" to="99" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Acquiring first order knowledge about air traffic control</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kodratoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Vrain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knowledge Acquisition</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="1" to="36" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Elements of Machine Learning</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Langley</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Morgan Kaufmann</publisher>
+			<pubPlace>San Francisco</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A framework to improve knowledge acquisition based on machine learning</title>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Grand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sallantin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Eleventh European Conference on Artificial Intelligence</title>
+				<meeting>the Eleventh European Conference on Artificial Intelligence<address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>John Wiley</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="493" to="497" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">UCI repository of machine learning databases</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Merz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Murphy</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<pubPlace>Irvine</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of California, Department of Information and Computer Science</orgName>
+		</respStmt>
+	</monogr>
+	<note>Machine-readable data repository</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">A theory and methodology of inductive learning</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Michalski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine learning: An artificial intelligence approach</title>
+				<editor>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Michalski</surname></persName>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Carbonell</surname></persName>
+			<persName><forename type="first">&amp;</forename><forename type="middle">T M</forename><surname>Mitchell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Aquiring domain models</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Morik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Man-Machine Studies</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="93" to="104" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Knowledge acquisition and machine learning: Theory, methods, and applications</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Morik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wrobel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-U</forename><surname>Kietz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Emde</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1993" />
+			<publisher>Academic Press</publisher>
+			<pubPlace>London</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Knowledge refinement using knowledge acquisition and machine learning methods</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nedellec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Causse</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1992 European Knowledge Acquisition Workshop</title>
+				<meeting>the 1992 European Knowledge Acquisition Workshop<address><addrLine>Berlin</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer-Verlag</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="171" to="190" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Machine learning goes to the bank</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nedellec</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Correia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>Ferreira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Costa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Artificial Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="593" to="615" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">A development environment for inductive learning systems</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">L</forename><surname>O'neil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Pearson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1987 Australian Joint Artificial Intelligence Conference</title>
+				<meeting>the 1987 Australian Joint Artificial Intelligence Conference<address><addrLine>Sydney</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="673" to="680" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Cooperative knowledge evolution for complex domains</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">A</forename><surname>San Mateo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schmalhofer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tschaitschian</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine learning and knowledge acquisition: Integrated approaches</title>
+				<editor>
+			<persName><forename type="first">G</forename><surname>Tecuci</surname></persName>
+			<persName><forename type="first">&amp; Y</forename><surname>Kodratoff</surname></persName>
+		</editor>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+	<note>C4.5: Programs for machine learning</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Representation and use of explicit justifications for knowledge base refinement</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Winston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Buchanan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Ninth International Joint Conference on Artificial Intelligence</title>
+				<meeting>the Ninth International Joint Conference on Artificial Intelligence<address><addrLine>San Mateo, Ca</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1985" />
+			<biblScope unit="page" from="673" to="680" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">What online machine learning can do for knowledge acquisition-A case study</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sommer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Morik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-M</forename><surname>André</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Uszynski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knowledge Acquisition</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="435" to="460" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title level="m" type="main">Machine learning: An artificial intelligence approach</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tecuci</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kodratoff</surname></persName>
+		</author>
+		<editor>Y. Kodratoff &amp; R. Michalski</editor>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>Morgan Kaufmann</publisher>
+			<pubPlace>San Mateo, CA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Apprenticship learning in imperfect domain theories</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Building knowledge bases through multistrategy learning and knowledge acquisition</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Tecuci</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine learning and knowledge acquisition: Integrated approaches</title>
+				<editor>
+			<persName><forename type="first">G</forename><surname>Tecuci</surname></persName>
+			<persName><forename type="first">&amp; Y</forename><surname>Kodratoff</surname></persName>
+		</editor>
+		<meeting><address><addrLine>London</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Man-machine collaboration for knowledge acquisition</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Webb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fifth Australian Joint Conference on Artificial Intelligence</title>
+				<meeting>the Fifth Australian Joint Conference on Artificial Intelligence<address><addrLine>Singapore</addrLine></address></meeting>
+		<imprint>
+			<publisher>World Scientific</publisher>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="329" to="334" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">DLGref2: Techniques for inductive knowledge refinement</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Webb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the IJCAI Workshop on Machine Learning and Knowledge Acquisition: Common Issues, Contrasting Methods, and Integrated Approaches</title>
+				<meeting>the IJCAI Workshop on Machine Learning and Knowledge Acquisition: Common Issues, Contrasting Methods, and Integrated Approaches<address><addrLine>Chambery, France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="236" to="252" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Integrating machine learning with knowledge acquisition through direct interaction with domain experts</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Webb</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Knowledge-Based Systems</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="253" to="266" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Inducing diagnostic rules for glomerular disease with the DLG machine learning algorithm</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Agar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence in Medicine</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="3" to="14" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Recent progress in machine-expert collaboration for knowledge acquisition</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wells</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Eighth Australian Joint Conference on Artificial Intelligence</title>
+				<meeting>the Eighth Australian Joint Conference on Artificial Intelligence<address><addrLine>Singapore</addrLine></address></meeting>
+		<imprint>
+			<publisher>World Scientific</publisher>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="291" to="298" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Experimental evaluation of integrating machine learning with knowledge acquisition through direct interaction with domain experts</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">I</forename><surname>Webb</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wells</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Pacific Knowledge Acquisition Workshop</title>
+				<meeting>the Pacific Knowledge Acquisition Workshop<address><addrLine>Sydney, Australia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="170" to="189" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Knowledge base refinement using apprenticeship learning techniques</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">C</forename><surname>Wilkins</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Seventh National Conference on Artificial Intelligence</title>
+				<meeting>the Seventh National Conference on Artificial Intelligence<address><addrLine>San Mateo, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="646" to="651" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

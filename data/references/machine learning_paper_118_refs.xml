@@ -1,0 +1,3072 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Probabilistic learning for selective dissemination of information</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Amati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Crestani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information Processing and Management</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="633" to="654" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An experimental comparison of naive Bayesian and keyword-based anti-spam filtering with personal e-mail messages</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Androutsopoulos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Koutsias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">V</forename><surname>Chandrinos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">D</forename><surname>Spyropoulos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-00, 23rd ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-00, 23rd ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Athens, GR</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="160" to="167" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Automated learning of decision rules for text categorization</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Apté</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Damerau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Weiss</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="233" to="251" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Categorization by context</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Attardi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Di Marco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Salvi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Universal Computer Science</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="719" to="736" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Distributional clustering of words for text classification</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">D</forename><surname>Baker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Mccallum</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-98, 21st ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-98, 21st ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Melbourne, AU</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="96" to="103" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Information filtering and information retrieval: two sides of the same coin?</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">J</forename><surname>Belkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Croft</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="29" to="38" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">The automatic indexing system AIR/PHYS. From research to application</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Biebricher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fuhr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Knorz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lustig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schwantner</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-88, 11th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-88, 11th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Grenoble, FR</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1988" />
+			<biblScope unit="page" from="513" to="517" />
+		</imprint>
+	</monogr>
+	<note>Sparck Jones and Willett 1997</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Automatic document classification</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Borko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bernick</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Association for Computing Machinery</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="151" to="161" />
+			<date type="published" when="1963" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A learner-independent evaluation of the usefulness of statistical phrases for automated text categorization</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Caropreso</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Matwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sebastiani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Text Databases and Document Management: Theory and Practice</title>
+				<editor>
+			<persName><forename type="first">A</forename><forename type="middle">G</forename><surname>Chin Ed</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Hershey, US</addrLine></address></meeting>
+		<imprint>
+			<publisher>Idea Group Publishing</publisher>
+			<date type="published" when="2001" />
+			<biblScope unit="page">49</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">N-gram-based text categorization</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Cavnar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Trenkle</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SDAIR-94, 3rd Annual Symposium on Document Analysis and Information Retrieval</title>
+				<meeting>SDAIR-94, 3rd Annual Symposium on Document Analysis and Information Retrieval<address><addrLine>Las Vegas, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="161" to="175" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Scalable feature selection, classification and signature generation for organizing large text databases into hierarchical topic taxonomies</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chakrabarti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Dom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Agrawal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Raghavan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Very Large Data Bases</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="163" to="178" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Enhanced hypertext categorization using hyperlinks</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chakrabarti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">E</forename><surname>Dom</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Indyk</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGMOD-98, ACM International Conference on Management of Data</title>
+				<meeting>SIGMOD-98, ACM International Conference on Management of Data<address><addrLine>Seattle, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="307" to="318" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Autonomous document classification for business</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Clack</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Farringdon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Lidwell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1st International Conference on Autonomous Agents</title>
+				<meeting>the 1st International Conference on Autonomous Agents<address><addrLine>Marina del Rey, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="201" to="208" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Optimizing convenient online access to bibliographic databases</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cleverdon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">formation Services and Use</title>
+				<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page" from="32" to="41" />
+		</imprint>
+	</monogr>
+	<note>Willett 1988]</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Learning to classify English text with ILP methods</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in inductive logic programming</title>
+				<editor>
+			<persName><forename type="first">L</forename><surname>De Raedt</surname></persName>
+			<persName><forename type="first">Ed</forename></persName>
+		</editor>
+		<meeting><address><addrLine>Amsterdam, NL</addrLine></address></meeting>
+		<imprint>
+			<publisher>IOS Press</publisher>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="124" to="143" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Text categorization and relational learning</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Cohen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICML-95, 12th International Conference on Machine Learning</title>
+				<meeting>ICML-95, 12th International Conference on Machine Learning<address><addrLine>Lake Tahoe, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="124" to="132" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Joins that generalize: text classification using Whirl</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Hirsh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of KDD-98, 4th International Conference on Knowledge Discovery and Data Mining</title>
+				<meeting>KDD-98, 4th International Conference on Knowledge Discovery and Data Mining<address><addrLine>New York, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="169" to="173" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Context-sensitive learning methods for text categorization</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">W</forename><surname>Cohen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Singer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page" from="141" to="173" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Some inconsistencies and misnomers in probabilistic information retrieval</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">S</forename><surname>Cooper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="100" to="111" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Trading MIPS and memory for knowledge engineering: classifying census returns on the Connection Machine</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Creecy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Masand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">J</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Waltz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="page" from="48" to="63" />
+			<date type="published" when="1992" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Is this document relevant? . . . probably&quot;. A survey of probabilistic models in information retrieval</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Crestani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lalmas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Van Rijsbergen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Campbell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Computing Surveys</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="528" to="552" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Mistake-driven learning in text categorization</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Dagan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Karov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roth</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of EMNLP-97, 2nd Conference on Empirical Methods in Natural Language Processing</title>
+				<meeting>EMNLP-97, 2nd Conference on Empirical Methods in Natural Language Processing<address><addrLine>Providence, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="55" to="63" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Indexing by latent semantic indexing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Deerwester</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Dumais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">W</forename><surname>Furnas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">K</forename><surname>Landauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Harshman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Society for Information Science</title>
+		<imprint>
+			<biblScope unit="volume">41</biblScope>
+			<biblScope unit="page" from="391" to="407" />
+			<date type="published" when="1990" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">HMM-based passage models for document classification and ranking</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Denoyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Zaragoza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Gallinari</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ECIR-01</title>
+				<meeting>ECIR-01<address><addrLine>Darmstadt, DE</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Integrating linguistic resources in an uniform way for text classification tasks</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Díaz Esteban</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>De Buenaga Rodríguez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Ureña López</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">García</forename><surname>Vega</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of LREC-98, 1st International Conference on Language Resources and Evaluation</title>
+				<meeting>LREC-98, 1st International Conference on Language Resources and Evaluation<address><addrLine>Grenada, ES</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="1197" to="1204" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">On the the optimality of the simple Bayesian classifier under zero-one loss</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Domingos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pazzani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine Learning</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">2-3</biblScope>
+			<biblScope unit="page" from="103" to="130" />
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">Automatic text categorization and its applications to text retrieval</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Drucker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vapnik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Wu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Neural Networks</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="1048" to="1054" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Hierarchical classification of Web content</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Dumais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-00, 23rd ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-00, 23rd ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Athens, GR</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="256" to="263" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Inductive learning algorithms and representations for text categorization</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Dumais</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Platt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Heckerman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sahami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of CIKM-98</title>
+				<meeting>CIKM-98</meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page">7</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m">ACM International Conference on Information and Knowledge Management</title>
+				<meeting><address><addrLine>Bethesda, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="148" to="155" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Boosting applied to word sense disambiguation</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Escudero</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Màrquez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Rigau</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ECML-00, 11th European Conference on Machine Learning</title>
+				<meeting>ECML-00, 11th European Conference on Machine Learning<address><addrLine>Barcelona, ES</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="129" to="141" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">Towards automatic indexing: automatic assignment of controlled-language indexing and classification from free indexing</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Field</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Documentation</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="246" to="265" />
+			<date type="published" when="1975" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Text categorization for multi-page documents: A hybrid naive Bayes HMM approach</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Forsyth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Frasconi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Soda</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Vullo</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Intelligent Information Systems. Forthcoming</title>
+		<editor>A. Gammerman Ed.,</editor>
+		<imprint>
+			<biblScope unit="page" from="151" to="185" />
+			<date type="published" when="1999" />
+			<publisher>Springer</publisher>
+		</imprint>
+	</monogr>
+	<note>Causal models and intelligent data management</note>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">A probabilistic model of dictionary-based automatic indexing</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fuhr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of RIAO-85, 1st International Conference</title>
+				<meeting>RIAO-85, 1st International Conference<address><addrLine>Grenoble, FR</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1985" />
+			<biblScope unit="page" from="207" to="216" />
+		</imprint>
+	</monogr>
+	<note>Recherche d&apos;Information Assistee par Ordinateur</note>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Models for retrieval with probabilistic indexing</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fuhr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information Processing and Management</title>
+		<imprint>
+			<biblScope unit="volume">25</biblScope>
+			<biblScope unit="page" from="55" to="72" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">A probabilistic learning approach for document indexing</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fuhr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Buckley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="223" to="248" />
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">AIR/X -a rule-based multistage indexing system for large subject fields</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fuhr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Knorz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Lustig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schwantner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tzeras</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of RIAO-91, 3rd International Conference &quot;Recherche d&apos;Information Assistee par Ordinateur</title>
+				<meeting>RIAO-91, 3rd International Conference &quot;Recherche d&apos;Information Assistee par Ordinateur<address><addrLine>Barcelona, ES</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="page" from="606" to="623" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Retrieval test evaluation of a rule-based automated indexing (AIR/PHYS)</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fuhr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Knorz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-84, 7th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-84, 7th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Cambridge, UK</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="page" from="391" to="408" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Probabilistic information retrieval as combination of abstraction inductive learning and probabilistic assumptions</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fuhr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Pfeifer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="92" to="115" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Exploiting structural information for text classification on the WWW</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fürnkranz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of IDA-99, 3rd Symposium on Intelligent Data Analysis</title>
+				<meeting>IDA-99, 3rd Symposium on Intelligent Data Analysis<address><addrLine>Amsterdam, NL</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="487" to="497" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Experiments on the use of feature selection and negative evidence in automated text categorization</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Galavotti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sebastiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Simi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ECDL-00, 4th European Conference on Research and Advanced Technology for Digital Libraries</title>
+				<meeting>ECDL-00, 4th European Conference on Research and Advanced Technology for Digital Libraries<address><addrLine>Lisbon, PT</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="59" to="68" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">A method for disambiguating word senses in a large corpus</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Gale</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Church</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yarowsky</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computers and the Humanities</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="415" to="439" />
+			<date type="published" when="1993" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<analytic>
+		<title level="a" type="main">A probabilistic description-oriented approach for categorising Web documents</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Gövert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lalmas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fuhr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of CIKM-99, 8th ACM International Conference on Information and Knowledge Management</title>
+				<meeting>CIKM-99, 8th ACM International Conference on Information and Knowledge Management<address><addrLine>Kansas City, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="475" to="482" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<analytic>
+		<title level="a" type="main">Computer-assisted indexing</title>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">J</forename><surname>Harley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information Storage and Retrieval</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="167" to="174" />
+			<date type="published" when="1971" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">Document classification by machine: theory and practice</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Guthrie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Walker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guthrie</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of COLING-94, 15th International Conference on Computational Linguistics</title>
+				<meeting>COLING-94, 15th International Conference on Computational Linguistics<address><addrLine>Kyoto, JP</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="1059" to="1063" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">Tcs: a shell for content-based text categorization</title>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Hayes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Andersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">B</forename><surname>Nirenburg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Schmandt</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of CAIA-90, 6th IEEE Conference on Artificial Intelligence Applications</title>
+				<meeting>CAIA-90, 6th IEEE Conference on Artificial Intelligence Applications<address><addrLine>Santa Barbara, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1990" />
+			<biblScope unit="page" from="320" to="326" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<analytic>
+		<title level="a" type="main">A theory of relevance for automatic document classification</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Heaps</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information and Control</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page" from="268" to="278" />
+			<date type="published" when="1973" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Ohsumed: an interactive retrieval evaluation and new large text collection for research</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Hersh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Buckley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Leone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Hickman</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-94, 17th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-94, 17th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Dublin, IE</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="192" to="201" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Improving text retrieval for the routing problem using latent semantic indexing</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hull</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-94, 17th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-94, 17th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Dublin, IE</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="282" to="289" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">Method combination for document filtering</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schütze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-96, 19th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-96, 19th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Zürich, CH</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="279" to="288" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Text categorization of low quality images</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">J</forename><surname>Ittner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Ahn</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SDAIR-95, 4th Annual Symposium on Document Analysis and Information Retrieval</title>
+				<meeting>SDAIR-95, 4th Annual Symposium on Document Analysis and Information Retrieval<address><addrLine>Las Vegas, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="301" to="315" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Cluster-based text categorization: a comparison of category search strategies</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Iwayama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Tokunaga</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-95, 18th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-95, 18th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Seattle, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="273" to="281" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Boosting for document routing</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">D</forename><surname>Iyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Schapire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Singer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singhal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of CIKM-00, 9th ACM International Conference on Information and Knowledge Management</title>
+				<meeting>CIKM-00, 9th ACM International Conference on Information and Knowledge Management<address><addrLine>McLean, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="70" to="77" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<analytic>
+		<title level="a" type="main">A probabilistic analysis of the Rocchio algorithm with TFIDF for text categorization</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Joachims</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICML-97, 14th International Conference on Machine Learning</title>
+				<meeting>ICML-97, 14th International Conference on Machine Learning<address><addrLine>Nashville, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="143" to="151" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<analytic>
+		<title level="a" type="main">Text categorization with support vector machines: learning with many relevant features</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Joachims</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ECML-98, 10th European Conference on Machine Learning</title>
+				<meeting>ECML-98, 10th European Conference on Machine Learning<address><addrLine>Chemnitz, DE</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="137" to="142" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<analytic>
+		<title level="a" type="main">Transductive inference for text classification using support vector machines</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Joachims</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICML-99, 16th International Conference on Machine Learning</title>
+				<meeting>ICML-99, 16th International Conference on Machine Learning<address><addrLine>Bled, SL</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="200" to="209" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<analytic>
+		<title level="a" type="main">Guest editors&apos; introduction to the special issue on automated text categorization</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Joachims</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sebastiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>John</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Kohavi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pfleger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICML-94, 11th International Conference on Machine Learning</title>
+				<meeting>ICML-94, 11th International Conference on Machine Learning<address><addrLine>New Brunswick, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="121" to="129" />
+		</imprint>
+	</monogr>
+	<note>Irrelevant features and the subset selection problem</note>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<analytic>
+		<title level="a" type="main">Exploiting thesaurus knowledge in rule induction for text classification</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Junker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Abecker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of RANLP-97, 2nd International Conference on Recent Advances in Natural Language Processing</title>
+				<meeting>RANLP-97, 2nd International Conference on Recent Advances in Natural Language Processing<address><addrLine>Tzigov Chark, BL</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="202" to="207" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title level="a" type="main">An experimental evaluation of OCR text representations for learning document classifiers</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Junker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hoch</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal on Document Analysis and Recognition</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="116" to="122" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<title level="m" type="main">Automatic detection of text genre</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Kessler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Nunberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schütze</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title level="m">Proceedings of ACL-97, 35th Annual Meeting of the Association for Computational Linguistics</title>
+				<meeting>ACL-97, 35th Annual Meeting of the Association for Computational Linguistics<address><addrLine>Madrid, ES</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="32" to="38" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">Text filtering by boosting naive Bayes classifiers</title>
+		<author>
+			<persName><forename type="first">Y.-H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S.-Y</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B.-T</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-00, 23rd ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-00, 23rd ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Athens, GR</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="168" to="175" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Detecting concept drift with support vector machines</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Klinkenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Joachims</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICML-00, 17th International Conference on Machine Learning</title>
+				<meeting>ICML-00, 17th International Conference on Machine Learning<address><addrLine>Stanford, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="487" to="494" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Mining online text</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Knight</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">42</biblScope>
+			<biblScope unit="page" from="58" to="61" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<analytic>
+		<title level="a" type="main">A decision theory approach to optimal automated indexing</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Knorz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-82, 5th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-82, 5th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Berlin, DE</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1982" />
+			<biblScope unit="page" from="174" to="193" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<analytic>
+		<title level="a" type="main">Hierarchically classifying documents using very few words</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Koller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Sahami</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICML-97, 14th International Conference on Machine Learning</title>
+				<meeting>ICML-97, 14th International Conference on Machine Learning<address><addrLine>Nashville, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="170" to="178" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<monogr>
+		<title level="m" type="main">Information storage and retrieval</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">R</forename><surname>Korfhage</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Wiley Computer Publishing</publisher>
+			<pubPlace>New York, US</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<analytic>
+		<title level="a" type="main">Feature reduction for neural network based text categorization</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">L</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">L</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of DASFAA-99, 6th IEEE International Conference on Database Advanced Systems for Advanced Application</title>
+				<meeting>DASFAA-99, 6th IEEE International Conference on Database Advanced Systems for Advanced Application<address><addrLine>Hsinchu, TW</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="195" to="202" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<analytic>
+		<title level="a" type="main">Using a generalized instance set for automatic text categorization</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Ho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-98, 21st ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-98, 21st ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Melbourne, AU</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="81" to="89" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<analytic>
+		<title level="a" type="main">Using a Bayesian network induction approach for text categorization</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">F</forename><surname>Low</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">Y</forename><surname>Ho</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of IJCAI-97, 15th International Joint Conference on Artificial Intelligence</title>
+				<meeting>IJCAI-97, 15th International Joint Conference on Artificial Intelligence<address><addrLine>Nagoya, JP</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="745" to="750" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Automatic text categorization and its applications to text retrieval</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Srinivasan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Knowledge and Data Engineering</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="page" from="865" to="879" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">NewsWeeder: learning to filter netnews</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICML-95, 12th International Conference on Machine Learning</title>
+				<meeting>ICML-95, 12th International Conference on Machine Learning<address><addrLine>Lake Tahoe, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="331" to="339" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Automatic essay grading using text categorization techniques</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Larkey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-98, 21st ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-98, 21st ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Melbourne, AU</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="90" to="95" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">A patent search and classification system</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Larkey</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of DL-99, 4th ACM Conference on Digital Libraries</title>
+				<meeting>DL-99, 4th ACM Conference on Digital Libraries<address><addrLine>Berkeley, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="179" to="187" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Combining classifiers in text categorization</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">S</forename><surname>Larkey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Croft</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-96, 19th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-96, 19th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Zürich, CH</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="289" to="297" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<analytic>
+		<title level="a" type="main">An evaluation of phrasal and clustered representations on a text categorization task</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-92, 15th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-92, 15th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Kobenhavn, DK</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="37" to="50" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<monogr>
+		<title level="m" type="main">Representation and learning in information retrieval</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1992" />
+			<pubPlace>Amherst, US</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Computer Science, University of Massachusetts</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph. D. thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<analytic>
+		<title level="a" type="main">Evaluating and optmizing autonomous text classification systems</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-95, 18th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-95, 18th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Seattle, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="246" to="254" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">A sequential algorithm for training text classifiers: corrigendum and additional data</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIGIR Forum</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page" from="13" to="19" />
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">The TREC-4 filtering track: description and analysis</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of TREC-4, 4th Text Retrieval Conference</title>
+				<meeting>TREC-4, 4th Text Retrieval Conference<address><addrLine>Gaithersburg, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="165" to="180" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Naive (Bayes) at forty: The independence assumption in information retrieval</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ECML-98, 10th European Conference on Machine Learning</title>
+				<meeting>ECML-98, 10th European Conference on Machine Learning<address><addrLine>Chemnitz, DE</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="4" to="15" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">Heterogeneous uncertainty sampling for supervised learning</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Catlett</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICML-94, 11th International Conference on Machine Learning</title>
+				<meeting>ICML-94, 11th International Conference on Machine Learning<address><addrLine>New Brunswick, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="148" to="156" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">A sequential algorithm for training text classifiers</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">A</forename><surname>Gale</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-94, 17th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-94, 17th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Dublin, IE</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="3" to="12" />
+		</imprint>
+	</monogr>
+	<note>See also [Lewis</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<analytic>
+		<title level="a" type="main">Guest editorial for the special issue on text categorization</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">J</forename><surname>Hayes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">231</biblScope>
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<analytic>
+		<title level="a" type="main">A comparison of two learning algorithms for text categorization</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ringuette</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SDAIR-94, 3rd Annual Symposium on Document Analysis and Information Retrieval</title>
+				<meeting>SDAIR-94, 3rd Annual Symposium on Document Analysis and Information Retrieval<address><addrLine>Las Vegas, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="81" to="93" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Training algorithms for linear text classifiers</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">D</forename><surname>Lewis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Schapire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Callan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Papka</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-96, 19th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-96, 19th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Zürich, CH</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="298" to="306" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Text classification using ESC-based stochastic decision lists</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Yamanishi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of CIKM-99, 8th ACM International Conference on Information and Knowledge Management</title>
+				<meeting>CIKM-99, 8th ACM International Conference on Information and Knowledge Management<address><addrLine>Kansas City, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="122" to="130" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+		<title level="m" type="main">Classification of text documents. The Computer Journal 41</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">H</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Jain</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="537" to="546" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<analytic>
+		<title level="a" type="main">Text categorization for multiple users based on semantic features from a machine-readable dictionary</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Liddy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Paik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">S</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="278" to="295" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">Active learning with committees for text categorization</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Liere</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Tadepalli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of AAAI-97, 14th Conference of the American Association for Artificial Intelligence</title>
+				<meeting>AAAI-97, 14th Conference of the American Association for Artificial Intelligence<address><addrLine>Providence, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="591" to="596" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<analytic>
+		<title level="a" type="main">Learnable visual keywords for image classification</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Lim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of DL-99, 4th ACM Conference on Digital Libraries</title>
+				<meeting>DL-99, 4th ACM Conference on Digital Libraries<address><addrLine>Berkeley, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="139" to="145" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<monogr>
+		<title level="m" type="main">Foundations of Statistical Natural Language Processing</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Manning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schütze</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<publisher>The MIT Press</publisher>
+			<pubPlace>Cambridge, US</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Automatic indexing: an experimental inquiry</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Maron</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the Association for Computing Machinery</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="404" to="417" />
+			<date type="published" when="1961" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<analytic>
+		<title level="a" type="main">Optimising confidence of text classification by evolution of symbolic expressions</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Masand</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in genetic programming</title>
+				<editor>
+			<persName><forename type="first">K</forename><forename type="middle">E</forename><surname>Kinnear Ed</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cambridge, US</addrLine></address></meeting>
+		<imprint>
+			<publisher>The MIT Press</publisher>
+			<date type="published" when="1994" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="459" to="476" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<analytic>
+		<title level="a" type="main">Classifying news stories using memorybased reasoning</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Masand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Linoff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Waltz</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-92, 15th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-92, 15th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Kobenhavn, DK</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1992" />
+			<biblScope unit="page" from="59" to="65" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Employing EM in pool-based active learning for text classification</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Mccallum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nigam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICML-98, 15th International Conference on Machine Learning</title>
+				<meeting>ICML-98, 15th International Conference on Machine Learning<address><addrLine>Madison, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="350" to="358" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">Improving text classification by shrinkage in a hierarchy of classes</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Mccallum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rosenfeld</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Ng</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICML-98, 15th International Conference on Machine Learning</title>
+				<meeting>ICML-98, 15th International Conference on Machine Learning<address><addrLine>Madison, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="359" to="367" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">Text classification with self-organizing maps: Some lessons learned</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Merkl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="61" to="77" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<monogr>
+		<title level="m" type="main">Machine learning</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mitchell</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>McGraw Hill</publisher>
+			<pubPlace>New York, US</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<analytic>
+		<title level="a" type="main">Feature subset selection in text learning</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mladenić</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ECML-98, 10th European Conference on Machine Learning</title>
+				<meeting>ECML-98, 10th European Conference on Machine Learning<address><addrLine>Chemnitz, DE</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="95" to="100" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Word sequences as features in text-learning</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Mladenić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Grobelnik</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ERK-98, the Seventh Electrotechnical and Computer Science Conference</title>
+				<meeting>ERK-98, the Seventh Electrotechnical and Computer Science Conference<address><addrLine>Ljubljana, SL</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="145" to="148" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<monogr>
+		<title level="m" type="main">statistical, and symbolic approaches to learning for natural language processing</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Moulinier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-G</forename><surname>Ganascia</surname></persName>
+		</author>
+		<editor>S. Wermter, E. Riloff, and G. Scheler Eds., Connectionist</editor>
+		<imprint>
+			<date type="published" when="1996" />
+			<publisher>Springer Verlag</publisher>
+			<biblScope unit="page" from="343" to="354" />
+			<pubPlace>Heidelberg, DE</pubPlace>
+		</imprint>
+	</monogr>
+	<note>Applying an existing machine learning algorithm to text categorization</note>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<analytic>
+		<title level="a" type="main">Text categorization: a symbolic approach</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Moulinier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Raskinis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J.-G</forename><surname>Ganascia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SDAIR-96, 5th Annual Symposium on Document Analysis and Information Retrieval</title>
+				<meeting>SDAIR-96, 5th Annual Symposium on Document Analysis and Information Retrieval<address><addrLine>Las Vegas, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="87" to="99" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">A boosting approach to topic spotting on subdialogues</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Myers</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kearns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Walker</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICML-00, 17th International Conference on Machine Learning</title>
+				<meeting>ICML-00, 17th International Conference on Machine Learning<address><addrLine>Stanford, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<analytic>
+		<title level="a" type="main">Feature selection, perceptron learning, and a usability case study for text categorization</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><forename type="middle">B</forename><surname>Goh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Low</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-97, 20th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-97, 20th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Philadelphia, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="67" to="73" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<analytic>
+		<title level="a" type="main">Text classification from labeled and unlabeled documents using EM</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Nigam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Mccallum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Thrun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mitchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine Learning</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="103" to="134" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">A practical hypertext categorization method using links and incrementally available class information</title>
+		<author>
+			<persName><forename type="first">H.-J</forename><surname>Oh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Myaeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M.-H</forename><surname>Lee</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-00, 23rd ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-00, 23rd ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Athens, GR</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="264" to="271" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title level="a" type="main">Information extraction</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">T</forename><surname>Pazienza</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Number 1299 in Lecture Notes in Computer Science</title>
+				<meeting><address><addrLine>Heidelberg, DE</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title level="a" type="main">Little words can make a big difference for text classification</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Riloff</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-95, 18th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-95, 18th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Seattle, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="130" to="136" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Information extraction as a basis for high-precision text classification</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Riloff</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lehnert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="296" to="333" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title level="a" type="main">Probabilistic automatic indexing by learning from human indexers</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Harding</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Documentation</title>
+		<imprint>
+			<biblScope unit="volume">40</biblScope>
+			<biblScope unit="page" from="264" to="270" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<analytic>
+		<title level="a" type="main">Relevance weighting of search terms</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">E</forename><surname>Robertson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Jones</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Society for Information Science</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="143" to="160" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+	<note>Willett 1988]</note>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<analytic>
+		<title level="a" type="main">Learning to resolve natural language ambiguities: a unified approach</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Roth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of AAAI-98, 15th Conference of the American Association for Artificial Intelligence</title>
+				<meeting>AAAI-98, 15th Conference of the American Association for Artificial Intelligence<address><addrLine>Madison, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="806" to="813" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">Hierarchical neural networks for text categorization</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Ruiz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Srinivasan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-99, 22nd ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-99, 22nd ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Berkeley, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="281" to="282" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title level="a" type="main">Text-based approaches for non-topical image categorization</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Sable</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Hatzivassiloglou</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Digital Libraries</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="261" to="275" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<analytic>
+		<title level="a" type="main">Term-weighting approaches in automatic text retrieval</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Buckley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information Processing and Management</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="323" to="328" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note>Sparck Jones and Willett 1997</note>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<analytic>
+		<title level="a" type="main">A vector space model for automatic indexing</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yang</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page" from="273" to="280" />
+			<date type="published" when="1975" />
+		</imprint>
+	</monogr>
+	<note>Sparck Jones and Willett 1997</note>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<analytic>
+		<title level="a" type="main">Relevance: a review of and a framework for the thinking on the notion in information science</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Saracevic</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the American Society for Information Science</title>
+		<imprint>
+			<biblScope unit="volume">26</biblScope>
+			<biblScope unit="page" from="143" to="165" />
+			<date type="published" when="1975" />
+		</imprint>
+	</monogr>
+	<note>Sparck Jones and Willett 1997</note>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<analytic>
+		<title level="a" type="main">BoosTexter: a boosting-based system for text categorization</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Schapire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Singer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine Learning</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="135" to="168" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<analytic>
+		<title level="a" type="main">Boosting and Rocchio applied to text filtering</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Schapire</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Singer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singhal</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-98, 21st ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-98, 21st ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Melbourne, AU</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="215" to="223" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b120">
+	<analytic>
+		<title level="a" type="main">Automatic word sense discrimination</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schütze</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computational Linguistics</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page" from="97" to="124" />
+			<date type="published" when="1998" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b121">
+	<analytic>
+		<title level="a" type="main">A comparison of classifiers and document representations for the routing problem</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schütze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">A</forename><surname>Hull</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Pedersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-95, 18th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-95, 18th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Seattle, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="229" to="237" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b122">
+	<analytic>
+		<title level="a" type="main">Feature engineering for text classification</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Scott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Matwin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICML-99, 16th International Conference on Machine Learning</title>
+				<meeting>ICML-99, 16th International Conference on Machine Learning<address><addrLine>Bled, SL</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="379" to="388" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b123">
+	<analytic>
+		<title level="a" type="main">An improved boosting algorithm and its application to automated text categorization</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Sebastiani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sperduti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Valdambrini</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of CIKM-00, 9th ACM International Conference on Information and Knowledge Management</title>
+				<meeting>CIKM-00, 9th ACM International Conference on Information and Knowledge Management<address><addrLine>McLean, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2000" />
+			<biblScope unit="page" from="78" to="85" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b124">
+	<analytic>
+		<title level="a" type="main">Learning routing queries in a query zone</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singhal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mitra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Buckley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-97, 20th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-97, 20th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Philadelphia, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="25" to="32" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b125">
+	<analytic>
+		<title level="a" type="main">Document length normalization</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Singhal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Salton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Mitra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Buckley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information Processing and Management</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="page" from="619" to="633" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b126">
+	<analytic>
+		<title level="a" type="main">The power of word clusters for text classification</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Slonim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Tishby</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ECIR-01</title>
+				<meeting>ECIR-01<address><addrLine>Darmstadt, DE</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b127">
+	<monogr>
+		<title level="m" type="main">Readings in information retrieval</title>
+		<author>
+			<persName><forename type="first">Sparck</forename><surname>Jones</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Willett</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1997" />
+			<publisher>Morgan Kaufmann</publisher>
+			<pubPlace>San Mateo, US</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b128">
+	<analytic>
+		<title level="a" type="main">Feature selection in SVM text categorization</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Taira</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Haruno</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of AAAI-99, 16th Conference of the American Association for Artificial Intelligence</title>
+				<meeting>AAAI-99, 16th Conference of the American Association for Artificial Intelligence<address><addrLine>Orlando, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="480" to="486" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b129">
+	<analytic>
+		<title level="a" type="main">Adaptive information filtering using evolutionary computation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">R</forename><surname>Tauritz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">N</forename><surname>Kok</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">G</forename><surname>Sprinkhuizen-Kuyper</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information Sciences</title>
+		<imprint>
+			<biblScope unit="volume">122</biblScope>
+			<biblScope unit="issue">2-4</biblScope>
+			<biblScope unit="page" from="121" to="140" />
+			<date type="published" when="2000" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b130">
+	<analytic>
+		<title level="a" type="main">Error correlation and error reduction in ensemble classifiers</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tumer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ghosh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Connection Science</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="385" to="403" />
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b131">
+	<analytic>
+		<title level="a" type="main">A theoretical basis for the use of co-occurrence data in information retrieval</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Tzeras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Hartmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Van Rijsbergen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">16th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting><address><addrLine>Pittsburgh, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="106" to="119" />
+		</imprint>
+	</monogr>
+	<note>Automatic indexing based on Bayesian inference networks</note>
+</biblStruct>
+
+<biblStruct xml:id="b132">
+	<analytic>
+		<title level="a" type="main">Information Retrieval</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Van Rijsbergen</surname></persName>
+		</author>
+		<ptr target="http://www.dcs.gla.ac.uk/Keith" />
+	</analytic>
+	<monogr>
+		<title level="j">Butterworths</title>
+		<imprint>
+			<date type="published" when="1979" />
+		</imprint>
+	</monogr>
+	<note>Second ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b133">
+	<analytic>
+		<title level="a" type="main">Exploiting hierarchy in text categorization</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Weigend</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Wiener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Pedersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information Retrieval</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="193" to="216" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b134">
+	<analytic>
+		<title level="a" type="main">Maximizing text-mining performance</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">M</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Apté</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Damerau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Oles</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Goetz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Hampp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Intelligent Systems</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="63" to="69" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b135">
+	<analytic>
+		<title level="a" type="main">A neural network approach to topic spotting</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">D</forename><surname>Wiener</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Pedersen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Weigend</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SDAIR-95, 4th Annual Symposium on Document Analysis and Information Retrieval</title>
+				<meeting>SDAIR-95, 4th Annual Symposium on Document Analysis and Information Retrieval<address><addrLine>Las Vegas, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="317" to="332" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b136">
+	<analytic>
+		<title level="a" type="main">Action: automatic classification for full-text documents</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Willett</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Graham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">K</forename><surname>London</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">W</forename><surname>Wong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W.-K</forename><surname>Kan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Young</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">SIGIR Forum</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="26" to="41" />
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note>Document retrieval systems</note>
+</biblStruct>
+
+<biblStruct xml:id="b137">
+	<analytic>
+		<title level="a" type="main">Expert network: effective and efficient learning from human decisions in text categorisation and retrieval</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-94, 17th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-94, 17th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Dublin, IE</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1994" />
+			<biblScope unit="page" from="13" to="22" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b138">
+	<analytic>
+		<title level="a" type="main">Noise reduction in a statistical approach to text categorization</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-95, 18th ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-95, 18th ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Seattle, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1995" />
+			<biblScope unit="page" from="256" to="263" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b139">
+	<analytic>
+		<title level="a" type="main">An evaluation of statistical approaches to text categorization</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information Retrieval</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="69" to="90" />
+			<date type="published" when="1999" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b140">
+	<analytic>
+		<title level="a" type="main">An example-based mapping method for text categorization and retrieval</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">G</forename><surname>Chute</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACM Transactions on Information Systems</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="252" to="277" />
+			<date type="published" when="1994" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b141">
+	<analytic>
+		<title level="a" type="main">A re-examination of text categorization methods</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of SIGIR-99, 22nd ACM International Conference on Research and Development in Information Retrieval</title>
+				<meeting>SIGIR-99, 22nd ACM International Conference on Research and Development in Information Retrieval<address><addrLine>Berkeley, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1999" />
+			<biblScope unit="page" from="42" to="49" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b142">
+	<analytic>
+		<title level="a" type="main">A comparative study on feature selection in text categorization</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">O</forename><surname>Pedersen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ICML-97, 14th International Conference on Machine Learning</title>
+				<meeting>ICML-97, 14th International Conference on Machine Learning<address><addrLine>Nashville, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1997" />
+			<biblScope unit="page" from="412" to="420" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b143">
+	<analytic>
+		<title level="a" type="main">A study of approaches to hypertext categorization</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Slattery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ghani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Intelligent Information Systems. Forthcoming</title>
+		<imprint>
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b144">
+	<analytic>
+		<title level="a" type="main">A new on-line learning algorithm for adaptive text filtering</title>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">L</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Lam</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of CIKM-98, 7th ACM International Conference on Information and Knowledge Management</title>
+				<meeting>CIKM-98, 7th ACM International Conference on Information and Knowledge Management<address><addrLine>Bethesda, US</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="page" from="156" to="160" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

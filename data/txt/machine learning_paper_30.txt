@@ -1,0 +1,8 @@
+Title: Proceedings of NIPS 2017 Workshop on Machine Learning for the Developing
+  World
+Published: 2017-11-27T03:27:17Z
+Link: http://arxiv.org/abs/1711.09522v2
+
+Abstract:
+This is the Proceedings of NIPS 2017 Workshop on Machine Learning for the
+Developing World, held in Long Beach, California, USA on December 8, 2017

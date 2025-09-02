@@ -1,0 +1,6 @@
+Title: Gaussian Processes for Machine Learning (Adaptive Computation and Machine Learning)
+Published: 2005-12-01
+Link: https://www.semanticscholar.org/paper/8ca86e941da7254613a5d03dd7a6c36886fadc1d
+
+Abstract:
+None

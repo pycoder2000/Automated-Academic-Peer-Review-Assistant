@@ -1,0 +1,6 @@
+Title: Machine Learning Force Fields
+Published: 2020-10-14
+Link: https://www.semanticscholar.org/paper/a1f57b760b7d4c44490f0bb86ee5462c3e7c7272
+
+Abstract:
+In recent years, the use of machine learning (ML) in computational chemistry has enabled numerous advances previously out of reach due to the computational complexity of traditional electronic-structure methods. One of the most promising applications is the construction of ML-based force fields (FFs), with the aim to narrow the gap between the accuracy of ab initio methods and the efficiency of classical FFs. The key idea is to learn the statistical relation between chemical structure and potential energy without relying on a preconceived notion of fixed chemical bonds or knowledge about the relevant interactions. Such universal ML approximations are in principle only limited by the quality and quantity of the reference data used to train them. This review gives an overview of applications of ML-FFs and the chemical insights that can be obtained from them. The core concepts underlying ML-FFs are described in detail, and a step-by-step guide for constructing and testing them from scratch is given. The text concludes with a discussion of the challenges that remain to be overcome by the next generation of ML-FFs.

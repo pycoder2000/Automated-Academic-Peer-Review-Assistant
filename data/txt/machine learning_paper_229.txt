@@ -1,0 +1,6 @@
+Title: Predicting the state of charge and health of batteries using data-driven machine learning
+Published: 2020-03-01
+Link: https://www.semanticscholar.org/paper/86788a38467e1f2f1df713f5d5694bfee9f8ae29
+
+Abstract:
+None

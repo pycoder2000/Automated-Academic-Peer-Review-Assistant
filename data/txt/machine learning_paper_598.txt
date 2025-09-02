@@ -1,0 +1,6 @@
+Title: Machine Learning for Biometrics
+Published: 2011-10-04T09:46:18Z
+Link: https://doi.org/10.4018/978-1-60960-818-7.ch402
+
+Abstract:
+<jats:p>Biometrics aims at reliable and robust identification of humans from their personal traits, mainly for security and authentication purposes, but also for identifying and tracking the users of smarter applications. Frequently considered modalities are fingerprint, face, iris, palmprint and voice, but there are many other possible biometrics, including gait, ear image, retina, DNA, and even behaviours. This chapter presents a survey of machine learning methods used for biometrics applications, and identifies relevant research issues. The author focuses on three areas of interest: offline methods for biometric template construction and recognition, information fusion methods for integrating multiple biometrics to obtain robust results, and methods for dealing with temporal information. By introducing exemplary and influential machine learning approaches in the context of specific biometrics applications, the author hopes to provide the reader with the means to create novel machine learning solutions to challenging biometrics problems.</jats:p>

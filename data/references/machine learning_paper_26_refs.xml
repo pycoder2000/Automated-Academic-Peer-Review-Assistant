@@ -1,0 +1,901 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">Y</forename><surname>Zhong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Klotz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Newman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="616" to="630" />
+		</imprint>
+	</monogr>
+	<note>Intelligent manufacturing in the context of industry 4.0: A review,&quot; Engineering</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Tool wear monitoring of a retrofitted cnc milling machine using artificial neural networks</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">F</forename><surname>Hesser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Markert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Manufacturing Letters</title>
+		<imprint>
+			<biblScope unit="volume">19</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Migration from the traditional to the smart factory in the die-casting industry: Novel process data acquisition and fault detection based on artificial neural network</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">C</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">T</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Materials Processing Technology</title>
+		<imprint>
+			<biblScope unit="volume">290</biblScope>
+			<biblScope unit="page">116972</biblScope>
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Machine learning in production -potentials, challenges and exemplary applications</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mayr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kißkalt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meiners</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Lutz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Schäfer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Seidel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Selmaier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Fuchs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Metzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blank</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Franke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">7th CIRP Global Web Conference -Towards shifted production value stream patterns through inference of data, models, and technology</title>
+				<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="page" from="49" to="54" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Inline drift detection using monitoring systems and machine learning in selective laser melting</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yadav</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><forename type="middle">K</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Joffre</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rigo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Arvieu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Le</forename><surname>Guen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Lacoste</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Advanced Engineering Materials</title>
+		<imprint>
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page">2000660</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Bayesian autoencoders for drift detection in industrial environments</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">X</forename><surname>Yong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Fathy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Brintrup</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2020 IEEE International Workshop on Metrology for Industry 4.0 and IoT</title>
+				<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="627" to="631" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Machine learning based screw drive state detection for unfastening screw connections</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Assadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Holtz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Nägele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Nitsche</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Kraus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Huber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Manufacturing Systems</title>
+		<imprint>
+			<biblScope unit="volume">65</biblScope>
+			<biblScope unit="page" from="19" to="32" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Process curve analysis with machine learning on the example of screw fastening and press-in processes</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meiners</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Mayr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Franke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Procedia CIRP</title>
+		<imprint>
+			<biblScope unit="volume">97</biblScope>
+			<biblScope unit="page" from="166" to="171" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">A benchmark and survey of fully unsupervised concept drift detectors on real-world data streams</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Lukats</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Zielinski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hahn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Stahl</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Data Science and Analytics</title>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Characterization of non-linear profiles variations using mixed-effect models and wavelets</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Paynabar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Jin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IIE Transactions</title>
+		<imprint>
+			<biblScope unit="volume">43</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="275" to="290" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">Learning Internal Representations by Error Propagation</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">E</forename><surname>Rumelhart</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">J</forename><surname>Williams</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="318" to="362" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Auto-Encoding Variational Bayes</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">P</forename><surname>Kingma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Welling</surname></persName>
+		</author>
+		<idno>ICLR 2014</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2nd International Conference on Learning Representations</title>
+				<meeting><address><addrLine>Banff, AB, Canada</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+	<note>Conference Track Proceedings</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Variational Autoencoders and Nonlinear ICA: A Unifying Framework</title>
+		<author>
+			<persName><forename type="first">I</forename><surname>Khemakhem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kingma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Monti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hyvarinen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Twenty Third International Conference on Artificial Intelligence and Statistics</title>
+				<meeting>the Twenty Third International Conference on Artificial Intelligence and Statistics</meeting>
+		<imprint>
+			<publisher>PMLR</publisher>
+			<biblScope unit="page" from="2207" to="2217" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Nonlinear ICA Using Auxiliary Variables and Generalized Contrastive Learning</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Hyvarinen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Sasaki</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Turner</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">A variational autoencoder for a semiconductor fault detection model robust to process drift due to incomplete maintenance</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">O</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Intelligent Manufacturing</title>
+		<imprint>
+			<biblScope unit="volume">34</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="529" to="540" />
+			<date type="published" when="2023" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Manufacturing process curve monitoring with deep learning</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Meiners</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kuhn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Franke</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Manufacturing Letters</title>
+		<imprint>
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="15" to="18" />
+			<date type="published" when="2021" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Reactive soft prototype computing for concept drift streams</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Raab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Heusinger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F.-M</forename><surname>Schleif</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neurocomputing</title>
+		<imprint>
+			<biblScope unit="volume">416</biblScope>
+			<biblScope unit="page" from="340" to="351" />
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Hellinger distance based drift detection for nonstationary environments</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ditzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Polikar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2011 IEEE Symposium on Computational Intelligence in Dynamic and Uncertain Environments (CIDUE)</title>
+				<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page" from="41" to="48" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">A kernel two-sample test</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Gretton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">M</forename><surname>Borgwardt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Rasch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Schölkopf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Smola</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Machine Learning Research</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="issue">25</biblScope>
+			<biblScope unit="page" from="723" to="773" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">causalAssembly: Generating realistic production data for benchmarking causal discovery</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Göbler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Windisch</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Pychynski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Drton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sonntag</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">3rd Conference on Causal Learning and Rasoning</title>
+				<editor>
+			<persName><forename type="first">F</forename><surname>Locatello</surname></persName>
+			<persName><forename type="first">V</forename><surname>Didelez</surname></persName>
+		</editor>
+		<imprint>
+			<date type="published" when="2024" />
+			<biblScope unit="volume">236</biblScope>
+			<biblScope unit="page" from="609" to="642" />
+		</imprint>
+	</monogr>
+	<note>of Proceedings of Machine Learning Research</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">The MVTec Anomaly Detection Dataset: A Comprehensive Real-World Dataset for Unsupervised Anomaly Detection</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bergmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Batzner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Fauser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Sattlegger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Steger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Journal of Computer Vision</title>
+		<imprint>
+			<biblScope unit="volume">129</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="1038" to="1059" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Benchmarking deep reinforcement learning for continuous control</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Duan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Houthooft</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schulman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Abbeel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of The 33rd International Conference on Machine Learning</title>
+				<editor>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Balcan</surname></persName>
+			<persName><forename type="first">K</forename><forename type="middle">Q</forename><surname>Weinberger</surname></persName>
+		</editor>
+		<meeting>The 33rd International Conference on Machine Learning<address><addrLine>New York, New York, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>PMLR</publisher>
+			<date type="published" when="2016-06" />
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page" from="20" to="22" />
+		</imprint>
+	</monogr>
+	<note>of Proceedings of Machine Learning Research</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Milling data set, BEST Lab, UC Berkeley, NASA Prognostics Data Repository</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Agogino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Goebel</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2007" />
+		</imprint>
+		<respStmt>
+			<orgName>NASA Ames Research Center</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Smart data collection system for brownfield cnc milling machines: A new benchmark dataset for data-driven machine monitoring</title>
+		<author>
+			<persName><forename type="first">M.-A</forename><surname>Tnani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Feil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Diepold</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Leading manufacturing systems transformation -Proceedings of the 55th CIRP Conference on Manufacturing Systems</title>
+				<imprint>
+			<date type="published" when="2022" />
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="131" to="136" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<monogr>
+		<title level="m" type="main">Overview of publicly available degradation data sets for tasks within prognostics and health management</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Mauthe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Braun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Raible</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Zeiler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">F</forename><surname>Huber</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2024" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">The meaning and use of the area under a receiver operating characteristic (ROC) curve</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Hanley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">J</forename><surname>Mcneil</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Radiology</title>
+		<imprint>
+			<biblScope unit="volume">143</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="29" to="36" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Anomalieerkennung in hoch-dimensionalen Sensordaten</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Wolf</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2024-04" />
+		</imprint>
+		<respStmt>
+			<orgName>University of Applied Sciences, Kempten</orgName>
+		</respStmt>
+	</monogr>
+	<note>master&apos;s thesis</note>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">JAX: composable transformations of Python+NumPy programs</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bradbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Frostig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hawkins</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Johnson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Leary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Maclaurin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Necula</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Paszke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Van-Derplas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Wanderman-Milne</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Concept drift detection based on typicality and eccentricity</title>
+		<author>
+			<persName><forename type="first">Y</forename><forename type="middle">T P</forename><surname>Nunes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Guedes</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="13795" to="13808" />
+			<date type="published" when="2024" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">A wavelet-based penalized mixed-effects decomposition for multichannel profile detection of in-line raman spectroscopy</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Shi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Automation Science and Engineering</title>
+		<imprint>
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="1258" to="1271" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<monogr>
+		<author>
+			<persName><forename type="first">W</forename><surname>Brogan</surname></persName>
+		</author>
+		<title level="m">Modern Control Theory</title>
+				<imprint>
+			<publisher>Prentice Hall</publisher>
+			<date type="published" when="1991" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">Practical Methods of Optimization</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Fletcher</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<publisher>John Wiley &amp; Sons</publisher>
+			<pubPlace>New York, NY, USA</pubPlace>
+		</imprint>
+	</monogr>
+	<note>second ed.</note>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<monogr>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">E</forename><surname>Rasmussen</surname></persName>
+		</author>
+		<title level="m">Gaussian Processes in Machine Learning</title>
+				<meeting><address><addrLine>Berlin, Heidelberg; Berlin Heidelberg</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<date type="published" when="2004" />
+			<biblScope unit="page" from="63" to="71" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Multilayer feedforward networks are universal approximators</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Hornik</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Stinchcombe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>White</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Networks</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="359" to="366" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Kan: Kolmogorov-arnold networks</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vaidya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ruehle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Halverson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Soljačić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">Y</forename><surname>Hou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Tegmark</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2404.19756</idno>
+		<imprint>
+			<date type="published" when="2024" />
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Computing the two-sided kolmogorov-smirnov distribution</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Simard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>L'ecuyer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Statistical Software</title>
+		<imprint>
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="1" to="18" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

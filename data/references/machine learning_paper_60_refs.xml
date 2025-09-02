@@ -1,0 +1,274 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Roundup Of Machine Learning Forecasts And Market Estimates</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Columbus</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Forbes</title>
+		<imprint>
+			<date type="published" when="2018-02" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">of-machinelearning-forecasts-and-market-estimates-2018/#5a32a37d2225</title>
+		<ptr target="Available:forbes.com/sites/louiscolumbus/2018/02/18/roundup-" />
+		<imprint>
+			<date type="published" when="2018-10-20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Available: en.wikipedia.org/wiki/Agile_software_development</title>
+		<author>
+			<persName><surname>Wikipedia</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018-10-20" />
+		</imprint>
+	</monogr>
+	<note>Agile software development</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Agile is becoming the de facto standard for software development, according to VersionOne</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cardoza</surname></persName>
+		</author>
+		<ptr target="Available:sdtimes.com/agile/agile-is-becoming-the-de-facto-standard-for-software-development-according-to-versionone/" />
+	</analytic>
+	<monogr>
+		<title level="m">SD Times</title>
+				<imprint>
+			<date type="published" when="2015-03" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">How to Use Agile For Successful Machine Learning Projects</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Villamin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018-05" />
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Available: business2community.com/strategy/how-to-use-agile-for-successfulmachine-learning-projects-02067366</title>
+		<imprint>
+			<date type="published" when="2018-10-20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Available: dzone.com/articles/agilemachine-learning-from-theory-to-production</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hinds</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017-06" />
+		</imprint>
+	</monogr>
+	<note>Agile Machine Learning: From Theory to Production</note>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">When Agile Meets Machine Learning</title>
+		<author>
+			<persName><forename type="first">Yellowroad</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017-06" />
+		</imprint>
+	</monogr>
+	<note>Towards Data Science</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Available: towardsdatascience.com/when-agile-meets-machine-learning-2af111bddeec</title>
+		<imprint>
+			<date type="published" when="2018-10-20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Online] Available: dataversity.net/case-agile-machine-learning</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barba</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Dataversity</title>
+		<imprint>
+			<date type="published" when="2018-06" />
+		</imprint>
+	</monogr>
+	<note>The Case for Agile Machine Learning</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">An architecture for Agile machine learning in real-time applications</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schleier-Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">21th ACM SIGKDD International Conference on Knowledge Discovery and Data Mining</title>
+				<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2015-08" />
+			<biblScope unit="page" from="2059" to="2068" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Systematic literature review of machine learning based software development effort estimation models</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information and Software Technology</title>
+		<imprint>
+			<biblScope unit="volume">54</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="41" to="59" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Fault prediction using statistical and machine learning methods for improving software quality</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Malhotra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Jain</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Information Processing Systems</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="241" to="262" />
+			<date type="published" when="2012" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Empirical studies of agile software development: A systematic review</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dyba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dingsoyr</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Information and software technology</title>
+				<imprint>
+			<publisher>Elsevier</publisher>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page" from="833" to="859" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Available: atlassian.com/software/jira/agile</title>
+		<author>
+			<persName><forename type="first">Altassian</forename></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018-10-20" />
+		</imprint>
+	</monogr>
+	<note>Agile tools for software teams</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<monogr>
+		<title level="m" type="main">Available: docs.microsoft.com/enus/azure/machine-learning/team-data-science-process/agiledevelopment</title>
+		<imprint>
+			<date type="published" when="2017-11-28" />
+		</imprint>
+	</monogr>
+	<note>Agile development of data science projects</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Available: scruminc.com/scrum-inai-artificial-intelligence</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bullock</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Justice</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sutherland</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Scruminc</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018-10-20" />
+		</imprint>
+	</monogr>
+	<note>Why Scrum is the Best Way to Create AI</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

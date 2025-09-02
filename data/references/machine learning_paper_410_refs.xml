@@ -1,0 +1,176 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Program synthesis as a theory formation task: Problem representations and solution methods</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Amarel</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine learning: An artificial intelligence approach</title>
+				<editor>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Michalski</surname></persName>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Carbonell</surname></persName>
+			<persName><forename type="first">&amp;</forename><forename type="middle">T M</forename><surname>Mitchell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Los Altos, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan-Kaufmann</publisher>
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+	<note>II</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An overview of machine learning</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Carbonell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Michalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mitchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine learning: An artificial intelligence approach</title>
+				<editor>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Michalski</surname></persName>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Carbonell</surname></persName>
+			<persName><forename type="first">&amp;</forename><forename type="middle">T M</forename><surname>Mitchell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Palo Alto, CA; Tioga</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Choices without backtracking</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>De Kleer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fourth National Conference on Artificial Intelligence</title>
+				<meeting>the Fourth National Conference on Artificial Intelligence<address><addrLine>Austin, TX</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan-Kaufmann</publisher>
+			<date type="published" when="1984" />
+			<biblScope unit="page" from="79" to="85" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Data-driven discovery of physical laws</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Langley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="31" to="54" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Automated theory formation in mathematics</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">B</forename><surname>Lenat</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fifth International Joint Conference on Artificial Intelligence</title>
+				<meeting>the Fifth International Joint Conference on Artificial Intelligence<address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan-Kaufmann</publisher>
+			<date type="published" when="1977" />
+			<biblScope unit="page" from="833" to="842" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Machine learning: An artificial intelligence approach</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Michalski</surname></persName>
+		</author>
+		<editor>R.S. Michalski, J.G. Carbonell, &amp; T.M. Mitchell</editor>
+		<imprint>
+			<date type="published" when="1983" />
+			<pubPlace>Palo Alto, CA; Tioga</pubPlace>
+		</imprint>
+	</monogr>
+	<note>A theory and methodology of inductive learning</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Learning from observation: Conceptual clustering</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Michalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">E</forename><surname>Stepp</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine learning: An artificial intelligence approach</title>
+				<editor>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Michalski</surname></persName>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Carbonell</surname></persName>
+			<persName><forename type="first">&amp;</forename><forename type="middle">T M</forename><surname>Mitchell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Palo Alto, CA; Tioga</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">A theory of historical discovery: The construction of componential models</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Zytkow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Simon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine Learning</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="107" to="136" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

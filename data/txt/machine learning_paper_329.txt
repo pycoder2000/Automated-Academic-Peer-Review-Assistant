@@ -1,0 +1,6 @@
+Title: Enhancing gravitational-wave science with machine learning
+Published: 2020-05-07
+Link: https://www.semanticscholar.org/paper/37f239603ce77e8f10be255be0a2cff7070122ad
+
+Abstract:
+Machine learning has emerged as a popular and powerful approach for solving problems in astrophysics. We review applications of machine learning techniques for the analysis of ground-based gravitational-wave (GW) detector data. Examples include techniques for improving the sensitivity of Advanced Laser Interferometer GW Observatory and Advanced Virgo GW searches, methods for fast measurements of the astrophysical parameters of GW sources, and algorithms for reduction and characterization of non-astrophysical detector noise. These applications demonstrate how machine learning techniques may be harnessed to enhance the science that is possible with current and future GW detectors.

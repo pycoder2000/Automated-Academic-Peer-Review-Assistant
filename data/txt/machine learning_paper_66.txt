@@ -1,0 +1,19 @@
+Title: Machine Learning and Computational Mathematics
+Published: 2020-09-23T23:16:46Z
+Link: http://arxiv.org/abs/2009.14596v1
+
+Abstract:
+Neural network-based machine learning is capable of approximating functions
+in very high dimension with unprecedented efficiency and accuracy. This has
+opened up many exciting new possibilities, not just in traditional areas of
+artificial intelligence, but also in scientific computing and computational
+science. At the same time, machine learning has also acquired the reputation of
+being a set of "black box" type of tricks, without fundamental principles. This
+has been a real obstacle for making further progress in machine learning. In
+this article, we try to address the following two very important questions: (1)
+How machine learning has already impacted and will further impact computational
+mathematics, scientific computing and computational science? (2) How
+computational mathematics, particularly numerical analysis, {can} impact
+machine learning? We describe some of the most important progress that has been
+made on these issues. Our hope is to put things into a perspective that will
+help to integrate machine learning with computational mathematics.

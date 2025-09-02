@@ -1,0 +1,6 @@
+Title: C4.5: Programs for Machine Learning
+Published: 1992-10-15
+Link: https://www.semanticscholar.org/paper/807c1f19047f96083e13614f7ce20f2ac98c239a
+
+Abstract:
+None

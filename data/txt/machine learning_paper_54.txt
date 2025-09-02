@@ -1,0 +1,20 @@
+Title: Characterizing machine learning process: A maturity framework
+Published: 2018-11-12T17:32:24Z
+Link: http://arxiv.org/abs/1811.04871v1
+
+Abstract:
+Academic literature on machine learning modeling fails to address how to make
+machine learning models work for enterprises. For example, existing machine
+learning processes cannot address how to define business use cases for an AI
+application, how to convert business requirements from offering managers into
+data requirements for data scientists, and how to continuously improve AI
+applications in term of accuracy and fairness, and how to customize general
+purpose machine learning models with industry, domain, and use case specific
+data to make them more accurate for specific situations etc. Making AI work for
+enterprises requires special considerations, tools, methods and processes. In
+this paper we present a maturity framework for machine learning model lifecycle
+management for enterprises. Our framework is a re-interpretation of the
+software Capability Maturity Model (CMM) for machine learning model development
+process. We present a set of best practices from our personal experience of
+building large scale real-world machine learning models to help organizations
+achieve higher levels of maturity independent of their starting point.

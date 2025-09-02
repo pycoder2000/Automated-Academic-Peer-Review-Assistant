@@ -1,0 +1,6 @@
+Title: Corrigendum to “Machine learning for sports betting: should model selection be based on accuracy or calibration?” [Machine Learning with Applications Volume 16, June 2024, 100539]
+Published: 2025-02-08T12:33:24Z
+Link: https://doi.org/10.1016/j.mlwa.2025.100627
+
+Abstract:
+

@@ -1,0 +1,19 @@
+Title: Collaborative Machine Learning Markets with Data-Replication-Robust
+  Payments
+Published: 2019-11-08T13:58:31Z
+Link: http://arxiv.org/abs/1911.09052v1
+
+Abstract:
+We study the problem of collaborative machine learning markets where multiple
+parties can achieve improved performance on their machine learning tasks by
+combining their training data. We discuss desired properties for these machine
+learning markets in terms of fair revenue distribution and potential threats,
+including data replication. We then instantiate a collaborative market for
+cases where parties share a common machine learning task and where parties'
+tasks are different. Our marketplace incentivizes parties to submit high
+quality training and true validation data. To this end, we introduce a novel
+payment division function that is robust-to-replication and customized output
+models that perform well only on requested machine learning tasks. In
+experiments, we validate the assumptions underlying our theoretical analysis
+and show that these are approximately satisfied for commonly used machine
+learning models.

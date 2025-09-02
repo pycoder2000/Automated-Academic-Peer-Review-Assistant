@@ -1,0 +1,306 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Learning at the knowledge level</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">G</forename><surname>Dietterich</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="287" to="315" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Explanation-based learning: An alternative view</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Dejong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Mooney</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="145" to="176" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Information, uncertainty, and the utility of categories</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Gluck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Corter</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Seventh Annual Conference of the Cognitive Science Society</title>
+				<meeting>the Seventh Annual Conference of the Cognitive Science Society<address><addrLine>Irvine, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Lawrence Erlbaum</publisher>
+			<date type="published" when="1985" />
+			<biblScope unit="page" from="283" to="287" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Principles of inference processes</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Greiner</surname></persName>
+		</author>
+		<idno>CSRI 193</idno>
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>Toronto, Ontario</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Toronto, Department of Computer Science</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Chunking in SOAR: The anatomy of a general learning mechanism</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">E</forename><surname>Laird</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Newell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Rosenbloom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine Learning</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="11" to="46" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Minsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Papert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Perceptrons. Cambridge</title>
+		<imprint>
+			<date type="published" when="1969" />
+			<publisher>MIT Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Selectively generalizing plans for problem solving</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Minton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Ninth International Joint Conference on Artificial Intelligence</title>
+				<meeting>the Ninth International Joint Conference on Artificial Intelligence<address><addrLine>Los Angeles, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1985" />
+			<biblScope unit="page" from="596" to="599" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Version spaces: A candidate elimination approach to rule learning</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mitchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fifth International Joint Conference on Artificial Intelligence</title>
+				<meeting>the Fifth International Joint Conference on Artificial Intelligence</meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1977" />
+			<biblScope unit="page" from="305" to="310" />
+		</imprint>
+	</monogr>
+	<note>Massachusetts Institute of Technology</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Example-based generalization: A unifying view</title>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Keller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">T</forename><surname>Kedar-Cabelli</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Machine Learning</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="47" to="80" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<author>
+			<persName><forename type="first">A</forename><surname>Newell</surname></persName>
+		</author>
+		<title level="m">The knowledge level. AI Magazine</title>
+				<imprint>
+			<date type="published" when="1981" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1" to="20" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Incremental learning from noisy data</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">C</forename><surname>Schlimmer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename><surname>Granger</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="317" to="354" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A model for learning systems</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">G</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">M</forename><surname>Mitchell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Chestek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Buchanan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fifth International Joint Conference on Artificial Intelligence</title>
+				<editor>
+			<persName><forename type="first">Morgan</forename><surname>Kaufmann</surname></persName>
+		</editor>
+		<meeting>the Fifth International Joint Conference on Artificial Intelligence<address><addrLine>Cambridge, MA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1977" />
+			<biblScope unit="page" from="338" to="343" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">Conjunctive conceptual clustering: A methodology and experimentation. Doctoral dissertation</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Stepp</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+			<pubPlace>Urbana</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Computer Science, University of Illinois</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A theory of the learnable</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Valiant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1134" to="1142" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Learning disjunctions of conjunctions</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Valiant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Ninth International Joint Conference on Artificial Intelligence</title>
+				<meeting>the Ninth International Joint Conference on Artificial Intelligence<address><addrLine>Los Angeles, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1985" />
+			<biblScope unit="page" from="560" to="566" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

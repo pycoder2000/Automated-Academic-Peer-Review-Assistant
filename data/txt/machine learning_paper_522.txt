@@ -1,0 +1,6 @@
+Title: Deep Learning to Discover Coordinates for Dynamics: Autoencoders &amp; Physics Informed Machine Learning
+Published: 2023-03-28T17:00:15Z
+Link: https://doi.org/10.52843/cassyni.4zpjhl
+
+Abstract:
+<jats:p>In this video, we discuss how deep learning is being used to discover effective coordinate systems where simple dynamical systems models may be discovered.</jats:p>

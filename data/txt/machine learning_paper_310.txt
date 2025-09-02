@@ -1,0 +1,6 @@
+Title: A Quick Review of Machine Learning Algorithms
+Published: 2019-02-01
+Link: https://www.semanticscholar.org/paper/8db8166249dfb94dd8d52f88d27917b5755ae049
+
+Abstract:
+Machine learning is predominantly an area of Artificial Intelligence which has been a key component of digitalization solutions that has caught major attention in the digital arena. In this paper author intends to do a brief review of various machine learning algorithms which are most frequently used and therefore are the most popular ones. The author intends to highlight the merits and demerits of the machine learning algorithms from their application perspective to aid in an informed decision making towards selecting the appropriate learning algorithm to meet the specific requirement of the application.

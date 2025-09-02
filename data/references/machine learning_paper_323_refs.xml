@@ -1,0 +1,4479 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Peeking inside the black-box: A survey on Explainable Artificial Intelligence (XAI)</title>
+		<author>
+			<persName><forename type="first">Amina</forename><surname>Adadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammed</forename><surname>Berrada</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">28</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Micro Speech Demo</title>
+		<author>
+			<persName><surname>Adafruit</surname></persName>
+		</author>
+		<ptr target="https://learn.adafruit.com/tensorflow-lite-for-edgebadge-kit-quickstart/micro-speech-demo" />
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Edge Enhanced Deep Learning System for Large-Scale Video Stream Analytics</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Anjum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">U</forename><surname>Yaseen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Zamani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Balouek-Thomert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Rana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Parashar</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CFEC.2018.8358733</idno>
+		<ptr target="https://doi.org/10.1109/CFEC.2018.8358733pages15" />
+	</analytic>
+	<monogr>
+		<title level="m">2018 IEEE 2nd International Conference on Fog and Edge Computing (ICFEC)</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Benchmarking Edge Computing</title>
+		<author>
+			<persName><forename type="first">Alasdair</forename><surname>Allan</surname></persName>
+		</author>
+		<ptr target="https://medium.com/@aallan/benchmarking-edge-computing-ce3f13942245" />
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page">25</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Benchmarking the Xnor AI2GO Platform on the Raspberry Pi</title>
+		<author>
+			<persName><forename type="first">Alasdair</forename><surname>Allan</surname></persName>
+		</author>
+		<ptr target="https://blog.hackster.io/benchmarking-the-xnor-ai2go-platform-on-the-raspberry-pi-628a82af8aea" />
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Deep Learning at the Edge on an Arm Cortex-Powered Camera Board</title>
+		<author>
+			<persName><forename type="first">Alasdair</forename><surname>Allan</surname></persName>
+		</author>
+		<ptr target="https://blog.hackster.io/deep-learning-at-the-edge-on-an-arm-cortex-powered-camera-board-3ca16eb60ef7" />
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">27</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Hands-On with the SmartEdge Agile</title>
+		<author>
+			<persName><forename type="first">Alasdair</forename><surname>Allan</surname></persName>
+		</author>
+		<ptr target="https://blog.hackster.io/hands-on-with-the-smartedge-agile-b7b7f02b5d4b" />
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page">26</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<title level="m" type="main">Measuring Machine Learning</title>
+		<author>
+			<persName><forename type="first">Alasdair</forename><surname>Allan</surname></persName>
+		</author>
+		<ptr target="https://towardsdatascience.com/measuring-machine-learning-945a47bd3750" />
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page">25</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Real-Time Video Analytics: The Killer App for Edge Computing</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ananthanarayanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Bodík</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chintalapudi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Philipose</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ravindranath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Sinha</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MC.2017.3641638</idno>
+		<ptr target="https://doi.org/10.1109/MC.2017.3641638pages15" />
+	</analytic>
+	<monogr>
+		<title level="j">Computer</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Video Analytics -Killer App for Edge Computing</title>
+		<author>
+			<persName><forename type="first">Ganesh</forename><surname>Ananthanarayanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Victor</forename><surname>Bahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Landon</forename><surname>Cox</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alex</forename><surname>Crown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shadi</forename><surname>Nogbahi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuanchao</forename><surname>Shu</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3307334.3328589</idno>
+		<ptr target="https://doi.org/10.1145/3307334.3328589pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 17th Annual International Conference on Mobile Systems, Applications, and Services</title>
+				<meeting>the 17th Annual International Conference on Mobile Systems, Applications, and Services<address><addrLine>Seoul, Republic of Korea; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+	<note>MobiSys &apos;19)</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<monogr>
+		<title level="m" type="main">PyTorch at Tesla</title>
+		<author>
+			<persName><forename type="first">Andrej</forename><surname>Karpathy</surname></persName>
+		</author>
+		<ptr target="https://www.youtube.com/watch?v=oBklltKXtDE" />
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<author>
+			<persName><surname>Arm Limited</surname></persName>
+		</author>
+		<ptr target="https://www.arm.com/products/silicon-ip-cpu/machine-learning/arm-ml-processor" />
+		<title level="m">Machine Learning ARM ML Processor</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">26</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<monogr>
+		<title level="m" type="main">VMware looking towards IoT and the edge</title>
+		<author>
+			<persName><forename type="first">Asha</forename><surname>Barbaschow</surname></persName>
+		</author>
+		<ptr target="https://www.zdnet.com/article/vmware-looking-towards-iot-and-the-edge" />
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">High-Performance Computing (HPC) and Machine Learning Demonstrated in Flight Using Agile Condor®</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Raymond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Capraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Isereau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Cicotta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Stokes</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/HPEC.2018.8547797</idno>
+		<ptr target="https://doi.org/10.1109/HPEC.2018" />
+	</analytic>
+	<monogr>
+		<title level="m">2018 IEEE High Performance extreme Computing Conference (HPEC). 1-4</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">8547797</biblScope>
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Always-on Vision Processing Unit for Mobile Applications</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Barry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Connor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Donohoe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Moloney</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Richmond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>O'riordan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Toma</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MM.2015.10</idno>
+		<ptr target="https://doi.org/10.1109/MM.2015" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Micro</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2015-03" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Sparsification and Separation of Deep Learning Layers for Constrained Resource Inference on Wearables</title>
+		<author>
+			<persName><forename type="first">Sourav</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nicholas</forename><forename type="middle">D</forename><surname>Lane</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/2994551.2994564</idno>
+		<ptr target="https://doi.org/10.1145/2994551.2994564pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 14th ACM Conference on Embedded Network Sensor Systems CD-ROM</title>
+				<meeting>the 14th ACM Conference on Embedded Network Sensor Systems CD-ROM<address><addrLine>Stanford, CA, USA; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2016" />
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+	<note>SenSys &apos;16)</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Do the Machine Learning Models on a Crowd Sourced Platform Exhibit Bias? An Empirical Study on Model Fairness</title>
+		<author>
+			<persName><forename type="first">Sumon</forename><surname>Biswas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hridesh</forename><surname>Rajan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ESEC/FSE&apos;2020: The 28th ACM Joint European Software Engineering Conference and Symposium on the Foundations of Software Engineering</title>
+				<meeting><address><addrLine>Sacramento, California, United States</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page">28</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Practical secure aggregation for privacy-preserving machine learning</title>
+		<author>
+			<persName><forename type="first">Keith</forename><surname>Bonawitz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vladimir</forename><surname>Ivanov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ben</forename><surname>Kreuter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Marcedone</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brendan</forename><surname>Mcmahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarvar</forename><surname>Patel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Ramage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aaron</forename><surname>Segal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karn</forename><surname>Seth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2017 ACM SIGSAC Conference on Computer and Communications Security</title>
+				<meeting>the 2017 ACM SIGSAC Conference on Computer and Communications Security</meeting>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Using Apple Machine Learning Algorithms to Detect and Subclassify Non-Small Cell Lung Cancer</title>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">A</forename><surname>Borkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Catherine</forename><forename type="middle">P</forename><surname>Wilson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Steven</forename><forename type="middle">A</forename><surname>Borkowski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lauren</forename><forename type="middle">A</forename><surname>Deland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">M</forename><surname>Mastorides</surname></persName>
+		</author>
+		<idno>1808.08230</idno>
+		<imprint>
+			<date type="published" when="2019-01" />
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">What is edge computing and how it&apos;s changing the network</title>
+		<author>
+			<persName><forename type="first">Brandon</forename><surname>Butler</surname></persName>
+		</author>
+		<ptr target="https://www.networkworld.com/article/3224893/" />
+	</analytic>
+	<monogr>
+		<title level="j">Network World</title>
+		<imprint>
+			<biblScope unit="page">2</biblScope>
+			<date type="published" when="2017-07-21" />
+		</imprint>
+	</monogr>
+	<note>what-is-edge-computing-and-how-it-s-changing-the-network</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Taking AI to the edge: Google&apos;s TPU now comes in a maker-friendly package</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Cass</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MSPEC.2019.8701189</idno>
+		<ptr target="https://doi.org/10.1109/MSPEC.2019.8701189pages" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Spectrum</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2019-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">DeepCrash: A Deep Learning-Based Internet of Vehicles System for Head-On and Single-Vehicle Accident Detection With Emergency Notification</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Su</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">From Insight to Impact: Building a Sustainable Edge Computing Platform for Smart Homes</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Xia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">U</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">Y</forename><surname>Zomaya</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/PADSW.2018.8644647</idno>
+		<ptr target="https://doi.org/10.1109/PADSW.2018.8644647pages19" />
+	</analytic>
+	<monogr>
+		<title level="m">2018 IEEE 24th International Conference on Parallel and Distributed Systems (ICPADS)</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Small-footprint keyword spotting using deep neural networks</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Parada</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Heigold</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICASSP.2014.6854370</idno>
+		<ptr target="https://doi.org/10.1109/ICASSP.2014.6854370pages17" />
+	</analytic>
+	<monogr>
+		<title level="m">2014 IEEE International Conference on Acoustics, Speech and Signal Processing (ICASSP)</title>
+				<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Deep Learning With Edge Computing: A Review</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Ran</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/JPROC.2019.2921977</idno>
+		<ptr target="https://doi.org/10.1109/JPROC.2019.2921977pages3,4" />
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE</title>
+				<meeting>IEEE</meeting>
+		<imprint>
+			<date type="published" when="2019-08" />
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="1655" to="1674" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Cognitive internet of vehicles</title>
+		<author>
+			<persName><forename type="first">Min</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuanwen</forename><surname>Tian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giancarlo</forename><surname>Fortino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jing</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iztok</forename><surname>Humar</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Computer Communications</title>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">TVM: An Automated End-to-End Optimizing Compiler for Deep Learning</title>
+		<author>
+			<persName><forename type="first">Tianqi</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Thierry</forename><surname>Moreau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ziheng</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lianmin</forename><surname>Zheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eddie</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Haichen</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Meghan</forename><surname>Cowan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Leyuan</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuwei</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luis</forename><surname>Ceze</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carlos</forename><surname>Guestrin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arvind</forename><surname>Krishnamurthy</surname></persName>
+		</author>
+		<ptr target="https://www.usenix.org/conference/osdi18/presentation/chenpages" />
+	</analytic>
+	<monogr>
+		<title level="m">13th USENIX Symposium on Operating Systems Design and Implementation (OSDI 18). USENIX Association</title>
+				<meeting><address><addrLine>Carlsbad, CA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">23</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Editorial Low-Power, Intelligent, and Secure Solutions for Realization of Internet of Things</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Bayoumi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Koushanfar</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/JETCAS.2013.2244771</idno>
+		<ptr target="https://doi.org/10.1109/JETCAS.2013.2244771pages1" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Journal on Emerging and Selected Topics in Circuits and Systems</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="4" />
+			<date type="published" when="2013-03" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">A Survey of Model Compression and Acceleration for Deep Neural Networks</title>
+		<author>
+			<persName><forename type="first">Yu</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Duo</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pan</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tao</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno>1710.09282</idno>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">11</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title/>
+		<author>
+			<persName><forename type="first">Sandeep</forename><surname>Chinchali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Apoorva</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><surname>Harrison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amine</forename><surname>Elhafsi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Evgenya</forename><surname>Pergament</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eyal</forename><surname>Cidon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sachin</forename><surname>Katti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Pavone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Network Offloading Policies for Cloud Robotics: a Learning-based Approach</title>
+		<imprint>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+	<note>Robotics: Science and Systems</note>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">A comprehensive survey on model compression and acceleration</title>
+		<author>
+			<persName><forename type="first">Tejalal</forename><surname>Choudhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vipul</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anurag</forename><surname>Goswami</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jagannathan</forename><surname>Sarangapani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence Review</title>
+		<imprint>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">BeagleBone AI Makes a Sneak Preview</title>
+		<author>
+			<persName><forename type="first">Christine</forename><surname>Long</surname></persName>
+		</author>
+		<ptr target="https://beagleboard.org/blog/2019-05-16-beaglebone-ai-preview" />
+	</analytic>
+	<monogr>
+		<title level="s">Last Accessed</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="page">25</biblScope>
+			<date type="published" when="2019-07-30" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Deep Learning on Mobile Systems</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Curukogle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">M</forename><surname>Ozyildirim</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ASYU.2018.8554039</idno>
+		<ptr target="https://doi.org/10.1109/ASYU.2018.8554039pages21" />
+	</analytic>
+	<monogr>
+		<title level="m">2018 Innovations in Intelligent Systems and Applications Conference (ASYU). 1-4</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Assisting Users in a World Full of Cameras: A Privacy-Aware Infrastructure for Computer Vision Applications</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Degeling</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Sadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Satyanarayanan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPRW.2017.181</idno>
+		<ptr target="https://doi.org/10.1109/CVPRW.2017.181pages17" />
+	</analytic>
+	<monogr>
+		<title level="m">2017 IEEE Conference on Computer Vision and Pattern Recognition Workshops</title>
+				<imprint>
+			<publisher>CVPRW</publisher>
+			<date type="published" when="2017" />
+			<biblScope unit="page">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Metropolitan intelligent surveillance systems for urban areas by harnessing IoT and edge computing paradigms</title>
+		<author>
+			<persName><forename type="first">Rustem</forename><surname>Dautov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Salvatore</forename><surname>Distefano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dario</forename><surname>Bruneo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesco</forename><surname>Longo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Giovanni</forename><surname>Merlino</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Puliafito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rajkumar</forename><surname>Buyya</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Softw., Pract. Exper</title>
+		<imprint>
+			<biblScope unit="volume">48</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Learning in Nonstationary Environments: A Survey</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Ditzler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Roveri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Alippi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Polikar</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MCI.2015.2471196</idno>
+		<ptr target="https://doi.org/10.1109/MCI.2015.2471196" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Computational Intelligence Magazine</title>
+		<imprint>
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">27</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Precog: prefetching for image recognition applications at the edge</title>
+		<author>
+			<persName><forename type="first">Utsav</forename><surname>Drolia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Katherine</forename><surname>Guo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Priya</forename><surname>Narasimhan</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3132211.3134456</idno>
+		<ptr target="https://doi.org/10.1145/3132211.3134456pages16" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Second ACM/IEEE Symposium on Edge Computing</title>
+				<meeting>the Second ACM/IEEE Symposium on Edge Computing<address><addrLine>San Jose, California; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">20</biblScope>
+		</imprint>
+	</monogr>
+	<note>SEC &apos;17)</note>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<monogr>
+		<title level="m" type="main">SparkFun Edge Hookup Guide</title>
+		<author>
+			<persName><forename type="first">Sparkfun</forename><surname>Electronics</surname></persName>
+		</author>
+		<ptr target="https://learn.sparkfun.com/tutorials/sparkfun-edge-hookup-guide/all" />
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">Where&apos;s the Bear? -Automating Wildlife Image Processing Using IoT and Edge Cloud Systems</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">R</forename><surname>Elias</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Golubovic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Krintz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Wolski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2017 IEEE/ACM Second International Conference on Internet-of-Things Design and Implementation (IoTDI)</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page">16</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<analytic>
+		<title level="a" type="main">Code Generation of Graph-Based Vision Processing for Multiple CUDA Cores SoC Jetson TX</title>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">Ezra</forename><surname>Tsur</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Madar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Danan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MCSoC2018.2018.00013</idno>
+		<ptr target="https://doi.org/10.1109/MCSoC2018.2018.00013pages" />
+	</analytic>
+	<monogr>
+		<title level="m">2018 IEEE 12th International Symposium on Embedded Multicore/Many-core Systems-on-Chip (MCSoC</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">Edge-Based Discovery of Training Data for Machine Learning</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Harkes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pillai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Klatzky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Satyanarayanan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/SEC.2018.00018</idno>
+		<ptr target="https://doi.org/10.1109/SEC.2018.00018" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE/ACM Symposium on Edge Computing (SEC)</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b41">
+	<analytic>
+		<title level="a" type="main">GAP-8: A RISC-V SoC for AI at the Edge of the IoT</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Flamand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Rossi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Conti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Loi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pullini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Rotenberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Benini</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ASAP.2018.8445101</idno>
+		<ptr target="https://doi.org/10.1109/ASAP.2018" />
+	</analytic>
+	<monogr>
+		<title level="m">2018 IEEE 29th International Conference on Application-specific Systems, Architectures and Processors (ASAP). 1-4</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">8445101</biblScope>
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b42">
+	<monogr>
+		<title level="m" type="main">The Vital Role of Edge Computing in the Internet of Things</title>
+		<author>
+			<persName><forename type="first">David</forename><surname>Floyer</surname></persName>
+		</author>
+		<ptr target="https://wikibon.com/the-vital-role" />
+		<imprint>
+			<date type="published" when="2015-08-04" />
+			<biblScope unit="page">2</biblScope>
+		</imprint>
+	</monogr>
+	<note>of-edge-computing-in-theinternet-of-things</note>
+</biblStruct>
+
+<biblStruct xml:id="b43">
+	<monogr>
+		<title level="m" type="main">The Open Platform for the IoT Edge</title>
+		<ptr target="https://www.edgexfoundry.org" />
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+	<note>The Linux Foundation</note>
+</biblStruct>
+
+<biblStruct xml:id="b44">
+	<analytic>
+		<title level="a" type="main">A Comparative Study of Fairness-Enhancing Interventions in Machine Learning</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sorelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carlos</forename><surname>Friedler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Suresh</forename><surname>Scheidegger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sonam</forename><surname>Venkatasubramanian</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Evan</forename><forename type="middle">P</forename><surname>Choudhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Derek</forename><surname>Hamilton</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Roth</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3287560.3287589</idno>
+		<ptr target="https://doi.org/10.1145/3287560.3287589pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Conference on Fairness, Accountability, and Transparency</title>
+				<meeting>the Conference on Fairness, Accountability, and Transparency<address><addrLine>Atlanta, GA, USA; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="page">28</biblScope>
+		</imprint>
+	</monogr>
+	<note>) (FAT* &apos;19)</note>
+</biblStruct>
+
+<biblStruct xml:id="b45">
+	<analytic>
+		<title level="a" type="main">EdgeDRNN: Enabling Low-latency Recurrent Neural Network Edge Inference</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Gao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Rios-Navarro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xi</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Delbrück</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shih-Chii</forename><surname>Liu</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2nd IEEE International Conference on Artificial Intelligence Circuits and Systems (AICAS) (2020)</title>
+				<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b46">
+	<monogr>
+		<title level="m" type="main">Differentially Private Federated Learning: A Client Level Perspective</title>
+		<author>
+			<persName><forename type="first">Robin</forename><forename type="middle">C</forename><surname>Geyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tassilo</forename><surname>Klein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Moin</forename><surname>Nabi</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1712.07557</idno>
+		<ptr target="http://arxiv.org/abs/1712.07557pages" />
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b47">
+	<analytic>
+		<title level="a" type="main">Medical Image Forgery Detection for Smart Healthcare</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ghoneim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Muhammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">U</forename><surname>Amin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Gupta</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MCOM.2018.1700817</idno>
+		<ptr target="https://doi.org/10.1109/MCOM.2018.1700817" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Communications Magazine</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2018-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b48">
+	<analytic>
+		<title level="a" type="main">Compiling KB-sized Machine Learning Models to Tiny IoT Devices</title>
+		<author>
+			<persName><forename type="first">Nikhil</forename><surname>Sridhar Gopinath</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vivek</forename><surname>Ghanathe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rahul</forename><surname>Seshadri</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sharma</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3314221.3314597</idno>
+		<ptr target="https://doi.org/10.1145/3314221.3314597pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation</title>
+				<meeting>the 40th ACM SIGPLAN Conference on Programming Language Design and Implementation<address><addrLine>Phoenix, AZ, USA; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="page">23</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b49">
+	<analytic>
+		<title level="a" type="main">ProtoNN: Compressed and Accurate kNN for Resource-scarce Devices</title>
+		<author>
+			<persName><forename type="first">Chirag</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Arun</forename><surname>Sai Suggala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ankit</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bhargavi</forename><surname>Harsha Vardhan Simhadri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ashish</forename><surname>Paranjape</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Saurabh</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raghavendra</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manik</forename><surname>Udupa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prateek</forename><surname>Varma</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Jain</surname></persName>
+		</author>
+		<ptr target="http://proceedings.mlr.press/v70/gupta17a.htmlpages7" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 34th International Conference on Machine Learning (Proceedings of Machine Learning Research</title>
+				<meeting>the 34th International Conference on Machine Learning ( Machine Learning Research<address><addrLine>Sydney, Australia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+	<note>PMLR, International Convention Centre</note>
+</biblStruct>
+
+<biblStruct xml:id="b50">
+	<analytic>
+		<title level="a" type="main">Deep Learning with Limited Numerical Precision</title>
+		<author>
+			<persName><forename type="first">Suyog</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ankur</forename><surname>Agrawal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kailash</forename><surname>Gopalakrishnan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pritish</forename><surname>Narayanan</surname></persName>
+		</author>
+		<ptr target="http://dl.acm.org/citation.cfm?id=3045118.3045303pages7" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 32Nd International Conference on International Conference on Machine Learning -Volume</title>
+				<meeting>the 32Nd International Conference on International Conference on Machine Learning -Volume<address><addrLine>Lille, France</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="volume">37</biblScope>
+			<biblScope unit="page">12</biblScope>
+		</imprint>
+	</monogr>
+	<note>ICML&apos;15). JMLR.org</note>
+</biblStruct>
+
+<biblStruct xml:id="b51">
+	<analytic>
+		<title level="a" type="main">Robustly Executing DNNs in IoT Systems Using Coded Distributed Computing</title>
+		<author>
+			<persName><forename type="first">Ramyad</forename><surname>Hadidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiashen</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><forename type="middle">S</forename><surname>Ryoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hyesoon</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3316781.3322474</idno>
+		<ptr target="https://doi.org/10.1145/3316781.3322474pages7" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 56th Annual Design Automation Conference 2019</title>
+				<meeting>the 56th Annual Design Automation Conference 2019<address><addrLine>Las Vegas, NV, USA; New York, NY, USA, Article</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">234</biblScope>
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+	<note>DAC &apos;19)</note>
+</biblStruct>
+
+<biblStruct xml:id="b52">
+	<analytic>
+		<title level="a" type="main">Distributed Perception by Collaborative Robots</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hadidi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Woodward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">S</forename><surname>Ryoo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Robotics and Automation Letters</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">15</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b53">
+	<monogr>
+		<author>
+			<persName><forename type="first">Song</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huizi</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">J</forename><surname>Dally</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1510.00149</idno>
+		<title level="m">Deep Compression: Compressing Deep Neural Networks with Pruning, Trained Quantization and Huffman Coding</title>
+				<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page">12</biblScope>
+		</imprint>
+	</monogr>
+	<note>cs.CV</note>
+</biblStruct>
+
+<biblStruct xml:id="b54">
+	<monogr>
+		<author>
+			<persName><forename type="first">Awni</forename><surname>Hannun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carl</forename><surname>Case</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jared</forename><surname>Casper</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bryan</forename><surname>Catanzaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Greg</forename><surname>Diamos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Erich</forename><surname>Elsen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ryan</forename><surname>Prenger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sanjeev</forename><surname>Satheesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shubho</forename><surname>Sengupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Adam</forename><surname>Coates</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">Y</forename><surname>Ng</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1412.5567</idno>
+		<title level="m">Deep Speech: Scaling up end-to-end speech recognition</title>
+				<imprint>
+			<date type="published" when="2014" />
+			<biblScope unit="page">10</biblScope>
+		</imprint>
+	</monogr>
+	<note>cs.CL</note>
+</biblStruct>
+
+<biblStruct xml:id="b55">
+	<monogr>
+		<title level="m" type="main">Inside the Smart House</title>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Harper</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2003" />
+			<publisher>Springer-Verlag</publisher>
+			<biblScope unit="page">18</biblScope>
+			<pubPlace>Berlin, Heidelberg</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b56">
+	<monogr>
+		<title level="m" type="main">TensorFlow Lite Speech Command Recognition Android Demo</title>
+		<author>
+			<persName><forename type="first">Evan</forename><surname>Hennis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mark</forename><surname>Deoust</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Billy</forename><surname>Lamberta</surname></persName>
+		</author>
+		<ptr target="https://github.com/tensorflow/examples/tree/master/lite/examples/speech_commands/android.LastAccessed" />
+		<imprint>
+			<date type="published" when="2019-07-21" />
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b57">
+	<monogr>
+		<title level="m" type="main">Embedded Deep Learning for Vehicular Edge Computing</title>
+		<author>
+			<persName><forename type="first">Jacob</forename><surname>Hochstetler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rahul</forename><surname>Padidela</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qing</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qiang</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Songnian</forename><surname>Fu</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b58">
+	<analytic>
+		<title/>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE/ACM Symposium on Edge Computing (SEC)</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b59">
+	<monogr>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">G</forename><surname>Howard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Menglong</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bo</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dmitry</forename><surname>Kalenichenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Weijun</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tobias</forename><surname>Weyand</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Andreetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hartwig</forename><surname>Adam</surname></persName>
+		</author>
+		<title level="m">MobileNets: Efficient Convolutional Neural Networks for Mobile Vision Applications. arXiv e-prints 1704</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b60">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Hsu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">Y</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">C H</forename><surname>Shen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">H</forename></persName>
+		</author>
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b61">
+	<analytic>
+		<title level="a" type="main">FallCare+: An IoT surveillance system for fall detection</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">H P</forename><surname>Chiang</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Wen</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICASI.2017.7988590</idno>
+		<ptr target="https://doi.org/10.1109/ICASI.2017.7988590" />
+	</analytic>
+	<monogr>
+		<title level="m">2017 International Conference on Applied System Innovation (ICASI). 921-922</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b62">
+	<analytic>
+		<title level="a" type="main">Towards Deep Learning on Resource-Constrained Robots: A Crowdsourcing Approach with Model Partition</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Huai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Ding</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Geng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advanced Trusted Computing, Scalable Computing Communications, Cloud Big Data Computing, Internet of People and Smart City Innovation</title>
+				<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b63">
+	<analytic>
+		<title level="a" type="main">Ran El-Yaniv, and Yoshua Bengio</title>
+		<author>
+			<persName><forename type="first">Itay</forename><surname>Hubara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthieu</forename><surname>Courbariaux</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Soudry</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in neural information processing systems</title>
+				<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page">14</biblScope>
+		</imprint>
+	</monogr>
+	<note>Binarized neural networks</note>
+</biblStruct>
+
+<biblStruct xml:id="b64">
+	<monogr>
+		<title level="m" type="main">SqueezeNet: AlexNet-level accuracy with 50x fewer parameters and &lt;1MB model size</title>
+		<author>
+			<persName><forename type="first">Forrest</forename><forename type="middle">N</forename><surname>Iandola</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matthew</forename><forename type="middle">W</forename><surname>Moskewicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Khalid</forename><surname>Ashraf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Song</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">J</forename><surname>Dally</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kurt</forename><surname>Keutzer</surname></persName>
+		</author>
+		<idno>1602.07360</idno>
+		<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b65">
+	<monogr>
+		<title level="m" type="main">Fog Computing Conceptual Model</title>
+		<author>
+			<persName><forename type="first">Michaela</forename><surname>Iorga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Larry</forename><forename type="middle">B</forename><surname>Feldman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Robert</forename><surname>Barton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Martin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nedim</forename><forename type="middle">S</forename><surname>Goren</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charif</forename><surname>Mahmoudi</surname></persName>
+		</author>
+		<idno type="DOI">10.6028/NIST.SP.500-325</idno>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b66">
+	<analytic>
+		<title level="a" type="main">Utilizing high-performance embedded computing, agile condor, for intelligent processing: An artificial intelligence platform for remotely piloted aircraft</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Isereau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Capraro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Cote</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Barnell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Raymond</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/IntelliSys.2017.8324277</idno>
+		<ptr target="https://doi.org/10.1109/IntelliSys.2017.8324277pages" />
+	</analytic>
+	<monogr>
+		<title level="m">2017 Intelligent Systems Conference (IntelliSys)</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b67">
+	<monogr>
+		<title level="m" type="main">Edge Computing vs. Fog Computing: What&apos;s the Difference?</title>
+		<author>
+			<persName><forename type="first">Kaya</forename><surname>Ismail</surname></persName>
+		</author>
+		<ptr target="https://www.cmswire.com/information-management/edge-computing-vs-fog-computing-whats-the-difference" />
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b68">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">R</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Colin</forename><surname>Johnson</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>n.d.</note>
+</biblStruct>
+
+<biblStruct xml:id="b69">
+	<monogr>
+		<title level="m" type="main">A Programmable Approach to Model Compression</title>
+		<author>
+			<persName><forename type="first">Vinu</forename><surname>Joseph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Saurav</forename><surname>Muralidharan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Animesh</forename><surname>Garg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Garland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ganesh</forename><surname>Gopalakrishnan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">23</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b70">
+	<analytic>
+		<title level="a" type="main">Challenges and Opportunities in DNN-Based Video Analytics: A Demonstration of the BlazeIt Video Query Engine</title>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Bailis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Matei</forename><surname>Zaharia</surname></persName>
+		</author>
+		<ptr target="http://cidrdb.org/cidr2019/papers/p141-kang-cidr19.pdfpages" />
+	</analytic>
+	<monogr>
+		<title level="m">CIDR 2019, 9th Biennial Conference on Innovative Data Systems Research</title>
+				<meeting><address><addrLine>Asilomar, CA, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2019-01-13" />
+			<biblScope unit="page">15</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b71">
+	<analytic>
+		<title level="a" type="main">C-GOOD: C-code Generation Framework for Optimized On-device Deep Learning</title>
+		<author>
+			<persName><forename type="first">Duseok</forename><surname>Kang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Euiseok</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Inpyo</forename><surname>Bae</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bernhard</forename><surname>Egger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Soonhoi</forename><surname>Ha</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3240765.3240786</idno>
+		<ptr target="https://doi.org/10.1145/3240765.3240786pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Computer-Aided Design</title>
+				<meeting>the International Conference on Computer-Aided Design<address><addrLine>San Diego, California; New York, NY, USA, Article</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b72">
+	<analytic>
+		<title level="a" type="main">Real-time Traffic Estimation at Vehicular Edge Nodes</title>
+		<author>
+			<persName><forename type="first">Gorkem</forename><surname>Kar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shubham</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marco</forename><surname>Gruteser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fan</forename><surname>Bai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ramesh</forename><surname>Govindan</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3132211.3134461</idno>
+		<ptr target="https://doi.org/10.1145/3132211.3134461pages16" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Second ACM/IEEE Symposium on Edge Computing</title>
+				<meeting>the Second ACM/IEEE Symposium on Edge Computing<address><addrLine>San Jose, California; New York, NY, USA, Article</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2017" />
+			<biblScope unit="page">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b73">
+	<analytic>
+		<title level="a" type="main">Blockchain-Based Edge Computing for Deep Neural Network Applications</title>
+		<author>
+			<persName><forename type="first">Jae-Yun</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Soo-Mook</forename><surname>Moon</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3285017.3285027</idno>
+		<ptr target="https://doi.org/10.1145/3285017.3285027pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Workshop on INTelligent Embedded Systems Architectures and Applications</title>
+				<meeting>the Workshop on INTelligent Embedded Systems Architectures and Applications<address><addrLine>Turin, Italy; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="page">10</biblScope>
+		</imprint>
+	</monogr>
+	<note>INTESA &apos;18)</note>
+</biblStruct>
+
+<biblStruct xml:id="b74">
+	<analytic>
+		<title level="a" type="main">Resource-efficient Machine Learning in 2 KB RAM for the Internet of Things</title>
+		<author>
+			<persName><forename type="first">Ashish</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Saurabh</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manik</forename><surname>Varma</surname></persName>
+		</author>
+		<ptr target="http://proceedings.mlr.press/v70/kumar17a.htmlpages7" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 34th International Conference on Machine Learning (Proceedings of Machine Learning Research</title>
+				<meeting>the 34th International Conference on Machine Learning ( Machine Learning Research<address><addrLine>Sydney, Australia</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">70</biblScope>
+			<biblScope unit="page">11</biblScope>
+		</imprint>
+	</monogr>
+	<note>PMLR, International Convention Centre</note>
+</biblStruct>
+
+<biblStruct xml:id="b75">
+	<monogr>
+		<title level="m" type="main">The EdgeML Library: An ML library for machine learning on the Edge</title>
+		<author>
+			<persName><forename type="first">Aditya</forename><surname>Kusupati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Don</forename><surname>Dennis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chirag</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ashish</forename><surname>Kumar</surname></persName>
+		</author>
+		<ptr target="https://github.com/Microsoft/EdgeML.Accessed" />
+		<imprint>
+			<date type="published" when="2019-05-20" />
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">12</biblScope>
+		</imprint>
+	</monogr>
+	<note>Shishir Patil, and Harsha Simhadri</note>
+</biblStruct>
+
+<biblStruct xml:id="b76">
+	<analytic>
+		<title level="a" type="main">FastGRNN: A Fast, Accurate, Stable and Tiny Kilobyte Sized Gated Recurrent Neural Network</title>
+		<author>
+			<persName><forename type="first">Aditya</forename><surname>Kusupati</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manish</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kush</forename><surname>Bhatia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ashish</forename><surname>Kumar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Prateek</forename><surname>Jain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Manik</forename><surname>Varma</surname></persName>
+		</author>
+		<ptr target="http://papers.nips.cc/paper/8116-fastgrnn-a-fast-accurate-stable-and-tiny-kilobyte-sized-gated-recurrent-neural-network.pdfpages7,8" />
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems 31</title>
+				<imprint>
+			<publisher>Curran Associates, Inc</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="9017" to="9028" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b77">
+	<monogr>
+		<title level="m" type="main">Perf Machine Learning on Rasp Pi</title>
+		<author>
+			<persName><surname>Gant Laborde</surname></persName>
+		</author>
+		<ptr target="https://medium.com/free-code-camp/perf-machine-learning-on-rasp-pi-51101d03dba2" />
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page">26</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b78">
+	<analytic>
+		<title level="a" type="main">Enabling Deep Learning at the IoT Edge</title>
+		<author>
+			<persName><forename type="first">Liangzhen</forename><surname>Lai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Naveen</forename><surname>Suda</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3240765.3243473</idno>
+		<ptr target="https://doi.org/10.1145/3240765.3243473pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the International Conference on Computer-Aided Design</title>
+				<meeting>the International Conference on Computer-Aided Design<address><addrLine>San Diego, California; New York, NY, USA, Article</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">135</biblScope>
+			<biblScope unit="page">26</biblScope>
+		</imprint>
+	</monogr>
+	<note>ICCAD &apos;18)</note>
+</biblStruct>
+
+<biblStruct xml:id="b79">
+	<analytic>
+		<title level="a" type="main">DeepX: A Software Accelerator for Low-Power Deep Learning Inference on Mobile Devices</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">D</forename><surname>Lane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Bhattacharya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Georgiev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Forlivesi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Qendro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kawsar</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/IPSN.2016.7460664</idno>
+		<ptr target="https://doi.org/10.1109/IPSN.2016.7460664pages" />
+	</analytic>
+	<monogr>
+		<title level="m">15th ACM/IEEE International Conference on Information Processing in Sensor Networks (IPSN)</title>
+				<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b80">
+	<analytic>
+		<title level="a" type="main">Car plate recognition based on CNN using embedded system with GPU</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Son</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Park</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/HSI.2017.8005037</idno>
+		<ptr target="https://doi.org/10.1109/HSI.2017.8005037pages" />
+	</analytic>
+	<monogr>
+		<title level="m">2017 10th International Conference on Human System Interactions (HSI)</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b81">
+	<analytic>
+		<title level="a" type="main">DeepCham: Collaborative Edge-Mediated Adaptive Deep Learning for Mobile Object Recognition</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Salonidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Desai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">C</forename><surname>Chuah</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/SEC.2016.38</idno>
+		<ptr target="https://doi.org/10.1109/SEC.2016.38pages" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE/ACM Symposium on Edge Computing (SEC)</title>
+		<imprint>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b82">
+	<analytic>
+		<title level="a" type="main">Edge Intelligence: On-Demand Deep Learning Model Co-Inference with Device-Edge Synergy</title>
+		<author>
+			<persName><forename type="first">En</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhi</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xu</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3229556.3229562</idno>
+		<ptr target="https://doi.org/10.1145/3229556.3229562pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2018 Workshop on Mobile Edge Communications</title>
+				<meeting>the 2018 Workshop on Mobile Edge Communications<address><addrLine>Budapest, Hungary; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+	<note>MECOMM&apos;18)</note>
+</biblStruct>
+
+<biblStruct xml:id="b83">
+	<monogr>
+		<author>
+			<persName><forename type="first">Mingzhen</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yi</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaoyan</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qingxiao</forename><surname>Sun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xin</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hailong</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhongzhi</forename><surname>Luan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lin</forename><surname>Gan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guangwen</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Depei</forename><surname>Qian</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2002.03794</idno>
+		<title level="m">The Deep Learning Compiler: A Comprehensive Survey</title>
+				<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page">28</biblScope>
+		</imprint>
+	</monogr>
+	<note>cs.DC</note>
+</biblStruct>
+
+<biblStruct xml:id="b84">
+	<monogr>
+		<author>
+			<persName><forename type="first">Tian</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anit</forename><surname>Kumar Sahu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ameet</forename><surname>Talwalkar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Virginia</forename><surname>Smith</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1908.07873</idno>
+		<title level="m">Federated Learning: Challenges, Methods, and Future Directions</title>
+				<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page">9</biblScope>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv eprints</note>
+	<note>cs.LG</note>
+</biblStruct>
+
+<biblStruct xml:id="b85">
+	<analytic>
+		<title level="a" type="main">Toward intelligent vehicular networks: A machine learning framework</title>
+		<author>
+			<persName><forename type="first">Le</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geoffrey Ye</forename><surname>Hao Ye</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Li</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Internet of Things Journal</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">18</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b86">
+	<analytic>
+		<title level="a" type="main">Federated learning in mobile edge networks: A comprehensive survey</title>
+		<author>
+			<persName><forename type="first">Wei Yang Bryan</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cong</forename><surname>Nguyen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dinh Thai</forename><surname>Luong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yutao</forename><surname>Hoang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ying-Chang</forename><surname>Jiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qiang</forename><surname>Liang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dusit</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chunyan</forename><surname>Niyato</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Miao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Communications Surveys &amp; Tutorials</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">9</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b87">
+	<monogr>
+		<title level="m" type="main">Deep Gradient Compression: Reducing the Communication Bandwidth for Distributed Training</title>
+		<author>
+			<persName><forename type="first">Yujun</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Song</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Huizi</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yu</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">J</forename><surname>Dally</surname></persName>
+		</author>
+		<idno>abs/1712.01887</idno>
+		<ptr target="http://arxiv.org/abs/1712.01887pages7" />
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv eprints</note>
+</biblStruct>
+
+<biblStruct xml:id="b88">
+	<monogr>
+		<author>
+			<persName><forename type="first">Audrey</forename><forename type="middle">G</forename><surname>Zhong Qiu Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">William</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Wong</surname></persName>
+		</author>
+		<title level="m">Highly Efficient Deep Neural Networks for Speech Recognition on the Edge. arXiv e-prints 1810</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b89">
+	<analytic>
+		<title level="a" type="main">A New Deep Learning-Based Food Recognition System for Dietary Assessment on An Edge Computing Service Infrastructure</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Vokkarane</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Yunsheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hou</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TSC.2017.2662008</idno>
+		<ptr target="https://doi.org/10.1109/TSC.2017.2662008pages16" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Services Computing</title>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2018-03" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b90">
+	<monogr>
+		<title level="m" type="main">Edge-Assisted Hierarchical Federated Learning with Non-IID Data. ArXiv abs</title>
+		<author>
+			<persName><forename type="first">Lumin</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Khaled</forename><surname>Ben Letaief</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1905" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b91">
+	<analytic>
+		<title level="a" type="main">SafeShareRide: Edge-Based Attack Detection in Ridesharing Services</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Qiao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/SEC.2018.00009</idno>
+		<ptr target="https://doi.org/10.1109/SEC.2018.00009pages19" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE/ACM Symposium on Edge Computing (SEC</title>
+		<imprint>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b92">
+	<analytic>
+		<title level="a" type="main">Fast and Accurate Object Analysis at the Edge for Mobile Augmented Reality: Demo</title>
+		<author>
+			<persName><forename type="first">Qiang</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Siqi</forename><surname>Huang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tao</forename><surname>Han</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3132211.3132458</idno>
+		<ptr target="https://doi.org/10.1145/3132211.3132458pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Second ACM/IEEE Symposium on Edge Computing</title>
+				<meeting>the Second ACM/IEEE Symposium on Edge Computing<address><addrLine>San Jose, California; New York, NY, USA, Article</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b93">
+	<monogr>
+		<title level="m" type="main">CMFL: Mitigating Communication Overhead for Federated Learning</title>
+		<author>
+			<persName><forename type="first">Bo</forename><forename type="middle">Li</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luping</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wei</forename><surname>Wang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b94">
+	<monogr>
+		<title level="m" type="main">Image classification on IoT edge devices: profiling and modeling</title>
+		<author>
+			<persName><forename type="first">Abdel</forename><surname>Salma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francesco</forename><surname>Magid</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Behnam</forename><surname>Petrini</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Dezfouli</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+			<publisher>Cluster Computing</publisher>
+			<biblScope unit="page" from="1" to="19" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b95">
+	<analytic>
+		<title level="a" type="main">Machine learning for internet of things data analysis: a survey</title>
+		<author>
+			<persName><forename type="first">Mohammadreza</forename><surname>Mohammad Saeid Mahdavinejad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammadamin</forename><surname>Rezvan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peyman</forename><surname>Barekatain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Payam</forename><surname>Adibi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amit</forename><forename type="middle">P</forename><surname>Barnaghi</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Sheth</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.dcan.2017.10.002</idno>
+		<ptr target="https://doi.org/10.1016/j.dcan.2017.10.002pages" />
+	</analytic>
+	<monogr>
+		<title level="j">Digital Communications and Networks</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b96">
+	<analytic>
+		<title level="a" type="main">The Internet of Things: Mapping the Value Behind the Hype</title>
+		<author>
+			<persName><forename type="first">James</forename><surname>Manyika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Chui</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Peter</forename><surname>Bisson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jonathan</forename><surname>Woetzel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Dobbs</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jacques</forename><surname>Bughin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dan</forename><surname>Aharon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">McKinsey and Company</title>
+		<imprint>
+			<biblScope unit="page">1</biblScope>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b97">
+	<analytic>
+		<title level="a" type="main">MoDNN: Local distributed mobile computing system for Deep Neural Network</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Nixon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Krieger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<idno type="DOI">10.23919/DATE.2017.7927211</idno>
+		<ptr target="https://doi.org/10.23919/DATE.2017.7927211pages7" />
+	</analytic>
+	<monogr>
+		<title level="m">Design, Automation Test in Europe Conference Exhibition (DATE)</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page">14</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b98">
+	<monogr>
+		<title level="m" type="main">Learning from Differentially Private Neural Activations with Edge Computing</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Mao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhong</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b99">
+	<monogr>
+		<idno type="DOI">10.1109/SEC.2018.00014</idno>
+		<ptr target="https://doi.org/10.1109/SEC.2018.00014pages" />
+		<title level="m">IEEE/ACM Symposium on Edge Computing (SEC)</title>
+				<imprint>
+			<biblScope unit="page">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b100">
+	<analytic>
+		<title level="a" type="main">Efficient support vector machines implementation on Intel/Movidius Myriad 2</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Marantos</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Karavalakis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Leon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Tsoutsouras</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pekmestzi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Soudris</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MOCAST.2018.8376630</idno>
+		<ptr target="https://doi.org/10.1109/MOCAST.2018" />
+	</analytic>
+	<monogr>
+		<title level="m">7th International Conference on Modern Circuits and Systems Technologies (MOCAST). 1-4</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">8376630</biblScope>
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b101">
+	<analytic>
+		<title level="a" type="main">Real-Time Apple Detection System Using Embedded Systems With Hardware Accelerators: An Edge AI Application</title>
+		<author>
+			<persName><forename type="first">V</forename><surname>Mazzia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Khaliq</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Salvetti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chiaberge</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b102">
+	<monogr>
+		<author>
+			<persName><forename type="first">Bradley</forename><surname>Mcdanel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Surat</forename><surname>Teerapittayanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Kung</surname></persName>
+		</author>
+		<title level="m">Embedded Binarized Neural Networks. arXiv e-prints 1709</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page">14</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b103">
+	<analytic>
+		<title level="a" type="main">Communication-Efficient Learning of Deep Networks from Decentralized Data</title>
+		<author>
+			<persName><forename type="first">H</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brendan</forename><surname>Mcmahan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Eider</forename><surname>Moore</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Ramage</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seth</forename><surname>Hampson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Blaise</forename><surname>Agüera Y Arcas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">AISTATS</title>
+				<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page">9</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b104">
+	<monogr>
+		<author>
+			<persName><surname>Microsoft</surname></persName>
+		</author>
+		<ptr target="https://github.com/Microsoft/pages" />
+		<title level="m">Embedded Learning Library</title>
+				<imprint>
+			<biblScope unit="page">11</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b105">
+	<monogr>
+		<title level="m" type="main">Project Brainwave</title>
+		<author>
+			<persName><surname>Microsoft</surname></persName>
+		</author>
+		<ptr target="https://www.microsoft.com/en-us/research/project/project-brainwave/.LastAccessed" />
+		<imprint>
+			<date type="published" when="2019-10-08" />
+			<biblScope unit="page">26</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b106">
+	<analytic>
+		<title level="a" type="main">A Privacy-Aware Architecture at the Edge for Autonomous Real-Time Identity Reidentification in Crowds</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Miraftabzadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Rad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">R</forename><surname>Choo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Jamshidi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/JIOT.2017.2761801</idno>
+		<ptr target="https://doi.org/10.1109/JIOT.2017.2761801pages19" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Internet of Things Journal</title>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2018-08" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b107">
+	<analytic>
+		<title level="a" type="main">Resource-aware On-device Deep Learning for Supermarket Hazard Detection</title>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">G S</forename><surname>Murshed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Carroll</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Hussain</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICMLA51294.2020.00142</idno>
+		<ptr target="https://doi.org/10.1109/ICMLA51294.2020.00142pages2" />
+	</analytic>
+	<monogr>
+		<title level="m">2020 19th IEEE International Conference on Machine Learning and Applications (ICMLA)</title>
+				<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="871" to="876" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b108">
+	<analytic>
+		<title level="a" type="main">A Machine Learning Approach to Pedestrian Detection for Autonomous Vehicles Using High-Definition 3D Range Data</title>
+		<author>
+			<persName><forename type="first">Pedro</forename><surname>Navarro Lorente</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carlos</forename><surname>Fernandez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Raul</forename><surname>Borraz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Diego</forename><surname>Alonso</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/s17010018</idno>
+		<ptr target="https://doi.org/10.3390/s17010018" />
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<imprint>
+			<biblScope unit="volume">17</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2016-12" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b109">
+	<analytic>
+		<title level="a" type="main">Multimodal Deep Learning</title>
+		<author>
+			<persName><forename type="first">Jiquan</forename><surname>Ngiam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aditya</forename><surname>Khosla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mingyu</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juhan</forename><surname>Nam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Honglak</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><forename type="middle">Y</forename><surname>Ng</surname></persName>
+		</author>
+		<ptr target="http://dl.acm.org/citation.cfm?id=3104482.3104569pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 28th International Conference on International Conference on Machine Learning</title>
+				<meeting>the 28th International Conference on International Conference on Machine Learning<address><addrLine>Bellevue, Washington, USA; Omnipress, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2011" />
+			<biblScope unit="page">27</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b110">
+	<analytic>
+		<title level="a" type="main">Intelligent Surveillance as an Edge Network Service: from Harr-Cascade</title>
+		<author>
+			<persName><forename type="first">Yu</forename><surname>Seyed Yahya Nikouei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sejun</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ronghua</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Baek-Young</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Timothy</forename><forename type="middle">R</forename><surname>Choi</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Faughnan</surname></persName>
+		</author>
+		<idno>1805.00331</idno>
+	</analytic>
+	<monogr>
+		<title level="m">SVM to a Lightweight CNN</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">26</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b111">
+	<analytic>
+		<title level="a" type="main">Client Selection for Federated Learning with Heterogeneous Resources in Mobile Edge</title>
+		<author>
+			<persName><forename type="first">Takayuki</forename><surname>Nishio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ryo</forename><surname>Yonetani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ICC 2019 -2019 IEEE International Conference on Communications (ICC)</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">9</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b112">
+	<analytic>
+		<title level="a" type="main">Deep learning algorithms for human activity recognition using mobile and wearable sensor networks: State of the art and research challenges</title>
+		<author>
+			<persName><forename type="first">Ying</forename><forename type="middle">Wah</forename><surname>Henry Friday Nweke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohammed</forename><forename type="middle">Ali</forename><surname>Teh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Uzoma Rita</forename><surname>Al-Garadi</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Alo</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.eswa.2018.03.056</idno>
+		<ptr target="https://doi.org/10.1016/j.eswa.2018.03.056pages" />
+	</analytic>
+	<monogr>
+		<title level="j">Expert Systems with Applications</title>
+		<imprint>
+			<biblScope unit="volume">105</biblScope>
+			<biblScope unit="page">27</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b113">
+	<analytic>
+		<title level="a" type="main">MODI: Mobile Deep Inference Made Efficient by Edge Computing</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Samuel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tian</forename><surname>Ogden</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Guo</surname></persName>
+		</author>
+		<ptr target="https://www.usenix.org/conference/hotedge18/presentation/ogdenpages7" />
+	</analytic>
+	<monogr>
+		<title level="m">USENIX Workshop on Hot Topics in Edge Computing (HotEdge 18). USENIX Association</title>
+				<meeting><address><addrLine>Boston, MA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page">14</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b114">
+	<analytic>
+		<title level="a" type="main">Private and Scalable Personal Data Analytics Using Hybrid Edge-to-Cloud Deep Learning</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">A</forename><surname>Osia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">S</forename><surname>Shamsabadi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Taheri</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">R</forename><surname>Rabiee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Haddadi</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MC.2018.2381113</idno>
+		<ptr target="https://doi.org/10.1109/MC.2018.2381113pages17" />
+	</analytic>
+	<monogr>
+		<title level="j">Computer</title>
+		<imprint>
+			<biblScope unit="volume">51</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2018-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b115">
+	<monogr>
+		<title level="m" type="main">Time to Get Serious About Edge Computing</title>
+		<author>
+			<persName><forename type="first">Anand</forename><surname>Oswal</surname></persName>
+		</author>
+		<ptr target="https://blogs.cisco.com/enterprise/time-to-get-serious-about-edge-computing" />
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b116">
+	<analytic>
+		<title level="a" type="main">SCNN: An Accelerator for Compressed-Sparse Convolutional Neural Networks</title>
+		<author>
+			<persName><forename type="first">Angshuman</forename><surname>Parashar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Minsoo</forename><surname>Rhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anurag</forename><surname>Mukkara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Antonio</forename><surname>Puglielli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rangharajan</forename><surname>Venkatesan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Brucek</forename><surname>Khailany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joel</forename><surname>Emer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Stephen</forename><forename type="middle">W</forename><surname>Keckler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">William</forename><forename type="middle">J</forename><surname>Dally</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3140659.3080254</idno>
+		<ptr target="https://doi.org/10.1145/3140659" />
+	</analytic>
+	<monogr>
+		<title level="j">SIGARCH Comput. Archit. News</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="page">12</biblScope>
+			<date type="published" when="2017-06" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b117">
+	<analytic>
+		<title level="a" type="main">LiReD: A Light-Weight Real-Time Fault Detection System for Edge Computing Using LSTM Recurrent Neural Networks</title>
+		<author>
+			<persName><forename type="first">Donghyun</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seulgi</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yelin</forename><surname>An</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jae-Yoon</forename><surname>Jung</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/s18072110</idno>
+		<ptr target="https://doi.org/10.3390/s18072110pages19" />
+	</analytic>
+	<monogr>
+		<title level="j">Sensors</title>
+		<imprint>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b118">
+	<analytic>
+		<title level="a" type="main">Energy-Efficient Neural Network Accelerator Based on Outlier-Aware Low-Precision Computation</title>
+		<author>
+			<persName><forename type="first">Eunhyeok</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dongyoung</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sungjoo</forename><surname>Yoo</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ISCA.2018.00063</idno>
+		<ptr target="https://doi.org/10.1109/ISCA.2018.00063pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 45th Annual International Symposium on Computer Architecture</title>
+				<meeting>the 45th Annual International Symposium on Computer Architecture<address><addrLine>Los Angeles, California</addrLine></address></meeting>
+		<imprint>
+			<publisher>IEEE Press</publisher>
+			<date type="published" when="2018" />
+			<biblScope unit="page">12</biblScope>
+		</imprint>
+	</monogr>
+	<note>ISCA &apos;18)</note>
+</biblStruct>
+
+<biblStruct xml:id="b119">
+	<analytic>
+		<title level="a" type="main">Wireless Network Intelligence at the Edge</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Park</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Samarakoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bennis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Debbah</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Proc. IEEE</title>
+		<imprint>
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page">4</biblScope>
+			<date type="published" when="2019" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b120">
+	<monogr>
+		<title level="m" type="main">The RISC-V Reader: An Open Architecture Atlas. Strawberry Canyon LLC</title>
+		<author>
+			<persName><forename type="first">David</forename><surname>Patterson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Waterman</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page">27</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b121">
+	<analytic>
+		<title level="a" type="main">A survey of methods for distributed machine learning</title>
+		<author>
+			<persName><forename type="first">Diego</forename><surname>Peteiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">-</forename><surname>Barral</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bertha</forename><surname>Guijarro-Berdiñas</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s13748-012-0035-5</idno>
+		<ptr target="https://doi.org/10.1007/s13748-012-0035-5pages27" />
+	</analytic>
+	<monogr>
+		<title level="j">Progress in Artificial Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="1" to="11" />
+			<date type="published" when="2013-03-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b122">
+	<analytic>
+		<title level="a" type="main">EdgeNet: SqueezeNet like Convolution Neural Network on Embedded FPGA</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Pradeep</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Kamalavasan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Natheesan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Pasqual</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICECS.2018.8617876</idno>
+		<ptr target="https://doi.org/10.1109/ICECS.2018.8617876pages7" />
+	</analytic>
+	<monogr>
+		<title level="m">25th IEEE International Conference on Electronics, Circuits and Systems (ICECS)</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b123">
+	<analytic>
+		<title level="a" type="main">Blockchain-based mobile edge computing framework for secure therapy applications</title>
+		<author>
+			<persName><surname>Md Abdur Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">George</forename><surname>Shamim Hossain</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Elham</forename><surname>Loukas</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Hassanain</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Syed Sadiqur Rahman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohsen</forename><surname>Mohammed F Alhamid</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Guizani</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Access</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">10</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b124">
+	<monogr>
+		<author>
+			<persName><forename type="first">Joseph</forename><surname>Redmon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ali</forename><surname>Farhadi</surname></persName>
+		</author>
+		<idno>1804.02767</idno>
+		<title level="m">YOLOv3: An Incremental Improvement</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">16</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b125">
+	<analytic>
+		<title level="a" type="main">Why Should I Trust You?&quot;: Explaining the Predictions of Any Classifier</title>
+		<author>
+			<persName><forename type="first">Sameer</forename><surname>Marco Túlio Ribeiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Carlos</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Guestrin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">HLT-NAACL Demos</title>
+				<imprint>
+			<date type="published" when="2016" />
+			<biblScope unit="page">28</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b126">
+	<monogr>
+		<author>
+			<persName><forename type="first">Nadav</forename><surname>Rotem</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jordan</forename><surname>Fix</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Saleem</forename><surname>Abdulrasool</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Garret</forename><surname>Catron</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Summer</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roman</forename><surname>Dzhabarov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nick</forename><surname>Gibson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">James</forename><surname>Hegeman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Meghan</forename><surname>Lele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Roman</forename><surname>Levenstein</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1805.00907</idno>
+		<title level="m">Glow: Graph lowering compiler techniques for neural networks</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">28</biblScope>
+		</imprint>
+	</monogr>
+	<note type="report_type">arXiv preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b127">
+	<analytic>
+		<title level="a" type="main">Evaluating the power efficiency of deep learning inference on embedded GPU systems</title>
+		<author>
+			<persName><forename type="first">K</forename><surname>Rungsuptaweekoon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Visoottiviseth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Takano</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/INCIT.2017.8257866</idno>
+		<ptr target="https://doi.org/10.1109/INCIT.2017.8257866pages" />
+	</analytic>
+	<monogr>
+		<title level="m">2017 2nd International Conference on Information Technology (INCIT). 1-5</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b128">
+	<analytic>
+		<title level="a" type="main">The Emergence of Edge Computing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Satyanarayanan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MC.2017.9</idno>
+		<ptr target="https://doi.org/10.1109/MC.2017" />
+	</analytic>
+	<monogr>
+		<title level="j">Computer</title>
+		<imprint>
+			<biblScope unit="volume">50</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page">2</biblScope>
+			<date type="published" when="2017-01" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b129">
+	<analytic>
+		<title level="a" type="main">Augmenting Cognition Through Edge Computing</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Satyanarayanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Davies</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MC.2019.2911878</idno>
+		<ptr target="https://doi.org/10.1109/MC.2019.2911878pages19" />
+	</analytic>
+	<monogr>
+		<title level="j">Computer</title>
+		<imprint>
+			<biblScope unit="volume">52</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2019-07" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b130">
+	<analytic>
+		<title level="a" type="main">Are Existing Knowledge Transfer Techniques Effective For Deep Learning on Edge Devices</title>
+		<author>
+			<persName><forename type="first">Ragini</forename><surname>Sharma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Saman</forename><surname>Biookaghazadeh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ming</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 27th International Symposium on High-Performance Parallel and Distributed Computing</title>
+				<meeting>the 27th International Symposium on High-Performance Parallel and Distributed Computing<address><addrLine>Tempe, AZ, USA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b131">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1145/3220192.3220459</idno>
+		<ptr target="https://doi.org/10.1145/3220192.3220459pages7" />
+		<imprint>
+			<publisher>ACM</publisher>
+			<biblScope unit="page" from="15" to="16" />
+			<pubPlace>New York, NY, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b132">
+	<analytic>
+		<title level="a" type="main">Edge Computing: Vision and Challenges</title>
+		<author>
+			<persName><forename type="first">Weisong</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jie</forename><surname>Cao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Quan</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Youhuizi</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lanyu</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/JIOT.2016.2579198</idno>
+		<ptr target="https://doi.org/10.1109/JIOT.2016.2579198pages2" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Internet of Things Journal</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page">16</biblScope>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b133">
+	<analytic>
+		<title level="a" type="main">The Promise of Edge Computing</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dustdar</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/MC.2016.145</idno>
+		<ptr target="https://doi.org/10.1109/MC.2016.145pages2" />
+	</analytic>
+	<monogr>
+		<title level="j">Computer</title>
+		<imprint>
+			<biblScope unit="volume">49</biblScope>
+			<biblScope unit="page" from="78" to="81" />
+			<date type="published" when="2016-05" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b134">
+	<analytic>
+		<title level="a" type="main">DRQ: Dynamic Region-based Quantization for Deep Neural Network Acceleration</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Fu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Jing</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Liang</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ISCA45697.2020.00086</idno>
+		<ptr target="https://doi.org/10.1109/ISCA45697.2020.00086pages" />
+	</analytic>
+	<monogr>
+		<title level="m">2020 ACM/IEEE 47th Annual International Symposium on Computer Architecture (ISCA)</title>
+				<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page">12</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b135">
+	<monogr>
+		<author>
+			<persName><forename type="first">Flavio</forename><surname>Souza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Diego</forename><surname>Couto De Las</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vinicius</forename><surname>Casas</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sunbum</forename><surname>Flores Zambaldi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Meeyoung</forename><surname>Youn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniele</forename><surname>Cha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Virgilio</forename><forename type="middle">A F</forename><surname>Quercia</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Almeida</surname></persName>
+		</author>
+		<idno>1510.05700</idno>
+		<title level="m">Dawn of the Selfie Era: The Whos, Wheres, and Hows of Selfies on Instagram</title>
+				<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page">16</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b136">
+	<monogr>
+		<title level="m" type="main">IBM scientists team with The Weather Company to bring edge computing to life</title>
+		<ptr target="https://www.ibm.com/blogs/research/2017/02/bringing-edge-computing-to-life" />
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b137">
+	<analytic>
+		<title level="a" type="main">Fully Distributed Deep Learning Inference on Resource-Constrained Edge Devices</title>
+		<author>
+			<persName><forename type="first">Rafael</forename><surname>Stahl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhuoran</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Daniel</forename><surname>Mueller-Gritschneder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Gerstlauer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ulf</forename><surname>Schlichtmann</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Embedded Computer Systems: Architectures, Modeling, and Simulation</title>
+				<editor>
+			<persName><forename type="first">N</forename><surname>Dionisios</surname></persName>
+			<persName><forename type="first">Maxime</forename><surname>Pnevmatikatos</surname></persName>
+			<persName><forename type="first">Matthias</forename><surname>Pelcat</surname></persName>
+			<persName><surname>Jung</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Cham</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer International Publishing</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page">14</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b138">
+	<monogr>
+		<title level="m" type="main">EfficientNet: Rethinking Model Scaling for Convolutional Neural Networks</title>
+		<author>
+			<persName><forename type="first">Mingxing</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Quoc</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Le</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:1905.11946</idno>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page">7</biblScope>
+		</imprint>
+	</monogr>
+	<note>cs.LG</note>
+</biblStruct>
+
+<biblStruct xml:id="b139">
+	<analytic>
+		<title level="a" type="main">Incorporating Intelligence in Fog Computing for Big Data Analysis in Smart Cities</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hefferman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Pei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TII.2017.2679740</idno>
+		<ptr target="https://doi.org/10.1109/TII.2017.2679740pages19" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Industrial Informatics</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<date type="published" when="2017-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b140">
+	<monogr>
+		<title level="m" type="main">Understanding and Improving Knowledge Distillation</title>
+		<author>
+			<persName><forename type="first">Jiaxi</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rakesh</forename><surname>Shivanna</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhe</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dong</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anima</forename><surname>Singh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ed</forename><forename type="middle">H</forename><surname>Chi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sagar</forename><surname>Jain</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2002.03532</idno>
+		<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page">7</biblScope>
+		</imprint>
+	</monogr>
+	<note>cs.LG</note>
+</biblStruct>
+
+<biblStruct xml:id="b141">
+	<analytic>
+		<title level="a" type="main">eSGD: Communication Efficient Distributed Deep Learning on the Edge</title>
+		<author>
+			<persName><forename type="first">Zeyi</forename><surname>Tao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qun</forename><surname>Li</surname></persName>
+		</author>
+		<ptr target="https://www.usenix.org/conference/hotedge18/presentation/taopages7" />
+	</analytic>
+	<monogr>
+		<title level="m">USENIX Workshop on Hot Topics in Edge Computing (HotEdge 18). USENIX Association</title>
+				<meeting><address><addrLine>Boston, MA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">10</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b142">
+	<analytic>
+		<title level="a" type="main">GreenWaves Technologies</title>
+		<ptr target="https://en.wikichip.org/wiki/greenwaves/gap8" />
+	</analytic>
+	<monogr>
+		<title level="m">GAP8 -GreenWaves</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">27</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b143">
+	<monogr>
+		<ptr target="https://greenwaves-technologies.com/manuals/BUILD/TF2GAP8/html/index.html" />
+		<title level="m">GreenWaves Technologies. 2019. GAP8 TensorFlow to GAP8 Bridge Manual</title>
+				<imprint>
+			<biblScope unit="page">27</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b144">
+	<analytic>
+		<title level="a" type="main">Distributed Deep Neural Networks Over the Cloud, the Edge and End Devices</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Teerapittayanon</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mcdanel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">T</forename><surname>Kung</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICDCS.2017.226</idno>
+		<ptr target="https://doi.org/10.1109/ICDCS.2017.226pages7" />
+	</analytic>
+	<monogr>
+		<title level="m">2017 IEEE 37th International Conference on Distributed Computing Systems (ICDCS)</title>
+				<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page">14</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b145">
+	<monogr>
+		<title level="m" type="main">The Best Algorithms Struggle to Recognize Black Faces Equally</title>
+		<author>
+			<persName><forename type="first">Tom</forename><surname>Simonite</surname></persName>
+		</author>
+		<ptr target="https://www.wired.com/story/best-algorithms-struggle-recognize-black-faces-equally/.pages28" />
+		<imprint/>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b146">
+	<monogr>
+		<author>
+			<persName><forename type="first">Shreshth</forename><surname>Tuli</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nipam</forename><surname>Basumatary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Rajkumar</forename><surname>Buyya</surname></persName>
+		</author>
+		<title level="m">Deep Learning based Object Detection in Integrated IoT, Fog and Cloud Computing Environments</title>
+				<imprint>
+			<date type="published" when="1906" />
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="page">20</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b147">
+	<analytic>
+		<title level="a" type="main">Benchmarking Jetson Platform for 3D Point-Cloud and Hyper-Spectral Image Classification</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ullah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kim</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">2020 IEEE International Conference on Big Data and Smart Computing (BigComp)</title>
+				<imprint>
+			<date type="published" when="2020" />
+			<biblScope unit="page">24</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b148">
+	<analytic>
+		<title level="a" type="main">Deep Learning at the Edge</title>
+		<author>
+			<persName><forename type="first">Sahar</forename><surname>Voghoei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Navid</forename><surname>Hashemi Tonekaboni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jason</forename><forename type="middle">G</forename><surname>Wallace</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hamid</forename><forename type="middle">Reza</forename><surname>Arabnia</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">International Conference on Computational Science and Computational Intelligence (CSCI)</title>
+		<imprint>
+			<biblScope unit="page">3</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b149">
+	<analytic>
+		<title level="a" type="main">DLAU: A Scalable Deep Learning Accelerator Unit on FPGA</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Gong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Q</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Xie</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TCAD.2016.2587683</idno>
+		<ptr target="https://doi.org/10.1109/TCAD.2016.2587683pages" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page">24</biblScope>
+			<date type="published" when="2017-03" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b150">
+	<analytic>
+		<title level="a" type="main">Bandwidth-Efficient Live Video Analytics for Drones Via Edge Computing</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>George</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bala</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Pillai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Satyanarayanan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/SEC.2018.00019</idno>
+		<ptr target="https://doi.org/10.1109/SEC.2018.00019pages2,15" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE/ACM Symposium on Edge Computing (SEC)</title>
+		<imprint>
+			<biblScope unit="volume">20</biblScope>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b151">
+	<analytic>
+		<title level="a" type="main">When Edge Meets Learning: Adaptive Control for Resource-Constrained Distributed Machine Learning</title>
+		<author>
+			<persName><forename type="first">Shiqiang</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tiffany</forename><surname>Tuor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Theodoros</forename><surname>Salonidis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kin</forename><forename type="middle">K</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christian</forename><surname>Makaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ting</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kevin</forename><forename type="middle">S</forename><surname>Chan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/INFOCOM.2018.8486403</idno>
+		<ptr target="https://doi.org/10.1109/INFOCOM.2018.8486403pages7,8" />
+	</analytic>
+	<monogr>
+		<title level="m">IEEE INFOCOM 2018 -IEEE Conference on Computer Communications</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page" from="63" to="71" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b152">
+	<analytic>
+		<title level="a" type="main">Convergence of edge computing and deep learning: A comprehensive survey</title>
+		<author>
+			<persName><forename type="first">Xiaofei</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yiwen</forename><surname>Han</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">M</forename><surname>Victor</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dusit</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xueqiang</forename><surname>Niyato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xu</forename><surname>Yan</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Communications Surveys &amp; Tutorials</title>
+		<imprint>
+			<biblScope unit="volume">4</biblScope>
+			<biblScope unit="page">28</biblScope>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b153">
+	<monogr>
+		<title level="m" type="main">AI at the Very</title>
+		<author>
+			<persName><forename type="first">Sally</forename><surname>Ward-Foxton</surname></persName>
+		</author>
+		<ptr target="https://www.eetimes.com/document.asp?doc_id=1334918" />
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b154">
+	<monogr>
+		<title level="m" type="main">Speech Commands: A Dataset for Limited-Vocabulary Speech Recognition</title>
+		<author>
+			<persName><forename type="first">Pete</forename><surname>Warden</surname></persName>
+		</author>
+		<idno>1804.03209</idno>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">17</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b155">
+	<monogr>
+		<title level="m" type="main">True AI on a Raspberry Pi, with no extra hardware</title>
+		<author>
+			<persName><forename type="first">Matt</forename><surname>Welsh</surname></persName>
+		</author>
+		<ptr target="https://medium.com/@mdwdotla/true-ai-on-a-raspberry-pi-with-no-extra-hardware-dcdbff12d068" />
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="page">26</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b156">
+	<analytic>
+		<title level="a" type="main">Real-Time Human Objects Tracking for Smart Surveillance at the Edge</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">Y</forename><surname>Nikouei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Polunchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Deng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><forename type="middle">R</forename><surname>Faughnan</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/ICC.2018.8422970</idno>
+		<ptr target="https://doi.org/10.1109/ICC.2018.8422970pages24" />
+	</analytic>
+	<monogr>
+		<title level="m">2018 IEEE International Conference on Communications (ICC</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">26</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b157">
+	<analytic>
+		<title level="a" type="main">STTR: A System for Tracking All Vehicles All the Time At the Edge of the Network</title>
+		<author>
+			<persName><forename type="first">Zhuangdi</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Harshit</forename><surname>Gupta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Umakishore</forename><surname>Ramachandran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 12th ACM International Conference on Distributed and Event-based Systems</title>
+				<meeting>the 12th ACM International Conference on Distributed and Event-based Systems<address><addrLine>Hamilton, New Zealand</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>DEBS &apos;18)</note>
+</biblStruct>
+
+<biblStruct xml:id="b158">
+	<monogr>
+		<title/>
+		<idno type="DOI">10.1145/3210284.3210291</idno>
+		<ptr target="https://doi.org/10.1145/3210284.3210291" />
+		<imprint>
+			<publisher>ACM</publisher>
+			<biblScope unit="volume">18</biblScope>
+			<biblScope unit="page">20</biblScope>
+			<pubPlace>New York, NY, USA</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b159">
+	<analytic>
+		<title level="a" type="main">Sparse ReRAM Engine: Joint Exploration of Activation and Weight Sparsity in Compressed Neural Networks</title>
+		<author>
+			<persName><forename type="first">Tzu-Hsien</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hsiang-Yun</forename><surname>Cheng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chia-Lin</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I-Ching</forename><surname>Tseng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Han-Wen</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hung-Sheng</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hsiang-Pang</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3307650.3322271</idno>
+		<ptr target="https://doi.org/10.1145/3307650.3322271pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 46th International Symposium on Computer Architecture</title>
+				<meeting>the 46th International Symposium on Computer Architecture<address><addrLine>Phoenix, Arizona; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="page">13</biblScope>
+		</imprint>
+	</monogr>
+	<note>ISCA &apos;19)</note>
+</biblStruct>
+
+<biblStruct xml:id="b160">
+	<monogr>
+		<title level="m" type="main">Compressing Deep Neural Network Structures for Sensing Systems with a Compressor-Critic Framework</title>
+		<author>
+			<persName><forename type="first">Shuochao</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yiran</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aston</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lu</forename><surname>Su</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tarek</forename><forename type="middle">F</forename><surname>Abdelzaher</surname></persName>
+		</author>
+		<idno>1706.01215</idno>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page">22</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b161">
+	<analytic>
+		<title level="a" type="main">Edge machine learning: Enabling smart internet of things applications</title>
+		<author>
+			<persName><forename type="first">Shadi</forename><surname>Mahmut Taha Yazici</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohamed</forename><forename type="middle">Medhat</forename><surname>Basurra</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gaber</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Big Data and Cognitive Computing</title>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">11</biblScope>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b162">
+	<analytic>
+		<title level="a" type="main">Scalpel: Customizing DNN Pruning to the Underlying Hardware Parallelism</title>
+		<author>
+			<persName><forename type="first">Jiecao</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrew</forename><surname>Lukefahr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><surname>Palframan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ganesh</forename><surname>Dasika</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Reetuparna</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Scott</forename><surname>Mahlke</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3079856.3080215</idno>
+		<ptr target="https://doi.org/10.1145/3079856.3080215pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 44th Annual International Symposium on Computer Architecture</title>
+				<meeting>the 44th Annual International Symposium on Computer Architecture<address><addrLine>Toronto, ON, Canada; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2017" />
+			<biblScope unit="page">12</biblScope>
+		</imprint>
+	</monogr>
+	<note>ISCA &apos;17)</note>
+</biblStruct>
+
+<biblStruct xml:id="b163">
+	<monogr>
+		<title level="m" type="main">Energy-Efficient Radio Resource Allocation for Federated Edge Learning</title>
+		<author>
+			<persName><forename type="first">Qunsong</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuqing</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kin</forename><forename type="middle">K</forename><surname>Leung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kaibin</forename><surname>Huang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1907" />
+			<biblScope unit="page">2</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b164">
+	<analytic>
+		<title level="a" type="main">Eager Pruning: Algorithm and Architecture Support for Fast Training of Deep Neural Networks</title>
+		<author>
+			<persName><forename type="first">Jiaqi</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiangru</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mingcong</forename><surname>Song</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tao</forename><surname>Li</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/3307650.3322263</idno>
+		<ptr target="https://doi.org/10.1145/3307650.3322263pages" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 46th International Symposium on Computer Architecture</title>
+				<meeting>the 46th International Symposium on Computer Architecture<address><addrLine>Phoenix, Arizona; New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computing Machinery</publisher>
+			<date type="published" when="2019" />
+			<biblScope unit="page">12</biblScope>
+		</imprint>
+	</monogr>
+	<note>ISCA &apos;19)</note>
+</biblStruct>
+
+<biblStruct xml:id="b165">
+	<analytic>
+		<title level="a" type="main">daBNN: A Super Fast Inference Framework for Binary Neural Networks on ARM devices</title>
+		<author>
+			<persName><forename type="first">Jianhao</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yingwei</forename><surname>Pan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ting</forename><surname>Yao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">He</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tao</forename><surname>Mei</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">ACM Multimedia</title>
+				<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">22</biblScope>
+			<biblScope unit="page">23</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b166">
+	<analytic>
+		<title level="a" type="main">pCAMP: Performance Comparison of Machine Learning Packages on the Edges</title>
+		<author>
+			<persName><forename type="first">Xingzhou</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yifan</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Weisong</forename><surname>Shi</surname></persName>
+		</author>
+		<ptr target="https://www.usenix.org/conference/hotedge18/presentation/zhangpages21" />
+	</analytic>
+	<monogr>
+		<title level="m">USENIX Workshop on Hot Topics in Edge Computing (HotEdge 18). USENIX Association</title>
+				<meeting><address><addrLine>Boston, MA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b167">
+	<analytic>
+		<title level="a" type="main">ShuffleNet: An Extremely Efficient Convolutional Neural Network for Mobile Devices</title>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Sun</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/CVPR.2018.00716</idno>
+		<ptr target="https://doi.org/10.1109/CVPR.2018.00716pages6" />
+	</analytic>
+	<monogr>
+		<title level="m">2018 IEEE/CVF Conference on Computer Vision and Pattern Recognition</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">7</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b168">
+	<analytic>
+		<title level="a" type="main">DeepThings: Distributed Adaptive Deep Learning Inference on Resource-Constrained IoT Edge Clusters</title>
+		<author>
+			<persName><forename type="first">Zhuoran</forename><surname>Zhao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mirzazad</forename><surname>Kamyar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andreas</forename><surname>Barijough</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Gerstlauer</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TCAD.2018.2858384</idno>
+		<ptr target="https://doi.org/10.1109/TCAD.2018.2858384pages21" />
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Computer-Aided Design of Integrated Circuits and Systems</title>
+		<imprint>
+			<biblScope unit="page">22</biblScope>
+			<date type="published" when="2018-10" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b169">
+	<analytic>
+		<title level="a" type="main">Edge Intelligence: Paving the Last Mile of Artificial Intelligence With Edge Computing</title>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zeng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Luo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Zhang</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/JPROC.2019.2918951</idno>
+		<ptr target="https://doi.org/10.1109/JPROC.2019.2918951pages3,4" />
+	</analytic>
+	<monogr>
+		<title level="m">Proc. IEEE</title>
+				<meeting>IEEE</meeting>
+		<imprint>
+			<date type="published" when="2019-08" />
+			<biblScope unit="volume">107</biblScope>
+			<biblScope unit="page" from="1738" to="1762" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b170">
+	<monogr>
+		<author>
+			<persName><forename type="first">Guangxu</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dongzhu</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuqing</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Changsheng</forename><surname>You</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kaibin</forename><surname>Huang</surname></persName>
+		</author>
+		<idno>1809.00343</idno>
+		<title level="m">Towards an Intelligent Edge: Wireless Communication Meets Machine Learning</title>
+				<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="page">3</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

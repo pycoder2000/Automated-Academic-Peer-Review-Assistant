@@ -1,0 +1,6 @@
+Title: Erratum to “New interpretation of GNRVⓇ knee arthrometer results for ACL injury diagnosis support using machine learning” [Machine Learning with Applications 13 (2023) 100480]
+Published: 2024-03-02T10:01:40Z
+Link: https://doi.org/10.1016/j.mlwa.2024.100540
+
+Abstract:
+

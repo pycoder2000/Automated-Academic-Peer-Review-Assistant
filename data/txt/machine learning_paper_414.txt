@@ -1,0 +1,6 @@
+Title: Statistical physics and machine learning
+Published: 2012-08-08T15:35:08Z
+Link: https://doi.org/10.1017/cbo9780511975509.009
+
+Abstract:
+

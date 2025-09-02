@@ -1,0 +1,6 @@
+Title: Machine Learning in Metabolic Engineering
+Published: 2018-08-31T20:12:43Z
+Link: https://doi.org/10.1201/9781351029940-4
+
+Abstract:
+

@@ -1,0 +1,822 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Incremental, instance-based learning of independent and graded concept descriptions</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Aha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Sixth International Workshop on Machine Learning</title>
+				<meeting>the Sixth International Workshop on Machine Learning<address><addrLine>Ithaca, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufman</publisher>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="387" to="391" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Noise-tolerant instance-based learning algorithms</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Aha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kibler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Eleventh International Joint Conference on Artificial Intelligence</title>
+				<meeting>the Eleventh International Joint Conference on Artificial Intelligence<address><addrLine>Detroit, Michigan</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="794" to="799" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Instance-based learning algorithms</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Aha</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kibler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Albert</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1991" />
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="page" from="37" to="66" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">But, see, accord: Generating &quot;Blue Book&quot; citations in HYPO. A case-based system for trade secreta law</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ashley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rissland</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the First International Conference on Artificial Intelligence and Law</title>
+				<meeting>the First International Conference on Artificial Intelligence and Law<address><addrLine>Boston, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="67" to="74" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Protos: A unified approach to concept representation, classification, and learning</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bareiss</surname></persName>
+		</author>
+		<idno>CS-88-10</idno>
+		<imprint>
+			<date type="published" when="1988" />
+			<pubPlace>Nashville, TN</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Texas at Austin. ; Vanderbilt University, Department of Computer Science</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Gaining autonomy during knowledge acquisition</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bareiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Murray</surname></persName>
+		</author>
+		<idno>AI89-96</idno>
+		<imprint>
+			<date type="published" when="1989" />
+			<pubPlace>Austin, TX</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Texas, Artificial Intelligence Laboratory</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Category representations and their implications for category structure</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Barr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Caplan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Memory and Cognition</title>
+		<imprint>
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="397" to="418" />
+			<date type="published" when="1987" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Leamability and the Vapnik-Chervonenkis dimension</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blumer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ehrenfeucht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haussler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Warmuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="929" to="965" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<title level="m" type="main">Classification and regression trees</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Breiman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Friedman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Olshen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Stone</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1984" />
+			<publisher>Wadsworth</publisher>
+			<pubPlace>Belmont</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Model-directed learning of production rules</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Buchanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mitchell</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Pattern-directed inference systems</title>
+				<editor>
+			<persName><forename type="first">D</forename><surname>Waterman</surname></persName>
+			<persName><forename type="first">&amp;</forename><forename type="middle">F</forename><surname>Hayes-Roth</surname></persName>
+		</editor>
+		<meeting><address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>Academic Press</publisher>
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">An analytical comparison of some rule-learning programs</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Bundy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Silver</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Plummer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="137" to="181" />
+			<date type="published" when="1985" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Nearest neighbor pattern classification</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Cover</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Hart</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Transactions on Information Theory</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="21" to="27" />
+			<date type="published" when="1967" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Extensions to the CART algorithm</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Crawford</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The International Journal of Man-Machine Studies</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="197" to="217" />
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">A comparative review of selected methods of learning from examples</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Dietterich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Michalski</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine learning</title>
+				<editor>
+			<persName><forename type="first">R</forename><surname>Michalski</surname></persName>
+			<persName><forename type="first">J</forename><surname>Carbonell</surname></persName>
+			<persName><forename type="first">&amp;</forename><forename type="middle">T</forename><surname>Mitchell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>San Mateo, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Cluster analysis</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Everitt</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980" />
+			<publisher>Gower Publishing Co. Ltd</publisher>
+			<pubPlace>Hampshire, England</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Noise-tolerant conceptual clustering</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Fisher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of UCAI-89</title>
+				<meeting>UCAI-89<address><addrLine>Detroit, MI</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann Publishers</publisher>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="825" to="830" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">The use of multiple measurements in taxonomic problems</title>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Fisher</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Annals of Eugenics</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="179" to="188" />
+			<date type="published" when="1936" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Learning nested differences of intersection closed concept classes</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Helmbold</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sloan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Warmuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1989 Workshop on Computational Learning Theory</title>
+				<meeting>the 1989 Workshop on Computational Learning Theory<address><addrLine>San Mateo, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Short and long term predictive value of wall motion score in acute myocardial infarction</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Kan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Visser</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Koolen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Dunning</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">British Heart Journal</title>
+		<imprint>
+			<biblScope unit="volume">56</biblScope>
+			<biblScope unit="page" from="422" to="427" />
+			<date type="published" when="1986" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Kasif</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+	<note>Personal communication</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">Learning representative exemplars of concepts: An initial case study</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Kibler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Aha</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fourth International Workshop on Machine Learning</title>
+				<meeting>the Fourth International Workshop on Machine Learning<address><addrLine>Irvine, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="24" to="30" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">E</forename><surname>Kinney</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+	<note>Personal communication</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Retrieval and organizational strategies in conceptual memory: A computer model</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kolodner</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1980" />
+			<pubPlace>New Haven, CT</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Department of Computer Science, Yale University</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Ph.D. Thesis (Research Report 187</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Problem solving and dynamic memory</title>
+		<author>
+			<persName><forename type="first">J</forename><surname>Kolodner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Simpson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the First Annual Workshop on Theoreteical Issues in Conceptual Information Processing</title>
+				<meeting>the First Annual Workshop on Theoreteical Issues in Conceptual Information Processing<address><addrLine>Atlanta, GA</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1984" />
+			<biblScope unit="page" from="1" to="10" />
+		</imprint>
+		<respStmt>
+			<orgName>Georgia Institute of Technology</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Structural principles in categorizaton</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Medin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Perception, cognition, and development</title>
+				<editor>
+			<persName><forename type="first">L</forename><forename type="middle">Erlbaum</forename><surname>Associates</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Hillsdale, NJ</addrLine></address></meeting>
+		<imprint>
+			<date type="published" when="1983" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Context theory of classification learning</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Medin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Schaffer</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Psychological Review</title>
+		<imprint>
+			<biblScope unit="volume">85</biblScope>
+			<biblScope unit="page" from="207" to="238" />
+			<date type="published" when="1978" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<analytic>
+		<title level="a" type="main">The multi-purpose incremental learning system AQ15 and its testing application to three medical domains</title>
+		<author>
+			<persName><forename type="first">R</forename><surname>Michalski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Mozetic</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Lavrac</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of AAAI-86</title>
+				<meeting>AAAI-86<address><addrLine>Philadelphia, PA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="1041" to="1045" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">On the adequacy of prototype theory as a theory of concepts</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Osherson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Smith</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognition</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="page" from="35" to="58" />
+			<date type="published" when="1981" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<monogr>
+		<title level="m" type="main">Knowledge acquisition and heuristic classification in weak-theory domains</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Porter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Bareiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Holte</surname></persName>
+		</author>
+		<idno>AI89-96</idno>
+		<imprint>
+			<date type="published" when="1989" />
+			<pubPlace>Austin, TX</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of Texas, Artificial Intelligence Laboratory</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<monogr>
+		<title level="m" type="main">Induction of decision trees. Machine Learning</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">R</forename><surname>Quinlan</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="81" to="106" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Pattern recognition and categorization</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Reed</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Psychology</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="382" to="407" />
+			<date type="published" when="1972" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<analytic>
+		<title level="a" type="main">A case-based system for trade secrets law</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Rissland</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Ashley</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the First International Conference on Artificial Intelligence and Law</title>
+				<meeting>the First International Conference on Artificial Intelligence and Law<address><addrLine>Boston, MA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="60" to="66" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Heuristics for inductive learning</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Salzberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of IJCAI-85</title>
+				<meeting>IJCAI-85<address><addrLine>Los Angeles, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1985" />
+			<biblScope unit="page" from="603" to="610" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Pinpointing good hypotheses with heuristics</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Salzberg</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence and Statistics</title>
+		<editor>W. Gale</editor>
+		<imprint>
+			<date type="published" when="1986" />
+			<publisher>Addison-Wesley Publishing Co</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<monogr>
+		<title level="m" type="main">Learning with nested generalized exemplars</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Salzberg</surname></persName>
+		</author>
+		<idno>TR-14-89</idno>
+		<imprint>
+			<date type="published" when="1989" />
+			<pubPlace>Cambridge</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>MA: Harvard University, Department of Computer Science</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<analytic>
+		<title level="a" type="main">Conceptual combination with prototype concepts</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Smith</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Osherson</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Cognitive Science</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="page" from="337" to="361" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b36">
+	<analytic>
+		<title level="a" type="main">Hypercuboid formation behaviour of two learning algorithms</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Thornton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of lJCAI-87</title>
+				<meeting>lJCAI-87<address><addrLine>Milan, Italy</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="301" to="303" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b37">
+	<analytic>
+		<title level="a" type="main">Multilevel counterfactuals for generalizations of relational concepts and productions</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Vere</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence</title>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="page" from="138" to="164" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b38">
+	<analytic>
+		<title level="a" type="main">A theory of the learnable</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Valiant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">27</biblScope>
+			<biblScope unit="page" from="1134" to="1142" />
+			<date type="published" when="1984" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b39">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">M</forename><surname>Warmuth</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1989" />
+		</imprint>
+	</monogr>
+	<note>Personal communication</note>
+</biblStruct>
+
+<biblStruct xml:id="b40">
+	<analytic>
+		<title level="a" type="main">An empirical comparison of pattern recognition, neural nets, and machine learning classification methods</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Weiss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Kapouleas</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of 1JCA1-89</title>
+				<meeting>1JCA1-89<address><addrLine>Detroit, MI</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1989" />
+			<biblScope unit="page" from="781" to="787" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

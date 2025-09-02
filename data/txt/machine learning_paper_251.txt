@@ -1,0 +1,6 @@
+Title: Reproducibility in machine learning for health research: Still a ways to go
+Published: 2021-03-24
+Link: https://www.semanticscholar.org/paper/2abdca069a95add94f5c0c540c09efb7adeee230
+
+Abstract:
+Machine learning applied to health falls short on several reproducibility metrics compared to other machine learning subfields. Machine learning for health must be reproducible to ensure reliable clinical use. We evaluated 511 scientific papers across several machine learning subfields and found that machine learning for health compared poorly to other areas regarding reproducibility metrics, such as dataset and code accessibility. We propose recommendations to address this problem.

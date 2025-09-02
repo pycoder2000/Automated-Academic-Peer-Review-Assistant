@@ -1,0 +1,569 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<monogr>
+		<title level="m" type="main">Big data and machine learning in health care</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">L</forename><surname>Beam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><forename type="middle">S</forename><surname>Kohane</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>published online March 12</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title/>
+		<idno type="DOI">10.1001/jama.2017.18391</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page" from="1317" to="1318" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 29532063</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">deep learning in medical imaging</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Greenspan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Van Ginneken</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">M</forename><surname>Summers</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/TMI.2016.2553401</idno>
+	</analytic>
+	<monogr>
+		<title level="j">IEEE Trans Med Imaging</title>
+		<imprint>
+			<biblScope unit="volume">35</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1153" to="1159" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Scalable and accurate deep learning for electronic health records. npj Digital Med</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rajkomar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Oren</forename><forename type="middle">E</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename></persName>
+		</author>
+		<idno type="DOI">10.1038/s41746-018-0029</idno>
+		<imprint>
+			<date type="published" when="2018" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">18</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">C Weapons of Math Destruction: How Big Data Increases Inequality and Threatens Democracy</title>
+		<author>
+			<persName><surname>O'neil</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2016" />
+			<publisher>Crown Publishing Group</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Algorithms of Oppression: How Search Engines Reinforce Racism</title>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">U</forename><surname>Noble</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2018" />
+			<publisher>NYU Press</publisher>
+			<pubPlace>New York, NY</pubPlace>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<author>
+			<persName><forename type="first">V</forename><surname>Eubanks</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Automating</surname></persName>
+		</author>
+		<title level="m">High-Tech Tools Profile, Police, and Punish the Poor</title>
+				<meeting><address><addrLine>New York, NY</addrLine></address></meeting>
+		<imprint>
+			<publisher>St Martin&apos;s Press</publisher>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Semantics derived automatically from language corpora contain human-like biases</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Caliskan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">J</forename><surname>Bryson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Narayanan</surname></persName>
+		</author>
+		<idno type="DOI">10.1126/science.aal4230</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Science</title>
+		<imprint>
+			<biblScope unit="volume">356</biblScope>
+			<biblScope unit="issue">6334</biblScope>
+			<biblScope unit="page" from="183" to="186" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 28408601</note>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Unintended consequences of machine learning in medicine</title>
+		<author>
+			<persName><forename type="first">F</forename><surname>Cabitza</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Rasoini</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">F</forename><surname>Gensini</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2017.7797</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">318</biblScope>
+			<biblScope unit="issue">6</biblScope>
+			<biblScope unit="page" from="517" to="518" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 28727867</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Implementing machine learning in health care</title>
+		<author>
+			<persName><forename type="first">D</forename><forename type="middle">S</forename><surname>Char</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Magnus</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMp1714229</idno>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">378</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="981" to="983" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 29539284</note>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">How socioeconomic status affects patient perceptions of health care</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">C</forename><surname>Arpey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">H</forename><surname>Gaglioti</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">E</forename><surname>Rosenbaum</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/2150131917697439</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Prim Care Community Health</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">3</biblScope>
+			<biblScope unit="page" from="169" to="175" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 28606031</note>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Data on race, ethnicity, and language largely incomplete for managed care plan members. Health Aff (Millwood)</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">H</forename><surname>Ng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Ye</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">M</forename><surname>Ward</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">C</forename><surname>Haffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><forename type="middle">H</forename><surname>Scholle</surname></persName>
+		</author>
+		<idno type="DOI">10.1377/hlthaff.2016.1044</idno>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">36</biblScope>
+			<biblScope unit="page" from="548" to="552" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 28264958</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Robust learning with missing data</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ramoni</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Sebasiani</surname></persName>
+		</author>
+		<idno type="DOI">10.1023/A:1010968702992</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Mach Learn</title>
+		<imprint>
+			<biblScope unit="volume">45</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="147" to="170" />
+			<date type="published" when="2001" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Opportunities and challenges in developing risk prediction models with electronic health records data</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">A</forename><surname>Goldstein</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">M</forename><surname>Navar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J</forename><surname>Pencina</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">P</forename><surname>Ioannidis</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/jamia/ocw042</idno>
+	</analytic>
+	<monogr>
+		<title level="j">J Am Med Inform Assoc</title>
+		<imprint>
+			<biblScope unit="volume">24</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="198" to="208" />
+			<date type="published" when="2017" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 27189013</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Conscientious classification. Big Data</title>
+		<author>
+			<persName><forename type="first">Alessandro</forename><forename type="middle">B</forename></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O'</forename><surname>Neil</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Lagatta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename></persName>
+		</author>
+		<idno type="DOI">10.1089/big.2016.0048</idno>
+		<imprint>
+			<date type="published" when="2017" />
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="page" from="120" to="134" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 28632437</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Genetic misdiagnoses and the potential for health disparities</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">K</forename><surname>Manrai</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">H</forename><surname>Funke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">L</forename><surname>Rehm</surname></persName>
+		</author>
+		<idno type="DOI">10.1056/NEJMsa1507092</idno>
+	</analytic>
+	<monogr>
+		<title level="j">N Engl J Med</title>
+		<imprint>
+			<biblScope unit="volume">375</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page" from="655" to="665" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 27532831</note>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Comparative analyses of population-scale phenomic data in electronic medical records reveal race-specific disease networks</title>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">S</forename><surname>Glicksberg</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">A</forename><surname>Badgeley</surname></persName>
+		</author>
+		<idno type="DOI">10.1093/bioinformatics/btw282</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Bioinformatics</title>
+		<imprint>
+			<biblScope unit="volume">32</biblScope>
+			<biblScope unit="issue">12</biblScope>
+			<biblScope unit="page" from="101" to="110" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 27307606</note>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Editorial: special issue on learning from imbalanced datasets</title>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">V</forename><surname>Chawla</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Japkowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Kolcz</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1007730.1007733</idno>
+	</analytic>
+	<monogr>
+		<title level="j">ACM SIGKDD Explorations Newsletter</title>
+		<imprint>
+			<biblScope unit="volume">6</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="6" />
+			<date type="published" when="2004" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">Potentially missed detection with screening mammography</title>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">H</forename><surname>Rauscher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">A</forename><surname>Khan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">L</forename><surname>Berbaum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><forename type="middle">F</forename><surname>Conant</surname></persName>
+		</author>
+		<idno type="DOI">10.1016/j.annepidem.2013.01.006</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Ann Epidemiol</title>
+		<imprint>
+			<biblScope unit="volume">23</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="210" to="214" />
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 23453384</note>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Sex and race/ethnicity-related disparities in care and outcomes after hospitalization for coronary artery disease among older adults</title>
+		<author>
+			<persName><forename type="first">S</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><forename type="middle">C</forename><surname>Fonarow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">J</forename><surname>Mukamal</surname></persName>
+		</author>
+		<idno type="DOI">10.1161/CIRCOUTCOMES.115.002621</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Circ Cardiovasc Qual Outcomes</title>
+		<imprint>
+			<biblScope unit="volume">9</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="S36" to="S44" />
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+	<note>suppl. PubMed: 26908858</note>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">What this computer needs is a physician: humanism and artificial intelligence</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Verghese</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">H</forename><surname>Shah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">A</forename><surname>Harrington</surname></persName>
+		</author>
+		<idno type="DOI">10.1001/jama.2017.19198</idno>
+	</analytic>
+	<monogr>
+		<title level="j">JAMA</title>
+		<imprint>
+			<biblScope unit="volume">319</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="19" to="20" />
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+	<note>PubMed: 29261830</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Algorithms and Bias: Q. and A. With Cynthia Dwork</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">C</forename><surname>Miller</surname></persName>
+		</author>
+		<ptr target="http://www.nytimes.com/2015/08/11/upshot/algorithms-and-bias-q-and-a-with-cynthia-dwork.html.Accessed" />
+	</analytic>
+	<monogr>
+		<title level="j">New York Times</title>
+		<imprint>
+			<biblScope unit="volume">8</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<date type="published" when="2015-02-04" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Man Is to Computer Programmer as Woman Is to Homemaker?</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Bolukbasi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><forename type="middle">W</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Saligrama</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Debiasing Word Embeddings</title>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<date type="published" when="2016" />
+			<publisher>NIPS</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Fairness-aware classifier with prejudice remover regularizer</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kamishima</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Akaho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Asoh</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Joint European Conference on Machine Learning and Knowledge Discovery in Databases</title>
+				<meeting>the Joint European Conference on Machine Learning and Knowledge Discovery in Databases<address><addrLine>Berlin, Germany</addrLine></address></meeting>
+		<imprint>
+			<publisher>Springer</publisher>
+			<biblScope unit="volume">2012</biblScope>
+			<biblScope unit="page" from="35" to="50" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

@@ -1,0 +1,369 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Exploiting background knowledge in automated discovery</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Aronis</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Provost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Buchanan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Second International Conference on Knowledge Discovery and Data Mining</title>
+				<meeting>the Second International Conference on Knowledge Discovery and Data Mining</meeting>
+		<imprint>
+			<publisher>AAAI Press</publisher>
+			<date type="published" when="1996" />
+			<biblScope unit="page" from="355" to="358" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<author>
+			<persName><forename type="first">M</forename><forename type="middle">J A</forename><surname>Berry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Linoff</surname></persName>
+		</author>
+		<title level="m">Data Mining Techniques: For Marketing, Sales, and Customer Support</title>
+				<imprint>
+			<publisher>John Wiley &amp; Sons</publisher>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Applying classification algorithms in practice</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Brodley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smyth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Statistics and Computing</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Learning to recognize volcanoes on venus</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Burl</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Asker</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smyth</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><surname>Fayyad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Perona</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Crumpler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Aubele</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="165" to="194" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Small disjuncts in action: learning to diagnose errors in the telephone network local loop</title>
+		<author>
+			<persName><forename type="first">A</forename><forename type="middle">P</forename><surname>Danyluk</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Provost</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Tenth International Conference on Machine Learning</title>
+				<meeting>the Tenth International Conference on Machine Learning</meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1993" />
+			<biblScope unit="page" from="81" to="88" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">The KDD process for extracting useful knowledge from volumes of data</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Fawcett</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Provost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">U</forename><forename type="middle">M</forename><surname>Fayyad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Piatetsky-Shapiro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Smyth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Data Mining and Knowledge Discovery</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">39</biblScope>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note>Communications of the ACM</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Pharmacophore discovery using the inductive logic programming system Progol</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Finn</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Muggleton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Page</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Srinivasan</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="241" to="270" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Machine learning for the detection of oil spills in satellite radar images</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kubat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">C</forename><surname>Holte</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Matwin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="195" to="215" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<monogr>
+		<author>
+			<persName><forename type="first">T</forename><surname>Kuhn</surname></persName>
+		</author>
+		<title level="m">The Structure of Scientific Revolutions</title>
+				<meeting><address><addrLine>Chicago, IL</addrLine></address></meeting>
+		<imprint>
+			<publisher>University of Chicago Press</publisher>
+			<date type="published" when="1970" />
+		</imprint>
+	</monogr>
+	<note>second edition</note>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Applications of machine learning and rule induction</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Langley</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">A</forename><surname>Simon</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">38</biblScope>
+			<date type="published" when="1995" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Knowledge-based learning in exploratory science: Learning rules to predict rodent carcinogenicity</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><forename type="middle">G</forename><surname>Buchanan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Aronis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="217" to="240" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">UCI repository of machine learning databases</title>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">J</forename><surname>Merz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">M</forename><surname>Murphy</surname></persName>
+		</author>
+		<ptr target="http://www.ics.uci.edu/~mlearn/MLRepository.html" />
+		<imprint>
+			<date type="published" when="1997" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Scaling up inductive learning with massive parallelism</title>
+		<author>
+			<persName><forename type="first">F</forename><forename type="middle">J</forename><surname>Provost</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Aronis</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1996" />
+			<biblScope unit="page">23</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Learning the the &quot;real world</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Saitta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Neri</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1998" />
+			<biblScope unit="volume">30</biblScope>
+			<biblScope unit="page" from="133" to="163" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Preface, Innovative Applications of Artificial Intelligence</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Schorr</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rappaport</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1990" />
+			<publisher>AAAI Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">The innovative applications of artificial intelligence conference: Past and future</title>
+		<author>
+			<persName><forename type="first">H</forename><surname>Shrobe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Preface. Innovative Applications of Artificial Intelligence</title>
+		<editor>AI Magazine, 17. Smith, R. &amp; Scott, C.</editor>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<date type="published" when="1992" />
+			<publisher>AAAI Press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<monogr>
+		<title level="m" type="main">Science and engineering in knowledge representation and reasoning</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">A</forename><surname>Stein</surname></persName>
+		</author>
+		<ptr target="http://ai.iit.nrc.ca/bibliographies/cost-sensitive.html" />
+		<editor>AI Magazine, 17. Turney, P.</editor>
+		<imprint>
+			<date type="published" when="1996" />
+		</imprint>
+	</monogr>
+	<note>Cost-sensitive learning</note>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

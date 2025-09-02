@@ -1,0 +1,7 @@
+Title: Detection of brain tumors using machine learning algorithms
+Published: 2022-01-12T21:08:38Z
+Link: http://arxiv.org/abs/2201.04703v1
+
+Abstract:
+An algorithm capable of processing NMR images was developed for analysis
+using machine learning techniques to detect the presence of brain tumors.

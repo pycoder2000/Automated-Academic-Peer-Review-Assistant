@@ -1,0 +1,6 @@
+Title: Parameterized quantum circuits as machine learning models
+Published: 2019-06-18
+Link: https://www.semanticscholar.org/paper/638e41912f314c74436205aa8d332dca963ab1dc
+
+Abstract:
+Hybrid quantum–classical systems make it possible to utilize existing quantum computers to their fullest extent. Within this framework, parameterized quantum circuits can be regarded as machine learning models with remarkable expressive power. This Review presents the components of these models and discusses their application to a variety of data-driven tasks, such as supervised learning and generative modeling. With an increasing number of experimental demonstrations carried out on actual quantum hardware and with software being actively developed, this rapidly growing field is poised to have a broad spectrum of real-world applications.

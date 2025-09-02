@@ -1,0 +1,6 @@
+Title: This Paper Is Included in the Proceedings of the 12th Usenix Symposium on Operating Systems Design and Implementation (osdi '16). Tensorflow: a System for Large-scale Machine Learning Tensorflow: a System for Large-scale Machine Learning
+Published: None
+Link: https://www.semanticscholar.org/paper/4954fa180728932959997a4768411ff9136aac81
+
+Abstract:
+None

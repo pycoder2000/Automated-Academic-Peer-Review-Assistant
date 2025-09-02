@@ -1,0 +1,6 @@
+Title: InterpretML: A Unified Framework for Machine Learning Interpretability
+Published: 2019-09-19
+Link: https://www.semanticscholar.org/paper/60baa46784e8e9a30a57e1875907d008fbdc817b
+
+Abstract:
+InterpretML is an open-source Python package which exposes machine learning interpretability algorithms to practitioners and researchers. InterpretML exposes two types of interpretability - glassbox models, which are machine learning models designed for interpretability (ex: linear models, rule lists, generalized additive models), and blackbox explainability techniques for explaining existing systems (ex: Partial Dependence, LIME). The package enables practitioners to easily compare interpretability algorithms by exposing multiple methods under a unified API, and by having a built-in, extensible visualization platform. InterpretML also includes the first implementation of the Explainable Boosting Machine, a powerful, interpretable, glassbox model that can be as accurate as many blackbox models. The MIT licensed source code can be downloaded from github.com/microsoft/interpret.

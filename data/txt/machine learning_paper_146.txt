@@ -1,0 +1,6 @@
+Title: MoleculeNet: a benchmark for molecular machine learning
+Published: 2017-03-02
+Link: https://www.semanticscholar.org/paper/d0ab11de3077490c80a08abd0fb8827bac84c454
+
+Abstract:
+A large scale benchmark for molecular machine learning consisting of multiple public datasets, metrics, featurizations and learning algorithms.

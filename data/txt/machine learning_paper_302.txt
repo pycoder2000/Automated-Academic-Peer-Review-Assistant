@@ -1,0 +1,6 @@
+Title: Machine learning for active matter
+Published: 2020-02-01
+Link: https://www.semanticscholar.org/paper/9909975dec989fcd55d99533c712c28bab99040e
+
+Abstract:
+None

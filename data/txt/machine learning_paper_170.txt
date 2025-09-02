@@ -1,0 +1,6 @@
+Title: Gaussian Processes in Machine Learning
+Published: 2003-02-02
+Link: https://www.semanticscholar.org/paper/7649af7bf6e9d277ed045930fc08d79247e02375
+
+Abstract:
+None

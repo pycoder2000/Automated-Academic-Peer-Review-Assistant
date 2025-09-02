@@ -1,0 +1,6 @@
+Title: Large-Scale Machine Learning with Stochastic Gradient Descent
+Published: None
+Link: https://www.semanticscholar.org/paper/fbc6562814e08e416e28a268ce7beeaa3d0708c8
+
+Abstract:
+None

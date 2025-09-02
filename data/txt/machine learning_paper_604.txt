@@ -1,0 +1,6 @@
+Title: Intrusion Detection System Based on Machine Learning Algorithms:( SVM and Genetic Algorithm)
+Published: 2024-03-22T10:44:06Z
+Link: https://doi.org/10.58496/bjml/2024/002
+
+Abstract:
+<jats:p>The widespread utilization of the internet and computer systems has resulted in notable security concerns, characterized by a surge in intrusions and vulnerabilities. Malicious users manipulate internal systems, resulting in the exploitation of software flaws and default setups.   With the integration of the internet into society, there is an emergence of new risks such as viruses and worms, which highlights the importance of implementing robust security measures.   Intrusion detection systems (IDS) are security technologies utilized to monitor and analyze network traffic or system activity with the purpose of identifying hostile behavior.   This article presents a proposed method for detecting intrusion in network traffic using a hybrid approach, which combines a genetic algorithm and an SVM algorithm.   The model underwent training and testing on the KDDCup99 dataset, with a reduction in features from 42 to 29 using the hybrid approach.   The results demonstrated that throughout the system testing, it exhibited a remarkable accuracy of 0.999. Additionally, it achieved a true positive value of 0.9987 and a false negative rate of 0.012.</jats:p>

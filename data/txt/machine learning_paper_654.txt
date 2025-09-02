@@ -1,0 +1,6 @@
+Title: Classification of Heart Rate Time Series Using Machine Learning Algorithms
+Published: 2021-10-28T06:24:37Z
+Link: https://doi.org/10.33140/amlai.02.01.09
+
+Abstract:
+<jats:p>An important diagnostic method for diagnosing abnormalities in the human heart is the electrocardiogram (ECG). A large number of heart patients increase the assignment of physicians. To reduce their assignment, an automatic computer detection system is needed. In this study, a computer system for classifying ECG signals is presented. The MIT-BIH, ECG arrhythmia database is used for analysis. After the ECG signal is noisy in the preprocessing stage, the data feature is extracted. In the feature extraction step, the decision tree is used and the support vector machine (SVM) is constructed to classify the ECG signal into two categories. It is normal or abnormal. The results show that the system classifies the given ECG signal with 90% sensitivity.</jats:p>

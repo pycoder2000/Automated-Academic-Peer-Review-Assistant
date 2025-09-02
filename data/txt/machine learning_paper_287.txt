@@ -1,0 +1,6 @@
+Title: Choosing Prediction Over Explanation in Psychology: Lessons From Machine Learning
+Published: 2017-08-25
+Link: https://www.semanticscholar.org/paper/7c63a6e6d3b31b14ae4236bfbd574ea37cab18a7
+
+Abstract:
+None

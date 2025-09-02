@@ -1,0 +1,6 @@
+Title: Opportunities and Challenges for Machine Learning in Materials Science
+Published: 2020-06-25
+Link: https://www.semanticscholar.org/paper/ede72940ae0246a292d644bd3c7e0ebf1e12a01a
+
+Abstract:
+Advances in machine learning have impacted myriad areas of materials science, such as the discovery of novel materials and the improvement of molecular simulations, with likely many more important developments to come. Given the rapid changes in this field, it is challenging to understand both the breadth of opportunities and the best practices for their use. In this review, we address aspects of both problems by providing an overview of the areas in which machine learning has recently had significant impact in materials science, and then we provide a more detailed discussion on determining the accuracy and domain of applicability of some common types of machine learning models. Finally, we discuss some opportunities and challenges for the materials community to fully utilize the capabilities of machine learning.

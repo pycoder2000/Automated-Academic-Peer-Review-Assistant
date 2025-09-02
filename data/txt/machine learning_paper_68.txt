@@ -1,0 +1,21 @@
+Title: Adversarial Machine Learning Attacks on Condition-Based Maintenance
+  Capabilities
+Published: 2021-01-28T16:34:04Z
+Link: http://arxiv.org/abs/2101.12097v1
+
+Abstract:
+Condition-based maintenance (CBM) strategies exploit machine learning models
+to assess the health status of systems based on the collected data from the
+physical environment, while machine learning models are vulnerable to
+adversarial attacks. A malicious adversary can manipulate the collected data to
+deceive the machine learning model and affect the CBM system's performance.
+Adversarial machine learning techniques introduced in the computer vision
+domain can be used to make stealthy attacks on CBM systems by adding
+perturbation to data to confuse trained models. The stealthy nature causes
+difficulty and delay in detection of the attacks. In this paper, adversarial
+machine learning in the domain of CBM is introduced. A case study shows how
+adversarial machine learning can be used to attack CBM capabilities.
+Adversarial samples are crafted using the Fast Gradient Sign method, and the
+performance of a CBM system under attack is investigated. The obtained results
+reveal that CBM systems are vulnerable to adversarial machine learning attacks
+and defense strategies need to be considered.

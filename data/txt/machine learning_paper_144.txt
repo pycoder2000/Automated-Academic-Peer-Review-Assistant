@@ -1,0 +1,6 @@
+Title: Challenges and opportunities in quantum machine learning
+Published: 2022-09-01
+Link: https://www.semanticscholar.org/paper/ab06951251e0abfdb866694f9a23a79c72784317
+
+Abstract:
+At the intersection of machine learning and quantum computing, quantum machine learning has the potential of accelerating data analysis, especially for quantum data, with applications for quantum materials, biochemistry and high-energy physics. Nevertheless, challenges remain regarding the trainability of quantum machine learning models. Here we review current methods and applications for quantum machine learning. We highlight differences between quantum and classical machine learning, with a focus on quantum neural networks and quantum deep learning. Finally, we discuss opportunities for quantum advantage with quantum machine learning. Quantum machine learning has become an essential tool to process and analyze the increased amount of quantum data. Despite recent progress, there are still many challenges to be addressed and myriad future avenues of research.

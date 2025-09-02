@@ -1,0 +1,6 @@
+Title: Extreme learning machine: a new learning scheme of feedforward neural networks
+Published: 2004-07-25
+Link: https://www.semanticscholar.org/paper/2b9c0e4d1d473aadbe1c2a76f75bc02bfa6416b0
+
+Abstract:
+None

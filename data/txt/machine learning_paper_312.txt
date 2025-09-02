@@ -1,0 +1,7 @@
+Title: Causality for Machine Learning
+Published: 2019-11-24
+Link: https://www.semanticscholar.org/paper/b5461f9c5d65e87561e00848921ee797902dae14
+
+Abstract:
+Graphical causal inference as pioneered by Judea Pearl arose from research on artificial intelligence (AI), and for a long time had little connection to the field of machine learning. 
+This article discusses where links have been and should be established, introducing key concepts along the way. It argues that the hard open problems of machine learning and AI are intrinsically related to causality, and explains how the field is beginning to understand them.

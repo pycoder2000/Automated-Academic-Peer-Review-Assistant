@@ -1,0 +1,10 @@
+Title: Proceedings of the 2018 ICML Workshop on Human Interpretability in
+  Machine Learning (WHI 2018)
+Published: 2018-07-03T17:49:14Z
+Link: http://arxiv.org/abs/1807.01308v1
+
+Abstract:
+This is the Proceedings of the 2018 ICML Workshop on Human Interpretability
+in Machine Learning (WHI 2018), which was held in Stockholm, Sweden, July 14,
+2018. Invited speakers were Barbara Engelhardt, Cynthia Rudin, Fernanda
+Vi\'egas, and Martin Wattenberg.

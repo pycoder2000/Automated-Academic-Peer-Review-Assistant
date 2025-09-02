@@ -1,0 +1,12 @@
+Title: On conditional parity as a notion of non-discrimination in machine
+  learning
+Published: 2017-06-26T17:41:20Z
+Link: http://arxiv.org/abs/1706.08519v1
+
+Abstract:
+We identify conditional parity as a general notion of non-discrimination in
+machine learning. In fact, several recently proposed notions of
+non-discrimination, including a few counterfactual notions, are instances of
+conditional parity. We show that conditional parity is amenable to statistical
+analysis by studying randomization as a general mechanism for achieving
+conditional parity and a kernel-based test of conditional parity.

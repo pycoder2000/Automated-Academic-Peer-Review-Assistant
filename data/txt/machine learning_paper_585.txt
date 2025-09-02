@@ -1,0 +1,6 @@
+Title: 1. Lie group machine learning model
+Published: 2018-10-31T09:01:26Z
+Link: https://doi.org/10.1515/9783110499506-001
+
+Abstract:
+

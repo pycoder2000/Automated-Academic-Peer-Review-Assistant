@@ -1,0 +1,6 @@
+Title: Interpretable Machine Learning in Healthcare
+Published: 2018-06-01
+Link: https://www.semanticscholar.org/paper/7d065e649e3bfc7d6d36166f50eab37b8404eae0
+
+Abstract:
+This tutorial extensively covers the definitions, nuances, challenges, and requirements for the design of interpretable and explainable machine learning models and systems in healthcare. We discuss many uses in which interpretable machine learning models are needed in healthcare and how they should be deployed. Additionally, we explore the landscape of recent advances to address the challenges model interpretability in healthcare and also describe how one would go about choosing the right interpretable machine learnig algorithm for a given problem in healthcare.

@@ -1,0 +1,12 @@
+Title: Machine learning in physics: a short guide
+Published: 2023-10-16T13:05:47Z
+Link: http://arxiv.org/abs/2310.10368v1
+
+Abstract:
+Machine learning is a rapidly growing field with the potential to
+revolutionize many areas of science, including physics. This review provides a
+brief overview of machine learning in physics, covering the main concepts of
+supervised, unsupervised, and reinforcement learning, as well as more
+specialized topics such as causal inference, symbolic regression, and deep
+learning. We present some of the principal applications of machine learning in
+physics and discuss the associated challenges and perspectives.

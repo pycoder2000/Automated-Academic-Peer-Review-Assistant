@@ -1,0 +1,6 @@
+Title: 1. Introduction of machine learning
+Published: 2020-05-27T16:39:43Z
+Link: https://doi.org/10.1515/9783110595567-002
+
+Abstract:
+

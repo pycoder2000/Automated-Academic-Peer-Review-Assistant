@@ -1,0 +1,6 @@
+Title: Acknowledgment to the Reviewers of Machine Learning and Knowledge Extraction in 2022
+Published: 2023-01-18T08:28:38Z
+Link: https://doi.org/10.3390/make5010011
+
+Abstract:
+<jats:p>High-quality academic publishing is built on rigorous peer review [...]</jats:p>

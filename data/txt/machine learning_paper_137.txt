@@ -1,0 +1,6 @@
+Title: The use of the area under the ROC curve in the evaluation of machine learning algorithms
+Published: 1997-07-01
+Link: https://www.semanticscholar.org/paper/48ddd9101a90fe65e3061de69626741b843ff5e4
+
+Abstract:
+None

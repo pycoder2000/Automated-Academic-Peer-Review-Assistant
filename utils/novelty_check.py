@@ -1,90 +1,74 @@
-import os
-import json
-import faiss
-import numpy as np
 import argparse
-from sentence_transformers import SentenceTransformer
-import fitz  
-from utils.pdf_parse import extract_text_from_pdf 
+import os
+from sentence_transformers import SentenceTransformer, util
+from PyPDF2 import PdfReader
 
-# === Config ===
-FAISS_INDEX_PATH = "data/faiss_index.bin"
-FAISS_MAPPING_PATH = "data/faiss_mapping.json"
-MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
-SIMILARITY_THRESHOLD = 0.40  # tweak for novelty sensitivity
+# Load model globally (saves time on repeated calls)
+model = SentenceTransformer("all-MiniLM-L6-v2")
 
-# === Utils ===
-def load_faiss_index_and_mapping():
-    """Load FAISS index and mapping dictionary."""
-    if not os.path.exists(FAISS_INDEX_PATH):
-        raise FileNotFoundError(f"No FAISS index found at {FAISS_INDEX_PATH}")
-    if not os.path.exists(FAISS_MAPPING_PATH):
-        raise FileNotFoundError(f"No mapping file found at {FAISS_MAPPING_PATH}")
+def extract_text_from_pdf(pdf_path, max_chars=2000):
+    """Extract text from a PDF (first N chars)."""
+    try:
+        reader = PdfReader(pdf_path)
+        text = ""
+        for page in reader.pages[:5]:  # only first 5 pages for speed
+            text += page.extract_text() or ""
+        return text[:max_chars]
+    except Exception as e:
+        return f"ERROR reading {pdf_path}: {e}"
 
-    index = faiss.read_index(FAISS_INDEX_PATH)
-    with open(FAISS_MAPPING_PATH, "r", encoding="utf-8") as f:
-        mapping = json.load(f)
-    return index, mapping
+def extract_title(text):
+    """Guess the title as the first line with >5 chars."""
+    for line in text.split("\n"):
+        if len(line.strip()) > 5:
+            return line.strip()
+    return "Unknown Title"
 
-# === Main novelty detection ===
-def find_similar_papers(pdf_path, top_k=5):
-    # Step 1: Extract text
-    text = extract_text_from_pdf(pdf_path)
-    if not text:
-        print("[ERROR] No text extracted — cannot continue.")
-        return
+def label_novelty(score):
+    """Interpret similarity score into novelty category."""
+    if score >= 0.40:
+        return "❌ Not Novel (very similar)"
+    elif score >= 0.25:
+        return "⚠️ Partially Novel (some overlap)"
+    else:
+        return "✅ Highly Novel (no strong match)"
 
-    # Step 2: Load FAISS index + mapping
-    index, mapping = load_faiss_index_and_mapping()
+def novelty_check(input_pdf, topic, top_k=5, pdf_dir="data/pdfs"):
+    # Extract text from input paper
+    query_text = extract_text_from_pdf(input_pdf)
+    query_emb = model.encode(query_text, convert_to_tensor=True)
 
-    # Step 3: Load embedding model
-    print(f"[MODEL] Loading {MODEL_NAME}")
-    model = SentenceTransformer(MODEL_NAME)
-
-    # Step 4: Embed query paper
-    query_embedding = model.encode([text], convert_to_tensor=False, show_progress_bar=False)
-    query_embedding = np.array(query_embedding, dtype="float32")
-
-    # Step 5: Search FAISS
-    distances, indices = index.search(query_embedding, top_k)
-
-    # Step 6: Show results & collect for JSON
-    print("\n[RESULTS] Most similar papers:")
     results = []
-    for rank, (score, idx) in enumerate(zip(distances[0], indices[0]), start=1):
-        paper_info = mapping.get(str(idx), {})
-        title = paper_info.get("title", "Unknown title")
-        url = paper_info.get("url", "No URL")
-        similarity = 1 - score
-        print(f"{rank}. {title}")
-        print(f"   URL: {url}")
-        print(f"   Similarity: {similarity:.4f}")
-        if similarity >= SIMILARITY_THRESHOLD:
-            print("   → This paper is NOT novel (very similar).")
-        else:
-            print("   → Likely novel (no strong match).")
-        print("-" * 60)
+    for pdf in os.listdir(pdf_dir):
+        if pdf.endswith(".pdf"):
+            pdf_path = os.path.join(pdf_dir, pdf)
+            text = extract_text_from_pdf(pdf_path)
+            emb = model.encode(text, convert_to_tensor=True)
+            sim = util.cos_sim(query_emb, emb).item()
+            title = extract_title(text)
 
-        results.append({
-        "index": int(idx), 
-        "title": title,
-        "url": url,
-        "similarity": float(similarity),  
-        "pdf_path": str(paper_info.get("pdf_path", ""))  
-        })
+            results.append((title, sim))
 
+    # Sort by similarity
+    results.sort(key=lambda x: x[1], reverse=True)
+    results = results[:top_k]
 
-    # Step 7: Save JSON for Step 5
-    os.makedirs("data/results", exist_ok=True)
-    json_path = f"data/results/{os.path.splitext(os.path.basename(pdf_path))[0]}_similar.json"
-    with open(json_path, "w", encoding="utf-8") as f:
-        json.dump(results, f, indent=2, ensure_ascii=False)
-    print(f"[INFO] Saved similar papers JSON to: {json_path}")
+    # Print results in clean format
+    print("\n📊 [NOVELTY CHECK RESULTS]")
+    print(f"Topic: {topic}")
+    print("------------------------------------------------------------")
+    for i, (title, sim) in enumerate(results, start=1):
+        print(f"{i}. {title}")
+        print(f"   Similarity: {sim:.4f}")
+        print(f"   Novelty: {label_novelty(sim)}")
+        print("------------------------------------------------------------")
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Step 4 — Novelty Detection using FAISS")
-    parser.add_argument("pdf_path", help="Path to the PDF you want to check")
-    parser.add_argument("--top_k", type=int, default=5, help="Number of similar papers to show")
-    args = parser.parse_args()
+    parser = argparse.ArgumentParser(description="Novelty Check for Research Papers")
+    parser.add_argument("input_pdf", help="Path to the research paper PDF")
+    parser.add_argument("--topic", type=str, required=True, help="Research topic")
+    parser.add_argument("--top_k", type=int, default=5, help="Number of top similar papers to show")
+    parser.add_argument("--pdf_dir", type=str, default="data/pdfs", help="Directory containing reference PDFs")
 
-    find_similar_papers(args.pdf_path, args.top_k)
+    args = parser.parse_args()
+    novelty_check(args.input_pdf, args.topic, args.top_k, args.pdf_dir)

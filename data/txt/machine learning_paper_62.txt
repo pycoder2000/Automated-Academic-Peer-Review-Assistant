@@ -1,0 +1,9 @@
+Title: A combinatorial conjecture from PAC-Bayesian machine learning
+Published: 2020-06-02T04:36:50Z
+Link: http://arxiv.org/abs/2006.01387v2
+
+Abstract:
+We present a proof of a combinatorial conjecture from the second author's
+Ph.D. thesis. The proof relies on binomial and multinomial sums identities. We
+also discuss the relevance of the conjecture in the context of PAC-Bayesian
+machine learning.

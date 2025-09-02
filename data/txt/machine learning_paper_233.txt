@@ -1,0 +1,6 @@
+Title: Advancing Biosensors with Machine Learning.
+Published: 2020-11-13
+Link: https://www.semanticscholar.org/paper/6f803c1729ed818ef6a5ee28cf23b3c6ca9e4291
+
+Abstract:
+Chemometrics play a critical role in biosensors-based detection, analysis, and diagnosis. Nowadays, as a branch of artificial intelligence (AI), machine learning (ML) have achieved impressive advances. However, novel advanced ML methods, especially deep learning, which is famous for image analysis, facial recognition, and speech recognition, has remained relatively elusive to the biosensor community. Herein, how ML can be beneficial to biosensors is systematically discussed. The advantages and drawbacks of most popular ML algorithms are summarized on the basis of sensing data analysis. Specially, deep learning methods such as convolutional neural network (CNN) and recurrent neural network (RNN) are emphasized. Diverse ML-assisted electrochemical biosensors, wearable electronics, SERS and other spectra-based biosensors, fluorescence biosensors and colorimetric biosensors are comprehensively discussed. Furthermore, biosensor networks and multibiosensor data fusion are introduced. This review will nicely bridge ML with biosensors, and greatly expand chemometrics for detection, analysis, and diagnosis.

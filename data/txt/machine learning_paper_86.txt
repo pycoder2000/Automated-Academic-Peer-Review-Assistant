@@ -1,0 +1,6 @@
+Title: Pattern Recognition And Machine Learning
+Published: None
+Link: https://www.semanticscholar.org/paper/8e3c872076750bcce868808f9d4d7a038f950040
+
+Abstract:
+None

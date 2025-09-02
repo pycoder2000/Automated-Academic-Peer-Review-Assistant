@@ -1,0 +1,6 @@
+Title: Stop explaining black box machine learning models for high stakes decisions and use interpretable models instead
+Published: 2018-11-26
+Link: https://www.semanticscholar.org/paper/bc00ff34ec7772080c7039b17f7069a2f7df0889
+
+Abstract:
+None

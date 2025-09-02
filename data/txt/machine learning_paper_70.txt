@@ -1,0 +1,21 @@
+Title: New Trends in Quantum Machine Learning
+Published: 2021-08-22T08:23:30Z
+Link: http://arxiv.org/abs/2108.09664v1
+
+Abstract:
+Here we will give a perspective on new possible interplays between Machine
+Learning and Quantum Physics, including also practical cases and applications.
+We will explore the ways in which machine learning could benefit from new
+quantum technologies and algorithms to find new ways to speed up their
+computations by breakthroughs in physical hardware, as well as to improve
+existing models or devise new learning schemes in the quantum domain. Moreover,
+there are lots of experiments in quantum physics that do generate incredible
+amounts of data and machine learning would be a great tool to analyze those and
+make predictions, or even control the experiment itself. On top of that, data
+visualization techniques and other schemes borrowed from machine learning can
+be of great use to theoreticians to have better intuition on the structure of
+complex manifolds or to make predictions on theoretical models. This new
+research field, named as Quantum Machine Learning, is very rapidly growing
+since it is expected to provide huge advantages over its classical counterpart
+and deeper investigations are timely needed since they can be already tested on
+the already commercially available quantum machines.

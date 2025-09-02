@@ -1,0 +1,8 @@
+Title: TherML: Thermodynamics of Machine Learning
+Published: 2018-07-11T14:39:17Z
+Link: http://arxiv.org/abs/1807.04162v3
+
+Abstract:
+In this work we offer a framework for reasoning about a wide class of
+existing objectives in machine learning. We develop a formal correspondence
+between this work and thermodynamics and discuss its implications.

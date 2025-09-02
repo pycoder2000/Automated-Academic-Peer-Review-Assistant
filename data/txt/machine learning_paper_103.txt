@@ -1,0 +1,6 @@
+Title: ilastik: interactive machine learning for (bio)image analysis
+Published: 2019-09-30
+Link: https://www.semanticscholar.org/paper/5d433da6d0f143f20936379910104d2bb139d4ae
+
+Abstract:
+None

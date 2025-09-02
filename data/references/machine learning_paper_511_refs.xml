@@ -1,0 +1,561 @@
+<TEI xmlns="http://www.tei-c.org/ns/1.0" xmlns:xlink="http://www.w3.org/1999/xlink" 
+ xmlns:mml="http://www.w3.org/1998/Math/MathML">
+	<teiHeader/>
+	<text>
+		<front/>
+		<body/>
+		<back>
+			<div>
+				<listBibl>
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Finding patterns common to a set of strings</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Computer and System Sciences</title>
+		<imprint>
+			<biblScope unit="volume">21</biblScope>
+			<biblScope unit="page" from="46" to="62" />
+			<date type="published" when="1980" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Types of queries for concept learning</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<idno>YALEU/DCS/RR-479</idno>
+		<imprint>
+			<date type="published" when="1986" />
+			<pubPlace>New Haven</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>CT: Yale University, Department of Computer Science</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title level="m" type="main">Learning k-bounded context-free grammars</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<idno>YALEU/DCS/RR-557</idno>
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>New Haven</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>CT: Yale University, Department of Computer Science</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title level="m" type="main">Learning k-term DNF formulas using queries and counterexamples</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<idno>YALEU/DCS/RR-559</idno>
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>New Haven</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>CT: Yale University, Department of Computer Science</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Learning propositional Horn sentences with hints</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<idno>YALEU/DCS/RR-590</idno>
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>New Haven</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>CT: Yale University, Department of Computer Science</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Learning regular sets from queries and counterexamples. Information and Computation</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="volume">75</biblScope>
+			<biblScope unit="page" from="87" to="106" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Learning from noisy examples</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Laird</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="343" to="370" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<monogr>
+		<author>
+			<persName><forename type="first">D</forename><surname>Angluin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Smith</surname></persName>
+		</author>
+		<title level="m">Inductive inference: Theory and methods. Computing Surveys</title>
+				<imprint>
+			<date type="published" when="1983" />
+			<biblScope unit="volume">15</biblScope>
+			<biblScope unit="page" from="237" to="269" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">On the prediction of general recursive functions</title>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">M</forename><surname>Barzdin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><forename type="middle">V</forename><surname>Freivald</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Soviet Mathematics Doklady</title>
+		<imprint>
+			<biblScope unit="volume">13</biblScope>
+			<biblScope unit="page" from="1224" to="1228" />
+			<date type="published" when="1972" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Learning one-counter languages in polynomial time</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Berman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Roos</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Twenty-Eighth IEEE Symposium on Foundations of Computer Science</title>
+				<meeting>the Twenty-Eighth IEEE Symposium on Foundations of Computer Science<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>The Institute of Electrical and Electronics Engineers</publisher>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="61" to="67" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Classifying learnable geometric concepts with the Vapnik-Chervonenkis dimension</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blumer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ehrenfeucht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haussler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Warmuth</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Eighteenth Annual ACM Symposium on Theory of Computing</title>
+				<meeting>the Eighteenth Annual ACM Symposium on Theory of Computing<address><addrLine>Berkeley, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>The Association for Computing Machinery</publisher>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="273" to="282" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<monogr>
+		<title level="m" type="main">Learnability and the Vapnik-Chervonenkis dimension</title>
+		<author>
+			<persName><forename type="first">A</forename><surname>Blumer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ehrenfeucht</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haussler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Warmuth</surname></persName>
+		</author>
+		<idno>UCSC-CRL-87-20</idno>
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>Santa Cruz</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>University of California, Computer Research Laboratory</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Quantifying the inductive bias in concept learning</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haussler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Fifth National Conference on Artificial Intelligence</title>
+				<meeting>the Fifth National Conference on Artificial Intelligence<address><addrLine>Philadelphia, PA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1986" />
+			<biblScope unit="page" from="485" to="489" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Quantifying the inductive bias: AI learning algorithms and Valiant&apos;s framework</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Haussler</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Artificial Intelligence</title>
+		<imprint/>
+	</monogr>
+	<note>in press</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<monogr>
+		<title level="m" type="main">Learning in the presence of malicious errors</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kearns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<idno>TR-03-87</idno>
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Harvard University, Center for Research in Computing Technology</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">On the learnability of Boolean formulae</title>
+		<author>
+			<persName><forename type="first">M</forename><surname>Kearns</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Valiant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Nineteenth Annual ACM Symposium on Theory of Computing</title>
+				<meeting>the Nineteenth Annual ACM Symposium on Theory of Computing<address><addrLine>New York</addrLine></address></meeting>
+		<imprint>
+			<publisher>The Association for Computing Machinery</publisher>
+			<date type="published" when="1987" />
+			<biblScope unit="page" from="285" to="295" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">A method for inferring context-free grammars</title>
+		<author>
+			<persName><forename type="first">B</forename><surname>Knobe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Knobe</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Information and Control</title>
+		<imprint>
+			<biblScope unit="volume">31</biblScope>
+			<biblScope unit="page" from="129" to="146" />
+			<date type="published" when="1976" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<monogr>
+		<title level="m" type="main">Learning from good data and bad. Doctoral dissertation, Department of</title>
+		<author>
+			<persName><forename type="first">P</forename><surname>Laird</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1987" />
+			<pubPlace>New Haven, CT</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Computer Science, Yale University</orgName>
+		</respStmt>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<author>
+			<persName><forename type="first">L</forename><surname>Levy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Joshi</surname></persName>
+		</author>
+		<title level="m">Skeletal structural descriptions. Information and Control</title>
+				<imprint>
+			<date type="published" when="1978" />
+			<biblScope unit="volume">39</biblScope>
+			<biblScope unit="page" from="192" to="211" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Learning quickly when irrelevant attributes abound: A new linear-threshold algorithm</title>
+		<author>
+			<persName><forename type="first">N</forename><surname>Littlestone</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine Learning</title>
+				<imprint>
+			<date type="published" when="1987" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page" from="285" to="318" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Computational limitations on learning from examples</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Pitt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Valiant</surname></persName>
+		</author>
+		<idno>TR-05-86</idno>
+		<imprint>
+			<date type="published" when="1986" />
+			<pubPlace>Cambridge, MA</pubPlace>
+		</imprint>
+		<respStmt>
+			<orgName>Harvard University, Center for Research in Computing Technology</orgName>
+		</respStmt>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<monogr>
+		<title level="m" type="main">Inductive inference of logic programs based on algebraic semantics</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sakakibara</surname></persName>
+		</author>
+		<idno>No. 79</idno>
+		<imprint>
+			<date type="published" when="1987" />
+			<publisher>Fujitsu Limited, International Institute for Advanced Study of Social Information Science</publisher>
+			<pubPlace>Numazu, Japan</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<monogr>
+		<title level="m" type="main">Inferring parsers of context-free languages from structural examples</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Sakakibara</surname></persName>
+		</author>
+		<idno>No. 81</idno>
+		<imprint>
+			<date type="published" when="1987" />
+			<publisher>Fujitsu Limited, International Institute for Advanced Study of Social Information Science</publisher>
+			<pubPlace>Numazu, Japan</pubPlace>
+		</imprint>
+	</monogr>
+	<note type="report_type">Technical Report</note>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Learning concepts by asking questions</title>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sammut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Banerji</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Machine learning: An artificial intelligence approach</title>
+				<editor>
+			<persName><forename type="first">R</forename><forename type="middle">S</forename><surname>Michalski</surname></persName>
+			<persName><forename type="first">J</forename><forename type="middle">G</forename><surname>Carbonell</surname></persName>
+			<persName><forename type="first">&amp;</forename><forename type="middle">T M</forename><surname>Mitchell</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Los Altos, CA</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufmann</publisher>
+			<date type="published" when="1986" />
+			<biblScope unit="volume">2</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">A general incremental algorithm that infers theories from facts</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shapiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Seventh International Joint Conference on Artificial Intelligence</title>
+				<meeting>the Seventh International Joint Conference on Artificial Intelligence<address><addrLine>Vancouver, B.C., Canada</addrLine></address></meeting>
+		<imprint>
+			<publisher>Morgan Kaufman</publisher>
+			<date type="published" when="1981" />
+			<biblScope unit="page" from="446" to="451" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Algorithmic program diagnosis</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shapiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Ninth ACM Symposium on Principles of Programming Languages</title>
+				<meeting>the Ninth ACM Symposium on Principles of Programming Languages</meeting>
+		<imprint>
+			<date type="published" when="1982" />
+			<biblScope unit="page" from="299" to="308" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">N</forename><forename type="middle">M</forename><surname>Albuquerque</surname></persName>
+		</author>
+		<imprint>
+			<publisher>The Association for Computing Machinery</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<analytic>
+		<title level="a" type="main">Algorithmic program debugging</title>
+		<author>
+			<persName><forename type="first">E</forename><surname>Shapiro</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Communications of the ACM</title>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="page" from="1134" to="1142" />
+			<date type="published" when="1983" />
+			<publisher>MIT Press</publisher>
+		</imprint>
+	</monogr>
+	<note>A theory of the learnable</note>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Learning disjunctions of conjunctions</title>
+		<author>
+			<persName><forename type="first">L</forename><forename type="middle">G</forename><surname>Valiant</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Ninth International Joint Conference on Artificial Intelligence</title>
+				<meeting>the Ninth International Joint Conference on Artificial Intelligence</meeting>
+		<imprint>
+			<date type="published" when="1985" />
+			<biblScope unit="page" from="560" to="566" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

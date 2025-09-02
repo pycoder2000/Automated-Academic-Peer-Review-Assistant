@@ -1,0 +1,6 @@
+Title: Machine Learning with Adversaries: Byzantine Tolerant Gradient Descent
+Published: 2017-12-04
+Link: https://www.semanticscholar.org/paper/9583ac53a19cdf0db81fef6eb0b63e66adbe2324
+
+Abstract:
+None

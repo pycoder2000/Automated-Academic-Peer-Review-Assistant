@@ -1,0 +1,6 @@
+Title: Determinantal Point Processes for Machine Learning
+Published: 2012-12-18T10:48:57Z
+Link: https://doi.org/10.1561/2200000044
+
+Abstract:
+

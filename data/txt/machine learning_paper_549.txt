@@ -1,0 +1,6 @@
+Title: Machine learning-driven predictive modeling of mechanical properties in diverse steels
+Published: 2025-02-28T16:48:56Z
+Link: https://doi.org/10.1016/j.mlwa.2025.100634
+
+Abstract:
+

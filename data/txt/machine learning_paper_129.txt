@@ -1,0 +1,16 @@
+Title: Federated Learning: Collaborative Machine Learning without
+Centralized Training Data
+Published: 2022-09-28
+Link: https://www.semanticscholar.org/paper/6a6ad9eb495739f4c80e7c09598720c3d5c5dff7
+
+Abstract:
+Federated learning (also known as collaborative learning) is a machine learning technique that trains
+an algorithm without transferring data samples across numerous decentralized edge devices or
+servers. This strategy differs from standard centralized machine learning techniques in which all local
+datasets are uploaded to a single server, as well as more traditional decentralized alternatives, which
+frequently presume that local data samples are uniformly distributed.
+Federated learning allows several actors to collaborate on the development of a single, robust
+machine learning model without sharing data, allowing crucial issues such as data privacy, data
+security, data access rights, and access to heterogeneous data to be addressed. Defence,
+telecommunications, internet of things, and pharmaceutical industries are just a few of the sectors
+where it has applications.

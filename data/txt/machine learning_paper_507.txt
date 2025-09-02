@@ -1,0 +1,6 @@
+Title: Machine Learning for Automated Theorem Proving: Learning to Solve SAT and QSAT
+Published: 2021-11-22T08:06:36Z
+Link: https://doi.org/10.1561/2200000081
+
+Abstract:
+

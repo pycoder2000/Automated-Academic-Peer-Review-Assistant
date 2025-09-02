@@ -1,0 +1,6 @@
+Title: Ethical Machine Learning in Health Care
+Published: 2020-09-22
+Link: https://www.semanticscholar.org/paper/e8d330f11df9c69f38b78a7cc4b1333ebecf7c55
+
+Abstract:
+The use of machine learning (ML) in healthcare raises numerous ethical concerns, especially as models can amplify existing health inequities. Here, we outline ethical considerations for equitable ML in the advancement of healthcare. Specifically, we frame ethics of ML in healthcare through the lens of social justice. We describe ongoing efforts and outline challenges in a proposed pipeline of ethical ML in health, ranging from problem selection to postdeployment considerations. We close by summarizing recommendations to address these challenges.

@@ -1,0 +1,18 @@
+Title: Risk Assessment for Machine Learning Models
+Published: 2020-11-09T10:50:50Z
+Link: http://arxiv.org/abs/2011.04328v1
+
+Abstract:
+In this paper we propose a framework for assessing the risk associated with
+deploying a machine learning model in a specified environment. For that we
+carry over the risk definition from decision theory to machine learning. We
+develop and implement a method that allows to define deployment scenarios, test
+the machine learning model under the conditions specified in each scenario, and
+estimate the damage associated with the output of the machine learning model
+under test. Using the likelihood of each scenario together with the estimated
+damage we define \emph{key risk indicators} of a machine learning model.
+  The definition of scenarios and weighting by their likelihood allows for
+standardized risk assessment in machine learning throughout multiple domains of
+application. In particular, in our framework, the robustness of a machine
+learning model to random input corruptions, distributional shifts caused by a
+changing environment, and adversarial perturbations can be assessed.

@@ -1,0 +1,6 @@
+Title: Small data machine learning in materials science
+Published: 2023-03-25
+Link: https://www.semanticscholar.org/paper/35b1d79993f0e4fbfcb3b86c5013c5e2a7e3117c
+
+Abstract:
+This review discussed the dilemma of small data faced by materials machine learning. First, we analyzed the limitations brought by small data. Then, the workflow of materials machine learning has been introduced. Next, the methods of dealing with small data were introduced, including data extraction from publications, materials database construction, high-throughput computations and experiments from the data source level; modeling algorithms for small data and imbalanced learning from the algorithm level; active learning and transfer learning from the machine learning strategy level. Finally, the future directions for small data machine learning in materials science were proposed.

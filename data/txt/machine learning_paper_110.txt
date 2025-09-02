@@ -1,0 +1,6 @@
+Title: The MNIST Database of Handwritten Digit Images for Machine Learning Research [Best of the Web]
+Published: 2012-10-18
+Link: https://www.semanticscholar.org/paper/46f74231b9afeb0c290d6d550043c55045284e5f
+
+Abstract:
+None

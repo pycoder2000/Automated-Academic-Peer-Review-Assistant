@@ -1,0 +1,6 @@
+Title: Benchmark and Survey of Automated Machine Learning Frameworks
+Published: 2019-04-26
+Link: https://www.semanticscholar.org/paper/330b5844d170b6b77f5f9fa4c2024150cef2af18
+
+Abstract:
+Machine learning (ML) has become a vital part in many aspects of our daily life. However, building well performing machine learning applications requires highly specialized data scientists and domain experts. Automated machine learning (AutoML) aims to reduce the demand for data scientists by enabling domain experts to automatically build machine learning applications without extensive knowledge of statistics and machine learning. This paper is a combination of a survey on current AutoML methods and a benchmark of popular AutoML frameworks on real data sets. Driven by the selected frameworks for evaluation, we summarize and review important AutoML techniques and methods concerning every step in building an ML pipeline. The selected AutoML frameworks are evaluated on 137 different data sets.

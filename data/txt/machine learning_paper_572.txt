@@ -1,0 +1,6 @@
+Title: Detection of fraud in IoT based credit card collected dataset using machine learning
+Published: 2024-12-09T15:47:05Z
+Link: https://doi.org/10.1016/j.mlwa.2024.100603
+
+Abstract:
+
