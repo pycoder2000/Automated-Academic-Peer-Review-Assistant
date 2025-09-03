@@ -2,4 +2,4 @@
 __pycache__
 data/pdfs/
 data/parsed_text/
-data/results/
+data/results
