@@ -2,32 +2,18 @@ import os
 import re
 import json
 import argparse
-from collections import defaultdict, Counter
+from collections import defaultdict
 from statistics import mean, pstdev
 from typing import List, Dict, Any, Optional
-import numpy as np
-import regex as re2  
+import regex as re2
 from pint import UnitRegistry
 from PyPDF2 import PdfReader
-
-def extract_text_fn(pdf_path, max_chars=20000):
-    """Extract text from a PDF (first N chars for efficiency)."""
-    try:
-        reader = PdfReader(pdf_path)
-        text = ""
-        for page in reader.pages:
-            text += page.extract_text() or ""
-        return text[:max_chars]
-    except Exception as e:
-        raise RuntimeError(f"Error reading PDF {pdf_path}: {e}")
-
 
 # -------------------- CONFIG --------------------
 PARSED_TEXT_DIR = "data/parsed_text"
 RESULTS_DIR = "data/results"
 os.makedirs(RESULTS_DIR, exist_ok=True)
 
-# “Metric cues” to help bind numbers to semantic labels (no domain hardcoding)
 METRIC_CUES = {
     "accuracy": ["accuracy", "top-1", "top1", "acc."],
     "f1": ["f1", "f-1", "f score", "f-score", "f1-score", "f measure", "f-measure"],
@@ -42,64 +28,41 @@ METRIC_CUES = {
     "time": ["time", "duration", "runtime"],
     "freq": ["frequency", "clock", "hz"]
 }
-CONTEXT_WINDOW = 40  # chars around a number for metric cue matching
-
-# % range sanity; other units get normalized with pint
+CONTEXT_WINDOW = 40
 PERCENT_MIN, PERCENT_MAX = 0.0, 100.0
-
-# ------------------------------------------------
 
 ureg = UnitRegistry()
 Q_ = ureg.Quantity
 
-# Common unit aliases we’ll map to pint-friendly tokens
 UNIT_ALIASES = {
-    # time
-    "ms": "millisecond",
-    "s": "second",
-    "sec": "second",
-    "secs": "second",
-    # memory/storage
-    "kb": "kilobyte",
-    "mb": "megabyte",
-    "gb": "gigabyte",
-    "tb": "terabyte",
-    "kib": "kibibyte",
-    "mib": "mebibyte",
-    "gib": "gibibyte",
-    # length
-    "mm": "millimeter",
-    "cm": "centimeter",
-    "m": "meter",
-    "km": "kilometer",
-    # frequency
-    "hz": "hertz",
-    "khz": "kilohertz",
-    "mhz": "megahertz",
-    "ghz": "gigahertz"
+    "ms": "millisecond", "s": "second", "sec": "second", "secs": "second",
+    "kb": "kilobyte", "mb": "megabyte", "gb": "gigabyte", "tb": "terabyte",
+    "kib": "kibibyte", "mib": "mebibyte", "gib": "gibibyte",
+    "mm": "millimeter", "cm": "centimeter", "m": "meter", "km": "kilometer",
+    "hz": "hertz", "khz": "kilohertz", "mhz": "megahertz", "ghz": "gigahertz"
 }
 
-# Regex to extract numbers with optional units or %
 NUM_UNIT_RE = re2.compile(
-    r"""
-    (?P<num>[+-]?\d{1,3}(?:[\d,]{0,3})*(?:\.\d+)?|\.\d+)      # number (with commas)
-    \s*
-    (?P<percent>%)
+    r"""(?P<num>[+-]?\d{1,3}(?:[\d,]{0,3})*(?:\.\d+)?|\.\d+)\s*(?P<percent>%)
     |
-    (?P<num2>[+-]?\d{1,3}(?:[\d,]{0,3})*(?:\.\d+)?|\.\d+)\s*
-    (?P<unit>[a-zA-Zμµ]{1,6})?                                # short unit token (optional)
-    """,
+    (?P<num2>[+-]?\d{1,3}(?:[\d,]{0,3})*(?:\.\d+)?|\.\d+)\s*(?P<unit>[a-zA-Zμµ]{1,6})?""",
     re2.VERBOSE | re2.IGNORECASE
 )
+
+def extract_text_fn(pdf_path, max_chars=20000):
+    try:
+        reader = PdfReader(pdf_path)
+        text = "".join(page.extract_text() or "" for page in reader.pages)
+        return text[:max_chars]
+    except Exception as e:
+        raise RuntimeError(f"Error reading PDF {pdf_path}: {e}")
 
 def normalize_unit_token(tok: str) -> Optional[str]:
     if tok is None:
         return None
-    t = tok.strip().lower()
-    return UNIT_ALIASES.get(t, t)
+    return UNIT_ALIASES.get(tok.strip().lower(), tok.strip().lower())
 
 def clean_number_str(s: str) -> float:
-    # remove thousand separators like 1,234.56
     return float(s.replace(",", ""))
 
 def extract_numeric_mentions(text: str) -> List[Dict[str, Any]]:
@@ -113,316 +76,134 @@ def extract_numeric_mentions(text: str) -> List[Dict[str, Any]]:
         if m.group("percent"):
             val = clean_number_str(m.group("num"))
             mentions.append({
-                "raw": m.group(0),
-                "value": val,
-                "kind": "percent",
-                "unit": "%",
-                "value_si": val,      # keep as 0..100
-                "si_unit": "%",
-                "context": context,
-                "span": [start, end],
+                "raw": m.group(0), "value": val, "kind": "percent",
+                "unit": "%", "value_si": val, "si_unit": "%", "context": context, "span": [start, end],
             })
         else:
             num_str = m.group("num2")
             unit_tok = normalize_unit_token(m.group("unit"))
             val = clean_number_str(num_str)
 
-            # Try to parse with pint if unit is present
-            value_si = None
-            si_unit = None
-            kind = None
-
+            value_si, si_unit, kind = val, unit_tok, "scalar"
             if unit_tok:
                 try:
                     q = Q_(val, unit_tok)
-                    # Normalize to a canonical SI dimensionality
-                    # We care about seconds, bytes, meters, hertz as examples
-                    dim = q.dimensionality
-
-                    if "[time]" in str(dim):
-                        value_si = q.to("second").magnitude
-                        si_unit = "second"
-                        kind = "time"
-                    elif "[length]" in str(dim):
-                        value_si = q.to("meter").magnitude
-                        si_unit = "meter"
-                        kind = "length"
-                    elif "byte" in unit_tok or "[information]" in str(dim):
-                        # pint treats byte as information; standardize to bytes
-                        try:
-                            value_si = q.to("byte").magnitude
-                            si_unit = "byte"
-                        except Exception:
-                            # if it's bit-based, convert to byte
-                            value_si = q.to("byte").magnitude
-                            si_unit = "byte"
-                        kind = "memory"
-                    elif "[frequency]" in str(dim):
-                        value_si = q.to("hertz").magnitude
-                        si_unit = "hertz"
-                        kind = "frequency"
+                    dim = str(q.dimensionality)
+                    if "[time]" in dim:
+                        value_si, si_unit, kind = q.to("second").magnitude, "second", "time"
+                    elif "[length]" in dim:
+                        value_si, si_unit, kind = q.to("meter").magnitude, "meter", "length"
+                    elif "byte" in unit_tok or "[information]" in dim:
+                        value_si, si_unit, kind = q.to("byte").magnitude, "byte", "memory"
+                    elif "[frequency]" in dim:
+                        value_si, si_unit, kind = q.to("hertz").magnitude, "hertz", "frequency"
                     else:
-                        # keep raw; unknown dimension
-                        value_si = val
-                        si_unit = unit_tok
                         kind = "other"
                 except Exception:
-                    # Unknown/not parseable unit → keep raw
-                    value_si = val
-                    si_unit = unit_tok
                     kind = "other"
-            else:
-                # no unit; keep as raw number
-                value_si = val
-                si_unit = None
-                kind = "scalar"
 
             mentions.append({
-                "raw": m.group(0),
-                "value": val,
-                "kind": kind,
-                "unit": unit_tok,
-                "value_si": float(value_si) if value_si is not None else None,
-                "si_unit": si_unit,
-                "context": context,
-                "span": [start, end],
+                "raw": m.group(0), "value": val, "kind": kind,
+                "unit": unit_tok, "value_si": float(value_si), "si_unit": si_unit,
+                "context": context, "span": [start, end],
             })
     return mentions
 
 def bind_metric_labels(mentions: List[Dict[str, Any]]) -> None:
-    """
-    Attach a 'metric' label to each mention using nearby cue words.
-    """
     for m in mentions:
         ctx = m["context"]
-        labels = []
-        for metric, cues in METRIC_CUES.items():
-            if any(cue in ctx for cue in cues):
-                labels.append(metric)
-        m["metric_labels"] = labels or []
+        m["metric_labels"] = [metric for metric, cues in METRIC_CUES.items() if any(cue in ctx for cue in cues)]
 
 def sanity_checks(mentions: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
     issues = []
     for m in mentions:
-        # Percent must be 0..100
-        if m["kind"] == "percent":
-            v = m["value_si"]
-            if v < PERCENT_MIN or v > PERCENT_MAX:
-                issues.append({
-                    "type": "range_error_percent",
-                    "message": f"Percentage {v}% out of 0–100 bounds",
-                    "mention": m["raw"]
-                })
-        # Obvious nonsense: negative time/length/memory/frequency
-        if m["kind"] in {"time", "length", "memory", "frequency"} and m["value_si"] is not None:
-            if m["value_si"] < 0:
-                issues.append({
-                    "type": "negative_physical_quantity",
-                    "message": f"Negative {m['kind']} value detected",
-                    "mention": m["raw"]
-                })
+        if m["kind"] == "percent" and not (PERCENT_MIN <= m["value_si"] <= PERCENT_MAX):
+            issues.append({"type": "range_error_percent", "message": f"Percentage {m['value_si']}% out of bounds", "mention": m["raw"]})
+        if m["kind"] in {"time", "length", "memory", "frequency"} and m["value_si"] < 0:
+            issues.append({"type": "negative_physical_quantity", "message": f"Negative {m['kind']} value", "mention": m["raw"]})
     return issues
 
 def internal_consistency_checks(mentions: List[Dict[str, Any]]) -> List[Dict[str, Any]]:
-    """
-    If multiple values exist for the same metric (e.g., accuracy), flag large discrepancy.
-    Uses simple heuristics by metric label + unit kind.
-    """
-    issues = []
-    # Group by primary metric label if available, else by kind+si_unit
-    buckets = defaultdict(list)
+    issues, buckets = [], defaultdict(list)
     for m in mentions:
-        key = None
-        if m["metric_labels"]:
-            key = tuple(sorted(m["metric_labels"]))  # multi-label bucket
-        else:
-            key = (m["kind"], m.get("si_unit"))
+        key = tuple(sorted(m["metric_labels"])) if m["metric_labels"] else (m["kind"], m.get("si_unit"))
         buckets[key].append(m)
 
     for key, items in buckets.items():
-        if len(items) < 2:
-            continue
-        # For percents—check spread
-        if any(x["kind"] == "percent" for x in items):
-            vals = [x["value_si"] for x in items if x["kind"] == "percent"]
-            if len(vals) >= 2:
-                spread = abs(max(vals) - min(vals))
-                if spread >= 10.0:  # >10 percentage points difference
-                    issues.append({
-                        "type": "inconsistent_percent",
-                        "message": f"Conflicting percent values ({min(vals)}–{max(vals)}) for metric {key}",
-                        "metric": str(key),
-                        "values": vals
-                    })
-        # For times/memory/etc., check order-of-magnitude contradictions
+        if len(items) < 2: continue
+        vals = [x["value_si"] for x in items if x["value_si"] is not None]
+        if any(x["kind"] == "percent" for x in items) and max(vals) - min(vals) >= 10:
+            issues.append({"type": "inconsistent_percent", "message": f"Conflicting percents {min(vals)}–{max(vals)}", "metric": str(key)})
         elif any(x["kind"] in {"time", "memory", "length", "frequency"} for x in items):
-            vals = [x["value_si"] for x in items if x["value_si"] is not None]
-            if len(vals) >= 2:
-                ratio = max(vals) / max(1e-12, min(vals))
-                if ratio >= 100:  # two orders of magnitude difference
-                    issues.append({
-                        "type": "inconsistent_physical_quantity",
-                        "message": f"Values differ by ≥100× for {key}",
-                        "metric": str(key),
-                        "values": vals
-                    })
+            if max(vals)/max(1e-12, min(vals)) >= 100:
+                issues.append({"type": "inconsistent_physical_quantity", "message": f"≥100× difference for {key}", "metric": str(key)})
     return issues
 
-# ---------- Corpus statistics (no manual domain ranges) ----------
-
 def build_corpus_stats(corpus_dir: str) -> Dict[str, Dict[str, float]]:
-    """
-    Extract numeric mentions from all corpus texts and compute mean/std
-    per (bucket_key) where bucket_key is a string like:
-      - "percent::%"  (for percentages)
-      - "time::second"
-      - "memory::byte"
-      - "length::meter"
-      - "frequency::hertz"
-      - "scalar::None"
-    This gives empirical ranges to compare new paper values against.
-    """
     agg = defaultdict(list)
-
-    def bucket_key(kind: str, si_unit: Optional[str]) -> str:
-        return f"{kind}::{si_unit}"
-
-    # Walk all parsed text files
-    if not os.path.isdir(corpus_dir):
-        return {}
+    if not os.path.isdir(corpus_dir): return {}
 
     for fname in os.listdir(corpus_dir):
-        if not fname.lower().endswith(".txt"):
-            continue
+        if not fname.lower().endswith(".txt"): continue
         try:
             with open(os.path.join(corpus_dir, fname), "r", encoding="utf-8") as f:
-                text = f.read()
-            mentions = extract_numeric_mentions(text)
+                mentions = extract_numeric_mentions(f.read())
             bind_metric_labels(mentions)
             for m in mentions:
-                if m["value_si"] is None:
-                    continue
-                k = bucket_key(m["kind"], m.get("si_unit"))
-                # Avoid absurd gigantic numbers in scalar bucket by clipping
-                agg[k].append(float(m["value_si"]))
-        except Exception:
-            continue
+                if m["value_si"] is not None:
+                    agg[f"{m['kind']}::{m.get('si_unit')}"].append(float(m["value_si"]))
+        except Exception: continue
 
     stats = {}
     for k, vals in agg.items():
-        if len(vals) < 10:
-            # too few examples → skip statistical check for this bucket
-            continue
-        mu = float(mean(vals))
-        sigma = float(pstdev(vals)) if len(vals) > 1 else 0.0
-        stats[k] = {
-            "count": len(vals),
-            "mean": mu,
-            "std": sigma,
-            "min": float(min(vals)),
-            "max": float(max(vals)),
-        }
+        if len(vals) < 10: continue
+        stats[k] = {"count": len(vals), "mean": float(mean(vals)), "std": float(pstdev(vals)), "min": float(min(vals)), "max": float(max(vals))}
     return stats
 
 def zscore(val: float, mu: float, sigma: float) -> float:
-    if sigma <= 1e-12:
-        return 0.0
-    return (val - mu) / sigma
+    return 0.0 if sigma <= 1e-12 else (val - mu) / sigma
 
-def statistical_plausibility_checks(mentions: List[Dict[str, Any]],
-                                   stats: Dict[str, Dict[str, float]],
-                                   z_thresh: float = 3.0) -> List[Dict[str, Any]]:
-    """
-    For each mention, if we have corpus stats for the same bucket, compute z-score.
-    Flag if |z| >= z_thresh. This auto-adapts to your corpus—no manual ranges.
-    """
+def statistical_plausibility_checks(mentions, stats, z_thresh=3.0):
     issues = []
-
-    def bucket_key(kind: str, si_unit: Optional[str]) -> str:
-        return f"{kind}::{si_unit}"
-
     for m in mentions:
-        if m["value_si"] is None:
-            continue
-        k = bucket_key(m["kind"], m.get("si_unit"))
+        if m["value_si"] is None: continue
+        k = f"{m['kind']}::{m.get('si_unit')}"
         if k in stats:
-            mu = stats[k]["mean"]
-            sd = stats[k]["std"]
-            z = zscore(m["value_si"], mu, sd) if sd > 0 else 0.0
+            mu, sd = stats[k]["mean"], stats[k]["std"]
+            z = zscore(m["value_si"], mu, sd)
             if abs(z) >= z_thresh:
-                issues.append({
-                    "type": "statistical_outlier",
-                    "message": f"Value {m['value_si']} {m.get('si_unit')} is a |z|≥{z_thresh:.1f} outlier vs corpus",
-                    "bucket": k,
-                    "zscore": float(z),
-                    "mean": mu,
-                    "std": sd,
-                    "mention": m["raw"]
-                })
+                issues.append({"type": "statistical_outlier", "message": f"{m['value_si']} {m.get('si_unit')} is outlier", "bucket": k, "zscore": float(z)})
     return issues
 
-# -------------------- MAIN --------------------
-
 def read_text(path: str) -> str:
-    if path.lower().endswith(".pdf"):
-        if extract_text_fn is None:
-            raise RuntimeError("No PDF parser available (pdf_parse.extract_text_from_pdf not found).")
-        return extract_text_fn(path)
-    else:
-        with open(path, "r", encoding="utf-8") as f:
-            return f.read()
+    return extract_text_fn(path) if path.lower().endswith(".pdf") else open(path, "r", encoding="utf-8").read()
 
-def main():
-    parser = argparse.ArgumentParser(description="Step 7 — Factual Verification (two-layer checks)")
-    parser.add_argument("path", help="Path to NEW paper (PDF or TXT)")
-    parser.add_argument("--corpus_dir", default=PARSED_TEXT_DIR, help="Parsed text dir for learning empirical ranges")
-    parser.add_argument("--z_thresh", type=float, default=3.0, help="Z-score threshold for outlier flagging")
-    args = parser.parse_args()
-
-    text = read_text(args.path)
-
-    # 1) Extract numeric mentions + metric labels
+def factual_check(path: str, corpus_dir: str = PARSED_TEXT_DIR, z_thresh: float = 3.0) -> Dict[str, Any]:
+    text = read_text(path)
     mentions = extract_numeric_mentions(text)
     bind_metric_labels(mentions)
-
-    # 2) Deterministic sanity/internal consistency checks
     hard_issues = sanity_checks(mentions) + internal_consistency_checks(mentions)
-
-    # 3) Build corpus stats & run statistical checks
-    stats = build_corpus_stats(args.corpus_dir)
-    stat_issues = statistical_plausibility_checks(mentions, stats, z_thresh=args.z_thresh)
-
-    report = {
-        "file": args.path,
-        "num_mentions": len(mentions),
-        "mentions": mentions[:2000],  # cap to keep JSON manageable
-        "issues": {
-            "hard_checks": hard_issues,
-            "statistical_checks": stat_issues
-        },
+    stats = build_corpus_stats(corpus_dir)
+    stat_issues = statistical_plausibility_checks(mentions, stats, z_thresh)
+    return {
+        "file": path, "num_mentions": len(mentions), "mentions": mentions[:2000],
+        "issues": {"hard_checks": hard_issues, "statistical_checks": stat_issues},
         "corpus_stats_available_for": sorted(stats.keys())
     }
 
-    out_name = os.path.splitext(os.path.basename(args.path))[0] + "_factual_report.json"
-    out_path = os.path.join(RESULTS_DIR, out_name)
-    with open(out_path, "w", encoding="utf-8") as f:
-        json.dump(report, f, indent=2, ensure_ascii=False)
-
-    # Console summary
-    print(f"\n[FACTUAL CHECK] Mentions extracted: {len(mentions)}")
-    print(f"[FACTUAL CHECK] Hard-check issues: {len(hard_issues)}")
-    print(f"[FACTUAL CHECK] Statistical issues: {len(stat_issues)}")
-    print(f"[FACTUAL CHECK] Saved JSON report → {out_path}\n")
-
-    if hard_issues:
-        print("Top hard-check issues:")
-        for i in hard_issues[:5]:
-            print(" -", i["type"], ":", i["message"])
-
-    if stat_issues:
-        print("\nTop statistical issues:")
-        for i in stat_issues[:5]:
-            print(" -", i["type"], ":", i["message"])
-
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Step 7 — Factual Verification")
+    parser.add_argument("path", type=str, help="Path to PDF/TXT file")
+    parser.add_argument("--corpus_dir", type=str, default=PARSED_TEXT_DIR)
+    parser.add_argument("--z_thresh", type=float, default=3.0)
+    parser.add_argument("--output", type=str, help="Save JSON output")
+    args = parser.parse_args()
+
+    results = factual_check(args.path, args.corpus_dir, args.z_thresh)
+    if args.output:
+        os.makedirs(os.path.dirname(args.output), exist_ok=True)
+        with open(args.output, "w") as f:
+            json.dump(results, f, indent=2, ensure_ascii=False)
+        print(f"✅ Results saved to {args.output}")
+    else:
+        print(json.dumps(results, indent=2))

@@ -13,14 +13,14 @@ git clone https://github.com/BhaveshBhakta/Automated-Academic-Peer-Review-Assist
 cd Automated-Academic-Peer-Review-Assistant
 ```
 
-### 2. Create a Python environment
+2. **Create a Python environment**
 
 ```bash
-python3 -m venv testenv
-source testenv/bin/activate
+python3 -m venv langenv
+source langenv/bin/activate
 ```
 
-### 3. Install dependencies
+3. **Install dependencies**
 
 ```bash
 pip install -r requirements.txt
