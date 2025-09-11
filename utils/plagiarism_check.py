@@ -1,13 +1,18 @@
 import os
 import json
 import argparse
+import faiss
+import numpy as np
 from PyPDF2 import PdfReader
 from difflib import SequenceMatcher
-from sentence_transformers import SentenceTransformer, util
+from sentence_transformers import SentenceTransformer
 
-# --- Utils ---
-def extract_text_from_pdf(pdf_path):
-    """Extract text from a PDF file."""
+FAISS_INDEX = "data/faiss_indexes/global_index.bin"
+FAISS_MAPPING = "data/faiss_indexes/global_mapping.json"
+
+# ---------- Utils ----------
+def extract_text_from_pdf(pdf_path, max_chars=20000):
+    """Extract text from a PDF."""
     text = ""
     try:
         reader = PdfReader(pdf_path)
@@ -15,97 +20,116 @@ def extract_text_from_pdf(pdf_path):
             text += page.extract_text() or ""
     except Exception as e:
         print(f"[ERROR] Failed to extract text from {pdf_path}: {e}")
-    return text.strip()
+    return text[:max_chars].strip()
 
-def split_into_chunks(text, chunk_size=500):
-    """Split text into chunks (for overlap checks)."""
+def split_into_chunks(text, chunk_size=300, overlap=50):
+    """Split text into overlapping chunks (words)."""
     words = text.split()
-    return [" ".join(words[i:i+chunk_size]) for i in range(0, len(words), chunk_size)]
+    chunks = []
+    for i in range(0, len(words), chunk_size - overlap):
+        chunk = " ".join(words[i:i + chunk_size])
+        if chunk:
+            chunks.append(chunk)
+    return chunks
 
-def calculate_exact_overlap(chunk, ref_chunk, threshold=0.8):
-    """Check for exact/copy overlap using SequenceMatcher."""
+def normalize(vec: np.ndarray) -> np.ndarray:
+    return vec / np.linalg.norm(vec, axis=1, keepdims=True)
+
+def calculate_exact_overlap(chunk, ref_chunk, threshold=0.85):
+    """Exact string overlap."""
     score = SequenceMatcher(None, chunk, ref_chunk).ratio()
     return score if score >= threshold else None
 
-def calculate_paraphrase_overlap(chunk, ref_chunk, model, threshold=0.7):
-    """Check for semantic overlap using Sentence-BERT embeddings."""
-    emb1 = model.encode(chunk, convert_to_tensor=True)
-    emb2 = model.encode(ref_chunk, convert_to_tensor=True)
-    score = float(util.cos_sim(emb1, emb2).item())
-    return score if score >= threshold else None
-
-# --- Main Pipeline ---
-def run_plagiarism_check(test_pdf, metadata_file, output_file):
+# ---------- Plagiarism Check ----------
+def run_plagiarism_check(test_pdf, output_file, top_k=5):
     print(f"[INFO] Extracting text from: {test_pdf}")
     test_text = extract_text_from_pdf(test_pdf)
     test_chunks = split_into_chunks(test_text)
 
-    # Load metadata
-    print(f"[INFO] Loading metadata from: {metadata_file}")
-    with open(metadata_file, "r") as f:
-        metadata_list = json.load(f)
+    # Load FAISS index + mapping
+    if not os.path.exists(FAISS_INDEX) or not os.path.exists(FAISS_MAPPING):
+        raise FileNotFoundError("❌ No global FAISS index found. Please run faiss_index.py first.")
 
-    # Load model for semantic similarity
-    model = SentenceTransformer("all-MiniLM-L6-v2")
+    index = faiss.read_index(FAISS_INDEX)
+    with open(FAISS_MAPPING, "r", encoding="utf-8") as f:
+        mapping = json.load(f)
+
+    if isinstance(mapping, list):
+        mapping = {str(i): entry for i, entry in enumerate(mapping)}
+
+    # Load embedding model
+    model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
+
+    # Encode test chunks
+    print(f"[INFO] Encoding {len(test_chunks)} test chunks...")
+    test_embeddings = model.encode(test_chunks, convert_to_numpy=True, show_progress_bar=True)
+    test_embeddings = normalize(test_embeddings)
 
     exact_matches, paraphrase_matches = [], []
 
-    # Loop through references
-    for paper in metadata_list:
-        ref_pdf = paper.get("pdf_path")
-        if not ref_pdf or not os.path.exists(ref_pdf):
-            print(f"[WARNING] Skipping missing PDF: {ref_pdf}")
-            continue
+    # Search each chunk in FAISS
+    print("[INFO] Running FAISS search for paraphrase overlap...")
+    D, I = index.search(test_embeddings, top_k)
 
-        print(f"[INFO] Comparing with: {paper['title']}")
-        ref_text = extract_text_from_pdf(ref_pdf)
+    for chunk_idx, chunk in enumerate(test_chunks):
+        for sim, ref_idx in zip(D[chunk_idx], I[chunk_idx]):
+            if ref_idx == -1:
+                continue
+            ref_entry = mapping[str(ref_idx)]
+            score = float(sim)
+            if score >= 0.70:  # semantic threshold
+                paraphrase_matches.append({
+                    "chunk": chunk,
+                    "score": score,
+                    "pdf_path": ref_entry["pdf_path"],
+                    "type": "paraphrase_overlap"
+                })
+
+    # Optional: exact overlap
+    print("[INFO] Checking for exact overlaps...")
+    for ref_idx, ref_entry in mapping.items():
+        if not ref_entry.get("text_path") or not os.path.exists(ref_entry["text_path"]):
+            continue
+        with open(ref_entry["text_path"], "r", encoding="utf-8") as f:
+            ref_text = f.read()
         ref_chunks = split_into_chunks(ref_text)
 
-        for t_chunk in test_chunks:
+        for chunk in test_chunks:
             for r_chunk in ref_chunks:
-                # Exact overlap
-                score_exact = calculate_exact_overlap(t_chunk, r_chunk)
+                score_exact = calculate_exact_overlap(chunk, r_chunk)
                 if score_exact:
                     exact_matches.append({
-                        "chunk": t_chunk,
+                        "chunk": chunk,
                         "score": score_exact,
+                        "pdf_path": ref_entry["pdf_path"],
                         "type": "exact_overlap"
                     })
 
-                # Paraphrase overlap
-                score_para = calculate_paraphrase_overlap(t_chunk, r_chunk, model)
-                if score_para:
-                    paraphrase_matches.append({
-                        "chunk": t_chunk,
-                        "score": score_para,
-                        "type": "paraphrase_overlap"
-                    })
-
-    # Build result JSON
+    # Summary
     result = {
         "paper": test_pdf,
-        "references": [p.get("pdf_path") for p in metadata_list if p.get("pdf_path")],
         "exact_overlap": exact_matches,
         "paraphrase_overlap": paraphrase_matches,
         "summary": {
             "exact_overlap_count": len(exact_matches),
             "paraphrase_overlap_count": len(paraphrase_matches),
+            "plagiarism_risk": "HIGH" if len(paraphrase_matches) + len(exact_matches) > 20 else "LOW"
         }
     }
 
     # Save JSON
     os.makedirs(os.path.dirname(output_file), exist_ok=True)
-    with open(output_file, "w") as f:
-        json.dump(result, f, indent=2)
+    with open(output_file, "w", encoding="utf-8") as f:
+        json.dump(result, f, indent=2, ensure_ascii=False)
 
     print(f"\n✅ Results saved to {output_file}")
 
-# --- CLI ---
+
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Automated Plagiarism Checker with JSON output")
-    parser.add_argument("--test-pdf", type=str, required=True, help="Path to the test PDF file")
-    parser.add_argument("--metadata", type=str, required=True, help="Path to metadata.json file")
-    parser.add_argument("--output", type=str, required=True, help="Path to save results JSON")
+    parser = argparse.ArgumentParser(description="Plagiarism Check (using FAISS global index)")
+    parser.add_argument("--test-pdf", type=str, required=True, help="Path to input PDF")
+    parser.add_argument("--output", type=str, required=True, help="Path to save JSON results")
+    parser.add_argument("--top-k", type=int, default=5, help="Number of top matches to retrieve")
     args = parser.parse_args()
 
-    run_plagiarism_check(args.test_pdf, args.metadata, args.output)
+    run_plagiarism_check(args.test_pdf, args.output, args.top_k)

@@ -1,0 +1,984 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main"></title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Yongping</forename><surname>Xing</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Beijing University of Technology</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Chuangbai</forename><surname>Xiao</surname></persName>
+							<email>cbxiao@bjut.edu.cn</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Beijing University of Technology</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Yifei</forename><surname>Wu</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="institution">Beijing University of Technology</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Ziming</forename><surname>Ding</surname></persName>
+							<email>ziming_ding@163.com</email>
+							<affiliation key="aff0">
+								<orgName type="institution">Beijing University of Technology</orgName>
+								<address>
+									<settlement>Beijing</settlement>
+									<country key="CN">China</country>
+								</address>
+							</affiliation>
+						</author>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.2" ident="GROBID" when="2025-09-11T18:05+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>With the development of the Internet, natural language processing (NLP), in which sentiment analysis is an important task, became vital in information processing. Sentiment analysis includes aspect sentiment classification. Aspect sentiment can provide complete and in-depth results with increased attention on aspect-level. Different context words in a sentence influence the sentiment polarity of a sentence variably, and polarity varies based on the different aspects in a sentence. Take the sentence, "I bought a new camera. The picture quality is amazing but the battery life is too short," as an example. If the aspect is picture quality, then the expected sentiment polarity is "positive"; if the battery life aspect is considered, then the sentiment polarity should be "negative"; therefore, aspect is important to consider when we explore aspect sentiment in the sentence. Recurrent neural network (RNN) is regarded as a good model to deal with natural language processing, and RNNs has get good performance on aspect sentiment classification including Target-Dependent LSTM (TD-LSTM) ,Target-Connection LSTM (TC-LSTM) (Tang, 2015a, b), AE-LSTM, AT-LSTM, AEAT-LSTM (Wang et al., 2016).There are also extensive literatures on sentiment classification utilizing convolutional neural network, but there is no literature on aspect sentiment classification using convolutional neural network. In our paper, we develop attention-based input layers in which aspect information is considered by input layer. We then incorporate attention-based input layers into convolutional neural network (CNN) to introduce context words information. In our experiment, incorporating aspect information into CNN improves the latter's aspect sentiment classification performance without using syntactic parser or external sentiment lexicons in a benchmark dataset from Twitter but get better performance compared with other models.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Sentiment analysis, also known as opinion mining <ref type="bibr" target="#b0">(Nasukawa and Yi, 2003;</ref><ref type="bibr" target="#b1">Liu, 2012)</ref>, is a basic and important task in natural language processing. Natural language processing analyzes people's opinions, sentiments, and emotions from written language.</p><p>Opinions influence almost all human activities and behaviors, and thus, sentiment analysis is applied in many business and social domains <ref type="bibr" target="#b1">(Liu, 2012)</ref>. Increasing attention is paid to sentiment analysis. Among sentiment analysis approaches, aspect sentiment analysis can provide complete and in-depth results. In this paper, we will study aspect sentiment; we will determine whether the opinions on different aspects are positive, negative, or neutral with the following sentence: "The voice quality of this phone is not good, but the battery life is long." If we consider quality, then its sentiment is negative, but when we consider battery life, then it is positive. Thus, aspect sentiment is closely related to aspect. In this paper, when we study aspect sentiment, we not only consider the whole sentence but also look into aspect. Many studies have been conducted on aspect sentiment, some of which have used the supervised learning approach, a Supported Vector Machine based on feature engineering <ref type="bibr" target="#b29">(Pang et al., 2002)</ref>, a hierarchical classification model was also proposed <ref type="bibr" target="#b2">(Wei and Gulla, 2010)</ref>, a model based on a set of aspect dependent features for classification <ref type="bibr">(Jiang et al,2011)</ref>. The lexicon-based approach has also been proven to perform well <ref type="bibr">(Mohammad et al., 2013)</ref>. Despite the effectiveness of these approaches, aspect sentiment classification remains a challenge because it requires labor intensive features engineering or lexicon among these approaches. In recent years, deep learning model perform well on many tasks including image processing and natural language processing. Learning word vector representations in natural language processing through neural networks language models <ref type="bibr" target="#b9">(Bengio et al., 2003;</ref><ref type="bibr" target="#b10">Yih et al., 2011;</ref><ref type="bibr" target="#b11">Mikolov et al., 2013</ref>) also achieves huge results. Word vector representtations,1-of-V encoding (here V is the size of vocabulary) onto a lower dimensional vector space via a hidden layer, have a major influence on kinds of natural language processing tasks such as text classification (Yoon <ref type="bibr">Kim,2015)</ref>, speech recognition <ref type="bibr">(Graves et al., 2013)</ref> and neural machine translation <ref type="bibr" target="#b4">(Sennrich et al., 2016b)</ref>.Word vector representations are feature extractors that encode semantic features of words in their dimensions in essentially. Deep learning models can deal with NLP tasks without feature processing with word vector representations. These motivate researchers to develop neural network approaches to deal with aspect sentiment classification. Aspect sentiment classification benefits from considering aspect information, such as in Target-Dependent LSTM (TD-LSTM) and Target-Connection LSTM (TC-LSTM) <ref type="bibr">(Tang, 2015a, b)</ref>; AE-LSTM, AT-LSTM, and AEAT-LSTM <ref type="bibr">(Wang et al., 2016)</ref>; AB-LSTM1 and AB-LSTM2 <ref type="bibr">(Yang et al.,2017)</ref>.However, those models can only use RNNS for aspect sentiment classification. In our work, we study aspect sentiment classification through convolutional neural network (CNN), which utilizes convolving filters to extract local features <ref type="bibr" target="#b12">(LeCun et al., 1998)</ref>. CNN models are proven effective for NLP and achieved excellent results in semantic parsing <ref type="bibr" target="#b13">(Yih et al., 2014</ref>), text classification (Yoon <ref type="bibr">Kim, 2015)</ref>, and other traditional NLP tasks <ref type="bibr" target="#b15">(Collobert et al., 2011)</ref>; however, no study on aspect classification has used convolutional neural network. Previous CNN models have treated input sentences but ignored aspect information. We solve this problem through an input layer attention mechanism <ref type="bibr" target="#b20">(Bahdanau et al., 2014)</ref>. Attention mechanism is effective for obtaining good results, as demonstrated in machine translation <ref type="bibr" target="#b20">(Bahdanau et al., 2014)</ref>, entailment reasoning <ref type="bibr">(Rocktaschel et al., 2015)</ref> and sentence summarization <ref type="bibr" target="#b22">(Rush et al., 2015)</ref>, so we incorporate an attention-based input layer into CNN to improve aspect classification performances, and the experiment results show that our model achieves state-of-the-art results in a benchmark dataset from Twitter. Our paper is structured as follows: Section 2 discusses related works, Section 3 introduces our CNN model in detail, Section 4 implements experiments to test and verify the effectiveness of our model, and discusses the detail of experiments, and Section 5 summarizes our work .</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Related work</head><p>Different studies on aspect sentiment classification will be discussed in this section. Aspect sentiment classification is a classic text classification problem in natural language processing(NLP), which can be solved by text classification approaches. Current models try to judge the polarity of the sentence ignoring the aspect mostly. Lots of models deal with the problem by a set of features; among them are Supported Vector Machine <ref type="bibr" target="#b29">(Pang et al., 2002;</ref><ref type="bibr" target="#b3">Jiang et al., 2011)</ref>, which is effective but requires labor intensive feature engineering, and sentiment analysis, which is based on the lexicon features <ref type="bibr">(Mohammad et al., 2013)</ref> with sentiment lexicons <ref type="bibr" target="#b17">(Rao et al., 2009;</ref><ref type="bibr" target="#b16">Kaji et al.,2007)</ref>.All these approaches require labor intensive feature engineering, and thus, some other approaches are motivated to deal with the problems. In recent years, deep learning model perform well on many tasks including image processing and natural language processing. Learning word vector representations, which play an important role in natural language processing, through neural networks language models also achieves huge results. Neural networks advanced sentiment analysis in various fields, Recursive Neural Network <ref type="bibr">(Socher et al., 2011;</ref><ref type="bibr">Donget et al., 2014;</ref><ref type="bibr" target="#b18">Vo et al., 2015)</ref> encodes each sentence in low-dimensional vector space without feature engineering and then gets the better sentence representation to classify the sentence. In addition, <ref type="bibr" target="#b18">Vo and Zhang (2015)</ref> also use features including sentiment-specific word embedding and sentiment lexicons. In recent literatures some neural models are studied in order to avoid labor intensive feature engineering, RNNs can solve the serial problem so they are regarded as one of the best approaches to deal with NLP tasks. Long Short-Term Memory abbreviated to "LSTM" (Hochreiter and Schmidhuber, 1997), and its derivatives are used to solve the problem. Target-Dependent LSTM (TD-LSTM) and Target-Connection LSTM (TC-LSTM) <ref type="bibr">(Tang, 2015a, b)</ref> considered target information and got good performance. <ref type="bibr">Tree-LSTMs (Tai et al., 2015)</ref> utilizes the syntax structures of sentences but introduces syntax parsing errors. LSTM models can be purely data-driven and do not rely on dependency parsing results, external sentiment lexicons, or labor intensive feature engineering. In addition, CNNs also are utilized in classifying text <ref type="bibr">(Kalchbrenneret al., 2014;</ref><ref type="bibr" target="#b14">Kim, 2014)</ref>, which can model N-gram language model with varying filter lengths and then get the most important feature through Max-poolings. But there are not CNN models solve the aspect sentiment classification considering aspect, so we are motivated to design a powerful CNN model which can get better performance with other models.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Model</head><p>In this section, we will talk our model in details.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">N-gram language model and convolutional neural networks</head><p>Language model research is a very important task in natural language processing, which plays a highly important pole in many NLP tasks, such as language machine translation, automatic speech recognition, handwriting recognition, text classification and information retrieval. Language model includes natural language model based on rules and statistical language model. Statistical Language model is the probability distribution of a word sequences; which can estimate probability on word sequences that will occur in automatic sentence generation. Statistical Language model has outstanding performance. The performance of a language model can be evaluated by the empirical perplexity. The goal of language model is to obtain a small perplexity which means perplexity is better when the perplexity is smaller. There are kinds of language models in literatures, but the effective models are few, one of the simplest and most successful language model is the N-gram language model. Given a word sequence 1 , 2 … , n is the length of the sequence, note that by the chain rule of probability we can write the probability of any sequence as</p><formula xml:id="formula_0">P( 1 2 … ) = ∏ P( | 1 2 … −1 ) =1 (1) the perplexity is Perplexity= √ ∏ 1 P( 1 2 … )</formula><p>(2) N-gram model approximates probability of the ith word P( 1 2 … ) by assuming that P( 1 2 … ) can be approximated by the probability of observing it in the shortened context history of the preceding n − 1 words. This is to say, the relevant words of are the just previous n − 1 words in the context history, P( 1 2 … ) = P( | 1 2 … −1 )= P( | − +1 … −1 )</p><p>(3) n can be 1,2,3, …,which can be called unigram, bigram, trigram,… In general, N is less than be 5. N-gram language model play an important role in natural language processing. Convolutional neural network (CNN, or ConvNet) is a class of deep, feed-forward artificial neural networks which has successfully been applied to analyzing visual imagery and image processing. CNN use a variation of multilayer perceptron designed to require minimal preprocessing <ref type="bibr">(LeCun,Yann,2013)</ref>, They are also known as shift invariant or space invariant artificial neural networks (SIANN), based on their sharedweights architecture and translation invariance characteristics <ref type="bibr">(Zhang et al.1988;</ref><ref type="bibr">Zhang et al.1990)</ref>.CNN can solve visual imagery and image processing with little preprocessing which means independence on prior knowledge is its major advantage. In recent years, CNN is also used in NLP its advantage. Convolutional neural network can extract language features at different positions by a filter vector sliding over a sequence, the length of filter vector size can be regarded as N in N-gram language model, so we can detect language feature information through convolution neural network. Let x∈ * denote the input sentence where L is the length of the sentence, and ∈ be the d-dimensional word vectors for the i-th word in the input sentence. Let k be the length of the filter, and the vector m∈ * is a filter for convolution operation. For each position j in the sentence, we have a window vector with k consecutive word vectors, denoted as:</p><formula xml:id="formula_1">= [ , +1, … , − +1, ]<label>(4)</label></formula><p>The commas represents row vector concatenation. A filter m convolves with the window vectors (k-grams) at each position in a valid way to generate a feature map c∈ − +1 ,each element of the feature map c for window vector is produced as follows: = ( ○ + ) (5) where ○ is element-wise multiplication, b is a bias term and f is a nonlinear transformation function, called activation function in neural networks, that can be sigmoid, TanH ,hyperbolic tangent, ArcTan, etc. In our model, we choose ReLU <ref type="bibr" target="#b23">(Nair and Hinton, 2010</ref>) as activation function. The length and number of filter can vary in convolutional neural network. For n filters with the same length, their n feature maps can be rearranged as:</p><formula xml:id="formula_2">= [ 1 ; 2 ; … ]<label>(6)</label></formula><p>, is the feature map generated with the i-th filter. Generally, a pooling layer often applied to feature maps after the convolution to capture features, max-over-poolings or dynamic k-max poolings are usually used to select the most or the k-most important features. These features are passed to a fully connected softmax layer whose output is the probability distribution over labels. In our model, we use multiple window lengths in order to capture features information at different positions to implement n-gram language through convolutional neural networks. The window size means how many words are matched by the filter, and then, we adopt max pooling as pooling layer over the convolutional results. Max pooling make convolutional model capture the most prominent and prevalent features, which is very useful for convolutional model to keep its robustness.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Attention-based input layer</head><p>Attention is the behavioral and cognitive process of selectively concentrating on a discrete aspect of information, whether deemed subjective or objective, while ignoring other perceivable information. It is the taking possession by the mind in clear and vivid form of one out of what seem several simultaneous objects or trains of thought. Focalization, concentration of consciousness are of its essence. Attention mechanism allocates limited processing resources upon concentrating on a discrete aspect of information. Attention mechanism paly an important role in kinds of fields including information processing. Attention mechanism has obtained good results in many cases, which demonstrated in image recognition <ref type="bibr">(Mnih et al., 2014)</ref>, reasoning on entailment <ref type="bibr">(Rockt¨ aschel et al., 2015)</ref>, machine translation <ref type="bibr" target="#b20">(Bahdanau et al., 2014)</ref>, sentence summarization <ref type="bibr" target="#b22">(Rush et al., 2015</ref><ref type="bibr">), read comprehension (Hermann et al., 2015</ref>. In our paper, we will introduce an attention mechanism and our attention mechanism is based on input layer that converts word of input sentences into an aspect-related word to enforce the model to attend to the importance of aspect of the sentence. The input layer attention mechanism can concentrate on the key part of a sentence given the aspect, which allocates limited processing resources upon concentrating on a discrete aspect of information .To be more specific,It is applied over word embeddings of input sentences to generate re-weighted word embeddings. The attention mechanism can focus on important input words by re-weighting word embeddings of the input sentence. That is, words in one sentence that are more relevant to aspect receive more higher weights. Let ∈ be the d-dimensional word embeddings for the i-th word in a sentence. Let x∈ * denotes the input sentence where L is the length of the sentence, a∈ denotes d-dimensional word embeddings for the aspect in the sentence, when there are more than one aspect word, aspect word embeddings is the mean of the all aspect word embeddings. We then define an attention D= , represents the word similarity score between the i-th word embeddings of x and the aspect word embeddings a . The similarity score uses cosine distance:</p><p>= cosine( , a) (7) can be regarded as as an attention-based relevance score of one word embedding with respect to aspect embedding of the sentence. We utilize the softmax normalization on attention weights:</p><formula xml:id="formula_3">E = ( 1 , 2 , … ) (8) = softmax(E)<label>(9)</label></formula><p>Then we updated embeddings attenEmb ∈ 2 for every word by a concatenation of the original word embeddings and attention-reweighted word embeddings,</p><formula xml:id="formula_4">attenEmb 1 = contact( ; ☉ )<label>(10)</label></formula><p>where ☉ represents element-wise multiplication.</p><p>We introduce attention mechanism by input layer simply using cosine distance to create the attention weights simply using cosine distance to create the attention weights and generate attenEmb, it is proved to be simple but effective. Moreover, we do not introduce any additional parameters. There is another manner to concentrate on some parts of information by introducing relevance from aspect to each word of the sentence: attenEmb 2 = contact( ; ) (11) attenEmb 2 is even more simpler but more effective in performance. In this way aspect words are paid more attention to deal with aspect sentiment classification, it is proved effective in lstm on sentiment chassification and it is plausible. Based discussion above, we give our model architecture in the following figure:</p><p>Figure <ref type="figure">1</ref>: Illustration of a CNN architecture for sentence classification. Input sentence convolutes with multiple filter sizes, and then imply Max-pooling on the results to get the sentence representation, which is used to classify the sentence.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.3">Model training</head><p>In our model, we add a fully connected softmax layer, whose output is the probability distribution, on top of the sentence features to predict sentiment distribution of the sentence. We train the model by minimizing loss function <ref type="bibr">(Rosasco, Lorenzo, et al.2004</ref>) where we use cross-entropy loss as loss function. Given a training sample x, let y be the ground truth distribution for sentence, ŷ be the predicted sentiment distribution. The goal of model training is to minimize the cross-entropy loss between y and ŷ for all sentences.</p><formula xml:id="formula_5">loss = ∑ ∑ log (ŷ ) + || || 2 (<label>12</label></formula><formula xml:id="formula_6">)</formula><p>where j is the index of class, which is positive or neutral or negative, i is the index of sentence, λ is the L 2 -regularization term, θ is the parameter set. We impose dropout, which can prevent over-fitting by randomly dropping out, on the penultimate layer with a constraint on L2-norms of the weight vectors <ref type="bibr" target="#b35">(Hinton et al., 2012)</ref>. Dropout randomly sets hidden units to 0 during forward-back propagation with a probability of p.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Experiment and results</head><p>In this section, will talk about experiment details.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Dataset</head><p>In this paper, we implement our experiment on an original dataset collected from Twitter <ref type="bibr" target="#b25">(Dong et al., 2014)</ref> where every instance has been labeled sentiment polarity manually, to evaluate the performance of our approach. Our aim is to identify the aspect polarity of a sentence with the corresponding aspect. The dataset include training set and test set, training set contains 6,248 sentences and test set contains 692 sentences. The percentages of positive, neutral and negative in training data and test data are both 25%, 50%, 25%. We train the model on training set, and then compute the performance of the model on test set. Evaluation metrics of our model are accuracy and macro-F1 score over positive, neutral and negative categories <ref type="bibr" target="#b27">(Jurafsky and Martin, 2000;</ref><ref type="bibr">Manning and Schutze, 1999)</ref>. We preprocess the data by removing non-alphabet characters, punctuation, numbers, and stop words from the sentence for the dataset.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Experimental Task Definition</head><p>In our papers, we define aspect sentiment classification task as determining the polarity of each aspect term for a given set of aspects term within a sentence. For example, the sentiment polarity of aspect term picture quality is positive in the sentence "I bought a new camera. The picture quality is amazing but the battery life is too short".</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3">Experimental Settings</head><p>In our experiments, we initialize all word vectors by Glove <ref type="bibr" target="#b28">(Pennington et al.,2014)</ref>, where the word embedding vectors are pre-trained on an unlabeled twitter corpus. We set dimension of word embedding vectors and aspect word embedding vectors to be 200. Words not present in the set of pre-trained words are initialized randomly. We initialize other parameters by sampling from a uniform distribution .We set maxlen as the maximum length of the sentence in the training set, if the sentence in the training dataset has a length less than maxlen we pad the sentence with special symbols at the end which indicate the unknown words, we also pad sentences that are shorter than maxlen for a sentence in the test dataset in the same way, and we simply cut extra words at the end of these sentences to reach maxlen for sentences in the training set and test set, this is because the convolution layer requires fixed-length input in our model. In our experiments, we used tensorflow for implementing our models. We use multiple convolutional layers with different lengths of filters in parallel, where the filter length is (2, 3, 4), and the number of filters is set to be 200. The dropout probability of the penultimate layer is 0.5 when we train model, and it is set to be 1 when test performance of our model. We implement L2-regularization on the softmax layer with weight of 2.6. We train our models with a batch size of 64 examples, and use Adam as our optimization method, which has improved the robustness of SGD on large scale learning task remarkably, and initialize the learning rate by 0.001.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.4">Experimental results</head><p>In our paper, we regard SVM <ref type="bibr" target="#b29">(Pang, Lee, and Vaithyanathan, 2002)</ref>, SVM with targetdependent features (SVM-dep) <ref type="bibr" target="#b3">(Jiang et al., 2011)</ref>, TC-LSTM, and TD-LSTM <ref type="bibr">(Tang et al. 2015)</ref> as baseline methods to compare with our approach. SVM classifier is built with many features, such as n-gram, punctuations, hashtags, and the numbers of positive or negative words in sentiment lexicon. TD-LSTM splits the sentence by the target term of the sentence and contacts the representation of preceding part and the following part of the aspect term as the whole sentence representation, which means it cannot pay attention to which words are more important for the given aspect term.TC-LSTM improve the performance of TD-LSTM by incorporating aspect term information into the representation of a sentence by adding target word vectors obtained from word vectors into the LSTM cell unit input. We set the mean of all word vectors as aspect term vector when the aspect term has more than one word.</p><p>Experimental results of baseline models and our methods are given in the following From table 1, we can conclude that our approaches achieve better results on the experimental dataset compared to previous methods.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Conclusion and discussion</head><p>We develop a model which incorporates attention-based input layer into convolutional neural networks to improve the performance of aspect sentiment classification. Experiments on dataset from twitter showed that our model achieves better accruacy and mcro-F1.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table .</head><label>.</label><figDesc>Comparison of different methods on aspect sentiment classification. Accuracy and macro-F1 are evaluation metrics.</figDesc><table><row><cell>Model</cell><cell>Accruacy</cell><cell>Mcro-F1</cell></row><row><cell>SVM</cell><cell>0.627</cell><cell>0.602</cell></row><row><cell>SVM-dep</cell><cell>0.634</cell><cell>0.633</cell></row><row><cell>TD-LSTM</cell><cell>0.708</cell><cell>0.690</cell></row><row><cell>TC-LSTM</cell><cell>0.715</cell><cell>0.695</cell></row><row><cell>attenEmb 1</cell><cell>0.716</cell><cell>0.700</cell></row><row><cell>attenEmb 2</cell><cell>0.725</cell><cell>0.702</cell></row><row><cell>Table 1:</cell><cell></cell><cell></cell></row></table></figure>
+		</body>
+		<back>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">Sentiment analysis: Capturing favorability using natural language processing</title>
+		<author>
+			<persName><forename type="first">Tetsuya</forename><surname>Nasukawa</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jeonghee</forename><surname>Yi</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2 nd international conference on Knowledge capture</title>
+				<meeting>the 2 nd international conference on Knowledge capture</meeting>
+		<imprint>
+			<publisher>ACM</publisher>
+			<date type="published" when="2003" />
+			<biblScope unit="page" from="70" to="77" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">Sentiment Analysis and Opinion Mining</title>
+		<author>
+			<persName><forename type="first">Bing</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-031-02145-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Synthesis Lectures on Human Language Technologies</title>
+		<idno type="ISSN">1947-4040</idno>
+		<idno type="ISSNe">1947-4059</idno>
+		<imprint>
+			<biblScope unit="volume">5</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="1" to="167" />
+			<date type="published" when="2012" />
+			<publisher>Springer International Publishing</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Sentiment learning on product reviews via sentiment ontology tree</title>
+		<author>
+			<persName><forename type="first">Wei</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jon</forename><forename type="middle">Atle</forename><surname>Gulla</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of annual meeting of the association for computational Linguistics (acL-2010)</title>
+				<meeting>annual meeting of the association for computational Linguistics (acL-2010)</meeting>
+		<imprint>
+			<date type="published" when="2010" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Target-dependent twitter sentiment classification</title>
+		<author>
+			<persName><forename type="first">Long</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mo</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ming</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaohua</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tiejun</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 49th annual meeting of the association for computational Linguistics</title>
+				<meeting>the 49th annual meeting of the association for computational Linguistics</meeting>
+		<imprint>
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<analytic>
+		<title level="a" type="main">Neural Machine Translation of Rare Words with Subword Units</title>
+		<author>
+			<persName><forename type="first">Rico</forename><surname>Sennrich</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Barry</forename><surname>Haddow</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexandra</forename><surname>Birch</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/p16-1162</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</title>
+				<meeting>the 54th Annual Meeting of the Association for Computational Linguistics (Volume 1: Long Papers)</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<monogr>
+		<title level="m" type="main">Target-dependent sentiment classification with long short term memory</title>
+		<author>
+			<persName><forename type="first">Duyu</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bing</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaocheng</forename><surname>Feng</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tingliu</forename></persName>
+		</author>
+		<idno type="arXiv">preprintarXiv:1512.01100</idno>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">Document Modeling with Gated Recurrent Neural Network for Sentiment Classification</title>
+		<author>
+			<persName><forename type="first">Duyu</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Bing</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ting</forename><surname>Liu</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/d15-1167</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing</title>
+				<meeting>the 2015 Conference on Empirical Methods in Natural Language Processing</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="1422" to="1432" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Attention-based LSTM for Aspect-level Sentiment Classification</title>
+		<author>
+			<persName><forename type="first">Yequan</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Minlie</forename><surname>Huang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Conference on Empirical Methods in Natural Language Processing</title>
+				<imprint>
+			<biblScope unit="page" from="606" to="615" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Attention-Based LSTM for Target-Dependent Sentiment Classification</title>
+		<author>
+			<persName><forename type="first">Min</forename><surname>Yang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wenting</forename><surname>Tu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jingxuan</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Fei</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaojun</forename><surname>Chen</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the Thirty-First AAAI Conference on Artificial Intelligence (AAAI-17)</title>
+				<meeting>the Thirty-First AAAI Conference on Artificial Intelligence (AAAI-17)</meeting>
+		<imprint>
+			<biblScope unit="page" from="5013" to="5014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">Neural Probabilitistic Language Model</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Ducharme</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Vincent</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">Journal of Machine Learning Research</title>
+		<imprint>
+			<biblScope unit="volume">3</biblScope>
+			<biblScope unit="page" from="1137" to="1155" />
+			<date type="published" when="2003" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Learning term-weighting functions for similarity measures</title>
+		<author>
+			<persName><forename type="first">Wen-Tau</forename><surname>Yih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Toutanova</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Platt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meek</surname></persName>
+		</author>
+		<idno type="DOI">10.3115/1699571.1699616</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2009 Conference on Empirical Methods in Natural Language Processing Volume 2 - EMNLP &apos;09</title>
+				<meeting>the 2009 Conference on Empirical Methods in Natural Language Processing Volume 2 - EMNLP &apos;09</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2009" />
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="page">793</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Words and phrases</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mikolov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sutskever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Corrado</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dean</surname></persName>
+		</author>
+		<idno type="DOI">10.4324/9780203776506-14</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Understanding Morphology</title>
+				<imprint>
+			<publisher>Routledge</publisher>
+			<date type="published" when="2013-10-28" />
+			<biblScope unit="page" from="205" to="226" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">Gradient-based learning applied to document recognition</title>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Lecun</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Bottou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Bengio</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Haffner</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/5.726791</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the IEEE</title>
+		<title level="j" type="abbrev">Proc. IEEE</title>
+		<idno type="ISSN">0018-9219</idno>
+		<imprint>
+			<biblScope unit="volume">86</biblScope>
+			<biblScope unit="issue">11</biblScope>
+			<biblScope unit="page" from="2278" to="2324" />
+			<date type="published" when="1998" />
+			<publisher>Institute of Electrical and Electronics Engineers (IEEE)</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<analytic>
+		<title level="a" type="main">Semantic Parsing for Single-Relation Question Answering</title>
+		<author>
+			<persName><forename type="first">W</forename><surname>Yih</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Meek</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of ACL</title>
+				<meeting>ACL</meeting>
+		<imprint>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Convolutional Neural Networks for Sentence Classification</title>
+		<author>
+			<persName><forename type="first">Yoon</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.3115/v1/d14-1181</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)</title>
+				<meeting>the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2014" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">Natural language processing (almost) from scratch</title>
+		<author>
+			<persName><forename type="first">Ronan</forename><surname>Collobert</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jason</forename><surname>Weston</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Léon</forename><surname>Bottou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Karlen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Koray</forename><surname>Kavukcuoglu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pavel</forename><surname>Kuksa</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">The Journal of Machine Learning Research</title>
+		<imprint>
+			<biblScope unit="volume">12</biblScope>
+			<biblScope unit="page" from="2493" to="2537" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Automatic construction of polarity-tagged corpus from HTML documents</title>
+		<author>
+			<persName><forename type="first">Nobuhiro</forename><surname>Kaji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Masaru</forename><surname>Kitsuregawa</surname></persName>
+		</author>
+		<idno type="DOI">10.3115/1273073.1273132</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the COLING/ACL on Main conference poster sessions -</title>
+				<meeting>the COLING/ACL on Main conference poster sessions</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2006" />
+			<biblScope unit="page" from="452" to="459" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Semisupervised polarity lexicon induction</title>
+		<author>
+			<persName><forename type="first">Delip</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Deepak</forename><surname>Ravichandran</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 12th Conference of the European Chapter</title>
+				<meeting>the 12th Conference of the European Chapter</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2009" />
+			<biblScope unit="page" from="675" to="682" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<monogr>
+		<title level="m" type="main">Target-dependent twitter sentiment classification with rich automatic features</title>
+		<author>
+			<persName><forename type="first">Duy-Tin</forename><surname>Vo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yue</forename><surname>Zhang</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2015" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Multiperspective sentence similarity modeling with convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">Hua</forename><surname>He</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kevin</forename><surname>Gimpel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jimmy</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing</title>
+				<meeting>the 2015 Conference on Empirical Methods in Natural Language Processing</meeting>
+		<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="1576" to="1586" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<monogr>
+		<title level="m" type="main">Neural machine translation by jointly learning to align and translate</title>
+		<author>
+			<persName><forename type="first">Dzmitry</forename><surname>Bahdanau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kyunghyun</forename><surname>Cho</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshua</forename><surname>Bengio</surname></persName>
+		</author>
+		<idno>abs/1409.0473</idno>
+		<imprint>
+			<date type="published" when="2014" />
+			<publisher>CoRR</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">Reasoning about entailment with neural attention</title>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Rocktaschel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward</forename><surname>Grefenstette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Karl</forename><forename type="middle">Moritz</forename><surname>Her-Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Toma´s</forename><surname>Ko ˇ Cisk ˇ Y</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Phil</forename><surname>Blunsom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 4th International Conference on Learning Representations</title>
+				<meeting>the 4th International Conference on Learning Representations</meeting>
+		<imprint>
+			<date type="published" when="2016" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">A Neural Attention Model for Abstractive Sentence Summarization</title>
+		<author>
+			<persName><forename type="first">Alexander</forename><forename type="middle">M</forename><surname>Rush</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sumit</forename><surname>Chopra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jason</forename><surname>Weston</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/d15-1044</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2015 Conference on Empirical Methods in Natural Language Processing</title>
+				<meeting>the 2015 Conference on Empirical Methods in Natural Language Processing</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="379" to="389" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">Rectified linear units improve restricted boltzmann machines</title>
+		<author>
+			<persName><forename type="first">Vinod</forename><surname>Nair</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Geoffrey</forename><forename type="middle">E</forename><surname>Hinton</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 27th International Conference on Machine Learning (ICML-10)</title>
+				<meeting>the 27th International Conference on Machine Learning (ICML-10)</meeting>
+		<imprint>
+			<date type="published" when="2010" />
+			<biblScope unit="page" from="807" to="814" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Teaching machines to read and comprehend</title>
+		<author>
+			<persName><forename type="first">Karl</forename><surname>Moritz Hermann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tomas</forename><surname>Kocisky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edward</forename><surname>Grefenstette</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lasse</forename><surname>Espeholt</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Will</forename><surname>Kay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mustafa</forename><surname>Suleyman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Phil</forename><surname>Blunsom</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+				<imprint>
+			<date type="published" when="2015" />
+			<biblScope unit="page" from="1684" to="1692" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Adaptive Recursive Neural Network for Target-dependent Twitter Sentiment Classification</title>
+		<author>
+			<persName><forename type="first">Li</forename><surname>Dong</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Furu</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chuanqi</forename><surname>Tan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Duyu</forename><surname>Tang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ming</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ke</forename><surname>Xu</surname></persName>
+		</author>
+		<idno type="DOI">10.3115/v1/p14-2009</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</title>
+				<meeting>the 52nd Annual Meeting of the Association for Computational Linguistics (Volume 2: Short Papers)</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="49" to="54" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b26">
+	<monogr>
+		<title level="m" type="main">Foundations of statistical natural language processing</title>
+		<author>
+			<persName><forename type="first">D</forename><surname>Christopher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hinrich</forename><surname>Manning</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">¨</forename><surname>Sch</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Utze</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="1999" />
+			<publisher>MIT press</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b27">
+	<monogr>
+		<title level="m" type="main">Speech &amp; language processing</title>
+		<author>
+			<persName><forename type="first">Dan</forename><surname>Jurafsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>James</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Martin</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2000" />
+			<publisher>Pearson Education India</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b28">
+	<analytic>
+		<title level="a" type="main">Glove: Global Vectors for Word Representation</title>
+		<author>
+			<persName><forename type="first">Jeffrey</forename><surname>Pennington</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Richard</forename><surname>Socher</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Christopher</forename><surname>Manning</surname></persName>
+		</author>
+		<idno type="DOI">10.3115/v1/d14-1162</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)</title>
+				<meeting>the 2014 Conference on Empirical Methods in Natural Language Processing (EMNLP)</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2014" />
+			<biblScope unit="page" from="1532" to="1543" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b29">
+	<analytic>
+		<title level="a" type="main">Thumbs up?</title>
+		<author>
+			<persName><forename type="first">Bo</forename><surname>Pang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lillian</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Shivakumar</forename><surname>Vaithyanathan</surname></persName>
+		</author>
+		<idno type="DOI">10.3115/1118693.1118704</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the ACL-02 conference on Empirical methods in natural language processing - EMNLP &apos;02</title>
+				<meeting>the ACL-02 conference on Empirical methods in natural language processing - EMNLP &apos;02</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2002" />
+			<biblScope unit="volume">10</biblScope>
+			<biblScope unit="page" from="79" to="86" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b30">
+	<analytic>
+		<title level="a" type="main">Target-dependent twitter sentiment classification</title>
+		<author>
+			<persName><forename type="first">Long</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mo</forename><surname>Yu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ming</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xiaohua</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tiejun</forename><surname>Zhao</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="j">ACL</title>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page" from="151" to="160" />
+			<date type="published" when="2011" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b31">
+	<monogr>
+		<title level="m" type="main">LeNet-5, convolutional neural networks</title>
+		<author>
+			<persName><forename type="first">Yann</forename><surname>Lecun</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2013" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b32">
+	<analytic>
+		<title level="a" type="main">Shift-invariant pattern recognition neural network and its optical architecture</title>
+		<author>
+			<persName><forename type="first">Wei</forename><surname>Zhang</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of annual conference of the Japan Society of Applied Physics</title>
+				<meeting>annual conference of the Japan Society of Applied Physics</meeting>
+		<imprint>
+			<date type="published" when="1988" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b33">
+	<analytic>
+		<title level="a" type="main">Parallel distributed processing model with local space-invariant interconnections and its optical architecture</title>
+		<author>
+			<persName><forename type="first">Wei</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kazuyoshi</forename><surname>Itoh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jun</forename><surname>Tanida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yoshiki</forename><surname>Ichioka</surname></persName>
+		</author>
+		<idno type="DOI">10.1364/ao.29.004790</idno>
+		<idno type="PMID">20577468</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Optics</title>
+		<title level="j" type="abbrev">Appl. Opt.</title>
+		<idno type="ISSN">0003-6935</idno>
+		<idno type="ISSNe">1539-4522</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">32</biblScope>
+			<biblScope unit="page">4790</biblScope>
+			<date type="published" when="1990-11-10" />
+			<publisher>Optica Publishing Group</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b34">
+	<analytic>
+		<title level="a" type="main">Are Loss Functions All the Same?</title>
+		<author>
+			<persName><forename type="first">Lorenzo</forename><surname>Rosasco</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ernesto</forename><forename type="middle">De</forename><surname>Vito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Andrea</forename><surname>Caponnetto</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michele</forename><surname>Piana</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alessandro</forename><surname>Verri</surname></persName>
+		</author>
+		<idno type="DOI">10.1162/089976604773135104</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Neural Computation</title>
+		<title level="j" type="abbrev">Neural Computation</title>
+		<idno type="ISSN">0899-7667</idno>
+		<idno type="ISSNe">1530-888X</idno>
+		<imprint>
+			<biblScope unit="volume">16</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1063" to="1076" />
+			<date type="published" when="2004-05-01" />
+			<publisher>MIT Press - Journals</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b35">
+	<monogr>
+		<title level="m" type="main">Improving neural networks by preventing co-adaptation of feature detectors</title>
+		<author>
+			<persName><forename type="first">G</forename><surname>Hinton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Srivastava</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Krizhevsky</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sutskever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Salakhutdinov</surname></persName>
+		</author>
+		<idno>abs/1207.0580</idno>
+		<imprint>
+			<date type="published" when="2012" />
+			<publisher>CoRR</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

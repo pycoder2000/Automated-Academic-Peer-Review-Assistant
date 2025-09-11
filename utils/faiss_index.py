@@ -1,89 +1,98 @@
 import os
 import json
+import argparse
 import faiss
 import numpy as np
 from sentence_transformers import SentenceTransformer
-from pathlib import Path
+from PyPDF2 import PdfReader
 
-# Paths
-PDF_SUMMARY_JSON = "data/pdf_processing_summary.json"
-PARSED_TEXT_DIR = "data/parsed_text"
 FAISS_DIR = "data/faiss_indexes"
+PDF_DIR = "data/pdfs"
+METADATA_PATH = "data/metadata.json"
 
-# ---------- Load metadata ----------
-def load_pdf_summary():
-    with open(PDF_SUMMARY_JSON, "r", encoding="utf-8") as f:
-        return json.load(f)
+def extract_text_from_pdf(pdf_path, max_chars=2000):
+    """Extract text from first few pages of a PDF."""
+    try:
+        reader = PdfReader(pdf_path)
+        text = ""
+        for page in reader.pages[:5]:
+            text += page.extract_text() or ""
+        return text[:max_chars]
+    except Exception as e:
+        return f"ERROR reading {pdf_path}: {e}"
 
-# ---------- Load parsed text ----------
-def load_text(text_path):
-    if text_path and os.path.exists(text_path):
-        with open(text_path, "r", encoding="utf-8") as f:
-            return f.read()
-    return ""
+def normalize(vec: np.ndarray) -> np.ndarray:
+    return vec / np.linalg.norm(vec, axis=1, keepdims=True)
 
-# ---------- Build FAISS index ----------
-def build_faiss_index(embeddings):
-    dim = embeddings.shape[1]
-    index = faiss.IndexFlatL2(dim)  # L2 distance
-    index.add(embeddings)
-    return index
+def build_faiss_index(pdf_dir, index_path, mapping_path, metadata_path=None):
+    os.makedirs(os.path.dirname(index_path), exist_ok=True)
 
-# ---------- Main ----------
-def main():
-    print("[STEP 3] Building FAISS indexes (per topic)...")
+    # Load metadata if available
+    metadata_dict = {}
+    if metadata_path and os.path.exists(metadata_path):
+        with open(metadata_path, "r", encoding="utf-8") as f:
+            raw_meta = json.load(f)
+            if isinstance(raw_meta, list):  # list of papers
+                for paper in raw_meta:
+                    pdf_path = paper.get("pdf_path")
+                    if pdf_path:  # only include if valid
+                        metadata_dict[os.path.basename(pdf_path)] = paper
+            elif isinstance(raw_meta, dict):  # single paper
+                pdf_path = raw_meta.get("pdf_path")
+                if pdf_path:
+                    metadata_dict[os.path.basename(pdf_path)] = raw_meta
 
-    pdf_summaries = load_pdf_summary()
-
-    # Load embedding model
-    print("[MODEL] Loading sentence-transformers/all-MiniLM-L6-v2")
     model = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 
-    # Group papers by topic
-    topic_groups = {}
-    for entry in pdf_summaries:
-        topic = entry.get("topic", "unknown")
-        topic_groups.setdefault(topic, []).append(entry)
+    vectors, mapping = [], {}
+    idx = 0
 
-    os.makedirs(FAISS_DIR, exist_ok=True)
+    for fname in os.listdir(pdf_dir):
+        if not fname.endswith(".pdf"):
+            continue
+        pdf_path = os.path.join(pdf_dir, fname)
+        text_excerpt = extract_text_from_pdf(pdf_path)
 
-    # Process each topic separately
-    for topic, papers in topic_groups.items():
-        print(f"\n[TOPIC] {topic} — {len(papers)} papers")
+        # Embed
+        vec = model.encode([text_excerpt], convert_to_numpy=True)
+        vec = normalize(vec)
+        vectors.append(vec)
 
-        texts = []
-        mapping = {}
+        # Attach metadata if available
+        meta = metadata_dict.get(fname, {})
+        mapping[idx] = {
+            "pdf_path": pdf_path,
+            "text_excerpt": text_excerpt,
+            "title": meta.get("title"),
+            "abstract": meta.get("abstract"),
+            "link": meta.get("link"),
+            "published": meta.get("published"),
+        }
+        idx += 1
 
-        for idx, paper in enumerate(papers):
-            text = load_text(paper.get("text_path"))
-            texts.append(text)
-            mapping[idx] = {
-                "topic": topic,
-                "pdf_path": paper.get("pdf_path"),
-                "text_path": paper.get("text_path"),
-                "refs_path": paper.get("refs_path"),
-            }
+    if not vectors:
+        raise ValueError("No PDFs found for indexing!")
 
-        print(f"[EMBEDDING] Encoding {len(texts)} docs for topic '{topic}'...")
-        embeddings = model.encode(texts, convert_to_numpy=True, show_progress_bar=True)
+    vectors = np.vstack(vectors)
 
-        # Build FAISS index
-        print(f"[FAISS] Creating index for topic {topic}...")
-        index = build_faiss_index(embeddings)
+    dim = vectors.shape[1]
+    index = faiss.IndexFlatIP(dim)  # cosine similarity
+    index.add(vectors)
 
-        # Save FAISS index + mapping
-        faiss_path = Path(FAISS_DIR) / f"{topic}_index.bin"
-        mapping_path = Path(FAISS_DIR) / f"{topic}_mapping.json"
+    faiss.write_index(index, index_path)
+    with open(mapping_path, "w", encoding="utf-8") as f:
+        json.dump(mapping, f, indent=2, ensure_ascii=False)
 
-        faiss.write_index(index, str(faiss_path))
-        with open(mapping_path, "w", encoding="utf-8") as f:
-            json.dump(mapping, f, indent=4, ensure_ascii=False)
+    print(f"✅ FAISS index built: {index_path}")
+    print(f"✅ Mapping saved: {mapping_path}")
+    print(f"📊 Indexed {len(vectors)} PDFs")
 
-        print(f"[SAVED] {faiss_path}")
-        print(f"[SAVED] {mapping_path}")
-
-    print("\n[DONE] Step 3 completed.")
-
-# ---------- Entry ----------
 if __name__ == "__main__":
-    main()
+    parser = argparse.ArgumentParser(description="Build FAISS index for research papers")
+    parser.add_argument("--pdf_dir", type=str, default=PDF_DIR, help="Folder containing PDFs")
+    parser.add_argument("--index_path", type=str, default=os.path.join(FAISS_DIR, "global_index.bin"))
+    parser.add_argument("--mapping_path", type=str, default=os.path.join(FAISS_DIR, "global_mapping.json"))
+    parser.add_argument("--metadata_path", type=str, default=METADATA_PATH, help="Optional metadata.json")
+
+    args = parser.parse_args()
+    build_faiss_index(args.pdf_dir, args.index_path, args.mapping_path, args.metadata_path)
