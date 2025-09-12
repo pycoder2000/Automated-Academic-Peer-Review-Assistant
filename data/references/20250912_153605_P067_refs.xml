@@ -1,0 +1,886 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Investigating the Impact of Language-Adaptive Fine-Tuning on Sentiment Analysis in Hausa Language Using AfriBERTa</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Abdullahi</forename><surname>Sani</surname></persName>
+						</author>
+						<author>
+							<persName><surname>Sani</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Shamsuddeen</forename><forename type="middle">Hassan</forename><surname>Muhammad</surname></persName>
+						</author>
+						<author>
+							<persName><forename type="first">Devon</forename><surname>Jarvis</surname></persName>
+						</author>
+						<author>
+							<affiliation key="aff0">
+								<orgName type="department">School of Computer Science and Applied Mathematics</orgName>
+								<orgName type="institution">University of the Witwatersrand</orgName>
+								<address>
+									<settlement>Johannesburg</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Computing Imperial College London</orgName>
+							</affiliation>
+						</author>
+						<author>
+							<affiliation key="aff2">
+								<orgName type="department">School of Computer Science and Applied Mathematics</orgName>
+								<orgName type="institution">University of the Witwatersrand</orgName>
+								<address>
+									<settlement>Johannesburg</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Investigating the Impact of Language-Adaptive Fine-Tuning on Sentiment Analysis in Hausa Language Using AfriBERTa</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.2" ident="GROBID" when="2025-09-12T10:07+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Sentiment analysis (SA) plays a vital role in Natural Language Processing (NLP) by identifying sentiments expressed in text. Although significant advances have been made in SA for widely spoken languages, low-resource languages such as Hausa face unique challenges, primarily due to a lack of digital resources. This study investigates the effectiveness of Language-Adaptive Fine-Tuning (LAFT) to improve SA performance in Hausa. We first curate a diverse, unlabeled corpus to expand the model's linguistic capabilities, followed by applying LAFT to adapt AfriB-ERTa specifically to the nuances of the Hausa language. The adapted model is then fine-tuned on the labeled NaijaSenti sentiment dataset to evaluate its performance. Our findings demonstrate that LAFT gives modest improvements, which may be attributed to the use of formal Hausa text rather than informal social media data. Nevertheless, the pre-trained AfriBERTa model significantly outperformed models not specifically trained on Hausa, highlighting the importance of using pre-trained models in low-resource contexts. This research emphasizes the necessity for diverse data sources to advance NLP applications for low-resource African languages. We published the code and the dataset to encourage further research and facilitate reproducibility in low-resource NLP here SA for LowRes Language</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1">Introduction</head><p>Sentiment analysis (SA) is a vital task in natural language processing (NLP) aimed at identifying and categorizing opinions expressed in text <ref type="bibr" target="#b17">(Pang and Lee, 2007)</ref>. Although considerable progress has been made in this field, especially for widely spoken languages such as English <ref type="bibr" target="#b24">(Yimam et al., 2020)</ref>, the same cannot be said for many low-resource languages, such as Hausa (Nasim and * Correspondance to 2770930@students.wits.ac.za <ref type="bibr" target="#b14">Ghani, 2020)</ref>. Hausa is a Chadic language spoken primarily by Hausa people in the northern regions of Nigeria, Ghana, Cameroon, Benin and Togo, as well as the southern areas of Niger and Chad, with notable minority communities in Ivory Coast <ref type="bibr" target="#b23">(Wolff, 2024;</ref><ref type="bibr">Wor, 2024;</ref><ref type="bibr" target="#b5">Eberhard et al., 2024)</ref>. Approximately 54 million people are estimated to speak it as their first language, while around 34 million use it as a second language, resulting in a total of about 88 million Hausa speakers <ref type="bibr" target="#b5">(Eberhard et al., 2024)</ref>. It has limited digital resources, which present challenges for NLP research, including SA <ref type="bibr" target="#b7">(Joshi et al., 2020)</ref>.</p><p>Recent advancements in pre-trained large language models (LLMs) have enabled the use of transfer learning to address challenges in NLP for low-resource languages. For example, multilingual models like BERT (Bidirectional Encoder Representations from Transformers) have shown strong performance in various NLP tasks <ref type="bibr" target="#b4">(Devlin et al., 2019)</ref>, but often struggle with low-resource languages due to limited data and linguistic diversity <ref type="bibr" target="#b1">(Alabi et al., 2022)</ref>. Language-adaptive fine-tuning (LAFT) has emerged as a promising approach to improve the handling of language-specific nuances in these models and improve performance in tasks such as SA, especially for underrepresented languages <ref type="bibr" target="#b18">(Pfeiffer et al., 2020)</ref>. In this study, we investigate the impact of LAFT on SA in Hausa using pre-trained LLM. We can summarize our main contributions as follows.</p><p>1. We curate a large, diverse unlabelled Hausa corpus to enrich the language's contextual and linguistic representation.</p><p>2. We show that while modest, LAFT results in a slight improvement in performance, with our model outperforming other models evaluated using the NaijaSenti dataset 1 . <ref type="bibr">1</ref> The dataset and code is available at arXiv:2501.11023v1 <ref type="bibr">[cs.CL]</ref> 19 Jan 2025</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2">Related Work</head><p>Language-Adaptive Fine-Tuning (LAFT) has demonstrated its effectiveness in enhancing sentiment analysis (SA) performance in African languages <ref type="bibr">(Muhammad et al., 2022)</ref>. For example, fine-tuning multilingual pre-trained language models like AfriBERTa on monolingual texts of African languages significantly improves sentiment classification tasks <ref type="bibr" target="#b1">(Alabi et al., 2022;</ref><ref type="bibr" target="#b21">Wang et al., 2023;</ref><ref type="bibr" target="#b19">Raychawdhary et al., 2023)</ref>. AfriBERTa, introduced by <ref type="bibr" target="#b16">(Ogueji et al., 2021)</ref>, represents a notable advancement in multilingual language modeling for African languages. It employs the Transformer architecture, leveraging the standard masked language modeling (MLM) objective for pretraining. The model is available in two configurations: a small version with approximately 97 million parameters and a large version with around 126 million parameters. This flexibility allows it to cater to varying computational resource constraints while retaining its utility for African languages.</p><p>Pre-trained on 11 African languages, AfriB-ERTa's training datasets were aggregated from BBC news websites and Common Crawl, totaling less than 1 GB of data and comprising 108.8 million tokens <ref type="bibr">(Adebara et al., 2023)</ref>. Although the dataset size is relatively small compared to those used for other popular language models, AfriBERTa effectively captures the nuances of African languages, which is reflected in its performance on downstream NLP tasks <ref type="bibr" target="#b19">(Raychawdhary et al., 2023)</ref>.</p><p>AfriBERTa has been effectively utilized for SA in African languages such as Hausa and Igbo. In a study focusing on the AfriSenti-SemEval 2023 Shared Task 12, AfriBERTa was trained on annotated Twitter datasets for these languages. The model achieved impressive F1 scores of 80.85% for Hausa and 80.82% for Igbo, demonstrating its capability in handling sentiment classification tasks in low-resource languages <ref type="bibr" target="#b19">(Raychawdhary et al., 2023)</ref>.</p><p>AfriBERTa, when compared to other models like XLM-R <ref type="bibr" target="#b3">(Conneau et al., 2020)</ref> and mBERT <ref type="bibr" target="#b4">(Devlin et al., 2019)</ref>, has shown competitive performance. For instance, in a multilingual adaptive fine-tuning approach, AfriBERTa and XLM-R were evaluated on tasks including sentiment clashttps://github.com/Sani-Abdullahi-Sani/ Natural-Language-Processing/tree/main. sification, and the results were comparable to individual language adaptations while requiring less disk space <ref type="bibr" target="#b1">(Alabi et al., 2022)</ref>.</p><p>Another study highlighted that mBERT outperformed other models like Roberta and XLM-R in Hausa sentiment analysis, achieving the highest accuracy and F1-score of 0.73% <ref type="bibr" target="#b25">(Yusuf et al., 2023)</ref>. However, AfriBERTa's specialization for African languages provides a significant advantage in crosslingual transfer learning <ref type="bibr" target="#b1">(Alabi et al., 2022)</ref> Although multilingual fine-tuning can facilitate cross-lingual transfer learning, monolingual fine-tuning often gives superior results for specific languages. For instance, <ref type="bibr" target="#b20">(Rønningstad, 2023)</ref> demonstrates that monolingual fine-tuning on datasets with thousands of samples produces optimal results. Moreover, combining languageadaptive and task-adaptive pretraining on African texts, along with careful source language selection, can lead to remarkable performance improvements. This approach minimizes harmful interference from dissimilar languages and enhances outcomes in multilingual and cross-lingual contexts <ref type="bibr" target="#b21">(Wang et al., 2023)</ref>. Systems utilizing LAFT have achieved high rankings in shared tasks, demonstrating substantial improvements in weighted F1 scores and other performance metrics <ref type="bibr" target="#b21">(Wang et al., 2023;</ref><ref type="bibr" target="#b15">Nzeyimana, 2023)</ref>.</p><p>However, building reliable SA systems for lowresource African languages remains challenging due to the limited availability of training data <ref type="bibr" target="#b1">(Alabi et al., 2022;</ref><ref type="bibr" target="#b21">Wang et al., 2023)</ref>. Despite the promising results of LAFT and the benefits of monolingual fine-tuning, the scarcity of large high-quality datasets for low-resource African languages, such as Hausa, poses a significant challenge. Therefore, this study aims to contribute to the growing body of knowledge on SA for African languages by providing insights into the advantages of LAFT strategies in relation to Hausa's linguistic characteristics and availability of data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3">Methodology</head></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.1">Conceptual Framework</head><p>This study employs a two-phase approach to investigate the impact of LAFT on SA performance for Hausa language using the AfriBERTa model. Initially, a baseline model was established by fine-tuning AfriBERTa directly on Hausa sentiment analysis dataset (NaijaSenti), allowing us to assess its performance. Concurrently, LAFT was conducted on unlabelled data, enabling it to further adapt to the linguistic characteristics and nuances of Hausa, resulting in a refined model. The refined model is then saved and reloaded into the same pipeline, where it undergoes a second fine-tuning process on NaijaSenti with the same set of parameters as the baseline model. It is hypothesized that this two-stage fine-tuning method, which is depicted in Figure <ref type="figure" target="#fig_0">1</ref>, would improve the model's sentiment classification performance and produce a final model that is optimal for Hausa SA.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.2">Dataset Collection</head><p>General Fine-Tuning Dataset: Table <ref type="table" target="#tab_0">1</ref> presents the distribution of the LAFT corpus we collected for this study with their respective domain. Table <ref type="table" target="#tab_1">2</ref> displays examples of this data in Hausa, the corresponding English translations, and the respective domains they originate from. We employed three distinct data collection approaches as described below:</p><p>• Hausa Global Media: In collaboration with the blogging platform, we obtained a dataset of approximately 15,000 sentences, including short and long blogs, as well as books covering diverse topics such as Business, Psychology, Healthcare, Education, Religion, Self-Awareness, Technology, and Politics. We provided an incentive to the company as a token of appreciation for their contribution.</p><p>• Hausa Novel Store: We scraped content from Hausa novel store website 2 , an online store for Hausa novels, resulting in around 20,000 sentences focusing on Romance, Entertainment, and Healthcare. The content of the website is freely available on public domain.</p><p>• Scanned Literature: We accessed scanned copies of classic Hausa literature, including notable titles like "Magana Jari Ce" and "Ruwan Bagaja." from archive.org website 3 . Using Tesseract OCR with Python, we extracted text from these scanned books, yielding approximately 5,000 sentences. The collected data was then preprocessed for further analysis.</p><p>For further details regarding the data curation ethics see Section 4.</p><p>Downstream Task Dataset: For the downstream task, we used the NaijaSenti dataset by <ref type="bibr">(Muhammad et al., 2023)</ref>, which is publicly available on Hugging Face. This dataset, designed for SA on individual tweets from Twitter, has been pre-processed and annotated with sentiment labels: Neutral, Positive, and Negative. The NaijaSeni dataset serves as a benchmark for evaluating the sentiment classification performance of our model.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.3">Dataset Cleaning and Preprocessing</head><p>For the LAFT Corpus preprocessing, we removed extra whitespaces, trimmed leading and trailing spaces, and split the text into sentences using sentence-ending punctuation (e.g., periods, exclamation marks, question marks). The NaijaSenti dataset is already cleaned, requiring no additional preprocessing.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.4">Tokenization</head><p>We employed the AutoTokenizer from the Hugging Face library <ref type="bibr" target="#b22">(Wolf et al., 2019)</ref> for the AfriBERTa model <ref type="bibr" target="#b16">(Ogueji et al., 2021)</ref>, utilizing the Senten-cePiece algorithm <ref type="bibr" target="#b8">(Kudo and Richardson, 2018)</ref> for subword tokenization. This method effectively handles rare words and morphologically rich languages by breaking down text into smaller subword units, ensuring meaningful representation of out-ofvocabulary words. We maintained the maximum sequence length of 512 tokens, standardizing input data by truncating longer sequences and padding shorter ones by a special padding token '0'. This   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.6">Model Selection</head><p>We selected the AfriBERTa small model <ref type="bibr" target="#b16">(Ogueji et al., 2021)</ref> for our experiments due to its pre-training on African languages, which aligns with the objectives of our study. AfriBERTa is a multilingual language model with approximately 97 million parameters, 4 layers, 6 attention heads, 768 hidden units, and a feed-forward size of 3072. It was pre-trained on 11 African languages-including Afaan Oromoo, Amharic, Gahuza, Hausa, Igbo, Nigerian Pidgin, Somali, Swahili, Tigrinya, and Yorùbá. AfriBERTa's multilingual capabilities enable it to capture complex linguistic patterns and perform well on tasks such as text classification and Named Entity Recognition across diverse African languages.</p><p>Our motivation is largely driven by our computational constraints. This smaller version provides an efficient balance between performance and resource requirements while retaining the linguistic advantages of its larger counterpart, making it suitable for our task.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.7">Model Evaluation</head><p>We evaluate model performance using accuracy, precision, recall, and F1-score. We also used the training and validation loss to monitor the model's learning process, particularly during training, to have an idea about model complexity. 4</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.8">Model Training and Optimization</head><p>We employed the Hugging Face Transformers Trainer API, utilizing the AdamW optimizer with weight decay set to 0.01 to control overfitting. A batch size of 8 was used consistently across training and evaluation phases. For both the LAFT phase and the downstream SA task, we initially set the learning rate at 2 × 10 −5 . Observations of early overfitting, as indicated by a rise in validation loss after the first epoch, prompted a reduction to 1 × 10 −5 , resulting in stable convergence and improved performance.</p><p>In terms of epochs, we determined through experimentation that 5 epochs were optimal for the LAFT phase, while 3 epochs provided a balance of generalization and efficiency in the SA task. Evaluation was conducted at the end of each epoch, with the best-performing model retained based on validation metrics.</p><p>In comparison, AfriBERTa Large is known in the literature for achieving higher performance; our baseline experiment confirmed this with an F1 score of 0.79 and an evaluation loss of 0.95. However, it required significantly more computational resources (874.6 seconds of train runtime) compared to AfriBERTa Small, which achieved an F1 score of 0.77 with lower evaluation loss (0.582) and faster train runtime (397.9 seconds). Given these findings, we selected AfriBERTa Small for its efficiency and near-parity in performance within our resource constraints.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4">Results</head><p>The results, averaged over three runs with a variation of ±0.01, are presented across several metrics, comparing the model's performance before and after LAFT. A detailed analysis of both the baseline and LAFT models is provided below.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1">Performance Metrics Before LAFT</head><p>(Baseline Model) However, the model tends to misclassify neutral sentiments as negative, likely due to an overlap between neutral and negative expressions in the dataset, making it challenging for the model to distinguish subtle differences.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2">Performance Metrics After LAFT</head><p>After LAFT as seen in Table <ref type="table" target="#tab_3">4</ref>, training accuracy, F1, and Recall showed a slight improvement from 77% to 78%. Validation performance also increased from 77% to 78%, while testing accuracy remained nearly identical, with metrics ranging from 75% to 76%. Figure <ref type="figure" target="#fig_2">4</ref> present the training and validation losses before and after LAFT, respectively. The plots indicate that the model after LAFT (to the right) consistently starts with lower training losses (approximately 0.66 compared to around 0.79 before the LAFT), suggesting better initial learning which shows that LAFT is effectively enhancing the learning of our model. In both models though, training loss steadily decreases over the epochs, demonstrating improved performance as training progresses. However, while validation loss decreases initially, it begins to rise slightly by the third epoch, suggesting potential overfitting in both models. This overfitting may be attributed to limited data availability and the lack of standardized orthographic forms in many African languages <ref type="bibr">(Mohamed et al., 2024;</ref><ref type="bibr" target="#b2">Baguma et al., 2024)</ref>, leading to inconsistencies that hinder the model's ability to generalize effectively.</p><p>The attention map in Figure <ref type="figure">5</ref> for the sentence "duk wanda yayi mana haka allah ya isa" by the Baseline Model reveals that the model strongly focuses on the tokens "Allah" and "ya" and "isa". This is notable because the phrase "Allah ya isa" roughly translates to "I won't forgive you" or "Allah will be the judge," which conveys a clear negative sentiment. The model's attention on this part of the sentence suggests that it is effectively identifying the most important section contributing to the overall sentiment. Since "Allah ya isa" carries the emotional weight of unforgiveness, the model's focus here supports its prediction of negative sentiment. This alignment between attention and meaning demonstrates that the model not only makes accurate predictions but also does so in an interpretable way by zeroing in on the part of the text that holds the strongest emotional significance. Additionally, the other attention map from the model after LAFT is provided on the right in Figure <ref type="figure">5</ref>, which explains how the sentence "Nayi farin ciki da zuwanka," meaning "I'm glad you're here" is processed. In this case, the model attends strongly to the words "farin ciki" (Glad) and "da" (that), highlighting its ability to capture   </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5">Discussion</head><p>Despite the subtle improvements in validation metrics, our findings align with previous studies by <ref type="bibr" target="#b1">(Alabi et al., 2022)</ref> and <ref type="bibr" target="#b21">(Wang et al., 2023)</ref>, which demonstrate that fine-tuning a multilingual pre-trained language model (PLM) on monolingual texts enhances sentiment classification performance for African languages. Compared to previous SA works in Hausa, our results shows notable improvements. For instance, (Isa, 2024) achieved an accuracy of 66.0% and an F1 score of 66.0% with the Gemma 7B model on the NaijaSenti Hausa dataset. Our model outperforms it, highlighting the efficacy of LAFT and AfriBERTa in understanding Hausa nuances. Similarly,(Kumshe, 2024) fine-tuned a BERT-based model on the same dataset, achieving an accuracy of 73.47%. Our model surpasses this performance, further demonstrating that AfriBERTa's design for African languages provides a significant advantage in capturing linguistic nuances within Hausa text. However, <ref type="bibr">(Muhammad et al., 2022)</ref> utilized the AfriBERTa large model and achieved an accuracy of 81.2%. Our findings with the smaller model (AfriBERTa small) still show notable competitive performance, especially considering the model size. Thus, our model performance not only validate the efficacy of the approach but also highlight the importance of using pre-trained models like AfriB-ERTa that already incorporate African languages, leading to improved performance on sentiment classification tasks.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6">Conclusion</head><p>In this study, we explored the use of LAFT for SA in Hausa, a low-resource language, leveraging AfriBERTa, which is pre-trained on African languages including Hausa. AfriBERTa's pre-training offered a notable advantage, outperforming models not trained on Hausa by effectively capturing its linguistic nuances. Although LAFT resulted in slight performance improvements, it did not significantly exceed the baseline set by AfriBERTa's pretraining. This limited improvement is likely due to the fine-tuning corpus, which consisted mostly of formal text, contrasting with the conversational language commonly used in sentiment tasks. Our results highlight the need for more diverse datasets that include informal and dialectal variations to boost generalization and performance. Future efforts should prioritize expanding both data sources and fine-tuning techniques to enhance NLP tasks in low-resource languages like Hausa.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="7">Limitations</head><p>While our dataset covers a broad range of topics, domains like Business, Healthcare, and Romance are overrepresented compared to others like Technology and Politics, This imbalance could affect the model's ability to generalize effectively, potentially limiting its performance in the downstream SA tasks.</p><p>A potential reason why our LAFT approach may not have significantly improved performance could be the nature of the training corpus, which primarily consists of formal Hausa text, such as literature, rather than the informal, conversational language common on social media. Privacy policies restricted our ability to collect enough social media data, which likely impacted the model's effectiveness in SA tasks.</p><p>Additionally, our LAFT dataset mainly represents the Kano Hausa dialect, which may cause the model to underperform with other dialects. Due to limited available data for these dialects, we could not include them in the training process, limiting the model's generalizability to other dialects.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="8">Future Work</head><p>An important direction for future research is to investigate the performance of other multilingual models such as XLM-R, AfroXLMR, and mBERT. Comparing these models' capabilities in capturing Hausa linguistic nuances could provide deeper insights into SA for low-resource languages.</p><p>Our current dataset primarily consists of formal, structured text. Future work should focus on collecting and incorporating more diverse datasets, particularly those containing less structured language from social media platforms. By introducing more conversational and informal text, we can improve the model's ability to generalize and capture the subtle sentiment variations present in everyday language.</p><p>Combining AfriBERTa with other state-of-theart models like mBART and XLM-R could potentially enhance its performance in multilingual and cross-lingual tasks, addressing the limitations of individual models <ref type="bibr" target="#b10">(Mathur et al., 2024)</ref> During our tokenization process, we observed that some words were broken down into subwords that might not preserve their original semantic meaning. A promising future research direction is to develop a custom tokenizer specifically trained on Hausa lexicons for SA. This approach could potentially preserve whole words and prevent unnecessary fragmentation; researchers might improve the model's sensitivity to semantic nuances, particularly in distinguishing subtle positive and neutral sentiment expressions.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Explainability and Safety</head><p>In our research, we prioritize the explainability of our model to ensure safety and trustworthiness. We visualize attention maps for specific data subsets, which illustrate how our model focuses on critical tokens during prediction.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Broader Impacts</head><p>We address both potential positive and negative societal impacts of our work.</p><p>• Positive Impacts:</p><p>Our project aims to improve sentiment analysis for low-resource languages and promote inclusivity in NLP. • Negative Impacts:</p><p>We acknowledge the risk of perpetuating biases inherent in the training data.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Licensing of Existing Assets</head><p>We ensure that the creators or original owners of the assets used in our paper are properly credited.We explicitly mention the use of publicly available datasets and models, citing them appropriately.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Data Curation Ethics Statement</head><p>In our collaboration with Hausa Global Media, we initiated discussions to explore our research project focusing on NLP and the critical need for a comprehensive Hausa language corpus. The platform expressed a strong commitment to supporting our efforts in advancing Hausa NLP research and agreed to share their dataset. To recognize the contributions of the staff involved in collating this dataset, we provided a modest incentive as a token of appreciation for their valuable work. Importantly, this incentive was carefully structured to ensure that it did not influence the integrity or objectivity of the data collection process, thereby preventing any potential bias.</p><p>Additionally, we gathered data from publicly accessible platforms, including Hausa Novel and the Internet Archive. The content from Hausa Novel is openly available to anyone, and we made sure to collect this data in accordance with their privacy policies. For literature sourced from Internet Archive, we ad-hered to their established guidelines. The Internet Archive explicitly states on their website that it is a 501(c)(3) non-profit organization dedicated to building a digital library of Internet sites and other cultural artifacts in digital form, providing free access to researchers, historians, scholars, individuals with print disabilities, and the general public. We ensured strict compliance with their privacy policies and data agreements, acknowledging their significant contributions to making this data available.</p><p>we are committed to ethical data curation practices, prioritizing transparency and integrity throughout our research process. All relevant materials can be found here: SA for LowRes Language</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_0"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Experimental Overview: Assessing the Impact of the Intermediate LAFT in a Two-Phase Method for Hausa Sentiment Analysis</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 2 :Figure 3 :</head><label>23</label><figDesc>Figure 2: Confusion Matrix for Downstream Task before LAFT (Baseline Model on the left), and after LAFT (on the right)</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_2"><head>Figure 4 :</head><label>4</label><figDesc>Figure 4: Training and Validation Loss for the Downstream Task before and after LAFT. The graph indicate that the model after LAFT (to the right) demonstrates effective learning, beginning with lower training loss compared to the baseline model before LAFT (to the left), highlighting the benefits of the fine-tuning process</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>Table 1 :</head><label>1</label><figDesc>Distribution of LAFT Data Sources, Including the Approximate Number of Sentences Collected and Their Respective Domains Covered</figDesc><table><row><cell>Data Source</cell><cell>No. of Data Examples</cell><cell>Domain Covered</cell></row><row><cell>Hausa Global Media</cell><cell>15,000</cell><cell>Business, Psychology, Health-</cell></row><row><cell></cell><cell></cell><cell>care, Education, Religion, Self-</cell></row><row><cell></cell><cell></cell><cell>Awareness, Technology, Politics</cell></row><row><cell>Hausa Novel Store</cell><cell>20,000</cell><cell>Romance, Entertainment, Health-</cell></row><row><cell></cell><cell></cell><cell>care</cell></row><row><cell>Scanned Literature</cell><cell>5,000</cell><cell>Classic Literature</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>Table 2 :</head><label>2</label><figDesc>Examples of LAFT Data, Their English Translations, and Respective Domains</figDesc><table><row><cell>Example in Hausa</cell><cell>Translation (English)</cell><cell>Domain</cell></row><row><cell>A dabi'ar dan adam ba kasafai ya</cell><cell>Human nature rarely likes</cell><cell>Psychology</cell></row><row><cell>fiya son canji ba</cell><cell>change</cell><cell></cell></row><row><cell>Ya sayi haja ta kasuwanci, ya sa-</cell><cell>He bought stock for business,</cell><cell>Business</cell></row><row><cell>yar da rabi a hanya.</cell><cell>sold half on the way.</cell><cell></cell></row><row><cell cols="2">Menene manufar zuwan Annabi? What is the purpose of the</cell><cell>Religion</cell></row><row><cell></cell><cell>Prophet's coming?</cell><cell></cell></row><row><cell cols="2">preprocessing step is crucial for converting raw text</cell><cell></cell></row><row><cell cols="2">into numerical tokens that the model can process</cell><cell></cell></row><row><cell cols="2">efficiently, maintaining a consistent input format</cell><cell></cell></row><row><cell>for the SA tasks.</cell><cell></cell><cell></cell></row><row><cell>3.5 Dataset Split</cell><cell></cell><cell></cell></row><row><cell cols="2">The LAFT and downstream task datasets were di-</cell><cell></cell></row><row><cell cols="2">vided into training, validation, and testing sets us-</cell><cell></cell></row><row><cell cols="2">ing a 70:10:20 ratio. This resulted in 30,866 train-</cell><cell></cell></row><row><cell cols="2">ing, 4,412 validation, and 8,826 test examples for</cell><cell></cell></row><row><cell cols="2">the LAFT dataset, and 18,989 training, 2,714 vali-</cell><cell></cell></row><row><cell cols="2">dation, and 5,427 test examples for the downstream</cell><cell></cell></row><row><cell>SA task, as shown in Table 3.</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>Table 3 :</head><label>3</label><figDesc>Dataset splits for LAFT and sentiment analysis</figDesc><table><row><cell>Dataset</cell><cell>Train</cell><cell>Val</cell><cell>Test</cell></row><row><cell>LAFT Corpus</cell><cell cols="3">30,866 4,412 8,826</cell></row><row><cell cols="4">NaijaSenti (Hausa) 18,989 2,714 5,427</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>Table 4</head><label>4</label><figDesc></figDesc><table><row><cell>summarized the baseline model's perfor-</cell></row><row><cell>mance. The model achieved a training accuracy</cell></row><row><cell>of 77%, consistent across training and validation,</cell></row><row><cell>with both reaching approximately 77-78%. Pre-</cell></row><row><cell>cision, Recall, and F1-Score are closely aligned,</cell></row><row><cell>indicating balanced performance and minimal bias</cell></row><row><cell>against specific classes. The confusion matrices</cell></row><row><cell>in Figure 2 confirm this, showing no significant</cell></row><row><cell>errors in classifying Positive and Negative senti-</cell></row><row><cell>ments.</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_4"><head>Table 4 :</head><label>4</label><figDesc>Performance metrics for downstream SA task before and after LAFT, averaged over three runs. Standard deviation is ±0.01 for all performance metrics.</figDesc><table><row><cell></cell><cell></cell><cell cols="2">Performance Metrics</cell><cell></cell></row><row><cell></cell><cell>Accuracy (%)</cell><cell>F1 (%)</cell><cell cols="2">Precision (%) Recall (%)</cell></row><row><cell>Before LAFT</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Training</cell><cell>77.00±0.01</cell><cell>77.00±0.01</cell><cell>78.00±0.01</cell><cell>77.00±0.01</cell></row><row><cell>Validation</cell><cell>77.00±0.01</cell><cell>77.00±0.01</cell><cell>77.00±0.01</cell><cell>77.00±0.01</cell></row><row><cell>Testing</cell><cell>75.00±0.01</cell><cell>75.00±0.01</cell><cell>76.00±0.01</cell><cell>75.00±0.01</cell></row><row><cell>After LAFT</cell><cell></cell><cell></cell><cell></cell><cell></cell></row><row><cell>Training</cell><cell>78.00±0.01</cell><cell>78.00±0.01</cell><cell>77.00±0.01</cell><cell>78.00±0.01</cell></row><row><cell>Validation</cell><cell>78.00±0.01</cell><cell>78.00±0.01</cell><cell>78.00±0.01</cell><cell>78.00±0.01</cell></row><row><cell>Testing</cell><cell>75.00±0.01</cell><cell>75.00±0.01</cell><cell>76.00±0.01</cell><cell>75.00±0.01</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_5"><head>Table 5 :</head><label>5</label><figDesc>Training and Validation Loss for LAFT    </figDesc><table><row><cell cols="3">Epoch Training Loss Validation Loss</cell></row><row><cell>1</cell><cell>3.229</cell><cell>3.035</cell></row><row><cell>2</cell><cell>3.092</cell><cell>2.957</cell></row><row><cell>3</cell><cell>3.033</cell><cell>2.907</cell></row><row><cell>4</cell><cell>2.954</cell><cell>2.887</cell></row><row><cell>5</cell><cell>2.923</cell><cell>2.890</cell></row><row><cell cols="2">positive sentiment as well.</cell><cell></cell></row></table></figure>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="2">https://hausanovel.ng/ 3 https://archive.org/</note>
+			<note xmlns="http://www.tei-c.org/ns/1.0" place="foot" n="4">We conducted experiments using Google Colab Pro environment with a T4 GPU.</note>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>This work is supported by a DeepMind scholarship to S.A.S. to pursue studies at the University of the Witwatersrand, Johannesburg. D.J. is a Google PhD Fellow and Commonwealth Scholar.</p></div>
+			</div>
+
+			<div type="annex">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Appendix A Hyperparameters</head></div>			</div>
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">SERENGETI: Massively Multilingual Language Models for Africa</title>
+		<author>
+			<persName><forename type="first">Ife</forename><surname>Adebara</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abdelrahim</forename><surname>Elmadany</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Muhammad</forename><surname>Abdul-Mageed</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alcides</forename><surname>Alcoba Inciarte</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2023.findings-acl.97</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Findings of the Association for Computational Linguistics: ACL 2023</title>
+				<editor>
+			<persName><forename type="first">Ife</forename><surname>Adebara</surname></persName>
+			<persName><forename type="first">Abdelrahim</forename><surname>Elmadany</surname></persName>
+			<persName><forename type="first">Muhammad</forename><surname>Abdul-Mageed</surname></persName>
+			<persName><forename type="first">Alcides Alcoba</forename><surname>Inciarte</surname></persName>
+		</editor>
+		<meeting><address><addrLine>Toronto, Canada</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2023" />
+			<biblScope unit="page" from="1498" to="1537" />
+		</imprint>
+	</monogr>
+	<note>Association for Computational Linguistics</note>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<monogr>
+		<title level="m" type="main">Adapting pretrained language models to african languages via multilingual adaptive fine-tuning</title>
+		<author>
+			<persName><forename type="first">O</forename><surname>Jesujoba</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">Ifeoluwa</forename><surname>Alabi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Marius</forename><surname>Adelani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Dietrich</forename><surname>Mosbach</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Klakow</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022" />
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="page">65</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<analytic>
+		<title level="a" type="main">Examining Potential Harms of Large Language Models (LLMs) in Africa</title>
+		<author>
+			<persName><forename type="first">Rehema</forename><surname>Baguma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hajarah</forename><surname>Namuwaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joyce</forename><surname>Nakatumba-Nabende</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Qazi</forename><forename type="middle">Mamunur</forename><surname>Rashid</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/978-3-031-56396-6_1</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Lecture Notes of the Institute for Computer Sciences, Social Informatics and Telecommunications Engineering</title>
+				<imprint>
+			<publisher>Springer Nature Switzerland</publisher>
+			<date type="published" when="2024" />
+			<biblScope unit="volume">566</biblScope>
+			<biblScope unit="page" from="3" to="19" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<analytic>
+		<title level="a" type="main">Unsupervised Cross-lingual Representation Learning at Scale</title>
+		<author>
+			<persName><forename type="first">Alexis</forename><surname>Conneau</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kartikay</forename><surname>Khandelwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Naman</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Vishrav</forename><surname>Chaudhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Guillaume</forename><surname>Wenzek</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Francisco</forename><surname>Guzmán</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Edouard</forename><surname>Grave</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Myle</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Luke</forename><surname>Zettlemoyer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Veselin</forename><surname>Stoyanov</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2020.acl-main.747</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</title>
+				<meeting>the 58th Annual Meeting of the Association for Computational Linguistics</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2020" />
+			<biblScope unit="page">2793</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Bert: Pre-training of deep bidirectional transformers for language understanding</title>
+		<author>
+			<persName><forename type="first">Jacob</forename><surname>Devlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ming-Wei</forename><surname>Chang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kenton</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kristina</forename><surname>Toutanova</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2019" />
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="page">37742</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Ethnologue. Languages of Africa and Europe ed. by Gary F. Simons and Charles D. Fennig (review)</title>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">M</forename><surname>Eberhard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gary</forename><forename type="middle">F</forename><surname>Simons</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Charles</forename><forename type="middle">D</forename><surname>Fennig</surname></persName>
+		</author>
+		<idno type="DOI">10.1353/rmr.2018.0018</idno>
+		<ptr target="http://www.ethnologue.com" />
+	</analytic>
+	<monogr>
+		<title level="j">Rocky Mountain Review</title>
+		<title level="j" type="abbrev">rmr</title>
+		<idno type="ISSNe">1948-2833</idno>
+		<imprint>
+			<biblScope unit="volume">72</biblScope>
+			<biblScope unit="issue">1</biblScope>
+			<biblScope unit="page" from="223" to="225" />
+			<date type="published" when="2018-03" />
+			<publisher>Project MUSE</publisher>
+		</imprint>
+	</monogr>
+	<note>twenty-seventh edition. SIL International</note>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<monogr>
+		<title level="m" type="main">Fine-tuned gemma 7b for hausa sentiment analysis</title>
+		<author>
+			<persName><forename type="first">Isa</forename><surname>Mubarak Daha</surname></persName>
+		</author>
+		<ptr target="https://huggingface.co/your-username/fine-tuned-gemma-7b-hausa" />
+		<imprint>
+			<date type="published" when="2024" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">The State and Fate of Linguistic Diversity and Inclusion in the NLP World</title>
+		<author>
+			<persName><forename type="first">Pratik</forename><surname>Joshi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastin</forename><surname>Santy</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amar</forename><surname>Budhiraja</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kalika</forename><surname>Bali</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Monojit</forename><surname>Choudhury</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2020.acl-main.560</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics</title>
+				<meeting>the 58th Annual Meeting of the Association for Computational Linguistics</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="6282" to="6293" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">SentencePiece: A simple and language independent subword tokenizer and detokenizer for Neural Text Processing</title>
+		<author>
+			<persName><forename type="first">Taku</forename><surname>Kudo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">John</forename><surname>Richardson</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/d18-2012</idno>
+		<idno>abs/1808.06226</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations</title>
+				<meeting>the 2018 Conference on Empirical Methods in Natural Language Processing: System Demonstrations</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2018" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<monogr>
+		<title level="m" type="main">Hausa sentiment analysis</title>
+		<author>
+			<persName><forename type="first">Umar</forename><surname>Muhammad Mustapha Kumshe</surname></persName>
+		</author>
+		<ptr target="https://huggingface.co/Kumshe/Hausa-sentiment-analysis" />
+		<imprint>
+			<date type="published" when="2024" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">Evaluating Neural Networks’ Ability to Generalize against Adversarial Attacks in Cross-Lingual Settings</title>
+		<author>
+			<persName><forename type="first">Vidhu</forename><surname>Mathur</surname></persName>
+			<idno type="ORCID">0009-0000-4074-7908</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Tanvi</forename><surname>Dadu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Swati</forename><surname>Aggarwal</surname></persName>
+			<idno type="ORCID">0000-0001-5986-6915</idno>
+		</author>
+		<idno type="DOI">10.3390/app14135440</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Applied Sciences</title>
+		<title level="j" type="abbrev">Applied Sciences</title>
+		<idno type="ISSNe">2076-3417</idno>
+		<imprint>
+			<biblScope unit="volume">14</biblScope>
+			<biblScope unit="issue">13</biblScope>
+			<biblScope unit="page">5440</biblScope>
+			<date type="published" when="2024-06-23" />
+			<publisher>MDPI AG</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">A Review on NLP Approaches for African Languages and Dialects</title>
+		<author>
+			<persName><forename type="first">Naira</forename><surname>Abdou Mohamed</surname></persName>
+			<idno type="ORCID">0000-0003-0483-9009</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Imade</forename><surname>Benelallam</surname></persName>
+			<idno type="ORCID">0000-0002-8925-9734</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Anass</forename><surname>Allak</surname></persName>
+			<idno type="ORCID">0000-0003-0840-1231</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Kamel</forename><surname>Gaanoun</surname></persName>
+			<idno type="ORCID">0000-0003-2171-1525</idno>
+		</author>
+		<idno type="DOI">10.1007/978-3-031-46849-0_23</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Science, Technology &amp; Innovation</title>
+				<imprint>
+			<publisher>Springer Nature Switzerland</publisher>
+			<date type="published" when="2024" />
+			<biblScope unit="page" from="207" to="213" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b12">
+	<analytic>
+		<title level="a" type="main">SemEval-2023 Task 12: Sentiment Analysis for African Languages (AfriSenti-SemEval)</title>
+		<author>
+			<persName><forename type="first">Shamsuddeen</forename><forename type="middle">Hassan</forename><surname>Muhammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Idris</forename><surname>Abdulmumin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Seid</forename><forename type="middle">Muhie</forename><surname>Yimam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">Ifeoluwa</forename><surname>Adelani</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ibrahim</forename><forename type="middle">Said</forename><surname>Ahmad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Nedjma</forename><surname>Ousidhoum</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abinew</forename><forename type="middle">Ali</forename><surname>Ayele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Saif</forename><surname>Mohammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Meriem</forename><surname>Beloucif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Ruder</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2023.semeval-1.315</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the The 17th International Workshop on Semantic Evaluation (SemEval-2023)</title>
+				<editor>
+			<persName><forename type="first">Idris</forename><surname>Shamsuddeen Hassan Muhammad</surname></persName>
+			<persName><surname>Abdulmumin</surname></persName>
+			<persName><forename type="first">David</forename><forename type="middle">Ifeoluwa</forename><surname>Seid Muhie Yimam</surname></persName>
+			<persName><forename type="first">Ibrahim</forename><forename type="middle">Said</forename><surname>Adelani</surname></persName>
+			<persName><forename type="first">Nedjma</forename><surname>Ahmad</surname></persName>
+			<persName><forename type="first">Abinew</forename><surname>Ousidhoum</surname></persName>
+			<persName><forename type="first">Saif</forename><forename type="middle">M</forename><surname>Ali Ayele</surname></persName>
+			<persName><surname>Mohammad</surname></persName>
+		</editor>
+		<meeting>the The 17th International Workshop on Semantic Evaluation (SemEval-2023)</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2023" />
+			<biblScope unit="page">45</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b13">
+	<monogr>
+		<title level="m" type="main">Ibrahim Said Ahmad, Idris Abdulmumin, Bello Shehu Bello, Monojit Choudhury, Chris Chinenye Emezue, Saheed Salahudeen Abdullahi, Anuoluwapo Aremu, Alipio Jeorge, and Pavel Brazdil. 2022. Naijasenti: A nigerian twitter sentiment corpus for multilingual sentiment analysis</title>
+		<author>
+			<persName><forename type="first">David</forename><forename type="middle">Ifeoluwa</forename><surname>Shamsuddeen Hassan Muhammad</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Adelani</surname></persName>
+		</author>
+		<author>
+			<persName><surname>Ruder</surname></persName>
+		</author>
+		<idno type="arXiv">arXiv:2201.08277</idno>
+		<imprint/>
+	</monogr>
+	<note type="report_type">Preprint</note>
+</biblStruct>
+
+<biblStruct xml:id="b14">
+	<analytic>
+		<title level="a" type="main">Sentiment Analysis on Urdu Tweets Using Markov Chains</title>
+		<author>
+			<persName><forename type="first">Zarmeen</forename><surname>Nasim</surname></persName>
+			<idno type="ORCID">0000-0002-6972-6665</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Sayeed</forename><surname>Ghani</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s42979-020-00279-9</idno>
+	</analytic>
+	<monogr>
+		<title level="j">SN Computer Science</title>
+		<title level="j" type="abbrev">SN COMPUT. SCI.</title>
+		<idno type="ISSN">2662-995X</idno>
+		<idno type="ISSNe">2661-8907</idno>
+		<imprint>
+			<biblScope unit="volume">1</biblScope>
+			<biblScope unit="issue">5</biblScope>
+			<biblScope unit="page" from="1" to="13" />
+			<date type="published" when="2020-08-14" />
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b15">
+	<analytic>
+		<title level="a" type="main">KINLP at SemEval-2023 Task 12: Kinyarwanda Tweet Sentiment Analysis</title>
+		<author>
+			<persName><forename type="first">Antoine</forename><surname>Nzeyimana</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2023.semeval-1.98</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the The 17th International Workshop on Semantic Evaluation (SemEval-2023)</title>
+				<meeting>the The 17th International Workshop on Semantic Evaluation (SemEval-2023)</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2023" />
+			<biblScope unit="page" from="718" to="723" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b16">
+	<analytic>
+		<title level="a" type="main">Small Data? No Problem! Exploring the Viability of Pretrained Multilingual Language Models for Low-resourced Languages</title>
+		<author>
+			<persName><forename type="first">Kelechi</forename><surname>Ogueji</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yuxin</forename><surname>Zhu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jimmy</forename><surname>Lin</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2021.mrl-1.11</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 1st Workshop on Multilingual Representation Learning</title>
+				<meeting>the 1st Workshop on Multilingual Representation Learning</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2021" />
+			<biblScope unit="page">97</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b17">
+	<analytic>
+		<title level="a" type="main">Opinion Mining and Sentiment Analysis</title>
+		<author>
+			<persName><forename type="first">Bo</forename><surname>Pang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lillian</forename><surname>Lee</surname></persName>
+		</author>
+		<idno type="DOI">10.1561/1500000011</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Foundations and Trends® in Information Retrieval</title>
+		<title level="j" type="abbrev">FNT in Information Retrieval</title>
+		<idno type="ISSN">1554-0669</idno>
+		<idno type="ISSNe">1554-0677</idno>
+		<imprint>
+			<biblScope unit="volume">2</biblScope>
+			<biblScope unit="issue">1–2</biblScope>
+			<biblScope unit="page" from="1" to="135" />
+			<date type="published" when="2008" />
+			<publisher>Emerald</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b18">
+	<analytic>
+		<title level="a" type="main">MAD-X: An Adapter-Based Framework for Multi-Task Cross-Lingual Transfer</title>
+		<author>
+			<persName><forename type="first">Jonas</forename><surname>Pfeiffer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Ivan</forename><surname>Vulić</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Iryna</forename><surname>Gurevych</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sebastian</forename><surname>Ruder</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2020.emnlp-main.617</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)</title>
+				<meeting>the 2020 Conference on Empirical Methods in Natural Language Processing (EMNLP)</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b19">
+	<analytic>
+		<title level="a" type="main">Seals_Lab at SemEval-2023 Task 12: Sentiment Analysis for Low-resource African Languages, Hausa and Igbo</title>
+		<author>
+			<persName><forename type="first">Nilanjana</forename><surname>Raychawdhary</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Amit</forename><surname>Das</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Gerry</forename><surname>Dozier</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Cheryl</forename><surname>D. Seals</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2023.semeval-1.208</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the The 17th International Workshop on Semantic Evaluation (SemEval-2023)</title>
+				<meeting>the The 17th International Workshop on Semantic Evaluation (SemEval-2023)<address><addrLine>Toronto, Canada</addrLine></address></meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2023" />
+			<biblScope unit="page" from="1508" to="1517" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b20">
+	<analytic>
+		<title level="a" type="main">UIO at SemEval-2023 Task 12: Multilingual fine-tuning for sentiment classification in low-resource Languages</title>
+		<author>
+			<persName><forename type="first">Egil</forename><surname>Rønningstad</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2023.semeval-1.144</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the The 17th International Workshop on Semantic Evaluation (SemEval-2023)</title>
+				<meeting>the The 17th International Workshop on Semantic Evaluation (SemEval-2023)</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2023" />
+			<biblScope unit="page" from="1054" to="1060" />
+		</imprint>
+	</monogr>
+	<note>Hybrid Gold Open Access</note>
+</biblStruct>
+
+<biblStruct xml:id="b21">
+	<analytic>
+		<title level="a" type="main">NLNDE at SemEval-2023 Task 12: Adaptive Pretraining and Source Language Selection for Low-Resource Multilingual Sentiment Analysis</title>
+		<author>
+			<persName><forename type="first">Mingyang</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Heike</forename><surname>Adel</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lukas</forename><surname>Lange</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jannik</forename><surname>Strötgen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hinrich</forename><surname>Schütze</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2023.semeval-1.68</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the The 17th International Workshop on Semantic Evaluation (SemEval-2023)</title>
+				<meeting>the The 17th International Workshop on Semantic Evaluation (SemEval-2023)</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2023" />
+			<biblScope unit="page" from="488" to="497" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b22">
+	<analytic>
+		<title level="a" type="main">Transformers: State-of-the-Art Natural Language Processing</title>
+		<author>
+			<persName><forename type="first">Thomas</forename><surname>Wolf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Lysandre</forename><surname>Debut</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Victor</forename><surname>Sanh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julien</forename><surname>Chaumond</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clement</forename><surname>Delangue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Anthony</forename><surname>Moi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Pierric</forename><surname>Cistac</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Tim</forename><surname>Rault</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Remi</forename><surname>Louf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Morgan</forename><surname>Funtowicz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Joe</forename><surname>Davison</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sam</forename><surname>Shleifer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Patrick</forename><surname>Von Platen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Clara</forename><surname>Ma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Yacine</forename><surname>Jernite</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Julien</forename><surname>Plu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Canwen</forename><surname>Xu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Teven</forename><surname>Le Scao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sylvain</forename><surname>Gugger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mariama</forename><surname>Drame</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Quentin</forename><surname>Lhoest</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Alexander</forename><surname>Rush</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2020.emnlp-demos.6</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations</title>
+				<meeting>the 2020 Conference on Empirical Methods in Natural Language Processing: System Demonstrations</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2020" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b23">
+	<analytic>
+		<title level="a" type="main">H. Ekkehard Wolff: Einleitung</title>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">Ekkehard</forename><surname>Wolff</surname></persName>
+		</author>
+		<idno type="DOI">10.3726/978-3-653-02856-0/4</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Was ist eigentlich Afrikanistik?</title>
+				<imprint>
+			<publisher>Peter Lang</publisher>
+			<date>2024</date>
+			<biblScope unit="page" from="2024" to="2034" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b24">
+	<analytic>
+		<title level="a" type="main">Exploring Amharic Sentiment Analysis from Social Media Texts: Building Annotation Tools and Classification Models</title>
+		<author>
+			<persName><forename type="first">Seid</forename><forename type="middle">Muhie</forename><surname>Yimam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Hizkiel</forename><forename type="middle">Mitiku</forename><surname>Alemayehu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abinew</forename><surname>Ayele</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Chris</forename><surname>Biemann</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2020.coling-main.91</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 28th International Conference on Computational Linguistics</title>
+				<meeting>the 28th International Conference on Computational Linguistics</meeting>
+		<imprint>
+			<publisher>International Committee on Computational Linguistics</publisher>
+			<date type="published" when="2020" />
+			<biblScope unit="page" from="1048" to="1060" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b25">
+	<analytic>
+		<title level="a" type="main">Fine-tuning Multilingual Transformers for Hausa-English Sentiment Analysis</title>
+		<author>
+			<persName><forename type="first">Aliyu</forename><surname>Yusuf</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aliza</forename><surname>Sarlan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kamaluddeen</forename><forename type="middle">Usman</forename><surname>Danyaro</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Abdullahi</forename><forename type="middle">Sani B A</forename><surname>Rahman</surname></persName>
+		</author>
+		<idno type="DOI">10.1109/cita58204.2023.10262742</idno>
+	</analytic>
+	<monogr>
+		<title level="m">2023 13th International Conference on Information Technology in Asia (CITA)</title>
+				<imprint>
+			<publisher>IEEE</publisher>
+			<date type="published" when="2023-08-03" />
+			<biblScope unit="page" from="13" to="18" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>

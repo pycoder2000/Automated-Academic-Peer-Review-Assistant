@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Peer Review AI</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <script>
+    function showLoading() {
+      document.getElementById("loading").style.display = "flex";
+    }
+  </script>
+</head>
+<body>
+  <div class="container">
+    <h1>📑 Peer Review AI</h1>
+    <p>Upload your research paper (PDF) for automated peer review analysis.</p>
+
+    <form method="POST" enctype="multipart/form-data" class="upload-form" onsubmit="showLoading()">
+      <input type="file" name="file" required>
+      <button type="submit">Run Review</button>
+    </form>
+
+    {% if error %}
+      <div class="error">{{ error }}</div>
+    {% endif %}
+
+    {% if sections %}
+      <div class="results">
+        <h2>📊 Review Results</h2>
+        <div class="grid">
+          {% for title, content in sections.items() %}
+            <div class="card">
+              <h3>{{ title }}</h3>
+              <p>{{ content }}</p>
+            </div>
+          {% endfor %}
+        </div>
+      </div>
+    {% endif %}
+  </div>
+
+  <!-- Loading overlay -->
+  <div id="loading" class="loading-overlay">
+    <div class="spinner"></div>
+    <p>Uploading file… extracting content… running analysis…</p>
+  </div>
+</body>
+</html>

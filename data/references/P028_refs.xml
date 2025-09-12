@@ -1,0 +1,815 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<TEI xml:space="preserve" xmlns="http://www.tei-c.org/ns/1.0" 
+xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" 
+xsi:schemaLocation="http://www.tei-c.org/ns/1.0 https://raw.githubusercontent.com/kermitt2/grobid/master/grobid-home/schemas/xsd/Grobid.xsd"
+ xmlns:xlink="http://www.w3.org/1999/xlink">
+	<teiHeader xml:lang="en">
+		<fileDesc>
+			<titleStmt>
+				<title level="a" type="main">Leveraging ChatGPT As Text Annotation Tool For Sentiment Analysis</title>
+			</titleStmt>
+			<publicationStmt>
+				<publisher/>
+				<availability status="unknown"><licence/></availability>
+			</publicationStmt>
+			<sourceDesc>
+				<biblStruct>
+					<analytic>
+						<author>
+							<persName><forename type="first">Mohammad</forename><surname>Belal</surname></persName>
+							<affiliation key="aff0">
+								<orgName type="department">College of Science and Engineering</orgName>
+								<orgName type="institution">Hamad Bin Khalifa University</orgName>
+								<address>
+									<country key="QA">Qatar</country>
+								</address>
+							</affiliation>
+						</author>
+						<author role="corresp">
+							<persName><forename type="first">James</forename><surname>She</surname></persName>
+							<email>pshe@hbku.edu.qa</email>
+							<affiliation key="aff0">
+								<orgName type="department">College of Science and Engineering</orgName>
+								<orgName type="institution">Hamad Bin Khalifa University</orgName>
+								<address>
+									<country key="QA">Qatar</country>
+								</address>
+							</affiliation>
+						</author>
+						<author>
+							<persName><forename type="first">Simon</forename><surname>Wong</surname></persName>
+							<affiliation key="aff1">
+								<orgName type="department">Department of Electronic and Computer Engineering</orgName>
+								<orgName type="institution">HKUST</orgName>
+								<address>
+									<settlement>Hong Kong</settlement>
+								</address>
+							</affiliation>
+						</author>
+						<title level="a" type="main">Leveraging ChatGPT As Text Annotation Tool For Sentiment Analysis</title>
+					</analytic>
+					<monogr>
+						<imprint>
+							<date/>
+						</imprint>
+					</monogr>
+				</biblStruct>
+			</sourceDesc>
+		</fileDesc>
+		<encodingDesc>
+			<appInfo>
+				<application version="0.6.2" ident="GROBID" when="2025-09-12T10:52+0000">
+					<desc>GROBID - A machine learning software for extracting information from scholarly documents</desc>
+					<ref target="https://github.com/kermitt2/grobid"/>
+				</application>
+			</appInfo>
+		</encodingDesc>
+		<profileDesc>
+			<textClass>
+				<keywords>
+					<term>Sentiment Analysis</term>
+					<term>Social Media</term>
+					<term>Deep Learning</term>
+					<term>Zero-shot learning</term>
+				</keywords>
+			</textClass>
+			<abstract>
+<div xmlns="http://www.tei-c.org/ns/1.0"><p>Sentiment analysis is a well-known natural language processing task that involves identifying the emotional tone or polarity of a given piece of text. With the growth of social media and other online platforms, sentiment analysis has become increasingly crucial for businesses and organizations seeking to monitor and comprehend customer feedback as well as opinions. Supervised learning algorithms have been popularly employed for this task, but they require human-annotated text to create the classifier. To overcome this challenge, lexiconbased tools have been used. A drawback of lexicon-based algorithms is their reliance on pre-defined sentiment lexicons, which may not capture the full range of sentiments in natural language. ChatGPT is a new product of OpenAI and has emerged as the most popular AI product. It can answer questions on various topics and tasks. This study explores the use of ChatGPT as a tool for data labeling for different sentiment analysis tasks. It is evaluated on two distinct sentiment analysis datasets with varying purposes. The results demonstrate that ChatGPT outperforms other lexicon-based unsupervised methods with significant improvements in overall accuracy. Specifically, compared to the best-performing lexicalbased algorithms, ChatGPT achieves a remarkable increase in accuracy of 20% for the tweets dataset and approximately 25% for the Amazon reviews dataset. These findings highlight the exceptional performance of ChatGPT in sentiment analysis tasks, surpassing existing lexicon-based approaches by a significant margin. The evidence suggests it can be used for annotation on different sentiment analysis events and tasks.</p></div>
+			</abstract>
+		</profileDesc>
+	</teiHeader>
+	<text xml:lang="en">
+		<body>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="1.">Introduction</head><p>Social media platforms such as Twitter, Facebook, Youtube, and Tiktok have become essential tools for users to share their opinions and interact with others online. Twitter, in particular, is a popular micro-blogging platform where users post short but informative content such as text, emojis, and hashtags. These components provide valuable information for sentiment analysis and opinion mining to evaluate users' polarity towards specific topics or events. Sentiment analysis requires data labeling for the training of the classifiers. These data labels should be of high quality so that the classifier can be closer to the ground truth. One popular method to get the gold standard labeled dataset is using crowd workers for their annotations, such as Amazon Mechanical Turk. The annotation is a time taking and costly process which is sometimes a hindrance for researchers. Moreover, the quality of the crowd workers is also decreased <ref type="bibr" target="#b0">[1]</ref>.</p><p>Recently there has been an increase in the popularity of large language models for different NLP tasks. These language models have zero-shot ability to perform different tasks <ref type="bibr" target="#b2">[2]</ref>  <ref type="bibr" target="#b3">[3]</ref>. ChatGPT is a new chatbot by OpenAI trained on GPT 3.5 and using RLHF technique to align it with humans <ref type="bibr" target="#b4">[4]</ref>. It is a powerful tool that can write code, poetry and can have meaningful conversations with people. It has shown its ability on various NLP tasks, including arithmetic reasoning, text classification, and question answering <ref type="bibr" target="#b5">[5]</ref>. ChatGPT could also be used as a text annotator and shows its superiority among crowd workers for data labeling <ref type="bibr" target="#b6">[6]</ref>. Lexicon-based methods are commonly used to determine sentiment in texts due to their simplicity and speed compared to supervised learning approaches. VADER, Sen-tiStrength, and TextBlob are popular lexicon-based algorithms. Among these, VADER, a rule-based algorithm, is efficient and outperforms other algorithms on social me-arXiv:2306.17177v1 [cs.CL] 18 Jun 2023 dia data, especially Twitter. It also considers emojis when calculating sentiment score. However, TextBlob's algorithm does not consider emojis when determining sentiment. The limitation of lexicon-based algorithms for sentiment analysis is their inability to handle sarcasm, irony, and other forms of figurative language. These algorithms rely on pre-defined lists of words and their associated sentiment scores, which can lead to inaccuracies when processing text that contains words with multiple meanings or words used in a nonliteral sense. In addition, these algorithms often struggle with understanding the context and tone of the text, leading to misclassification of the sentiment. For instance, example 3 in table 1 uses sarcastic language to criticize the tweet. Both lexical-based tools could not identify the sarcasm and output the sentiment as positive, whereas ChatGPT understands the sarcasm and explains why it is negative. Our experiments show that the ChatGPT could be used as a tool for sentiment analysis, and it has the ability to understand emojis, sarcasm, and irony. The main findings of this evaluation are as follows 1) ChatGPT impressive performance on zero-shot sentiment analysis 2) Handles emojis and sarcasm into the sentiment calculations 3) More than 94% accurate on the long form of sentiment reviews Sections 1-6 cover the introduction, related works, problem formulation, experimental setup and results, discussion, and conclusion.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="2.">Related Works</head><p>This section reviews prior work related to large language models and sentiment analysis techniques.</p><p>Large Language Models: There has been an increase in the development of large language models. Specifically after the release of GPT-3 <ref type="bibr" target="#b7">[7]</ref>. GPT-3 has been trained auto regressively on a large amount of internet data and has 175 billion parameters. These large language models <ref type="bibr">[7] [3]</ref> [2] can perform a variety of tasks without much training. These models could perform much better on finetuning on a smaller dataset. These models are few-shot learners. OpenAI has recently launched ChatGPT, a conversational artificial intelligence system that has been fine-tuned from GPT-3.5 using reinforcement learning from human feedback (RLHF) <ref type="bibr" target="#b4">[4]</ref>. Large language models can capture context, sarcasm, and other subtleties in sentiment expression when finetuned for that specific task.</p><p>Sentiment Analysis: The objective of sentiment analysis is to recognize the viewpoints, feelings, and emotions conveyed in textual data, including customer feedback, social media updates, and news stories <ref type="bibr" target="#b8">[8]</ref>. There have been multiple proposals for evaluating the sentiment of text, including the utilization of machine learning methods that can classify sentiment automatically. It has been demonstrated that both supervised and unsupervised learning approaches can be successful in this regard.Unlike traditional lexicon-based approaches, which rely on predefined sentiment lexicons, large language models can capture context, sarcasm, and other subtleties in sentiment expression. Yue et al. <ref type="bibr" target="#b9">[9]</ref> conducted a study comparing the performance of supervised and unsupervised machine learning techniques for sentiment analysis. Their findings revealed that supervised methods generally exhibit superior accuracy than unsupervised approaches like lexicon-based algorithms. Nonetheless, acquiring sufficient labeled training data for supervised methods can be costly and time-consuming.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="3.">Problem Formulation</head><p>Sentiment analysis is vital in natural language processing to identify the text's emotional tone or polarity. As social media and online platforms gain prominence, businesses and organizations encounter the need to monitor and comprehend customer feedback and opinions efficiently. Although traditional supervised learning algorithms have been commonly employed for sentiment analysis, their dependence on labeled training data poses cost and time constraints.</p><p>Recently, there has been a notable increase in the fascination surrounding language models such as ChatGPT, developed by OpenAI, for various natural language processing (NLP) tasks. ChatGPT, built on the powerful GPT-3.5 architecture and trained on extensive text data, has demonstrated exceptional proficiency in generating humanlike responses and comprehending diverse subjects comprehensively. With such impressive capabilities, it becomes imperative to explore the potential utility of ChatGPT as a valuable instrument for text annotation. This research aims to investigate the efficacy of ChatGPT as a text annotation tool for sentiment analysis tasks. Our primary objective is to assess the ability of ChatGPT to accurately detect and classify sentiment in various domains and text sources, including customer reviews, social media posts, and news articles. By harnessing the capabilities of ChatGPT's pre-trained language model, we seek to overcome the limitations associated with conventional supervised learning methods that heavily rely on extensive labeled data. To tackle this issue, a comprehensive set of experiments and evaluations will be conducted using established benchmark datasets tailored for sentiment analysis tasks. The performance of ChatGPT will be compared against other cutting-edge sentiment analysis techniques, encompassing lexicon-based approaches and human labeling. By employing robust evaluation metrics such as accuracy, precision, recall, and F1-score, the effectiveness of ChatGPT in capturing the intricate aspects of sentiment across diverse domains will be thoroughly assessed.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.">Experiments and Results</head><p>This section provides information regarding the dataset's description, setup of the experiment, including the benchmarks, and techniques involved.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.1.">Dataset</head><p>For our experimentation, two datasets are used. The first one is from a soccer match between Manchester United and Liverpool. The dataset is extensive and comes from a previous study where two independent annotators manually labeled tweets <ref type="bibr" target="#b10">[10]</ref>. This dataset contains 6,201 rows, of which 1,214 tweets contain emojis. Among the tweets, 2551 are positive, 2710 are negative, and 943 are neutral. The sports tweets dataset usually contains fewer words, and the use of emojis and abbreviations is common. The second dataset used for experimentation is from Amazon reviews. It contains long text describing Amazon products <ref type="bibr" target="#b11">[11]</ref>. A random 2000 text example is taken as a subset from the dataset, with 1002 belonging to the positive category and 998 as negative. The two datasets are different from each other based on the event as well as the length of an individual text.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.2.">Setup</head><p>For comparison, two lexical-based tools, VADER and TextBlob, are used. The evaluated ChatGPT variant is derived from GPT-3.5, specifically the gpt-3.5-turbo version, which is considered to be both highly capable and costeffective. The prompt used has the same wording for both datasets. The numerical score has been extracted from the API response and hence used to label the sentiment.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.">Result</head><p>4.3.1. Results: Soccer Tweets Dataset. The accuracy of the VADER algorithm for the dataset was found to be 47%, and the tweets containing emojis have an accuracy of 46%. The accuracy of TextBlob's algorithm for the whole dataset is 40%, and the tweets containing emojis are 33% accurate. In contrast, the chatGPT is 67% accurate for both the overall tweet and the tweet containing emojis.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Emoji Tweets</head><p>Overall Tweet Overall Tweets and Tweet containing emojis  </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="4.3.2.">Results</head><p>: Amazon Reviews Dataset. The accuracy of the VADER algorithm for the Amazon reviews dataset was found to be 69%. The accuracy of TextBlob's algorithm for this dataset is 66%, Whereas the chatGPT is 94% accurate for the text it classified. ChatGPT could not classify 58 tweets as it termed them neutral or it needed more information.     </p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="5.">Discussion</head><p>ChatGPT as a text annotation tool has shown promising potential and advantages. It offers a user-friendly and interactive interface, making it accessible to a wide range of users with varying levels of technical expertise. This ease of use allows non-experts to annotate text data without extensive training efficiently. Another advantage of using ChatGPT for text annotation is its adaptability to various annotation tasks and domains. In terms of limitations, our study revealed that the sentiment value of a text depends on the prompt used for analysis. Furthermore, we observed instances where different sentiment scores were produced for the same prompt and tweet. One of the challenges is the potential bias in the model's responses, as it learns from the vast amount of data available on the internet, which can contain biased or controversial content. Careful consideration and monitoring are necessary to ensure that the annotations produced by ChatGPT are fair, unbiased, and aligned with the intended annotation guidelines. Additionally, the computational speed of ChatGPT is relatively slow compared to some other sentiment analysis tools. The processing time and cost associated with running the model may pose challenges, particularly for organizations with limited computational resources or budget constraints.</p></div>
+<div xmlns="http://www.tei-c.org/ns/1.0"><head n="6.">Conclusion</head><p>In this paper, we have examined the use of ChatGPT as a sentiment analysis tool. Sentiment analysis has become increasingly important in understanding customer feedback and opinions in today's digital world. While supervised learning algorithms have been popularly used for this task, they require human-annotated text to train the classifier, which can be time-consuming and expensive. To address this challenge, lexicon-based tools have been used, and in recent times, zero-shot models have gained popularity. This study evaluated ChatGPT as a tool for sentiment analysis labeling on two distinct datasets: sports tweets and Amazon reviews. It outperforms the lexical-based tools by 20% and 25% on these two datasets. ChatGPT shows promise as a tool for text labeling for various sentiment analysis events and tasks. As for future directions, there is a need to optimize and parallelize the computational tasks of ChatGPT to improve its speed and efficiency. Furthermore, an examination of sarcasm and irony detection by ChatGPT could be evaluated.</p></div><figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_1"><head>Figure 1 :</head><label>1</label><figDesc>Figure 1: Accuracy of ChatGPT VS VADER and TextBlob</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" xml:id="fig_3"><head>Figure 2 :</head><label>2</label><figDesc>Figure 2: Accuracy of ChatGPT VS VADER and TextBlob</figDesc></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_0"><head>TABLE 1 :</head><label>1</label><figDesc>ChatGPT vs different lexicon-based algorithms</figDesc><table><row><cell>Text</cell><cell>VADER TextBlob ChatGPT</cell><cell>Ground Truth</cell></row><row><cell>#MUNLIV</cell><cell>Fred!!!!</cell><cell></cell></row><row><cell cols="2">Get in there!!!!! #GGMU</cell><cell></cell></row><row><cell cols="2">Gini's turned up, now</cell><cell></cell></row><row><cell cols="2">if the rest of the team</cell><cell></cell></row><row><cell cols="2">could, that'd be great!</cell><cell></cell></row><row><cell>#MUNLIV</cell><cell></cell><cell></cell></row><row><cell cols="2">This Apex seems to be a</cell><cell></cell></row><row><cell cols="2">fine unit, except the sound</cell><cell></cell></row><row><cell cols="2">quality on the DVD side is</cell><cell></cell></row><row><cell cols="2">quite poor. Quality other-</cell><cell></cell></row><row><cell cols="2">wise has been good, unlike</cell><cell></cell></row><row><cell cols="2">some of the previous re-</cell><cell></cell></row><row><cell cols="2">views. Have they improved</cell><cell></cell></row><row><cell cols="2">these, or did I just get a</cell><cell></cell></row><row><cell>good one?</cell><cell></cell><cell></cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_1"><head>TABLE 2 :</head><label>2</label><figDesc>Result of the Soccer Tweets Dataset</figDesc><table><row><cell>Metric</cell><cell>Label</cell><cell>VADER's</cell><cell>TextBlob</cell><cell>ChatGPT</cell></row><row><cell></cell><cell></cell><cell>Algo</cell><cell>Algo</cell><cell></cell></row><row><cell></cell><cell>Positive</cell><cell>0.51</cell><cell>0.51</cell><cell>0.75</cell></row><row><cell>Precision</cell><cell>Neutral</cell><cell>0.19</cell><cell>0.17</cell><cell>0.38</cell></row><row><cell></cell><cell>Negative</cell><cell>0.74</cell><cell>0.70</cell><cell>0.75</cell></row><row><cell></cell><cell>Positive</cell><cell>0.58</cell><cell>0.42</cell><cell>0.62</cell></row><row><cell>Recall</cell><cell>Neutral</cell><cell>0.37</cell><cell>0.48</cell><cell>0.59</cell></row><row><cell></cell><cell>Negative</cell><cell>0.40</cell><cell>0.34</cell><cell>0.72</cell></row><row><cell></cell><cell>Positive</cell><cell>0.55</cell><cell>0.46</cell><cell>0.68</cell></row><row><cell>F1-Score</cell><cell>Neutral</cell><cell>0.25</cell><cell>0.25</cell><cell>0.46</cell></row><row><cell></cell><cell>Negative</cell><cell>0.52</cell><cell>0.46</cell><cell>0.74</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_2"><head>TABLE 3 :</head><label>3</label><figDesc>Result of Soccer Tweets Dataset containing emojis</figDesc><table><row><cell>Metric</cell><cell>Label</cell><cell>VADER's</cell><cell>TextBlob</cell><cell>ChatGPT</cell></row><row><cell></cell><cell></cell><cell>Algo</cell><cell>Algo</cell><cell></cell></row><row><cell></cell><cell>Positive</cell><cell>0.50</cell><cell>0.45</cell><cell>0.71</cell></row><row><cell>Precision</cell><cell>Neutral</cell><cell>0.23</cell><cell>0.17</cell><cell>0.51</cell></row><row><cell></cell><cell>Negative</cell><cell>0.58</cell><cell>0.64</cell><cell>0.71</cell></row><row><cell></cell><cell>Positive</cell><cell>0.68</cell><cell>0.39</cell><cell>0.70</cell></row><row><cell>Recall</cell><cell>Neutral</cell><cell>0.22</cell><cell>0.41</cell><cell>0.61</cell></row><row><cell></cell><cell>Negative</cell><cell>0.33</cell><cell>0.42</cell><cell>0.68</cell></row><row><cell></cell><cell>Positive</cell><cell>0.58</cell><cell>0.42</cell><cell>0.70</cell></row><row><cell>F1-Score</cell><cell>Neutral</cell><cell>0.23</cell><cell>0.24</cell><cell>0.58</cell></row><row><cell></cell><cell>Negative</cell><cell>0.42</cell><cell>0.32</cell><cell>0.69</cell></row></table></figure>
+<figure xmlns="http://www.tei-c.org/ns/1.0" type="table" xml:id="tab_3"><head>TABLE 4 :</head><label>4</label><figDesc>Result of Amazon Reviews Dataset</figDesc><table><row><cell>Metric</cell><cell>Label</cell><cell>VADER's</cell><cell>TextBlob</cell><cell>ChatGPT</cell></row><row><cell></cell><cell></cell><cell>Algo</cell><cell>Algo</cell><cell></cell></row><row><cell></cell><cell>Positive</cell><cell>0.63</cell><cell>0.60</cell><cell>0.94</cell></row><row><cell>Precision</cell><cell>Negative</cell><cell>0.84</cell><cell>0.86</cell><cell>0.94</cell></row><row><cell></cell><cell>Positive</cell><cell>0.91</cell><cell>0.94</cell><cell>0.95</cell></row><row><cell>Recall</cell><cell>Negative</cell><cell>0.46</cell><cell>0.38</cell><cell>0.94</cell></row><row><cell></cell><cell>Positive</cell><cell>0.75</cell><cell>0.73</cell><cell>0.95</cell></row><row><cell>F1-Score</cell><cell>Negative</cell><cell>0.60</cell><cell>0.52</cell><cell>0.94</cell></row></table></figure>
+		</body>
+		<back>
+
+			<div type="acknowledgement">
+<div xmlns="http://www.tei-c.org/ns/1.0"><head>Acknowledgments</head><p>This work was initiated by the College of Science and Engineering at HBKU.</p></div>
+			</div>
+
+			<div type="references">
+
+				<listBibl>
+
+<biblStruct xml:id="b0">
+	<analytic>
+		<title level="a" type="main">An MTurk Crisis? Shifts in Data Quality and the Impact on Study Results</title>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Chmielewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><forename type="middle">C</forename><surname>Kucker</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1948550619875149</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Social Psychological and Personality Science</title>
+		<title level="j" type="abbrev">Social Psychological and Personality Science</title>
+		<idno type="ISSN">1948-5506</idno>
+		<idno type="ISSNe">1948-5514</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="464" to="473" />
+			<date type="published" when="2019-10-10" />
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b1">
+	<analytic>
+		<title level="a" type="main">An MTurk Crisis? Shifts in Data Quality and the Impact on Study Results</title>
+		<author>
+			<persName><forename type="first">Michael</forename><surname>Chmielewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Sarah</forename><forename type="middle">C</forename><surname>Kucker</surname></persName>
+		</author>
+		<idno type="DOI">10.1177/1948550619875149</idno>
+		<ptr target="https://doi.org/10.1177/1948550619875149" />
+	</analytic>
+	<monogr>
+		<title level="j">Social Psychological and Personality Science</title>
+		<title level="j" type="abbrev">Social Psychological and Personality Science</title>
+		<idno type="ISSN">1948-5506</idno>
+		<idno type="ISSNe">1948-5514</idno>
+		<imprint>
+			<biblScope unit="volume">11</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="464" to="473" />
+			<date type="published" when="2019-10-10" />
+			<publisher>SAGE Publications</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b2">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">S</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Roller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Goyal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Artetxe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Dewan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Diab</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><forename type="middle">V</forename><surname>Lin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Mihaylov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ott</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Shleifer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shuster</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Simig</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><forename type="middle">S</forename><surname>Koura</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Sridhar</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Zettlemoyer</surname></persName>
+		</author>
+		<imprint/>
+	</monogr>
+	<note>Opt: Open pre-trained transformer language models,&quot; 2022</note>
+</biblStruct>
+
+<biblStruct xml:id="b3">
+	<monogr>
+		<title/>
+		<author>
+			<persName><forename type="first">A</forename><surname>Chowdhery</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Narang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Devlin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Bosma</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Mishra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Roberts</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barham</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><forename type="middle">W</forename><surname>Chung</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Sutton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gehrmann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Schuh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Shi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Tsvyashchenko</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Maynez</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Rao</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Barnes</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Y</forename><surname>Tay</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Shazeer</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Prabhakaran</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Reif</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Du</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Hutchinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Pope</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Bradbury</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Austin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Isard</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Gur-Ari</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Yin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Duke</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Levskaya</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Ghemawat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Dev</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Michalewski</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Garcia</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">V</forename><surname>Misra</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Robinson</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Fedus</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ippolito</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Luan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Zoph</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Spiridonov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Sepassi</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Dohan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Agrawal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Omernick</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">; R</forename><surname>Child</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Polozov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Z</forename><surname>Zhou</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Wang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Saeta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Diaz</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">O</forename><surname>Firat</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Catasta</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wei</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Meier-Hellstern</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Eck</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Dean</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Petrov</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Fiedel</surname></persName>
+		</author>
+		<editor>A. M. Dai, T. S. Pillai, M. Pellat, A. Lewkowycz, E. Moreira</editor>
+		<imprint/>
+	</monogr>
+	<note>Palm: Scaling language modeling with pathways,&quot; 2022</note>
+</biblStruct>
+
+<biblStruct xml:id="b4">
+	<monogr>
+		<title level="m" type="main">Training language models to follow instructions with human feedback</title>
+		<author>
+			<persName><forename type="first">L</forename><surname>Ouyang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">X</forename><surname>Jiang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Almeida</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><forename type="middle">L</forename><surname>Wainwright</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Mishkin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Agarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">K</forename><surname>Slama</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Schulman</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Hilton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">F</forename><surname>Kelton</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">L</forename><surname>Miller</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Simens</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Askell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Welinder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Christiano</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Leike</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Lowe</surname></persName>
+		</author>
+		<imprint>
+			<date type="published" when="2022" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b5">
+	<analytic>
+		<title level="a" type="main">Is ChatGPT a General-Purpose Natural Language Processing Task Solver?</title>
+		<author>
+			<persName><forename type="first">Chengwei</forename><surname>Qin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Aston</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Zhuosheng</forename><surname>Zhang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jiaao</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Michihiro</forename><surname>Yasunaga</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Diyi</forename><surname>Yang</surname></persName>
+		</author>
+		<idno type="DOI">10.18653/v1/2023.emnlp-main.85</idno>
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 2023 Conference on Empirical Methods in Natural Language Processing</title>
+				<meeting>the 2023 Conference on Empirical Methods in Natural Language Processing</meeting>
+		<imprint>
+			<publisher>Association for Computational Linguistics</publisher>
+			<date type="published" when="2023" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b6">
+	<analytic>
+		<title level="a" type="main">ChatGPT outperforms crowd workers for text-annotation tasks</title>
+		<author>
+			<persName><forename type="first">Fabrizio</forename><surname>Gilardi</surname></persName>
+			<idno type="ORCID">0000-0002-0635-3048</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Meysam</forename><surname>Alizadeh</surname></persName>
+			<idno type="ORCID">0000-0001-6696-6471</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Maël</forename><surname>Kubli</surname></persName>
+			<idno type="ORCID">0000-0002-5592-9648</idno>
+		</author>
+		<idno type="DOI">10.1073/pnas.2305016120</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Proceedings of the National Academy of Sciences</title>
+		<title level="j" type="abbrev">Proc. Natl. Acad. Sci. U.S.A.</title>
+		<idno type="ISSN">0027-8424</idno>
+		<idno type="ISSNe">1091-6490</idno>
+		<imprint>
+			<biblScope unit="volume">120</biblScope>
+			<biblScope unit="issue">30</biblScope>
+			<date type="published" when="2023-07-18" />
+			<publisher>Proceedings of the National Academy of Sciences</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b7">
+	<analytic>
+		<title level="a" type="main">Language models are few-shot learners</title>
+		<author>
+			<persName><forename type="first">T</forename><surname>Brown</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Mann</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">N</forename><surname>Ryder</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Subbiah</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><forename type="middle">D</forename><surname>Kaplan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Dhariwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Neelakantan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">P</forename><surname>Shyam</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Sastry</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Askell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Agarwal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Herbert-Voss</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">G</forename><surname>Krueger</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">T</forename><surname>Henighan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Child</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Ramesh</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Ziegler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Wu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Winter</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Hesse</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">E</forename><surname>Sigler</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Litwin</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Gray</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">B</forename><surname>Chess</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">J</forename><surname>Clark</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">C</forename><surname>Berner</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">S</forename><surname>Mccandlish</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">A</forename><surname>Radford</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">I</forename><surname>Sutskever</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">D</forename><surname>Amodei ; H. Larochelle</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Ranzato</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">R</forename><surname>Hadsell</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">M</forename><surname>Balcan</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">H</forename><surname>Lin</surname></persName>
+		</author>
+	</analytic>
+	<monogr>
+		<title level="m">Advances in Neural Information Processing Systems</title>
+				<imprint>
+			<publisher>Curran Associates, Inc</publisher>
+			<date type="published" when="2020" />
+			<biblScope unit="volume">33</biblScope>
+			<biblScope unit="page" from="1877" to="1901" />
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b8">
+	<analytic>
+		<title level="a" type="main">Opinion observer</title>
+		<author>
+			<persName><forename type="first">Bing</forename><surname>Liu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Minqing</forename><surname>Hu</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Junsheng</forename><surname>Cheng</surname></persName>
+		</author>
+		<idno type="DOI">10.1145/1060745.1060797</idno>
+		<ptr target="https://doi.org/10.1145/1060745.1060797" />
+	</analytic>
+	<monogr>
+		<title level="m">Proceedings of the 14th international conference on World Wide Web - WWW &apos;05</title>
+				<meeting>the 14th international conference on World Wide Web - WWW &apos;05<address><addrLine>New York, NY, USA</addrLine></address></meeting>
+		<imprint>
+			<publisher>ACM Press</publisher>
+			<date type="published" when="2005" />
+			<biblScope unit="page">342</biblScope>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b9">
+	<analytic>
+		<title level="a" type="main">A survey of sentiment analysis in social media</title>
+		<author>
+			<persName><forename type="first">Lin</forename><surname>Yue</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Weitong</forename><surname>Chen</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Xue</forename><surname>Li</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Wanli</forename><surname>Zuo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Minghao</forename><surname>Yin</surname></persName>
+		</author>
+		<idno type="DOI">10.1007/s10115-018-1236-4</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Knowledge and Information Systems</title>
+		<title level="j" type="abbrev">Knowl Inf Syst</title>
+		<idno type="ISSN">0219-1377</idno>
+		<idno type="ISSNe">0219-3116</idno>
+		<imprint>
+			<biblScope unit="volume">60</biblScope>
+			<biblScope unit="issue">2</biblScope>
+			<biblScope unit="page" from="617" to="663" />
+			<date type="published" when="2018-07-04" />
+			<publisher>Springer Science and Business Media LLC</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b10">
+	<analytic>
+		<title level="a" type="main">TED-S: Twitter Event Data in Sports and Politics with Aggregated Sentiments</title>
+		<author>
+			<persName><forename type="first">Hansi</forename><surname>Hettiarachchi</surname></persName>
+			<idno type="ORCID">0000-0003-4609-5001</idno>
+		</author>
+		<author>
+			<persName><forename type="first">Doaa</forename><surname>Al-Turkey</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mariam</forename><surname>Adedoyin-Olowe</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jagdev</forename><surname>Bhogal</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Mohamed</forename><forename type="middle">Medhat</forename><surname>Gaber</surname></persName>
+		</author>
+		<idno type="DOI">10.3390/data7070090</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Data</title>
+		<title level="j" type="abbrev">Data</title>
+		<idno type="ISSNe">2306-5729</idno>
+		<imprint>
+			<biblScope unit="volume">7</biblScope>
+			<biblScope unit="issue">7</biblScope>
+			<biblScope unit="page">90</biblScope>
+			<date type="published" when="2022-06-30" />
+			<publisher>MDPI AG</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+<biblStruct xml:id="b11">
+	<analytic>
+		<title level="a" type="main">Text Classification Using Parallel Word-level and Character-level Embeddings in Convolutional Neural Networks</title>
+		<author>
+			<persName><forename type="first">Geonu</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jungyeon</forename><surname>Jang</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Juwon</forename><surname>Lee</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Kitae</forename><surname>Kim</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Woonyoung</forename><surname>Yeo</surname></persName>
+		</author>
+		<author>
+			<persName><forename type="first">Jong</forename><forename type="middle">Woo</forename><surname>Kim</surname></persName>
+		</author>
+		<idno type="DOI">10.14329/apjis.2019.29.4.771</idno>
+	</analytic>
+	<monogr>
+		<title level="j">Asia Pacific Journal of Information Systems</title>
+		<title level="j" type="abbrev">APJIS</title>
+		<editor>C. Cortes, N. Lawrence, D. Lee, M. Sugiyama, and R. Garnett</editor>
+		<idno type="ISSN">2288-5404</idno>
+		<idno type="ISSNe">2288-6818</idno>
+		<imprint>
+			<biblScope unit="volume">29</biblScope>
+			<biblScope unit="issue">4</biblScope>
+			<biblScope unit="page" from="771" to="788" />
+			<date type="published" when="2019-12-31" />
+			<publisher>Korea Society of Management Information Systems</publisher>
+		</imprint>
+	</monogr>
+</biblStruct>
+
+				</listBibl>
+			</div>
+		</back>
+	</text>
+</TEI>
