@@ -101,9 +101,9 @@ def main():
     refs_xml = f"data/references/{base}_refs.xml"
     os.makedirs("data/references", exist_ok=True)
 
-    print(f"[📡] Sending {args.pdf_path} to GROBID at {GROBID_URL} ...")
+    print(f"Sending {args.pdf_path} to GROBID at {GROBID_URL} ...")
     call_grobid(args.pdf_path, refs_xml)
-    print(f"[✅] References saved to {refs_xml}")
+    print(f"References saved to {refs_xml}")
 
     refs = parse_references_from_xml(refs_xml)
     analysis = analyze_citations(refs, args.year_threshold)
@@ -118,7 +118,7 @@ def main():
     with open(args.output, "w", encoding="utf-8") as f:
         json.dump(report, f, indent=2, ensure_ascii=False)
 
-    print(f"[📊] Report saved to {args.output}")
+    print(f"Report saved to {args.output}")
 
 
 if __name__ == "__main__":

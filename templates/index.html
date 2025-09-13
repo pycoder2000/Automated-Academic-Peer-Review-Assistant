@@ -4,6 +4,8 @@
   <meta charset="UTF-8">
   <title>Peer Review AI</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
   <script>
     function showLoading() {
       document.getElementById("loading").style.display = "flex";
@@ -13,7 +15,7 @@
 <body>
   <div class="container">
     <h1>📑 Peer Review AI</h1>
-    <p>Upload your research paper (PDF) for automated peer review analysis.</p>
+    <p class="subtitle">Upload your research paper (PDF) for automated peer review analysis.</p>
 
     <form method="POST" enctype="multipart/form-data" class="upload-form" onsubmit="showLoading()">
       <input type="file" name="file" required>

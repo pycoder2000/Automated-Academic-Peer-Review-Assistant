@@ -83,9 +83,9 @@ def build_faiss_index(pdf_dir, index_path, mapping_path, metadata_path=None):
     with open(mapping_path, "w", encoding="utf-8") as f:
         json.dump(mapping, f, indent=2, ensure_ascii=False)
 
-    print(f"✅ FAISS index built: {index_path}")
-    print(f"✅ Mapping saved: {mapping_path}")
-    print(f"📊 Indexed {len(vectors)} PDFs")
+    print(f"FAISS index built: {index_path}")
+    print(f"Mapping saved: {mapping_path}")
+    print(f"Indexed {len(vectors)} PDFs")
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Build FAISS index for research papers")

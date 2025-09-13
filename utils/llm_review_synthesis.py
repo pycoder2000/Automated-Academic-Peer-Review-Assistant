@@ -117,13 +117,13 @@ def build_final_recommendation(scores, strengths, weaknesses, suggestions, plagi
 
     # Determine decision
     if plagiarism <= 2 or novelty <= 2:
-        decision = "📌 **Decision: Reject** — Serious originality/plagiarism concerns. Please substantially rewrite and resubmit."
+        decision = " **Decision: Reject** — Serious originality/plagiarism concerns. Please substantially rewrite and resubmit."
     elif novelty <= 4 or plagiarism <= 4:
-        decision = "📌 **Decision: Major Revisions** — The manuscript has important issues (novelty/originality) to address."
+        decision = " **Decision: Major Revisions** — The manuscript has important issues (novelty/originality) to address."
     elif factual <= 5:
-        decision = "📌 **Decision: Minor Revisions** — Fix factual issues and clarify methods/results."
+        decision = " **Decision: Minor Revisions** — Fix factual issues and clarify methods/results."
     else:
-        decision = "📌 **Decision: Accept with Minor Revisions** — Overall solid, but polish presentation and address minor issues."
+        decision = " **Decision: Accept with Minor Revisions** — Overall solid, but polish presentation and address minor issues."
 
     return "\n".join(parts) + "\n\n" + decision
 
@@ -307,7 +307,7 @@ def synthesize_report(paper_dir: Path, output_file: Path, dry_run=False):
         os.makedirs(output_file.parent, exist_ok=True)
         with open(output_file, "w", encoding="utf-8") as f:
             f.write(report)
-        print(f"✅ Review saved to {output_file}")
+        print(f"Review saved to {output_file}")
         return report
 
 def main():

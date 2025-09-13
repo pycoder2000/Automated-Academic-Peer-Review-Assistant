@@ -44,7 +44,7 @@ def novelty_check(input_pdf, top_k=5, output_path=None):
     with open(FAISS_MAPPING, "r", encoding="utf-8") as f:
         mapping = json.load(f)
 
-    # ✅ Ensure mapping is a dict
+    # Ensure mapping is a dict
     if isinstance(mapping, list):
         mapping = {str(i): entry for i, entry in enumerate(mapping)}
 

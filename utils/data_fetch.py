@@ -26,7 +26,7 @@ embedder = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 def fetch_arxiv(keyword, max_results=300):
     base_url = "http://export.arxiv.org/api/query?"
     results = []
-    per_page = 150  # API max = 200, keep smaller to be safe
+    per_page = 150  # API max = 200
 
     for start in range(0, max_results, per_page):
         query = f"search_query=all:{keyword}&start={start}&max_results={per_page}"
@@ -75,7 +75,7 @@ def fetch_semantic_scholar(keyword, max_results=300):
                 "pdf_url": pdf_url
             })
 
-        time.sleep(1)  # respect rate limit (100 requests / 5 mins)
+        time.sleep(1)  # avoid hitting rate limits
 
     return results[:max_results]
 
@@ -108,7 +108,7 @@ def fetch_crossref(keyword, max_results=300):
                 "pdf_url": pdf_url
             })
 
-        time.sleep(1)  # avoid hammering API
+        time.sleep(1)  # avoid hitting rate limits
 
     return results[:max_results]
 

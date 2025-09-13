@@ -26,7 +26,7 @@ def main():
     elif args.pdf_path:
         pdf_path = args.pdf_path
     else:
-        print("❌ Error: Provide either --pdf_url or --pdf_path")
+        print("Error: Provide either --pdf_url or --pdf_path")
         exit(1)
 
     # === Step 2: Citation Analysis ===
@@ -78,7 +78,7 @@ def main():
         f"--output {review_out}"
     )
 
-    print(f"\n✅ Full pipeline complete! Results saved in: {args.out_dir}")
+    print(f"\nFull pipeline complete! Results saved in: {args.out_dir}")
 
 if __name__ == "__main__":
     main()

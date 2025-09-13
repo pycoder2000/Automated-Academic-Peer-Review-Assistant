@@ -5,7 +5,7 @@ import argparse
 import numpy as np
 from sentence_transformers import SentenceTransformer
 from sklearn.metrics.pairwise import cosine_similarity
-from PyPDF2 import PdfReader   # NEW
+from PyPDF2 import PdfReader  
 
 # ---------------- CONFIG ----------------
 MODEL_NAME = "sentence-transformers/all-MiniLM-L6-v2"
@@ -187,7 +187,7 @@ def main():
     print("[STEP5] Mapping claims...")
     mappings = map_claims(new_claims, existing_claims, model, claim_threshold=args.claim_threshold)
 
-    # ✅ Use --out_dir if provided, else fallback to pdf name
+    # Use --out_dir if provided, else fallback to pdf name
     if args.out_dir:
         out_dir = args.out_dir
     else:

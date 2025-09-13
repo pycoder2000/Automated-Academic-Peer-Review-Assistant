@@ -9,7 +9,6 @@ FAISS_DIR = "data/faiss_indexes"
 ureg = UnitRegistry()
 Q_ = ureg.Quantity
 
-# ---------------- Helpers (replacement for factual_utils) ----------------
 def extract_numeric_mentions(text):
     """Extract numeric values + units from text (very naive regex)."""
     mentions = []
@@ -159,6 +158,6 @@ if __name__ == "__main__":
         os.makedirs(os.path.dirname(args.output), exist_ok=True)
         with open(args.output, "w", encoding="utf-8") as f:
             json.dump(results, f, indent=2, ensure_ascii=False)
-        print(f"✅ Results saved to {args.output}")
+        print(f"Results saved to {args.output}")
     else:
         print(json.dumps(results, indent=2, ensure_ascii=False))

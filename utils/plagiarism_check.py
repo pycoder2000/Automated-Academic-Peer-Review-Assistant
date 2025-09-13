@@ -48,7 +48,7 @@ def run_plagiarism_check(test_pdf, output_file, top_k=5):
 
     # Load FAISS index + mapping
     if not os.path.exists(FAISS_INDEX) or not os.path.exists(FAISS_MAPPING):
-        raise FileNotFoundError("❌ No global FAISS index found. Please run faiss_index.py first.")
+        raise FileNotFoundError(" No global FAISS index found. Please run faiss_index.py first.")
 
     index = faiss.read_index(FAISS_INDEX)
     with open(FAISS_MAPPING, "r", encoding="utf-8") as f:
