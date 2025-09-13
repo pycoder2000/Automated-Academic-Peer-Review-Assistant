@@ -97,7 +97,8 @@ def gather_existing_claims(similar_list, papers_metadata):
         for c in claims:
             existing_claims.append({
                 "paper_title": meta.get("title", ""),
-                "claim": c
+                "claim": c,
+                "link": meta.get("link", "")   
             })
 
     return existing_claims
@@ -154,6 +155,7 @@ def map_claims(new_claims, existing_claims, model, claim_threshold=DEFAULT_CLAIM
             "is_novel": bool(is_novel),
             "matched_claim": best_match["claim"],
             "matched_paper_title": best_match.get("paper_title", ""),
+            "matched_paper_link": best_match.get("link", ""),  
             "similarity": round(best_score, 4)
         })
     return mappings

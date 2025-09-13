@@ -7,6 +7,20 @@ from PyPDF2 import PdfReader
 from difflib import SequenceMatcher
 from sentence_transformers import SentenceTransformer
 
+with open("data/metadata.json", "r", encoding="utf-8") as f:
+    raw_meta = json.load(f)
+
+METADATA = {}
+if isinstance(raw_meta, list):
+    for entry in raw_meta:
+        pdf_path = entry.get("pdf_path")
+        if not pdf_path:   # skip None or missing
+            continue
+        fname = os.path.basename(pdf_path)
+        METADATA[fname] = entry
+else:
+    METADATA = raw_meta
+
 FAISS_INDEX = "data/faiss_indexes/global_index.bin"
 FAISS_MAPPING = "data/faiss_indexes/global_mapping.json"
 
@@ -78,10 +92,14 @@ def run_plagiarism_check(test_pdf, output_file, top_k=5):
             ref_entry = mapping[str(ref_idx)]
             score = float(sim)
             if score >= 0.70:  # semantic threshold
+                
+                fname = os.path.basename(ref_entry["pdf_path"])
+                meta_entry = METADATA.get(fname, {})
                 paraphrase_matches.append({
                     "chunk": chunk,
                     "score": score,
-                    "pdf_path": ref_entry["pdf_path"],
+                    "pdf_name":  fname,
+                    "link": meta_entry.get("link", None),
                     "type": "paraphrase_overlap"
                 })
 
@@ -98,10 +116,14 @@ def run_plagiarism_check(test_pdf, output_file, top_k=5):
             for r_chunk in ref_chunks:
                 score_exact = calculate_exact_overlap(chunk, r_chunk)
                 if score_exact:
+                    
+                    fname = os.path.basename(ref_entry["pdf_path"])
+                    meta_entry = METADATA.get(fname, {})
                     exact_matches.append({
                         "chunk": chunk,
                         "score": score_exact,
-                        "pdf_path": ref_entry["pdf_path"],
+                        "pdf_name": fname,
+                        "link": meta_entry.get("link", None),
                         "type": "exact_overlap"
                     })
 

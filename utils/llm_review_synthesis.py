@@ -242,7 +242,10 @@ def synthesize_report(paper_dir: Path, output_file: Path, dry_run=False):
             overlap_lines.append("No overlaps reported by plagiarism step.")
         else:
             for ov in top_ov:
-                overlap_lines.append(f"- {ov['pdf_path']} (score={ov['score']:.3f}) — {ov['snippet'][:200]}...")
+                if ov.get("link"):
+                    overlap_lines.append(f"- [{ov['pdf_name']}]({ov['link']}) (score={ov['score']:.3f}) — {ov['snippet'][:200]}...")
+                else:
+                    overlap_lines.append(f"- {ov.get('pdf_name', ov.get('pdf_path'))} (score={ov['score']:.3f}) — {ov['snippet'][:200]}...")
     else:
         overlap_lines.append("No plagiarism JSON found.")
 
@@ -256,7 +259,10 @@ def synthesize_report(paper_dir: Path, output_file: Path, dry_run=False):
             # maybe no exact duplicates
             top_claims = sorted(claims.get("mappings", []), key=lambda x: x.get("similarity", 0.0), reverse=True)[:TOP_EVIDENCE]
             for tc in top_claims:
-                dup_lines.append(f"- sim={tc.get('similarity', 0.0):.3f} — {tc.get('claim')[:200]}...")
+                dup_lines.append(
+                    f"- sim={d.get('similarity'):.3f} — {d.get('matched_paper_title', 'Unknown')} "
+                    f"({d.get('matched_paper_link', '')}) — {d.get('claim')[:200]}..."
+                )
         else:
             dup_lines.append("No claim mapping available.")
 
