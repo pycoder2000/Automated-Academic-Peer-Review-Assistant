@@ -11,7 +11,7 @@ from sentence_transformers import SentenceTransformer
 
 # -------- Setup --------
 DATA_DIR = Path("data")
-TXT_DIR = DATA_DIR / "txt"
+TXT_DIR = DATA_DIR / "parsed_text"
 PDF_DIR = DATA_DIR / "pdfs"
 INDEX_DIR = DATA_DIR / "index"
 CACHE_DIR = DATA_DIR / "cache"
@@ -26,7 +26,7 @@ embedder = SentenceTransformer("sentence-transformers/all-MiniLM-L6-v2")
 def fetch_arxiv(keyword, max_results=300):
     base_url = "http://export.arxiv.org/api/query?"
     results = []
-    per_page = 150  # API max = 200
+    per_page = 150
 
     for start in range(0, max_results, per_page):
         query = f"search_query=all:{keyword}&start={start}&max_results={per_page}"
@@ -44,16 +44,16 @@ def fetch_arxiv(keyword, max_results=300):
                 "pdf_url": pdf_link
             })
 
-        time.sleep(1)  # avoid hitting rate limits
+        time.sleep(1)
 
     return results[:max_results]
 
 
-# -------- Fetch from Semantic Scholar (paginated) --------
+# -------- Fetch from Semantic Scholar --------
 def fetch_semantic_scholar(keyword, max_results=300):
     url = "https://api.semanticscholar.org/graph/v1/paper/search"
     results = []
-    per_page = 100  # API max = 100
+    per_page = 100
 
     for offset in range(0, max_results, per_page):
         params = {
@@ -75,16 +75,16 @@ def fetch_semantic_scholar(keyword, max_results=300):
                 "pdf_url": pdf_url
             })
 
-        time.sleep(1)  # avoid hitting rate limits
+        time.sleep(1)
 
     return results[:max_results]
 
 
-# -------- Fetch from CrossRef (paginated) --------
+# -------- Fetch from CrossRef --------
 def fetch_crossref(keyword, max_results=300):
     url = "https://api.crossref.org/works"
     results = []
-    per_page = 100  # API max = 100
+    per_page = 100
 
     for offset in range(0, max_results, per_page):
         params = {"query": keyword, "rows": per_page, "offset": offset}
@@ -108,7 +108,7 @@ def fetch_crossref(keyword, max_results=300):
                 "pdf_url": pdf_url
             })
 
-        time.sleep(1)  # avoid hitting rate limits
+        time.sleep(1)
 
     return results[:max_results]
 
@@ -143,6 +143,7 @@ def save_papers(papers, topic):
     cache_path = CACHE_DIR / f"{topic}_papers.json"
     with open(cache_path, "w", encoding="utf-8") as jf:
         json.dump(all_metadata, jf, indent=4, ensure_ascii=False)
+
     return all_metadata
 
 
@@ -151,33 +152,59 @@ def build_faiss_index(papers, topic):
     texts = [p["title"] + " " + (p["abstract"] or "") for p in papers]
     embeddings = embedder.encode(texts, convert_to_numpy=True, show_progress_bar=True)
     dim = embeddings.shape[1]
+
     index = faiss.IndexFlatL2(dim)
     index.add(embeddings)
+
     faiss.write_index(index, str(INDEX_DIR / f"{topic}_index.faiss"))
+    print(f"[INFO] Saved FAISS index for topic '{topic}'")
 
 
-# -------- Smart Fetch --------
-def smart_fetch(topic, min_papers=10):
+# -------- Smart Fetch (with caching) --------
+def smart_fetch(topic, max_papers=15):
     cache_path = CACHE_DIR / f"{topic}_papers.json"
     if cache_path.exists():
         with open(cache_path, "r", encoding="utf-8") as f:
             cached = json.load(f)
-        if len(cached) >= min_papers:
+        if len(cached) >= max_papers:
             print(f"[Cache Hit] Loaded {len(cached)} papers for {topic}")
-            return cached
+            return cached[:max_papers]
 
     print(f"[Cache Miss] Fetching new papers for {topic}...")
-    papers = []
-    papers += fetch_arxiv(topic, 300)
-    papers += fetch_semantic_scholar(topic, 300)
-    papers += fetch_crossref(topic, 300)
 
+    papers = []
+    sources = [fetch_arxiv, fetch_semantic_scholar, fetch_crossref]
+
+    for src in sources:
+        needed = max_papers - len(papers)
+        if needed <= 0:
+            break
+        papers += src(topic, max_results=needed)
+
+    papers = papers[:max_papers]
     saved = save_papers(papers, topic)
     build_faiss_index(saved, topic)
     return saved
 
 
-# -------- Main --------
+
+
+# -------- Entry point (CLI + importable) --------
+def fetch_and_add_papers(topic, max_papers=15):
+    """Fetch + save max_papers total from all sources."""
+    papers = smart_fetch(topic, max_papers=max_papers)
+    if not papers:
+        print("[WARN] No papers found.")
+        return []
+
+    # ✅ no extra arg
+    saved_meta = save_papers(papers, topic)
+
+    if saved_meta:
+        build_faiss_index(saved_meta, topic)
+
+    return saved_meta
+
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Smart Fetch Papers with Cache + FAISS")
     parser.add_argument("--keyword", type=str, required=True, help="Search keyword")

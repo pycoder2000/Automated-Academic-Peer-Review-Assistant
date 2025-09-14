@@ -1,8 +1,10 @@
 import os
 import re
 import uuid
+import subprocess
 from flask import Flask, render_template, request
 from werkzeug.utils import secure_filename
+from utils.data_fetch import fetch_and_add_papers
 
 UPLOAD_FOLDER = "uploads"
 RESULTS_FOLDER = "data/results"
@@ -35,6 +37,7 @@ def index():
     sections, error = {}, None
 
     if request.method == "POST":
+        # Check if file is in request
         if "file" not in request.files:
             error = "No file part"
             return render_template("index.html", error=error, sections=sections)
@@ -49,17 +52,24 @@ def index():
             pdf_path = os.path.join(app.config["UPLOAD_FOLDER"], filename)
             file.save(pdf_path)
 
+            # Handle Deep Search
+            deep_search = request.form.get("deep_search")
+            topic = request.form.get("topic")
+            if deep_search and topic:
+                print(f"[INFO] Running deep search for topic: {topic}")
+                fetch_and_add_papers(topic, max_papers=15)   # <--- limit to 15
+                subprocess.run(["python", "utils/faiss_index.py"])
+
             # Create unique output folder per run
             run_id = str(uuid.uuid4())[:8]
             run_dir = os.path.join(RESULTS_FOLDER, run_id)
             os.makedirs(run_dir, exist_ok=True)
 
-            # 🔹 Run pipeline (make sure run_pipeline.py exists)
+            # Run pipeline
             os.system(f"python utils/run_pipeline.py --pdf_path {pdf_path} --out_dir {run_dir}")
 
             review_file = os.path.join(run_dir, "review.txt")
 
-            # Mock output if pipeline didn’t run successfully
             if not os.path.exists(review_file):
                 with open(review_file, "w", encoding="utf-8") as f:
                     f.write(

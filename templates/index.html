@@ -4,13 +4,7 @@
   <meta charset="UTF-8">
   <title>Peer Review AI</title>
   <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
-  <!-- Google Fonts -->
   <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
-  <script>
-    function showLoading() {
-      document.getElementById("loading").style.display = "flex";
-    }
-  </script>
 </head>
 <body>
   <div class="container">
@@ -18,7 +12,22 @@
     <p class="subtitle">Upload your research paper (PDF) for automated peer review analysis.</p>
 
     <form method="POST" enctype="multipart/form-data" class="upload-form" onsubmit="showLoading()">
-      <input type="file" name="file" required>
+      <!-- Upload PDF -->
+      <label for="file">Upload PDF:</label>
+      <input type="file" name="file" id="file" required><br><br>
+
+      <!-- Deep Search Checkbox -->
+      <label>
+        <input type="checkbox" name="deep_search" id="deep_search" onclick="toggleTopicInput()"> Enable Deep Search
+      </label><br><br>
+
+      <!-- Topic Input Box (hidden until checked) -->
+      <div id="topic_box" style="display:none; margin-bottom: 15px;">
+        <label for="topic">Enter Topic:</label>
+        <input type="text" name="topic" id="topic" placeholder="e.g. medical imaging AI">
+      </div>
+
+      <!-- Submit Button -->
       <button type="submit">Run Review</button>
     </form>
 
@@ -42,9 +51,11 @@
   </div>
 
   <!-- Loading overlay -->
-  <div id="loading" class="loading-overlay">
+  <div id="loading" class="loading-overlay" style="display:none;">
     <div class="spinner"></div>
-    <p>Uploading file… extracting content… running analysis…</p>
+    <p id="loading-text">Processing your paper…</p>
   </div>
+
+  <script src="{{ url_for('static', filename='js/script.js') }}"></script>
 </body>
 </html>
