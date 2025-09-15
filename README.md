@@ -1,172 +1,124 @@
-# Automated Academic Peer Review Assistant
+# **Automated Academic Peer Review Assistant** 
 
-A modular pipeline for automating parts of the academic peer review process — including PDF acquisition, parsing, citation analysis, novelty detection, plagiarism check, factual verification, and LLM-based review synthesis.
+🚀 An AI-powered system for automated academic peer review.  
 
----
-
-## 🔧 Installation
-
-### 1. Clone the repository
-
-```bash
-git clone https://github.com/BhaveshBhakta/Automated-Academic-Peer-Review-Assistant.git
-cd Automated-Academic-Peer-Review-Assistant
-```
-
-2. **Create a Python environment**
-
-```bash
-python3 -m venv langenv
-source langenv/bin/activate
-```
-
-3. **Install dependencies**
-
-```bash
-pip install -r requirements.txt
-```
+This tool analyzes research papers to provide structured, reviewer-style feedback. It performs citation quality checks, novelty search, plagiarism detection, factual consistency analysis, and claim mapping, then synthesizes the results into a professional review report. Designed for researchers, educators, and institutions to accelerate the peer review process.  
 
 ---
 
-## 📥 Step 1: Download PDF 
+## ✨ Key Features  
 
-Use the provided helper script to download a PDF (example from arXiv):
+- **Automated Analysis Suite**  
+  - **Novelty Search:** Retrieve and compare papers using FAISS + semantic embeddings.  
+  - **Plagiarism Detection:** Detect exact and paraphrase overlaps via semantic similarity + string matching.  
+  - **Factual Checks:** Validate numerical values and units for consistency and plausibility.  
+  - **Claim Mapping:** Extract and match scientific claims against prior publications.  
+  - **Citation Alert (via GROBID):** Parse references, check citation quality, and flag missing/incorrect citations.  
 
-```bash
-python utils/data_fetch.py --keyword "machine learning"
-```
+- **Enhanced Retrieval Features**  
+  - **Deep Search Mode:** On demand, fetch up to *N* new papers (via ArXiv, Semantic Scholar, CrossRef), store locally, and rebuild FAISS index for fresh comparisons.  
 
-* Replace the `--url` with your desired paper.
-* Output will be saved in the `test_pdf/` folder.
+- **LLM-Powered Review Synthesis**  
+  - **Structured Review Generation:** Summarize findings into section-wise scores, strengths/weaknesses, claim novelty, and final recommendation.  
 
----
-
-## 📑 Step 2: PDF Parsing
-
-Extract text and references using GROBID.
-
-### Start GROBID (Docker)
-
-```bash
-docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2
-```
-
-(Keep this running in a separate terminal.)
-
-### Run Parsing
-
-```bash
-python utils/pdf_parser.py --input test_pdf/test_paper.pdf --output data/results/parsed.json
-```
+- **User-Friendly Interface**  
+  - **Web App (Flask):** Upload a PDF, optionally enable deep search, and receive a detailed review report.  
+  - **Exportable Results:** Outputs JSON artifacts (novelty, plagiarism, claim mapping, factual checks, citations) and a consolidated review file.  
 
 ---
 
-## 📚 Step 3: Citation Analysis & Outdated Reference Check
+## 🛠️ Technology Stack  
 
-Check if references are too old.
-
-```bash
-python utils/grobid_citation_alerts.py test_pdf/test_paper.pdf 5
-```
-
-* `5` = maximum allowed age of references (in years).
-* Output:
-
-  ```
-  data/results/citation_report.json
-  ```
+- **Core Libraries:** `PyPDF2`, `requests`, `argparse`, `json`, `re`  
+- **NLP & Embeddings:** `sentence_transformers` (`all-MiniLM-L6-v2`), `faiss`, `scikit-learn`  
+- **Citation Parsing & Alerts:** `grobid` (for PDF parsing + reference extraction)  
+- **Claim & Factual Analysis:** `pint` (unit normalization), regex-based claim extraction  
+- **Web & UI:** `Flask`, `Jinja2`  
+- **LLM Integration (optional):** `google.generativeai` (Gemini), `groq`, Hugging Face Inference API  
 
 ---
 
-## 🔬 Step 4: Novelty Check
+## 🚀 Quick Start  
 
-Compare the target paper against a set of reference PDFs.
+1. **Clone the repository and install dependencies:**  
+   ```bash
+   git clone https://github.com/BhaveshBhakta/Automated-Academic-Peer-Review-Assistant
+   cd Automated-Academic-Peer-Review-Assistant
+   pip install -r requirements.txt
+    ````
 
-```bash
-python utils/novelty_check.py --paper test_pdf/test_paper.pdf --references "data/pdfs/*.pdf" --output data/results/novelty.json
-```
+2. **Set up environment variables (for LLM integration):**
+   Create a `.env` file in the project root with:
 
-* Output saved as:
+   ```bash
+   GEMINI_API_KEY=your_key_here
+   GROQ_API_KEY=your_key_here
+   HF_API_KEY=your_key_here
+   ```
 
-  ```
-  data/results/novelty.json
-  ```
+   *Note: These are optional, but required for LLM-based review synthesis.*
+
+3. **Run PDF parsing (extract text + citations using GROBID):**
+
+   ```bash
+   python utils/pdf_parse.py
+   ```
+
+4. **Build FAISS index for similarity search:**
+
+   ```bash
+   python utils/faiss_index.py \
+       --pdf_dir data/pdfs \
+       --index_path data/faiss_indexes/global_index.bin \
+       --mapping_path data/faiss_indexes/global_mapping.json \
+       --metadata_path data/metadata.json
+   ```
+
+5. **Run the application:**
+
+   ```bash
+   python app.py
+   ```
+
+6. **Access the UI:**
+   Open [http://localhost:5000](http://localhost:5000) in your browser.
+
 
 ---
 
-## 📖 Step 5: Plagiarism Detection
+## 🗺️ High-Level Architecture
 
-Detect overlapping passages.
-
-```bash
-python utils/plagiarism_check.py --paper test_pdf/test_paper.pdf --references "data/pdfs/*.pdf" --output data/results/plagiarism.json
+```text
+User (Browser, PDF Upload)
+        ↓
+     Flask App
+        ↓
+ ┌─────────────── Pipeline ────────────────┐
+ │  1. PDF Parsing (GROBID: text + citations) │
+ │  2. Citation Alert (check missing refs)    │
+ │  3. Novelty Check (FAISS + Embeddings)     │
+ │  4. Plagiarism Detection                   │
+ │  5. Factual Consistency Check              │
+ │  6. Claim Extraction & Mapping             │
+ │  7. Review Synthesis (LLM/Heuristics)      │
+ └───────────────────────────────────────────┘
+        ↓
+   Structured Review Report + JSON Outputs
 ```
 
-* Output saved as:
+**Deep Search Flow:**
 
-  ```
-  data/results/plagiarism.json
-  ```
+* If the user enables **Deep Search**:
+
+  1. Fetch up to *N* new papers (ArXiv, Semantic Scholar, CrossRef).
+  2. Save PDFs + metadata locally.
+  3. Rebuild FAISS index with new data.
+  4. Run the pipeline again with updated knowledge base.
 
 ---
 
-## ✅ Step 6: Factual Verification
+## 🛣️ Roadmap & Future Work
 
-Check claims in the paper against a knowledge base / LLM.
-
-```bash
-python utils/factual_check.py --paper test_pdf/test_paper.pdf --output data/results/factual.json
-```
-
-* Output saved as:
-
-  ```
-  data/results/factual.json
-  ```
-
----
-
-## 🤖 Step 7: LLM-Based Review Synthesis
-
-Generate a structured peer review from the analysis results.
-
-### Single Paper Mode
-
-```bash
-python utils/llm_review_synthesis.py \
-  --novelty data/results/novelty.json \
-  --claims data/results/citation_report.json \
-  --plagiarism data/results/plagiarism.json \
-  --factual data/results/factual.json \
-  --output data/results/review.txt
-```
-
-* Review is saved as:
-
-  ```
-  data/results/review.txt
-  ```
-
-### Batch Mode (Multiple Papers)
-
-```bash
-python llm_review_synthesis.py --batch_dir data/results/ --output_dir data/reviews/
-```
-
----
-
-## 📂 Output Structure
-
-
-```
-data/
- └── results/
-     ├── parsed.json
-     ├── citation_report.json
-     ├── novelty.json
-     ├── plagiarism.json
-     ├── factual.json
-     ├── review.txt
-     └── batch_reviews/
-```
-
+* **Scalability:** Containerize with Docker and add background workers for large-scale reviews.
+* **Improved Claim Extraction:** Use advanced NLP/LLM models for precise claim detection.
+* **Richer Novelty Detection:** Combine dense embeddings (FAISS) with sparse retrieval (BM25) for hybrid search.
