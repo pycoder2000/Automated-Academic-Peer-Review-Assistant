@@ -60,6 +60,11 @@ This tool analyzes research papers to provide structured, reviewer-style feedbac
 
 3. **Run PDF parsing (extract text + citations using GROBID):**
 
+  ```bash
+  docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2
+  ```
+   (Keep grobid running in a separate terminal.)
+
    ```bash
    python utils/pdf_parse.py
    ```
