@@ -1,9 +1,8 @@
 requests
 feedparser
 tqdm
-PyMuPDF
 flask
-PyPDF2
+PyPDF2          
 pdfminer.six
 beautifulsoup4
 sentence-transformers
