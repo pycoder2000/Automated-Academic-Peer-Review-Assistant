@@ -2,16 +2,20 @@ import os
 import re
 import uuid
 import subprocess
-from flask import Flask, render_template, request
+from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from utils.data_fetch import fetch_and_add_papers
+from flask_cors import CORS  
 
 UPLOAD_FOLDER = "uploads"
 RESULTS_FOLDER = "data/results"
 ALLOWED_EXTENSIONS = {"pdf"}
 
 app = Flask(__name__)
+CORS(app) 
+
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
+
 
 os.makedirs(UPLOAD_FOLDER, exist_ok=True)
 os.makedirs(RESULTS_FOLDER, exist_ok=True)
@@ -32,60 +36,53 @@ def parse_review(text):
     return sections
 
 
-@app.route("/", methods=["GET", "POST"])
-def index():
-    sections, error = {}, None
+@app.route("/api/review", methods=["POST"])
+def review():
+    if "file" not in request.files:
+        return jsonify({"error": "No file part"}), 400
 
-    if request.method == "POST":
-        # Check if file is in request
-        if "file" not in request.files:
-            error = "No file part"
-            return render_template("index.html", error=error, sections=sections)
+    file = request.files["file"]
+    if file.filename == "":
+        return jsonify({"error": "No file selected"}), 400
 
-        file = request.files["file"]
-        if file.filename == "":
-            error = "No file selected"
-            return render_template("index.html", error=error, sections=sections)
+    if file and allowed_file(file.filename):
+        filename = secure_filename(file.filename)
+        pdf_path = os.path.join(app.config["UPLOAD_FOLDER"], filename)
+        file.save(pdf_path)
 
-        if file and allowed_file(file.filename):
-            filename = secure_filename(file.filename)
-            pdf_path = os.path.join(app.config["UPLOAD_FOLDER"], filename)
-            file.save(pdf_path)
+        # Handle Deep Search
+        deep_search = request.form.get("deep_search")
+        topic = request.form.get("topic")
+        if deep_search and topic:
+            print(f"[INFO] Running deep search for topic: {topic}")
+            fetch_and_add_papers(topic, max_papers=15)
+            subprocess.run(["python", "utils/faiss_index.py"])
 
-            # Handle Deep Search
-            deep_search = request.form.get("deep_search")
-            topic = request.form.get("topic")
-            if deep_search and topic:
-                print(f"[INFO] Running deep search for topic: {topic}")
-                fetch_and_add_papers(topic, max_papers=15)   # <--- limit to 15
-                subprocess.run(["python", "utils/faiss_index.py"])
+        # Unique run ID
+        run_id = str(uuid.uuid4())[:8]
+        run_dir = os.path.join(RESULTS_FOLDER, run_id)
+        os.makedirs(run_dir, exist_ok=True)
 
-            # Create unique output folder per run
-            run_id = str(uuid.uuid4())[:8]
-            run_dir = os.path.join(RESULTS_FOLDER, run_id)
-            os.makedirs(run_dir, exist_ok=True)
+        # Run pipeline
+        os.system(f"python utils/run_pipeline.py --pdf_path {pdf_path} --out_dir {run_dir}")
 
-            # Run pipeline
-            os.system(f"python utils/run_pipeline.py --pdf_path {pdf_path} --out_dir {run_dir}")
+        review_file = os.path.join(run_dir, "review.txt")
+        if not os.path.exists(review_file):
+            with open(review_file, "w", encoding="utf-8") as f:
+                f.write(
+                    "**1. Summary of the Paper**\nThis is a mock summary.\n\n"
+                    "**2. Strengths**\n- Example strength.\n\n"
+                    "**3. Weaknesses**\n- Example weakness.\n\n"
+                    "**9. Final Recommendation**\n📌 Reject."
+                )
 
-            review_file = os.path.join(run_dir, "review.txt")
+        with open(review_file, "r", encoding="utf-8") as f:
+            review_text = f.read()
+        sections = parse_review(review_text)
 
-            if not os.path.exists(review_file):
-                with open(review_file, "w", encoding="utf-8") as f:
-                    f.write(
-                        "**1. Summary of the Paper**\nThis is a mock summary.\n\n"
-                        "**2. Strengths**\n- Example strength.\n\n"
-                        "**3. Weaknesses**\n- Example weakness.\n\n"
-                        "**9. Final Recommendation**\n📌 Reject."
-                    )
+        return jsonify({"review": sections})
 
-            with open(review_file, "r", encoding="utf-8") as f:
-                review_text = f.read()
-            sections = parse_review(review_text)
-        else:
-            error = "Invalid file type. Only PDF allowed."
-
-    return render_template("index.html", error=error, sections=sections)
+    return jsonify({"error": "Invalid file type. Only PDF allowed."}), 400
 
 
 if __name__ == "__main__":
