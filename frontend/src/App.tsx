@@ -13,7 +13,7 @@ function App() {
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
     if (element) {
-      const offset = 80; // Account for fixed navbar
+      const offset = 80;
       const elementPosition = element.getBoundingClientRect().top;
       const offsetPosition = elementPosition + window.pageYOffset - offset;
 
@@ -71,7 +71,10 @@ function App() {
                   <p className="text-xl mb-6 text-grey-50">
                     Join researchers worldwide who are accelerating their publication process
                   </p>
-                  <button className="bg-gradient-to-r from-blue-700 to-blue-500 text-white px-8 py-3 rounded-2xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200">
+                  <button
+                    className="bg-gradient-to-r from-blue-700 to-blue-500 text-white px-8 py-3 rounded-2xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
+                    onClick={navigateToReview} 
+                  >
                     Start Your Free Analysis
                   </button>
                 </div>

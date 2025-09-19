@@ -61,15 +61,10 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
         alert(data.error);
       } else {
         setResults({
-          noveltyScore: 85, // TODO: map backend values
-          plagiarismScore: 2,
-          factualAccuracy: 92,
-          citationQuality: 78,
           overallRecommendation: data.review["9. Final Recommendation"] || "Check review.txt",
           detailedFeedback: Object.keys(data.review).map((key) => ({
             category: key,
             feedback: data.review[key],
-            score: Math.floor(Math.random() * 100), // placeholder until backend sends scores
             status: "good"
           })),
         });
@@ -91,20 +86,17 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
   };
 
   return (
-    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-indigo-50 pt-20">
+    <div className="min-h-screen bg-gradient-to-br from-slate-50 to-blue-50 pt-20">
       <div className="max-w-4xl mx-auto px-6 py-8">
         {/* Header */}
         <div className="text-center mb-12">
           <button
             onClick={onBackToHome}
-            className="mb-6 text-indigo-600 hover:text-indigo-800 font-medium inline-flex items-center"
+            className="mb-2 text-blue-700 hover:text-blue-800 font-medium inline-flex items-center"
           >
             ← Back to Home
           </button>
-          <h1 className="text-4xl font-bold text-gray-900 mb-4">
-            Peer Review AI
-          </h1>
-          <p className="text-xl text-gray-600">
+          <p className="text-xl text-gray-700">
             Upload your research paper (PDF) for automated peer review analysis
           </p>
         </div>
@@ -121,7 +113,7 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
                 onDragLeave={handleDragLeave}
                 onDrop={handleDrop}
                 className={`border-2 border-dashed rounded-2xl p-12 text-center transition-colors ${
-                  dragOver ? 'border-indigo-400 bg-indigo-50' : 'border-gray-300 hover:border-indigo-400'
+                  dragOver ? 'border-blue-400 bg-blue-50' : 'border-gray-300 hover:border-blue-400'
                 } ${file ? 'border-green-400 bg-green-50' : ''}`}
               >
                 {file ? (
@@ -137,7 +129,7 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
                     <Upload className="mx-auto mb-4 text-gray-400" size={48} />
                     <p className="text-lg font-medium text-gray-700 mb-2">
                       Drop your PDF here or{' '}
-                      <label htmlFor="file-upload" className="text-indigo-600 underline cursor-pointer">
+                      <label htmlFor="file-upload" className="text-blue-700 underline cursor-pointer">
                         click to browse
                       </label>
                     </p>
@@ -162,11 +154,11 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
                     type="checkbox"
                     checked={enableDeepSearch}
                     onChange={(e) => setEnableDeepSearch(e.target.checked)}
-                    className="rounded border-gray-300 text-indigo-600 focus:ring-indigo-500"
+                    className="rounded border-gray-300 text-blue-600 focus:ring-blue-500"
                   />
                   <div>
                     <div className="font-semibold text-gray-900">Enable Deep Search</div>
-                    <div className="text-sm text-gray-600">More comprehensive analysis (takes longer)</div>
+                    <div className="text-sm text-gray-600">More comprehensive analysis (takes longer time)</div>
                   </div>
                 </label>
               </div>
@@ -180,7 +172,7 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
                   value={topic}
                   onChange={(e) => setTopic(e.target.value)}
                   placeholder="e.g., Machine Learning, Biology"
-                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-indigo-500 focus:border-transparent"
+                  className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                 />
               </div>
             </div>
@@ -189,7 +181,7 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
             <button
               onClick={handleRunReview}
               disabled={!file || isProcessing}
-              className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 text-white py-4 rounded-2xl font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
+              className="w-full bg-gradient-to-r from-blue-500 to-blue-700 text-white py-4 rounded-2xl font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-200 disabled:opacity-50 disabled:cursor-not-allowed disabled:transform-none"
             >
               {isProcessing ? (
                 <span className="flex items-center justify-center space-x-2">
@@ -207,24 +199,6 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
             {/* Overall Score */}
             <div className="bg-white rounded-3xl shadow-xl p-8">
               <h2 className="text-2xl font-bold text-gray-900 mb-6">Review Summary</h2>
-              <div className="grid md:grid-cols-4 gap-6 text-center">
-                <div>
-                  <div className="text-3xl font-bold text-blue-600">{results.noveltyScore}%</div>
-                  <div className="text-sm text-gray-600">Novelty Score</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-green-600">{results.plagiarismScore}%</div>
-                  <div className="text-sm text-gray-600">Plagiarism Risk</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-purple-600">{results.factualAccuracy}%</div>
-                  <div className="text-sm text-gray-600">Factual Accuracy</div>
-                </div>
-                <div>
-                  <div className="text-3xl font-bold text-indigo-600">{results.citationQuality}%</div>
-                  <div className="text-sm text-gray-600">Citation Quality</div>
-                </div>
-              </div>
               
               <div className="mt-8 p-6 bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl border border-green-200">
                 <h3 className="font-semibold text-gray-900 mb-2">Overall Recommendation</h3>
@@ -241,7 +215,6 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
                       {getStatusIcon(item.status)}
                       <h3 className="text-xl font-semibold text-gray-900">{item.category}</h3>
                     </div>
-                    <div className="text-2xl font-bold text-indigo-600">{item.score}%</div>
                   </div>
                   <p className="text-gray-700 leading-relaxed">{item.feedback}</p>
                 </div>
@@ -252,12 +225,9 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
             <div className="flex flex-col sm:flex-row gap-4 justify-center">
               <button
                 onClick={() => setResults(null)}
-                className="px-8 py-3 bg-gradient-to-r from-indigo-600 to-purple-600 text-white rounded-2xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
+                className="px-8 py-3 bg-gradient-to-r from-blue-600 to-blue-700 text-white rounded-2xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
               >
                 Analyze Another Paper
-              </button>
-              <button className="px-8 py-3 border-2 border-indigo-600 text-indigo-600 rounded-2xl font-semibold hover:bg-indigo-50 transition-all duration-200">
-                Download Report
               </button>
             </div>
           </div>
@@ -268,7 +238,7 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
       {isProcessing && (
         <div className="fixed inset-0 bg-black/50 backdrop-blur-sm flex items-center justify-center z-50">
           <div className="bg-white rounded-3xl p-8 max-w-md mx-4 text-center">
-            <div className="w-16 h-16 bg-gradient-to-r from-indigo-600 to-purple-600 rounded-2xl flex items-center justify-center mx-auto mb-4">
+            <div className="w-16 h-16 bg-gradient-to-r from-blue-600 to-blue-700 rounded-2xl flex items-center justify-center mx-auto mb-4">
               <Loader className="text-white animate-spin" size={32} />
             </div>
             <h3 className="text-xl font-semibold text-gray-900 mb-2">Analyzing Your Research</h3>

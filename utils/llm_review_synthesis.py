@@ -300,9 +300,6 @@ def synthesize_report(paper_dir: Path, output_file: Path, dry_run=False):
 
     **9. Final Recommendation**
     {final_reco}
-
-    ---
-    Generated on {datetime.now().strftime("%Y-%m-%d %H:%M:%S")}
     """)
 
     if dry_run:

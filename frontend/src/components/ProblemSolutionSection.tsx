@@ -18,7 +18,7 @@ const ProblemSolutionSection: React.FC = () => {
             <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent"> Reinvention ?</span>
           </h2>
         </div>
-
+ 
         <div className="grid lg:grid-cols-2 gap-16 items-center">
           {/* Problem Side */}
           <div className="space-y-8">
