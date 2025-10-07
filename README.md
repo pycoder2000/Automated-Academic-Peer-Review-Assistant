@@ -37,6 +37,13 @@ This tool analyzes research papers to provide structured, reviewer-style feedbac
 - **LLM Integration (optional):** `google.generativeai` (Gemini), `groq`, Hugging Face Inference API  
 
 ---
+## Website Overview
+
+<img width="1835" height="1080" alt="Screenshot_20250925_193919" src="https://github.com/user-attachments/assets/74a1444b-03c6-4811-a6aa-138425cf8aa3" />
+<img width="1840" height="971" alt="Screenshot_20250919_112236" src="https://github.com/user-attachments/assets/a1871891-43a0-485b-bd38-899c9480b883" />
+<img width="1851" height="1080" alt="Screenshot_20250925_193809" src="https://github.com/user-attachments/assets/e4d8c603-92b5-4fe6-938f-6bce016a82f6" />
+
+---
 
 ## 🚀 Quick Start  
 
