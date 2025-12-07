@@ -48,7 +48,17 @@ async function handleSubmit(event) {
       for (const [title, content] of Object.entries(data.review)) {
         const card = document.createElement("div");
         card.className = "card";
-        card.innerHTML = `<h3>${title}</h3><p>${content}</p>`;
+        
+        // Format content: convert em-dashes and newlines to proper HTML
+        let formattedContent = content
+          .replace(/—/g, "\n• ")  // Replace em-dash with newline and bullet
+          .split("\n")
+          .map(line => line.trim())
+          .filter(line => line.length > 0)
+          .map(line => `<div style="margin: 8px 0; line-height: 1.5;">${line}</div>`)
+          .join("");
+        
+        card.innerHTML = `<h3>${title}</h3><div>${formattedContent}</div>`;
         gridDiv.appendChild(card);
       }
     } else {

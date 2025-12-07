@@ -275,13 +275,13 @@ def synthesize_report(paper_dir: Path, output_file: Path, dry_run=False):
     This paper addresses a research problem of interest. Top similarity to corpus: {best_sim:.3f}. Citation quality score: {cit_score if cit_score is not None else 'N/A'}.
 
     **2. Strengths**
-    - {"; ".join(strengths) if strengths else 'None identified.'}
+    {chr(10).join("- " + s for s in strengths) if strengths else "- None identified."}
 
     **3. Weaknesses**
-    - {"; ".join(weaknesses) if weaknesses else 'None identified.'}
+    {chr(10).join("- " + w for w in weaknesses) if weaknesses else "- None identified."}
 
     **4. Suggestions for Improvement**
-    - {"; ".join(suggestions) if suggestions else 'No major suggestions provided.'}
+    {chr(10).join("- " + sg for sg in suggestions) if suggestions else "- No major suggestions provided."}
 
     **5. Section-wise Scores (0–10 each)**
     - Novelty: {scores['Novelty']}
@@ -290,13 +290,13 @@ def synthesize_report(paper_dir: Path, output_file: Path, dry_run=False):
     - Factual Accuracy: {scores['Factual Accuracy']}
 
     **6. Claim Labels (TRUE/FALSE)**
-    {"\n".join(claim_label_lines)}
+    {chr(10).join(claim_label_lines)}
 
     **7. Plagiarism / Overlap Evidence (top {TOP_EVIDENCE})**
-    {"\n".join(overlap_lines)}
+    {chr(10).join(overlap_lines)}
 
     **8. Duplicate Claim Evidence (top {TOP_EVIDENCE})**
-    {"\n".join(dup_lines)}
+    {chr(10).join(dup_lines)}
 
     **9. Final Recommendation**
     {final_reco}
