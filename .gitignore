@@ -5,6 +5,10 @@ data/parsed_text/
 data/results
 uploads
 frontend/node_modules
+frontend/node_modules/*
 frontend/dist
 frontend/node_modules/.package-lock.json
 frontend/node_modules/.vite/deps/_metadata.json
+data/references/*
+.DS_Store
+frontend/.DS_Store

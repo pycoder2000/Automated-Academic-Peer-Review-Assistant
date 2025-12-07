@@ -17,3 +17,4 @@ pandas
 label-studio-sdk
 huggingface_hub
 PyMuPDF
+pint

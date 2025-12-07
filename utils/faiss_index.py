@@ -10,19 +10,28 @@ FAISS_DIR = "data/faiss_indexes"
 PDF_DIR = "data/pdfs"
 METADATA_PATH = "data/metadata.json"
 
-def extract_text_from_pdf(pdf_path, max_chars=2000):
-    """Extract text from first few pages of a PDF."""
+
+def extract_text_from_file(file_path, max_chars=2000):
+    """Extract text from PDF or text file."""
     try:
-        reader = PdfReader(pdf_path)
-        text = ""
-        for page in reader.pages[:5]:
-            text += page.extract_text() or ""
-        return text[:max_chars]
+        if file_path.endswith(".pdf"):
+            reader = PdfReader(file_path)
+            text = ""
+            for page in reader.pages[:5]:
+                text += page.extract_text() or ""
+            return text[:max_chars]
+        elif file_path.endswith(".txt"):
+            with open(file_path, "r", encoding="utf-8") as f:
+                return f.read()[:max_chars]
+        else:
+            return f"ERROR: Unsupported file type {file_path}"
     except Exception as e:
-        return f"ERROR reading {pdf_path}: {e}"
+        return f"ERROR reading {file_path}: {e}"
+
 
 def normalize(vec: np.ndarray) -> np.ndarray:
     return vec / np.linalg.norm(vec, axis=1, keepdims=True)
+
 
 def build_faiss_index(pdf_dir, index_path, mapping_path, metadata_path=None):
     os.makedirs(os.path.dirname(index_path), exist_ok=True)
@@ -48,10 +57,10 @@ def build_faiss_index(pdf_dir, index_path, mapping_path, metadata_path=None):
     idx = 0
 
     for fname in os.listdir(pdf_dir):
-        if not fname.endswith(".pdf"):
+        if not (fname.endswith(".pdf") or fname.endswith(".txt")):
             continue
-        pdf_path = os.path.join(pdf_dir, fname)
-        text_excerpt = extract_text_from_pdf(pdf_path)
+        file_path = os.path.join(pdf_dir, fname)
+        text_excerpt = extract_text_from_file(file_path)
 
         # Embed
         vec = model.encode([text_excerpt], convert_to_numpy=True)
@@ -61,7 +70,7 @@ def build_faiss_index(pdf_dir, index_path, mapping_path, metadata_path=None):
         # Attach metadata if available
         meta = metadata_dict.get(fname, {})
         mapping[idx] = {
-            "pdf_path": pdf_path,
+            "file_path": file_path,
             "text_excerpt": text_excerpt,
             "title": meta.get("title"),
             "abstract": meta.get("abstract"),
@@ -71,7 +80,7 @@ def build_faiss_index(pdf_dir, index_path, mapping_path, metadata_path=None):
         idx += 1
 
     if not vectors:
-        raise ValueError("No PDFs found for indexing!")
+        raise ValueError("No PDFs or text files found for indexing!")
 
     vectors = np.vstack(vectors)
 
@@ -85,14 +94,35 @@ def build_faiss_index(pdf_dir, index_path, mapping_path, metadata_path=None):
 
     print(f"FAISS index built: {index_path}")
     print(f"Mapping saved: {mapping_path}")
-    print(f"Indexed {len(vectors)} PDFs")
+    print(f"Indexed {len(vectors)} documents")
+
 
 if __name__ == "__main__":
-    parser = argparse.ArgumentParser(description="Build FAISS index for research papers")
-    parser.add_argument("--pdf_dir", type=str, default=PDF_DIR, help="Folder containing PDFs")
-    parser.add_argument("--index_path", type=str, default=os.path.join(FAISS_DIR, "global_index.bin"))
-    parser.add_argument("--mapping_path", type=str, default=os.path.join(FAISS_DIR, "global_mapping.json"))
-    parser.add_argument("--metadata_path", type=str, default=METADATA_PATH, help="Optional metadata.json")
+    parser = argparse.ArgumentParser(
+        description="Build FAISS index for research papers"
+    )
+    parser.add_argument(
+        "--pdf_dir",
+        type=str,
+        default=PDF_DIR,
+        help="Folder containing PDFs or text files",
+    )
+    parser.add_argument(
+        "--index_path", type=str, default=os.path.join(FAISS_DIR, "global_index.bin")
+    )
+    parser.add_argument(
+        "--mapping_path",
+        type=str,
+        default=os.path.join(FAISS_DIR, "global_mapping.json"),
+    )
+    parser.add_argument(
+        "--metadata_path",
+        type=str,
+        default=METADATA_PATH,
+        help="Optional metadata.json",
+    )
 
     args = parser.parse_args()
-    build_faiss_index(args.pdf_dir, args.index_path, args.mapping_path, args.metadata_path)
+    build_faiss_index(
+        args.pdf_dir, args.index_path, args.mapping_path, args.metadata_path
+    )

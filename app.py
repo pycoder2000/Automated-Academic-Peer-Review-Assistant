@@ -5,14 +5,14 @@ import subprocess
 from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from utils.data_fetch import fetch_and_add_papers
-from flask_cors import CORS  
+from flask_cors import CORS
 
 UPLOAD_FOLDER = "uploads"
 RESULTS_FOLDER = "data/results"
 ALLOWED_EXTENSIONS = {"pdf"}
 
 app = Flask(__name__)
-CORS(app) 
+CORS(app)
 
 app.config["UPLOAD_FOLDER"] = UPLOAD_FOLDER
 
@@ -64,7 +64,24 @@ def review():
         os.makedirs(run_dir, exist_ok=True)
 
         # Run pipeline
-        os.system(f"python utils/run_pipeline.py --pdf_path {pdf_path} --out_dir {run_dir}")
+        result = subprocess.run(
+            [
+                "python",
+                "utils/run_pipeline.py",
+                "--pdf_path",
+                pdf_path,
+                "--out_dir",
+                run_dir,
+            ],
+            capture_output=True,
+            text=True,
+        )
+
+        if result.returncode != 0:
+            print(f"[ERROR] Pipeline failed:")
+            print(f"STDOUT: {result.stdout}")
+            print(f"STDERR: {result.stderr}")
+            return jsonify({"error": f"Pipeline failed: {result.stderr}"}), 500
 
         review_file = os.path.join(run_dir, "review.txt")
         if not os.path.exists(review_file):
