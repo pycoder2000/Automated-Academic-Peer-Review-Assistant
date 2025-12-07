@@ -2,7 +2,8 @@ requests
 feedparser
 tqdm
 flask
-PyPDF2          
+flask-cors
+PyPDF2
 pdfminer.six
 beautifulsoup4
 sentence-transformers
@@ -13,5 +14,6 @@ scikit-learn
 fastapi
 uvicorn
 pandas
-label-studio-sdk  
+label-studio-sdk
 huggingface_hub
+PyMuPDF

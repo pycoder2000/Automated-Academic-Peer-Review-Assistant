@@ -1,40 +1,40 @@
-# **Automated Academic Peer Review Assistant** 
+# **Automated Academic Peer Review Assistant**
 
-🚀 An AI-powered system for automated academic peer review.  
+🚀 An AI-powered system for automated academic peer review.
 
-This tool analyzes research papers to provide structured, reviewer-style feedback. It performs citation quality checks, novelty search, plagiarism detection, factual consistency analysis, and claim mapping, then synthesizes the results into a professional review report. Designed for researchers, educators, and institutions to accelerate the peer review process.  
-
----
-
-## ✨ Key Features  
-
-- **Automated Analysis Suite**  
-  - **Novelty Search:** Retrieve and compare papers using FAISS + semantic embeddings.  
-  - **Plagiarism Detection:** Detect exact and paraphrase overlaps via semantic similarity + string matching.  
-  - **Factual Checks:** Validate numerical values and units for consistency and plausibility.  
-  - **Claim Mapping:** Extract and match scientific claims against prior publications.  
-  - **Citation Alert (via GROBID):** Parse references, check citation quality, and flag missing/incorrect citations.  
-
-- **Enhanced Retrieval Features**  
-  - **Deep Search Mode:** On demand, fetch up to *N* new papers (via ArXiv, Semantic Scholar, CrossRef), store locally, and rebuild FAISS index for fresh comparisons.  
-
-- **LLM-Powered Review Synthesis**  
-  - **Structured Review Generation:** Summarize findings into section-wise scores, strengths/weaknesses, claim novelty, and final recommendation.  
-
-- **User-Friendly Interface**  
-  - **Web App (Flask):** Upload a PDF, optionally enable deep search, and receive a detailed review report.  
-  - **Exportable Results:** Outputs JSON artifacts (novelty, plagiarism, claim mapping, factual checks, citations) and a consolidated review file.  
+This tool analyzes research papers to provide structured, reviewer-style feedback. It performs citation quality checks, novelty search, plagiarism detection, factual consistency analysis, and claim mapping, then synthesizes the results into a professional review report. Designed for researchers, educators, and institutions to accelerate the peer review process.
 
 ---
 
-## 🛠️ Technology Stack  
+## ✨ Key Features
 
-- **Core Libraries:** `PyPDF2`, `requests`, `argparse`, `json`, `re`  
-- **NLP & Embeddings:** `sentence_transformers` (`all-MiniLM-L6-v2`), `faiss`, `scikit-learn`  
-- **Citation Parsing & Alerts:** `grobid` (for PDF parsing + reference extraction)  
-- **Claim & Factual Analysis:** `pint` (unit normalization), regex-based claim extraction  
-- **Web & UI:** `Flask`, `Jinja2`  
-- **LLM Integration (optional):** `google.generativeai` (Gemini), `groq`, Hugging Face Inference API  
+- **Automated Analysis Suite**
+  - **Novelty Search:** Retrieve and compare papers using FAISS + semantic embeddings.
+  - **Plagiarism Detection:** Detect exact and paraphrase overlaps via semantic similarity + string matching.
+  - **Factual Checks:** Validate numerical values and units for consistency and plausibility.
+  - **Claim Mapping:** Extract and match scientific claims against prior publications.
+  - **Citation Alert (via GROBID):** Parse references, check citation quality, and flag missing/incorrect citations.
+
+- **Enhanced Retrieval Features**
+  - **Deep Search Mode:** On demand, fetch up to *N* new papers (via ArXiv, Semantic Scholar, CrossRef), store locally, and rebuild FAISS index for fresh comparisons.
+
+- **LLM-Powered Review Synthesis**
+  - **Structured Review Generation:** Summarize findings into section-wise scores, strengths/weaknesses, claim novelty, and final recommendation.
+
+- **User-Friendly Interface**
+  - **Web App (Flask):** Upload a PDF, optionally enable deep search, and receive a detailed review report.
+  - **Exportable Results:** Outputs JSON artifacts (novelty, plagiarism, claim mapping, factual checks, citations) and a consolidated review file.
+
+---
+
+## 🛠️ Technology Stack
+
+- **Core Libraries:** `PyPDF2`, `requests`, `argparse`, `json`, `re`
+- **NLP & Embeddings:** `sentence_transformers` (`all-MiniLM-L6-v2`), `faiss`, `scikit-learn`
+- **Citation Parsing & Alerts:** `grobid` (for PDF parsing + reference extraction)
+- **Claim & Factual Analysis:** `pint` (unit normalization), regex-based claim extraction
+- **Web & UI:** `Flask`, `Jinja2`
+- **LLM Integration (optional):** `google.generativeai` (Gemini), `groq`, Hugging Face Inference API
 
 ---
 ## Website Overview
@@ -45,14 +45,16 @@ This tool analyzes research papers to provide structured, reviewer-style feedbac
 
 ---
 
-## 🚀 Quick Start  
+## 🚀 Quick Start
 
-1. **Clone the repository and install dependencies:**  
+### Backend Setup
+
+1. **Clone the repository and install dependencies:**
    ```bash
    git clone https://github.com/BhaveshBhakta/Automated-Academic-Peer-Review-Assistant
    cd Automated-Academic-Peer-Review-Assistant
    pip install -r requirements.txt
-    ````
+   ```
 
 2. **Set up environment variables (for LLM integration):**
    Create a `.env` file in the project root with:
@@ -65,35 +67,58 @@ This tool analyzes research papers to provide structured, reviewer-style feedbac
 
    *Note: These are optional, but required for LLM-based review synthesis.*
 
-3. **Run PDF parsing (extract text + citations using GROBID):**
-
-  ```bash
-  docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2
-  ```
-   (Keep grobid running in a separate terminal.)
+3. **Start GROBID (in a separate terminal):**
 
    ```bash
-   python utils/pdf_parse.py
+   docker run -t --rm -p 8070:8070 lfoppiano/grobid:0.7.2
    ```
+   Keep this running while using the application.
 
-4. **Build FAISS index for similarity search:**
+4. **Build FAISS index for similarity search (Optional - only if using custom PDFs):**
 
    ```bash
    python utils/faiss_index.py \
-       --pdf_dir data/pdfs \
+       --pdf_dir data/txt \
        --index_path data/faiss_indexes/global_index.bin \
        --mapping_path data/faiss_indexes/global_mapping.json \
        --metadata_path data/metadata.json
    ```
 
-5. **Run the application:**
+### Run the Application
+
+5. **Start the Flask backend:**
 
    ```bash
    python app.py
    ```
+   The backend API will be available at `http://localhost:5000/api/review`
 
 6. **Access the UI:**
    Open [http://localhost:5000](http://localhost:5000) in your browser.
+
+   The application uses a built-in simple HTML/CSS/JS frontend served from the `/templates` directory. No additional frontend build step is required.
+
+### Optional: Using the React Frontend
+
+If you prefer to build and use the React-based frontend (located in `/frontend`):
+
+```bash
+# Install frontend dependencies
+cd frontend
+npm install
+
+# Build the React app
+npm run build
+
+# The built files will be in frontend/dist/
+# Ensure Flask serves these files (configuration needed in app.py)
+
+# Return to root and run Flask
+cd ..
+python app.py
+```
+
+**Note:** The current `app.py` serves the simple HTML template by default. To use the React build, you'll need to configure Flask to serve the built React files.
 
 
 ---
