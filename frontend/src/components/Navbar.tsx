@@ -4,8 +4,8 @@ import { auth } from '../utils/auth';
 
 interface NavbarProps {
     onNavigate: (section: string) => void;
-    currentPage: 'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper';
-    setCurrentPage: (page: 'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper') => void;
+    currentPage: 'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper' | 'submit-paper' | 'review-paper';
+    setCurrentPage: (page: 'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper' | 'submit-paper' | 'review-paper') => void;
     onLogin: () => void;
     onLogout: () => void;
 }
@@ -79,8 +79,6 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage, setCurrentPage
         { label: 'Problem & Solution', section: 'problem' },
         { label: 'Key Features', section: 'features' },
         { label: 'How It Works', section: 'how-it-works' },
-        { label: 'About', section: 'about' },
-        { label: 'Contact', section: 'footer' },
     ];
 
     return (
@@ -129,9 +127,12 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage, setCurrentPage
                                                 </button>
                                                 <button
                                                     onClick={() => {
-                                                        onLogout();
                                                         setIsProfileDropdownOpen(false);
                                                         setIsMenuOpen(false);
+                                                        // Ensure we navigate to landing page
+                                                        setCurrentPage('landing');
+                                                        // Then call logout handler
+                                                        onLogout();
                                                     }}
                                                     className="w-full text-left px-4 py-2 text-red-600 hover:bg-red-50 rounded-lg transition-colors"
                                                 >
@@ -196,15 +197,26 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage, setCurrentPage
                                     Perform Peer Review
                                 </button>
                                 {currentUser && (
-                                    <button
-                                        onClick={() => {
-                                            setCurrentPage('papers');
-                                            setIsMenuOpen(false);
-                                        }}
-                                        className="w-full bg-gradient-to-r from-indigo-600 to-indigo-700 text-white px-6 py-3 rounded-3xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
-                                    >
-                                        View Papers
-                                    </button>
+                                    <>
+                                        <button
+                                            onClick={() => {
+                                                setCurrentPage('papers');
+                                                setIsMenuOpen(false);
+                                            }}
+                                            className="w-full bg-gradient-to-r from-indigo-600 to-indigo-700 text-white px-6 py-3 rounded-3xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
+                                        >
+                                            View Papers
+                                        </button>
+                                        <button
+                                            onClick={() => {
+                                                setCurrentPage('review-paper');
+                                                setIsMenuOpen(false);
+                                            }}
+                                            className="w-full bg-gradient-to-r from-purple-600 to-purple-700 text-white px-6 py-3 rounded-3xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
+                                        >
+                                            Review Papers
+                                        </button>
+                                    </>
                                 )}
                             </div>
                         </nav>

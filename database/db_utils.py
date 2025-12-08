@@ -50,6 +50,10 @@ def create_user(email: str, password: str, name: str, image_url: Optional[str] =
                     pass
 
         conn.commit()
+
+        # Try to link user to Persons table if email matches
+        link_user_to_person(user_id)
+
         return get_user_by_id(user_id)
     except sqlite3.IntegrityError:
         return None  # User already exists
@@ -381,6 +385,429 @@ def get_publications() -> list:
     except Exception as e:
         print(f"Error getting publications: {e}")
         return []
+    finally:
+        conn.close()
+
+def link_user_to_person(user_id: int) -> Optional[int]:
+    """Check if user email exists in Persons table and link them via person_id"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        # Get user email
+        cursor.execute("SELECT email FROM Users WHERE user_id = ?", (user_id,))
+        user_row = cursor.fetchone()
+        if not user_row:
+            return None
+
+        user_email = user_row[0]
+
+        # Check if email exists in Persons table
+        cursor.execute("SELECT person_id FROM Persons WHERE email = ?", (user_email,))
+        person_row = cursor.fetchone()
+
+        if person_row:
+            person_id = person_row[0]
+            # Update user to link to person
+            cursor.execute("UPDATE Users SET person_id = ? WHERE user_id = ?", (person_id, user_id))
+            conn.commit()
+            return person_id
+        return None
+    except Exception as e:
+        print(f"Error linking user to person: {e}")
+        return None
+    finally:
+        conn.close()
+
+def calculate_degrees_of_separation(submission_id: int, reviewer_person_id: int) -> int:
+    """Calculate degrees of separation between paper author and reviewer
+    Returns the number of matching attributes (lower = better separation)"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        # Get submission author info
+        cursor.execute("""
+            SELECT author_affiliation_id, author_workplace_id,
+                   author_bachelor_institution_id, author_master_institution_id, author_phd_institution_id,
+                   author_city, author_state, author_country, author_advisor_name, author_research_group
+            FROM ReviewSubmissions WHERE submission_id = ?
+        """, (submission_id,))
+        submission_row = cursor.fetchone()
+
+        if not submission_row:
+            return 999  # High penalty if submission not found
+
+        (author_aff, author_work, author_bach, author_mast, author_phd,
+         author_city, author_state, author_country, author_advisor, author_group) = submission_row
+
+        # Get reviewer info
+        cursor.execute("""
+            SELECT affiliation_id, workplace_id,
+                   bachelor_institution_id, master_institution_id, phd_institution_id,
+                   city, state, country, advisor_id, research_group_name
+            FROM Persons WHERE person_id = ?
+        """, (reviewer_person_id,))
+        reviewer_row = cursor.fetchone()
+
+        if not reviewer_row:
+            return 999  # High penalty if reviewer not found
+
+        (rev_aff, rev_work, rev_bach, rev_mast, rev_phd,
+         rev_city, rev_state, rev_country, rev_advisor_id, rev_group) = reviewer_row
+
+        # Count matches (conflicts)
+        matches = 0
+
+        # Institution matches
+        if author_aff and rev_aff and author_aff == rev_aff:
+            matches += 1
+        if author_work and rev_work and author_work == rev_work:
+            matches += 1
+        if author_bach and rev_bach and author_bach == rev_bach:
+            matches += 1
+        if author_mast and rev_mast and author_mast == rev_mast:
+            matches += 1
+        if author_phd and rev_phd and author_phd == rev_phd:
+            matches += 1
+
+        # Location matches
+        if author_city and rev_city and author_city.lower() == rev_city.lower():
+            matches += 1
+        if author_state and rev_state and author_state.lower() == rev_state.lower():
+            matches += 1
+        if author_country and rev_country and author_country.lower() == rev_country.lower():
+            matches += 1
+
+        # Advisor match (check if reviewer's advisor matches author's advisor name)
+        if author_advisor and rev_advisor_id:
+            cursor.execute("SELECT first_name || ' ' || last_name FROM Persons WHERE person_id = ?", (rev_advisor_id,))
+            advisor_row = cursor.fetchone()
+            if advisor_row and author_advisor.lower() in advisor_row[0].lower():
+                matches += 1
+
+        # Research group match
+        if author_group and rev_group and author_group.lower() == rev_group.lower():
+            matches += 1
+
+        return matches
+    except Exception as e:
+        print(f"Error calculating degrees of separation: {e}")
+        return 999
+    finally:
+        conn.close()
+
+def match_reviewer_to_paper(submission_id: int) -> Optional[int]:
+    """Match a paper to a reviewer with maximum degrees of separation
+    Returns the person_id of the matched reviewer, or None if no suitable reviewer found"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        # Get all potential reviewers (persons with role 'Reviewer' or 'Both')
+        cursor.execute("""
+            SELECT person_id FROM Persons
+            WHERE role IN ('Reviewer', 'Both')
+        """)
+        reviewers = [row[0] for row in cursor.fetchall()]
+
+        if not reviewers:
+            return None
+
+        # Check which reviewers are already assigned to this paper
+        cursor.execute("""
+            SELECT reviewer_person_id FROM PaperReviewerAssignments
+            WHERE submission_id = ?
+        """, (submission_id,))
+        assigned_reviewers = {row[0] for row in cursor.fetchall()}
+
+        # Filter out already assigned reviewers
+        available_reviewers = [r for r in reviewers if r not in assigned_reviewers]
+
+        if not available_reviewers:
+            return None
+
+        # Calculate separation for each reviewer
+        reviewer_scores = []
+        for reviewer_id in available_reviewers:
+            separation = calculate_degrees_of_separation(submission_id, reviewer_id)
+            reviewer_scores.append((reviewer_id, separation))
+
+        # Find maximum separation (minimum matches)
+        if not reviewer_scores:
+            return None
+
+        min_separation = min(score for _, score in reviewer_scores)
+        best_reviewers = [rev_id for rev_id, score in reviewer_scores if score == min_separation]
+
+        # Randomly select from best reviewers
+        import random
+        selected_reviewer = random.choice(best_reviewers)
+
+        # Create assignment
+        cursor.execute("""
+            INSERT INTO PaperReviewerAssignments (submission_id, reviewer_person_id, status)
+            VALUES (?, ?, 'assigned')
+        """, (submission_id, selected_reviewer))
+        conn.commit()
+
+        return selected_reviewer
+    except Exception as e:
+        print(f"Error matching reviewer to paper: {e}")
+        return None
+    finally:
+        conn.close()
+
+def get_review_submissions(user_email: str, is_admin: bool = False) -> list:
+    """Get review submissions
+    Admin sees all submissions, regular users see only their assigned papers"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        if is_admin:
+            # Admin sees all submissions
+            cursor.execute("""
+                SELECT
+                    rs.submission_id,
+                    rs.title,
+                    rs.publication_year,
+                    rs.abstract,
+                    rs.link,
+                    rs.topic,
+                    rs.author_name,
+                    rs.submission_date,
+                    rs.status,
+                    u.name as submitter_name,
+                    u.email as submitter_email
+                FROM ReviewSubmissions rs
+                LEFT JOIN Users u ON rs.user_id = u.user_id
+                ORDER BY rs.submission_date DESC
+            """)
+        else:
+            # Regular users see only their assigned papers
+            # First, get their person_id
+            cursor.execute("""
+                SELECT person_id FROM Users WHERE email = ?
+            """, (user_email,))
+            user_row = cursor.fetchone()
+
+            if not user_row or not user_row[0]:
+                return []  # User not linked to Persons table
+
+            person_id = user_row[0]
+
+            cursor.execute("""
+                SELECT
+                    rs.submission_id,
+                    rs.title,
+                    rs.publication_year,
+                    rs.abstract,
+                    rs.link,
+                    rs.topic,
+                    rs.author_name,
+                    rs.submission_date,
+                    rs.status,
+                    u.name as submitter_name,
+                    u.email as submitter_email,
+                    pra.status as assignment_status
+                FROM ReviewSubmissions rs
+                INNER JOIN PaperReviewerAssignments pra ON rs.submission_id = pra.submission_id
+                LEFT JOIN Users u ON rs.user_id = u.user_id
+                WHERE pra.reviewer_person_id = ?
+                ORDER BY rs.submission_date DESC
+            """, (person_id,))
+
+        rows = cursor.fetchall()
+        submissions = []
+
+        for row in rows:
+            submission = {
+                'submission_id': row[0],
+                'title': row[1],
+                'publication_year': row[2],
+                'abstract': row[3],
+                'link': row[4],
+                'topic': row[5],
+                'author_name': row[6],
+                'submission_date': row[7],
+                'status': row[8],
+                'submitter_name': row[9],
+                'submitter_email': row[10]
+            }
+
+            if not is_admin and len(row) > 11:
+                submission['assignment_status'] = row[11]
+
+            submissions.append(submission)
+
+        return submissions
+    except Exception as e:
+        print(f"Error getting review submissions: {e}")
+        return []
+    finally:
+        conn.close()
+
+def auto_assign_reviewers_to_pending_papers():
+    """Automatically assign reviewers to all pending papers"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        # Get all pending papers without assignments
+        cursor.execute("""
+            SELECT rs.submission_id
+            FROM ReviewSubmissions rs
+            LEFT JOIN PaperReviewerAssignments pra ON rs.submission_id = pra.submission_id
+            WHERE rs.status = 'pending' AND pra.assignment_id IS NULL
+        """)
+
+        pending_papers = [row[0] for row in cursor.fetchall()]
+
+        assigned_count = 0
+        for submission_id in pending_papers:
+            reviewer_id = match_reviewer_to_paper(submission_id)
+            if reviewer_id:
+                assigned_count += 1
+                # Update submission status
+                cursor.execute("""
+                    UPDATE ReviewSubmissions SET status = 'in_review'
+                    WHERE submission_id = ?
+                """, (submission_id,))
+
+        conn.commit()
+        return assigned_count
+    except Exception as e:
+        print(f"Error auto-assigning reviewers: {e}")
+        return 0
+    finally:
+        conn.close()
+
+def is_user_reviewer_for_submission(user_email: str, submission_id: int) -> bool:
+    """Check if a user is the assigned reviewer for a submission"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        # Get user's person_id
+        cursor.execute("SELECT person_id FROM Users WHERE email = ?", (user_email,))
+        user_row = cursor.fetchone()
+
+        if not user_row or not user_row[0]:
+            return False  # User not linked to Persons table
+
+        person_id = user_row[0]
+
+        # Check if this person is assigned as reviewer
+        cursor.execute("""
+            SELECT COUNT(*) FROM PaperReviewerAssignments
+            WHERE submission_id = ? AND reviewer_person_id = ?
+        """, (submission_id, person_id))
+
+        count = cursor.fetchone()[0]
+        return count > 0
+    except Exception as e:
+        print(f"Error checking reviewer status: {e}")
+        return False
+    finally:
+        conn.close()
+
+def create_or_update_review(submission_id: int, reviewer_person_id: int, review_text: str) -> Optional[Dict[str, Any]]:
+    """Create a new review or update existing review"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        # Check if review already exists
+        cursor.execute("""
+            SELECT review_id FROM Reviews
+            WHERE submission_id = ? AND reviewer_person_id = ?
+        """, (submission_id, reviewer_person_id))
+
+        existing_review = cursor.fetchone()
+
+        if existing_review:
+            # Update existing review
+            cursor.execute("""
+                UPDATE Reviews
+                SET review_text = ?, last_updated = CURRENT_TIMESTAMP
+                WHERE submission_id = ? AND reviewer_person_id = ?
+            """, (review_text, submission_id, reviewer_person_id))
+
+            # Update assignment status to completed
+            cursor.execute("""
+                UPDATE PaperReviewerAssignments
+                SET status = 'completed'
+                WHERE submission_id = ? AND reviewer_person_id = ?
+            """, (submission_id, reviewer_person_id))
+        else:
+            # Create new review
+            cursor.execute("""
+                INSERT INTO Reviews (submission_id, reviewer_person_id, review_text)
+                VALUES (?, ?, ?)
+            """, (submission_id, reviewer_person_id, review_text))
+
+            # Update assignment status to completed
+            cursor.execute("""
+                UPDATE PaperReviewerAssignments
+                SET status = 'completed'
+                WHERE submission_id = ? AND reviewer_person_id = ?
+            """, (submission_id, reviewer_person_id))
+
+        conn.commit()
+
+        # Return the review
+        cursor.execute("""
+            SELECT review_id, submission_id, reviewer_person_id, review_text,
+                   submitted_date, last_updated
+            FROM Reviews
+            WHERE submission_id = ? AND reviewer_person_id = ?
+        """, (submission_id, reviewer_person_id))
+
+        row = cursor.fetchone()
+        if row:
+            return {
+                'review_id': row[0],
+                'submission_id': row[1],
+                'reviewer_person_id': row[2],
+                'review_text': row[3],
+                'submitted_date': row[4],
+                'last_updated': row[5]
+            }
+        return None
+    except Exception as e:
+        print(f"Error creating/updating review: {e}")
+        return None
+    finally:
+        conn.close()
+
+def get_review_by_reviewer(submission_id: int, reviewer_person_id: int) -> Optional[Dict[str, Any]]:
+    """Get review by reviewer for a submission"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        cursor.execute("""
+            SELECT review_id, submission_id, reviewer_person_id, review_text,
+                   submitted_date, last_updated
+            FROM Reviews
+            WHERE submission_id = ? AND reviewer_person_id = ?
+        """, (submission_id, reviewer_person_id))
+
+        row = cursor.fetchone()
+        if row:
+            return {
+                'review_id': row[0],
+                'submission_id': row[1],
+                'reviewer_person_id': row[2],
+                'review_text': row[3],
+                'submitted_date': row[4],
+                'last_updated': row[5]
+            }
+        return None
+    except Exception as e:
+        print(f"Error getting review: {e}")
+        return None
     finally:
         conn.close()
 

@@ -6,7 +6,8 @@ from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from utils.data_fetch import fetch_and_add_papers
 from flask_cors import CORS
-from database.db_utils import get_statistics, get_research_interests, create_user, authenticate_user, get_user_by_email, get_user_by_id, update_user, get_publications, create_review_submission, get_institutions, get_companies
+from database.db_utils import get_statistics, get_research_interests, create_user, authenticate_user, get_user_by_email, get_user_by_id, update_user, get_publications, create_review_submission, get_institutions, get_companies, get_review_submissions, auto_assign_reviewers_to_pending_papers, link_user_to_person, is_user_reviewer_for_submission, create_or_update_review, get_review_by_reviewer
+from database.schema import create_enums_and_tables
 
 UPLOAD_FOLDER = "uploads"
 RESULTS_FOLDER = "data/results"
@@ -308,12 +309,145 @@ def create_review_submission_endpoint():
         )
 
         if submission:
+            # Auto-assign reviewers to the newly submitted paper
+            auto_assign_reviewers_to_pending_papers()
             return jsonify(submission), 201
         else:
             return jsonify({"error": "Failed to create submission"}), 500
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
+
+@app.route("/api/review-submissions", methods=["GET"])
+def get_review_submissions_endpoint():
+    """Get review submissions - admin sees all, regular users see only assigned papers"""
+    try:
+        user_email = request.args.get("user_email")
+        is_admin = request.args.get("is_admin", "false").lower() == "true"
+
+        if not user_email:
+            return jsonify({"error": "user_email parameter is required"}), 400
+
+        # Check if user is admin
+        ADMIN_EMAIL = "desaiparth2000@gmail.com"
+        if user_email == ADMIN_EMAIL:
+            is_admin = True
+
+        submissions = get_review_submissions(user_email, is_admin)
+        return jsonify(submissions), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/link-user-to-person", methods=["POST"])
+def link_user_to_person_endpoint():
+    """Manually link a user to a person in the Persons table"""
+    try:
+        data = request.get_json()
+        user_id = data.get("user_id")
+
+        if not user_id:
+            return jsonify({"error": "user_id is required"}), 400
+
+        person_id = link_user_to_person(user_id)
+        if person_id:
+            return jsonify({"person_id": person_id, "message": "User linked to person successfully"}), 200
+        else:
+            return jsonify({"message": "No matching person found for this user"}), 404
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/auto-assign-reviewers", methods=["POST"])
+def auto_assign_reviewers_endpoint():
+    """Manually trigger auto-assignment of reviewers to pending papers"""
+    try:
+        assigned_count = auto_assign_reviewers_to_pending_papers()
+        return jsonify({"assigned_count": assigned_count, "message": f"Assigned reviewers to {assigned_count} papers"}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/check-reviewer", methods=["GET"])
+def check_reviewer_endpoint():
+    """Check if a user is the assigned reviewer for a submission"""
+    try:
+        user_email = request.args.get("user_email")
+        submission_id = request.args.get("submission_id", type=int)
+
+        if not user_email or not submission_id:
+            return jsonify({"error": "user_email and submission_id are required"}), 400
+
+        is_reviewer = is_user_reviewer_for_submission(user_email, submission_id)
+        return jsonify({"is_reviewer": is_reviewer}), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/reviews", methods=["POST"])
+def create_review_endpoint():
+    """Create or update a review"""
+    try:
+        data = request.get_json()
+        user_email = data.get("user_email")
+        submission_id = data.get("submission_id")
+        review_text = data.get("review_text")
+
+        if not all([user_email, submission_id, review_text]):
+            return jsonify({"error": "user_email, submission_id, and review_text are required"}), 400
+
+        # Get user's person_id
+        from database.db_utils import get_user_by_email
+        user = get_user_by_email(user_email)
+        if not user or not user.get('person_id'):
+            return jsonify({"error": "User not found or not linked to Persons table"}), 404
+
+        reviewer_person_id = user['person_id']
+
+        # Create or update review
+        review = create_or_update_review(submission_id, reviewer_person_id, review_text)
+
+        if review:
+            return jsonify(review), 201
+        else:
+            return jsonify({"error": "Failed to create/update review"}), 500
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/reviews", methods=["GET"])
+def get_review_endpoint():
+    """Get review by reviewer for a submission"""
+    try:
+        user_email = request.args.get("user_email")
+        submission_id = request.args.get("submission_id", type=int)
+
+        if not user_email or not submission_id:
+            return jsonify({"error": "user_email and submission_id are required"}), 400
+
+        # Get user's person_id
+        from database.db_utils import get_user_by_email
+        user = get_user_by_email(user_email)
+        if not user or not user.get('person_id'):
+            return jsonify({"error": "User not found or not linked to Persons table"}), 404
+
+        reviewer_person_id = user['person_id']
+
+        review = get_review_by_reviewer(submission_id, reviewer_person_id)
+
+        if review:
+            return jsonify(review), 200
+        else:
+            return jsonify({"message": "No review found"}), 404
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+# Initialize database schema on startup
+try:
+    create_enums_and_tables()
+except Exception as e:
+    print(f"Warning: Could not initialize database schema: {e}")
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)
