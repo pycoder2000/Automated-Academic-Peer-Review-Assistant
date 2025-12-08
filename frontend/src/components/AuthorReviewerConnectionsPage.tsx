@@ -437,8 +437,7 @@ const AuthorReviewerConnectionsPage: React.FC<AuthorReviewerConnectionsPageProps
                                 {/* Summary */}
                                 <div className={`mt-6 p-4 rounded-xl ${getSeparationBgColor(selectedConnection.separation_score)} border`}>
                                     <p className="text-gray-800 font-medium text-center">
-                                        {getSeparationLabel(selectedConnection.separation_score)} —
-                                        {selectedConnection.degrees_of_separation} out of {selectedConnection.max_possible_conflicts} potential conflicts detected
+                                        {getSeparationLabel(selectedConnection.separation_score)} : {selectedConnection.degrees_of_separation} out of {selectedConnection.max_possible_conflicts} potential conflicts detected
                                     </p>
                                 </div>
                             </div>
