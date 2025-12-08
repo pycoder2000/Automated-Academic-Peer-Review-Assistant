@@ -7,7 +7,6 @@ from werkzeug.utils import secure_filename
 from utils.data_fetch import fetch_and_add_papers
 from flask_cors import CORS
 from database.db_utils import get_statistics, get_research_interests, create_user, authenticate_user, get_user_by_email, get_user_by_id, update_user, get_publications, create_review_submission, get_institutions, get_companies, get_review_submissions, auto_assign_reviewers_to_pending_papers, link_user_to_person, is_user_reviewer_for_submission, create_or_update_review, get_review_by_reviewer
-from database.schema import create_enums_and_tables
 
 UPLOAD_FOLDER = "uploads"
 RESULTS_FOLDER = "data/results"
@@ -442,13 +441,6 @@ def get_review_endpoint():
             return jsonify({"message": "No review found"}), 404
     except Exception as e:
         return jsonify({"error": str(e)}), 500
-
-
-# Initialize database schema on startup
-try:
-    create_enums_and_tables()
-except Exception as e:
-    print(f"Warning: Could not initialize database schema: {e}")
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0", port=5000)

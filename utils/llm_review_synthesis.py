@@ -244,8 +244,9 @@ def synthesize_report(paper_dir: Path, output_file: Path, dry_run=False):
             )
         else:
             strengths.append(
-                f"Top similarity is {best_sim:.3f} — suggests some overlap but not critical."
+                f"Top similarity is {best_sim:.3f}"
             )
+            strengths.append("This suggests some overlap but not critical.")
 
     # Plagiarism reasoning
     if not plagiarism:
@@ -317,47 +318,45 @@ def synthesize_report(paper_dir: Path, output_file: Path, dry_run=False):
             "No candidate claims were extracted from the paper. To enable claim labeling, ensure claim_mapping step is run and produces mappings."
         ]
 
+    def fmt_list(items, default="• None.") -> str:
+        return "\n".join(items) if items else default
+
+    def bullet_list(items):
+        return [f"• {it}" for it in items] if items else []
+
     # Evidence lists
     overlap_lines = []
     if plagiarism:
         top_ov = plag_sum["top_overlaps"]
         if not top_ov:
-            overlap_lines.append("No overlaps reported by plagiarism step.")
+            overlap_lines.append("• No overlaps reported by plagiarism step.")
         else:
             for ov in top_ov:
-                if ov.get("link"):
-                    overlap_lines.append(
-                        f"- [{ov['pdf_name']}]({ov['link']}) (score={ov['score']:.3f}) — {ov['snippet'][:200]}..."
-                    )
-                else:
-                    overlap_lines.append(
-                        f"- {ov.get('pdf_name', ov.get('pdf_path'))} (score={ov['score']:.3f}) — {ov['snippet'][:200]}..."
-                    )
+                label = ov.get("pdf_name", ov.get("pdf_path", "Source"))
+                snippet = ov['snippet'][:200].replace("\n", " ").strip()
+                line = f"• {label} (score={ov['score']:.3f}) — {snippet}"
+                overlap_lines.append(line)
     else:
-        overlap_lines.append("No plagiarism JSON found.")
+        overlap_lines.append("• No plagiarism JSON found.")
 
     # duplicate claims evidence
     dup_lines = []
     if claim_dups:
         for d in claim_dups:
-            dup_lines.append(
-                f"- sim={d.get('similarity'):.3f} — {d.get('claim')[:200]}..."
-            )
+            snippet = (d.get('claim', '') or '')[:200].replace("\n", " ").strip()
+            dup_lines.append(f"• sim={d.get('similarity'):.3f} — {snippet}")
     else:
         if claims:
-            # maybe no exact duplicates
             top_claims = sorted(
                 claims.get("mappings", []),
                 key=lambda x: x.get("similarity", 0.0),
                 reverse=True,
             )[:TOP_EVIDENCE]
             for tc in top_claims:
-                dup_lines.append(
-                    f"- sim={d.get('similarity'):.3f} — {d.get('matched_paper_title', 'Unknown')} "
-                    f"({d.get('matched_paper_link', '')}) — {d.get('claim')[:200]}..."
-                )
+                snippet = (tc.get('claim', '') or '')[:200].replace("\n", " ").strip()
+                dup_lines.append(f"• sim={tc.get('similarity'):.3f} — {snippet}")
         else:
-            dup_lines.append("No claim mapping available.")
+            dup_lines.append("• No claim mapping available.")
 
     # Final recommendation (with override)
     final_reco = build_final_recommendation(
@@ -365,39 +364,41 @@ def synthesize_report(paper_dir: Path, output_file: Path, dry_run=False):
     )
 
     # Build report text
-    report = dedent(
-        f"""
-    **1. Summary of the Paper**
-    This paper addresses a research problem of interest. Top similarity to corpus: {best_sim:.3f}. Citation quality score: {cit_score if cit_score is not None else 'N/A'}.
+    report_sections = [
+        "**1. Summary of the Paper**",
+        f"• Top similarity to corpus: {best_sim:.3f}",
+        f"• Citation quality score: {cit_score if cit_score is not None else 'N/A'}",
+        "",
+        "**2. Strengths**",
+        *fmt_list(bullet_list(strengths), "• None identified.").split("\n"),
+        "",
+        "**3. Weaknesses**",
+        *fmt_list(bullet_list(weaknesses), "• None identified.").split("\n"),
+        "",
+        "**4. Suggestions for Improvement**",
+        *fmt_list(bullet_list(suggestions), "• No major suggestions provided.").split("\n"),
+        "",
+        "**5. Section-wise Scores (0–10 each)**",
+        f"• Novelty: {scores['Novelty']}",
+        f"• Claims (Citation Quality): {scores['Claims (Citation Quality)']}",
+        f"• Plagiarism: {scores['Plagiarism']}",
+        f"• Factual Accuracy: {scores['Factual Accuracy']}",
+        "",
+        f"**6. Claim Labels (TRUE/FALSE)**",
+        *fmt_list([f"• {c}" for c in claim_label_lines], "• No candidate claims.").split("\n"),
+        "",
+        f"**7. Plagiarism / Overlap Evidence (top {TOP_EVIDENCE})**",
+        *fmt_list(overlap_lines).split("\n"),
+        "",
+        f"**8. Duplicate Claim Evidence (top {TOP_EVIDENCE})**",
+        *fmt_list(dup_lines).split("\n"),
+        "",
+        "**9. Final Recommendation**",
+        final_reco.strip(),
+    ]
 
-    **2. Strengths**
-    {chr(10).join("- " + s for s in strengths) if strengths else "- None identified."}
-
-    **3. Weaknesses**
-    {chr(10).join("- " + w for w in weaknesses) if weaknesses else "- None identified."}
-
-    **4. Suggestions for Improvement**
-    {chr(10).join("- " + sg for sg in suggestions) if suggestions else "- No major suggestions provided."}
-
-    **5. Section-wise Scores (0–10 each)**
-    - Novelty: {scores['Novelty']}
-    - Claims (Citation Quality): {scores['Claims (Citation Quality)']}
-    - Plagiarism: {scores['Plagiarism']}
-    - Factual Accuracy: {scores['Factual Accuracy']}
-
-    **6. Claim Labels (TRUE/FALSE)**
-    {chr(10).join(claim_label_lines)}
-
-    **7. Plagiarism / Overlap Evidence (top {TOP_EVIDENCE})**
-    {chr(10).join(overlap_lines)}
-
-    **8. Duplicate Claim Evidence (top {TOP_EVIDENCE})**
-    {chr(10).join(dup_lines)}
-
-    **9. Final Recommendation**
-    {final_reco}
-    """
-    )
+    # Join with line breaks for clean UI rendering (whitespace-pre-wrap)
+    report = "\n".join(report_sections)
 
     if dry_run:
         print("\n=== DRY RUN REPORT ===\n")

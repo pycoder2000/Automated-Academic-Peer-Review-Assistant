@@ -60,13 +60,15 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
             if (data.error) {
                 alert(data.error);
             } else {
+                const detailedFeedback = Object.keys(data.review).map((key) => ({
+                    category: key,
+                    feedback: data.review[key],
+                    status: "good"
+                }));
+
                 setResults({
                     overallRecommendation: data.review["9. Final Recommendation"] || "Check review.txt",
-                    detailedFeedback: Object.keys(data.review).map((key) => ({
-                        category: key,
-                        feedback: data.review[key],
-                        status: "good"
-                    })),
+                    detailedFeedback,
                 });
             }
         } catch (error) {
@@ -74,6 +76,33 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
         }
 
         setIsProcessing(false);
+    };
+
+    const formatMarkdown = (text: string) => {
+        if (!text) return '';
+        // simple bold formatter for **text**
+        return text.replace(/\*\*(.+?)\*\*/g, '<strong>$1</strong>');
+    };
+
+    const splitLines = (text: string) => {
+        if (!text) return [];
+        return text
+            .split(/\r?\n+/)
+            .map(l => l.trim())
+            .filter(Boolean)
+            .map(l => l.replace(/^[•\-]\s*/, ''));
+    };
+
+    const extractDecision = (text: string) => {
+        if (!text) return { decision: 'Unknown', tone: 'neutral' };
+        const match = text.match(/Decision:\s*([A-Za-z ]+)/i);
+        const decision = match ? match[1].trim() : 'Unknown';
+        const lower = decision.toLowerCase();
+        if (lower.includes('reject')) return { decision, tone: 'danger' };
+        if (lower.includes('major')) return { decision, tone: 'warning' };
+        if (lower.includes('minor')) return { decision, tone: 'info' };
+        if (lower.includes('accept')) return { decision, tone: 'success' };
+        return { decision, tone: 'neutral' };
     };
 
     const getStatusIcon = (status: string) => {
@@ -199,28 +228,74 @@ const PeerReviewPage: React.FC<PeerReviewPageProps> = ({ onBackToHome }) => {
                     /* Results Display */
                     <div className="space-y-6">
                         {/* Overall Score */}
-                        <div className="bg-white rounded-3xl shadow-xl p-8">
-                            <h2 className="text-2xl font-bold text-gray-900 mb-6">Review Summary</h2>
+                        <div className="bg-white rounded-3xl shadow-xl p-8 space-y-6">
+                            <div className="flex items-center gap-3">
+                                <div className="w-12 h-12 rounded-2xl bg-blue-100 text-blue-700 flex items-center justify-center text-xl font-bold">AI</div>
+                                <div>
+                                    <h2 className="text-2xl font-bold text-gray-900">Review Summary</h2>
+                                    <p className="text-gray-600">Insights from automated peer review</p>
+                                </div>
+                            </div>
 
-                            <div className="mt-8 p-6 bg-gradient-to-r from-green-50 to-blue-50 rounded-2xl border border-green-200">
-                                <h3 className="font-semibold text-gray-900 mb-2">Overall Recommendation</h3>
-                                <p className="text-green-700 font-medium">{results.overallRecommendation}</p>
+
+                            {/* Decision box with tone */}
+                            {(() => {
+                                const { decision, tone } = extractDecision(results.overallRecommendation);
+                                const toneClasses: Record<string, { bg: string; text: string; border: string }> = {
+                                    danger: { bg: 'bg-red-50', text: 'text-red-800', border: 'border-red-200 border-4' },
+                                    warning: { bg: 'bg-amber-50', text: 'text-amber-800', border: 'border-amber-200 border-4' },
+                                    info: { bg: 'bg-blue-50', text: 'text-blue-800', border: 'border-blue-200 border-4' },
+                                    success: { bg: 'bg-emerald-50', text: 'text-emerald-800', border: 'border-emerald-200' },
+                                    neutral: { bg: 'bg-slate-50', text: 'text-slate-800', border: 'border-slate-200 border-4' },
+                                };
+                                const toneClass = toneClasses[tone] || toneClasses.neutral;
+                                return (
+                                    <div className={`p-5 rounded-2xl border shadow-sm ${toneClass.bg} ${toneClass.border}`}>
+                                        <h4 className="font-semibold text-gray-900 mb-1">Decision</h4>
+                                        <p className={`${toneClass.text} font-semibold text-lg`}>
+                                            {decision || 'Decision not found'}
+                                        </p>
+                                    </div>
+                                );
+                            })()}
+
+                            {/* Overall Recommendation (neutral blue) */}
+                            <div className="p-6 bg-gradient-to-r from-blue-50 to-indigo-50 rounded-2xl border-4 border-blue-300 shadow-inner">
+                                <h3 className="font-semibold text-gray-900 mb-3">Overall Recommendation</h3>
+                                <div className="space-y-2 text-gray-500 font-medium whitespace-pre-wrap">
+                                    {splitLines(results.overallRecommendation).map((line, idx) => (
+                                        <div key={idx} className="flex items-start gap-2">
+                                            <span className="text-indigo-500">•</span>
+                                            <span dangerouslySetInnerHTML={{ __html: formatMarkdown(line) }} />
+                                        </div>
+                                    ))}
+                                </div>
                             </div>
                         </div>
 
                         {/* Detailed Feedback */}
                         <div className="grid gap-6">
-                            {results.detailedFeedback.map((item: any, index: number) => (
-                                <div key={index} className="bg-white rounded-3xl shadow-xl p-6">
-                                    <div className="flex items-start justify-between mb-4">
-                                        <div className="flex items-center space-x-3">
-                                            {getStatusIcon(item.status)}
-                                            <h3 className="text-xl font-semibold text-gray-900">{item.category}</h3>
+                            {results.detailedFeedback.map((item: any, index: number) => {
+                                const lines = splitLines(item.feedback);
+                                return (
+                                    <div key={index} className="bg-white rounded-3xl shadow-xl p-6 border border-slate-100">
+                                        <div className="flex items-start justify-between mb-4">
+                                            <div className="flex items-center space-x-3">
+                                                {getStatusIcon(item.status)}
+                                                <h3 className="text-xl font-semibold text-gray-900">{item.category}</h3>
+                                            </div>
                                         </div>
+                                        <ul className="space-y-2 text-gray-700 leading-relaxed">
+                                            {lines.map((line, i) => (
+                                                <li key={i} className="flex items-start gap-2">
+                                                    <span className="text-stone-900 ">→</span>
+                                                    <span dangerouslySetInnerHTML={{ __html: formatMarkdown(line) }} />
+                                                </li>
+                                            ))}
+                                        </ul>
                                     </div>
-                                    <p className="text-gray-700 leading-relaxed">{item.feedback}</p>
-                                </div>
-                            ))}
+                                );
+                            })}
                         </div>
 
                         {/* Action Buttons */}
