@@ -684,7 +684,13 @@ def auto_assign_reviewers_to_pending_papers():
         conn.close()
 
 def is_user_reviewer_for_submission(user_email: str, submission_id: int) -> bool:
-    """Check if a user is the assigned reviewer for a submission"""
+    """Check if a user is the assigned reviewer for a submission or is an admin"""
+    ADMIN_EMAIL = "desaiparth2000@gmail.com"
+
+    # Admin can review all papers
+    if user_email == ADMIN_EMAIL:
+        return True
+
     conn = get_db_connection()
     cursor = conn.cursor()
 
@@ -781,18 +787,31 @@ def create_or_update_review(submission_id: int, reviewer_person_id: int, review_
     finally:
         conn.close()
 
-def get_review_by_reviewer(submission_id: int, reviewer_person_id: int) -> Optional[Dict[str, Any]]:
-    """Get review by reviewer for a submission"""
+def get_review_by_reviewer(submission_id: int, reviewer_person_id: int, user_email: Optional[str] = None) -> Optional[Dict[str, Any]]:
+    """Get review by reviewer for a submission - admins can see any review"""
+    ADMIN_EMAIL = "desaiparth2000@gmail.com"
+
     conn = get_db_connection()
     cursor = conn.cursor()
 
     try:
-        cursor.execute("""
-            SELECT review_id, submission_id, reviewer_person_id, review_text,
-                   submitted_date, last_updated
-            FROM Reviews
-            WHERE submission_id = ? AND reviewer_person_id = ?
-        """, (submission_id, reviewer_person_id))
+        # If admin, they can see any review for this submission (get the first one if multiple)
+        # Otherwise, get the specific reviewer's review
+        if user_email == ADMIN_EMAIL:
+            cursor.execute("""
+                SELECT review_id, submission_id, reviewer_person_id, review_text,
+                       submitted_date, last_updated
+                FROM Reviews
+                WHERE submission_id = ?
+                LIMIT 1
+            """, (submission_id,))
+        else:
+            cursor.execute("""
+                SELECT review_id, submission_id, reviewer_person_id, review_text,
+                       submitted_date, last_updated
+                FROM Reviews
+                WHERE submission_id = ? AND reviewer_person_id = ?
+            """, (submission_id, reviewer_person_id))
 
         row = cursor.fetchone()
         if row:

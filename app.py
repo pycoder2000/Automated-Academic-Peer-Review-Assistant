@@ -386,7 +386,7 @@ def check_reviewer_endpoint():
 
 @app.route("/api/reviews", methods=["POST"])
 def create_review_endpoint():
-    """Create or update a review"""
+    """Create or update a review - admins can review any paper"""
     try:
         data = request.get_json()
         user_email = data.get("user_email")
@@ -404,7 +404,7 @@ def create_review_endpoint():
 
         reviewer_person_id = user['person_id']
 
-        # Create or update review
+        # Create or update review (admin check is done in is_user_reviewer_for_submission)
         review = create_or_update_review(submission_id, reviewer_person_id, review_text)
 
         if review:
@@ -417,7 +417,7 @@ def create_review_endpoint():
 
 @app.route("/api/reviews", methods=["GET"])
 def get_review_endpoint():
-    """Get review by reviewer for a submission"""
+    """Get review by reviewer for a submission - admins can see any review"""
     try:
         user_email = request.args.get("user_email")
         submission_id = request.args.get("submission_id", type=int)
@@ -433,7 +433,8 @@ def get_review_endpoint():
 
         reviewer_person_id = user['person_id']
 
-        review = get_review_by_reviewer(submission_id, reviewer_person_id)
+        # Pass user_email so admin can see any review
+        review = get_review_by_reviewer(submission_id, reviewer_person_id, user_email)
 
         if review:
             return jsonify(review), 200
