@@ -202,6 +202,113 @@ def get_research_interests() -> list:
     finally:
         conn.close()
 
+def get_institutions() -> list:
+    """Get all institutions from the database"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        cursor.execute("SELECT institution_id, name, type, country, city FROM Institutions ORDER BY name")
+        institutions = cursor.fetchall()
+        return [{"id": row[0], "name": row[1], "type": row[2], "country": row[3], "city": row[4]} for row in institutions]
+    except Exception as e:
+        print(f"Error getting institutions: {e}")
+        return []
+    finally:
+        conn.close()
+
+def get_companies() -> list:
+    """Get all companies from the database"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        cursor.execute("SELECT company_id, company_name, industry, country, city, state FROM Companies ORDER BY company_name")
+        companies = cursor.fetchall()
+        return [{"id": row[0], "name": row[1], "industry": row[2], "country": row[3], "city": row[4], "state": row[5]} for row in companies]
+    except Exception as e:
+        print(f"Error getting companies: {e}")
+        return []
+    finally:
+        conn.close()
+
+def create_review_submission(
+    user_id: int,
+    title: str,
+    publication_year: int,
+    abstract: str,
+    link: str,
+    topic: str,
+    keywords: str,
+    author_name: str,
+    co_authors: str,
+    author_affiliation_id: Optional[int] = None,
+    author_workplace_id: Optional[int] = None,
+    author_bachelor_institution_id: Optional[int] = None,
+    author_master_institution_id: Optional[int] = None,
+    author_phd_institution_id: Optional[int] = None,
+    author_advisor_name: Optional[str] = None,
+    author_research_group: Optional[str] = None,
+    author_city: Optional[str] = None,
+    author_state: Optional[str] = None,
+    author_country: Optional[str] = None,
+) -> Optional[Dict[str, Any]]:
+    """Create a new review submission"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        cursor.execute("""
+            INSERT INTO ReviewSubmissions (
+                user_id, title, publication_year, abstract, link, topic, keywords,
+                author_name, co_authors_name,
+                author_affiliation_id, author_workplace_id,
+                author_bachelor_institution_id, author_master_institution_id, author_phd_institution_id,
+                author_advisor_name, author_research_group,
+                author_city, author_state, author_country,
+                status
+            )
+            VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, 'pending')
+        """, (
+            user_id, title, publication_year, abstract, link, topic, keywords,
+            author_name, co_authors,
+            author_affiliation_id, author_workplace_id,
+            author_bachelor_institution_id, author_master_institution_id, author_phd_institution_id,
+            author_advisor_name, author_research_group,
+            author_city, author_state, author_country
+        ))
+
+        submission_id = cursor.lastrowid
+        conn.commit()
+
+        # Return the created submission
+        cursor.execute("""
+            SELECT submission_id, user_id, title, publication_year, abstract, link, topic,
+                   author_name, submission_date, status
+            FROM ReviewSubmissions WHERE submission_id = ?
+        """, (submission_id,))
+        row = cursor.fetchone()
+
+        if row:
+            return {
+                'submission_id': row[0],
+                'user_id': row[1],
+                'title': row[2],
+                'publication_year': row[3],
+                'abstract': row[4],
+                'link': row[5],
+                'topic': row[6],
+                'author_name': row[7],
+                'submission_date': row[8],
+                'status': row[9]
+            }
+        return None
+    except Exception as e:
+        print(f"Error creating review submission: {e}")
+        return None
+    finally:
+        conn.close()
+
 def get_publications() -> list:
     """Get all publications with author information"""
     conn = get_db_connection()

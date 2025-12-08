@@ -2,6 +2,7 @@ import React, { useEffect, useState } from 'react';
 
 interface HeroSectionProps {
     onNavigateToReview: () => void;
+    onNavigateToSubmitPaper?: () => void;
 }
 
 interface Statistics {
@@ -46,7 +47,7 @@ const AnimatedCounter: React.FC<{ target: number; duration?: number }> = ({ targ
     return <>{count}</>;
 };
 
-const HeroSection: React.FC<HeroSectionProps> = ({ onNavigateToReview }) => {
+const HeroSection: React.FC<HeroSectionProps> = ({ onNavigateToReview, onNavigateToSubmitPaper }) => {
     const [stats, setStats] = useState<Statistics>({
         active_authors: 0,
         research_topics: 0,
@@ -109,15 +110,25 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onNavigateToReview }) => {
                         Plus, intelligent reviewer matching that ensures fair, unbiased, and expert peer review.
                     </p>
 
-                    {/* CTA Button */}
+                    {/* CTA Buttons */}
                     <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
                         <button
                             onClick={onNavigateToReview}
                             className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold text-lg rounded-2xl hover:shadow-2xl hover:shadow-indigo-500/25 transition-all duration-200 hover:scale-105"
                         >
-                            <span className="relative z-10">Try It Now</span>
+                            <span className="relative z-10">Run AI Review</span>
                             <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
                         </button>
+
+                        {onNavigateToSubmitPaper && (
+                            <button
+                                onClick={onNavigateToSubmitPaper}
+                                className="group relative px-8 py-4 bg-gradient-to-r from-indigo-600 to-indigo-700 text-white font-semibold text-lg rounded-2xl hover:shadow-2xl hover:shadow-indigo-500/25 transition-all duration-200 hover:scale-105"
+                            >
+                                <span className="relative z-10">Submit Paper</span>
+                                <div className="absolute inset-0 bg-gradient-to-r from-indigo-700 to-indigo-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                            </button>
+                        )}
 
                         <button
                             onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })}

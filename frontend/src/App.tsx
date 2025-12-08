@@ -10,6 +10,7 @@ import LoginPage from './components/LoginPage';
 import ProfilePage from './components/ProfilePage';
 import PapersPage from './components/PapersPage';
 import ViewPaperPage from './components/ViewPaperPage';
+import ReviewResearchPaperPage from './components/ReviewResearchPaperPage';
 import { auth } from './utils/auth';
 
 interface Publication {
@@ -25,7 +26,7 @@ interface Publication {
 }
 
 function App() {
-  const [currentPage, setCurrentPage] = useState<'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper'>('landing');
+  const [currentPage, setCurrentPage] = useState<'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper' | 'submit-paper'>('landing');
   const [selectedPaper, setSelectedPaper] = useState<Publication | null>(null);
 
   const scrollToSection = (sectionId: string) => {
@@ -60,6 +61,11 @@ function App() {
 
   const handleBackToPapers = () => {
     setCurrentPage('papers');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const navigateToSubmitPaper = () => {
+    setCurrentPage('submit-paper');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -115,9 +121,16 @@ function App() {
             console.log('Review paper:', selectedPaper.publication_id);
           }}
         />
+      ) : currentPage === 'submit-paper' ? (
+        <ReviewResearchPaperPage
+          onBack={navigateToHome}
+        />
       ) : currentPage === 'landing' ? (
         <>
-          <HeroSection onNavigateToReview={navigateToReview} />
+          <HeroSection
+            onNavigateToReview={navigateToReview}
+            onNavigateToSubmitPaper={navigateToSubmitPaper}
+          />
           <ProblemSolutionSection />
           <KeyFeaturesSection />
           <HowItWorksSection />

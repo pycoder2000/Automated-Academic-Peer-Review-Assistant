@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from utils.data_fetch import fetch_and_add_papers
 from flask_cors import CORS
-from database.db_utils import get_statistics, get_research_interests, create_user, authenticate_user, get_user_by_email, get_user_by_id, update_user, get_publications
+from database.db_utils import get_statistics, get_research_interests, create_user, authenticate_user, get_user_by_email, get_user_by_id, update_user, get_publications, create_review_submission, get_institutions, get_companies
 
 UPLOAD_FOLDER = "uploads"
 RESULTS_FOLDER = "data/results"
@@ -222,6 +222,95 @@ def publications():
     try:
         pubs = get_publications()
         return jsonify(pubs)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/institutions", methods=["GET"])
+def get_institutions_endpoint():
+    """Get all institutions"""
+    try:
+        institutions = get_institutions()
+        return jsonify(institutions), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/companies", methods=["GET"])
+def get_companies_endpoint():
+    """Get all companies"""
+    try:
+        companies = get_companies()
+        return jsonify(companies), 200
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/review-submissions", methods=["POST"])
+def create_review_submission_endpoint():
+    """Create a new review submission"""
+    try:
+        data = request.get_json()
+
+        # Required fields
+        user_id = data.get("user_id")
+        title = data.get("title")
+        abstract = data.get("abstract")
+        link = data.get("link")
+        topic = data.get("topic")
+        author_name = data.get("author_name")
+
+        if not all([user_id, title, abstract, link, topic, author_name]):
+            return jsonify({"error": "Missing required fields"}), 400
+
+        # Optional fields
+        publication_year = data.get("publication_year", None)
+        keywords = data.get("keywords", "")
+        co_authors = data.get("co_authors", "")
+        author_affiliation_id = data.get("author_affiliation_id", None)
+        author_workplace_id = data.get("author_workplace_id", None)
+        author_bachelor_institution_id = data.get("author_bachelor_institution_id", None)
+        author_master_institution_id = data.get("author_master_institution_id", None)
+        author_phd_institution_id = data.get("author_phd_institution_id", None)
+        author_advisor_name = data.get("author_advisor_name", None)
+        author_research_group = data.get("author_research_group", None)
+        author_city = data.get("author_city", None)
+        author_state = data.get("author_state", None)
+        author_country = data.get("author_country", None)
+
+        # Convert keywords and co_authors to JSON strings if they're arrays
+        import json
+        if isinstance(keywords, list):
+            keywords = json.dumps(keywords)
+        if isinstance(co_authors, list):
+            co_authors = json.dumps(co_authors)
+
+        submission = create_review_submission(
+            user_id=user_id,
+            title=title,
+            publication_year=publication_year,
+            abstract=abstract,
+            link=link,
+            topic=topic,
+            keywords=keywords,
+            author_name=author_name,
+            co_authors=co_authors,
+            author_affiliation_id=author_affiliation_id,
+            author_workplace_id=author_workplace_id,
+            author_bachelor_institution_id=author_bachelor_institution_id,
+            author_master_institution_id=author_master_institution_id,
+            author_phd_institution_id=author_phd_institution_id,
+            author_advisor_name=author_advisor_name,
+            author_research_group=author_research_group,
+            author_city=author_city,
+            author_state=author_state,
+            author_country=author_country,
+        )
+
+        if submission:
+            return jsonify(submission), 201
+        else:
+            return jsonify({"error": "Failed to create submission"}), 500
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 
