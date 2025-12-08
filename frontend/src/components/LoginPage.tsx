@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import { auth } from '../utils/auth';
 
 interface LoginPageProps {
@@ -6,13 +6,50 @@ interface LoginPageProps {
   onBack: () => void;
 }
 
+interface ResearchInterest {
+  id: number;
+  name: string;
+}
+
 const LoginPage: React.FC<LoginPageProps> = ({ onLogin, onBack }) => {
   const [isLogin, setIsLogin] = useState(true);
   const [email, setEmail] = useState('');
   const [password, setPassword] = useState('');
   const [name, setName] = useState('');
+  const [selectedInterests, setSelectedInterests] = useState<number[]>([]);
+  const [interests, setInterests] = useState<ResearchInterest[]>([]);
   const [error, setError] = useState('');
   const [loading, setLoading] = useState(false);
+  const [loadingInterests, setLoadingInterests] = useState(false);
+
+  useEffect(() => {
+    const fetchInterests = async () => {
+      setLoadingInterests(true);
+      try {
+        const response = await fetch('http://localhost:5000/api/research-interests');
+        if (response.ok) {
+          const data = await response.json();
+          setInterests(data);
+        }
+      } catch (error) {
+        console.error('Error fetching research interests:', error);
+      } finally {
+        setLoadingInterests(false);
+      }
+    };
+
+    if (!isLogin) {
+      fetchInterests();
+    }
+  }, [isLogin]);
+
+  const handleInterestToggle = (interestId: number) => {
+    setSelectedInterests(prev =>
+      prev.includes(interestId)
+        ? prev.filter(id => id !== interestId)
+        : [...prev, interestId]
+    );
+  };
 
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
@@ -33,7 +70,16 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLogin, onBack }) => {
           setLoading(false);
           return;
         }
-        const user = auth.register(email, password, name);
+        // Convert selected interest IDs to comma-separated string of interest names
+        const selectedInterestNames = selectedInterests
+          .map(id => {
+            const interest = interests.find(i => i.id === id);
+            return interest?.name;
+          })
+          .filter(Boolean)
+          .join(', ');
+
+        const user = auth.register(email, password, name, undefined, selectedInterestNames);
         if (user) {
           // Automatically log in the newly registered user
           const loggedInUser = auth.login(email, password);
@@ -129,6 +175,43 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLogin, onBack }) => {
               />
             </div>
 
+            {!isLogin && (
+              <div>
+                <label className="block text-sm font-semibold text-gray-700 mb-2">
+                  Research Interests (Select one or more)
+                </label>
+                {loadingInterests ? (
+                  <div className="text-gray-500 text-sm py-4">Loading interests...</div>
+                ) : (
+                  <div className="max-h-48 overflow-y-auto border border-gray-300 rounded-xl p-3 space-y-2">
+                    {interests.length === 0 ? (
+                      <div className="text-gray-500 text-sm py-2">No interests available</div>
+                    ) : (
+                      interests.map((interest) => (
+                        <label
+                          key={interest.id}
+                          className="flex items-center space-x-3 p-2 hover:bg-gray-50 rounded-lg cursor-pointer transition-colors"
+                        >
+                          <input
+                            type="checkbox"
+                            checked={selectedInterests.includes(interest.id)}
+                            onChange={() => handleInterestToggle(interest.id)}
+                            className="w-4 h-4 text-blue-600 border-gray-300 rounded focus:ring-blue-500"
+                          />
+                          <span className="text-gray-700 text-sm">{interest.name}</span>
+                        </label>
+                      ))
+                    )}
+                  </div>
+                )}
+                {selectedInterests.length > 0 && (
+                  <p className="mt-2 text-xs text-gray-500">
+                    {selectedInterests.length} interest(s) selected
+                  </p>
+                )}
+              </div>
+            )}
+
             <button
               type="submit"
               disabled={loading}
@@ -146,6 +229,7 @@ const LoginPage: React.FC<LoginPageProps> = ({ onLogin, onBack }) => {
                 setEmail('');
                 setPassword('');
                 setName('');
+                setSelectedInterests([]);
               }}
               className="text-blue-600 hover:text-blue-700 font-medium"
             >

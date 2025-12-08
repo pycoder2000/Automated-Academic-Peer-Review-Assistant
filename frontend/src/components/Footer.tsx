@@ -20,7 +20,7 @@ const Footer: React.FC = () => {
           <div className="md:col-start-3">
             <h3 className="text-lg font-semibold mb-4 text-white">Quick Links</h3>
             <ul className="space-y-3">
-              {['About Us', 'Features', 'How It Works'].map((link) => (
+              {['Home', 'Features', 'How It Works'].map((link) => (
                 <li key={link}>
                   <a href="#" className="text-gray-400 hover:text-white transition-colors duration-200">
                     {link}

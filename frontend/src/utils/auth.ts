@@ -14,7 +14,7 @@ const CURRENT_USER_KEY = 'reviewmatch_current_user';
 
 export const auth = {
   // Register a new user
-  register: (email: string, password: string, name: string): User | null => {
+  register: (email: string, password: string, name: string, image?: string, interests?: string): User | null => {
     const users = auth.getAllUsers();
 
     // Check if user already exists
@@ -27,7 +27,8 @@ export const auth = {
       email,
       password, // In production, hash this
       name,
-      interests: '',
+      image,
+      interests: interests || '',
     };
 
     users.push(newUser);

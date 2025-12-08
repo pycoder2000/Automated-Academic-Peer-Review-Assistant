@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from utils.data_fetch import fetch_and_add_papers
 from flask_cors import CORS
-from database.db_utils import get_statistics
+from database.db_utils import get_statistics, get_research_interests
 
 UPLOAD_FOLDER = "uploads"
 RESULTS_FOLDER = "data/results"
@@ -109,6 +109,16 @@ def statistics():
     try:
         stats = get_statistics()
         return jsonify(stats)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/research-interests", methods=["GET"])
+def research_interests():
+    """Get all research interests"""
+    try:
+        interests = get_research_interests()
+        return jsonify(interests)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

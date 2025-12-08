@@ -175,3 +175,18 @@ def get_statistics() -> Dict[str, int]:
     finally:
         conn.close()
 
+def get_research_interests() -> list:
+    """Get all research interests from the database"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        cursor.execute("SELECT interest_id, interest_name FROM ResearchInterests ORDER BY interest_name")
+        interests = cursor.fetchall()
+        return [{"id": row[0], "name": row[1]} for row in interests]
+    except Exception as e:
+        print(f"Error getting research interests: {e}")
+        return []
+    finally:
+        conn.close()
+
