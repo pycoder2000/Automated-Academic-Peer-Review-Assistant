@@ -1,91 +1,140 @@
 import React from 'react';
 
 interface HeroSectionProps {
-  onNavigateToReview: () => void;
+    onNavigateToReview: () => void;
 }
 
 const HeroSection: React.FC<HeroSectionProps> = ({ onNavigateToReview }) => {
-  return (
-    <section id="hero" className="min-h-screen relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-indigo-50">
-      {/* Animated Background Elements */}
-      <div className="absolute inset-0">
-        <div className="absolute top-20 left-20 w-32 h-32 bg-indigo-200/30 rounded-full blur-3xl animate-pulse"></div>
-        <div className="absolute top-60 right-40 w-48 h-48 bg-purple-200/30 rounded-full blur-3xl animate-pulse delay-1000"></div>
-        <div className="absolute bottom-40 left-1/3 w-40 h-40 bg-blue-200/30 rounded-full blur-3xl animate-pulse delay-2000"></div>
-      </div>
-
-      {/* Geometric Patterns */}
-      <div className="absolute inset-0 opacity-10">
-        <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
-          <defs>
-            <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
-              <path d="M 60 0 L 0 0 0 60" fill="none" stroke="currentColor" strokeWidth="1"/>
-            </pattern>
-          </defs>
-          <rect width="100%" height="100%" fill="url(#grid)" />
-        </svg>
-      </div>
-
-      <div className="relative z-10 max-w-7xl mx-auto px-6 pt-32 pb-20">
-        <div className="text-center">
-          {/* Main Headline */}
-          <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight">
-            <span className="block">AI-Powered Peer Review</span>
-            <span className="bg-gradient-to-r from-blue-700 via-blue-600 to-blue-700 bg-clip-text text-transparent">
-              & Intelligent Matching
-            </span>
-          </h1>
-
-          {/* Subheadline */}
-          <p className="text-xl md:text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Get instant AI-powered structured feedback on your research papers. <br />
-            Plus, intelligent reviewer matching that ensures fair, unbiased, and expert peer review.
-          </p>
-
-          {/* CTA Button */}
-          <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
-            <button
-              onClick={onNavigateToReview}
-              className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold text-lg rounded-2xl hover:shadow-2xl hover:shadow-indigo-500/25 transition-all duration-200 hover:scale-105"
-            >
-              <span className="relative z-10">Try It Now</span>
-              <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
-            </button>
-
-            <button
-              onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })}
-              className="px-8 py-4 border-2 border-gray-300 text-gray-700 font-semibold text-lg rounded-2xl hover:border-blue-600 hover:text-blue-800 transition-all duration-300"
-            >
-              Learn How It Works
-            </button>
-          </div>
-
-          {/* Stats or Social Proof */}
-          <div className="mt-20 grid grid-cols-1 md:grid-cols-3 gap-8 max-w-3xl mx-auto">
-            <div className="text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">10x</div>
-              <div className="text-gray-600">Faster Review Process</div>
+    return (
+        <section id="hero" className="min-h-screen relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-indigo-50">
+            {/* Animated Background Elements */}
+            <div className="absolute inset-0">
+                <div className="absolute top-20 left-20 w-32 h-32 bg-indigo-200/30 rounded-full blur-3xl animate-pulse"></div>
+                <div className="absolute top-60 right-40 w-48 h-48 bg-purple-200/30 rounded-full blur-3xl animate-pulse delay-1000"></div>
+                <div className="absolute bottom-40 left-1/3 w-40 h-40 bg-blue-200/30 rounded-full blur-3xl animate-pulse delay-2000"></div>
             </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">High</div>
-              <div className="text-gray-600">Accuracy Rate</div>
-            </div>
-            <div className="text-center">
-              <div className="text-4xl font-bold text-blue-600 mb-2">24/7</div>
-              <div className="text-gray-600">Available</div>
-            </div>
-          </div>
-        </div>
-      </div>
 
-      {/* Scroll Indicator */}
-      <div className="absolute bottom-8 left-1/2 transform -translate-x-1/2">
-        <div className="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center">
-          <div className="w-1 h-3 bg-gray-400 rounded-full mt-2 animate-bounce"></div>
-        </div>
-      </div>
-    </section>
-  );
+            {/* Geometric Patterns */}
+            <div className="absolute inset-0 opacity-10">
+                <svg className="w-full h-full" xmlns="http://www.w3.org/2000/svg">
+                    <defs>
+                        <pattern id="grid" width="60" height="60" patternUnits="userSpaceOnUse">
+                            <path d="M 60 0 L 0 0 0 60" fill="none" stroke="currentColor" strokeWidth="1" />
+                        </pattern>
+                    </defs>
+                    <rect width="100%" height="100%" fill="url(#grid)" />
+                </svg>
+            </div>
+
+            <div className="relative z-10 max-w-7xl mx-auto px-6 pt-32 pb-20">
+                <div className="text-center">
+                    {/* Main Headline */}
+                    <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight">
+                        <span className="block">AI-Powered Peer Review</span>
+                        <span className="bg-gradient-to-r from-blue-700 via-blue-600 to-blue-700 bg-clip-text text-transparent">
+                            & Intelligent Matching
+                        </span>
+                    </h1>
+
+                    {/* Subheadline */}
+                    <p className="text-xl md:text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
+                        Get instant AI-powered structured feedback on your research papers. <br />
+                        Plus, intelligent reviewer matching that ensures fair, unbiased, and expert peer review.
+                    </p>
+
+                    {/* CTA Button */}
+                    <div className="flex flex-col sm:flex-row gap-6 justify-center items-center">
+                        <button
+                            onClick={onNavigateToReview}
+                            className="group relative px-8 py-4 bg-gradient-to-r from-blue-600 to-blue-700 text-white font-semibold text-lg rounded-2xl hover:shadow-2xl hover:shadow-indigo-500/25 transition-all duration-200 hover:scale-105"
+                        >
+                            <span className="relative z-10">Try It Now</span>
+                            <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
+                        </button>
+
+                        <button
+                            onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })}
+                            className="px-8 py-4 border-2 border-gray-300 text-gray-700 font-semibold text-lg rounded-2xl hover:border-blue-600 hover:text-blue-800 transition-all duration-300"
+                        >
+                            Learn How It Works
+                        </button>
+                    </div>
+
+                    {/* Stats or Social Proof */}
+                    <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
+                        <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-100 text-center hover:shadow-xl transition-all duration-300">
+                            <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent mb-2">156</div>
+                            <div className="text-gray-700 font-medium">Active Authors</div>
+                        </div>
+                        <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-100 text-center hover:shadow-xl transition-all duration-300">
+                            <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent mb-2">111</div>
+                            <div className="text-gray-700 font-medium">Research Topics</div>
+                        </div>
+                        <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-100 text-center hover:shadow-xl transition-all duration-300">
+                            <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent mb-2">38</div>
+                            <div className="text-gray-700 font-medium">Papers Reviewed</div>
+                        </div>
+                    </div>
+
+                    {/* Scroll Indicator */}
+                    <div className="mt-10 flex justify-center">
+                        <div className="w-6 h-10 border-2 border-gray-400 rounded-full flex justify-center">
+                            <div className="w-1 h-3 bg-gray-400 rounded-full mt-2 animate-bounce"></div>
+                        </div>
+                    </div>
+
+                    {/* Feature Description */}
+                    <div className="mt-16 max-w-5xl mx-auto">
+                        <div className="bg-white/60 backdrop-blur-sm rounded-3xl p-8 md:p-12 shadow-xl border border-blue-100">
+                            <h2 className="text-3xl md:text-4xl font-bold text-gray-900 mb-6 text-center">
+                                Platform Features
+                            </h2>
+
+                            <div className="space-y-8">
+                                {/* Peer Review Matching */}
+                                <div className="border-l-4 border-blue-600 pl-6">
+                                    <h3 className="text-2xl font-bold text-gray-900 mb-3">
+                                        Intelligent Peer Review Matching
+                                    </h3>
+                                    <p className="text-lg text-gray-700 leading-relaxed">
+                                        Our AI-powered semantic matching system goes beyond keyword searches to intelligently pair research papers with expert reviewers. Using deep NLP analysis, we understand the nuanced content and context of your work, ensuring reviewers have the right domain expertise. The system automatically detects conflicts of interest, maintains complete anonymization, and provides editors with expertly matched reviewer assignments—all while balancing reviewer availability through our token-based engagement system.
+                                    </p>
+                                </div>
+
+                                {/* Other Features */}
+                                <div className="grid md:grid-cols-2 gap-6 pt-6">
+                                    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6">
+                                        <h4 className="text-xl font-bold text-gray-900 mb-2">AI-Powered Analysis</h4>
+                                        <p className="text-gray-700">
+                                            Comprehensive automated review including novelty detection, plagiarism checking, factual verification, and citation quality analysis.
+                                        </p>
+                                    </div>
+                                    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6">
+                                        <h4 className="text-xl font-bold text-gray-900 mb-2">Fair & Unbiased</h4>
+                                        <p className="text-gray-700">
+                                            Complete anonymization and automated COI detection ensure merit-based reviews free from institutional or personal bias.
+                                        </p>
+                                    </div>
+                                    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6">
+                                        <h4 className="text-xl font-bold text-gray-900 mb-2">Token System</h4>
+                                        <p className="text-gray-700">
+                                            Balanced ecosystem where authors earn tokens by reviewing, ensuring reviewer availability matches submission volume.
+                                        </p>
+                                    </div>
+                                    <div className="bg-gradient-to-br from-blue-50 to-indigo-50 rounded-2xl p-6">
+                                        <h4 className="text-xl font-bold text-gray-900 mb-2">Multi-Stage Pipeline</h4>
+                                        <p className="text-gray-700">
+                                            Intelligent 4-stage matching process: information extraction, reviewer identification, COI separation, and assignment monitoring.
+                                        </p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    );
 };
 
 export default HeroSection;

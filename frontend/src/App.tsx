@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useEffect } from 'react';
 import Navbar from './components/Navbar';
 import HeroSection from './components/HeroSection';
 import ProblemSolutionSection from './components/ProblemSolutionSection';
@@ -6,9 +6,12 @@ import KeyFeaturesSection from './components/KeyFeaturesSection';
 import HowItWorksSection from './components/HowItWorksSection';
 import Footer from './components/Footer';
 import PeerReviewPage from './components/PeerReviewPage';
+import LoginPage from './components/LoginPage';
+import ProfilePage from './components/ProfilePage';
+import { auth } from './utils/auth';
 
 function App() {
-  const [currentPage, setCurrentPage] = useState<'landing' | 'review'>('landing');
+  const [currentPage, setCurrentPage] = useState<'landing' | 'review' | 'login' | 'profile'>('landing');
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -34,15 +37,40 @@ function App() {
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
+  const handleLogin = () => {
+    setCurrentPage('landing');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleLogout = () => {
+    auth.logout();
+    setCurrentPage('landing');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
   return (
     <div className="App">
-      <Navbar
-        onNavigate={scrollToSection}
-        currentPage={currentPage}
-        setCurrentPage={setCurrentPage}
-      />
+      {currentPage !== 'login' && (
+        <Navbar
+          onNavigate={scrollToSection}
+          currentPage={currentPage}
+          setCurrentPage={setCurrentPage}
+          onLogin={handleLogin}
+          onLogout={handleLogout}
+        />
+      )}
 
-      {currentPage === 'landing' ? (
+      {currentPage === 'login' ? (
+        <LoginPage
+          onLogin={handleLogin}
+          onBack={navigateToHome}
+        />
+      ) : currentPage === 'profile' ? (
+        <ProfilePage
+          onBack={navigateToHome}
+          onLogout={handleLogout}
+        />
+      ) : currentPage === 'landing' ? (
         <>
           <HeroSection onNavigateToReview={navigateToReview} />
           <ProblemSolutionSection />

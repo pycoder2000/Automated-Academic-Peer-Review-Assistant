@@ -8,11 +8,11 @@ const Footer: React.FC = () => {
           {/* Brand Section */}
           <div className="md:col-span-2">
             <div className="text-2xl font-bold bg-gradient-to-r from-blue-400 to-blue-100 bg-clip-text text-transparent mb-4">
-              PeerReviewAI
+              ReviewMatch AI
             </div>
             <p className="text-gray-300 text-lg leading-relaxed max-w-md">
-              Revolutionizing academic peer review with artificial intelligence. 
-              Accelerate your research publication process with professional-grade AI analysis.
+              Revolutionizing academic peer review with AI-powered analysis and intelligent reviewer matching.
+              Accelerate your research publication process with fair, expert, and efficient peer review.
             </p>
           </div>
 
@@ -33,11 +33,11 @@ const Footer: React.FC = () => {
           {/* Contact */}
           <div>
             <h3 className="text-lg font-semibold mb-4 text-white">Contact</h3>
-            <div className="space-y-3 text-gray-400"> 
+            <div className="space-y-3 text-gray-400">
                 <p>
-                    <a 
-                        href="https://www.linkedin.com/in/bhavesh-bhakta/" 
-                        target="_blank" 
+                    <a
+                        href="https://www.linkedin.com/in/bhavesh-bhakta/"
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-white transition-colors duration-200"
                     >
@@ -45,9 +45,9 @@ const Footer: React.FC = () => {
                     </a>
                 </p>
                 <p>
-                    <a 
-                        href="https://github.com/BhaveshBhakta" 
-                        target="_blank" 
+                    <a
+                        href="https://github.com/BhaveshBhakta"
+                        target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-white transition-colors duration-200"
                     >
