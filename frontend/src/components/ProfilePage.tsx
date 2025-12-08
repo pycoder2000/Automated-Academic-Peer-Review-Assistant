@@ -75,6 +75,9 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack, onLogout }) => {
       setIsEditing(false);
       setSuccess('Profile updated successfully!');
       setTimeout(() => setSuccess(''), 3000);
+
+      // Dispatch custom event to notify Navbar and other components
+      window.dispatchEvent(new Event('profileUpdated'));
     } else {
       setError('Failed to update profile');
     }

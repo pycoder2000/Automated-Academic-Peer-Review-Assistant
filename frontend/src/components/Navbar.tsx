@@ -42,6 +42,17 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage, setCurrentPage
         };
     }, []);
 
+    // Listen for custom event when profile is updated
+    useEffect(() => {
+        const handleProfileUpdate = () => {
+            setCurrentUser(auth.getCurrentUser());
+        };
+        window.addEventListener('profileUpdated', handleProfileUpdate);
+        return () => {
+            window.removeEventListener('profileUpdated', handleProfileUpdate);
+        };
+    }, []);
+
     useEffect(() => {
         const handleClickOutside = (e: MouseEvent) => {
             const target = e.target as HTMLElement;
@@ -92,9 +103,9 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage, setCurrentPage
                                         onClick={() => setIsProfileDropdownOpen(!isProfileDropdownOpen)}
                                         className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-600 to-blue-700 flex items-center justify-center text-white font-semibold hover:shadow-lg transition-all duration-200"
                                     >
-                                        {currentUser.image ? (
+                                        {currentUser.image_url ? (
                                             <img
-                                                src={currentUser.image}
+                                                src={currentUser.image_url}
                                                 alt={currentUser.name}
                                                 className="w-full h-full rounded-full object-cover"
                                             />

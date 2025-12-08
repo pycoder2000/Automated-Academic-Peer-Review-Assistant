@@ -12,3 +12,4 @@ frontend/node_modules/.vite/deps/_metadata.json
 data/references/*
 .DS_Store
 frontend/.DS_Store
+database/reviewmatch.db
