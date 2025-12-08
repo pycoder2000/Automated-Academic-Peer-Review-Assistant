@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from utils.data_fetch import fetch_and_add_papers
 from flask_cors import CORS
-from database.db_utils import get_statistics, get_research_interests
+from database.db_utils import get_statistics, get_research_interests, create_user, authenticate_user, get_user_by_email, get_user_by_id, update_user
 
 UPLOAD_FOLDER = "uploads"
 RESULTS_FOLDER = "data/results"
@@ -119,6 +119,99 @@ def research_interests():
     try:
         interests = get_research_interests()
         return jsonify(interests)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/auth/register", methods=["POST"])
+def register():
+    """Register a new user"""
+    try:
+        data = request.get_json()
+        email = data.get("email")
+        password = data.get("password")
+        name = data.get("name")
+        image_url = data.get("image_url")
+        interests = data.get("interests", "")  # Comma-separated string for backward compatibility
+        interest_ids = data.get("interest_ids", [])  # List of interest IDs for junction table
+
+        if not email or not password or not name:
+            return jsonify({"error": "Email, password, and name are required"}), 400
+
+        user = create_user(email, password, name, image_url, interests, interest_ids)
+        if user:
+            # Remove password hash from response
+            user.pop('password_hash', None)
+            return jsonify(user), 201
+        else:
+            return jsonify({"error": "User with this email already exists"}), 409
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/auth/login", methods=["POST"])
+def login():
+    """Login a user"""
+    try:
+        data = request.get_json()
+        email = data.get("email")
+        password = data.get("password")
+
+        if not email or not password:
+            return jsonify({"error": "Email and password are required"}), 400
+
+        user = authenticate_user(email, password)
+        if user:
+            return jsonify(user), 200
+        else:
+            return jsonify({"error": "Invalid email or password"}), 401
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/auth/user/<int:user_id>", methods=["GET"])
+def get_user(user_id):
+    """Get user by ID"""
+    try:
+        user = get_user_by_id(user_id)
+        if user:
+            user.pop('password_hash', None)
+            return jsonify(user), 200
+        else:
+            return jsonify({"error": "User not found"}), 404
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/auth/user/<int:user_id>", methods=["PUT", "PATCH"])
+def update_user_endpoint(user_id):
+    """Update user information"""
+    try:
+        data = request.get_json()
+
+        # Build updates dict (only include allowed fields)
+        updates = {}
+        allowed_fields = ['name', 'email', 'image_url', 'interests', 'password']
+
+        for field in allowed_fields:
+            if field in data:
+                updates[field] = data[field]
+
+        if not updates:
+            return jsonify({"error": "No valid fields to update"}), 400
+
+        # Update user in database
+        success = update_user(user_id, updates)
+        if success:
+            # Return updated user data
+            user = get_user_by_id(user_id)
+            if user:
+                user.pop('password_hash', None)
+                return jsonify(user), 200
+            else:
+                return jsonify({"error": "User not found after update"}), 404
+        else:
+            return jsonify({"error": "Failed to update user"}), 400
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

@@ -36,7 +36,7 @@ const Footer: React.FC = () => {
             <div className="space-y-3 text-gray-400">
                 <p>
                     <a
-                        href="https://www.linkedin.com/in/bhavesh-bhakta/"
+                        href="https://www.linkedin.com/in/desaiparth2000/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-white transition-colors duration-200"
@@ -46,7 +46,7 @@ const Footer: React.FC = () => {
                 </p>
                 <p>
                     <a
-                        href="https://github.com/BhaveshBhakta"
+                        href="https://github.com/pycoder2000"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="hover:text-white transition-colors duration-200"

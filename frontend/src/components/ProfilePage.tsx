@@ -13,7 +13,7 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack, onLogout }) => {
     name: '',
     email: '',
     interests: '',
-    image: '',
+    image_url: '',
     password: '',
     confirmPassword: '',
   });
@@ -28,14 +28,14 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack, onLogout }) => {
         name: currentUser.name || '',
         email: currentUser.email || '',
         interests: currentUser.interests || '',
-        image: currentUser.image || '',
+        image_url: currentUser.image_url || '',
         password: '',
         confirmPassword: '',
       });
     }
   }, []);
 
-  const handleSave = () => {
+  const handleSave = async () => {
     setError('');
     setSuccess('');
 
@@ -53,21 +53,20 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack, onLogout }) => {
       }
     }
 
-    const updates: Partial<User> = {
+    const updates: Partial<User & { password?: string }> = {
       name: formData.name,
       email: formData.email,
       interests: formData.interests,
-      image: formData.image || undefined,
+      image_url: formData.image_url || undefined,
     };
 
     if (formData.password) {
       updates.password = formData.password;
     }
 
-    const updated = auth.updateUser(user.id, updates);
+    const updated = await auth.updateUser(user.user_id, updates);
     if (updated) {
-      const { password: _, ...userWithoutPassword } = updated;
-      setUser(userWithoutPassword);
+      setUser(updated);
       setFormData({
         ...formData,
         password: '',
@@ -144,9 +143,9 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack, onLogout }) => {
           {/* Header */}
           <div className="flex flex-col md:flex-row items-center md:items-start gap-6 mb-8 pb-8 border-b border-gray-200">
             <div className="relative">
-              {user.image ? (
+              {user.image_url ? (
                 <img
-                  src={user.image}
+                  src={user.image_url}
                   alt={user.name}
                   className="w-32 h-32 rounded-full object-cover border-4 border-blue-100"
                 />
@@ -223,8 +222,8 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack, onLogout }) => {
                 </label>
                 <input
                   type="url"
-                  value={formData.image}
-                  onChange={(e) => setFormData({ ...formData, image: e.target.value })}
+                  value={formData.image_url}
+                  onChange={(e) => setFormData({ ...formData, image_url: e.target.value })}
                   className="w-full px-4 py-3 border border-gray-300 rounded-xl focus:ring-2 focus:ring-blue-500 focus:border-transparent"
                   placeholder="https://example.com/image.jpg"
                 />
@@ -281,7 +280,7 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack, onLogout }) => {
                         name: currentUser.name || '',
                         email: currentUser.email || '',
                         interests: currentUser.interests || '',
-                        image: currentUser.image || '',
+                        image_url: currentUser.image_url || '',
                         password: '',
                         confirmPassword: '',
                       });

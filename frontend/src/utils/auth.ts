@@ -1,54 +1,81 @@
-// Simple localStorage-based authentication
+// Database-backed authentication with localStorage session management
 
 export interface User {
-  id: string;
+  user_id: number;
   email: string;
   name: string;
-  password: string; // In production, this should be hashed
-  image?: string;
+  image_url?: string;
   interests?: string;
+  person_id?: number;
+  created_at?: string;
 }
 
-const STORAGE_KEY = 'reviewmatch_users';
 const CURRENT_USER_KEY = 'reviewmatch_current_user';
+const API_BASE_URL = 'http://localhost:5000/api';
 
 export const auth = {
-  // Register a new user
-  register: (email: string, password: string, name: string, image?: string, interests?: string): User | null => {
-    const users = auth.getAllUsers();
+  // Register a new user (saves to database)
+  register: async (email: string, password: string, name: string, image?: string, interests?: string, interestIds?: number[]): Promise<User | null> => {
+    try {
+      const response = await fetch(`${API_BASE_URL}/auth/register`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email,
+          password,
+          name,
+          image_url: image,
+          interests: interests || '',  // Comma-separated string for backward compatibility
+          interest_ids: interestIds || [],  // Array of IDs for junction table
+        }),
+      });
 
-    // Check if user already exists
-    if (users.find(u => u.email === email)) {
-      return null; // User already exists
+      if (response.ok) {
+        const user = await response.json();
+        // Store user in session (without password)
+        localStorage.setItem(CURRENT_USER_KEY, JSON.stringify(user));
+        return user;
+      } else {
+        const error = await response.json();
+        console.error('Registration error:', error);
+        return null;
+      }
+    } catch (error) {
+      console.error('Registration failed:', error);
+      return null;
     }
-
-    const newUser: User = {
-      id: Date.now().toString(),
-      email,
-      password, // In production, hash this
-      name,
-      image,
-      interests: interests || '',
-    };
-
-    users.push(newUser);
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(users));
-    return newUser;
   },
 
-  // Login
-  login: (email: string, password: string): User | null => {
-    const users = auth.getAllUsers();
-    const user = users.find(u => u.email === email && u.password === password);
+  // Login (authenticates against database)
+  login: async (email: string, password: string): Promise<User | null> => {
+    try {
+      const response = await fetch(`${API_BASE_URL}/auth/login`, {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify({
+          email,
+          password,
+        }),
+      });
 
-    if (user) {
-      // Don't store password in current user session
-      const { password: _, ...userWithoutPassword } = user;
-      localStorage.setItem(CURRENT_USER_KEY, JSON.stringify(userWithoutPassword));
-      return user;
+      if (response.ok) {
+        const user = await response.json();
+        // Store user in session
+        localStorage.setItem(CURRENT_USER_KEY, JSON.stringify(user));
+        return user;
+      } else {
+        const error = await response.json();
+        console.error('Login error:', error);
+        return null;
+      }
+    } catch (error) {
+      console.error('Login failed:', error);
+      return null;
     }
-
-    return null;
   },
 
   // Logout
@@ -56,8 +83,8 @@ export const auth = {
     localStorage.removeItem(CURRENT_USER_KEY);
   },
 
-  // Get current user
-  getCurrentUser: (): Omit<User, 'password'> | null => {
+  // Get current user from session
+  getCurrentUser: (): User | null => {
     const userStr = localStorage.getItem(CURRENT_USER_KEY);
     if (userStr) {
       return JSON.parse(userStr);
@@ -65,31 +92,31 @@ export const auth = {
     return null;
   },
 
-  // Update user profile
-  updateUser: (userId: string, updates: Partial<User>): User | null => {
-    const users = auth.getAllUsers();
-    const userIndex = users.findIndex(u => u.id === userId);
+  // Update user profile (updates database)
+  updateUser: async (userId: number, updates: Partial<User & { password?: string }>): Promise<User | null> => {
+    try {
+      const response = await fetch(`${API_BASE_URL}/auth/user/${userId}`, {
+        method: 'PUT',
+        headers: {
+          'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(updates),
+      });
 
-    if (userIndex === -1) return null;
-
-    const updatedUser = { ...users[userIndex], ...updates };
-    users[userIndex] = updatedUser;
-    localStorage.setItem(STORAGE_KEY, JSON.stringify(users));
-
-    // Update current session if this is the logged-in user
-    const currentUser = auth.getCurrentUser();
-    if (currentUser && currentUser.id === userId) {
-      const { password: _, ...userWithoutPassword } = updatedUser;
-      localStorage.setItem(CURRENT_USER_KEY, JSON.stringify(userWithoutPassword));
+      if (response.ok) {
+        const updatedUser = await response.json();
+        // Update localStorage session
+        localStorage.setItem(CURRENT_USER_KEY, JSON.stringify(updatedUser));
+        return updatedUser;
+      } else {
+        const error = await response.json();
+        console.error('Update user error:', error);
+        return null;
+      }
+    } catch (error) {
+      console.error('Update user failed:', error);
+      return null;
     }
-
-    return updatedUser;
-  },
-
-  // Get all users (for debugging/admin)
-  getAllUsers: (): User[] => {
-    const usersStr = localStorage.getItem(STORAGE_KEY);
-    return usersStr ? JSON.parse(usersStr) : [];
   },
 
   // Get user initials

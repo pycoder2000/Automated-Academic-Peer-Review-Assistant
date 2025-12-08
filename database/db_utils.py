@@ -23,8 +23,8 @@ def verify_password(password: str, password_hash: str) -> bool:
     return hash_password(password) == password_hash
 
 # User management functions
-def create_user(email: str, password: str, name: str, image_url: Optional[str] = None, interests: Optional[str] = None) -> Optional[Dict[str, Any]]:
-    """Create a new user"""
+def create_user(email: str, password: str, name: str, image_url: Optional[str] = None, interests: Optional[str] = None, interest_ids: Optional[list] = None) -> Optional[Dict[str, Any]]:
+    """Create a new user and optionally link research interests"""
     conn = get_db_connection()
     cursor = conn.cursor()
 
@@ -36,8 +36,20 @@ def create_user(email: str, password: str, name: str, image_url: Optional[str] =
         """, (email, password_hash, name, image_url, interests))
 
         user_id = cursor.lastrowid
-        conn.commit()
 
+        # If interest IDs are provided, create relationships in UserResearchInterests table
+        if interest_ids:
+            for interest_id in interest_ids:
+                try:
+                    cursor.execute("""
+                        INSERT INTO UserResearchInterests (user_id, interest_id)
+                        VALUES (?, ?)
+                    """, (user_id, interest_id))
+                except sqlite3.IntegrityError:
+                    # Interest relationship already exists, skip
+                    pass
+
+        conn.commit()
         return get_user_by_id(user_id)
     except sqlite3.IntegrityError:
         return None  # User already exists
