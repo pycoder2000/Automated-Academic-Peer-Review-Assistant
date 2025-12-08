@@ -1,10 +1,77 @@
-import React from 'react';
+import React, { useEffect, useState } from 'react';
 
 interface HeroSectionProps {
     onNavigateToReview: () => void;
 }
 
+interface Statistics {
+    active_authors: number;
+    research_topics: number;
+    papers_reviewed: number;
+}
+
+// Animated counter component
+const AnimatedCounter: React.FC<{ target: number; duration?: number }> = ({ target, duration = 5000 }) => {
+    const [count, setCount] = useState(0);
+
+    useEffect(() => {
+        if (target === 0) return;
+
+        const startTime = Date.now();
+        const startValue = 0;
+        const endValue = target;
+
+        const animate = () => {
+            const now = Date.now();
+            const elapsed = now - startTime;
+            const progress = Math.min(elapsed / duration, 1);
+
+            // Easing function for smooth animation
+            const easeOutQuart = 1 - Math.pow(1 - progress, 4);
+            const current = Math.floor(startValue + (endValue - startValue) * easeOutQuart);
+
+            setCount(current);
+
+            if (progress < 1) {
+                requestAnimationFrame(animate);
+            } else {
+                setCount(target); // Ensure we end at the exact target
+            }
+        };
+
+        const frameId = requestAnimationFrame(animate);
+        return () => cancelAnimationFrame(frameId);
+    }, [target, duration]);
+
+    return <>{count}</>;
+};
+
 const HeroSection: React.FC<HeroSectionProps> = ({ onNavigateToReview }) => {
+    const [stats, setStats] = useState<Statistics>({
+        active_authors: 0,
+        research_topics: 0,
+        papers_reviewed: 0,
+    });
+    const [loading, setLoading] = useState(true);
+
+    useEffect(() => {
+        const fetchStats = async () => {
+            try {
+                const response = await fetch('http://localhost:5000/api/statistics');
+                if (response.ok) {
+                    const data = await response.json();
+                    setStats(data);
+                }
+            } catch (error) {
+                console.error('Error fetching statistics:', error);
+                // Keep default values (0) on error
+            } finally {
+                setLoading(false);
+            }
+        };
+
+        fetchStats();
+    }, []);
     return (
         <section id="hero" className="min-h-screen relative overflow-hidden bg-gradient-to-br from-slate-50 via-white to-indigo-50">
             {/* Animated Background Elements */}
@@ -63,15 +130,21 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onNavigateToReview }) => {
                     {/* Stats or Social Proof */}
                     <div className="mt-12 grid grid-cols-1 md:grid-cols-3 gap-6 max-w-4xl mx-auto">
                         <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-100 text-center hover:shadow-xl transition-all duration-300">
-                            <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent mb-2">156</div>
+                            <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent mb-2">
+                                {loading ? '...' : <AnimatedCounter target={stats.active_authors} />}
+                            </div>
                             <div className="text-gray-700 font-medium">Active Authors</div>
                         </div>
                         <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-100 text-center hover:shadow-xl transition-all duration-300">
-                            <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent mb-2">111</div>
+                            <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent mb-2">
+                                {loading ? '...' : <AnimatedCounter target={stats.research_topics} />}
+                            </div>
                             <div className="text-gray-700 font-medium">Research Topics</div>
                         </div>
                         <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-100 text-center hover:shadow-xl transition-all duration-300">
-                            <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent mb-2">38</div>
+                            <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent mb-2">
+                                {loading ? '...' : <AnimatedCounter target={stats.papers_reviewed} />}
+                            </div>
                             <div className="text-gray-700 font-medium">Papers Reviewed</div>
                         </div>
                     </div>

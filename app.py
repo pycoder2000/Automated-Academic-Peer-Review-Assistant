@@ -6,6 +6,7 @@ from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from utils.data_fetch import fetch_and_add_papers
 from flask_cors import CORS
+from database.db_utils import get_statistics
 
 UPLOAD_FOLDER = "uploads"
 RESULTS_FOLDER = "data/results"
@@ -100,6 +101,16 @@ def review():
         return jsonify({"review": sections})
 
     return jsonify({"error": "Invalid file type. Only PDF allowed."}), 400
+
+
+@app.route("/api/statistics", methods=["GET"])
+def statistics():
+    """Get platform statistics"""
+    try:
+        stats = get_statistics()
+        return jsonify(stats)
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
 
 
 if __name__ == "__main__":
