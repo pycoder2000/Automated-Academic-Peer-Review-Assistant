@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from utils.data_fetch import fetch_and_add_papers
 from flask_cors import CORS
-from database.db_utils import get_statistics, get_research_interests, create_user, authenticate_user, get_user_by_email, get_user_by_id, update_user
+from database.db_utils import get_statistics, get_research_interests, create_user, authenticate_user, get_user_by_email, get_user_by_id, update_user, get_publications
 
 UPLOAD_FOLDER = "uploads"
 RESULTS_FOLDER = "data/results"
@@ -212,6 +212,16 @@ def update_user_endpoint(user_id):
                 return jsonify({"error": "User not found after update"}), 404
         else:
             return jsonify({"error": "Failed to update user"}), 400
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+
+@app.route("/api/publications", methods=["GET"])
+def publications():
+    """Get all publications"""
+    try:
+        pubs = get_publications()
+        return jsonify(pubs)
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

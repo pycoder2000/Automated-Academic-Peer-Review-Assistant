@@ -4,8 +4,8 @@ import { auth } from '../utils/auth';
 
 interface NavbarProps {
     onNavigate: (section: string) => void;
-    currentPage: 'landing' | 'review' | 'login' | 'profile';
-    setCurrentPage: (page: 'landing' | 'review' | 'login' | 'profile') => void;
+    currentPage: 'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper';
+    setCurrentPage: (page: 'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper') => void;
     onLogin: () => void;
     onLogout: () => void;
 }
@@ -195,6 +195,17 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage, setCurrentPage
                                 >
                                     Perform Peer Review
                                 </button>
+                                {currentUser && (
+                                    <button
+                                        onClick={() => {
+                                            setCurrentPage('papers');
+                                            setIsMenuOpen(false);
+                                        }}
+                                        className="w-full bg-gradient-to-r from-indigo-600 to-indigo-700 text-white px-6 py-3 rounded-3xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
+                                    >
+                                        View Papers
+                                    </button>
+                                )}
                             </div>
                         </nav>
                     </div>

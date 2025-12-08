@@ -202,3 +202,78 @@ def get_research_interests() -> list:
     finally:
         conn.close()
 
+def get_publications() -> list:
+    """Get all publications with author information"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        cursor.execute("""
+            SELECT
+                p.publication_id,
+                p.title,
+                p.publication_year,
+                p.topic,
+                p.abstract,
+                p.link,
+                p.keywords,
+                p.co_authors_name,
+                per.first_name || ' ' || per.last_name as author_name
+            FROM Publications p
+            LEFT JOIN Persons per ON p.author_id = per.person_id
+            ORDER BY p.publication_year DESC, p.title
+        """)
+
+        publications = []
+        for row in cursor.fetchall():
+            pub = {
+                "publication_id": row[0],
+                "title": row[1] or "",
+                "publication_year": row[2],
+                "topic": row[3] or "",
+                "abstract": row[4] or "",
+                "link": row[5] or "",
+                "keywords": row[6] or "",
+                "co_authors_name": row[7] or "",
+                "author_name": row[8] or "Unknown Author"
+            }
+
+            # Parse co_authors if it's a JSON string
+            if pub["co_authors_name"]:
+                try:
+                    import json
+                    co_authors = json.loads(pub["co_authors_name"])
+                    if isinstance(co_authors, list):
+                        pub["co_authors"] = co_authors
+                    else:
+                        pub["co_authors"] = []
+                except:
+                    # If not JSON, treat as comma-separated
+                    pub["co_authors"] = [name.strip() for name in str(pub["co_authors_name"]).split(",") if name.strip()]
+            else:
+                pub["co_authors"] = []
+
+            # Parse keywords if it's a JSON string
+            if pub["keywords"]:
+                try:
+                    import json
+                    keywords = json.loads(pub["keywords"])
+                    if isinstance(keywords, list):
+                        pub["keywords_list"] = keywords
+                    else:
+                        pub["keywords_list"] = []
+                except:
+                    # If not JSON, treat as comma-separated
+                    pub["keywords_list"] = [kw.strip() for kw in str(pub["keywords"]).split(",") if kw.strip()]
+            else:
+                pub["keywords_list"] = []
+
+            publications.append(pub)
+
+        return publications
+    except Exception as e:
+        print(f"Error getting publications: {e}")
+        return []
+    finally:
+        conn.close()
+

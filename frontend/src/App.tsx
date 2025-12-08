@@ -8,10 +8,25 @@ import Footer from './components/Footer';
 import PeerReviewPage from './components/PeerReviewPage';
 import LoginPage from './components/LoginPage';
 import ProfilePage from './components/ProfilePage';
+import PapersPage from './components/PapersPage';
+import ViewPaperPage from './components/ViewPaperPage';
 import { auth } from './utils/auth';
 
+interface Publication {
+  publication_id: number;
+  title: string;
+  publication_year: number | null;
+  topic: string;
+  abstract: string;
+  link: string;
+  author_name: string;
+  co_authors: string[];
+  keywords_list: string[];
+}
+
 function App() {
-  const [currentPage, setCurrentPage] = useState<'landing' | 'review' | 'login' | 'profile'>('landing');
+  const [currentPage, setCurrentPage] = useState<'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper'>('landing');
+  const [selectedPaper, setSelectedPaper] = useState<Publication | null>(null);
 
   const scrollToSection = (sectionId: string) => {
     const element = document.getElementById(sectionId);
@@ -29,6 +44,22 @@ function App() {
 
   const navigateToReview = () => {
     setCurrentPage('review');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const navigateToPapers = () => {
+    setCurrentPage('papers');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleViewPaper = (paper: Publication) => {
+    setSelectedPaper(paper);
+    setCurrentPage('view-paper');
+    window.scrollTo({ top: 0, behavior: 'smooth' });
+  };
+
+  const handleBackToPapers = () => {
+    setCurrentPage('papers');
     window.scrollTo({ top: 0, behavior: 'smooth' });
   };
 
@@ -70,6 +101,20 @@ function App() {
           onBack={navigateToHome}
           onLogout={handleLogout}
         />
+      ) : currentPage === 'papers' ? (
+        <PapersPage
+          onBack={navigateToHome}
+          onViewPaper={handleViewPaper}
+        />
+      ) : currentPage === 'view-paper' && selectedPaper ? (
+        <ViewPaperPage
+          paper={selectedPaper}
+          onBack={handleBackToPapers}
+          onReviewPaper={() => {
+            // Placeholder - will be implemented later
+            console.log('Review paper:', selectedPaper.publication_id);
+          }}
+        />
       ) : currentPage === 'landing' ? (
         <>
           <HeroSection onNavigateToReview={navigateToReview} />
@@ -99,12 +144,22 @@ function App() {
                   <p className="text-xl mb-6 text-grey-50">
                     Join researchers and editors worldwide who are transforming scientific publishing with AI-powered analysis and intelligent matching
                   </p>
-                  <button
-                    className="bg-gradient-to-r from-blue-700 to-blue-500 text-white px-8 py-3 rounded-2xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
-                    onClick={navigateToReview}
-                  >
-                    Start Your Free Analysis
-                  </button>
+                  <div className="flex flex-col sm:flex-row gap-4 justify-center">
+                    <button
+                      className="bg-gradient-to-r from-blue-700 to-blue-500 text-white px-8 py-3 rounded-2xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
+                      onClick={navigateToReview}
+                    >
+                      Start Your Free Analysis
+                    </button>
+                    {auth.getCurrentUser() && (
+                      <button
+                        className="bg-gradient-to-r from-indigo-600 to-indigo-500 text-white px-8 py-3 rounded-2xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
+                        onClick={navigateToPapers}
+                      >
+                        View Papers
+                      </button>
+                    )}
+                  </div>
                 </div>
             </div>
           </div>
