@@ -4,8 +4,8 @@ import { auth } from '../utils/auth';
 
 interface NavbarProps {
     onNavigate: (section: string) => void;
-    currentPage: 'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper' | 'submit-paper' | 'review-paper';
-    setCurrentPage: (page: 'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper' | 'submit-paper' | 'review-paper') => void;
+    currentPage: 'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper' | 'submit-paper' | 'review-paper' | 'connections';
+    setCurrentPage: (page: 'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper' | 'submit-paper' | 'review-paper' | 'connections') => void;
     onLogin: () => void;
     onLogout: () => void;
 }
@@ -81,15 +81,18 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage, setCurrentPage
         { label: 'How It Works', section: 'how-it-works' },
     ];
 
+    // Use light theme for dark background pages
+    const isDarkBgPage = currentPage === 'connections';
+
     return (
         <>
-            <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? 'bg-white/30 backdrop-blur-md shadow-lg' : 'bg-transparent'
+            <nav className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${isScrolled ? (isDarkBgPage ? 'bg-slate-900/50 backdrop-blur-md shadow-lg' : 'bg-white/30 backdrop-blur-md shadow-lg') : 'bg-transparent'
                 }`}>
                 <div className="max-w-7xl mx-auto pl-6 py-6">
                     <div className="flex justify-between items-center">
                         <button
                             onClick={() => handleNavClick('hero')}
-                            className="text-2xl font-bold bg-gradient-to-r from-gray-950 to-gray-950 bg-clip-text text-transparent"
+                            className={`text-2xl font-bold bg-gradient-to-r bg-clip-text text-transparent ${isDarkBgPage ? 'from-white to-purple-200' : 'from-gray-950 to-gray-950'}`}
                         >
                             ReviewMatch AI
                         </button>
@@ -146,7 +149,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage, setCurrentPage
 
                             <button
                                 onClick={() => setIsMenuOpen(!isMenuOpen)}
-                                className="p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200"
+                                className={`p-2 rounded-lg transition-colors duration-200 ${isDarkBgPage ? 'hover:bg-white/10 text-white' : 'hover:bg-gray-100 text-gray-900'}`}
                             >
                                 {isMenuOpen ? <X size={24} /> : <Menu size={24} />}
                             </button>
@@ -216,6 +219,17 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage, setCurrentPage
                                         >
                                             Review Papers
                                         </button>
+                                        {currentUser.email === 'desaiparth2000@gmail.com' && (
+                                            <button
+                                                onClick={() => {
+                                                    setCurrentPage('connections');
+                                                    setIsMenuOpen(false);
+                                                }}
+                                                className="w-full bg-gradient-to-r from-purple-600 to-pink-600 text-white px-6 py-3 rounded-3xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
+                                            >
+                                                🔗 Connection Matrix
+                                            </button>
+                                        )}
                                     </>
                                 )}
                             </div>

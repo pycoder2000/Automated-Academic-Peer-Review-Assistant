@@ -830,3 +830,238 @@ def get_review_by_reviewer(submission_id: int, reviewer_person_id: int, user_ema
     finally:
         conn.close()
 
+def get_author_reviewer_connections() -> list:
+    """Get detailed author-reviewer connection data for admin visualization"""
+    conn = get_db_connection()
+    cursor = conn.cursor()
+
+    try:
+        # Get all assignments with author and reviewer details
+        cursor.execute("""
+            SELECT
+                pra.submission_id,
+                rs.title,
+                rs.author_name,
+                rs.author_affiliation_id,
+                rs.author_workplace_id,
+                rs.author_bachelor_institution_id,
+                rs.author_master_institution_id,
+                rs.author_phd_institution_id,
+                rs.author_city,
+                rs.author_state,
+                rs.author_country,
+                rs.author_advisor_name,
+                rs.author_research_group,
+                pra.reviewer_person_id,
+                p.first_name || ' ' || p.last_name as reviewer_name,
+                p.email as reviewer_email,
+                p.affiliation_id,
+                p.workplace_id,
+                p.bachelor_institution_id,
+                p.master_institution_id,
+                p.phd_institution_id,
+                p.city,
+                p.state,
+                p.country,
+                p.advisor_id,
+                p.research_group_name,
+                pra.status as assignment_status
+            FROM PaperReviewerAssignments pra
+            JOIN ReviewSubmissions rs ON pra.submission_id = rs.submission_id
+            JOIN Persons p ON pra.reviewer_person_id = p.person_id
+            ORDER BY pra.assigned_date DESC
+        """)
+
+        rows = cursor.fetchall()
+        connections = []
+
+        # Get institution names for better display
+        def get_institution_name(inst_id):
+            if not inst_id:
+                return None
+            cursor.execute("SELECT name FROM Institutions WHERE institution_id = ?", (inst_id,))
+            row = cursor.fetchone()
+            return row[0] if row else None
+
+        def get_company_name(comp_id):
+            if not comp_id:
+                return None
+            cursor.execute("SELECT company_name FROM Companies WHERE company_id = ?", (comp_id,))
+            row = cursor.fetchone()
+            return row[0] if row else None
+
+        def get_advisor_name(advisor_id):
+            if not advisor_id:
+                return None
+            cursor.execute("SELECT first_name || ' ' || last_name FROM Persons WHERE person_id = ?", (advisor_id,))
+            row = cursor.fetchone()
+            return row[0] if row else None
+
+        for row in rows:
+            (submission_id, title, author_name,
+             author_aff, author_work, author_bach, author_mast, author_phd,
+             author_city, author_state, author_country, author_advisor, author_group,
+             reviewer_id, reviewer_name, reviewer_email,
+             rev_aff, rev_work, rev_bach, rev_mast, rev_phd,
+             rev_city, rev_state, rev_country, rev_advisor_id, rev_group,
+             assignment_status) = row
+
+            # Calculate conflicts and build factor list
+            factors = []
+            conflicts = 0
+            max_conflicts = 10  # Total possible conflict factors
+
+            # Affiliation
+            author_aff_name = get_institution_name(author_aff)
+            rev_aff_name = get_institution_name(rev_aff)
+            is_conflict = author_aff and rev_aff and author_aff == rev_aff
+            if is_conflict:
+                conflicts += 1
+            factors.append({
+                'factor': 'Current Affiliation',
+                'authorValue': author_aff_name,
+                'reviewerValue': rev_aff_name,
+                'isConflict': is_conflict,
+                'icon': 'affiliation'
+            })
+
+            # Workplace
+            author_work_name = get_company_name(author_work)
+            rev_work_name = get_company_name(rev_work)
+            is_conflict = author_work and rev_work and author_work == rev_work
+            if is_conflict:
+                conflicts += 1
+            factors.append({
+                'factor': 'Workplace',
+                'authorValue': author_work_name,
+                'reviewerValue': rev_work_name,
+                'isConflict': is_conflict,
+                'icon': 'workplace'
+            })
+
+            # Bachelor's Institution
+            author_bach_name = get_institution_name(author_bach)
+            rev_bach_name = get_institution_name(rev_bach)
+            is_conflict = author_bach and rev_bach and author_bach == rev_bach
+            if is_conflict:
+                conflicts += 1
+            factors.append({
+                'factor': "Bachelor's Institution",
+                'authorValue': author_bach_name,
+                'reviewerValue': rev_bach_name,
+                'isConflict': is_conflict,
+                'icon': 'education'
+            })
+
+            # Master's Institution
+            author_mast_name = get_institution_name(author_mast)
+            rev_mast_name = get_institution_name(rev_mast)
+            is_conflict = author_mast and rev_mast and author_mast == rev_mast
+            if is_conflict:
+                conflicts += 1
+            factors.append({
+                'factor': "Master's Institution",
+                'authorValue': author_mast_name,
+                'reviewerValue': rev_mast_name,
+                'isConflict': is_conflict,
+                'icon': 'education'
+            })
+
+            # PhD Institution
+            author_phd_name = get_institution_name(author_phd)
+            rev_phd_name = get_institution_name(rev_phd)
+            is_conflict = author_phd and rev_phd and author_phd == rev_phd
+            if is_conflict:
+                conflicts += 1
+            factors.append({
+                'factor': 'PhD Institution',
+                'authorValue': author_phd_name,
+                'reviewerValue': rev_phd_name,
+                'isConflict': is_conflict,
+                'icon': 'education'
+            })
+
+            # City
+            is_conflict = author_city and rev_city and author_city.lower() == rev_city.lower()
+            if is_conflict:
+                conflicts += 1
+            factors.append({
+                'factor': 'City',
+                'authorValue': author_city,
+                'reviewerValue': rev_city,
+                'isConflict': is_conflict,
+                'icon': 'location'
+            })
+
+            # State
+            is_conflict = author_state and rev_state and author_state.lower() == rev_state.lower()
+            if is_conflict:
+                conflicts += 1
+            factors.append({
+                'factor': 'State/Province',
+                'authorValue': author_state,
+                'reviewerValue': rev_state,
+                'isConflict': is_conflict,
+                'icon': 'location'
+            })
+
+            # Country
+            is_conflict = author_country and rev_country and author_country.lower() == rev_country.lower()
+            if is_conflict:
+                conflicts += 1
+            factors.append({
+                'factor': 'Country',
+                'authorValue': author_country,
+                'reviewerValue': rev_country,
+                'isConflict': is_conflict,
+                'icon': 'location'
+            })
+
+            # Advisor
+            rev_advisor_name = get_advisor_name(rev_advisor_id)
+            is_conflict = author_advisor and rev_advisor_name and author_advisor.lower() in rev_advisor_name.lower()
+            if is_conflict:
+                conflicts += 1
+            factors.append({
+                'factor': 'Advisor',
+                'authorValue': author_advisor,
+                'reviewerValue': rev_advisor_name,
+                'isConflict': is_conflict,
+                'icon': 'advisor'
+            })
+
+            # Research Group
+            is_conflict = author_group and rev_group and author_group.lower() == rev_group.lower()
+            if is_conflict:
+                conflicts += 1
+            factors.append({
+                'factor': 'Research Group',
+                'authorValue': author_group,
+                'reviewerValue': rev_group,
+                'isConflict': is_conflict,
+                'icon': 'group'
+            })
+
+            # Calculate separation score (higher = better separation)
+            separation_score = int(round(((max_conflicts - conflicts) / max_conflicts) * 100))
+
+            connections.append({
+                'submission_id': submission_id,
+                'paper_title': title,
+                'author_name': author_name,
+                'reviewer_name': reviewer_name,
+                'reviewer_email': reviewer_email,
+                'degrees_of_separation': conflicts,
+                'max_possible_conflicts': max_conflicts,
+                'separation_score': separation_score,
+                'assignment_status': assignment_status,
+                'connection_factors': factors
+            })
+
+        return connections
+    except Exception as e:
+        print(f"Error getting author-reviewer connections: {e}")
+        return []
+    finally:
+        conn.close()
+

@@ -6,7 +6,7 @@ from flask import Flask, request, jsonify
 from werkzeug.utils import secure_filename
 from utils.data_fetch import fetch_and_add_papers
 from flask_cors import CORS
-from database.db_utils import get_statistics, get_research_interests, create_user, authenticate_user, get_user_by_email, get_user_by_id, update_user, get_publications, create_review_submission, get_institutions, get_companies, get_review_submissions, auto_assign_reviewers_to_pending_papers, link_user_to_person, is_user_reviewer_for_submission, create_or_update_review, get_review_by_reviewer
+from database.db_utils import get_statistics, get_research_interests, create_user, authenticate_user, get_user_by_email, get_user_by_id, update_user, get_publications, create_review_submission, get_institutions, get_companies, get_review_submissions, auto_assign_reviewers_to_pending_papers, link_user_to_person, is_user_reviewer_for_submission, create_or_update_review, get_review_by_reviewer, get_author_reviewer_connections
 
 UPLOAD_FOLDER = "uploads"
 RESULTS_FOLDER = "data/results"
@@ -439,6 +439,25 @@ def get_review_endpoint():
             return jsonify(review), 200
         else:
             return jsonify({"message": "No review found"}), 404
+    except Exception as e:
+        return jsonify({"error": str(e)}), 500
+
+@app.route("/api/author-reviewer-connections", methods=["GET"])
+def get_author_reviewer_connections_endpoint():
+    """Get author-reviewer connection data for admin visualization"""
+    try:
+        user_email = request.args.get("user_email")
+
+        if not user_email:
+            return jsonify({"error": "user_email is required"}), 400
+
+        # Only admin can access this endpoint
+        ADMIN_EMAIL = "desaiparth2000@gmail.com"
+        if user_email != ADMIN_EMAIL:
+            return jsonify({"error": "Only administrators can access this data"}), 403
+
+        connections = get_author_reviewer_connections()
+        return jsonify(connections), 200
     except Exception as e:
         return jsonify({"error": str(e)}), 500
 

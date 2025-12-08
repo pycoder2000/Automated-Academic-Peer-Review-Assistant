@@ -1,4 +1,5 @@
 import { useState } from 'react';
+import AuthorReviewerConnectionsPage from './components/AuthorReviewerConnectionsPage';
 import Footer from './components/Footer';
 import HeroSection from './components/HeroSection';
 import HowItWorksSection from './components/HowItWorksSection';
@@ -42,7 +43,7 @@ interface ReviewSubmission {
 }
 
 function App() {
-    const [currentPage, setCurrentPage] = useState<'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper' | 'submit-paper' | 'review-paper'>('landing');
+    const [currentPage, setCurrentPage] = useState<'landing' | 'review' | 'login' | 'profile' | 'papers' | 'view-paper' | 'submit-paper' | 'review-paper' | 'connections'>('landing');
     const [selectedPaper, setSelectedPaper] = useState<Publication | ReviewSubmission | null>(null);
 
     const scrollToSection = (sectionId: string) => {
@@ -87,6 +88,11 @@ function App() {
 
     const navigateToReviewPaper = () => {
         setCurrentPage('review-paper');
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
+
+    const navigateToConnections = () => {
+        setCurrentPage('connections');
         window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
@@ -158,6 +164,11 @@ function App() {
                 <ReviewPaperPage
                     onBack={navigateToHome}
                     onViewPaper={handleViewReviewPaper}
+                    onViewConnections={navigateToConnections}
+                />
+            ) : currentPage === 'connections' ? (
+                <AuthorReviewerConnectionsPage
+                    onBack={navigateToHome}
                 />
             ) : currentPage === 'view-paper' && selectedPaper ? (
                 <ViewPaperPage
