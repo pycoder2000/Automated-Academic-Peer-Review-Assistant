@@ -4,24 +4,24 @@ const HowItWorksSection: React.FC = () => {
   const steps = [
     {
       number: "01",
-      title: "Upload Your Research",
-      description: "Simply drag and drop your research paper PDF. Our system accepts papers in multiple formats and automatically extracts the content for analysis.",
+      title: "Submit or Upload Your Paper",
+      description: "Authors upload their research paper PDF. Our system automatically extracts content, keywords, and research context for both AI analysis and reviewer matching.",
       image: "https://blog.researcher.life/wp-content/uploads/2025/06/pexels-yankrukov-8199595-1.jpg",
       gradient: "from-blue-500 to-blue-700",
       bgColor: "bg-blue-50"
     },
     {
       number: "02",
-      title: "AI Analysis Engine",
-      description: "Our advanced AI performs comprehensive analysis including novelty search, plagiarism detection, factual verification, and citation quality checks simultaneously.",
+      title: "Dual AI Processing",
+      description: "Our platform performs two critical functions: (1) Comprehensive paper analysis with novelty, plagiarism, and factual checks, and (2) Semantic matching to identify expert reviewers while detecting conflicts of interest.",
       image: "https://cdn.getmidnight.com/50062ddd13358c02dea31c6e82a524c5/2023/09/AdobeStock_600314909.jpeg",
       gradient: "from-blue-500 to-blue-700",
       bgColor: "bg-blue-50"
     },
     {
       number: "03",
-      title: "Professional Review Report",
-      description: "Receive a detailed, structured review report that matches professional peer review standards, complete with actionable feedback and improvement suggestions.",
+      title: "Review & Matching Results",
+      description: "Authors receive detailed AI-generated review feedback, while editors get matched reviewer assignments with COI screening. The anonymized process ensures fair, expert evaluation.",
       image: "https://doctorprojects.com/wp-content/uploads/2024/07/Report-Writing-Skills.webp",
       gradient: "from-blue-500 to-blue-700",
       bgColor: "bg-blue-50"
@@ -43,7 +43,7 @@ const HowItWorksSection: React.FC = () => {
             <span className="bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent"> 3 Simple Steps</span>
           </h2>
           <p className="text-xl text-gray-700 max-w-4xl mx-auto">
-            Experience the future of academic peer review with our streamlined, AI-powered process
+            Experience the future of academic peer review: AI-powered analysis meets intelligent reviewer matching for faster, fairer scientific publishing
           </p>
         </div>
 
@@ -73,10 +73,10 @@ const HowItWorksSection: React.FC = () => {
                     <div
                       key={i}
                       className={`h-2 rounded-full transition-all duration-300 ${
-                        i === index 
-                          ? `w-12 bg-gradient-to-r ${step.gradient}` 
-                          : i < index 
-                            ? 'w-8 bg-gray-400' 
+                        i === index
+                          ? `w-12 bg-gradient-to-r ${step.gradient}`
+                          : i < index
+                            ? 'w-8 bg-gray-400'
                             : 'w-4 bg-gray-200'
                       }`}
                     ></div>

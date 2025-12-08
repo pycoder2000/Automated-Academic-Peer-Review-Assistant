@@ -30,16 +30,16 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onNavigateToReview }) => {
         <div className="text-center">
           {/* Main Headline */}
           <h1 className="text-5xl md:text-7xl font-bold text-gray-900 mb-8 leading-tight">
-            <span className="block">Automated Academic</span>
+            <span className="block">AI-Powered Peer Review</span>
             <span className="bg-gradient-to-r from-blue-700 via-blue-600 to-blue-700 bg-clip-text text-transparent">
-              Peer Review Assistant
+              & Intelligent Matching
             </span>
           </h1>
-          
+
           {/* Subheadline */}
           <p className="text-xl md:text-2xl text-gray-700 mb-12 max-w-4xl mx-auto leading-relaxed">
-            Accelerate your research with AI-powered structured feedback. <br />
-            Get reviewer-style analysis of your research papers in minutes, not weeks.
+            Get instant AI-powered structured feedback on your research papers. <br />
+            Plus, intelligent reviewer matching that ensures fair, unbiased, and expert peer review.
           </p>
 
           {/* CTA Button */}
@@ -51,7 +51,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onNavigateToReview }) => {
               <span className="relative z-10">Try It Now</span>
               <div className="absolute inset-0 bg-gradient-to-r from-blue-700 to-blue-500 rounded-2xl opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
             </button>
-            
+
             <button
               onClick={() => document.getElementById('how-it-works')?.scrollIntoView({ behavior: 'smooth' })}
               className="px-8 py-4 border-2 border-gray-300 text-gray-700 font-semibold text-lg rounded-2xl hover:border-blue-600 hover:text-blue-800 transition-all duration-300"

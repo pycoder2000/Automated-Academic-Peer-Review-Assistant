@@ -51,29 +51,29 @@ function App() {
           <div id="about" className="py-10 bg-gradient-to-b from-white to-gray-50">
             <div className="max-w-4xl mx-auto px-6 text-center">
               <h2 className="uppercase text-5xl font-extrabold text-gray-900 mb-8">
-              Our Story: The Mission Behind the <span className='bg-gradient-to-r from-blue-700 to-blue-800 bg-clip-text text-transparent'>Peer Review AI</span>
+              Our Story: The Mission Behind <span className='bg-gradient-to-r from-blue-700 to-blue-800 bg-clip-text text-transparent'>ReviewMatch AI</span>
               </h2>
               <p className="text-xl text-gray-700 leading-relaxed mb-8">
-              Before the Automated Academic Peer Review Assistant, the process of scholarly review was a bottleneck. Researchers faced long, uncertain waiting periods and often received inconsistent feedback, slowing down the pace of innovation. We experienced this challenge firsthand and knew there had to be a better way. <br />
+              Traditional peer review faces two critical challenges: finding the right reviewers takes weeks, and the review process itself is slow and often biased. Researchers wait months for feedback, while editors struggle with reviewer shortages and potential conflicts of interest. We experienced these problems firsthand and knew there had to be a better way. <br />
               <br />
-              Our mission is to empower the academic community by making the peer review process faster, more objective, and accessible to everyone. This tool is a direct result of our belief that technology can and should be used to support the core principles of academic integrity and the free exchange of ideas.
+              Our mission is to revolutionize scientific publishing by combining AI-powered paper analysis with intelligent reviewer matching. ReviewMatch AI ensures researchers get instant, structured feedback while editors receive expertly matched, conflict-free reviewer assignments. We believe technology should support academic integrity, fairness, and the free exchange of ideas—without the biases and delays of traditional systems.
               <br />
               <br />
-              By using this tool, researchers can get immediate, structured feedback that helps them refine their work with confidence. Our assistant not only saves valuable time but also enhances the quality of submissions, helping to accelerate the entire cycle of scholarly publication. We are committed to a future where innovation isn't slowed by traditional processes, but is instead amplified by intelligent systems.
+              By using ReviewMatch AI, researchers receive immediate, comprehensive analysis that helps refine their work, while the platform's semantic matching and anonymization ensure fair, expert peer review. Our system not only accelerates the review cycle but also maintains the highest standards of objectivity and quality. We are committed to a future where scientific innovation isn't slowed by outdated processes, but is instead amplified by intelligent, fair, and efficient systems.
               </p>
             </div>
 
               <div className="mt-11 text-center">
                 <div className="bg-gradient-to-r from-blue-50 to-blue-50 rounded-4xl p-6 text-gray-900 border border-blue-200 max-w-6xl mx-auto">
                   <h3 className="text-3xl font-bold mb-4">
-                    Ready to <span className='bg-gradient-to-r from-blue-700 to-blue-700 bg-clip-text text-transparent'>Experience</span> AI-Powered Peer Review?
+                    Ready to <span className='bg-gradient-to-r from-blue-700 to-blue-700 bg-clip-text text-transparent'>Experience</span> the Future of Peer Review?
                   </h3>
                   <p className="text-xl mb-6 text-grey-50">
-                    Join researchers worldwide who are accelerating their publication process
+                    Join researchers and editors worldwide who are transforming scientific publishing with AI-powered analysis and intelligent matching
                   </p>
                   <button
                     className="bg-gradient-to-r from-blue-700 to-blue-500 text-white px-8 py-3 rounded-2xl font-semibold hover:shadow-lg hover:scale-105 transition-all duration-200"
-                    onClick={navigateToReview} 
+                    onClick={navigateToReview}
                   >
                     Start Your Free Analysis
                   </button>

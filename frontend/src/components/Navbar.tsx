@@ -49,9 +49,9 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage, setCurrentPage
               onClick={() => handleNavClick('hero')}
               className="text-2xl font-bold bg-gradient-to-r from-gray-950 to-gray-950 bg-clip-text text-transparent"
             >
-              PeerReviewAI
+              ReviewMatch AI
             </button>
-            
+
             <button
               onClick={() => setIsMenuOpen(!isMenuOpen)}
               className="p-2 rounded-lg hover:bg-gray-100 transition-colors duration-200"
@@ -66,7 +66,7 @@ const Navbar: React.FC<NavbarProps> = ({ onNavigate, currentPage, setCurrentPage
       <div className={`fixed inset-0 z-40 transition-opacity duration-300 ${
         isMenuOpen ? 'opacity-100 visible' : 'opacity-0 invisible'
       }`}>
-        <div 
+        <div
           className="absolute inset-0 bg-black/20 backdrop-blur-sm"
           onClick={() => setIsMenuOpen(false)}
         />
