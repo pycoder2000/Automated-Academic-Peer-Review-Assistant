@@ -19,3 +19,4 @@ huggingface_hub
 PyMuPDF
 pint
 python-dotenv
+google-genai

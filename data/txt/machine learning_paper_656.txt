@@ -3,4 +3,4 @@ Published: 2022-01-29T10:26:17Z
 Link: https://doi.org/10.3390/make4010005
 
 Abstract:
-<jats:p>Rigorous peer-reviews are the basis of high-quality academic publishing [...]</jats:p>
+Rigorous peer-reviews are the basis of high-quality academic publishing [...]

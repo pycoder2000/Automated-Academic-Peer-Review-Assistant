@@ -99,6 +99,35 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack, onLogout }) => {
 
   const initials = auth.getInitials(user.name);
 
+  // Parse interests from comma-separated string
+  const parseInterests = (interestsString: string): string[] => {
+    if (!interestsString || !interestsString.trim()) return [];
+    return interestsString
+      .split(',')
+      .map(interest => interest.trim())
+      .filter(interest => interest.length > 0);
+  };
+
+  // Color variations for interest boxes
+  const interestColors = [
+    'bg-gradient-to-r from-blue-500 to-blue-600',
+    'bg-gradient-to-r from-indigo-500 to-indigo-600',
+    'bg-gradient-to-r from-purple-500 to-purple-600',
+    'bg-gradient-to-r from-pink-500 to-pink-600',
+    'bg-gradient-to-r from-red-500 to-red-600',
+    'bg-gradient-to-r from-orange-500 to-orange-600',
+    'bg-gradient-to-r from-yellow-500 to-yellow-600',
+    'bg-gradient-to-r from-green-500 to-green-600',
+    'bg-gradient-to-r from-teal-500 to-teal-600',
+    'bg-gradient-to-r from-cyan-500 to-cyan-600',
+  ];
+
+  const getInterestColor = (index: number) => {
+    return interestColors[index % interestColors.length];
+  };
+
+  const interestsList = parseInterests(user.interests || '');
+
   return (
     <div className="min-h-screen bg-gradient-to-br from-slate-50 via-white to-indigo-50 pt-20 pb-12">
       <div className="max-w-4xl mx-auto px-6">
@@ -267,12 +296,23 @@ const ProfilePage: React.FC<ProfilePageProps> = ({ onBack, onLogout }) => {
           ) : (
             <div className="space-y-6">
               <div>
-                <h3 className="text-sm font-semibold text-gray-500 uppercase mb-2">
+                <h3 className="text-sm font-semibold text-gray-500 uppercase mb-4">
                   Research Interests
                 </h3>
-                <p className="text-gray-900 text-lg">
-                  {user.interests || 'Not specified'}
-                </p>
+                {interestsList.length > 0 ? (
+                  <div className="flex flex-wrap gap-3">
+                    {interestsList.map((interest, index) => (
+                      <span
+                        key={index}
+                        className={`${getInterestColor(index)} text-white px-4 py-2 rounded-full text-sm font-semibold shadow-md hover:shadow-lg transition-all duration-200 transform hover:scale-105`}
+                      >
+                        {interest}
+                      </span>
+                    ))}
+                  </div>
+                ) : (
+                  <p className="text-gray-500 italic">No interests specified</p>
+                )}
               </div>
             </div>
           )}

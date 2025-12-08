@@ -1,5 +1,4 @@
-Title: A Machine Learning Tutorial for Operational Meteorology, Part I:
-  Traditional Machine Learning
+Title: A Machine Learning Tutorial for Operational Meteorology, Part I: Traditional Machine Learning
 Published: 2022-04-15T14:48:04Z
 Link: http://arxiv.org/abs/2204.07492v2
 
