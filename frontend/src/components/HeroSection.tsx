@@ -144,7 +144,7 @@ const HeroSection: React.FC<HeroSectionProps> = ({ onNavigateToReview, onNavigat
                             <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent mb-2">
                                 {loading ? '...' : <AnimatedCounter target={stats.active_authors} />}
                             </div>
-                            <div className="text-gray-700 font-medium">Active Authors</div>
+                            <div className="text-gray-700 font-medium">Active Reviewers</div>
                         </div>
                         <div className="bg-white/80 backdrop-blur-sm rounded-2xl p-6 shadow-lg border border-blue-100 text-center hover:shadow-xl transition-all duration-300">
                             <div className="text-5xl font-bold bg-gradient-to-r from-blue-600 to-blue-700 bg-clip-text text-transparent mb-2">
